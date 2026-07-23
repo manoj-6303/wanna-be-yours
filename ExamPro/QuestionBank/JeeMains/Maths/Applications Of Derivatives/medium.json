@@ -1,0 +1,3282 @@
+[
+  {
+    "_id": {
+      "$oid": "6a5f02b86079589968871aee"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let 'a' be a real number such that the function $f(x) = ax^2 + 6x - 15, x \\in \\mathbf{R}$ is increasing in $\\left(-\\infty, \\frac{3}{4}\\right)$ and decreasing in $\\left(\\frac{3}{4}, \\infty\\right)$. Then the function $g(x) = ax^2 - 6x + 15, x \\in \\mathbf{R}$ has a:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "local maximum at $x = -\\frac{3}{4}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "local minimum at $x = -\\frac{3}{4}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "local maximum at $x = \\frac{3}{4}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "local minimum at $x = \\frac{3}{4}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since $f(x)$ is increasing in $\\left(-\\infty, \\frac{3}{4}\\right)$ and decreasing in $\\left(\\frac{3}{4}, \\infty\\right)$, the vertex of the parabola $f(x) = ax^2 + 6x - 15$ is at $x = \\frac{3}{4}$ and $a < 0$.\n\n$\\Rightarrow -\\frac{B}{2A} = \\frac{3}{4} \\Rightarrow -\\frac{6}{2a} = \\frac{3}{4} \\Rightarrow a = -4$.\n\nTherefore, $g(x) = -4x^2 - 6x + 15$.\n\nSince the coefficient of $x^2$ is negative ($-4 < 0$), $g(x)$ has a local maximum at its vertex:\n\n$x = -\\frac{B}{2A} = -\\frac{-6}{2(-4)} = -\\frac{3}{4}$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f02b86079589968871aef"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The sum of all the local minimum values of the twice differentiable function $f : \\mathbf{R} \\rightarrow \\mathbf{R}$ defined by $f(x) = x^3 - 3x^2 - \\frac{3f''(2)}{2}x + f''(1)$ is :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-22$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-27$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $f(x) = x^3 - 3x^2 - \\frac{3}{2}f''(2)x + f''(1)$ ... (i)\n\nDifferentiating with respect to $x$:\n$f'(x) = 3x^2 - 6x - \\frac{3}{2}f''(2)$ ... (ii)\n\nDifferentiating again:\n$f''(x) = 6x - 6$ ... (iii)\n\nFrom (iii), we get:\n$f''(2) = 6(2) - 6 = 6$\n$f''(1) = 6(1) - 6 = 0$\n\nSubstitute these values back into (ii):\n$f'(x) = 3x^2 - 6x - \\frac{3}{2}(6) = 3x^2 - 6x - 9$\n\nFor local extrema, set $f'(x) = 0$:\n$3x^2 - 6x - 9 = 0 \\Rightarrow x^2 - 2x - 3 = 0 \\Rightarrow (x-3)(x+1) = 0 \\Rightarrow x = 3, -1$\n\nUsing (iii):\n$f''(x) = 6x - 6$\n$f''(-1) = -12 < 0$ (local maxima)\n$f''(3) = 12 > 0$ (local minima)\n\nNow, substitute $f''(2) = 6$ and $f''(1) = 0$ into (i):\n$f(x) = x^3 - 3x^2 - 9x$\n\nThe local minimum value occurs at $x = 3$:\n$f(3) = 3^3 - 3(3)^2 - 9(3) = 27 - 27 - 27 = -27$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f02b86079589968871af0"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $f : \\mathbf{R} \\rightarrow \\mathbf{R}$ be defined as $f(x) = \\begin{cases} -\\frac{4}{3}x^3 + 2x^2 + 3x & , x > 0 \\\\ 3xe^x & , x \\le 0 \\end{cases}$. Then $f$ is increasing function in the interval",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(-\\frac{1}{2}, 2)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(0, 2)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(-1, \\frac{3}{2})$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(-3, -1)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "For $x > 0$:\n$f'(x) = -4x^2 + 4x + 3$\n$f'(x) > 0 \\Rightarrow -(2x-3)(2x+1) > 0 \\Rightarrow x \\in \\left(-\\frac{1}{2}, \\frac{3}{2}\\right)$\nSince $x > 0$, $f(x)$ is increasing in $\\left(0, \\frac{3}{2}\\right)$.\n\nFor $x \\le 0$:\n$f'(x) = 3e^x(1 + x)$\n$f'(x) > 0 \\Rightarrow 1 + x > 0 \\Rightarrow x > -1$\nSince $x \\le 0$, $f(x)$ is increasing in $(-1, 0]$.\n\nCombining both intervals, $f(x)$ is increasing in $\\left(-1, \\frac{3}{2}\\right)$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f02b86079589968871af1"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $f(x) = 3\\sin^4 x + 10\\sin^3 x + 6\\sin^2 x - 3, x \\in \\left[-\\frac{\\pi}{6}, \\frac{\\pi}{2}\\right]$. Then, $f$ is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "increasing in $\\left(-\\frac{\\pi}{6}, \\frac{\\pi}{2}\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "decreasing in $\\left(0, \\frac{\\pi}{2}\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "increasing in $\\left(-\\frac{\\pi}{6}, 0\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "decreasing in $\\left(-\\frac{\\pi}{6}, 0\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$f'(x) = 12\\sin^3 x \\cos x + 30\\sin^2 x \\cos x + 12\\sin x \\cos x$\n$= 6\\sin x \\cos x (2\\sin^2 x + 5\\sin x + 2)$\n$= 6\\sin x \\cos x (2\\sin x + 1)(\\sin x + 2)$\n\nFor $x \\in \\left[-\\frac{\\pi}{6}, \\frac{\\pi}{2}\\right]$, $\\cos x \\ge 0$ and $(\\sin x + 2) > 0$.\nThus, the sign of $f'(x)$ depends on $\\sin x (2\\sin x + 1)$.\n\nFor $x \\in \\left(-\\frac{\\pi}{6}, 0\\right)$, $\\sin x < 0$ and $2\\sin x + 1 > 0 \\Rightarrow f'(x) < 0$ (decreasing).\nFor $x \\in \\left(0, \\frac{\\pi}{2}\\right)$, $\\sin x > 0$ and $2\\sin x + 1 > 0 \\Rightarrow f'(x) > 0$ (increasing).\n\nTherefore, $f$ is decreasing in $\\left(-\\frac{\\pi}{6}, 0\\right)$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f03356079589968871af5"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $\\theta$ be the acute angle between the tangents to the ellipse $\\frac{x^2}{9} + \\frac{y^2}{1} = 1$ and the circle $x^2 + y^2 = 3$ at their point of intersection in the first quadrant. Then $\\tan \\theta$ is equal to :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{5}{2\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{2}{\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{4}{\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The point of intersection of the curves $\\frac{x^2}{9} + \\frac{y^2}{1} = 1$ and $x^2 + y^2 = 3$ in the first quadrant is $\\left(\\frac{3}{2}, \\frac{\\sqrt{3}}{2}\\right)$.\n\nNow slope of tangent to the ellipse $\\frac{x^2}{9} + \\frac{y^2}{1} = 1$ at $\\left(\\frac{3}{2}, \\frac{\\sqrt{3}}{2}\\right)$ is\n$m_1 = -\\frac{1}{3\\sqrt{3}}$\n\nAnd slope of tangent to the circle at $\\left(\\frac{3}{2}, \\frac{\\sqrt{3}}{2}\\right)$ is $m_2 = -\\sqrt{3}$\n\nSo, if angle between both curves is $\\theta$ then\n$\\tan \\theta = \\left|\\frac{m_1 - m_2}{1 + m_1 m_2}\\right| = \\left|\\frac{-\\frac{1}{3\\sqrt{3}} + \\sqrt{3}}{1 + \\left(-\\frac{1}{3\\sqrt{3}}\\right)(-\\sqrt{3})}\\right| = \\frac{2}{\\sqrt{3}}$\n\nOption (2)",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f03356079589968871af7"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $f$ be any continuous function on $[0, 2]$ and twice differentiable on $(0, 2)$. If $f(0) = 0, f(1) = 1$ and $f(2) = 2$, then",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$f''(x) = 0$ for all $x \\in (0, 2)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$f''(x) = 0$ for some $x \\in (0, 2)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$f'(x) = 0$ for some $x \\in [0, 2]$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$f''(x) > 0$ for all $x \\in (0, 2)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$f(0) = 0, f(1) = 1$ and $f(2) = 2$\nLet $h(x) = f(x) - x$ has three roots.\nBy Rolle's theorem $h'(x) = f'(x) - 1$ has at least two roots.\n$h''(x) = f''(x) = 0$ has at least one root.\n\nOption (2)",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f03356079589968871af8"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "A box open from top is made from a rectangular sheet of dimension $a \\times b$ by cutting squares each of side $x$ from each of the four corners and folding up the flaps. If the volume of the box is maximum, then $x$ is equal to :",
+    "questionImage": "applications_of_derivatives_medium_1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{a+b-\\sqrt{a^2+b^2-ab}}{12}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{a+b-\\sqrt{a^2+b^2+ab}}{6}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{a+b-\\sqrt{a^2+b^2-ab}}{6}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{a+b+\\sqrt{a^2+b^2-ab}}{6}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$V = \\ell \\cdot b \\cdot h = (a - 2x)(b - 2x)x$\n$\\implies V(x) = (2x - a)(2x - b)x$\n$\\implies V(x) = 4x^3 - 2(a + b)x^2 + abx$\n$\\implies \\frac{d}{dx}V(x) = 12x^2 - 4(a + b)x + ab$\n$\\frac{d}{dx}(V(x)) = 0 \\implies 12x^2 - 4(a + b)x + ab = 0$\n$\\implies x = \\frac{4(a + b) \\pm \\sqrt{16(a + b)^2 - 48ab}}{2(12)}$\n$= \\frac{(a + b) \\pm \\sqrt{a^2 + b^2 - ab}}{6}$\n\nLet $x = \\alpha = \\frac{(a+b)+\\sqrt{a^2+b^2-ab}}{6}$\n$\\beta = \\frac{(a+b)-\\sqrt{a^2+b^2-ab}}{6}$\nNow, $12(x - \\alpha)(x - \\beta) = 0$\nUsing sign scheme, we get maxima at $x = \\beta$.\n$\\therefore x = \\beta = \\frac{a+b-\\sqrt{a^2+b^2-ab}}{6}$\n\nOption (3)",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f03356079589968871af9"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "A wire of length $20\\text{ m}$ is to be cut into two pieces. One of the pieces is to be made into a square and the other into a regular hexagon. Then the length of the side (in meters) of the hexagon, so that the combined area of the square and the hexagon is minimum, is:",
+    "questionImage": "applications_of_derivatives_medium_2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{5}{2+\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{10}{2+3\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{5}{3+\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{10}{3+2\\sqrt{3}}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let the wire is cut into two pieces of length $x$ and $20 - x$.\nArea of square = $\\left(\\frac{x}{4}\\right)^2$\nArea of regular hexagon = $6 \\times \\frac{\\sqrt{3}}{4} \\left(\\frac{20-x}{6}\\right)^2$\nTotal area = $A(x) = \\frac{x^2}{16} + \\frac{3\\sqrt{3}}{2} \\frac{(20-x)^2}{36}$\n$A'(x) = \\frac{2x}{16} + \\frac{3\\sqrt{3} \\times 2}{2 \\times 36} (20 - x)(-1)$\n$A'(x) = 0$ at $x = \\frac{40\\sqrt{3}}{3+2\\sqrt{3}}$\nLength of side of regular Hexagon = $\\frac{1}{6}(20 - x)$\n$= \\frac{1}{6} \\left(20 - \\frac{40\\sqrt{3}}{3+2\\sqrt{3}}\\right)$\n$= \\frac{10}{3+2\\sqrt{3}}$\n\nOption (4)",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f03356079589968871afa"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The local maximum value of the function $f(x) = \\left(\\frac{2}{x}\\right)^{x^2}, x > 0$, is",
+    "questionImage": "applications_of_derivatives_medium_3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "$(2\\sqrt{e})^{\\frac{1}{e}}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\left(\\frac{4}{\\sqrt{e}}\\right)^{\\frac{e}{4}}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(e)^{\\frac{2}{e}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$f(x) = \\left(\\frac{2}{x}\\right)^{x^2} ; x > 0$\n$\\ln f(x) = x^2 (\\ln 2 - \\ln x)$\n$f'(x) = f(x) \\{-x + (\\ln 2 - \\ln x)2x\\}$\n$f'(x) = f(x) \\cdot x \\cdot (2\\ln 2 - 2\\ln x - 1)$\nLet $g(x) = 2\\ln 2 - 2\\ln x - 1$\n$= \\ln \\frac{4}{x^2} - 1 = 0 \\implies x = \\frac{2}{\\sqrt{e}}$\nLocal maximum at $x = \\frac{2}{\\sqrt{e}}$\nLocal maximum value $= \\left(\\frac{2}{2/\\sqrt{e}}\\right)^{(2/\\sqrt{e})^2} = (\\sqrt{e})^{4/e} = e^{2/e}$\n\nOption (3)",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f05e96079589968871afb"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $f : (0,1) \\rightarrow \\mathbb{R}$ be a function defined by $f(x) = \\frac{1}{1-e^{-x}}$, and $g(x) = f(-x) - f(x)$. Consider two statements:\n(I) $g$ is an increasing function in $(0, 1)$\n(II) $g$ is one-one in $(0, 1)$\nThen,",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Only (I) is true",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "Only (II) is true",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Neither (I) nor (II) is true",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Both (I) and (II) are true",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$$g(x) = f(-x) - f(x) = \\frac{1}{1-e^x} - \\frac{1}{1-e^{-x}} = \\frac{1}{1-e^x} - \\frac{e^x}{e^x-1} = \\frac{1+e^x}{1-e^x}$$\n\nDifferentiating with respect to $x$:\n$$g'(x) = \\frac{e^x(1-e^x) - (1+e^x)(-e^x)}{(1-e^x)^2} = \\frac{2e^x}{(1-e^x)^2}$$\n\nSince $e^x > 0$ and $(1-e^x)^2 > 0$ for $x \\in (0,1)$, we have $g'(x) > 0$.\n\nThus, $g(x)$ is an increasing function in $(0, 1)$, which also implies $g(x)$ is one-one in $(0, 1)$.\n\nTherefore, both statements (I) and (II) are true.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f05e96079589968871afd"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let the function $f(x) = 2x^3 + (2p-7)x^2 + 3(2p-9)x - 6$ have a maxima for some value of $x < 0$ and a minima for some value of $x > 0$. Then, the set of all values of $p$ is",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\left(\\frac{9}{2}, \\infty\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\left(0, \\frac{9}{2}\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\left(-\\infty, \\frac{9}{2}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\left(-\\frac{9}{2}, \\frac{9}{2}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $f(x) = 2x^3 + (2p-7)x^2 + 3(2p-9)x - 6$.\n$$f'(x) = 6x^2 + 2(2p-7)x + 3(2p-9)$$\n\nFor $f(x)$ to have a local maximum at $x < 0$ and a local minimum at $x > 0$, the quadratic equation $f'(x) = 0$ must have two real roots of opposite signs.\n\nThis means the product of the roots must be negative:\n$$\\frac{3(2p-9)}{6} < 0 \\Rightarrow 2p - 9 < 0 \\Rightarrow p < \\frac{9}{2}$$\n\nThus, $p \\in \\left(-\\infty, \\frac{9}{2}\\right)$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f05e96079589968871aff"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "If the functions $f(x) = \\frac{x^3}{3} + 2bx + \\frac{ax^2}{2}$ and $g(x) = \\frac{x^3}{3} + ax + bx^2$, $a \\neq 2b$ have a common extreme point, then $a + 2b + 7$ is equal to",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{3}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "6",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The functions are:\n$$f(x) = \\frac{x^3}{3} + \\frac{ax^2}{2} + 2bx \\Rightarrow f'(x) = x^2 + ax + 2b$$\n$$g(x) = \\frac{x^3}{3} + bx^2 + ax \\Rightarrow g'(x) = x^2 + 2bx + a$$\n\nSince they have a common extreme point, $f'(x) = 0$ and $g'(x) = 0$ have a common root.\nLet the common root be $x_0$.\n$$x_0^2 + ax_0 + 2b = 0$$\n$$x_0^2 + 2bx_0 + a = 0$$\n\nSubtracting the two equations:\n$$(a - 2b)x_0 + (2b - a) = 0 \\Rightarrow (a - 2b)(x_0 - 1) = 0$$\n\nSince $a \\neq 2b$, we must have $x_0 = 1$.\n\nSubstituting $x_0 = 1$ into $f'(x_0) = 0$:\n$$1 + a + 2b = 0 \\Rightarrow a + 2b = -1$$\n\nTherefore,\n$$a + 2b + 7 = -1 + 7 = 6$$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f05e96079589968871b00"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "A wire of length 20 m is to be cut into two pieces. A piece of length $\\ell_1$ is bent to make a square of area $A_1$ and the other piece of length $\\ell_2$ is made into a circle of area $A_2$. If $2A_1 + 3A_2$ is minimum then $(\\pi \\ell_1) : \\ell_2$ is equal to:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "6 : 1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "3 : 1",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "1 : 6",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4 : 1",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "We have $\\ell_1 + \\ell_2 = 20 \\Rightarrow \\frac{d\\ell_2}{d\\ell_1} = -1$.\n\nThe side of the square is $\\frac{\\ell_1}{4}$, so $A_1 = \\left(\\frac{\\ell_1}{4}\\right)^2 = \\frac{\\ell_1^2}{16}$.\n\nThe radius of the circle is $r = \\frac{\\ell_2}{2\\pi}$, so $A_2 = \\pi r^2 = \\pi \\left(\\frac{\\ell_2}{2\\pi}\\right)^2 = \\frac{\\ell_2^2}{4\\pi}$.\n\nWe want to minimize $S = 2A_1 + 3A_2 = 2\\left(\\frac{\\ell_1^2}{16}\\right) + 3\\left(\\frac{\\ell_2^2}{4\\pi}\\right) = \\frac{\\ell_1^2}{8} + \\frac{3\\ell_2^2}{4\\pi}$.\n\nDifferentiating $S$ with respect to $\\ell_1$:\n$$\\frac{dS}{d\\ell_1} = \\frac{2\\ell_1}{8} + \\frac{6\\ell_2}{4\\pi} \\frac{d\\ell_2}{d\\ell_1} = 0$$\n$$\\Rightarrow \\frac{\\ell_1}{4} - \\frac{3\\ell_2}{2\\pi} = 0 \\Rightarrow \\frac{\\ell_1}{4} = \\frac{3\\ell_2}{2\\pi}$$\n$$\\Rightarrow \\frac{\\pi \\ell_1}{\\ell_2} = 6$$\n\nThus, $(\\pi \\ell_1) : \\ell_2 = 6 : 1$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f06896079589968871b04"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $f(x) = 3\\sqrt{x-2} + \\sqrt{4-x}$ be a real valued function. If $\\alpha$ and $\\beta$ are respectively the minimum and the maximum values of $f$, then $\\alpha^2 + 2\\beta^2$ is equal to",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "42",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "38",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "24",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "44",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$f(x) = 3\\sqrt{x-2} + \\sqrt{4-x}$\n\nFor $f(x)$ to be defined, we must have:\n$x-2 \\ge 0 \\text{ and } 4-x \\ge 0 \\implies x \\in [2,4]$\n\nLet $x = 2\\sin^2\\theta + 4\\cos^2\\theta$\n\n$\\therefore f(x) = 3\\sqrt{2}|\\cos\\theta| + \\sqrt{2}|\\sin\\theta|$\n\nUsing the inequality for $a\\cos\\theta + b\\sin\\theta$:\n$\\sqrt{2} \\le 3\\sqrt{2}|\\cos\\theta| + \\sqrt{2}|\\sin\\theta| \\le \\sqrt{(3\\sqrt{2})^2 + (\\sqrt{2})^2}$\n\n$\\sqrt{2} \\le f(x) \\le \\sqrt{18 + 2} = \\sqrt{20}$\n\nThus, the minimum value $\\alpha = \\sqrt{2}$ and the maximum value $\\beta = \\sqrt{20}$.\n\n$\\alpha^2 + 2\\beta^2 = (\\sqrt{2})^2 + 2(\\sqrt{20})^2 = 2 + 40 = 42$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f06896079589968871b08"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "If the function $f(x) = \\left(\\frac{1}{x}\right)^{2x}; x > 0$ attains the maximum value at $x = \\frac{1}{e}$ then :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$e^\\pi < \\pi^e$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$e^\\pi > \\pi^e$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(2e)^\\pi > \\pi^{(2e)}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$e^{2\\pi} < (2\\pi)^e$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let $y = \\left(\\frac{1}{x}\right)^{2x}$\n$\\ln y = 2x \\ln\\left(\\frac{1}{x}\right) = -2x \\ln x$\n\nDifferentiating with respect to $x$:\n$\\frac{1}{y}\\frac{dy}{dx} = -2(1 + \\ln x)$\n\nFor $x > \\frac{1}{e}$, $\\ln x > -1 \\implies 1 + \\ln x > 0 \\implies \\frac{dy}{dx} < 0$.\nThus, $f(x)$ is strictly decreasing for $x > \\frac{1}{e}$.\n\nSince $e < \\pi$ and both are greater than $\\frac{1}{e}$:\nConsider the function $g(x) = x^{1/x}$ for $x > 0$.\n$\\ln g(x) = \\frac{\\ln x}{x} \\implies \\frac{g'(x)}{g(x)} = \\frac{1 - \\ln x}{x^2}$\n\n$g'(x) = 0 \\implies x = e$. For $x > e$, $g'(x) < 0$, so $g(x)$ is strictly decreasing.\nSince $e < \\pi$:\n$g(e) > g(\\pi) \\implies e^{1/e} > \\pi^{1/\\pi}$\n\nRaising both sides to the power of $e\\pi$:\n$(e^{1/e})^{e\\pi} > (\\pi^{1/\\pi})^{e\\pi} \\implies e^\\pi > \\pi^e$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f06896079589968871b0a"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $f(x) = 4\\cos^3 x + 3\\sqrt{3}\\cos^2 x - 10$. The number of points of local maxima of $f$ in interval $(0, 2\\pi)$ is",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "2",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Given $f(x) = 4\\cos^3 x + 3\\sqrt{3}\\cos^2 x - 10$ for $x \\in (0, 2\\pi)$.\n\nDerivative:\n$f'(x) = 12\\cos^2 x(-\\sin x) + 6\\sqrt{3}\\cos x(-\\sin x)$\n$= -6\\sin x\\cos x(2\\cos x + \\sqrt{3})$\n\nTo find critical points, set $f'(x) = 0$:\n1) $\\sin x = 0 \\implies x = \\pi$\n2) $\\cos x = 0 \\implies x = \\frac{\\pi}{2}, \\frac{3\\pi}{2}$\n3) $2\\cos x + \\sqrt{3} = 0 \\implies \\cos x = -\\frac{\\sqrt{3}}{2} \\implies x = \\frac{5\\pi}{6}, \\frac{7\\pi}{6}$\n\nUsing the sign scheme of $f'(x)$ in $(0, 2\\pi)$:\n- For $x \\in \\left(0, \\frac{\\pi}{2}\\right)$: $f'(x) < 0$\n- For $x \\in \\left(\\frac{\\pi}{2}, \\frac{5\\pi}{6}\\right)$: $f'(x) > 0$ (local minimum at $x = \\frac{\\pi}{2}$)\n- For $x \\in \\left(\\frac{5\\pi}{6}, \\pi\\right)$: $f'(x) < 0$ (local maximum at $x = \\frac{5\\pi}{6}$)\n- For $x \\in \\left(\\pi, \\frac{7\\pi}{6}\\right)$: $f'(x) > 0$ (local minimum at $x = \\pi$)\n- For $x \\in \\left(\\frac{7\\pi}{6}, \\frac{3\\pi}{2}\right)$: $f'(x) < 0$ (local maximum at $x = \\frac{7\\pi}{6}$)\n- For $x \\in \\left(\\frac{3\\pi}{2}, 2\\pi\\right)$: $f'(x) > 0$ (local minimum at $x = \\frac{3\\pi}{2}$)\n\nThus, the points of local maxima are $x = \\frac{5\\pi}{6}$ and $x = \\frac{7\\pi}{6}$.\nThe number of points of local maxima is 2.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f06896079589968871b0b"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The number of critical points of the function $f(x) = (x - 2)^{2/3}(2x + 1)$ is",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "0",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "3",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given $f(x) = (x - 2)^{2/3}(2x + 1)$.\n\nDifferentiating with respect to $x$:\n$f'(x) = \\frac{2}{3}(x - 2)^{-1/3}(2x + 1) + 2(x - 2)^{2/3}$\n$= 2(x - 2)^{-1/3} \\left[ \\frac{2x + 1}{3} + (x - 2) \\right]$\n$= 2(x - 2)^{-1/3} \\left[ \\frac{2x + 1 + 3x - 6}{3} \\right]$\n$= \\frac{2(5x - 5)}{3(x - 2)^{1/3}} = \\frac{10(x - 1)}{3(x - 2)^{1/3}}$\n\nCritical points occur where $f'(x) = 0$ or where $f'(x)$ is not defined (but $f(x)$ is defined):\n1) $f'(x) = 0 \\implies x = 1$\n2) $f'(x)$ is not defined $\\implies x = 2$\n\nBoth $x = 1$ and $x = 2$ lie in the domain of $f(x)$.\nThus, there are 2 critical points.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f06896079589968871b0d"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "A variable line $L$ passes through the point $(3, 5)$ and intersects the positive coordinate axes at the points A and B. The minimum area of the triangle OAB, where O is the origin, is :",
+    "questionImage": "applications_of_derivatives_medium_4.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "30",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "25",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "40",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "35",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let the intercepts of the line $L$ on the coordinate axes be $a$ and $b$ respectively, where $a > 0$ and $b > 0$.\nThe equation of the line is:\n$\\frac{x}{a} + \\frac{y}{b} = 1$\n\nSince it passes through $(3, 5)$:\n$\\frac{3}{a} + \\frac{5}{b} = 1$\n\nUsing the AM-GM inequality:\n$\\frac{\\frac{3}{a} + \\frac{5}{b}}{2} \\ge \\sqrt{\\frac{15}{ab}}$\n$\\implies \\frac{1}{2} \\ge \\sqrt{\\frac{15}{ab}} \\implies \\frac{1}{4} \\ge \\frac{15}{ab} \\implies ab \\ge 60$\n\nThe area of the triangle $OAB$ is:\n$\\text{Area} = \\frac{1}{2}ab \\ge \\frac{1}{2}(60) = 30$\n\nThus, the minimum area of the triangle is 30.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f06b06079589968871b0e"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "If $5f(x) + 4f\\left(\\frac{1}{x}\\right) = x^2 - 2, \\forall x \\neq 0$ and $y = 9x^2f(x)$, then $y$ is strictly increasing in :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\left(0, \\frac{1}{\\sqrt{5}}\\right) \\cup \\left(\\frac{1}{\\sqrt{5}}, \\infty\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\left(-\\frac{1}{\\sqrt{5}}, 0\\right) \\cup \\left(\\frac{1}{\\sqrt{5}}, \\infty\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\left(-\\frac{1}{\\sqrt{5}}, 0\\right) \\cup \\left(0, \\frac{1}{\\sqrt{5}}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\left(-\\infty, \\frac{1}{\\sqrt{5}}\\right) \\cup \\left(0, \\frac{1}{\\sqrt{5}}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given $5f(x) + 4f\\left(\\frac{1}{x}\\right) = x^2 - 2 \\quad \\dots (1)$\n\nSubstitute $x \\to \\frac{1}{x}$:\n$5f\\left(\\frac{1}{x}\\right) + 4f(x) = \\frac{1}{x^2} - 2 \\quad \\dots (2)$\n\nOn solving (1) and (2), we get:\n$f(x) = \\frac{5x^4 - 2x^2 - 4}{9x^2}$\n\nGiven $y = 9x^2f(x)$:\n$y = 5x^4 - 2x^2 - 4$\n\nDifferentiating with respect to $x$:\n$\\frac{dy}{dx} = 20x^3 - 4x$\n\nFor strictly increasing, $\\frac{dy}{dx} > 0$:\n$20x^3 - 4x > 0 \\implies 4x(5x^2 - 1) > 0$\n\nThis gives:\n$x \\in \\left(-\\frac{1}{\\sqrt{5}}, 0\\right) \\cup \\left(\\frac{1}{\\sqrt{5}}, \\infty\\right)$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f06b06079589968871b0f"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $g(x) = 3f\\left(\\frac{x}{3}\\right) + f(3 - x)$ and $f''(x) > 0$ for all $x \\in (0, 3)$. If $g$ is decreasing in $(0, \\alpha)$ and increasing in $(\\alpha, 3)$, then $8\\alpha$ is",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "24",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "0",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "18",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "20",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $g(x) = 3f\\left(\\frac{x}{3}\\right) + f(3 - x)$ and $f''(x) > 0$ for all $x \\in (0, 3)$.\n\nSince $f''(x) > 0$, $f'(x)$ is an increasing function.\n\nDifferentiating $g(x)$:\n$g'(x) = 3 \\times \\frac{1}{3} f'\\left(\\frac{x}{3}\\right) - f'(3 - x) = f'\\left(\\frac{x}{3}\\right) - f'(3 - x)$\n\nIf $g$ is decreasing in $(0, \\alpha)$, then $g'(x) < 0$:\n$f'\\left(\\frac{x}{3}\\right) - f'(3 - x) < 0 \\implies f'\\left(\\frac{x}{3}\\right) < f'(3 - x)$\n\nSince $f'(x)$ is increasing:\n$\\frac{x}{3} < 3 - x \\implies \\frac{4x}{3} < 3 \\implies x < \\frac{9}{4}$\n\nTherefore, $\\alpha = \\frac{9}{4}$.\n\nThen, $8\\alpha = 8 \\times \\frac{9}{4} = 18$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f06b06079589968871b10"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The function $f(x) = 2x + 3(x)^{\\frac{2}{3}}, x \\in \\mathbb{R}$, has",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "exactly one point of local minima and no point of local maxima",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "exactly one point of local maxima and no point of local minima",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "exactly one point of local maxima and exactly one point of local minima",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "exactly two points of local maxima and exactly one point of local minima",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $f(x) = 2x + 3(x)^{\\frac{2}{3}}$\n\nDifferentiating with respect to $x$:\n$f'(x) = 2 + 2x^{-\\frac{1}{3}} = 2\\left(1 + \\frac{1}{x^{\\frac{1}{3}}}\\right) = 2\\left(\\frac{x^{\\frac{1}{3}} + 1}{x^{\\frac{1}{3}}}\\right)$\n\nCritical points are $x = -1$ and $x = 0$.\n\n- For $x < -1$, $f'(x) > 0$\n- For $-1 < x < 0$, $f'(x) < 0$\n- For $x > 0$, $f'(x) > 0$\n\nThus, $x = -1$ is a point of local maxima and $x = 0$ is a point of local minima.\n\nSo, there is exactly one point of local maxima and exactly one point of local minima.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f06b06079589968871b11"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The function $f(x) = \\frac{x}{x^2 - 6x - 16}, x \\in \\mathbb{R} - \\{-2, 8\\}$",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "decreases in $(-2, 8)$ and increases in $(-\\infty, -2) \\cup (8, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "decreases in $(-\\infty, -2) \\cup (-2, 8) \\cup (8, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "decreases in $(-\\infty, -2)$ and increases in $(8, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "increases in $(-\\infty, -2) \\cup (-2, 8) \\cup (8, \\infty)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given $f(x) = \\frac{x}{x^2 - 6x - 16}$\n\nDifferentiating with respect to $x$:\n$f'(x) = \\frac{(x^2 - 6x - 16) \\cdot 1 - x(2x - 6)}{(x^2 - 6x - 16)^2} = \\frac{-(x^2 + 16)}{(x^2 - 6x - 16)^2}$\n\nSince $x^2 + 16 > 0$ and $(x^2 - 6x - 16)^2 > 0$ for all $x \\in \\mathbb{R} - \\{-2, 8\\}$, we have:\n$f'(x) < 0$\n\nThus, $f(x)$ is decreasing in $(-\\infty, -2) \\cup (-2, 8) \\cup (8, \\infty)$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f06b06079589968871b12"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $g : \\mathbb{R} \\to \\mathbb{R}$ be a non constant twice differentiable such that $g'\\left(\\frac{1}{2}\right) = g'\\left(\\frac{3}{2}\right)$. If a real valued function $f$ is defined as $f(x) = \\frac{1}{2}[g(x) + g(2 - x)]$, then",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$f''(x) = 0$ for atleast two $x$ in $(0, 2)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$f''(x) = 0$ for exactly one $x$ in $(0, 1)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$f''(x) = 0$ for no $x$ in $(0, 1)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$f'\\left(\\frac{3}{2}\right) + f'\\left(\\frac{1}{2}\right) = 1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $f(x) = \\frac{1}{2}[g(x) + g(2 - x)]$\n\nDifferentiating with respect to $x$:\n$f'(x) = \\frac{g'(x) - g'(2 - x)}{2}$\n\nAt $x = \\frac{3}{2}$:\n$f'\\left(\\frac{3}{2}\right) = \\frac{g'\\left(\\frac{3}{2}\right) - g'\\left(\\frac{1}{2}\right)}{2} = 0 \\quad \\left(\\text{since } g'\\left(\\frac{1}{2}\right) = g'\\left(\\frac{3}{2}\right)\\right)$\n\nAt $x = \\frac{1}{2}$:\n$f'\\left(\\frac{1}{2}\right) = \\frac{g'\\left(\\frac{1}{2}\right) - g'\\left(\\frac{3}{2}\right)}{2} = 0$\n\nAlso, at $x = 1$:\n$f'(1) = \\frac{g'(1) - g'(1)}{2} = 0$\n\nThus, $f'(x) = 0$ has roots at $x = \\frac{1}{2}, 1, \\frac{3}{2}$.\n\nBy Rolle's Theorem, $f''(x) = 0$ has at least one root in $\\left(\\frac{1}{2}, 1\\right)$ and at least one root in $\\left(1, \\frac{3}{2}\\right)$.\n\nTherefore, $f''(x) = 0$ at least twice in $\\left(\\frac{1}{2}, \\frac{3}{2}\\right) \\subset (0, 2)$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f06b06079589968871b13"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $f(x) = (x + 3)^2(x - 2)^3, x \\in [-4, 4]$. If $M$ and $m$ are the maximum and minimum values of $f$, respectively in $[-4, 4]$, then the value of $M - m$ is :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "600",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "392",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "608",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "108",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $f(x) = (x + 3)^2(x - 2)^3$ for $x \\in [-4, 4]$.\n\nDifferentiating with respect to $x$:\n$f'(x) = 2(x + 3)(x - 2)^3 + 3(x + 3)^2(x - 2)^2 = (x + 3)(x - 2)^2 [2(x - 2) + 3(x + 3)] = 5(x + 3)(x - 2)^2(x + 1)$\n\nSetting $f'(x) = 0$ gives critical points $x = -3, -1, 2$.\n\nNow we evaluate $f(x)$ at the critical points and the endpoints of the interval $[-4, 4]$:\n- $f(-4) = (-4 + 3)^2(-4 - 2)^3 = 1 \\times (-216) = -216$\n- $f(-3) = 0$\n- $f(-1) = (-1 + 3)^2(-1 - 2)^3 = 4 \\times (-27) = -108$\n- $f(2) = 0$\n- $f(4) = (4 + 3)^2(4 - 2)^3 = 49 \\times 8 = 392$\n\nThus, the maximum value $M = 392$ and the minimum value $m = -216$.\n\nTherefore, $M - m = 392 - (-216) = 608$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f06ce6079589968871b15"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Consider the following three statements for the function $f : (0, \\infty) \\to \\mathbb{R}$ defined by $f(x) = |\\log_e x| - |x - 1|$:\n(I) $f$ is differentiable at all $x > 0$.\n(II) $f$ is increasing in $(0, 1)$.\n(III) $f$ is decreasing in $(1, \\infty)$.\nThen.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "All (I), (II) and (III) are TRUE.",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "Only (II) and (III) are TRUE.",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Only (I) is TRUE.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Only (I) and (III) are TRUE.",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "For $0 < x < 1$: $f(x) = -\\ln x + x - 1$, $f'(x) = -\\frac{1}{x} + 1 = \\frac{x-1}{x} < 0$ (decreasing).\nFor $x > 1$: $f(x) = \\ln x - x + 1$, $f'(x) = \\frac{1}{x} - 1 = \\frac{1-x}{x} < 0$ (decreasing).\nAt $x = 1$: LHD = $\\frac{1-1}{1} = 0$, RHD = $\\frac{1-1}{1} = 0$. So $f$ is differentiable at $x = 1$.\n(I) TRUE: $f$ is differentiable for all $x > 0$.\n(II) FALSE: $f$ is decreasing in $(0, 1)$.\n(III) TRUE: $f$ is decreasing in $(1, \\infty)$.\nOnly (I) and (III) are TRUE.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f06ce6079589968871b16"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $f(x) = x^{2025} - x^{2000}$, $x \\in [0, 1]$ and the minimum value of the function $f(x)$ in the interval $[0, 1]$ be $(80)^{80}(n)^{-81}$. Then $n$ is equal to",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "-40",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "-41",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "-80",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "-81",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$f(x) = x^{2025} - x^{2000}$, $f'(x) = x^{1999}(2025x^{25} - 2000) = 0$.\nCritical point: $x^{25} = \\frac{2000}{2025} = \\frac{80}{81}$, i.e., $x = \\left(\\frac{80}{81}\\right)^{1/25}$.\n$f(0) = f(1) = 0$. At the critical point:\n$f = x^{2000}(x^{25} - 1) = \\left(\\frac{80}{81}\\right)^{80}\\left(\\frac{80}{81} - 1\\right) = -\\frac{80^{80}}{81^{81}}$.\nThis equals $(80)^{80}(n)^{-81}$, so $n^{-81} = -81^{-81} \\Rightarrow n = -81$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07646079589968871b17"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "If the absolute maximum value of the function $f(x) = (x^2 - 2x + 7) e^{(4x^3 - 12x^2 - 180x + 31)}$ in the interval $[-3, 0]$ is $f(̑)$, then :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\alpha = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\alpha = -3$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\alpha \\in (-1,0)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\alpha \\in (-3,-1)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$f'(x) = e^{(4x^3-12x^2-180x+31)} \\left(12(x^2 - 2x + 7)(x+3)(x-5) + 2(x-1)\\right)$\n\nfor $x \\in [-3,0]$\n\n$\\Rightarrow f'(x) < 0$\n\n$f(x)$ is decreasing function on $[-3,0]$\n\nThe absolute maximum value of the function $f(x)$ is at $x = -3$\n\n$\\Rightarrow \\alpha = -3$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07646079589968871b18"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The curve $y(x) = ax^3 + bx^2 + cx + 5$ touches the x-axis at the point $P(-2, 0)$ and cuts the y-axis at the point $Q$, where $y'$ is equal to 3. Then the local maximum value of $y(x)$ is :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{27}{4}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{29}{4}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{37}{4}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{9}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$y(x) = ax^3 + bx^2 + cx + 5$ is passing through $(-2,0)$ then $8a - 4b + 2c = 5 \\dots\\dots (1)$\n\n$y'(x) = 3ax^2 + 2bx + c$ touches x-axis at $(-2,0)$\n\n$12a - 4b + c = 0 \\dots\\dots (2)$\n\nagain, for $x = 0$, $y'(x) = 3$\n\n$c = 3 \\dots\\dots (3)$\n\nSolving eq. (1), (2) & (3) $a = -\\frac{1}{2}$, $b = -\\frac{3}{4}$\n\n$y'(x) = -\\frac{3}{2}x^2 - \\frac{3}{2}x + 3$\n\n$y(x)$ has local maxima at $x = 1$\n\n$y(1) = \\frac{27}{4}$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07646079589968871b19"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $f(x) = \\begin{cases} x^3 - x^2 + 10x - 7, & x \\le 1 \\\\ -2x + \\log_2(b^2 - 4), & x > 1 \\end{cases}$ Then the set of all values of b, for which $f(x)$ has maximum value at $x = 1$, is :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(-6, -2)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(2, 6)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$[-6, -2) \\cup (2, 6]$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$[-\\sqrt{6}, -2) \\cup (2, \\sqrt{6}]$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$f(1) = 3$\n\nFor $x < 1$, $f'(x) = 3x^2 - 2x + 10 > 0$\n\n$\\Rightarrow f(x)$ is increasing\n\nFor $x > 1$, $f'(x) < 0$\n\n$\\Rightarrow$ function is decreasing.\n\n$\\lim_{x \\to 1^+} f(x) = -2 + \\log_2(b^2 - 4)$\n\nFor maximum value at $x = 1$\n\n$3 \\ge -2 + \\log_2(b^2 - 4)$\n\n$32 \\ge b^2 - 4 > 0$\n\n$b \\in [-6, -2) \\cup (2, 6]$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07646079589968871b1d"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "If the minimum value of $f(x) = \\frac{5x^2}{2} + \\frac{\\alpha}{x^5}$, $x > 0$, is 14, then the value of $\\alpha$ is equal to :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "32",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "64",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "128",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "256",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Using AM-GM inequality:\n\n$\\frac{\\frac{x^2}{2} + \\frac{x^2}{2} + \\frac{x^2}{2} + \\frac{x^2}{2} + \\frac{x^2}{2} + \\frac{\\alpha}{2x^5} + \\frac{\\alpha}{2x^5}}{7} \\ge \\left(\\frac{\\alpha^2}{2^7}\\right)^{1/7}$\n\n$\\frac{7 \\cdot (\\alpha)^{2/7}}{2} = 14$\n\n$(\\alpha^2)^{1/7} = 2^2$\n\n$\\alpha = \\left(2^2\\right)^{7/2} = 2^7$\n\n$\\alpha = 128$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07646079589968871b1f"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The sum of the absolute maximum and absolute minimum values of the function $f(x) = \\tan^{-1}(\\sin x - \\cos x)$ in the interval $[0, \\pi]$ is",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "0",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\tan^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right) - \\frac{\\pi}{4}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\cos^{-1}\\left(\\frac{1}{\\sqrt{3}}\\right) - \\frac{\\pi}{4}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{-\\pi}{12}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$f(x) = \\tan^{-1}(\\sin x - \\cos x)$\n\n$f'(x) = \\frac{\\cos x + \\sin x}{(\\sin x - \\cos x)^2 + 1} = 0$\n\n$\\therefore x = \\frac{3\\pi}{4}$\n\n| $x$ | $0$ | $\\frac{3\\pi}{4}$ | $\\pi$ |\n|---|---|---|---|\n| $f(x)$ | $-\\frac{\\pi}{4}$ | $\\tan^{-1}\\sqrt{2}$ | $\\frac{\\pi}{4}$ |\n\n$(f(x))_{max} = \\tan^{-1}\\sqrt{2}$\n\n$\\therefore (f(x))_{min} = -\\frac{\\pi}{4}$\n\n$\\text{sum} = \\tan^{-1}\\sqrt{2} - \\frac{\\pi}{4} = \\cos^{-1}\\frac{1}{\\sqrt{3}} - \\frac{\\pi}{4}$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07f06079589968871b21"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "If $c$ is a point at which Rolle's theorem holds for the function, $f(x) = \\log_e\\left(\\frac{x^2+\\alpha}{7x}\\right)$ in the interval $[3, 4]$, where $\\alpha \\in R$, then $f''(c)$ is equal to :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{12}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{-1}{12}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{6}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{-1}{6}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$f(3) = f(4) \\Rightarrow \\alpha = 12$\n\n$f'(x) = \\frac{x^2 - 12}{x(x^2 + 12)}$\n\n$\\therefore f'(c) = 0$\n\n$\\dots c = \\sqrt{12}$\n\n$\\therefore f''(c) = \\frac{1}{12}$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07f06079589968871b23"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $S$ be the set of all functions $f : [0, 1] \\rightarrow R$, which are continuous on $[0, 1]$ and differentiable on $(0, 1)$. Then for every $f$ in $S$, there exists a $c \\in (0, 1)$ depending on $f$, such that :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$|f(c) - f(1)| < (1-c)|f'(c)|$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$|f(c) - f(1)| < |f'(c)|$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{f(1)-f(c)}{1-c} = f'(c)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "If we consider $f(x) = \\text{constant function}$, then option (B) becomes $0 < 0$ which is false so answer cannot be answer. But NTA given by Option (B). This question was bonus.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07f06079589968871b25"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let a function $f : [0, 5] \\rightarrow R$ be continuous, $f(1) = 3$ and $F$ defined as : $F(x) = \\int_{1}^{x} t^2 g(t) dt$, where $g(t) = \\int_{1}^{t} f(u) du$. Then for the function $F$, the point $x = 1$ is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "a point of local minima",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "a point of local maxima",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "not a critical point",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "a point of inflection",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$F'(x) = x^2 g(x)$\n\n$\\Rightarrow F'(1) = 1 \\cdot g(1) = 0 \\dots (1)$ (since $g(1) = 0$)\n\nNow $F''(x) = 2xg(x) + x^2 g'(x)$ (since $g'(x) = f(x)$)\n\n$\\Rightarrow F''(1) = 0 + 1 \\times 3$\n\n$\\Rightarrow F''(1) = 3 \\dots (2)$\n\nFrom (1) and (2) $F(x)$ has local minimum at $x = 1$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07f06079589968871b26"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "If $p(x)$ be a polynomial of degree three that has a local maximum value $8$ at $x = 1$ and a local minimum value $4$ at $x = 2$; then $p(0)$ is equal to :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "12",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "6",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "-24",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "-12",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let $p'(x) = \\lambda(x - 1)(x - 2)$\n\nSo $p(x) = \\lambda \\left[ \\frac{x^3}{3} - \\frac{3x^2}{2} + 2x \\right] + \\mu$\n\n$\\therefore p(1) = 8 \\Rightarrow \\frac{5}{6}\\lambda + \\mu = 8 \\dots (1)$\n\nand $p(2) = 4 \\Rightarrow \\frac{2}{3}\\lambda + \\mu = 4 \\dots (2)$\n\nfrom (1) and (2); we get $\\lambda = 24$ and $\\mu = -12$\n\nNow $p(0) = \\mu = -12$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07f06079589968871b27"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "If the tangent to the curve $y = x + \\sin y$ at a point $(a, b)$ is parallel to the line joining $\\left(0, \\frac{3}{2}\\right)$ and $\\left(\\frac{1}{2}, 2\\right)$, then :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$b = a$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$b = \\frac{\\pi}{2} + a$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$|a + b| = 1$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$|b - a| = 1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Curve $y = x + \\sin y$ and point is $(a, b)$\n\n$\\Rightarrow b = a + \\sin b$\n\nNow, $\\frac{dy}{dx} = 1 + \\cos y \\frac{dy}{dx}$\n\n$\\Rightarrow (1 - \\cos y)\\frac{dy}{dx} = 1$\n\n$\\Rightarrow \\left. \\frac{dy}{dx} \\right|_{(a, b)} = \\frac{1}{1 - \\cos b}$ (slope)\n\nNow according to question, $\\frac{1}{1 - \\cos b} = \\frac{2 - \\frac{3}{2}}{\\frac{1}{2} - 0} = \\frac{\\frac{1}{2}}{\\frac{1}{2}} = 1$\n\n$\\Rightarrow \\cos b = 0 \\Rightarrow b = \\frac{\\pi}{2}$\n\nNow from (i)\n\n$b = a + \\sin b$\n\n$a = b - \\sin b = \\frac{\\pi}{2} - 1$\n\nSo $|b - a| = \\left| \\frac{\\pi}{2} - \\frac{\\pi}{2} + 1 \\right| = 1$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07f06079589968871b28"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The equation of the normal to the curve $y = (1 + x)^{2y} + \\cos^2(\\sin^{-1} x)$ at $x = 0$ is :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$y = 4x + 2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$y + 4x = 2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x + 4y = 8$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2y + x = 4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$y = (1 + x)^{2y} + \\cos^2(\\sin^{-1} x) \\dots (1)$\n\nOn differentiating both sides w.r.t. $x$ we get\n\n$\\frac{dy}{dx} = 2y(1 + x)^{2y-1} + (1 + x)^{2y} \\ln(1 + x) \\cdot 2\\frac{dy}{dx} - \\frac{\\sin(2\\sin^{-1} x)}{\\sqrt{1 - x^2}}$\n\nWhen $x = 0$ then $y = (1 + 0)^{2y} + \\cos^2(0) = 2$\n\nWhen $x = 0$ and $y = 2$ then\n\n$\\frac{dy}{dx} = 4 + 0 + 0 = 4$\n\nSlope of normal at $x = 0$ is $-\\frac{1}{4}$\n\nEquation of normal : $y - 2 = -\\frac{1}{4}(x - 0)$\n\n$x + 4y = 8$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07f06079589968871b29"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $f : (-1, \\infty) \\rightarrow R$ be defined by $f(0) = 1$ and $f(x) = \\frac{1}{x}\\log_e(1 + x)$, $x \\neq 0$. Then the function $f$ :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "increases in $(-1, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "increases in (-1,0) and decreases in $(0, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "decreases in (-1,0) and increases in $(0, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "decreases in $(-1, \\infty)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$f'(x) = \\frac{\\frac{x}{1+x} - \\ln(1+x)}{x^2} = \\frac{x - (1+x)\\ln(1+x)}{(1+x)x^2} < 0 \\quad \\forall x \\in (-1, \\infty) - \\{0\\}$\n\n[as $g(x) = x - (1+x)\\ln(1+x)$ gives $g(x) < g(0)$ for $x \\in (-1, 0)$ and $g(x) < g(0)$ for $x \\in (0, \\infty)$]",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07f06079589968871b2a"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The function, $f(x) = (3x - 7)x^{2/3}$, $x \\in R$, is increasing for all $x$ lying in :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(-\\infty, 0) \\cup \\left(\\frac{14}{15}, \\infty\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(-\\infty, 0) \\cup \\left(\\frac{3}{7}, \\infty\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\left(-\\infty, -\\frac{14}{15}\\right) \\cup (0, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\left(-\\infty, \\frac{14}{15}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$f(x) = (3x - 7) \\cdot x^{2/3}$\n\n$f'(x) = 3x^{2/3} + (3x - 7) \\cdot \\frac{2}{3}x^{-1/3}$\n\n$= \\frac{5x - 14}{3x^{1/3}}$\n\n$\\therefore f'(x) > 0$ then $x \\in (-\\infty, 0) \\cup \\left(\\frac{14}{15}, \\infty\\right)$\n\n$\\therefore f(x)$ is increasing in $(-\\infty, 0) \\cup \\left(\\frac{14}{15}, \\infty\\right)$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07f06079589968871b2c"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "If the surface area of a cube is increasing at a rate of $3.6\\text{cm}^2/\\text{sec}$, retaining its shape; then the rate of change of its volume (in $\\text{cm}^3/\\text{sec}$), when the length of a side of the cube is $10\\text{cm}$, is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "9",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "20",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "10",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "18",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "For cube of side 'a'\n\n$A = 6a^2$ and $V = a^3$\n\nGiven $\\frac{dA}{dt} = 3.6 = 12a \\frac{da}{dt}$\n\n$\\frac{dV}{dt} = 3a^2 \\cdot \\frac{da}{dt} = 3a^2 \\left(\\frac{3.6}{12a}\\right)$\n\nat $a = 10$\n\n$\\frac{dV}{dt} = 9$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07f06079589968871b2e"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Which of the following points lies on the tangent to the curve $x^4 e^y + 2\\sqrt{y + 1} = 3$ at the point $(1,0)$?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(2, 2)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(-2, 4)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(2, 6)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(-2, 6)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$x^4 \\cdot e^y + 2\\sqrt{y + 1} = 3$\n\nDifferentiating w.r.t. $x$, we get\n\n$(4x^3 + x^4 \\cdot y') e^y + \\frac{y'}{\\sqrt{1+y}} = 0$\n\n$\\Rightarrow y'_{(1,0)} = -2$\n\nEquation of tangent;\n\n$y - 0 = -2(x - 1) \\Rightarrow 2x + y = 2$\n\nOnly (-2,6) lies on it",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07f06079589968871b2f"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "If $x = 1$ is a critical point of the function $f(x) = (3x^2 + ax - 2 - a) e^x$, then :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x = 1$ is a local maxima and $x = -\\frac{2}{3}$ is a local minima of f.",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x = 1$ and $x = -\\frac{2}{3}$ are local maxima of $f$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x = 1$ and $x = -\\frac{2}{3}$ are local minima of $f$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x = 1$ is a local minima and $x = -\\frac{2}{3}$ is a local maxima of f.",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$f(x) = (3x^2 + ax - 2 - a) e^x$\n\n$f'(x) = (6x + a)e^x + (3x^2 + ax - 2 - a) e^x$\n\n$f'(x) = (3x^2 + (a + 6)x - 2) e^x$\n\n$\\because x = 1$ is critical point :\n\n$\\therefore f'(1) = 0$\n\n$(3 + a + 6 - 2) \\cdot e = 0$\n\n$a = -7$\n\n$\\dots f'(x) = (3x^2 - x - 2) e^x = (3x + 2)(x - 1)e^x$\n\nSign scheme of $f'(x)$:\n\n$+$ at $(-\\infty, -2/3)$, $-$ at $(-2/3, 1)$, $+$ at $(1, \\infty)$\n\n$\\therefore x = -\\frac{2}{3}$ is point of local maxima and $x = 1$ is point of local minima.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07f06079589968871b30"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The position of a moving car at time t is given by $f(t) = at^2 + bt + c$, $t > 0$, where $a, b$ and $c$ are real numbers greater than 1. Then the average speed of the car over the time interval $[t_1, t_2]$ is attained at the point:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2a(t_1 + t_2) + b$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(t_2 - t_1)/2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$a(t_2 - t_1) + b$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(t_1 + t_2)/2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Average speed $= \\frac{f(t_2)-f(t_1)}{t_2-t_1} = a(t_1 + t_2) + b$\n\nFor time at which it is attained\n\n$\\frac{df(t)}{dt} = \\text{Average speed}$\n\n$2at + b = a(t_1 + t_2) + b$\n\n$t = \\frac{t_1 + t_2}{2}$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07f06079589968871b32"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "For all twice differentiable functions $f : R \\rightarrow R$, with $f(0) = f(1) = f'(0) = 0$",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$f''(0) = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$f''(x) = 0$, for some $x \\in (0, 1)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$f''(x) = 0$, at every point $x \\in (0, 1)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$f''(x) \\neq 0$, at every point $x \\in (0, 1)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$f : R \\rightarrow R$, with $f(0) = f(1) = 0$ and $f'(0) = 0$\n\n$\\because f(x)$ is differentiable and continuous\n\nand $f(0) = f(1) = 0$\n\nSo by Rolle's theorem\n\nFor $c \\in (0, 1), f'(c) = 0$\n\nNow again\n\n$\\because f'(c) = 0, f'(0) = 0$\n\nSo by Rolle's theorem\n\n$f''(x) = 0$ for some $x \\in (0, 1)$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07f06079589968871b33"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "If the tangent to the curve, $y = f(x) = x \\log_e x$, $(x > 0)$ at a point $(c, f(c))$ is parallel to the line-segment joining the points (1,0) and (e, e), then c is equal to :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{e-1}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{e-1}{e}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$e^{\\left(\\frac{1}{1-e}\\right)}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$e^{\\left(\\frac{1}{e-1}\\right)}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$\\because y = x \\log_e x \\quad (x > 0)$\n\n$\\Rightarrow \\frac{dy}{dx} = 1 + \\log_e x$\n\n$\\Rightarrow \\left. \\frac{dy}{dx} \\right|_{x=c} = 1 + \\log_e c$ (slope)\n\n$\\because$ The tangent is parallel to line joining $(1, 0), (e, e)$\n\nSo, $1 + \\log_e c = \\frac{e-0}{e-1}$\n\n$\\log_e c = \\frac{e}{e-1} - 1$\n\n$\\Rightarrow \\log_e c = \\frac{1}{e-1}$\n\n$c = e^{\\frac{1}{e-1}}$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f086c6079589968871b34"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The function $f(x) = \\frac{4x^3-3x^2}{6} - 2\\sin x + (2x-1)\\cos x$ :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "increases in $[\\frac{1}{2}, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "decreases in $(-\\infty, \\frac{1}{2}]$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "increases in $(-\\infty, \\frac{1}{2}]$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "decreases in $[\\frac{1}{2}, \\infty)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$f'(x) = (2x - 1)(x - \\sin x)$ \\\\ $\\Rightarrow f'(x) \\ge 0$ in $x \\in [\\frac{1}{2}, \\infty)$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f086c6079589968871b35"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "If the tangent to the curve $y = x^3$ at the point $P(t, t^3)$ meets the curve again at $Q$, then the ordinate of the point which divides $PQ$ internally in the ratio $1:2$ is :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "-2t^3",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "-t^3",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "0",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "2t^3",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Equation of tangent at $P(t, t^3)$ is $(y - t^3) = 3t^2(x - t)$ ... (i) \\\\ Now solve the above equation with $y = x^3$ ... (ii) \\\\ By (i) and (ii), \\\\ $x^3 - t^3 = 3t^2(x - t)$ \\\\ $x^2 + xt + t^2 = 3t^2$ \\\\ $x^2 + xt - 2t^2 = 0$ \\\\ $(x - t)(x + 2t) = 0$ \\\\ $\\Rightarrow x = -2t \\Rightarrow Q(-2t, -8t^3)$ \\\\ Ordinate of required point $= \\frac{2t^3 + (-8t^3)}{3} = -2t^3$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f086c6079589968871b36"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The minimum value of $\\alpha$ for which the equation $\\frac{4}{\\sin x} + \\frac{1}{1-\\sin x} = \\alpha$ has at least one solution in $\\left(0, \\frac{\\pi}{2}\\right)$ is",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "9",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "1",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$f(x) = \\frac{4}{\\sin x} + \\frac{1}{1-\\sin x}$ \\\\ Let $\\sin x = t \\because x \\in \\left(0, \\frac{\\pi}{2}\\right) \\Rightarrow 0 < t < 1$ \\\\ $f(t) = \\frac{4}{t} + \\frac{1}{1-t}$ \\\\ $f'(t) = \\frac{-4}{t^2} + \\frac{1}{(1-t)^2} = \\frac{t^2 - 4(1-t)^2}{t^2(1-t)^2} = \\frac{(t-2(1-t))(t+2(1-t))}{t^2(1-t)^2} = \\frac{(3t-2)(2-t)}{t^2(1-t)^2}$ \\\\ $f_{\\min}$ at $t = \\frac{2}{3}$ \\\\ $\\alpha_{\\min} = f\\left(\\frac{2}{3}\\right) = \\frac{4}{2/3} + \\frac{1}{1 - 2/3} = 6 + 3 = 9$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f086c6079589968871b37"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $f : \\mathbf{R} \\rightarrow \\mathbf{R}$ be defined as \\\\ $f(x) = \\begin{cases} -55x, & \\text{if } x < -5 \\\\ 2x^3 - 3x^2 - 120x, & \\text{if } -5 \\le x \\le 4 \\\\ 2x^3 - 3x^2 - 36x - 336, & \\text{if } x > 4 \\end{cases}$ \\\\ Let $A = \\{x \\in R : f \\text{ is increasing} \\}$. Then A is equal to :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "(-5, -4) \\cup (4, \\infty)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "(-5, \\infty)",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "(-\\infty, -5) \\cup (4, \\infty)",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "(-\\infty, -5) \\cup (-4, \\infty)",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$f'(x) = \\begin{cases} -55, & x < -5 \\\\ 6(x^2 - x - 20), & -5 < x < 4 \\\\ 6(x^2 - x - 6), & x > 4 \\end{cases}$ \\\\ $f'(x) = \\begin{cases} -55, & x < -5 \\\\ 6(x - 5)(x + 4), & -5 < x < 4 \\\\ 6(x - 3)(x + 2), & x > 4 \\end{cases}$ \\\\ Hence, $f(x)$ is monotonically increasing in interval $(-5,-4)\\cup(4,\\infty)$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f086c6079589968871b3b"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "If the curves, $\\frac{x^2}{a} + \\frac{y^2}{b} = 1$ and $\\frac{x^2}{c} + \\frac{y^2}{d} = 1$ intersect each other at an angle of $90^\\circ$, then which of the following relations is true?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "a + b = c + d",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "a - b = c - d",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "ab = \\frac{c+d}{a+b}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "a - c = b + d",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$\\frac{x^2}{a} + \\frac{y^2}{b} = 1$ ... (1) \\\\ diff: $\\frac{2x}{a} + \\frac{2y}{b}\\frac{dy}{dx} = 0 \\Rightarrow \\frac{y}{b}\\frac{dy}{dx} = \\frac{-x}{a} \\Rightarrow \\frac{dy}{dx} = \\frac{-bx}{ay}$ ... (2) \\\\ $\\frac{x^2}{c} + \\frac{y^2}{d} = 1$ ... (3) \\\\ Diff: $\\frac{dy}{dx} = \\frac{-dx}{cy}$ ... (4) \\\\ $m_1 m_2 = -1 \\Rightarrow \\frac{-bx}{ay} \\times \\frac{-dx}{cy} = -1$ \\\\ $\\Rightarrow bdx^2 = -acy^2$ ...... (5) \\\\ (1) - (3) $\\Rightarrow \\left(\\frac{1}{a} - \\frac{1}{c}\right)x^2 + \\left(\\frac{1}{b} - \\frac{1}{d}\right)y^2 = 0$ \\\\ $\\Rightarrow \\frac{c-a}{ac}x^2 + \\frac{d-b}{bd} \\times \\left(\\frac{-bd}{ac}\right)x^2 = 0$ (using 5) \\\\ $\\Rightarrow (c-a) - (d-b) = 0$ \\\\ $\\Rightarrow c - a = d - b \\Rightarrow a - b = c - d$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f086c6079589968871b3d"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The shortest distance between the line $x - y = 1$ and the curve $x^2 = 2y$ is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\frac{1}{2}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "0",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\frac{1}{2\\sqrt{2}}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\frac{1}{\\sqrt{2}}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Shortest distance must be along common normal. \\\\ $m_1$ (slope of line $x - y = 1$) $= 1 \\Rightarrow$ slope of perpendicular line $= -1$ \\\\ $m_2 = \\frac{2x}{2} = x \\Rightarrow m_2 = h \\Rightarrow$ slope of normal $-\\frac{1}{h}$ \\\\ $-\\frac{1}{h} = -1 \\Rightarrow h = 1$ \\\\ so point is $\\left(1, \\frac{1}{2}\\right)$ \\\\ $D = \\left| \\frac{1 - \\frac{1}{2} - 1}{\\sqrt{1+1}} \\right| = \\frac{1}{2\\sqrt{2}}$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f086c6079589968871b3e"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "If the curves $x = y^4$ and $xy = k$ cut at right angles, then $(4k)^6$ is equal to",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "8",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "16",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "2",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$4y^3 \\frac{dy}{dx} = 1$ & $x \\frac{dy}{dx} + y = 0$ \\\\ $m_1 = \\frac{1}{4y^3}$ & $m_2 = \\frac{-y}{x}$ \\\\ $m_1 m_2 = -1$ \\\\ $\\frac{1}{4y^3} \\times \\frac{-y}{x} = -1 \\because x = y^4$ \\\\ $\\frac{1}{4y^6} = 1$ and $xy = k$ \\\\ $y^6 = \\frac{1}{4}$ \\\\ $\\Rightarrow k^6 = y^{30} \\Rightarrow k^6 = \\left(\\frac{1}{4}\\right)^5$ \\\\ $\\therefore (4k)^6 = 4^6 \\times k^6 = 4$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f086c6079589968871b3f"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The maximum slope of the curve $y = \\frac{1}{2}x^4 - 5x^3 + 18x^2 - 19x$ occurs at the point:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "(2,9)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "(2,2)",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\left(3, \\frac{21}{2}\\right)",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "(0,0)",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$\\frac{dy}{dx} = 2x^3 - 15x^2 + 36x - 19$ \\\\ Let $f(x) = 2x^3 - 15x^2 + 36x - 19$ \\\\ $f'(x) = 6x^2 - 30x + 36 = 0$ \\\\ $x^2 - 5x + 6 = 0$ \\\\ $x = 2, 3$ \\\\ $f''(x) = 12x - 30$ \\\\ $f''(x) < 0$ for $x = 2$ \\\\ At $x = 2$ \\\\ $y = 8 - 40 + 72 - 38$ \\\\ $y = 72 - 70 = 2$ \\\\ $\\Rightarrow (2,2)$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f086c6079589968871b40"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The triangle of maximum area that can be inscribed in a given circle of radius 'r' is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "A right angle triangle having two of its sides of length $2r$ and $r$.",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "An equilateral triangle of height $\\frac{2r}{3}$.",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "An isosceles triangle with base equal to $2r$.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "An equilateral triangle having each of its side of length $\\sqrt{3}r$.",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Triangle of maximum area that can be inscribed in a circle is an equilateral triangle. Let $\\Delta ABC$ be inscribed in circle, \\\\ Now, in $\\Delta OBD$, $OD = r \\cos 60^\\circ = \\frac{r}{2}$ \\\\ Height $= AD = \\frac{3r}{2}$ \\\\ Again in $\\Delta ABD$, Now $\\sin 60^\\circ = \\frac{3r/2}{AB}$ \\\\ $\\Rightarrow AB = \\sqrt{3}r$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f08e36079589968871b43"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The range of $a \\in \\mathbb{R}$ for which the function $f(x) = (4a - 3)(x + \\log_e 5) + 2(a - 7)\\cot\\left(\\frac{x}{2}\right)\\sin^2\\left(\\frac{x}{2}\right)$, $x \\neq 2n\\pi, n \\in \\mathbb{N}$, has critical points, is",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(-3,1)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\left[-\\frac{4}{3}, 2\\right]$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$[1, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(-\\infty, -1]$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given function is:\n$f(x) = (4a - 3)(x + \\log_e 5) + 2(a - 7)\\cot\\left(\\frac{x}{2}\\right)\\sin^2\\left(\\frac{x}{2}\right)$\n\nSince $\\cot\\left(\\frac{x}{2}\\right)\\sin^2\\left(\\frac{x}{2}\right) = \\frac{\\cos(x/2)}{\\sin(x/2)}\\sin^2(x/2) = \\frac{1}{2}\\sin x$ (for $x \\neq 2n\\pi$),\n$f(x) = (4a - 3)(x + \\log_e 5) + (a - 7)\\sin x$\n\nFor critical points, $f'(x) = 0$:\n$f'(x) = (4a - 3) + (a - 7)\\cos x = 0$\n$\\Rightarrow \\cos x = \\frac{3 - 4a}{a - 7}$\n\nSince $-1 \\le \\cos x < 1$ (as $x \\neq 2n\\pi \\Rightarrow \\cos x \\neq 1$):\n\n1) $\\cos x \\ge -1 \\Rightarrow \\frac{3 - 4a}{a - 7} \\ge -1 \\Rightarrow \\frac{3 - 4a + a - 7}{a - 7} \\ge 0 \\Rightarrow \\frac{-3a - 4}{a - 7} \\ge 0 \\Rightarrow \\frac{3a + 4}{a - 7} \\le 0$\n$\\Rightarrow a \\in \\left[-\\frac{4}{3}, 7\\right)$\n\n2) $\\cos x < 1 \\Rightarrow \\frac{3 - 4a}{a - 7} < 1 \\Rightarrow \\frac{3 - 4a - a + 7}{a - 7} < 0 \\Rightarrow \\frac{10 - 5a}{a - 7} < 0 \\Rightarrow \\frac{5(a - 2)}{a - 7} > 0$\n$\\Rightarrow a \\in (-\\infty, 2) \\cup (7, \\infty)$\n\nTaking the intersection of both cases:\n$a \\in \\left[-\\frac{4}{3}, 2\\right)$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f08e36079589968871b44"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $C$ be the locus of the mirror image of a point on the parabola $y^2 = 4x$ with respect to the line $y = x$. Then the equation of tangent to $C$ at $P(2, 1)$ is :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x - y = 1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2x + y = 5$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x + 3y = 5$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x + 2y = 4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given parabola is $y^2 = 4x$.\nIts mirror image with respect to the line $y = x$ is obtained by swapping $x$ and $y$:\n$C : x^2 = 4y$\n\nDifferentiating with respect to $x$:\n$2x = 4 \\frac{dy}{dx} \\Rightarrow \\frac{dy}{dx} = \\frac{x}{2}$\n\nAt point $P(2, 1)$:\n$\\left.\\frac{dy}{dx}\\right|_{P(2,1)} = \\frac{2}{2} = 1$\n\nEquation of the tangent at $P(2, 1)$ is:\n$y - 1 = 1(x - 2) \\Rightarrow x - y = 1$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f08e36079589968871b46"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is correct for the function $g(\\alpha)$ for $\\alpha \\in \\mathbb{R}$ such that $g(\\alpha) = \\int_{\\pi/6}^{\\pi/3} \\frac{\\sin^\\alpha x}{\\cos^\\alpha x + \\sin^\\alpha x} dx$",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$g(\\alpha)$ is a strictly increasing function",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$g(\\alpha)$ has an inflection point at $\\alpha = -\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$g(\\alpha)$ is a strictly decreasing function",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$g(\\alpha)$ is an even function",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let $g(\\alpha) = \\int_{\\pi/6}^{\\pi/3} \\frac{\\sin^\\alpha x}{\\sin^\\alpha x + \\cos^\\alpha x} dx$  --- (1)\n\nUsing the property $\\int_a^b f(x) dx = \\int_a^b f(a+b-x) dx$:\nHere, $a+b = \\frac{\\pi}{6} + \\frac{\\pi}{3} = \\frac{\\pi}{2}$.\nSo, $g(\\alpha) = \\int_{\\pi/6}^{\\pi/3} \\frac{\\sin^\\alpha(\\pi/2 - x)}{\\sin^\\alpha(\\pi/2 - x) + \\cos^\\alpha(\\pi/2 - x)} dx$\n$g(\\alpha) = \\int_{\\pi/6}^{\\pi/3} \\frac{\\cos^\\alpha x}{\\cos^\\alpha x + \\sin^\\alpha x} dx$  --- (2)\n\nAdding (1) and (2):\n$2g(\\alpha) = \\int_{\\pi/6}^{\\pi/3} \\frac{\\sin^\\alpha x + \\cos^\\alpha x}{\\sin^\\alpha x + \\cos^\\alpha x} dx = \\int_{\\pi/6}^{\\pi/3} 1 dx$\n$2g(\\alpha) = [x]_{\\pi/6}^{\\pi/3} = \\frac{\\pi}{3} - \\frac{\\pi}{6} = \\frac{\\pi}{6}$\n$\\Rightarrow g(\\alpha) = \\frac{\\pi}{12}$\n\nSince $g(\\alpha)$ is a constant function, $g(-\\alpha) = g(\\alpha) = \\frac{\\pi}{12}$.\nThus, $g(\\alpha)$ is an even function.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f08e36079589968871b48"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let a tangent be drawn to the ellipse $\\frac{x^2}{27} + y^2 = 1$ at $(3\\sqrt{3}\\cos\\theta, \\sin\\theta)$ where $\\theta \\in \\left(0, \\frac{\\pi}{2}\\right)$. Then the value of $\\theta$ such that the sum of intercepts on axes made by this tangent is minimum is equal to:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\pi}{8}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\pi}{4}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\pi}{6}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{\\pi}{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The equation of the tangent to the ellipse $\\frac{x^2}{27} + y^2 = 1$ at $(3\\sqrt{3}\\cos\\theta, \\sin\\theta)$ is:\n$\\frac{x(3\\sqrt{3}\\cos\\theta)}{27} + \\frac{y\\sin\\theta}{1} = 1 \\Rightarrow \\frac{x\\cos\\theta}{3\\sqrt{3}} + y\\sin\\theta = 1$\n\nIntercept on the x-axis ($y=0$):\n$OA = \\frac{3\\sqrt{3}}{\\cos\\theta} = 3\\sqrt{3}\\sec\\theta$\n\nIntercept on the y-axis ($x=0$):\n$OB = \\frac{1}{\\sin\\theta} = \\csc\\theta$\n\nSum of intercepts $S(\\theta) = 3\\sqrt{3}\\sec\\theta + \\csc\\theta$\n\nTo find the minimum, we differentiate with respect to $\\theta$:\n$S'(\\theta) = 3\\sqrt{3}\\sec\\theta\\tan\\theta - \\csc\\theta\\cot\\theta = 0$\n$\\Rightarrow 3\\sqrt{3}\\frac{\\sin\\theta}{\\cos^2\\theta} = \\frac{\\cos\\theta}{\\sin^2\\theta}$\n$\\Rightarrow \\tan^3\\theta = \\frac{1}{3\\sqrt{3}} = \\left(\\frac{1}{\\sqrt{3}}\\right)^3$\n$\\Rightarrow \\tan\\theta = \\frac{1}{\\sqrt{3}} \\Rightarrow \\theta = \\frac{\\pi}{6}$\n\nSince $\\theta \\in \\left(0, \\frac{\\pi}{2}\\right)$, $\\theta = \\frac{\\pi}{6}$ is the point of minimum.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f09976079589968871b49"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $f(x)$ be a five degree polynomial which has critical points $x = \\pm 1$ and $\\lim_{x \\to 0} \\left( 2 + \\frac{f(x)}{x^3} \\right) = 4$ then which one is incorrect.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$f(x)$ has minima at $x = 1$ & maxima at $x = -1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$f(1) - 4f(-1) = 4$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$f(x)$ is maxima at $x = 1$ and minima at $x = -1$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$f(x)$ is odd",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$f(x) = ax^5 + bx^4 + cx^3$\n$\\lim_{x \\to 0} \\left( 2 + \\frac{ax^5 + bx^4 + cx^3}{x^3} \\right) = 4 \\implies 2 + c = 4 \\implies c = 2$\n$f'(x) = 5ax^4 + 4bx^3 + 6x^2 = x^2(5ax^2 + 4bx + 6)$\n$f'(1) = 0 \\implies 5a + 4b + 6 = 0$\n$f'(-1) = 0 \\implies 5a - 4b + 6 = 0$\nSolving these, we get $b = 0$ and $a = -\\frac{6}{5}$.\nThus, $f(x) = -\\frac{6}{5}x^5 + 2x^3$\n$f'(x) = -6x^4 + 6x^2 = -6x^2(x+1)(x-1)$\nUsing the sign scheme for $f'(x)$:\n- For $x < -1$, $f'(x) < 0$\n- For $-1 < x < 1$, $f'(x) > 0$\n- For $x > 1$, $f'(x) < 0$\nTherefore, $f(x)$ has a local minimum at $x = -1$ and a local maximum at $x = 1$.\nHence, statement (1) is incorrect.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f09976079589968871b4b"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "For $f(x) = \\ln\\left(\\frac{x^2 + \\alpha}{7x}\\right)$. Rolle's theorem is applicable on $[3, 4]$, the value of $f''(c)$ is equal to",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{12}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{-1}{12}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{6}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{-1}{6}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since Rolle's theorem is applicable on $[3, 4]$, we must have $f(3) = f(4)$.\n$\\ln \\left( \\frac{9 + \\alpha}{21} \\right) = \\ln \\left( \\frac{16 + \\alpha}{28} \\right) \\implies \\frac{9 + \\alpha}{21} = \\frac{16 + \\alpha}{28} \\implies 4(9 + \\alpha) = 3(16 + \\alpha) \\implies \\alpha = 12$.\nNow, $f(x) = \\ln(x^2 + 12) - \\ln(7x)$\n$f'(x) = \\frac{2x}{x^2 + 12} - \\frac{1}{x} = \\frac{x^2 - 12}{x(x^2 + 12)}$\n$f'(c) = 0 \\implies c = \\sqrt{12}$ (since $c \\in [3, 4]$).\nDifferentiating $f'(x)$ again:\n$f''(x) = \\frac{d}{dx} \\left( \\frac{2x}{x^2 + 12} - \\frac{1}{x} \\right) = \\frac{2(x^2 + 12) - 2x(2x)}{(x^2 + 12)^2} + \\frac{1}{x^2} = \\frac{24 - 2x^2}{(x^2 + 12)^2} + \\frac{1}{x^2}$\nAt $c = \\sqrt{12}$:\n$f''(c) = \\frac{24 - 24}{(24)^2} + \\frac{1}{12} = \\frac{1}{12}$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f09976079589968871b4d"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $f(x)$ be a three degree polynomial for which $f'(-1) = 0, f''(1) = 0, f(-1) = 10, f(1) = 6$ then local minima of $f(x)$ exist at",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x = 3$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x = 2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x = 1$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x = -1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let $f(x) = ax^3 + bx^2 + cx + d$\n$f'(x) = 3ax^2 + 2bx + c$\n$f''(x) = 6ax + 2b$\nGiven $f''(1) = 0 \\implies 6a + 2b = 0 \\implies b = -3a$\nGiven $f'(-1) = 0 \\implies 3a - 2b + c = 0 \\implies 3a - 2(-3a) + c = 0 \\implies c = -9a$\nSo, $f'(x) = 3ax^2 - 6ax - 9a = 3a(x^2 - 2x - 3) = 3a(x-3)(x+1)$\nSince $f(1) = 6$ and $f(-1) = 10$:\n$f(x) = a(x^3 - 3x^2 - 9x) + d$\n$f(1) = a(1 - 3 - 9) + d = -11a + d = 6$\n$f(-1) = a(-1 - 3 + 9) + d = 5a + d = 10$\nSubtracting these equations: $-16a = -4 \\implies a = \\frac{1}{4}$\nSince $a > 0$, the sign of $f'(x)$ is determined by $(x-3)(x+1)$:\n- Positive for $x < -1$ and $x > 3$\n- Negative for $-1 < x < 3$\nThus, local minima exists at $x = 3$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f09976079589968871b4f"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "If $f'(x) = \\tan^{-1}(\\sec x + \\tan x), x \\in \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ and $f(0) = 0$ then the value of $f(1)$ is",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\pi + 1}{4}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\pi - 1}{4}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\pi + 1}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$f'(x) = \\tan^{-1}(\\sec x + \\tan x) = \\tan^{-1}\\left( \\frac{1 + \\sin x}{\\cos x} \\right)$\n$= \\tan^{-1}\\left( \\frac{1 - \\cos(\\frac{\\pi}{2} + x)}{\\sin(\\frac{\\pi}{2} + x)} \\right) = \\tan^{-1}\\left( \\frac{2\\sin^2(\\frac{\\pi}{4} + \\frac{x}{2})}{2\\sin(\\frac{\\pi}{4} + \\frac{x}{2})\\cos(\\frac{\\pi}{4} + \\frac{x}{2})} \\right)$\n$= \\tan^{-1}\\left( \\tan\\left( \\frac{\\pi}{4} + \\frac{x}{2} \\right) \\right) = \\frac{\\pi}{4} + \\frac{x}{2}$\nIntegrating both sides:\n$f(x) = \\frac{\\pi}{4}x + \\frac{x^2}{4} + C$\nSince $f(0) = 0 \\implies C = 0$\nThus, $f(x) = \\frac{\\pi}{4}x + \\frac{x^2}{4}$\n$f(1) = \\frac{\\pi + 1}{4}$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f09976079589968871b50"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "A sphere of $10\\text{cm}$ radius has a uniform thickness of ice around it. Ice is melting at rate $50\\text{ cm}^3/\\text{min}$ when thickness is $5\\text{cm}$ then rate of change of thickness is",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{36\\pi}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{18\\pi}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{9\\pi}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{12\\pi}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let the thickness of ice be $x$ cm.\nTotal volume $V = \\frac{4}{3}\\pi(10 + x)^3$\n$\\frac{dV}{dt} = 4\\pi(10 + x)^2 \\frac{dx}{dt}$\nGiven $\\frac{dV}{dt} = -50\\text{ cm}^3/\\text{min}$ (melting rate, so magnitude is 50).\nAt $x = 5\\text{cm}$:\n$50 = 4\\pi(10 + 5)^2 \\frac{dx}{dt}$\n$50 = 4\\pi(225) \\frac{dx}{dt} \\implies \\frac{dx}{dt} = \\frac{50}{900\\pi} = \\frac{1}{18\\pi}\\text{ cm/min}$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b52"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The maximum volume (in cu.m) of the right circular cone having slant height 3 m is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$6\\pi$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$3\\sqrt{3}\\pi$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{4}{3}\\pi$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2\\sqrt{3}\\pi$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let $h$ and $r$ be the height and radius of the cone. Given slant height $l = 3$ m.\n$h^2 + r^2 = l^2 = 9 \\implies r^2 = 9 - h^2$\nVolume of cone:\n$V = \\frac{1}{3}\\pi r^2 h = \\frac{1}{3}\\pi (9 - h^2)h = \\frac{1}{3}\\pi (9h - h^3)$\nFor maxima/minima, $\\frac{dV}{dh} = 0$:\n$\\frac{dV}{dh} = \\frac{1}{3}\\pi (9 - 3h^2) = 0 \\implies h = \\sqrt{3}$ (since $h > 0$)\nNow, $\\frac{d^2V}{dh^2} = \\frac{1}{3}\\pi (-6h) < 0$ at $h = \\sqrt{3}$.\nThus, the volume is maximum when $h = \\sqrt{3}$.\n$V_{\\text{max}} = \\frac{1}{3}\\pi (9 - 3)\\sqrt{3} = 2\\sqrt{3}\\pi$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b54"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $I = \\int_a^b (x^4 - 2x^2)dx$. If $I$ is minimum then the ordered pair $(a, b)$ is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(0, \\sqrt{2})$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(-\\sqrt{2}, 0)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(\\sqrt{2}, -\\sqrt{2})$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(-\\sqrt{2}, \\sqrt{2})$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "To minimize $I = \\int_a^b f(x) dx$, we should integrate over the region where the integrand $f(x) \\le 0$.\n$f(x) = x^4 - 2x^2 = x^2(x^2 - 2) \\le 0 \\implies x^2 \\le 2 \\implies x \\in [-\\sqrt{2}, \\sqrt{2}]$.\nThus, $a = -\\sqrt{2}$ and $b = \\sqrt{2}$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b55"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The tangent to the curve, $y = xe^{x^2}$ passing through the point $(1, e)$ also passes through the point:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(2, 3e)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(\\frac{4}{3}, 2e)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(\\frac{5}{3}, 2e)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(3, 6e)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$y = xe^{x^2} \\implies \\frac{dy}{dx} = e^{x^2} + x \\cdot e^{x^2} \\cdot 2x = e^{x^2}(1 + 2x^2)$\nAt $(1, e)$, the slope of the tangent is $m = e^1(1 + 2) = 3e$.\nEquation of tangent at $(1, e)$ is:\n$y - e = 3e(x - 1) \\implies 3ex - y = 2e$.\nChecking the options, $(\\frac{4}{3}, 2e)$ satisfies the equation:\n$3e(\\frac{4}{3}) - 2e = 4e - 2e = 2e$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b57"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The maximum value of the function $f(x) = 3x^3 - 18x^2 + 27x - 40$ on the set $S = \\{x \\in \\mathbf{R} : x^2 + 30 \\le 11x\\}$ is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-122$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-222$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "122",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "222",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$S = \\{x \\in \\mathbf{R} : x^2 - 11x + 30 \\le 0\\} = \\{x \\in \\mathbf{R} : (x-5)(x-6) \\le 0\\} = [5, 6]$.\n$f(x) = 3x^3 - 18x^2 + 27x - 40 = 3x(x-3)^2 - 40$.\n$f'(x) = 9x^2 - 36x + 27 = 9(x-1)(x-3)$.\nFor $x \\in [5, 6]$, $f'(x) > 0$, so $f(x)$ is strictly increasing on $[5, 6]$.\nThus, maximum value is at $x = 6$.\n$f(6) = 3(6)(6-3)^2 - 40 = 18(9) - 40 = 162 - 40 = 122$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b59"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $f(x) = \\frac{x}{\\sqrt{a^2+x^2}} - \\frac{d-x}{\\sqrt{b^2+(d-x)^2}}, x \\in \\mathbf{R}$ where $a, b$ and $d$ are non-zero real constants. Then:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$f$ is an increasing function of $x$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$f$ is a decreasing function of $x$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$f'$ is not a continuous function of $x$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$f$ is neither increasing nor decreasing function of $x$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$f(x) = \\frac{x}{\\sqrt{a^2+x^2}} + \\frac{x-d}{\\sqrt{b^2+(x-d)^2}}$\nLet's find $f'(x)$:\n$\\frac{d}{dx}\\left(\\frac{x}{\\sqrt{a^2+x^2}}\\right) = \\frac{a^2}{(a^2+x^2)^{3/2}} > 0$.\nSimilarly, $\\frac{d}{dx}\\left(\\frac{x-d}{\\sqrt{b^2+(x-d)^2}}\\right) = \\frac{b^2}{(b^2+(x-d)^2)^{3/2}} > 0$.\nTherefore, $f'(x) = \\frac{a^2}{(a^2+x^2)^{3/2}} + \\frac{b^2}{(b^2+(x-d)^2)^{3/2}} > 0$ for all $x \\in \\mathbf{R}$.\nSo $f(x)$ is an increasing function of $x$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b5a"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The maximum area (in sq. units) of a rectangle having its base on the x-axis and its other two vertices on the parabola, $y = 12 - x^2$ such that the rectangle lies inside the parabola, is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "36",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "20$\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "32",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "18$\\sqrt{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let the vertices of the rectangle on the parabola $y = 12 - x^2$ be $(t, 12-t^2)$ and $(-t, 12-t^2)$ where $t > 0$.\nThe base of the rectangle is on the x-axis, so the height is $12-t^2$ and the width is $2t$.\nArea $A = 2t(12 - t^2) = 24t - 2t^3$.\n$\\frac{dA}{dt} = 24 - 6t^2 = 0 \\implies t^2 = 4 \\implies t = 2$ (since $t > 0$).\n$\\frac{d^2A}{dt^2} = -12t < 0$ at $t = 2$.\nMaximum area $A = 2(2)(12 - 4) = 4(8) = 32$ sq. units.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b5d"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "If a curve passes through the point $(1, -2)$ and has slope of the tangent at any point $(x, y)$ on it as $\\frac{x^2-2y}{x}$, then the curve also passes through the point:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(3, 0)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(\\sqrt{3}, 0)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(-1, 2)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(-\\sqrt{2}, 1)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$\\frac{dy}{dx} = \\frac{x^2 - 2y}{x} \\implies \\frac{dy}{dx} + \\frac{2}{x}y = x$.\nThis is a linear differential equation.\nIntegrating factor, $I.F. = e^{\\int \\frac{2}{x} dx} = e^{2\\ln x} = x^2$.\nSolution of equation:\n$y \\cdot x^2 = \\int x \\cdot x^2 dx = \\frac{x^4}{4} + C$.\nSince the curve passes through $(1, -2)$:\n$(-2)(1)^2 = \\frac{1}{4} + C \\implies C = -\\frac{9}{4}$.\nThen, equation of curve is $y = \\frac{x^2}{4} - \\frac{9}{4x^2}$.\nChecking the options, $(\\sqrt{3}, 0)$ satisfies the equation:\n$0 = \\frac{3}{4} - \\frac{9}{4(3)} = 0$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b5e"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The tangent to the curve $y = x^2 - 5x + 5$, parallel to the line $2y = 4x + 1$, also passes through the point:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(\\frac{7}{2}, \\frac{1}{4})$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(\\frac{1}{8}, -7)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(-\\frac{1}{8}, 7)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(\\frac{1}{4}, \\frac{7}{2})$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The tangent is parallel to $2y = 4x + 1 \\implies y = 2x + \\frac{1}{2}$, so its slope is $m = 2$.\nFor the curve $y = x^2 - 5x + 5$, $\\frac{dy}{dx} = 2x - 5$.\n$2x - 5 = 2 \\implies x = \\frac{7}{2}$.\nAt $x = \\frac{7}{2}$, $y = (\\frac{7}{2})^2 - 5(\\frac{7}{2}) + 5 = -\\frac{1}{4}$.\nEquation of tangent: $y - (-\\frac{1}{4}) = 2(x - \\frac{7}{2}) \\implies y = 2x - \\frac{29}{4}$.\nChecking the point $(\\frac{1}{8}, -7)$:\n$2(\\frac{1}{8}) - \\frac{29}{4} = \\frac{1}{4} - \\frac{29}{4} = -7$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b60"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The shortest distance between the line $y = x$ and the curve $y^2 = x - 2$ is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{7}{8}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{7}{4\\sqrt{2}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{11}{4\\sqrt{2}}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The shortest distance is the distance between the line $y = x$ and the tangent to the parabola $y^2 = x - 2$ which is parallel to $y = x$ (slope $m = 1$).\nLet the equation of tangent to $y^2 = x - 2$ with slope $m = 1$ be:\n$y = m(x-2) + \\frac{a}{m}$ where $y^2 = 4a(x-2) \\implies 4a = 1 \\implies a = \\frac{1}{4}$.\nSo, $y = 1(x-2) + \\frac{1/4}{1} \\implies y = x - \\frac{7}{4} \\implies x - y - \\frac{7}{4} = 0$.\nDistance between parallel lines $x - y = 0$ and $x - y - \\frac{7}{4} = 0$ is:\n$d = \\frac{|0 - (-7/4)|}{\\sqrt{1^2 + (-1)^2}} = \\frac{7}{4\\sqrt{2}}$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b62"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $f : [0, 2] \\to \\mathbf{R}$ be a twice differentiable function such that $f''(x) > 0$, for all $x \\in (0, 2)$. If $\\phi(x) = f(x) + f(2-x)$, then $\\phi$ is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "increasing on $(0, 1)$ and decreasing on $(1, 2)$.",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "decreasing on $(0, 2)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "decreasing on $(0, 1)$ and increasing on $(1, 2)$.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "increasing on $(0, 2)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$\\phi(x) = f(x) + f(2-x)$\n$\\phi'(x) = f'(x) - f'(2-x)$.\nSince $f''(x) > 0$, $f'(x)$ is strictly increasing.\n- For $x \\in (0, 1)$:\n  $x < 2-x \\implies f'(x) < f'(2-x) \\implies \\phi'(x) < 0$.\n  So $\\phi(x)$ is decreasing on $(0, 1)$.\n- For $x \\in (1, 2)$:\n  $x > 2-x \\implies f'(x) > f'(2-x) \\implies \\phi'(x) > 0$.\n  So $\\phi(x)$ is increasing on $(1, 2)$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b63"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Given that the slope of the tangent to a curve $y = y(x)$ at any point $(x, y)$ is $\\frac{2y}{x^2}$. If the curve passes through the centre of the circle $x^2 + y^2 - 2x - 2y = 0$, then its equation is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x \\log_e |y| = 2(x - 1)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x \\log_e |y| = -2(x - 1)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x^2 \\log_e |y| = -2(x - 1)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x \\log_e |y| = x - 1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $\\frac{dy}{dx} = \\frac{2y}{x^2} \\implies \\int \\frac{dy}{y} = 2 \\int \\frac{dx}{x^2} \\implies \\ln|y| = -\\frac{2}{x} + C$.\nThe curve passes through the centre of the circle $x^2 + y^2 - 2x - 2y = 0$, which is $(1, 1)$.\n$\\ln|1| = -2 + C \\implies C = 2$.\nThus, $\\ln|y| = -\\frac{2}{x} + 2 \\implies x\\ln|y| = 2(x-1)$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b64"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The height of a right circular cylinder of maximum volume inscribed in a sphere of radius 3 is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\sqrt{6}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{2}{3}\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sqrt{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let $r$ and $h$ be the radius and height of the cylinder.\n$r^2 + \\frac{h^2}{4} = 9 \\implies r^2 = 9 - \\frac{h^2}{4}$.\nVolume of cylinder, $V = \\pi r^2 h = \\pi h \\left(9 - \\frac{h^2}{4}\\right) = 9\\pi h - \\frac{\\pi}{4}h^3$.\nDifferentiating w.r.t. $h$:\n$\\frac{dV}{dh} = 9\\pi - \\frac{3}{4}\\pi h^2 = 0 \\implies h^2 = 12 \\implies h = 2\\sqrt{3}$.\nSince $\\frac{d^2V}{dh^2} = -\\frac{3}{2}\\pi h < 0$ at $h = 2\\sqrt{3}$, the volume is maximum when $h = 2\\sqrt{3}$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b65"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "If $f(x)$ is a non-zero polynomial of degree four, having local extreme points at $x = -1, 0, 1$; then the set $S = \\{x \\in \\mathbf{R} : f(x) = f(0)\\}$ contains exactly:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "four irrational numbers.",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "four rational numbers.",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "two irrational and two rational numbers.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "two irrational and one rational number.",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Since $f(x)$ has local extreme points at $x = -1, 0, 1$, we have:\n$f'(x) = K(x+1)x(x-1) = K(x^3 - x)$.\nIntegrating:\n$f(x) = K\\left(\\frac{x^4}{4} - \\frac{x^2}{2}\\right) + C$.\n$f(0) = C$.\n$f(x) = f(0) \\implies K\\left(\\frac{x^4}{4} - \\frac{x^2}{2}\\right) = 0 \\implies x^2(x^2 - 2) = 0 \\implies x = 0, \\pm\\sqrt{2}$.\nThus, $S = \\{0, \\sqrt{2}, -\\sqrt{2}\\}$ which contains exactly two irrational numbers and one rational number.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b66"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "If the tangent to the curve, $y = x^3 + ax - b$ at the point $(1, -5)$ is perpendicular to the line, $-x + y + 4 = 0$, then which one of the following points lies on the curve?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(-2, 1)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(-2, 2)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(2, -1)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(2, -2)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Since $(1, -5)$ lies on the curve $y = x^3 + ax - b$:\n$-5 = 1 + a - b \\implies a - b = -6$.\n$\\frac{dy}{dx} = 3x^2 + a \\implies \\left(\\frac{dy}{dx}\\right)_{x=1} = 3 + a$.\nSince the tangent is perpendicular to $-x + y + 4 = 0$ (slope $1$):\n$(3+a)(1) = -1 \\implies a = -4$.\nThus, $b = 2$.\nThe curve is $y = x^3 - 4x - 2$.\nChecking the options, $(2, -2)$ lies on the curve since $-2 = 2^3 - 4(2) - 2$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b67"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "Let $S$ be the set of all values of $x$ for which the tangent to the curve $y = f(x) = x^3 - x^2 - 2x$ at $(x, y)$ is parallel to the line segment joining the points $(1, f(1))$ and $(-1, f(-1))$, then $S$ is equal to:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\{\\frac{1}{3}, 1\\}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\{-\\frac{1}{3}, -1\\}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\{\\frac{1}{3}, -1\\}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\{-\\frac{1}{3}, 1\\}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$f(1) = 1 - 1 - 2 = -2$ and $f(-1) = -1 - 1 + 2 = 0$.\nSlope of the line segment joining $(1, -2)$ and $(-1, 0)$ is:\n$m = \\frac{0 - (-2)}{-1 - 1} = -1$.\nSince the tangent is parallel to this line segment:\n$f'(x) = 3x^2 - 2x - 2 = -1 \\implies 3x^2 - 2x - 1 = 0 \\implies x = 1, -\\frac{1}{3}$.\nThus, $S = \\{-\\frac{1}{3}, 1\\}$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b68"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "A water tank has the shape of an inverted right circular cone, whose semi-vertical angle is $\\tan^{-1}(\\frac{1}{2})$. Water is poured into it at a constant rate of 5 cubic meter per minute. Then the rate (in m/min.), at which the level of water is rising at the instant when the depth of water in the tank is 10m; is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1/15\\pi$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1/10\\pi$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2/\\pi$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1/5\\pi$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Given $\\frac{dV}{dt} = 5$ m$^3$/min.\nVolume of cone $V = \\frac{1}{3}\\pi r^2 h$.\nSince $\\tan\\theta = \\frac{r}{h} = \\frac{1}{2} \\implies r = \\frac{h}{2}$.\n$V = \\frac{1}{3}\\pi \\left(\\frac{h}{2}\\right)^2 h = \\frac{\\pi}{12}h^3$.\nDifferentiating w.r.t. $t$:\n$\\frac{dV}{dt} = \\frac{\\pi}{4}h^2 \\frac{dh}{dt}$.\nAt $h = 10$:\n$5 = \\frac{\\pi}{4}(100) \\frac{dh}{dt} \\implies \\frac{dh}{dt} = \\frac{1}{5\\pi}$ m/min.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b6b"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "A spherical iron ball of radius 10 cm is coated with a layer of ice of uniform thickness that melts at a rate of 50 cm$^3$/min. When the thickness of the ice is 5 cm, then the rate at which the thickness (in cm/min) of the ice decreases, is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{18\\pi}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{36\\pi}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{5}{6\\pi}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{9\\pi}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let $r$ be the thickness of the ice. Total radius $R = 10 + r$.\nVolume of ice $V = \\frac{4}{3}\\pi (10+r)^3 - \\frac{4}{3}\\pi (10)^3$.\n$\\frac{dV}{dt} = 4\\pi (10+r)^2 \\frac{dr}{dt}$.\nGiven $\\frac{dV}{dt} = -50$ cm$^3$/min.\nWhen $r = 5$:\n$-50 = 4\\pi (15)^2 \\frac{dr}{dt} \\implies \\frac{dr}{dt} = -\\frac{50}{900\\pi} = -\\frac{1}{18\\pi}$.\nThus, the thickness decreases at a rate of $\\frac{1}{18\\pi}$ cm/min.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b6e"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The equation of a common tangent to the curves, $y^2 = 16x$ and $xy = -4$, is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x - y + 4 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x + y + 4 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x - 2y + 16 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2x - y + 2 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Any tangent to the parabola $y^2 = 16x$ is of the form $y = mx + \\frac{4}{m}$.\nSince this is also tangent to $xy = -4$:\n$x\\left(mx + \\frac{4}{m}\\right) + 4 = 0 \\implies mx^2 + \\frac{4}{m}x + 4 = 0$.\nFor tangency, $D = 0 \\implies \\frac{16}{m^2} - 16m = 0 \\implies m^3 = 1 \\implies m = 1$.\nThus, the equation of the common tangent is $y = x + 4 \\implies x - y + 4 = 0$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b6f"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Medium",
+    "question": "The tangents to the curve $y = (x - 2)^2 - 1$ at its points of intersection with the line $x - y = 3$, intersect at the point:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(\\frac{5}{2}, 1)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(-\\frac{5}{2}, -1)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(\\frac{5}{2}, -1)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(-\\frac{5}{2}, 1)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The intersection points of the curve $y = (x-2)^2 - 1$ and the line $x - y = 3 \\implies y = x - 3$ are given by:\n$(x-2)^2 - 1 = x - 3 \\implies x^2 - 5x + 6 = 0 \\implies x = 2, 3$.\n- At $x = 2$, $y = -1$. Point is $A(2, -1)$.\n- At $x = 3$, $y = 0$. Point is $B(3, 0)$.\nSlope of tangent $\\frac{dy}{dx} = 2(x-2)$.\n- Tangent at $A(2, -1)$ is $y - (-1) = 0 \\implies y = -1$.\n- Tangent at $B(3, 0)$ is $y - 0 = 2(x-3) \\implies y = 2x - 6$.\nIntersecting the two tangents:\n$-1 = 2x - 6 \\implies x = \\frac{5}{2}$.\nThus, the intersection point is $(\\frac{5}{2}, -1)$.",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

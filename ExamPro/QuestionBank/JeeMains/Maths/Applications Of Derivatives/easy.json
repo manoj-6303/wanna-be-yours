@@ -1,0 +1,402 @@
+[
+  {
+    "_id": {
+      "$oid": "6a5f06896079589968871b07"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Easy",
+    "question": "The interval in which the function $f(x) = x^x, x > 0$, is strictly increasing is",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(\\left(0, \\frac{1}{e}\\right]\\)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\((0, \\infty)\\)",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\(\\left[\\frac{1}{e}, \\infty\\right)\\)",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\(\\left[\\frac{1}{e^2}, 1\\right)\\)",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let $f(x) = x^x$ for $x > 0$.\nTaking natural logarithm on both sides:\n$\\ln f(x) = x \\ln x$\n\nDifferentiating with respect to $x$:\n$\\frac{1}{f(x)} f'(x) = 1 \\cdot \\ln x + x \\cdot \\frac{1}{x} = 1 + \\ln x$\n$\\implies f'(x) = x^x(1 + \\ln x)$\n\nFor $f(x)$ to be strictly increasing, we must have $f'(x) \\ge 0$:\n$x^x(1 + \\ln x) \\ge 0$\n\nSince $x^x > 0$ for all $x > 0$:\n$1 + \\ln x \\ge 0 \\implies \\ln x \\ge -1 \\implies x \\ge e^{-1} = \\frac{1}{e}$\n\nThus, the interval of strict increase is $\\left[\\frac{1}{e}, \\infty\\right)$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07646079589968871b1e"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Easy",
+    "question": "The function $f(x) = x e^{x(1-x)}$, $x \\in \\mathbb{R}$, is",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "increasing in $\\left(-\\frac{1}{2}, 1\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "decreasing in $\\left(\\frac{1}{2}, 2\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "increasing in $\\left(-1, -\\frac{1}{2}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "decreasing in $\\left(-\\frac{1}{2}, \\frac{1}{2}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$f(x) = x e^{x(1-x)}$\n\n$f'(x) = -e^{x(1-x)} (2x + 1)(x - 1)$\n\n$f(x)$ is increasing in $\\left(-\\frac{1}{2}, 1\\right)$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07f06079589968871b24"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Easy",
+    "question": "A sphere of $10\\text{ cm}$ radius has a uniform thickness of ice around it. Ice is melting at rate $50\\text{ cm}^3/\\text{min}$ when thickness is $5\\text{ cm}$ then rate of change of thickness",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{36\\pi}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{18\\pi}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{9\\pi}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{12\\pi}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let thickness $= x\\text{ cm}$\n\nTotal volume $v = \\frac{4}{3}\\pi(10 + x)^3$\n\n$\\frac{dv}{dt} = 4\\pi(10 + x)^2 \\frac{dx}{dt} \\dots (i)$\n\nGiven $\\frac{dv}{dt} = 50\\text{ cm}^3/\\text{min}$\n\nAt $x = 5\\text{ cm}$\n\n$50 = 4\\pi(10 + 5)^2 \\frac{dx}{dt}$\n\n$\\frac{dx}{dt} = \\frac{1}{18\\pi}\\text{ cm/min}$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f086c6079589968871b38"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Easy",
+    "question": "If the curve $y = ax^2 + bx + c, x \\in R$, passes through the point $(1,2)$ and the tangent line to this curve at origin is $y = x$, then the possible values of a, b, c are :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "a = 1, b = 1, c = 0",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "a = -1, b = 1, c = 1",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "a = 1, b = 0, c = 1",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "a = \\frac{1}{2}, b = \\frac{1}{2}, c = 1",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$2 = a + b + c$ ... (i) \\\\ $\\frac{dy}{dx} = 2ax + b \\Rightarrow \\left.\\frac{dy}{dx}\\right|_{(0,0)} = 1 \\Rightarrow b = 1 \\Rightarrow a + c = 1$ \\\\ $(0,0)$ lie on curve $\\Rightarrow c = 0, a = 1$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f086c6079589968871b39"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Easy",
+    "question": "For which of the following curves, the line $x + \\sqrt{3}y = 2\\sqrt{3}$ is the tangent at the point $\\left(\\frac{3\\sqrt{3}}{2}, \\frac{1}{2}\\right)$?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "x^2 + 9y^2 = 9",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2x^2 - 18y^2 = 9",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "y^2 = \\frac{1}{6\\sqrt{3}}x",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "x^2 + y^2 = 7",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Tangent to $x^2 + 9y^2 = 9$ at point $\\left(\\frac{3\\sqrt{3}}{2}, \\frac{1}{2}\\right)$ is $x\\left(\\frac{3\\sqrt{3}}{2}\right) + 9y\\left(\\frac{1}{2}\right) = 9$ \\\\ $3\\sqrt{3}x + 9y = 18 \\Rightarrow x + \\sqrt{3}y = 2\\sqrt{3}$ \\\\ $\\Rightarrow$ option (1) is true",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f086c6079589968871b3a"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Easy",
+    "question": "If Rolle's theorem holds for the function $f(x) = x^3 - ax^2 + bx - 4, x \\in [1, 2]$ with $f'\\left(\\frac{4}{3}\right) = 0$, then ordered pair $(a, b)$ is equal to :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "(-5, 8)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "(5, 8)",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "(5, -8)",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "(-5, -8)",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$f(1) = f(2)$ \\\\ $\\Rightarrow 1 - a + b - 4 = 8 - 4a + 2b - 4$ \\\\ $3a - b = 7$ \\\\ $f'(x) = 3x^2 - 2ax + b$ \\\\ $\\Rightarrow f'\\left(\\frac{4}{3}\right) = 0 \\Rightarrow 3 \\times \\frac{16}{9} - \\frac{8}{3}a + b = 0$ \\\\ $\\Rightarrow -8a + 3b = -16$ \\\\ Solving these, we get $a = 5, b = 8$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f09976079589968871b4a"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Easy",
+    "question": "Let $f(x) = x^3 - 4x^2 + 8x + 11$, if LMVT is applicable on $f(x)$ in $[0, 1]$, value of $c$ is :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{4 - \\sqrt{7}}{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{4 - \\sqrt{5}}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{4 + \\sqrt{7}}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{4 + \\sqrt{5}}{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$f(x)$ is a polynomial function, so it is continuous and differentiable in $[0, 1]$.\nHere $f(0) = 11$, $f(1) = 1 - 4 + 8 + 11 = 16$.\n$f'(x) = 3x^2 - 8x + 8$\nBy LMVT, $f'(c) = \\frac{f(1) - f(0)}{1 - 0} = \\frac{16 - 11}{1} = 5$\n$\\implies 3c^2 - 8c + 8 = 5 \\implies 3c^2 - 8c + 3 = 0$\n$c = \\frac{8 \\pm \\sqrt{64 - 36}}{6} = \\frac{8 \\pm 2\\sqrt{7}}{6} = \\frac{4 \\pm \\sqrt{7}}{3}$\nSince $c \\in (0, 1)$, we have $c = \\frac{4 - \\sqrt{7}}{3}$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b58"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Easy",
+    "question": "Let $x, y$ be positive real numbers and $m, n$ positive integers. The maximum value of the expression $\\frac{x^m y^n}{(1+x^{2m})(1+y^{2n})}$ is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{4}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{m+n}{6mn}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let $A = \\frac{x^m y^n}{(1+x^{2m})(1+y^{2n})} = \\frac{1}{(x^m + x^{-m})(y^n + y^{-n})}$.\nBy AM-GM:\n$\\frac{x^m + x^{-m}}{2} \\ge \\sqrt{x^m \\cdot x^{-m}} = 1 \\implies x^m + x^{-m} \\ge 2$.\nSimilarly, $y^n + y^{-n} \\ge 2$.\nTherefore, $(x^m + x^{-m})(y^n + y^{-n}) \\ge 4$.\nThus, $A \\le \\frac{1}{4}$.\nThe maximum value is $\\frac{1}{4}$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b5c"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Easy",
+    "question": "The maximum value of $3\\cos\\theta + 5\\sin\\left(\\theta - \\frac{\\pi}{6}\\right)$ for any real value of $\\theta$ is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\sqrt{19}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\sqrt{79}}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\sqrt{34}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sqrt{31}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$f(\\theta) = 3\\cos\\theta + 5\\sin\\left(\\theta - \\frac{\\pi}{6}\\right) = 3\\cos\\theta + 5\\left(\\sin\\theta\\cos\\frac{\\pi}{6} - \\cos\\theta\\sin\\frac{\\pi}{6}\\right)$\n$= 3\\cos\\theta + 5\\left(\\frac{\\sqrt{3}}{2}\\sin\\theta - \\frac{1}{2}\\cos\\theta\\right) = \\left(3 - \\frac{5}{2}\\right)\\cos\\theta + \\frac{5\\sqrt{3}}{2}\\sin\\theta = \\frac{1}{2}\\cos\\theta + \\frac{5\\sqrt{3}}{2}\\sin\\theta$.\nMaximum value $= \\sqrt{\\left(\\frac{1}{2}\\right)^2 + \\left(\\frac{5\\sqrt{3}}{2}\\right)^2} = \\sqrt{\\frac{1}{4} + \\frac{75}{4}} = \\sqrt{\\frac{76}{4}} = \\sqrt{19}$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b61"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Easy",
+    "question": "If $S_1$ and $S_2$ are respectively the sets of local minimum and local maximum points of the function, $f(x) = 9x^4 + 12x^3 - 36x^2 + 25, x \\in \\mathbf{R}$, then:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$S_1 = \\{-2\\}; S_2 = \\{0, 1\\}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$S_1 = \\{-2, 0\\}; S_2 = \\{1\\}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$S_1 = \\{-2, 1\\}; S_2 = \\{0\\}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$S_1 = \\{-1\\}; S_2 = \\{0, 2\\}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$f(x) = 9x^4 + 12x^3 - 36x^2 + 25$\n$f'(x) = 36x^3 + 36x^2 - 72x = 36x(x-1)(x+2)$.\nUsing the sign scheme for $f'(x)$:\n- At $x = -2$, $f'(x)$ changes from negative to positive $\\implies$ local minimum.\n- At $x = 0$, $f'(x)$ changes from positive to negative $\\implies$ local maximum.\n- At $x = 1$, $f'(x)$ changes from negative to positive $\\implies$ local minimum.\nHence, $S_1 = \\{-2, 1\\}$ and $S_2 = \\{0\\}$.",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

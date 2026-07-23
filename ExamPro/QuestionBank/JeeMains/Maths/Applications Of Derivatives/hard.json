@@ -1,0 +1,1522 @@
+[
+  {
+    "_id": {
+      "$oid": "6a5f02b86079589968871af2"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "The number of real roots of the equation $e^{6x} - e^{4x} - 2e^{3x} - 12e^{2x} + e^x + 1 = 0$ is :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "6",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "1",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given equation: $e^{6x} - e^{4x} - 2e^{3x} - 12e^{2x} + e^x + 1 = 0$\n$\\Rightarrow (e^{3x} - 1)^2 - e^x(e^{3x}-1) = 12e^{2x}$\nDividing by $e^{2x}$:\n$(e^{3x}-1)^2 e^{-2x} - e^{-x}(e^{3x}-1) = 12$\nLet $g(x) = (e^{3x}-1)^2 e^{-2x} - e^{-x}(e^{3x}-1)$\nBy plotting $g(x)$ and $y=12$, we find they intersect at exactly 2 points.\nThus, there are 2 real roots.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f02b86079589968871af3"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "If a rectangle is inscribed in an equilateral triangle of side length $2\\sqrt{2}$ as shown in the figure, then the square of the largest area of such a rectangle is",
+    "questionImage": "applications_of_derivatives_hard_1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let the side of the equilateral triangle be $a = 2\\sqrt{2}$.\nLet the length of the rectangle be $\\ell$ and breadth be $b$.\nIn $\\triangle DBF$:\n$\\tan 60^\\circ = \\frac{b}{\\frac{2\\sqrt{2}-\\ell}{2}} \\Rightarrow b = \\frac{\\sqrt{3}(2\\sqrt{2}-\\ell)}{2}$\n\nArea of rectangle $A = \\ell \\times b = \\ell \\times \\frac{\\sqrt{3}}{2}(2\\sqrt{2}-\\ell)$\n\nTo maximize $A$, find $\\frac{dA}{d\\ell} = 0$:\n$\\frac{dA}{d\\ell} = \\frac{\\sqrt{3}}{2}(2\\sqrt{2} - 2\\ell) = 0 \\Rightarrow \\ell = \\sqrt{2}$\n\nThen, $b = \\frac{\\sqrt{3}}{2}(2\\sqrt{2}-\\sqrt{2}) = \\frac{\\sqrt{6}}{2}$\n\nMaximum Area $A = \\ell \\times b = \\sqrt{2} \\times \\frac{\\sqrt{6}}{2} = \\sqrt{3}$\n\nSquare of the largest area $A^2 = 3$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f02b86079589968871af4"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Let $f : (a, b) \\rightarrow \\mathbf{R}$ be twice differentiable function such that $f(x) = \\int_{a}^{x} g(t)dt$ for a differentiable function $g(x)$. If $f(x) = 0$ has exactly five distinct roots in $(a, b)$, then $g(x)g'(x) = 0$ has at least :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "twelve roots in $(a, b)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "five roots in $(a, b)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "seven roots in $(a, b)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "three roots in $(a, b)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $f(x) = \\int_{a}^{x} g(t)dt \\Rightarrow f'(x) = g(x)$.\nSince $f(x) = 0$ has exactly 5 distinct roots in $(a, b)$, by Rolle's Theorem, $f'(x) = 0$ (which is $g(x) = 0$) must have at least 4 roots in $(a, b)$.\n\nSince $g(x) = 0$ has at least 4 roots in $(a, b)$, by Rolle's Theorem, $g'(x) = 0$ must have at least 3 roots in $(a, b)$.\n\nTherefore, the equation $g(x)g'(x) = 0$ has at least $4 + 3 = 7$ roots in $(a, b)$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f03356079589968871af6"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "The function $f(x) = x^3 - 6x^2 + ax + b$ is such that $f(2) = f(4) = 0$. Consider two statements.\n\n(S1) there exists $x_1, x_2 \\in (2, 4), x_1 < x_2$, such that $f'(x_1) = -1$ and $f'(x_2) = 0$\n\n(S2) there exists $x_3, x_4 \\in (2, 4), x_3 < x_4$, such that $f$ is decreasing in $(2, x_4)$, increasing in $(x_4, 4)$ and $2f'(x_3) = \\sqrt{3}f(x_4)$\n\nThen",
+    "questionImage": "applications_of_derivatives_hard_2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "both (S1) and (S2) are true",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "(S1) is false and (S2) is true",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "both (S1) and (S2) are false",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "(S1) is true and (S2) is false",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$f(x) = x^3 - 6x^2 + ax + b$\n$f(2) = 8 - 24 + 2a + b = 0 \\implies 2a + b = 16 \\dots (1)$\n$f(4) = 64 - 96 + 4a + b = 0 \\implies 4a + b = 32 \\dots (2)$\n\nSolving (1) and (2):\n$a = 8, b = 0$\n\n$f(x) = x^3 - 6x^2 + 8x$\n$f'(x) = 3x^2 - 12x + 8$\n$f''(x) = 6x - 12$\n$\\implies f'(x)$ is increasing for $x > 2$, and $f'(x)$ is decreasing for $x < 2$\n\n$f'(2) = 12 - 24 + 8 = -4$\n$f'(4) = 48 - 48 + 8 = 8$\n\nvertex of $f'(x)$ is $(2, -4)$\n$f'(2) = -4, f'(4) = 8, f'(3) = 27 - 36 + 8 = -1$\n\nFrom the graph of $f'(x)$:\n$f'(x_1) = -1 \\implies x_1 = 3$\n$f'(x_2) = 0 \\implies x_2 \\in (3, 4)$\nThus, there exist $x_1, x_2 \\in (2, 4), x_1 < x_2$ such that $f'(x_1) = -1$ and $f'(x_2) = 0$. So (S1) is true.\n\nAgain,\n$f'(x) < 0$ for $x \\in (2, x_4)$\n$f'(x) > 0$ for $x \\in (x_4, 4)$\n$x_4 \\in (3, 4)$\n$f(x) = x^3 - 6x^2 + 8x$\n$f(3) = 27 - 54 + 24 = -3$\n$f(4) = 64 - 96 + 32 = 0$\nFor $x_4 \\in (3, 4)$:\n$f(x_4) < -3\\sqrt{3}$ and $f'(x_3) > -4$\n$2f'(x_3) > -8$\nSo, $2f'(x_3) = \\sqrt{3}f(x_4)$ is possible.\n\nCorrect Ans. (1)",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f05e96079589968871afc"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Let $x = 2$ be a local minima of the function $f(x) = 2x^4 - 18x^2 + 8x + 12$, $x \\in (-4,4)$. If $M$ is local maximum value of the function $f$ in $(-4, 4)$, then $M =$",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$12\\sqrt{6} - \\frac{33}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$12\\sqrt{6} - \\frac{31}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$18\\sqrt{6} - \\frac{33}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$18\\sqrt{6} - \\frac{31}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $f(x) = 2x^4 - 18x^2 + 8x + 12$.\n\nDifferentiating $f(x)$:\n$$f'(x) = 8x^3 - 36x + 8 = 4(2x^3 - 9x + 2)$$\n\nFor local extrema, $f'(x) = 0 \\Rightarrow 2x^3 - 9x + 2 = 0$.\n\nSince $x = 2$ is a local minimum, $x - 2$ must be a factor of $2x^3 - 9x + 2$.\n$$2x^3 - 9x + 2 = (x-2)(2x^2 + 4x - 1) = 0$$\n\nThe other roots are given by $2x^2 + 4x - 1 = 0$:\n$$x = \\frac{-4 \\pm \\sqrt{16 - 4(2)(-1)}}{4} = \\frac{-4 \\pm \\sqrt{24}}{4} = \\frac{-2 \\pm \\sqrt{6}}{2}$$\n\nThe roots are $x_1 = \\frac{\\sqrt{6}-2}{2} \\approx 0.22$ and $x_2 = \\frac{-\\sqrt{6}-2}{2} \\approx -2.22$.\n\nUsing the first derivative test, the local maximum occurs at $x = \\frac{\\sqrt{6}-2}{2}$.\n\nTo find $M = f\\left(\\frac{\\sqrt{6}-2}{2}\\right)$, we can write:\n$$f(x) = \\left(x^2 - 2x - \\frac{9}{2}\\right)(2x^2 + 4x - 1) + 24x + 7.5$$\n\nAt $x = \\frac{\\sqrt{6}-2}{2}$, $2x^2 + 4x - 1 = 0 \\Rightarrow x^2 + 2x - \\frac{1}{2} = 0$.\n\nTherefore,\n$$M = 24\\left(\\frac{\\sqrt{6}-2}{2}\\right) + 7.5 = 12\\sqrt{6} - 24 + 7.5 = 12\\sqrt{6} - \\frac{33}{2}$$\n\nHence, option (1) is correct.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f05e96079589968871afe"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "The number of points on the curve $y = 54x^5 - 135x^4 - 70x^3 + 180x^2 + 210x$ at which the normal lines are parallel to $x + 90y + 2 = 0$ is :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "0",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The given line is $x + 90y + 2 = 0$, which has slope $m = -\\frac{1}{90}$.\n\nSince the normal line is parallel to this line, the slope of the normal $m_N = -\\frac{1}{90}$.\n\nThe slope of the tangent is $m_T = -\\frac{1}{m_N} = 90$.\n\nThus, $\\frac{dy}{dx} = 90$.\n\nDifferentiating the curve $y = 54x^5 - 135x^4 - 70x^3 + 180x^2 + 210x$:\n$$\\frac{dy}{dx} = 270x^4 - 540x^3 - 210x^2 + 360x + 210 = 90$$\n$$\\Rightarrow 270x^4 - 540x^3 - 210x^2 + 360x + 120 = 0$$\n\nDividing by 30:\n$$9x^4 - 18x^3 - 7x^2 + 12x + 4 = 0$$\n\nBy inspection, $x = 1$ and $x = 2$ are roots of this equation.\nDividing by $(x-1)(x-2) = x^2 - 3x + 2$:\n$$(x^2 - 3x + 2)(9x^2 + 9x + 2) = 0$$\n\nThe roots of $9x^2 + 9x + 2 = 0$ are:\n$$(3x+1)(3x+2) = 0 \\Rightarrow x = -\\frac{1}{3}, -\\frac{2}{3}$$\n\nThus, there are 4 distinct real values of $x$: $1, 2, -\\frac{1}{3}, -\\frac{2}{3}$.\n\nHence, there are 4 such points on the curve.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f05e96079589968871b01"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Let $f(x) = \\begin{vmatrix} 1 + \\sin^2 x & \\cos^2 x & \\sin 2x \\\\ \\sin^2 x & 1 + \\cos^2 x & \\sin 2x \\\\ \\sin^2 x & \\cos^2 x & 1 + \\sin 2x \\end{vmatrix}$, $x \\in \\left[\\frac{\\pi}{6}, \\frac{\\pi}{3}\right]$. If $\\alpha$ and $\\beta$ respectively are the maximum and the minimum values of $f$, then",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\beta^2 - 2\\sqrt{\\alpha} = \\frac{19}{4}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\beta^2 + 2\\sqrt{\\alpha} = \\frac{19}{4}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\alpha^2 - \\beta^2 = 4\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\alpha^2 + \\beta^2 = \\frac{9}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Applying $C_1 \\rightarrow C_1 + C_2 + C_3$:\n$$f(x) = \\begin{vmatrix} 2 + \\sin 2x & \\cos^2 x & \\sin 2x \\\\ 2 + \\sin 2x & 1 + \\cos^2 x & \\sin 2x \\\\ 2 + \\sin 2x & \\cos^2 x & 1 + \\sin 2x \\end{vmatrix}$$\n\nTaking out $(2 + \\sin 2x)$ from $C_1$:\n$$f(x) = (2 + \\sin 2x) \\begin{vmatrix} 1 & \\cos^2 x & \\sin 2x \\\\ 1 & 1 + \\cos^2 x & \\sin 2x \\\\ 1 & \\cos^2 x & 1 + \\sin 2x \\end{vmatrix}$$\n\nApplying $R_2 \\rightarrow R_2 - R_1$ and $R_3 \\rightarrow R_3 - R_1$:\n$$f(x) = (2 + \\sin 2x) \\begin{vmatrix} 1 & \\cos^2 x & \\sin 2x \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{vmatrix} = 2 + \\sin 2x$$\n\nFor $x \\in \\left[\\frac{\\pi}{6}, \\frac{\\pi}{3}\right]$, $2x \\in \\left[\\frac{\\pi}{3}, \\frac{2\\pi}{3}\right]$.\nThus, $\\sin 2x \\in \\left[\\frac{\\sqrt{3}}{2}, 1\\right]$.\n\nSo, $f(x) \\in \\left[2 + \\frac{\\sqrt{3}}{2}, 3\\right]$.\n\nTherefore, $\\alpha = 3$ (maximum value) and $\\beta = 2 + \\frac{\\sqrt{3}}{2}$ (minimum value).\n\nLet's check the options:\nOption (1): $\\beta^2 - 2\\sqrt{\\alpha} = \\left(2 + \\frac{\\sqrt{3}}{2}\\right)^2 - 2\\sqrt{3} = 4 + \\frac{3}{4} + 2\\sqrt{3} - 2\\sqrt{3} = \\frac{19}{4}$.\n\nThis is correct!",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f05e96079589968871b02"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Let $f(x) = 2x + \\tan^{-1} x$ and $g(x) = \\log_e(\\sqrt{1+x^2} + x)$, $x \\in [0, 3]$. Then",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "There exists $\\hat{x} \\in [0, 3]$ such that $f'(\\hat{x}) < g'(\\hat{x})$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\max f(x) > \\max g(x)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "There exist $0 < x_1 < x_2 < 3$ such that $f(x) < g(x)$, $\\forall x \\in (x_1, x_2)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\min f'(x) = 1 + \\max g'(x)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "We have $f(x) = 2x + \\tan^{-1} x$ and $g(x) = \\ln(\\sqrt{1+x^2} + x)$ for $x \\in [0, 3]$.\n$$f'(x) = 2 + \\frac{1}{1+x^2}$$\n$$g'(x) = \\frac{1}{\\sqrt{1+x^2}}$$\n\nFor $x \\in [0, 3]$:\n$$0 \\le x^2 \\le 9 \\Rightarrow 1 \\le 1+x^2 \\le 10$$\n$$\\Rightarrow \\frac{1}{10} \\le \\frac{1}{1+x^2} \\le 1 \\Rightarrow \\frac{21}{10} \\le f'(x) \\le 3$$\n\nAnd:\n$$\\frac{1}{\\sqrt{10}} \\le g'(x) \\le 1$$\n\nClearly, $g'(x) < f'(x)$ for all $x \\in [0, 3]$.\n\nSince $f(0) = g(0) = 0$ and $f'(x) > g'(x) > 0$ for all $x \\in (0, 3]$, we have $f(x) > g(x)$ for all $x \\in (0, 3]$.\n\nBoth functions are strictly increasing.\n$$\\max f(x) = f(3) = 6 + \\tan^{-1} 3$$\n$$\\max g(x) = g(3) = \\ln(3 + \\sqrt{10})$$\n\nSince $f(x) > g(x)$ for all $x > 0$, we have $\\max f(x) > \\max g(x)$.\n\nThus, option (2) is correct.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f05e96079589968871b03"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "The sum of the absolute maximum and minimum values of the function $f(x) = |x^2 - 5x + 6| - 3x + 2$ in the interval $[-1, 3]$ is equal to :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "10",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "12",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "13",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "24",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The function is $f(x) = |x^2 - 5x + 6| - 3x + 2$ in $[-1, 3]$.\nNote that $x^2 - 5x + 6 = (x-2)(x-3)$.\n\nFor $x \\in [-1, 2]$, $x^2 - 5x + 6 \\ge 0$, so:\n$$f(x) = x^2 - 5x + 6 - 3x + 2 = x^2 - 8x + 8$$\n\nFor $x \\in [2, 3]$, $x^2 - 5x + 6 \\le 0$, so:\n$$f(x) = -(x^2 - 5x + 6) - 3x + 2 = -x^2 + 2x - 4$$\n\nLet's find the values at critical points and endpoints:\n- At $x = -1$: $f(-1) = (-1)^2 - 8(-1) + 8 = 17$.\n- At $x = 2$: $f(2) = 2^2 - 8(2) + 8 = -4$.\n- At $x = 3$: $f(3) = -3^2 + 2(3) - 4 = -7$.\n\n- For $x \\in [-1, 2]$, the vertex of $x^2 - 8x + 8$ is at $x = 4$, which is outside the interval. So the function is decreasing on $[-1, 2]$.\n- For $x \\in [2, 3]$, the vertex of $-x^2 + 2x - 4$ is at $x = 1$, which is outside the interval. So the function is decreasing on $[2, 3]$.\n\nTherefore, the function is strictly decreasing on $[-1, 3]$.\n\nThe absolute maximum value is $f(-1) = 17$.\nThe absolute minimum value is $f(3) = -7$.\n\nThe sum of absolute maximum and minimum values is $17 + (-7) = 10$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f06896079589968871b05"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Let a rectangle $ABCD$ of sides $2$ and $4$ be inscribed in another rectangle $PQRS$ such that the vertices of the rectangle $ABCD$ lie on the sides of the rectangle $PQRS$. Let $a$ and $b$ be the sides of the rectangle $PQRS$ when its area is maximum. Then $(a+b)^2$ is equal to :",
+    "questionImage": "applications_of_derivatives_hard_3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "72",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "60",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "64",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "80",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let the angle of inclination of the inscribed rectangle be $\\theta$.\n\nFrom the geometry of the figure:\n$a = 4\\cos\\theta + 2\\sin\\theta$\n$b = 2\\cos\\theta + 4\\sin\\theta$\n\nArea of $PQRS$ is given by:\n$\\text{Area} = a \\cdot b = (4\\cos\\theta + 2\\sin\\theta)(2\\cos\\theta + 4\\sin\\theta)$\n$= 8\\cos^2\\theta + 16\\sin\\theta\\cos\\theta + 4\\sin\\theta\\cos\\theta + 8\\sin^2\\theta$\n$= 8(\\cos^2\\theta + \\sin^2\\theta) + 20\\sin\\theta\\cos\\theta$\n$= 8 + 10\\sin 2\\theta$\n\nFor maximum area, $\\sin 2\\theta = 1 \\implies 2\\theta = 90^\\circ \\implies \\theta = 45^\\circ$.\n\nAt $\\theta = 45^\\circ$:\n$a + b = (4\\cos\\theta + 2\\sin\\theta) + (2\\cos\\theta + 4\\sin\\theta) = 6\\cos\\theta + 6\\sin\\theta$\n\nSubstituting $\\theta = 45^\\circ$:\n$a + b = 6\\left(\\frac{1}{\\sqrt{2}}\\right) + 6\\left(\\frac{1}{\\sqrt{2}}\\right) = \\frac{12}{\\sqrt{2}} = 6\\sqrt{2}$\n\nTherefore,\n$(a+b)^2 = (6\\sqrt{2})^2 = 72$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f06896079589968871b06"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "For the function $f(x) = \\sin x + 3x - \\frac{2}{\\pi}(x^2 + x)$, where $x \\in \\left[0, \\frac{\\pi}{2}\\right]$, consider the following two statements :\n(I) $f$ is increasing in $\\left(0, \\frac{\\pi}{2}\right)$.\n(II) $f'$ is decreasing in \\(\\left(0, \\frac{\\pi}{2}\\right)\\).\nBetween the above two statements,",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "only (II) is true.",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "only (I) is true.",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "neither (I) nor (II) is true.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "both (I) and (II) are true.",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Given $f(x) = \\sin x + 3x - \\frac{2}{\\pi}(x^2 + x)$ for $x \\in \\left[0, \\frac{\\pi}{2}\\right]$.\n\nFirst derivative:\n$f'(x) = \\cos x + 3 - \\frac{2}{\\pi}(2x + 1)$\n\nSecond derivative:\n$f''(x) = -\\sin x - \\frac{4}{\\pi}$\n\nSince $x \\in \\left(0, \\frac{\\pi}{2}\right)$, we have $\\sin x > 0$, which means:\n$f''(x) = -\\sin x - \\frac{4}{\\pi} < 0$\n\nSince $f''(x) < 0$ on $\\left(0, \\frac{\\pi}{2}\right)$, $f'$ is strictly decreasing in $\\left(0, \\frac{\\pi}{2}\right)$. Thus, statement (II) is true.\n\nNow, let's find the minimum value of $f'(x)$ on $\\left[0, \\frac{\\pi}{2}\\right]$. Since $f'(x)$ is decreasing, its minimum value occurs at $x = \\frac{\\pi}{2}$:\n$f'\\left(\\frac{\\pi}{2}\\right) = \\cos\\left(\\frac{\\pi}{2}\\right) + 3 - \\frac{2}{\\pi}\\left(2\\left(\\frac{\\pi}{2}\\right) + 1\\right)$\n$= 0 + 3 - \\frac{2}{\\pi}(\\pi + 1) = 3 - 2 - \\frac{2}{\\pi} = 1 - \\frac{2}{\\pi} > 0$\n\nSince the minimum value of $f'(x)$ is positive, $f'(x) > 0$ for all $x \\in \\left(0, \\frac{\\pi}{2}\right)$.\nTherefore, $f(x)$ is strictly increasing in $\\left(0, \\frac{\\pi}{2}\right)$. Thus, statement (I) is true.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f06896079589968871b09"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "For the function $f(x) = (\\cos x) - x + 1, x \\in \\mathbb{R}$, between the following two statements\n(S1) $f(x) = 0$ for only one value of $x$ in $[0, \\pi]$.\n(S2) $f(x)$ is decreasing in $\\left[0, \\frac{\\pi}{2}\\right]$ and increasing in $\\left[\\frac{\\pi}{2}, \\pi\\right]$.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Both (S1) and (S2) are correct.",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "Both (S1) and (S2) are incorrect.",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Only (S2) is correct.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Only (S1) is correct.",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Given $f(x) = \\cos x - x + 1$.\n\nDerivative:\n$f'(x) = -\\sin x - 1 = -(\\sin x + 1)$\n\nFor $x \\in [0, \\pi]$, $\\sin x \\ge 0 \\implies \\sin x + 1 \\ge 1 > 0 \\implies f'(x) < 0$.\nThus, $f(x)$ is strictly decreasing in the entire interval $[0, \\pi]$.\nTherefore, statement (S2) is incorrect.\n\nNow, let's evaluate $f(x)$ at the endpoints of $[0, \\pi]$:\n$f(0) = \\cos 0 - 0 + 1 = 2 > 0$\n$f(\\pi) = \\cos\\pi - \\pi + 1 = -1 - \\pi + 1 = -\\pi < 0$\n\nSince $f(x)$ is continuous and strictly decreasing on $[0, \\pi]$, and changes sign from positive to negative, by the Intermediate Value Theorem, there exists exactly one root of $f(x) = 0$ in $[0, \\pi]$.\nTherefore, statement (S1) is correct.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f06896079589968871b0c"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "If the function $f(x) = 2x^3 - 9ax^2 + 12a^2x + 1, a > 0$ has a local maximum at $x = \\alpha$ and a local minimum at $x = \\alpha^2$, then $\\alpha$ and $\\alpha^2$ are the roots of the equation :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x^2 - 6x + 8 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x^2 + 6x + 8 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$8x^2 + 6x - 1 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$8x^2 - 6x + 1 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Note: The question text in the paper contains a typo \"$9x^2$\" instead of \"$9ax^2$\". The correct function is $f(x) = 2x^3 - 9ax^2 + 12a^2x + 1$.\n\nDerivative:\n$f'(x) = 6x^2 - 18ax + 12a^2 = 6(x^2 - 3ax + 2a^2) = 6(x - a)(x - 2a)$\n\nSince $a > 0$, the roots of $f'(x) = 0$ are $x = a$ and $x = 2a$.\nUsing the first derivative test:\n- $x = a$ is a point of local maximum (since $f'(x)$ changes from positive to negative).\n- $x = 2a$ is a point of local minimum (since $f'(x)$ changes from negative to positive).\n\nThus, $\\alpha = a$ and $\\alpha^2 = 2a$.\n\nFrom these equations:\n$a^2 = 2a \\implies a(a - 2) = 0$\nSince $a > 0$, we have $a = 2$.\n\nTherefore, $\\alpha = 2$ and $\\alpha^2 = 4$.\n\nThe quadratic equation with roots $2$ and $4$ is:\n$(x - 2)(x - 4) = 0 \\implies x^2 - 6x + 8 = 0$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f06ce6079589968871b14"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be a twice differentiable function such that $f''(x) > 0$ for all $x \\in \\mathbb{R}$ and $f'(a - 1) = 0$, where $a$ is a real number. Let $g(x) = f(\\tan^2 x - 2\\tan x + a)$, $0 < x < \\frac{\\pi}{2}$.\n\nConsider the following two statements:\n(I) $g$ is increasing in $(0, \\frac{\\pi}{4})$\n(II) $g$ is decreasing in $(\\frac{\\pi}{4}, \\frac{\\pi}{2})$. Then,",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Neither (I) nor (II) is True",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "Only (I) is True",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Both (I) and (II) are True",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Only (II) is True",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $f''(x) > 0$ for all $x \\in \\mathbb{R}$, which means $f'(x)$ is a strictly increasing function.\nWe are given $f'(a - 1) = 0$. Since $f'(x)$ is strictly increasing, $f'(x) < 0$ for $x < a - 1$ and $f'(x) > 0$ for $x > a - 1$.\nThe function $g(x)$ is defined as $g(x) = f(\\tan^2 x - 2\\tan x + a)$ for $x \\in (0, \\pi/2)$.\nLet $u(x) = \\tan^2 x - 2\\tan x + a = (\\tan x - 1)^2 + a - 1$.\nDifferentiating $g(x)$ with respect to $x$:\n$g'(x) = f'(u(x)) \\cdot u'(x) = f'((\\tan x - 1)^2 + a - 1) \\cdot (2\\tan x \\sec^2 x - 2\\sec^2 x)$\n$g'(x) = f'((\\tan x - 1)^2 + a - 1) \\cdot 2\\sec^2 x(\\tan x - 1)$.\n\nCase 1: $x \\in (0, \\pi/4)$.\nIn this interval, $0 < \\tan x < 1$, so $(\\tan x - 1) < 0$.\nAlso, $(\\tan x - 1)^2 > 0$, so $u(x) = (\\tan x - 1)^2 + a - 1 > a - 1$.\nSince $f'(x)$ is increasing and $f'(a - 1) = 0$, for $u(x) > a - 1$, we have $f'(u(x)) > 0$.\nThus, $g'(x) = (+)(+)(-) < 0$. So $g(x)$ is decreasing in $(0, \\pi/4)$.\nStatement (I) is False.\n\nCase 2: $x \\in (\\pi/4, \\pi/2)$.\nIn this interval, $\\tan x > 1$, so $(\\tan x - 1) > 0$.\nAlso, $(\\tan x - 1)^2 > 0$, so $u(x) = (\\tan x - 1)^2 + a - 1 > a - 1$.\nThus, $f'(u(x)) > 0$.\nThen $g'(x) = (+)(+)(+) > 0$. So $g(x)$ is increasing in $(\\pi/4, \\pi/2)$.\nStatement (II) is False.\n\nTherefore, neither (I) nor (II) is true.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07646079589968871b1a"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "If the maximum value of a, for which the function $f_a(x) = \\tan^{-1} 2x - 3ax + 7$ is non-decreasing in $\\left(-\\frac{\\pi}{6}, \\frac{\\pi}{6}\\right)$, is $\\bar{a}$, then $f_{\\bar{a}}\\left(\\frac{\\pi}{8}\\right)$ is equal to",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$8 - \\frac{9\\pi}{4(9+\\pi^2)}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$8 - \\frac{4\\pi}{9(4+\\pi^2)}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$8 \\left(\\frac{1+\\pi^2}{9+\\pi^2}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$f_a(x) = \\tan^{-1} 2x - 3ax + 7$\n\n$f'_a(x) = \\frac{2}{1+4x^2} - 3a \\ge 0$\n\n$a \\le \\frac{2}{3(1+4x^2)}$ at $x = \\pm \\frac{\\pi}{6}$\n\n$a_{max} = \\bar{a} = \\frac{6}{9+\\pi^2}$\n\n$f_{\\bar{a}}\\left(\\frac{\\pi}{8}\\right) = \\tan^{-1} \\frac{\\pi}{4} - 3 \\cdot \\frac{6}{9+\\pi^2} \\cdot \\frac{\\pi}{8} + 7 = \\tan^{-1} \\frac{\\pi}{4} - \\frac{9\\pi}{4(\\pi^2+9)} + 7$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07646079589968871b1b"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Let $I = \\int_{\\pi/4}^{\\pi/3} \\left(\\frac{8\\sin x - \\sin 2x}{x}\\right) dx$. Then",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\pi}{2} < I < \\frac{3\\pi}{4}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\pi}{5} < I < \\frac{5\\pi}{12}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{5\\pi}{12} < I < \\frac{\\sqrt{2}}{3}\\pi$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{3\\pi}{4} < I < \\pi$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Consider\n\n$f(x) = 8\\sin x - \\sin 2x$\n\n$f'(x) = 8\\cos x - 2\\cos 2x$\n\n$f''(x) = -8\\sin x + 4\\sin 2x = -8\\sin x(1 - \\cos x)$\n\n$\\therefore f''(x) < 0$ for $x \\in \\left(\\frac{\\pi}{4}, \\frac{\\pi}{3}\\right)$\n\n$\\therefore f'(x)$ is decreasing function\n\n$f'\\left(\\frac{\\pi}{3}\\right) < f'(x) < f'\\left(\\frac{\\pi}{4}\\right)$\n\n$5 < f'(x) < 4\\sqrt{2}$\n\n$5x < f(x) < 4\\sqrt{2}x$\n\n$5 < \\frac{f(x)}{x} < 4\\sqrt{2}$\n\n$\\int_{\\pi/4}^{\\pi/3} 5 dx < \\int_{\\pi/4}^{\\pi/3} \\frac{f(x)}{x} dx < \\int_{\\pi/4}^{\\pi/3} 4\\sqrt{2} dx$\n\n$\\frac{5\\pi}{12} < I < \\frac{\\sqrt{2}\\pi}{3}$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07646079589968871b1c"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Let a function $f : \\mathbb{R} \\to \\mathbb{R}$ be defined as : $f(x) = \\begin{cases} \\int_0^x (5 - |t - 3|) dt, & x > 4 \\\\ x^2 + bx, & x \\le 4 \\end{cases}$ where $b \\in \\mathbb{R}$. If $f$ is continuous at $x = 4$, then which of the following statements is NOT true ?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$f$ is not differentiable at $x = 4$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$f'(3) + f'(5) = \\frac{35}{4}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$f$ is increasing in $\\left(-\\infty, \\frac{1}{8}\\right) \\cup (8, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$f$ has a local minima at $x = \\frac{1}{8}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$f(x)$ is continuous at $x = 4$\n\nSo $\\lim_{x \\to 4^-} f(x) = \\lim_{x \\to 4^+} f(x) = f(4)$\n\nSo $16 + 4b = \\int_0^3 (2-t)dt + \\int_3^4 (8-t)dt$\n\n$\\Rightarrow 16 + 4b = 15 \\Rightarrow b = -\\frac{1}{4}$\n\nAt $x = 4$\n\nLHD $= 2x + b = \\frac{31}{4}$\n\nRHD $= 5 - |x - 3| = 4$\n\nLHD $\\ne$ RHD\n\nOption (A) is true\n\nand $f'(3) + f'(5) = \\frac{23}{4} + 3 = \\frac{35}{4}$\n\nOption (B) is true\n\n$\\because f(x) = x^2 - \\frac{x}{4}$ at $x \\le 4$\n\n$f'(x) = 2x - \\frac{1}{4}$\n\nThis function is not increasing in the interval $x \\in \\left(-\\infty, \\frac{1}{8}\\right)$.\n\nOption (C) is NOT TRUE.\n\nThis function $f(x)$ is also local minima at $x = \\frac{1}{8}$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07646079589968871b20"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Let $f(x) = 3^{(x^2-2)^3 + 4}$, $x \\in \\mathbb{R}$. Then which of the following statements are true ?\n\nP : $x = 0$ is a point of local minima of f\n\nQ : $x = \\sqrt{2}$ is a point of inflection of f\n\nR : $f'$ is increasing for $x > \\sqrt{2}$",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Only P and Q",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "Only P and R",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Only Q and R",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "All, P, Q and R",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$f(x) = 81 \\cdot 3^{(x^2-2)^3}$\n\n$f'(x) = 81 \\cdot 3^{(x^2-2)^3} \\cdot \\ln 3 \\cdot 3(x^2-2)^2 \\cdot 2x = (81 \\times 6) 3^{(x^2-2)^3} x(x^2-2)^2 \\ln 3$\n\nSign of $f'(x)$ changes from negative to positive at $x = 0$, so $x = 0$ is a point of local minima. (P is true)\n\n$f''(x) = (486 \\cdot \\ln 3) 3^{(x^2-2)^3} x(x^2-2)^2$\n\nLet $g(x) = 3^{(x^2-2)^3} (x^2-2) [5x^2 - 2 + 6x^2 \\ln 3(x^2-2)^3]$\n\n$f''(x) = k \\cdot g'(x)$\n\n$f''(\\sqrt{2}) = 0, f''(\\sqrt{2}^+) > 0, f''(\\sqrt{2}^-) < 0$\n\n$x = \\sqrt{2}$ is point of inflection. (Q is true)\n\n$f''(x) > 0$ for $x > \\sqrt{2}$ so $f'(x)$ is increasing. (R is true)",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07f06079589968871b22"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Let $f(x) = x\\cos^{-1}(-\\sin|x|)$, $x \\in \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$, then which of the following is true?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$f'(0) = -\\frac{\\pi}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$f'(x)$ is not defined at $x = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$f'(x)$ is increasing in $\\left(-\\frac{\\pi}{2}, 0\\right)$ and $f'(x)$ is decreasing in $\\left(0, \\frac{\\pi}{2}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$f'(x)$ is decreasing in $\\left(-\\frac{\\pi}{2}, 0\\right)$ and $f'(x)$ is increasing in $\\left(0, \\frac{\\pi}{2}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$f'(x) = x\\left(\\pi - \\cos^{-1}(\\sin|x|)\\right)$\n\n$= x\\left(\\pi - \\left(\\frac{\\pi}{2} - \\sin^{-1}(\\sin|x|)\\right)\\right)$\n\n$= x\\left(\\frac{\\pi}{2} + |x|\\right)$\n\n$f(x) = \\begin{cases} x\\left(\\frac{\\pi}{2} + x\\right) & x \\ge 0 \\\\ x\\left(\\frac{\\pi}{2} - x\\right) & x < 0 \\end{cases}$\n\n$f'(x) = \\begin{cases} \\frac{\\pi}{2} + 2x & x \\ge 0 \\\\ \\frac{\\pi}{2} - 2x & x < 0 \\end{cases}$\n\n$f'(x)$ is increasing in $\\left(0, \\frac{\\pi}{2}\\right)$ and decreasing in $\\left(-\\frac{\\pi}{2}, 0\\right)$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07f06079589968871b2b"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Suppose $f(x)$ is a polynomial of degree four, having critical points at -1,0,1. If $T = \\{x \\in R | f(x) = f(0)\\}$, then the sum of squares of all the elements of T is :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "6",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "8",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Critical points $= -1, 0, 1$\n\n$\\therefore f'(x) = a(x - 1)(x + 1)x$\n\n$\\therefore f(x) = a\\left(\\frac{x^4}{4} - \\frac{x^2}{2}\\right) + C$\n\n$\\because f(x) = f(0)$\n\n$\\Rightarrow a\\left(\\frac{x^4}{4} - \\frac{x^2}{2}\\right) + C = C$\n\n$a\\frac{x^2}{4}(x^2 - 2) = 0$\n\n$\\therefore x = 0, \\sqrt{2}, -\\sqrt{2}$\n\n$T = \\{0, \\sqrt{2}, -\\sqrt{2}\\}$\n\nSum of square of elements of $T = 0^2 + (\\sqrt{2})^2 + (-\\sqrt{2})^2 = 4$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07f06079589968871b2d"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Let $f$ be a twice differentiable function on $(1, 6)$. If $f(2) = 8, f'(2) = 5, f'(x) \\ge 1$ and $f''(x) \\ge 4$ for all $x \\in (1, 6)$, then :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$f(5) + f'(5) \\ge 28$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$f'(5) + f''(5) \\le 20$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$f(5) \\le 10$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$f(5) + f'(5) \\le 26$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "By using $f'(x) \\ge 1$\n\n$\\Rightarrow \\frac{f(5)-f(2)}{3} \\ge 1$\n\n$\\Rightarrow f(5) \\ge 3 + 8 \\Rightarrow f(5) \\ge 11$\n\nand also $f''(x) \\ge 4$\n\n$\\Rightarrow \\frac{f'(5)-f'(2)}{5-2} \\ge 4$\n\n$\\Rightarrow f'(5) \\ge 17$\n\nHence $f(5) + f'(5) \\ge 28$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f07f06079589968871b31"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "The set of all real values of $\\lambda$ for which the function $f(x) = (1 - \\cos^2 x) \\cdot (\\lambda + \\sin x)$, $x \\in \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ has exactly one maxima and exactly one minima, is :",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\left(-\\frac{3}{2}, \\frac{3}{2}\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\left(-\\frac{1}{2}, \\frac{1}{2}\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\left(-\\frac{1}{2}, \\frac{1}{2}\\right) - \\{0\\}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\left(-\\frac{3}{2}, \\frac{3}{2}\\right) - \\{0\\}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$f(x) = (1 - \\cos^2 x)(\\lambda + \\sin x) = \\sin^2 x(\\lambda + \\sin x)$\n\n$\\Rightarrow f(x) = \\lambda \\sin^2 x + \\sin^3 x \\dots (i)$\n\n$\\Rightarrow f'(x) = \\sin x \\cos x [2\\lambda + 3\\sin x] = 0$\n\n$\\Rightarrow x = 0$ and $\\sin x = -\\frac{2\\lambda}{3} \\Rightarrow x = \\alpha$ (let)\n\nSo clearly $f(x)$ will change its sign at $x = 0, \\alpha$ because there is exactly one maxima and one minima in $\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$\n\nNow $\\sin x = -\\frac{2\\lambda}{3}$\n\n$\\Rightarrow -1 \\le -\\frac{2\\lambda}{3} \\le 1$\n\n$\\Rightarrow -\\frac{3}{2} \\le \\lambda \\le \\frac{3}{2} - \\{0\\}$\n\n$\\because$ If $\\lambda = 0 \\Rightarrow f(x) = \\sin^3 x$ (from (1))\n\nWhich is monotonic, so no maxima/minima\n\nSo $\\lambda \\in \\left(-\\frac{3}{2}, \\frac{3}{2}\\right) - \\{0\\}$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f086c6079589968871b3c"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Let $f(x)$ be a polynomial of degree 6 in x, in which the coefficient of $x^6$ is unity and it has extrema at $x = -1$ and $x = 1$. If $\\lim_{x \\rightarrow 0} \\frac{f(x)}{x^3} = 1$, then $5 \\cdot f(2)$ is equal to",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "144",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "120",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "72",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "36",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$f(x) = x^6 + ax^5 + bx^4 + x^3$ \\\\ $\\dots f'(x) = 6x^5 + 5ax^4 + 4bx^3 + 3x^2$ \\\\ Roots $1$ & $-1$ \\\\ $\\dots 6 + 5a + 4b + 3 = 0$ & $-6 + 5a - 4b + 3 = 0$ solving \\\\ $a = -\\frac{3}{5}$, $b = -\\frac{3}{2}$ \\\\ $\\dots f(x) = x^6 - \\frac{3}{5}x^5 - \\frac{3}{2}x^4 + x^3$ \\\\ $\\dots 5 \\cdot f(2) = 5 \\left[ 64 - \\frac{96}{5} - 24 + 8 \\right] = 144$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f086c6079589968871b41"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Let the normals at all the points on a given curve pass through a fixed point $(a, b)$. If the curve passes through $(3,-3)$ and $(4, -2\\sqrt{2})$, and given that $a - 2\\sqrt{2}b = 3$, then $(a^2 + b^2 + ab)$ is equal to",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "9",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "12",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "15",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "18",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let the equation of normal is $Y - y = -\\frac{1}{m}(X - x)$, where $m = \\frac{dy}{dx}$ \\\\ As it passes through $(a, b)$ \\\\ $b - y = -\\frac{1}{m}(a - x) = -\\frac{dx}{dy}(a - x)$ \\\\ $\\Rightarrow (b - y)dy = (x - a)dx$ \\\\ by integrating: $\\frac{y^2}{2} - by = \\frac{x^2}{2} - ax + c$ \\\\ It passes through $(3,-3)$ & $(4, -2\\sqrt{2})$ \\\\ $\\therefore -3b - \\frac{9}{2} = \\frac{9}{2} - 3a + c \\Rightarrow -6b - 9 = 9 - 6a + 2c \\Rightarrow 6a - 6b - 2c = 18 \\Rightarrow 3a - 3b - c = 9$ \\\\ Also $-2\\sqrt{2}b - 4 = 8 - 4a + c \\Rightarrow 4a - 2\\sqrt{2}b - c = 12$ \\\\ Also $a - 2\\sqrt{2}b = 3$ ... (iv) (given) \\\\ (ii) - (iii) $\\Rightarrow -a + (2\\sqrt{2} - 3)b = -3$ ... (v) \\\\ (iv) + (v) $\\Rightarrow b = 0, a = 3$ \\\\ $\\therefore a^2 + b^2 + ab = 9$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f086c6079589968871b42"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Let a be an integer such that all the real roots of the polynomial $2x^5 + 5x^4 + 10x^3 + 10x^2 + 10x + 10$ lie in the interval $(a, a + 1)$. Then, $|a|$ is equal to",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let, $f(x) = 2x^5 + 5x^4 + 10x^3 + 10x^2 + 10x + 10$ \\\\ $\\Rightarrow f'(x) = 10(x^4 + 2x^3 + 3x^2 + 2x + 1)$ \\\\ $= 10\\left(x^2 + \\frac{1}{x^2} + 2\\left(x + \\frac{1}{x}\\right) + 3\\right)$ \\\\ $= 10\\left(\\left(x + \\frac{1}{x}\\right)^2 + 2\\left(x + \\frac{1}{x}\\right) + 1\\right)$ \\\\ $= 10\\left(\\left(x + \\frac{1}{x}\\right) + 1\\right)^2 > 0; \\forall x \\in R$ \\\\ $\\therefore f(x)$ is strictly increasing function. Since it is an odd degree polynomial it will have exactly one real root. \\\\ Now, by observation $f(-1) = 3 > 0$ \\\\ $f(-2) = -64 + 80 - 80 + 40 - 20 + 10 = -34 < 0$ \\\\ $\\Rightarrow f(x)$ has at least one root in $(-2,-1) \\equiv (a, a+1)$ \\\\ $\\Rightarrow a = -2$ \\\\ $\\Rightarrow |a| = 2$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f08e36079589968871b45"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Let $f$ be a real valued function, defined on $\\mathbb{R} - \\{-1, 1\\}$ and given by $f(x) = 3\\log_e\\left|\\frac{x-1}{x+1}\\right| - \\frac{2}{x-1}$. Then in which of the following intervals, function $f(x)$ is increasing?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(-\\infty, -1) \\cup \\left(\\left[\\frac{1}{2}, \\infty\\right) - \\{1\\}\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(-\\infty, \\infty) - \\{-1, 1\\}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\left(-1, \\frac{1}{2}\\right]$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\left(-\\infty, \\frac{1}{2}\\right] - \\{-1\\}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given function is:\n$f(x) = 3\\ln|x-1| - 3\\ln|x+1| - \\frac{2}{x-1}$\n\nDifferentiating with respect to $x$:\n$f'(x) = \\frac{3}{x-1} - \\frac{3}{x+1} + \\frac{2}{(x-1)^2}$\n$f'(x) = \\frac{3(x+1) - 3(x-1)}{(x-1)(x+1)} + \\frac{2}{(x-1)^2}$\n$f'(x) = \\frac{6}{x^2-1} + \\frac{2}{(x-1)^2} = \\frac{6(x-1) + 2(x+1)}{(x-1)^2(x+1)}$\n$f'(x) = \\frac{8x - 4}{(x-1)^2(x+1)} = \\frac{4(2x-1)}{(x-1)^2(x+1)}$\n\nFor $f(x)$ to be increasing, $f'(x) \\ge 0$:\n$\\frac{4(2x-1)}{(x-1)^2(x+1)} \\ge 0$\n\nSince $(x-1)^2 > 0$ for all $x \\neq 1$, the sign depends on:\n$\\frac{2x-1}{x+1} \\ge 0 \\quad (x \\neq 1)$\n\nUsing the wavy curve method, the solution is:\n$x \\in (-\\infty, -1) \\cup \\left[\\frac{1}{2}, \\infty\\right) - \\{1\\}$\n\nWhich can be written as:\n$(-\\infty, -1) \\cup \\left(\\left[\\frac{1}{2}, \\infty\\right) - \\{1\\}\\right)$",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f08e36079589968871b47"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Consider the function $f : \\mathbb{R} \\rightarrow \\mathbb{R}$ defined by $f(x) = \\begin{cases} \\left(2 - \\sin\\left(\\frac{1}{x}\\right)\\right)|x|, & x \\neq 0 \\\\ 0, & x = 0 \\end{cases}$. Then $f$ is",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "monotonic on $(-\\infty, 0) \\cup (0, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "not monotonic on $(-\\infty, 0)$ and $(0, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "monotonic on $(0, \\infty)$ only",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "monotonic on $(-\\infty, 0)$ only",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "We can write $f(x)$ as:\n$f(x) = \\begin{cases} -x\\left(2 - \\sin\\left(\\frac{1}{x}\\right)\\right), & x < 0 \\\\ 0, & x = 0 \\\\ x\\left(2 - \\sin\\left(\\frac{1}{x}\\right)\\right), & x > 0 \\end{cases}$\n\nDifferentiating for $x > 0$:\n$f'(x) = \\left(2 - \\sin\\frac{1}{x}\\right) + x\\left(-\\cos\\frac{1}{x} \\cdot \\left(-\\frac{1}{x^2}\\right)\\right)$\n$f'(x) = 2 - \\sin\\frac{1}{x} + \\frac{1}{x}\\cos\\frac{1}{x}$\n\nAs $x \\to 0^+$, the term $\\frac{1}{x}\\cos\\frac{1}{x}$ oscillates infinitely between large positive and negative values.\nThus, $f'(x)$ changes sign infinitely many times in any neighborhood of $0$ for $x > 0$.\nTherefore, $f(x)$ is non-monotonic on $(0, \\infty)$.\n\nSimilarly, for $x < 0$:\n$f'(x) = -2 + \\sin\\frac{1}{x} - \\frac{1}{x}\\cos\\frac{1}{x}$\nWhich also oscillates infinitely and changes sign.\nThus, $f(x)$ is not monotonic on $(-\\infty, 0)$ and $(0, \\infty)$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f09976079589968871b4c"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Let $f(x) = x \\cos^{-1}(\\sin(-|x|)), x \\in \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$ then",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$f'(0) = -\\frac{\\pi}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$f'(x)$ is not defined at $x = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$f'(x)$ is increasing in $\\left(-\\frac{\\pi}{2}, 0\\right)$ and $f'(x)$ is decreasing in $\\left(0, \\frac{\\pi}{2}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$f'(x)$ is decreasing in $\\left(-\\frac{\\pi}{2}, 0\\right)$ and $f'(x)$ is increasing in $\\left(0, \\frac{\\pi}{2}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$f(x) = x \\cos^{-1}(\\sin(-|x|)) = x \\left( \\pi - \\cos^{-1}(\\sin|x|) \\right)$\n$= x \\left( \\pi - \\left( \\frac{\\pi}{2} - \\sin^{-1}(\\sin|x|) \\right) \\right) = x \\left( \\frac{\\pi}{2} + |x| \\right)$\nFor $x \\ge 0$, $f(x) = x \\left( \\frac{\\pi}{2} + x \\right) \\implies f'(x) = \\frac{\\pi}{2} + 2x$\nFor $x < 0$, $f(x) = x \\left( \\frac{\\pi}{2} - x \\right) \\implies f'(x) = \\frac{\\pi}{2} - 2x$\nThus, $f''(x) = 2 > 0$ for $x > 0$, which means $f'(x)$ is increasing in $\\left(0, \\frac{\\pi}{2}\\right)$.\nAnd $f''(x) = -2 < 0$ for $x < 0$, which means $f'(x)$ is decreasing in $\\left(-\\frac{\\pi}{2}, 0\\right)$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f09976079589968871b4e"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "If $f(x)$ is twice differentiable and continuous function in $x \\in [a,b]$ also $f'(x) > 0$ and $f''(x) < 0$ and $c \\in (a,b)$ then $\\frac{f(c)-f(a)}{f(b)-f(c)}$ is greater than",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{b-c}{c-a}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{a+b}{b-c}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{c-a}{b-c}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Using LMVT for $x \\in [a, c]$:\n$\\frac{f(c) - f(a)}{c - a} = f'(\\alpha)$, where $\\alpha \\in (a, c)$\nUsing LMVT for $x \\in [c, b]$:\n$\\frac{f(b) - f(c)}{b - c} = f'(\\beta)$, where $\\beta \\in (c, b)$\nSince $f''(x) < 0$, $f'(x)$ is a decreasing function.\nAs $\\alpha < \\beta$, we have $f'(\\alpha) > f'(\\beta)$\n$\\implies \\frac{f(c) - f(a)}{c - a} > \\frac{f(b) - f(c)}{b - c}$\n$\\implies \\frac{f(c) - f(a)}{f(b) - f(c)} > \\frac{c - a}{b - c}$ (since $f(b) > f(c)$ as $f'(x) > 0$).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f09976079589968871b51"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Let $f(x) : [0, 5] \\to \\mathbb{R}$ be a continuous function such that $F(x) = \\int_0^x t^2 g(t) dt$, $F(1) = 3$ and $g(x) = \\int_1^x f(t) dt$. Then correct choice is",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$F(x)$ has local minimum at $x = 1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$F(x)$ has local maximum at $x = 1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$F(x)$ has point of inflection at $x = 1$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$F(x)$ has no critical point",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $F(x) = \\int_0^x t^2 g(t) dt \\implies F'(x) = x^2 g(x)$\nAt $x = 1$, $F'(1) = 1^2 \\cdot g(1)$\nSince $g(x) = \\int_1^x f(t) dt \\implies g(1) = 0$\nThus, $F'(1) = 0$\nNow, $F''(x) = 2x g(x) + x^2 g'(x)$\nSince $g'(x) = f(x)$, we have $F''(x) = 2x g(x) + x^2 f(x)$\nAt $x = 1$, $F''(1) = 2(1)g(1) + 1^2 f(1) = 0 + f(1)$\nGiven $f(1) = 3 > 0$, so $F''(1) = 3 > 0$\nSince $F'(1) = 0$ and $F''(1) > 0$, $F(x)$ has a local minimum at $x = 1$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b53"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Let $d \\in \\mathbf{R}$, and $A = \\begin{bmatrix} -2 & 4+d & (\\sin\\theta)-2 \\\\ 1 & (\\sin\\theta)+2 & d \\\\ 5 & (2\\sin\\theta)-d & (-\\sin\\theta)+2+2d \\end{bmatrix}$, $\\theta \\in [0, 2\\pi]$. If the minimum value of $\\det(A)$ is 8, then a value of $d$ is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-5$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-7$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2(\\sqrt{2}+1)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2(\\sqrt{2}+2)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\det(A) = \\begin{vmatrix} -2 & 4+d & \\sin\\theta-2 \\\\ 1 & \\sin\\theta+2 & d \\\\ 5 & 2\\sin\\theta-d & -\\sin\\theta+2+2d \\end{vmatrix}$\nApplying $R_3 \\to R_3 - 2R_2 + R_1$, we get:\n$\\det(A) = \\begin{vmatrix} -2 & 4+d & \\sin\\theta-2 \\\\ 1 & \\sin\\theta+2 & d \\\\ 1 & 0 & 0 \\end{vmatrix} = d(4+d) - (\\sin^2\\theta - 4) = d^2 + 4d + 4 - \\sin^2\\theta = (d+2)^2 - \\sin^2\\theta$\nMinimum value of $\\det(A)$ is attained when $\\sin^2\\theta = 1$.\n$\\therefore (d+2)^2 - 1 = 8 \\implies (d+2)^2 = 9 \\implies d+2 = \\pm 3 \\implies d = -5$ or $1$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b56"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "A helicopter is flying along the curve given by $y - x^{3/2} = 7, (x \\ge 0)$. A soldier positioned at the point $(\\frac{1}{2}, 7)$ wants to shoot down the helicopter when it is nearest to him. Then this nearest distance is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\sqrt{5}}{6}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{3}\\sqrt{\\frac{7}{3}}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{6}\\sqrt{\\frac{7}{3}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let the point on the curve $y = x^{3/2} + 7$ be $P(x_1, x_1^{3/2} + 7)$.\nThe soldier is at $T(\\frac{1}{2}, 7)$.\nThe distance $TP$ is minimum when the normal at $P$ passes through $T$.\nSlope of tangent at $P$: $m_T = \\frac{dy}{dx} = \\frac{3}{2}\\sqrt{x_1}$.\nSlope of normal: $m_N = -\\frac{2}{3\\sqrt{x_1}}$.\nAlso, slope of $TP$: $m_{TP} = \\frac{x_1^{3/2} + 7 - 7}{x_1 - 1/2} = \\frac{x_1^{3/2}}{x_1 - 1/2}$.\nSince $TP$ is normal: $\\frac{x_1^{3/2}}{x_1 - 1/2} = -\\frac{2}{3\\sqrt{x_1}} \\implies 3x_1^2 = -2(x_1 - 1/2) \\implies 3x_1^2 + 2x_1 - 1 = 0$.\n$(3x_1 - 1)(x_1 + 1) = 0 \\implies x_1 = \\frac{1}{3}$ (since $x \\ge 0$).\nSo $P$ is $(\\frac{1}{3}, (\\frac{1}{3})^{3/2} + 7)$.\nNearest distance $TP = \\sqrt{(\\frac{1}{3} - \\frac{1}{2})^2 + ((\\frac{1}{3})^{3/2})^2} = \\sqrt{(-\\frac{1}{6})^2 + \\frac{1}{27}} = \\sqrt{\\frac{1}{36} + \\frac{1}{27}} = \\sqrt{\\frac{7}{108}} = \\frac{1}{6}\\sqrt{\\frac{7}{3}}$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b5b"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Let $P(4, -4)$ and $Q(9, 6)$ be two points on the parabola, $y^2 = 4x$ and let this $X$ be any point arc $POQ$ of this parabola, where $O$ is vertex of the parabola, such that the area of $\\Delta PXQ$ is maximum. Then this maximum area (in sq. units) is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{75}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{125}{4}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{625}{4}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{125}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Parametric equations of the parabola $y^2 = 4x$ are $x = t^2$ and $y = 2t$.\nArea $\\Delta PXQ = \\frac{1}{2} \\begin{vmatrix} t^2 & 2t & 1 \\\\ 4 & -4 & 1 \\\\ 9 & 6 & 1 \\end{vmatrix} = \\frac{1}{2} [ t^2(-4-6) - 2t(4-9) + 1(24+36) ] = \\frac{1}{2} [ -10t^2 + 10t + 60 ] = -5t^2 + 5t + 30 = -5(t^2 - t - 6) = -5\\left[\\left(t - \\frac{1}{2}\\right)^2 - \\frac{25}{4}\\right]$.\nFor maximum area, $t = \\frac{1}{2}$.\nMaximum area $= 5\\left(\\frac{25}{4}\\right) = \\frac{125}{4}$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b5f"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "If the function $f$ given by $f(x) = x^3 - 3(a-2)x^2 + 3ax + 7$, for some $a \\in \\mathbf{R}$ is increasing in $(0, 1]$ and decreasing in $[1, 5)$, then a root of the equation, $\\frac{f(x)-14}{(x-1)^2} = 0 (x \\ne 1)$ is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-7$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "7",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "6",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Since $f(x)$ is increasing in $(0, 1]$ and decreasing in $[1, 5)$, $x = 1$ is a point of local maximum.\nThus, $f'(1) = 0$.\n$f'(x) = 3x^2 - 6(a-2)x + 3a$.\n$f'(1) = 3 - 6(a-2) + 3a = 0 \\implies 15 - 3a = 0 \\implies a = 5$.\nThen, $f(x) = x^3 - 9x^2 + 15x + 7$.\nWe want to solve $\\frac{f(x)-14}{(x-1)^2} = 0$:\n$f(x) - 14 = x^3 - 9x^2 + 15x - 7 = (x-1)^2(x-7)$.\nThus, $\\frac{(x-1)^2(x-7)}{(x-1)^2} = 0 \\implies x = 7$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b69"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Let $f(x) = e^x - x$ and $g(x) = x^2 - x, \\forall x \\in \\mathbf{R}$. Then the set of all $x \\in \\mathbf{R}$, where the function $h(x) = (f \\circ g)(x)$ is increasing, is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$[-1, -\\frac{1}{2}] \\cup [\\frac{1}{2}, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$[0, \\frac{1}{2}] \\cup [1, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$[0, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$[-\\frac{1}{2}, 0] \\cup [1, \\infty)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$h(x) = f(g(x)) \\implies h'(x) = f'(g(x)) \\cdot g'(x) = (e^{g(x)} - 1) \\cdot g'(x) = (e^{x^2-x} - 1)(2x-1)$.\nFor $h(x)$ to be increasing, $h'(x) \\ge 0 \\implies (2x-1)(e^{x^2-x} - 1) \\ge 0$.\nThis product is non-negative when both terms have the same sign:\n- Case 1: $2x-1 \\ge 0$ and $e^{x^2-x}-1 \\ge 0 \\implies x \\ge \\frac{1}{2}$ and $x^2-x \\ge 0 \\implies x \\in [1, \\infty)$.\n- Case 2: $2x-1 \\le 0$ and $e^{x^2-x}-1 \\le 0 \\implies x \\le \\frac{1}{2}$ and $x^2-x \\le 0 \\implies x \\in [0, \\frac{1}{2}]$.\nThus, $x \\in [0, \\frac{1}{2}] \\cup [1, \\infty)$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b6a"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "If the tangent to the curve $y = \\frac{x}{x^2-3}, x \\in \\mathbf{R}, (x \\ne \\pm\\sqrt{3})$, at a point $(\\alpha, \\beta) \\ne (0, 0)$ on it is parallel to the line $2x + 6y - 11 = 0$, then:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$|6\\alpha + 2\\beta| = 19$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$|6\\alpha + 2\\beta| = 9$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$|2\\alpha + 6\\beta| = 19$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$|2\\alpha + 6\\beta| = 11$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Slope of the line $2x + 6y - 11 = 0$ is $-\\frac{1}{3}$.\nFor the curve, $\\frac{dy}{dx} = \\frac{(x^2-3) - x(2x)}{(x^2-3)^2} = \\frac{-x^2-3}{(x^2-3)^2}$.\nAt $(\\alpha, \\beta)$:\n$\\frac{-\\alpha^2-3}{(\\alpha^2-3)^2} = -\\frac{1}{3} \\implies 3(\\alpha^2+3) = (\\alpha^2-3)^2 \\implies \\alpha^4 - 9\\alpha^2 = 0 \\implies \\alpha = \\pm 3$ (since $\\alpha \\ne 0$).\nIf $\\alpha = 3$, then $\\beta = \\frac{3}{9-3} = \\frac{1}{2}$.\nIf $\\alpha = -3$, then $\\beta = -\\frac{1}{2}$.\nIn both cases, $|6\\alpha + 2\\beta| = |6(3) + 2(\\frac{1}{2})| = 19$.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b6c"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "Let $a_1, a_2, a_3, \\dots$ be an A.P. with $a_6 = 2$. Then the common difference of this A.P., which maximises the product $a_1 a_4 a_5$, is:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{3}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{8}{5}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{6}{5}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{2}{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let $a$ be the first term and $d$ be the common difference.\n$a_6 = a + 5d = 2 \\implies a = 2 - 5d$.\nLet $A = a_1 a_4 a_5 = a(a+3d)(a+4d) = (2-5d)(2-2d)(2-d) = 2(2-5d)(1-d)(2-d)$.\n$A = 2(2-5d)(d^2 - 3d + 2) = 2(-5d^3 + 17d^2 - 16d + 4)$.\n$\\frac{dA}{dd} = 2(-15d^2 + 34d - 16) = 0 \\implies 15d^2 - 34d + 16 = 0 \\implies d = \\frac{8}{5}$ or $\\frac{2}{3}$.\n$\\frac{d^2A}{dd^2} = 2(-30d + 34)$.\nAt $d = \\frac{8}{5}$, $\\frac{d^2A}{dd^2} < 0$, which gives the maximum value.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "_id": {
+      "$oid": "6a5f0a5c6079589968871b6d"
+    },
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Maths",
+    "part": "1A",
+    "topic": "Applications Of Derivatives",
+    "difficulty": "Hard",
+    "question": "If $m$ is the minimum value of $k$ for which the function $f(x) = x\\sqrt{kx-x^2}$ is increasing in the interval $[0, 3]$ and $M$ is the maximum value of $f$ in $[0, 3]$ when $k = m$, then the ordered pair $(m, M)$ is equal to:",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(4, 3\\sqrt{2})$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(4, 3\\sqrt{3})$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(3, 3\\sqrt{3})$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(5, 3\\sqrt{6})$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$f(x) = \\sqrt{kx^3 - x^4}$.\n$f'(x) = \\frac{3kx^2 - 4x^3}{2\\sqrt{kx^3 - x^4}} \\ge 0$ for $x \\in [0, 3]$.\n$\\implies 3k - 4x \\ge 0 \\implies k \\ge \\frac{4}{3}x$.\nSince $x \\in [0, 3]$, the maximum value of $\\frac{4}{3}x$ is $4$.\nThus, $k \\ge 4 \\implies m = 4$.\nWhen $k = 4$, $f(x) = x\\sqrt{4x-x^2}$.\n$f'(x) = 0 \\implies x = 3$.\nAt $x = 3$, $M = f(3) = 3\\sqrt{12-9} = 3\\sqrt{3}$.\nThus, $(m, M) = (4, 3\\sqrt{3})$.",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]
