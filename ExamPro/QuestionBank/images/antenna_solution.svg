@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="150" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">Antenna Transmission Range</text>
+  <text x="70" y="130" font-family="sans-serif" font-size="16" font-weight="bold" fill="#dc2626">Single Antenna Range: d = √(2 R h_T)</text>
+  <text x="70" y="180" font-family="sans-serif" font-size="16" font-weight="bold" fill="#2563eb">LOS Range (2 Antennas): d_max = √(2 R h_T) + √(2 R h_R)</text>
+  <text x="70" y="230" font-family="sans-serif" font-size="16" font-weight="bold" fill="#16a34a">Covered Surface Area: A = π d² = 2 π R h_T</text>
+  <rect x="60" y="270" width="480" height="70" rx="8" fill="#fef3c7" stroke="#fde68a" stroke-width="2"/>
+  <text x="80" y="300" font-family="sans-serif" font-size="14" font-weight="bold" fill="#92400e">Population Covered:</text>
+  <text x="80" y="325" font-family="sans-serif" font-size="14" fill="#92400e">N = (Population Density) * Area = ρ * (2 π R h_T)</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <!-- Uniform Magnetic Field (Crosses represent field into page) -->
+  <g stroke="#94a3b8" stroke-width="2">
+    <!-- Row 1 -->
+    <path d="M 80 80 L 100 100 M 100 80 L 80 100"/>
+    <path d="M 180 80 L 200 100 M 200 80 L 180 100"/>
+    <path d="M 280 80 L 300 100 M 300 80 L 280 100"/>
+    <path d="M 380 80 L 400 100 M 400 80 L 380 100"/>
+    <path d="M 480 80 L 500 100 M 500 80 L 480 100"/>
+    <!-- Row 2 -->
+    <path d="M 80 180 L 100 200 M 100 180 L 80 200"/>
+    <path d="M 180 180 L 200 200 M 200 180 L 180 200"/>
+    <path d="M 280 180 L 300 200 M 300 180 L 280 200"/>
+    <path d="M 380 180 L 400 200 M 400 180 L 380 200"/>
+    <path d="M 480 180 L 500 200 M 500 180 L 480 200"/>
+    <!-- Row 3 -->
+    <path d="M 80 280 L 100 300 M 100 280 L 80 300"/>
+    <path d="M 180 280 L 200 300 M 200 280 L 180 300"/>
+    <path d="M 280 280 L 300 300 M 300 280 L 280 300"/>
+    <path d="M 380 280 L 400 300 M 400 280 L 380 300"/>
+    <path d="M 480 280 L 500 300 M 500 280 L 480 300"/>
+  </g>
+  <text x="520" y="90" font-family="sans-serif" font-size="16" font-weight="bold" fill="#94a3b8">B (inwards)</text>
+
+  <!-- Circular path of charge -->
+  <circle cx="290" cy="190" r="80" fill="none" stroke="#2563eb" stroke-dasharray="6 4" stroke-width="3"/>
+  
+  <!-- Charge particle -->
+  <circle cx="290" cy="110" r="10" fill="#ef4444"/>
+  <text x="285" y="115" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff">+q</text>
+  
+  <!-- Velocity Vector -->
+  <path d="M 290 110 L 360 110 L 350 105 M 360 110 L 350 115" stroke="#ef4444" stroke-width="3" fill="none"/>
+  <text x="370" y="115" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ef4444">v</text>
+
+  <!-- Force Vector pointing towards center -->
+  <path d="M 290 110 L 290 150 L 285 140 M 290 150 L 295 140" stroke="#059669" stroke-width="3" fill="none"/>
+  <text x="300" y="145" font-family="sans-serif" font-size="14" font-weight="bold" fill="#059669">F_m</text>
+</svg>

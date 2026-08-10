@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="210" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">Doppler Effect Laws</text>
+  <text x="60" y="125" font-family="sans-serif" font-size="16" font-weight="bold" fill="#2563eb">Apparent Frequency: f' = f [ (v ± v_o) / (v ∓ v_s) ]</text>
+  <text x="60" y="170" font-family="sans-serif" font-size="15" fill="#334155">v = speed of sound in medium | v_s = speed of source | v_o = speed of observer</text>
+  <text x="60" y="200" font-family="sans-serif" font-size="15" fill="#334155">Upper signs (+ in numerator, - in denominator) for moving towards.</text>
+  <text x="60" y="225" font-family="sans-serif" font-size="15" fill="#334155">Lower signs (- in numerator, + in denominator) for moving away.</text>
+  <rect x="50" y="255" width="500" height="85" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="2"/>
+  <text x="70" y="285" font-family="sans-serif" font-size="13" fill="#14532d">Beats: Beat Frequency f_beat = |f_1 - f_2|</text>
+  <text x="70" y="310" font-family="sans-serif" font-size="13" fill="#14532d">Speed of sound relation to temp: v ∝ √T</text>
+</svg>

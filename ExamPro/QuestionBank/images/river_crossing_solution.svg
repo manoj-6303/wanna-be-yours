@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="180" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">River Crossing Kinematics</text>
+  <text x="60" y="125" font-family="sans-serif" font-size="16" font-weight="bold" fill="#2563eb">Time to cross river: t = w / (v cos θ)</text>
+  <text x="60" y="170" font-family="sans-serif" font-size="16" font-weight="bold" fill="#16a34a">Minimum Time (θ = 0°): t_min = w / v</text>
+  <text x="60" y="215" font-family="sans-serif" font-size="16" font-weight="bold" fill="#dc2626">Drift of boat: x = (u - v sin θ) × t</text>
+  <rect x="50" y="250" width="500" height="90" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2"/>
+  <text x="70" y="280" font-family="sans-serif" font-size="14" fill="#1e3a8a">Zero Drift Crossing (v &gt; u): sin θ = u / v</text>
+  <text x="70" y="310" font-family="sans-serif" font-size="14" fill="#1e3a8a">Resultant velocity (zero drift): v_res = √(v² - u²)</text>
+</svg>

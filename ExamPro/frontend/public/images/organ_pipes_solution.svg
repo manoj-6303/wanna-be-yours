@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="180" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">Organ Pipes Resonance</text>
+  <text x="60" y="125" font-family="sans-serif" font-size="15" font-weight="bold" fill="#2563eb">Open Pipe (both ends open): f_n = n (v / 2L)  [n = 1, 2, 3...]</text>
+  <text x="80" y="155" font-family="sans-serif" font-size="14" fill="#334155">Fundamental: f_1 = v / 2L | All harmonics are present.</text>
+  
+  <text x="60" y="195" font-family="sans-serif" font-size="15" font-weight="bold" fill="#dc2626">Closed Pipe (one end closed): f_n = (2n - 1) (v / 4L)  [n = 1, 2...]</text>
+  <text x="80" y="225" font-family="sans-serif" font-size="14" fill="#334155">Fundamental: f_1 = v / 4L | Only odd harmonics are present.</text>
+
+  <rect x="50" y="255" width="500" height="85" rx="8" fill="#fcf6e8" stroke="#fde68a" stroke-width="2"/>
+  <text x="70" y="285" font-family="sans-serif" font-size="13" fill="#78350f">End Correction: L_effective = L + 0.6 R (Closed) | L + 1.2 R (Open)</text>
+  <text x="70" y="310" font-family="sans-serif" font-size="13" fill="#78350f">Speed of sound in gases (Laplace): v = √(γ P / ρ) = √(γ R T / M)</text>
+</svg>

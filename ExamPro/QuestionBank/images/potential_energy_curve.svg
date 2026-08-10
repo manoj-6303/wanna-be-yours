@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <!-- Title -->
+  <text x="130" y="25" font-family="sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Potential Energy (U) vs Position (x)</text>
+
+  <!-- Axes -->
+  <line x1="60" y1="320" x2="560" y2="320" stroke="#0f172a" stroke-width="2.5"/>
+  <line x1="60" y1="320" x2="60" y2="40" stroke="#0f172a" stroke-width="2.5"/>
+  <text x="545" y="338" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">x</text>
+  <text x="20" y="45" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">U(x)</text>
+
+  <!-- PE curve: well shape (double hump) -->
+  <path d="M 60 80 Q 120 340 200 200 Q 280 60 360 200 Q 440 340 520 100" fill="none" stroke="#2563eb" stroke-width="3.5"/>
+
+  <!-- Total energy line -->
+  <line x1="60" y1="170" x2="560" y2="170" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="8"/>
+  <text x="430" y="162" font-family="sans-serif" font-size="14" font-weight="bold" fill="#dc2626">E (Total energy)</text>
+
+  <!-- Turning points where E = U -->
+  <circle cx="145" cy="170" r="6" fill="#dc2626"/>
+  <circle cx="455" cy="170" r="6" fill="#dc2626"/>
+  <text x="108" y="163" font-family="sans-serif" font-size="11" fill="#dc2626">TP₁</text>
+  <text x="460" y="163" font-family="sans-serif" font-size="11" fill="#dc2626">TP₂</text>
+
+  <!-- Min PE marker -->
+  <circle cx="200" cy="200" r="6" fill="#059669"/>
+  <line x1="200" y1="200" x2="200" y2="320" stroke="#059669" stroke-width="1.5" stroke-dasharray="4"/>
+  <text x="170" y="345" font-family="sans-serif" font-size="12" font-weight="bold" fill="#059669">x₁ (stable eq.)</text>
+
+  <!-- Max PE marker (local max) -->
+  <circle cx="280" cy="60" r="6" fill="#f59e0b"/>
+  <line x1="280" y1="60" x2="280" y2="320" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4"/>
+  <text x="253" y="345" font-family="sans-serif" font-size="12" font-weight="bold" fill="#f59e0b">x₂ (unstable eq.)</text>
+
+  <!-- KE region indicator -->
+  <line x1="200" y1="200" x2="200" y2="170" stroke="#7c3aed" stroke-width="2"/>
+  <text x="205" y="190" font-family="sans-serif" font-size="12" font-weight="bold" fill="#7c3aed">KE = E − U</text>
+
+  <!-- Bound region bracket -->
+  <path d="M 145 355 L 145 365 L 455 365 L 455 355" fill="none" stroke="#475569" stroke-width="1.5"/>
+  <text x="240" y="385" font-family="sans-serif" font-size="12" fill="#475569">Bound (oscillating) region</text>
+</svg>

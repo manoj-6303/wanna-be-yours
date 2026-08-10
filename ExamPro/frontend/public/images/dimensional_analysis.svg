@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <!-- Base Units -->
+  <rect x="50" y="120" width="100" height="60" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="70" y="155" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1e3a8a">Base: M, L, T</text>
+
+  <!-- Arrow -->
+  <path d="M 150 150 L 250 150 M 235 145 L 250 150 L 235 155" stroke="#475569" stroke-width="2.5" fill="none"/>
+
+  <!-- Derived Quantities -->
+  <rect x="250" y="120" width="300" height="180" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="270" y="160" font-family="sans-serif" font-size="15" font-weight="bold" fill="#0f172a">Derived Variables dimensions:</text>
+  <text x="270" y="200" font-family="sans-serif" font-size="14" fill="#ef4444">Viscosity [η] = [M L^-1 T^-1]</text>
+  <text x="270" y="240" font-family="sans-serif" font-size="14" fill="#059669">Permittivity [ε_0] = [M^-1 L^-3 T^4 I^2]</text>
+  <text x="270" y="280" font-family="sans-serif" font-size="14" fill="#2563eb">Permeability [μ_0] = [M L T^-2 I^-2]</text>
+</svg>

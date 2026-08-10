@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <!-- Ceiling Support -->
+  <line x1="200" y1="80" x2="400" y2="80" stroke="#0f172a" stroke-width="4"/>
+  <path d="M 220 80 L 210 70 M 270 80 L 260 70 M 320 80 L 310 70 M 370 80 L 360 70" stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- Vertical reference line -->
+  <line x1="300" y1="80" x2="300" y2="320" stroke="#64748b" stroke-dasharray="6 4" stroke-width="1.5"/>
+
+  <!-- String of length L -->
+  <line x1="300" y1="80" x2="220" y2="280" stroke="#475569" stroke-width="2"/>
+  <text x="240" y="170" font-family="sans-serif" font-size="14" font-weight="bold" fill="#475569">L</text>
+
+  <!-- Deflection angle θ -->
+  <path d="M 300 130 A 50 50 0 0 0 280 128" fill="none" stroke="#2563eb" stroke-width="2"/>
+  <text x="285" y="150" font-family="sans-serif" font-size="14" font-weight="bold" fill="#2563eb">θ</text>
+
+  <!-- Bob of mass m -->
+  <circle cx="220" cy="280" r="18" fill="#f8fafc" stroke="#0f172a" stroke-width="3"/>
+  <text x="212" y="286" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">m</text>
+
+  <!-- Force vector (Gravity mg) -->
+  <path d="M 220 280 L 220 350 M 215 340 L 220 350 L 225 340" stroke="#dc2626" stroke-width="2" fill="none"/>
+  <text x="230" y="340" font-family="sans-serif" font-size="14" font-weight="bold" fill="#dc2626">mg</text>
+</svg>

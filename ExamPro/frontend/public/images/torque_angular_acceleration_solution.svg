@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="180" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">Torque &amp; Rotational Dynamics</text>
+  <text x="60" y="125" font-family="sans-serif" font-size="15" font-weight="bold" fill="#2563eb">Torque: τ = r × F = r F sin φ = I α</text>
+  <text x="60" y="165" font-family="sans-serif" font-size="15" font-weight="bold" fill="#16a34a">Angular Momentum: L = r × p = I ω</text>
+  <text x="60" y="205" font-family="sans-serif" font-size="15" font-weight="bold" fill="#dc2626">Rotational Kinetic Energy: K_rot = ½ I ω²</text>
+  <rect x="50" y="245" width="500" height="95" rx="8" fill="#fff1f2" stroke="#fecdd3" stroke-width="2"/>
+  <text x="70" y="275" font-family="sans-serif" font-size="13" fill="#9f1239">Conservation of Angular Momentum: L_i = L_f if τ_ext = 0</text>
+  <text x="70" y="305" font-family="sans-serif" font-size="13" fill="#9f1239">Power delivered: P = τ · ω | Work done: W = ∫ τ dθ</text>
+</svg>

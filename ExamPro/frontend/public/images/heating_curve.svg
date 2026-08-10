@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <line x1="80" y1="340" x2="520" y2="340" stroke="#0f172a" stroke-width="3"/>
+  <line x1="80" y1="340" x2="80" y2="60" stroke="#0f172a" stroke-width="3"/>
+  <path d="M80 320 L160 260 L280 260 L360 140 L480 140 L520 80" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <text x="460" y="375" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">Heat Added (Q)</text>
+  <text x="20" y="80" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">Temp (T)</text>
+</svg>

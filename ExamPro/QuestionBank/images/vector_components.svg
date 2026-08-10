@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <!-- Coordinate Axes -->
+  <line x1="100" y1="300" x2="480" y2="300" stroke="#0f172a" stroke-width="2"/>
+  <line x1="100" y1="300" x2="100" y2="80" stroke="#0f172a" stroke-width="2"/>
+  <text x="460" y="325" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">X</text>
+  <text x="75" y="90" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">Y</text>
+
+  <!-- Vector V -->
+  <path d="M 100 300 L 380 120 L 364 123 M 380 120 L 372 136" stroke="#2563eb" stroke-width="4" fill="none"/>
+  <text x="240" y="180" font-family="sans-serif" font-size="18" font-weight="bold" fill="#2563eb">A</text>
+
+  <!-- Components -->
+  <line x1="380" y1="120" x2="380" y2="300" stroke="#94a3b8" stroke-dasharray="4"/>
+  <line x1="100" y1="120" x2="380" y2="120" stroke="#94a3b8" stroke-dasharray="4"/>
+  
+  <text x="220" y="325" font-family="sans-serif" font-size="15" font-weight="bold" fill="#059669">A_x = A cos θ</text>
+  <text x="110" y="200" font-family="sans-serif" font-size="15" font-weight="bold" fill="#dc2626">A_y = A sin θ</text>
+
+  <!-- Angle theta -->
+  <path d="M 150 300 A 50 50 0 0 0 142 273" fill="none" stroke="#0f172a" stroke-width="2"/>
+  <text x="160" y="285" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">θ</text>
+</svg>

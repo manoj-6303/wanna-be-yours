@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="180" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">Position-Time (x-t) Graph Analysis</text>
+  <text x="60" y="130" font-family="sans-serif" font-size="16" font-weight="bold" fill="#2563eb">Slope of x-t curve = Velocity (v = dx/dt)</text>
+  <text x="60" y="180" font-family="sans-serif" font-size="16" font-weight="bold" fill="#16a34a">Region OA: Positive constant slope → Constant positive velocity</text>
+  <text x="60" y="220" font-family="sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Region AB: Zero slope (horizontal line) → Zero velocity (At rest)</text>
+  <text x="60" y="260" font-family="sans-serif" font-size="16" font-weight="bold" fill="#dc2626">Region BC: Negative constant slope → Constant negative velocity</text>
+  <rect x="50" y="290" width="500" height="55" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2"/>
+  <text x="70" y="320" font-family="sans-serif" font-size="14" fill="#1e3a8a">Average Velocity = Total Displacement / Total Time</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="110" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">Potential Energy & Equilibrium</text>
+  <text x="60" y="115" font-family="sans-serif" font-size="15" font-weight="bold" fill="#2563eb">F = −dU/dx  (force is negative slope of U-x curve)</text>
+  <text x="60" y="150" font-family="sans-serif" font-size="15" font-weight="bold" fill="#16a34a">Stable equilibrium: d²U/dx² &gt; 0  (U is minimum)</text>
+  <text x="60" y="185" font-family="sans-serif" font-size="15" font-weight="bold" fill="#dc2626">Unstable equilibrium: d²U/dx² &lt; 0  (U is maximum)</text>
+  <text x="60" y="220" font-family="sans-serif" font-size="15" font-weight="bold" fill="#7c3aed">Neutral equilibrium: d²U/dx² = 0  (U is constant)</text>
+  <rect x="50" y="248" width="500" height="100" rx="8" fill="#fef3c7" stroke="#fde68a" stroke-width="2"/>
+  <text x="70" y="278" font-family="sans-serif" font-size="13" fill="#78350f">Turning points: where KE = 0  →  U(x) = E_total</text>
+  <text x="70" y="308" font-family="sans-serif" font-size="13" fill="#78350f">Max KE at equilibrium (bottom of potential well)</text>
+  <text x="70" y="338" font-family="sans-serif" font-size="13" fill="#78350f">Particle bound if E &lt; U_max (cannot escape well)</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="150" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">Surface Tension &amp; Capillarity</text>
+  <text x="60" y="120" font-family="sans-serif" font-size="15" font-weight="bold" fill="#2563eb">Excess Pressure in Liquid Drop: ΔP = 2 S / R</text>
+  <text x="60" y="160" font-family="sans-serif" font-size="15" font-weight="bold" fill="#dc2626">Excess Pressure in Soap Bubble: ΔP = 4 S / R</text>
+  <text x="60" y="200" font-family="sans-serif" font-size="15" font-weight="bold" fill="#16a34a">Capillary Rise Equation: h = (2 S cos θ) / (r ρ g)</text>
+  <rect x="50" y="240" width="500" height="100" rx="8" fill="#fef3c7" stroke="#fde68a" stroke-width="2"/>
+  <text x="70" y="270" font-family="sans-serif" font-size="14" fill="#78350f">Work done in blowing bubble: W = 8 π R² S</text>
+  <text x="70" y="300" font-family="sans-serif" font-size="14" fill="#78350f">Reynolds Number: Re = (ρ v d) / η | (Re &lt; 1000: Streamline, Re &gt; 2000: Turbulent)</text>
+</svg>

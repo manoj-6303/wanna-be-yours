@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <!-- Fixed Pulley/Flywheel -->
+  <circle cx="300" cy="200" r="100" fill="#f8fafc" stroke="#0f172a" stroke-width="4"/>
+  <circle cx="300" cy="200" r="10" fill="#0f172a"/>
+  
+  <!-- Wrapped String pulling down -->
+  <line x1="400" y1="200" x2="400" y2="350" stroke="#475569" stroke-width="3"/>
+  <path d="M 400 350 L 400 365 M 395 353 L 400 365 L 405 353" stroke="#ef4444" stroke-width="3" fill="none"/>
+  <text x="415" y="330" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ef4444">Force = F</text>
+  
+  <!-- Radius R -->
+  <line x1="300" y1="200" x2="400" y2="200" stroke="#0f172a" stroke-width="2" stroke-dasharray="4"/>
+  <text x="340" y="190" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">R</text>
+
+  <!-- Flywheel label -->
+  <text x="210" y="150" font-family="sans-serif" font-size="14" font-weight="bold" fill="#475569">Flywheel (I)</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="180" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">Inclined Plane Dynamics</text>
+  <text x="60" y="125" font-family="sans-serif" font-size="15" font-weight="bold" fill="#2563eb">Normal Force: N = m g cos θ</text>
+  <text x="60" y="165" font-family="sans-serif" font-size="15" font-weight="bold" fill="#16a34a">Gravity along incline: F_g = m g sin θ</text>
+  <text x="60" y="205" font-family="sans-serif" font-size="15" font-weight="bold" fill="#dc2626">Limiting Friction: f_max = μ_s N = μ_s m g cos θ</text>
+  <rect x="50" y="245" width="500" height="95" rx="8" fill="#fdf2f8" stroke="#fbcfe8" stroke-width="2"/>
+  <text x="70" y="275" font-family="sans-serif" font-size="13" fill="#9d174d">Angle of Repose (sliding starts): tan θ_c = μ_s</text>
+  <text x="70" y="305" font-family="sans-serif" font-size="13" fill="#9d174d">Acceleration down plane: a = g (sin θ - μ_k cos θ) if θ &gt; θ_c</text>
+</svg>

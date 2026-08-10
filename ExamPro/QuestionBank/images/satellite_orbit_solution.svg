@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="170" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">Satellite Orbital Energies</text>
+  <text x="70" y="130" font-family="sans-serif" font-size="16" font-weight="bold" fill="#2563eb">Kinetic Energy: K = (1/2) m v_o² = G M m / (2r)</text>
+  <text x="70" y="180" font-family="sans-serif" font-size="16" font-weight="bold" fill="#dc2626">Potential Energy: U = -G M m / r</text>
+  <text x="70" y="230" font-family="sans-serif" font-size="16" font-weight="bold" fill="#16a34a">Total Energy: E = K + U = -G M m / (2r)</text>
+  <rect x="60" y="270" width="480" height="70" rx="8" fill="#fef3c7" stroke="#fde68a" stroke-width="2"/>
+  <text x="80" y="300" font-family="sans-serif" font-size="14" font-weight="bold" fill="#92400e">Binding Energy: E_b = -E = G M m / (2r)</text>
+  <text x="80" y="325" font-family="sans-serif" font-size="14" fill="#92400e">Relations: U = -2 K | E = -K = U / 2</text>
+</svg>

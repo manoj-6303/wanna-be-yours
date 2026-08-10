@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="180" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">Vector Components &amp; Unit Vectors</text>
+  <text x="60" y="125" font-family="sans-serif" font-size="15" font-weight="bold" fill="#2563eb">Vector Representation: A = A_x î + A_y ĵ + A_z k̂</text>
+  <text x="60" y="165" font-family="sans-serif" font-size="15" font-weight="bold" fill="#16a34a">Magnitude: |A| = √(A_x² + A_y² + A_z²)</text>
+  <text x="60" y="205" font-family="sans-serif" font-size="15" font-weight="bold" fill="#dc2626">Unit Vector (Direction): â = A / |A|</text>
+  <rect x="50" y="245" width="500" height="95" rx="8" fill="#fef3c7" stroke="#fde68a" stroke-width="2"/>
+  <text x="70" y="275" font-family="sans-serif" font-size="14" fill="#78350f">Direction Cosines: cos α = A_x/|A|, cos β = A_y/|A|, cos γ = A_z/|A|</text>
+  <text x="70" y="305" font-family="sans-serif" font-size="14" fill="#78350f">Sum of squares of direction cosines: cos² α + cos² β + cos² γ = 1</text>
+</svg>

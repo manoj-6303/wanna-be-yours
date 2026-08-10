@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <!-- Circle path -->
+  <circle cx="300" cy="200" r="100" fill="none" stroke="#94a3b8" stroke-dasharray="6 4" stroke-width="2"/>
+  
+  <!-- Center O -->
+  <circle cx="300" cy="200" r="5" fill="#0f172a"/>
+  <text x="280" y="195" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">O</text>
+
+  <!-- Radius R -->
+  <line x1="300" y1="200" x2="386" y2="150" stroke="#475569" stroke-width="2"/>
+  <text x="350" y="190" font-family="sans-serif" font-size="14" font-weight="bold" fill="#475569">R</text>
+
+  <!-- Particle P -->
+  <circle cx="386" cy="150" r="10" fill="#2563eb"/>
+  <text x="400" y="145" font-family="sans-serif" font-size="14" font-weight="bold" fill="#2563eb">P</text>
+
+  <!-- Centripetal Acceleration (towards center) -->
+  <path d="M 386 150 L 325 185 L 340 188 M 325 185 L 333 173" stroke="#059669" stroke-width="3" fill="none"/>
+  <text x="315" y="170" font-family="sans-serif" font-size="14" font-weight="bold" fill="#059669">a_c</text>
+
+  <!-- Tangential Velocity -->
+  <path d="M 386 150 L 436 236 L 418 226 M 436 236 L 431 217" stroke="#ef4444" stroke-width="3" fill="none"/>
+  <text x="445" y="230" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ef4444">v</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="180" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">Vernier Caliper reading</text>
+  <text x="60" y="125" font-family="sans-serif" font-size="15" font-weight="bold" fill="#2563eb">Least Count: LC = 1 MSD - 1 VSD</text>
+  <text x="80" y="155" font-family="sans-serif" font-size="14" fill="#334155">If N Vernier divisions match (N-1) Main scale divisions:</text>
+  <text x="80" y="180" font-family="sans-serif" font-size="14" fill="#334155">LC = 1 MSD / N  (Typically 0.1 mm for 10 divisions matching 9 mm)</text>
+  
+  <text x="60" y="220" font-family="sans-serif" font-size="15" font-weight="bold" fill="#dc2626">Total Reading = MSR + (VSR * LC)</text>
+  <rect x="50" y="255" width="500" height="85" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2"/>
+  <text x="70" y="285" font-family="sans-serif" font-size="13" fill="#1e3a8a">Zero Error: Corrected Reading = Measured Reading - Zero Error</text>
+  <text x="70" y="310" font-family="sans-serif" font-size="13" fill="#1e3a8a">Positive zero error: subtract | Negative zero error: add</text>
+</svg>

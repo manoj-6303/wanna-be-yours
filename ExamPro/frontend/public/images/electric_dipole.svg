@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <line x1="200" y1="200" x2="400" y2="200" stroke="#0f172a" stroke-width="4"/>
+  <circle cx="200" cy="200" r="25" fill="#2563eb"/>
+  <text x="193" y="208" font-family="sans-serif" font-size="24" font-weight="bold" fill="#ffffff">-</text>
+  <circle cx="400" cy="200" r="25" fill="#dc2626"/>
+  <text x="393" y="208" font-family="sans-serif" font-size="24" font-weight="bold" fill="#ffffff">+</text>
+  <path d="M200 130 L400 130 L385 120 M400 130 L385 140" stroke="#16a34a" stroke-width="4" fill="none"/>
+</svg>

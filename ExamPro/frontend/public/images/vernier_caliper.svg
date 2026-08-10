@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <!-- Main Scale (top) -->
+  <rect x="50" y="80" width="500" height="40" fill="#f1f5f9" stroke="#0f172a" stroke-width="2"/>
+  
+  <!-- Main Scale Markings (every 10 units is 1 cm) -->
+  <line x1="100" y1="80" x2="100" y2="105" stroke="#0f172a" stroke-width="2"/>
+  <text x="95" y="70" font-family="sans-serif" font-size="12" font-weight="bold" fill="#0f172a">0</text>
+  
+  <line x1="200" y1="80" x2="200" y2="105" stroke="#0f172a" stroke-width="2"/>
+  <text x="195" y="70" font-family="sans-serif" font-size="12" font-weight="bold" fill="#0f172a">1 cm</text>
+
+  <line x1="300" y1="80" x2="300" y2="105" stroke="#0f172a" stroke-width="2"/>
+  <text x="295" y="70" font-family="sans-serif" font-size="12" font-weight="bold" fill="#0f172a">2 cm</text>
+
+  <!-- Sub-divisions (mm) -->
+  <line x1="110" y1="80" x2="110" y2="95" stroke="#475569" stroke-width="1"/>
+  <line x1="120" y1="80" x2="120" y2="95" stroke="#475569" stroke-width="1"/>
+  <line x1="130" y1="80" x2="130" y2="95" stroke="#475569" stroke-width="1"/>
+  <line x1="140" y1="80" x2="140" y2="95" stroke="#475569" stroke-width="1"/>
+  <line x1="150" y1="80" x2="150" y2="100" stroke="#475569" stroke-width="1.5"/>
+  <line x1="160" y1="80" x2="160" y2="95" stroke="#475569" stroke-width="1"/>
+  <line x1="170" y1="80" x2="170" y2="95" stroke="#475569" stroke-width="1"/>
+  <line x1="180" y1="80" x2="180" y2="95" stroke="#475569" stroke-width="1"/>
+  <line x1="190" y1="80" x2="190" y2="95" stroke="#475569" stroke-width="1"/>
+
+  <!-- Vernier Scale (bottom sliding scale) -->
+  <rect x="180" y="120" width="180" height="40" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="190" y="155" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ef4444">Vernier Scale</text>
+
+  <!-- Vernier divisions: 10 divisions spanning 9 mm -->
+  <line x1="180" y1="120" x2="180" y2="135" stroke="#ef4444" stroke-width="2"/>
+  <text x="175" y="175" font-family="sans-serif" font-size="11" fill="#ef4444">0</text>
+  
+  <line x1="189" y1="120" x2="189" y2="132" stroke="#ef4444" stroke-width="1"/>
+  <line x1="198" y1="120" x2="198" y2="132" stroke="#ef4444" stroke-width="1"/>
+  <line x1="207" y1="120" x2="207" y2="132" stroke="#ef4444" stroke-width="1"/>
+  <line x1="216" y1="120" x2="216" y2="132" stroke="#ef4444" stroke-width="1"/>
+  <line x1="225" y1="120" x2="225" y2="135" stroke="#ef4444" stroke-width="1.5"/>
+  
+  <!-- Division matching Main scale division (7th vernier matches 24.3 mm or similar) -->
+  <line x1="234" y1="120" x2="234" y2="132" stroke="#ef4444" stroke-width="1"/>
+  <line x1="243" y1="120" x2="243" y2="132" stroke="#ef4444" stroke-width="1"/>
+  <line x1="252" y1="120" x2="252" y2="132" stroke="#ef4444" stroke-width="1"/>
+  <line x1="261" y1="120" x2="261" y2="132" stroke="#ef4444" stroke-width="1"/>
+  <line x1="270" y1="120" x2="270" y2="135" stroke="#ef4444" stroke-width="2"/>
+  <text x="265" y="175" font-family="sans-serif" font-size="11" fill="#ef4444">10</text>
+</svg>

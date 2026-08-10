@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <!-- Inclined wedge -->
+  <path d="M 100 320 L 450 320 L 450 140 Z" fill="#f1f5f9" stroke="#0f172a" stroke-width="3"/>
+  <text x="140" y="310" font-family="sans-serif" font-size="16" font-weight="bold" fill="#0f172a">θ</text>
+
+  <!-- Block on incline -->
+  <g transform="translate(250, 243) rotate(-27)">
+    <rect x="-35" y="-35" width="70" height="70" rx="4" fill="#2563eb" stroke="#1d4ed8" stroke-width="2"/>
+    <text x="-12" y="5" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff">m</text>
+
+    <!-- Normal Force -->
+    <path d="M 0 -35 L 0 -105 M -6 -90 L 0 -105 L 6 -90" stroke="#059669" stroke-width="3" fill="none"/>
+    <text x="12" y="-90" font-family="sans-serif" font-size="15" font-weight="bold" fill="#059669">N</text>
+
+    <!-- Friction Force -->
+    <path d="M -35 35 L -105 35 M -90 29 L -105 35 L -90 41" stroke="#dc2626" stroke-width="3" fill="none"/>
+    <text x="-100" y="15" font-family="sans-serif" font-size="15" font-weight="bold" fill="#dc2626">f_s</text>
+  </g>
+
+  <!-- Gravity vector mg -->
+  <path d="M 265 200 L 265 300 M 260 285 L 265 300 L 270 285" stroke="#7c3aed" stroke-width="3" fill="none"/>
+  <text x="275" y="280" font-family="sans-serif" font-size="15" font-weight="bold" fill="#7c3aed">mg</text>
+</svg>

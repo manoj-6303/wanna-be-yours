@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <!-- Triangular Prism -->
+  <path d="M 150 320 L 450 320 L 300 100 Z" fill="#eff6ff" stroke="#0f172a" stroke-width="3"/>
+  <text x="290" y="130" font-family="sans-serif" font-size="18" font-weight="bold" fill="#0f172a">A</text>
+
+  <!-- Incident Ray -->
+  <path d="M 70 280 L 225 212" fill="none" stroke="#2563eb" stroke-width="3"/>
+  
+  <!-- Ray inside prism -->
+  <path d="M 225 212 L 375 212" fill="none" stroke="#059669" stroke-width="3"/>
+
+  <!-- Emergent Ray -->
+  <path d="M 375 212 L 530 280" fill="none" stroke="#dc2626" stroke-width="3"/>
+
+  <!-- Angle labels -->
+  <text x="135" y="235" font-family="sans-serif" font-size="14" font-weight="bold" fill="#2563eb">i</text>
+  <text x="445" y="235" font-family="sans-serif" font-size="14" font-weight="bold" fill="#dc2626">e</text>
+  
+  <!-- Normals -->
+  <line x1="225" y1="212" x2="280" y2="300" stroke="#475569" stroke-dasharray="3"/>
+  <line x1="375" y1="212" x2="320" y2="300" stroke="#475569" stroke-dasharray="3"/>
+</svg>

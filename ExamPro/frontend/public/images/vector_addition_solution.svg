@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="200" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">Vector Addition Laws</text>
+  <text x="60" y="130" font-family="sans-serif" font-size="16" font-weight="bold" fill="#2563eb">Resultant Magnitude: R = √(A² + B² + 2 A B cos θ)</text>
+  <text x="60" y="180" font-family="sans-serif" font-size="16" font-weight="bold" fill="#059669">Angle of Resultant with A (α): tan α = (B sin θ) / (A + B cos θ)</text>
+  <text x="60" y="230" font-family="sans-serif" font-size="16" font-weight="bold" fill="#dc2626">Subtraction: |A - B| = √(A² + B² - 2 A B cos θ)</text>
+  <rect x="60" y="270" width="480" height="70" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2"/>
+  <text x="80" y="300" font-family="sans-serif" font-size="14" fill="#1e3a8a">Dot Product: A · B = A B cos θ (Scalar)</text>
+  <text x="80" y="325" font-family="sans-serif" font-size="14" fill="#1e3a8a">Cross Product: |A x B| = A B sin θ (Vector perpendicular to both)</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <!-- Support ceiling -->
+  <line x1="200" y1="50" x2="400" y2="50" stroke="#0f172a" stroke-width="4"/>
+  <line x1="300" y1="50" x2="300" y2="100" stroke="#475569" stroke-width="3"/>
+  
+  <!-- Pulley wheel -->
+  <circle cx="300" cy="120" r="30" fill="#94a3b8" stroke="#0f172a" stroke-width="3"/>
+  <circle cx="300" cy="120" r="6" fill="#0f172a"/>
+
+  <!-- Left block m1 -->
+  <line x1="270" y1="120" x2="270" y2="220" stroke="#0f172a" stroke-width="2"/>
+  <rect x="240" y="220" width="60" height="60" rx="4" fill="#2563eb" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="260" y="255" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff">m_1</text>
+  <text x="220" y="180" font-family="sans-serif" font-size="14" font-weight="bold" fill="#475569">T</text>
+  
+  <!-- Right block m2 -->
+  <line x1="330" y1="120" x2="330" y2="180" stroke="#0f172a" stroke-width="2"/>
+  <rect x="300" y="180" width="60" height="60" rx="4" fill="#dc2626" stroke="#b91c1c" stroke-width="2"/>
+  <text x="320" y="215" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff">m_2</text>
+  <text x="345" y="150" font-family="sans-serif" font-size="14" font-weight="bold" fill="#475569">T</text>
+</svg>

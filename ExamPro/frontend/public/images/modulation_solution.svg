@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="160" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">Amplitude Modulation (AM)</text>
+  <text x="70" y="130" font-family="sans-serif" font-size="16" font-weight="bold" fill="#2563eb">Modulation Index: μ = A_m / A_c</text>
+  <text x="70" y="170" font-family="sans-serif" font-size="16" font-weight="bold" fill="#2563eb">μ = (A_max - A_min) / (A_max + A_min)</text>
+  <text x="70" y="220" font-family="sans-serif" font-size="16" font-weight="bold" fill="#dc2626">Bandwidth = 2 f_m</text>
+  <text x="70" y="260" font-family="sans-serif" font-size="15" fill="#1e293b">Sideband Frequencies: USB = f_c + f_m , LSB = f_c - f_m</text>
+  <rect x="60" y="285" width="480" height="60" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2"/>
+  <text x="80" y="320" font-family="sans-serif" font-size="14" fill="#1e3a8a">Total AM Power: P_total = P_carrier * (1 + μ² / 2)</text>
+</svg>

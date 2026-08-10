@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="140" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">Fluid Dynamics &amp; Flow Laws</text>
+  <text x="60" y="120" font-family="sans-serif" font-size="15" font-weight="bold" fill="#2563eb">Equation of Continuity: A₁ v₁ = A₂ v₂ (Incompressible Flow)</text>
+  <text x="60" y="160" font-family="sans-serif" font-size="15" font-weight="bold" fill="#dc2626">Bernoulli's Equation: P + ½ ρ v² + ρ g h = Constant</text>
+  <text x="60" y="200" font-family="sans-serif" font-size="15" font-weight="bold" fill="#16a34a">Torricelli's Law of Efflux: v = √(2 g h)</text>
+  <rect x="50" y="240" width="500" height="100" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="2"/>
+  <text x="70" y="270" font-family="sans-serif" font-size="14" fill="#14532d">Venturimeter Speed: v₁ = √[ (2 g Δh) / ( (A₁/A²)² - 1 ) ]</text>
+  <text x="70" y="300" font-family="sans-serif" font-size="14" fill="#14532d">Viscous Force (Stokes' Law): F_v = 6 π η r v | Terminal Speed: v_t = 2 r² (ρ - σ) g / (9 η)</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="130" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">Work-Energy Key Formulae</text>
+  <text x="60" y="115" font-family="sans-serif" font-size="15" font-weight="bold" fill="#2563eb">Work: W = Fd cosθ = F⃗ · d⃗  (Joules)</text>
+  <text x="60" y="150" font-family="sans-serif" font-size="15" font-weight="bold" fill="#16a34a">Kinetic Energy: KE = ½mv²  = p²/2m</text>
+  <text x="60" y="185" font-family="sans-serif" font-size="15" font-weight="bold" fill="#dc2626">Work-Energy Theorem: W_net = ΔKE</text>
+  <text x="60" y="220" font-family="sans-serif" font-size="15" font-weight="bold" fill="#7c3aed">Power: P = W/t = F·v = Fv cosθ  (Watts)</text>
+  <rect x="50" y="248" width="500" height="100" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="2"/>
+  <text x="70" y="278" font-family="sans-serif" font-size="13" fill="#14532d">Variable force: W = ∫F dx  (area under F-x graph)</text>
+  <text x="70" y="308" font-family="sans-serif" font-size="13" fill="#14532d">Spring PE: U = ½kx²   |   Gravitational PE: U = mgh</text>
+  <text x="70" y="338" font-family="sans-serif" font-size="13" fill="#14532d">Conservative force: F = -dU/dx  (negative gradient of PE)</text>
+</svg>

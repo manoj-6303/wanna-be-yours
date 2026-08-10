@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="190" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">Spring-Mass System Dynamics</text>
+  <text x="60" y="125" font-family="sans-serif" font-size="15" font-weight="bold" fill="#2563eb">Restoring Force: F = -k x = m a</text>
+  <text x="60" y="165" font-family="sans-serif" font-size="15" font-weight="bold" fill="#16a34a">Angular Frequency: ω = √(k / m) | T = 2π √(m / k)</text>
+  <text x="60" y="205" font-family="sans-serif" font-size="15" font-weight="bold" fill="#dc2626">Total Energy: E = ½ k A² = ½ m v_max²</text>
+  <rect x="50" y="245" width="500" height="95" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="2"/>
+  <text x="70" y="275" font-family="sans-serif" font-size="13" fill="#14532d">Springs in Series: 1/k_eq = 1/k_1 + 1/k_2</text>
+  <text x="70" y="305" font-family="sans-serif" font-size="13" fill="#14532d">Springs in Parallel: k_eq = k_1 + k_2</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <!-- Principal Axis -->
+  <line x1="50" y1="200" x2="550" y2="200" stroke="#0f172a" stroke-width="2"/>
+  <text x="530" y="225" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">X</text>
+
+  <!-- Concave Mirror surface -->
+  <path d="M 450 80 Q 480 200 450 320" fill="none" stroke="#475569" stroke-width="6"/>
+  <!-- Mirror backing shading -->
+  <path d="M 453 85 L 458 90 M 456 125 L 461 130 M 458 165 L 463 170 M 458 205 L 463 210 M 458 245 L 463 250 M 456 285 L 461 290 M 453 315 L 458 320" stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- Center of Curvature C, Focus F -->
+  <circle cx="150" cy="200" r="4" fill="#0f172a"/>
+  <text x="145" y="225" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">C</text>
+
+  <circle cx="300" cy="200" r="4" fill="#0f172a"/>
+  <text x="295" y="225" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">F</text>
+  
+  <circle cx="450" cy="200" r="4" fill="#0f172a"/>
+  <text x="440" y="225" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">P</text>
+
+  <!-- Object at C -->
+  <path d="M 150 200 L 150 120" stroke="#2563eb" stroke-width="4"/>
+  <path d="M 145 135 L 150 120 L 155 135" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <text x="135" y="110" font-family="sans-serif" font-size="14" font-weight="bold" fill="#2563eb">Object</text>
+</svg>

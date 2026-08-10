@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="180" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">Diode Biasing Characteristics</text>
+  <text x="60" y="125" font-family="sans-serif" font-size="15" font-weight="bold" fill="#2563eb">Forward Bias: p connected to (+), n connected to (-)</text>
+  <text x="80" y="155" font-family="sans-serif" font-size="14" fill="#334155">Depletion layer width decreases. Resistance is very low.</text>
+  
+  <text x="60" y="195" font-family="sans-serif" font-size="15" font-weight="bold" fill="#dc2626">Reverse Bias: p connected to (-), n connected to (+)</text>
+  <text x="80" y="225" font-family="sans-serif" font-size="14" fill="#334155">Depletion layer width increases. Resistance is extremely high.</text>
+
+  <rect x="50" y="255" width="500" height="85" rx="8" fill="#fef3c7" stroke="#fde68a" stroke-width="2"/>
+  <text x="70" y="285" font-family="sans-serif" font-size="13" fill="#78350f">Ideal Diode: Forward bias = short circuit (zero resistance).</text>
+  <text x="70" y="310" font-family="sans-serif" font-size="13" fill="#78350f">Ideal Diode: Reverse bias = open circuit (infinite resistance).</text>
+</svg>

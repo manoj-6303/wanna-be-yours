@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="170" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">EM Spectrum Classification</text>
+  <text x="70" y="125" font-family="sans-serif" font-size="15" font-weight="bold" fill="#3b82f6">Radio Waves: λ &gt; 0.1 m (Broadcasting)</text>
+  <text x="70" y="160" font-family="sans-serif" font-size="15" font-weight="bold" fill="#6366f1">Microwaves: 1 mm - 0.1 m (Radar &amp; Ovens)</text>
+  <text x="70" y="195" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ef4444">Infrared (IR): 700 nm - 1 mm (Heat sensors)</text>
+  <text x="70" y="230" font-family="sans-serif" font-size="15" font-weight="bold" fill="#f59e0b">Visible Light: 400 nm - 700 nm (Human vision)</text>
+  <rect x="60" y="260" width="480" height="80" rx="8" fill="#f3e8ff" stroke="#d8b4fe" stroke-width="2"/>
+  <text x="80" y="285" font-family="sans-serif" font-size="14" font-weight="bold" fill="#6b21a8">Ultraviolet (UV): 1 nm - 400 nm (Water sterilization)</text>
+  <text x="80" y="310" font-family="sans-serif" font-size="14" font-weight="bold" fill="#047857">X-Rays (0.01 nm - 1 nm) | Gamma Rays (&lt; 0.01 nm)</text>
+</svg>

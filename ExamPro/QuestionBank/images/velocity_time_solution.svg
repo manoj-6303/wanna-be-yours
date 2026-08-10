@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="180" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">Velocity-Time (v-t) Graph Analysis</text>
+  <text x="60" y="130" font-family="sans-serif" font-size="16" font-weight="bold" fill="#2563eb">Slope of v-t curve = Acceleration (a = dv/dt)</text>
+  <text x="60" y="175" font-family="sans-serif" font-size="16" font-weight="bold" fill="#dc2626">Area under v-t curve = Displacement (s = ∫ v dt)</text>
+  <text x="60" y="220" font-family="sans-serif" font-size="16" font-weight="bold" fill="#16a34a">Total Distance = Sum of absolute areas (ignoring sign)</text>
+  <rect x="50" y="250" width="500" height="90" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="2"/>
+  <text x="70" y="280" font-family="sans-serif" font-size="13" fill="#14532d">Straight lines in v-t represent constant acceleration.</text>
+  <text x="70" y="310" font-family="sans-serif" font-size="13" fill="#14532d">Horizontal line in v-t represents uniform motion (a = 0).</text>
+</svg>

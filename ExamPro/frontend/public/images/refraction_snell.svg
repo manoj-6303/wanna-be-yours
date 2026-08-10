@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <!-- Interface -->
+  <line x1="50" y1="200" x2="550" y2="200" stroke="#475569" stroke-width="3"/>
+  <line x1="300" y1="50" x2="300" y2="350" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="280" y="75" font-family="sans-serif" font-size="13" fill="#0f172a">Normal</text>
+
+  <!-- Incident Ray -->
+  <path d="M 120 70 L 300 200" fill="none" stroke="#2563eb" stroke-width="3"/>
+  <path d="M 210 135 L 225 145 M 225 145 L 212 155" stroke="#2563eb" stroke-width="3" fill="none"/>
+  
+  <!-- Refracted Ray (bending towards normal, moving to denser) -->
+  <path d="M 300 200 L 380 340" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <path d="M 340 270 L 350 287 M 350 287 L 333 285" stroke="#dc2626" stroke-width="3" fill="none"/>
+
+  <!-- Angles -->
+  <path d="M 300 140 A 60 60 0 0 0 250 164" fill="none" stroke="#2563eb" stroke-width="2"/>
+  <text x="270" y="130" font-family="sans-serif" font-size="14" font-weight="bold" fill="#2563eb">i</text>
+  
+  <path d="M 300 250 A 50 50 0 0 0 329 249" fill="none" stroke="#dc2626" stroke-width="2"/>
+  <text x="315" y="275" font-family="sans-serif" font-size="14" font-weight="bold" fill="#dc2626">r</text>
+
+  <!-- Medium labels -->
+  <text x="70" y="120" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1e293b">Medium 1 (n_1)</text>
+  <text x="70" y="280" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1e293b">Medium 2 (n_2)</text>
+</svg>

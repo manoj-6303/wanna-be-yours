@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <!-- Fission schematic -->
+  <g transform="translate(150, 200)">
+    <circle cx="0" cy="0" r="30" fill="#f87171" stroke="#dc2626" stroke-width="2"/>
+    <text x="-25" y="5" font-family="sans-serif" font-size="12" font-weight="bold" fill="#7f1d1d">Heavy (U)</text>
+    
+    <!-- Arrows splitting -->
+    <path d="M 35 0 L 85 -35 M 72 -33 L 85 -35 L 80 -21" stroke="#475569" stroke-width="2" fill="none"/>
+    <path d="M 35 0 L 85 35 M 80 21 L 85 35 L 72 33" stroke="#475569" stroke-width="2" fill="none"/>
+    
+    <!-- Products -->
+    <circle cx="105" cy="-45" r="18" fill="#fbbf24" stroke="#d97706" stroke-width="2"/>
+    <circle cx="105" cy="45" r="18" fill="#fbbf24" stroke="#d97706" stroke-width="2"/>
+    <text x="95" y="-70" font-family="sans-serif" font-size="11" fill="#475569">Fragment 1</text>
+    <text x="95" y="80" font-family="sans-serif" font-size="11" fill="#475569">Fragment 2</text>
+  </g>
+
+  <!-- Fusion schematic -->
+  <g transform="translate(420, 200)">
+    <!-- Reactants -->
+    <circle cx="-50" cy="-35" r="12" fill="#60a5fa" stroke="#2563eb" stroke-width="2"/>
+    <circle cx="-50" cy="35" r="12" fill="#60a5fa" stroke="#2563eb" stroke-width="2"/>
+    <text x="-80" y="-55" font-family="sans-serif" font-size="11" fill="#475569">Light (H-2)</text>
+    <text x="-80" y="60" font-family="sans-serif" font-size="11" fill="#475569">Light (H-3)</text>
+
+    <!-- Arrows merging -->
+    <path d="M -35 -25 L 10 -5 M -2 -14 L 10 -5 M 5 -18 L 10 -5" stroke="#475569" stroke-width="2" fill="none"/>
+    <path d="M -35 25 L 10 5 M 5 18 L 10 5 M -2 14 L 10 5" stroke="#475569" stroke-width="2" fill="none"/>
+
+    <!-- Product -->
+    <circle cx="45" cy="0" r="22" fill="#34d399" stroke="#059669" stroke-width="2"/>
+    <text x="30" y="5" font-family="sans-serif" font-size="12" font-weight="bold" fill="#064e3b">He-4</text>
+  </g>
+
+  <text x="110" y="70" font-family="sans-serif" font-size="18" font-weight="bold" fill="#dc2626">Nuclear Fission</text>
+  <text x="380" y="70" font-family="sans-serif" font-size="18" font-weight="bold" fill="#059669">Nuclear Fusion</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <!-- Axes -->
+  <line x1="80" y1="320" x2="520" y2="320" stroke="#0f172a" stroke-width="3"/>
+  <line x1="80" y1="320" x2="80" y2="60" stroke="#0f172a" stroke-width="3"/>
+  <text x="460" y="350" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">Time (t)</text>
+  <text x="35" y="80" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">Nuclei (N)</text>
+
+  <!-- Curve: N_0 at t=0, decays exponentially -->
+  <path d="M 80 100 Q 150 250 480 305" fill="none" stroke="#dc2626" stroke-width="4"/>
+
+  <!-- N0 label -->
+  <circle cx="80" cy="100" r="5" fill="#2563eb"/>
+  <text x="50" y="105" font-family="sans-serif" font-size="14" font-weight="bold" fill="#2563eb">N_0</text>
+
+  <!-- N0/2 (half life) -->
+  <line x1="80" y1="200" x2="200" y2="200" stroke="#475569" stroke-width="1.5" stroke-dasharray="4"/>
+  <line x1="200" y1="200" x2="200" y2="320" stroke="#475569" stroke-width="1.5" stroke-dasharray="4"/>
+  <circle cx="200" cy="200" r="5" fill="#16a34a"/>
+  
+  <text x="40" y="205" font-family="sans-serif" font-size="13" fill="#475569">N_0/2</text>
+  <text x="185" y="340" font-family="sans-serif" font-size="13" font-weight="bold" fill="#16a34a">T_1/2</text>
+</svg>

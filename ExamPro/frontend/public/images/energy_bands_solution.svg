@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="180" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">Energy Band Theory</text>
+  <text x="60" y="125" font-family="sans-serif" font-size="15" font-weight="bold" fill="#2563eb">Insulators: E_g &gt; 3 eV (no conduction at room temp)</text>
+  <text x="60" y="165" font-family="sans-serif" font-size="15" font-weight="bold" fill="#16a34a">Semiconductors: E_g ≈ 1 eV (Si = 1.1 eV, Ge = 0.7 eV)</text>
+  <text x="60" y="205" font-family="sans-serif" font-size="15" font-weight="bold" fill="#dc2626">Conductors: E_g = 0 (bands overlap, high conductivity)</text>
+  <rect x="50" y="245" width="500" height="95" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2"/>
+  <text x="70" y="275" font-family="sans-serif" font-size="13" fill="#1e3a8a">n-type Doping: Donor energy level lies just below Conduction Band.</text>
+  <text x="70" y="305" font-family="sans-serif" font-size="13" fill="#1e3a8a">p-type Doping: Acceptor energy level lies just above Valence Band.</text>
+</svg>

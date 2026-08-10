@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <!-- Original Rod -->
+  <rect x="100" y="120" width="300" height="30" fill="#cbd5e1" stroke="#475569" stroke-width="2"/>
+  <text x="210" y="140" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">Length L_0 (at T_0)</text>
+
+  <!-- Expanded Rod -->
+  <rect x="100" y="220" width="300" height="30" fill="#cbd5e1" stroke="#475569" stroke-width="2"/>
+  <rect x="400" y="220" width="80" height="30" fill="#fee2e2" stroke="#ef4444" stroke-width="2" stroke-dasharray="4 2"/>
+  <text x="210" y="240" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">Length L_0</text>
+  <text x="420" y="240" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ef4444">ΔL</text>
+
+  <!-- Indicators -->
+  <line x1="400" y1="210" x2="400" y2="270" stroke="#ef4444" stroke-dasharray="4 2"/>
+  <line x1="480" y1="210" x2="480" y2="270" stroke="#ef4444" stroke-dasharray="4 2"/>
+  
+  <text x="200" y="310" font-family="sans-serif" font-size="16" font-weight="bold" fill="#0f172a">At temperature T_0 + ΔT</text>
+</svg>

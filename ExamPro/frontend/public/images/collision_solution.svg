@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" style="background:#ffffff">
+  <rect x="30" y="30" width="540" height="340" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="170" y="70" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">Collision &amp; Momentum</text>
+  <text x="70" y="130" font-family="sans-serif" font-size="16" font-weight="bold" fill="#2563eb">Momentum Conservation: m₁ u₁ + m₂ u₂ = m₁ v₁ + m₂ v₂</text>
+  <text x="70" y="180" font-family="sans-serif" font-size="16" font-weight="bold" fill="#c2410c">Coefficient of Restitution: e = (v₂ - v₁) / (u₁ - u₂)</text>
+  <text x="70" y="230" font-family="sans-serif" font-size="15" fill="#1e293b">Elastic (e = 1): KE conserved | Inelastic (0 &lt; e &lt; 1) | Perfectly Inelastic (e = 0)</text>
+  <rect x="60" y="270" width="480" height="70" rx="8" fill="#fef3c7" stroke="#fde68a" stroke-width="2"/>
+  <text x="80" y="300" font-family="sans-serif" font-size="14" font-weight="bold" fill="#92400e">KE Loss in Perfectly Inelastic Collision (e = 0):</text>
+  <text x="80" y="325" font-family="sans-serif" font-size="14" fill="#92400e">ΔK = ½ [ (m₁ m₂) / (m₁ + m₂) ] (u₁ - u₂)²</text>
+</svg>
