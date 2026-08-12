@@ -1,0 +1,1292 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "For the reaction N2O4 <=> 2NO2, the Gibbs free energy variation graph is plotted in the diagram. Identify the correct statements: (see diagram)",
+    "questionImage": "equilibrium hard/equilibrium_hard_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "D and E only",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A and D only",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "B and C only",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "C and E only",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Statement D is correct because standard free energy change delta G° = -2.303 * R * T * log K. Here delta G° for 1 mole of N2O4 dissociated is -0.84 kJ/mol. Statement E is correct because for 2 moles of NO2 formed/equilibrated, the Gibbs energy change is -6.24 kJ/mol.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "equilibrium2026hard000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "For the decomposition reaction of sulfur trioxide shown in the diagram, calculate the value of Kc for the reverse reaction: (see diagram)",
+    "questionImage": "equilibrium hard/equilibrium_hard_q2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "416",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "41.6",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "4.9",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "490",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: The forward reaction is SO3 <=> SO2 + 0.5 O2 with Kc = 4.9 * 10^-2. The reverse reaction is 2SO2 + O2 <=> 2SO3. Its equilibrium constant Kc' = 1 / Kc^2 = 1 / (4.9 * 10^-2)^2 = 1 / (24.01 * 10^-4) = 10000 / 24.01 = 416.5 ≈ 416.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 April Question Bank - MathonGo.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "equilibrium2026hard000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "For the given hypothetical sequence of equilibrium reactions shown in the diagram, what is the overall equilibrium constant for X <=> W? (see diagram)",
+    "questionImage": "equilibrium hard/equilibrium_hard_q3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "8.0",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "6.0",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "12.0",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "7.0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: The overall reaction X <=> W is obtained by adding the three individual reactions: (1) X <=> Y (K1 = 1.0), (2) Y <=> Z (K2 = 2.0), (3) Z <=> W (K3 = 4.0). When chemical equations are added, their equilibrium constants multiply: K = K1 * K2 * K3 = 1.0 * 2.0 * 4.0 = 8.0.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 April Question Bank - MathonGo.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "equilibrium2026hard000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "At 300 K, the equilibrium constant for the reaction A + B <=> C + D is 10. If the initial concentration of all species is 1 M, what is the reaction quotient Q and the direction of reaction?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Q = 1, reaction proceeds forward",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Q = 10, reaction remains at equilibrium",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Q = 0.1, reaction proceeds backward",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Q = 2, reaction proceeds backward",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "equilibrium2026hard000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "For the reaction N2(g) + 3H2(g) <=> 2NH3(g), the value of Kp is 1.44 * 10^-5 at 500°C. If the partial pressures of N2 and H2 are 0.5 atm and 1.5 atm respectively, what is the equilibrium partial pressure of NH3?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1.56 * 10^-3 atm",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2.56 * 10^-3 atm",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "4.56 * 10^-3 atm",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0.56 * 10^-3 atm",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "equilibrium2026hard000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "For the reaction PCl5(g) <=> PCl3(g) + Cl2(g), the degree of dissociation is related to total pressure at equilibrium by alpha = sqrt(Kp / (Kp + P)). Which statement is correct?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "At high pressures, alpha becomes very small",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "At high pressures, alpha approaches 1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "alpha is independent of total pressure",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "At zero pressure, alpha is zero",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "equilibrium2026hard000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "At a certain temperature, the degree of dissociation of water is 1.5 * 10^-4%. The value of equilibrium constant Kc for the dissociation of water is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2.25 * 10^-8",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1.5 * 10^-8",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3.0 * 10^-8",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "equilibrium2026hard000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "For the gaseous reaction 2A(g) <=> B(g) + C(g), the value of Kp is 0.25 at 300 K. What is the value of standard free energy change delta G° at this temperature?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3.46 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-3.46 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1.73 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "-1.73 kJ/mol",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "equilibrium2026hard000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "Which of the following is correct for the reaction N2O4(g) <=> 2NO2(g) at equilibrium?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "The rate of dissociation of N2O4 equals the rate of association of NO2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "The concentration of NO2 is always double that of N2O4",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "The value of Kp is independent of temperature",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "The total number of moles remains constant",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "equilibrium2026hard000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "The standard entropy change delta S° for a reaction A <=> B is 10 J/K. If the standard enthalpy change is 3.0 kJ, what is the equilibrium constant at 300 K?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1.0",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2.71",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0.37",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0.50",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "equilibrium2026hard000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "For the reaction 2NOCl(g) <=> 2NO(g) + Cl2(g), the value of Kc is 3.75 * 10^-6 at 1060 K. What is the value of Kp at this temperature?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3.26 * 10^-4",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3.75 * 10^-6",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1.25 * 10^-4",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "6.52 * 10^-4",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "equilibrium2026hard000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "For the equilibrium NH4HS(s) <=> NH3(g) + H2S(g), the total pressure at equilibrium is 2P. The value of Kp is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "P^2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "4P^2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "P^2 / 4",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2P^2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "equilibrium2026hard000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "A mixture of 1 mole of CO and 1 mole of H2O is taken in a 10 L flask at 800 K. At equilibrium, 0.4 moles of water reacts according to CO + H2O <=> CO2 + H2. The value of Kc is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.44",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "0.22",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0.88",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0.11",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "equilibrium2026hard000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "The equilibrium constant for the reaction N2(g) + 3H2(g) <=> 2NH3(g) is K. What is the equilibrium constant for NH3(g) <=> 0.5 N2(g) + 1.5 H2(g)?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 / sqrt(K)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "sqrt(K)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1 / K",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "K^2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "equilibrium2026hard000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "For the reaction CaCO3(s) <=> CaO(s) + CO2(g), the standard free energy change is +130 kJ/mol at 298 K. The pressure of CO2 at equilibrium at 298 K is about:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1.5 * 10^-23 atm",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1.0 * 10^-10 atm",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2.5 * 10^-5 atm",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1.0 atm",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "equilibrium2026hard000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "At 700 K, the equilibrium constant Kp for the reaction C(s) + CO2(g) <=> 2CO(g) is 10 atm. If the total pressure at equilibrium is 6 atm, the partial pressure of CO is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4.0 atm",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2.0 atm",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1.5 atm",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "3.0 atm",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "equilibrium2026hard000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "The reaction A + B <=> C + D is studied at 300 K. The standard Gibbs free energies of formation are: A = -100, B = -150, C = -200, D = -60 kJ/mol. The reaction will:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Proceed forward to a large extent (K = 5.5 * 10^1)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Proceed backward to a large extent",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Remain at equilibrium",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Not occur at all",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "equilibrium2026hard000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "For the reaction PCl5(g) <=> PCl3(g) + Cl2(g), the degree of dissociation is 0.5 at 1 atm. What is the value of Kp?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.33 atm",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "0.25 atm",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0.50 atm",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0.75 atm",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "equilibrium2026hard000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "For the reaction 2A(g) <=> B(g) + 3C(g), if the container volume is doubled, the degree of dissociation of A will:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Decrease",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Remain unchanged",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "First decrease then increase",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "equilibrium2026hard000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "The standard free energy of formation of HI from H2 and I2 at 400°C is -10 kJ/mol. The value of Kp for the reaction H2 + I2 <=> 2HI is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4.2 * 10^2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2.1 * 10^2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1.0 * 10^2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "8.4 * 10^2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "equilibrium2026hard000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "At 25°C, the equilibrium constant for the reaction N2(g) + 3H2(g) <=> 2NH3(g) is 6 * 10^5. The standard Gibbs free energy change delta G° is about:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "-33 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-16.5 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "+33 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "+16.5 kJ/mol",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "equilibrium2026hard000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "For the reaction 2SO2(g) + O2(g) <=> 2SO3(g), the standard enthalpy change is negative. If the temperature of the equilibrium mixture is increased, the concentration of SO2 will:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Decrease",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Remain unchanged",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "First increase then decrease",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "equilibrium2026hard000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "For the reaction A(g) <=> B(g) + C(g), the total pressure at equilibrium is P and degree of dissociation is alpha. The expression for Kp is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "(alpha^2 * P) / (1 - alpha^2)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "(alpha^2 * P) / (1 - alpha)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "alpha * P / (1 - alpha^2)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "(alpha^2 * P^2) / (1 - alpha)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "equilibrium2026hard000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "At 1000 K, the value of Kp for the reaction 2CO2 <=> 2CO + O2 is 2.5 * 10^-5. What is the value of Kp for CO + 0.5 O2 <=> CO2?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "200",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "400",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "100",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "50",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "equilibrium2026hard000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "The equilibrium constant for the reaction Fe3+(aq) + SCN-(aq) <=> [FeSCN]2+(aq) is 140. If equal volumes of 0.2 M Fe3+ and 0.2 M SCN- are mixed, the concentration of [FeSCN]2+ at equilibrium is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.082 M",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "0.041 M",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0.020 M",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0.100 M",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "equilibrium2026hard000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "For the reaction N2O4(g) <=> 2NO2(g), the value of Kp is 0.14 atm at 25°C. If a container is filled with 1 atm of N2O4, the total pressure at equilibrium is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1.17 atm",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1.34 atm",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1.00 atm",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1.50 atm",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "equilibrium2026hard000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "The value of Kc for the reaction 2A(g) <=> B(g) is 10. What is the value of Kc for B(g) <=> 2A(g)?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "10",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "equilibrium2026hard000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "For the reaction H2 + I2 <=> 2HI, the value of Kc is 50. If 1 mole each of H2, I2, and HI are mixed in a 1 L container, the reaction will:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Proceed in the forward direction",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Proceed in the backward direction",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Remain at equilibrium",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Stop completely",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "equilibrium2026hard000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "For the reaction N2(g) + O2(g) <=> 2NO(g), the standard free energy change is +173 kJ/mol. The reaction is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Highly endergonic, will not proceed forward to any significant extent",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Highly exergonic, goes to completion",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Reversible with K = 1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Fast and spontaneous",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "equilibrium2026hard000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "In the dissociation of PCl5 at equilibrium, the degree of dissociation is 0.2 at a total pressure of 1 atm. What is the partial pressure of Cl2 at equilibrium?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.17 atm",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "0.20 atm",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0.10 atm",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0.33 atm",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "equilibrium2026hard000030f9efa96"
+    }
+  }
+]

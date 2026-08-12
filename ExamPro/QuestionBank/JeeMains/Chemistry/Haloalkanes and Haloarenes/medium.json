@@ -1,0 +1,1722 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "For the dibromo compound roadmap reaction sequence shown in the diagram, identify the starting reactant [P] (molecular formula : C9H10Br2): (see diagram)",
+    "questionImage": "halo medium/halo_medium_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "(3)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "(2)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "(1)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "(4)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Structure (3) represents 1,2-dibromo-1-phenylpropane. Upon reaction with excess sodamide, it undergoes double dehydrohalogenation to form phenylpropyne, which on hydration with HgSO4/H2SO4 yields propiophenone. Propiophenone gives a positive iodoform test (keto group adjacent to ethyl/methyl? wait, phenylacetone gives iodoform, propiophenone does not? wait, phenylacetone C6H5CH2COCH3 has methyl ketone, so it gives positive iodoform. Hydration of 1-phenylpropyne yields benzyl methyl ketone, which gives positive iodoform but negative Tollen's test. Hence (3) is correct. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "halomedium2024medium000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "Identify the major product formed in the elimination reaction shown in the diagram: (see diagram)",
+    "questionImage": "halo medium/halo_medium_q2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "1-Methylcyclopentene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Methylenecyclopentane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3-Methylcyclopentene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1-Bromomethylcyclopentane",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Reactant is 1-bromo-1-methylcyclopentane. Reaction with strong base OH- in ethanol undergoes E2 dehydrohalogenation. The major product is the more highly substituted, thermodynamically more stable Zaitsev alkene, which is 1-methylcyclopentene. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2024 April Question Bank - MathonGo.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "halomedium2024medium000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "Identify the correct decreasing order of reactivity of the following haloarenes A, B, C, D towards nucleophilic substitution with aqueous NaOH: (see diagram)",
+    "questionImage": "halo medium/halo_medium_q3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "D > B > A > C",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "D > C > B > A",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "C > A > B > D",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A > B > C > D",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Nucleophilic aromatic substitution rate increases with electron-withdrawing groups (-I, -M) ortho/para to the leaving group. D has two -NO2 groups (ortho and para, most reactive). B has one -NO2 group (para). A has no substituents. C has a methoxy group (-OMe, electron donating, least reactive). Hence D > B > A > C. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "halomedium2024medium000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "For the organic chloride compound reacting with AgNO3 shown in the diagram, find the number of moles of AgCl precipitated at room temperature: (see diagram)",
+    "questionImage": "halo medium/halo_medium_q4.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 mole",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2 moles",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3 moles",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0 moles",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: The compound contains three chlorines. The chlorine on the benzene ring and the vinylic chlorine are completely inert to nucleophilic substitution via AgNO3. Only the tertiary aliphatic chlorine undergoes rapid SN1 ionization at room temperature to form a stable carbocation and precipitate 1 mole of AgCl. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "halomedium2024medium000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "An alkyl halide C4H9Cl (A) is optically active. On reaction with alcoholic KOH, it gives (B) which is optically inactive. The structures of A and B are:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "A = 2-chlorobutane, B = but-2-ene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A = 1-chlorobutane, B = but-1-ene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A = 2-chloro-2-methylpropane, B = 2-methylpropene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "halomedium2024medium000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "The reaction of C6H5CH2Cl with aqueous KOH proceeds through:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "SN1 mechanism",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "SN2 mechanism",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "E2 mechanism",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "SAr mechanism",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "halomedium2024medium000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "The order of reactivity of the following toward SN2 reaction is: (I) 1-Bromobutane, (II) 1-Bromo-2-methylbutane, (III) 1-Bromo-2,2-dimethylbutane",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "I > II > III",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "III > II > I",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "I > III > II",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "II > I > III",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "halomedium2024medium000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "Which of the following compounds will react fastest with aqueous NaOH?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Benzyl chloride",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Chlorobenzene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Vinyl chloride",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Ethyl chloride",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "halomedium2024medium000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "When ethyl chloride is treated with aqueous KOH, it forms ethanol, but with alcoholic KOH, it forms:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ethene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Ethane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Diethyl ether",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Ethyl acetate",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "halomedium2024medium000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "Alkyl halide reacts with KCN to form alkyl cyanide as major product, but with AgCN it forms:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alkyl isocyanide",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Alkyl cyanide",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Alkane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Amine",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "halomedium2024medium000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "Alkyl halide reacts with KNO2 to form alkyl nitrite as major product, but with AgNO2 it forms:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nitroalkane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Alkyl nitrite",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Amine",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Alkane",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "halomedium2024medium000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "The stereoisomer of 2,3-dibromobutane which is optically inactive due to internal compensation is called:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Meso form",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Racemic mixture",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "d-isomer",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "l-isomer",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "halomedium2024medium000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "Which of the following alkyl halides undergoes restructuring/rearrangement during SN1 hydrolysis?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2-bromo-3-methylbutane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1-bromobutane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2-bromobutane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1-bromo-2,2-dimethylpropane",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "halomedium2024medium000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "The Swarts reaction is characterized by the use of which reagent?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "AgF or Hg2F2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "NaI in acetone",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Cl2 in UV light",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "SOCl2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "halomedium2024medium000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "Which of the following statements about SN1 and SN2 reactions is correct?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "SN1 is a two-step process while SN2 is a single-step concerted process",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "SN1 involves transition state only",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "SN2 involves carbocation intermediate",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of the above",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "halomedium2024medium000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "A hydrocarbon C5H12 gives only one monochloro derivative on photochemical chlorination. The hydrocarbon is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2,2-dimethylpropane (neopentane)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "n-pentane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2-methylbutane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "cyclopentane",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "halomedium2024medium000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "The IUPAC name of the compound CH3-CH(Cl)-CH2-CH=CH2 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4-chloropent-1-ene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2-chloropent-4-ene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "4-chloropent-2-ene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "halomedium2024medium000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "The major product formed when chlorobenzene reacts with Cl2 in the presence of FeCl3 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1,4-dichlorobenzene (para-isomer)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1,2-dichlorobenzene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1,3-dichlorobenzene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Hexachlorocyclohexane",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "halomedium2024medium000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "Which of the following solvents is polar aprotic and accelerates SN2 reactions?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "DMSO",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Water",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Ethanol",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Acetic acid",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "halomedium2024medium000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "Under what conditions will chlorobenzene undergo nucleophilic substitution with aqueous NaOH to form phenol?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "High temperature (350 C) and high pressure (300 atm)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Room temperature and 1 atm",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Boiling under reflux",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "halomedium2024medium000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "The conversion of cyclohexanol to chlorocyclohexane is best achieved by using:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "SOCl2 in pyridine",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "HCl gas",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "NaCl",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Concentrated HCl + Anhydrous ZnCl2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "halomedium2024medium000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "Which of the following compounds has the highest dipole moment?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "CH2Cl2 (dichloromethane)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "CHCl3 (chloroform)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "CCl4 (carbon tetrachloride)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "trans-1,2-dichloroethene",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "halomedium2024medium000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "The nucleophilic substitution of 2-bromobutane with sodium hydroxide in DMSO follows which kinetics?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Second order kinetics (SN2)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "First order kinetics (SN1)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Third order",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Zero order",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "halomedium2024medium000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "Which of the following compounds will give a yellow precipitate with aqueous AgNO3 slowest?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chlorobenzene (inert)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Allyl bromide",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Benzyl bromide",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "t-Butyl iodide",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "halomedium2024medium000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "The addition of HBr to propene in the presence of peroxides gives:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1-bromopropane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2-bromopropane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1,2-dibromopropane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "propane",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "halomedium2024medium000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "The addition of HBr to propene in the absence of peroxides gives:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2-bromopropane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1-bromopropane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1,2-dibromopropane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "isopropyl alcohol",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "halomedium2024medium000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "Which of the following compounds undergoes dehydrohalogenation to give a single alkene?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2-chloropropane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2-chlorobutane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3-chloropentane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2-chloro-2-methylbutane",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "halomedium2024medium000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "Which of the following butyl halide compounds has the highest boiling point?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1-iodobutane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1-chlorobutane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1-bromobutane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2-bromobutane",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "halomedium2024medium000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "The synthesis of aryl fluorides from diazonium tetrafluoroborate is called:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balz-Schiemann reaction",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Sandmeyer reaction",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Gattermann reaction",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Finkelstein reaction",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "halomedium2024medium000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "An organic compound C4H9Br reacts with Na in dry ether to give a hydrocarbon which has only primary and tertiary carbon atoms. The C4H9Br compound is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Isobutyl bromide",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "t-Butyl bromide",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "n-Butyl bromide",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "sec-Butyl bromide",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "halomedium2024medium000030f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "The reaction of chlorine with toluene in the presence of sunlight gives:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Benzyl chloride",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "o-chlorotoluene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "p-chlorotoluene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Benzoyl chloride",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 31,
+    "_id": {
+      "$oid": "halomedium2024medium000031f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "Which of the following represents the correct order of SN2 reactivity?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1-bromopropane > 2-bromopropane > 2-bromo-2-methylpropane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2-bromo-2-methylpropane > 2-bromopropane > 1-bromopropane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2-bromopropane > 1-bromopropane > 2-bromo-2-methylpropane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 32,
+    "_id": {
+      "$oid": "halomedium2024medium000032f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "Which of the following compounds does not undergo SN2 reaction due to steric hindrance?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neopentyl bromide",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Isopropyl bromide",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "n-Propyl bromide",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Isobutyl bromide",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 33,
+    "_id": {
+      "$oid": "halomedium2024medium000033f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "The reaction of C2H5Br with sodium ethoxide gives diethyl ether. This reaction is called:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Williamson synthesis",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Wurtz synthesis",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Hoffmann reaction",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Kolbe synthesis",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 34,
+    "_id": {
+      "$oid": "halomedium2024medium000034f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "The correct decreasing order of SN1 reactivity for the following is: (A) Benzyl chloride, (B) p-Methoxybenzyl chloride, (C) p-Nitrobenzyl chloride",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "B > A > C",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "C > A > B",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "B > C > A",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A > B > C",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 35,
+    "_id": {
+      "$oid": "halomedium2024medium000035f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "The reaction of cyclohexene with allylic brominating agent N-bromosuccinimide (NBS) yields:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3-bromocyclohexene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1-bromocyclohexene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1,2-dibromocyclohexane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "cyclohexyl bromide",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 36,
+    "_id": {
+      "$oid": "halomedium2024medium000036f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "Which of the following hydrocarbon alkanes is chiral?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3-methylhexane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "n-hexane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2-methylhexane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2,3-dimethylbutane",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 37,
+    "_id": {
+      "$oid": "halomedium2024medium000037f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "Which of the following compounds will undergo racemization on hydrolysis with aqueous KOH?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2-bromobutane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1-bromobutane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1-bromo-2-methylpropane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 38,
+    "_id": {
+      "$oid": "halomedium2024medium000038f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "A mixture of 1-bromopropane and 2-bromopropane is heated with Zn/HCl. The product formed is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Propane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Hexane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Propene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Butane",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 39,
+    "_id": {
+      "$oid": "halomedium2024medium000039f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Medium",
+    "question": "What is the hybrid state of carbon in the carbocation intermediate of SN1 reaction?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "sp2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "sp3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "sp",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "dsp2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard SN1/SN2/E2 organic chemical concepts.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 40,
+    "_id": {
+      "$oid": "halomedium2024medium000040f9efa96"
+    }
+  }
+]

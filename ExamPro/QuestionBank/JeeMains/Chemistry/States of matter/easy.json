@@ -1,0 +1,1722 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "Three bulbs are filled with CH4, CO2 and Ne as shown in the diagram. When the stopcocks are opened and the temperature is kept constant, find the pressure of the system (nearest integer): (see diagram)",
+    "questionImage": "gaseous easy/gs_easy_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "3 atm",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "4 atm",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2 atm",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "5 atm",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Pf = (P1V1 + P2V2 + P3V3) / Vf = (2*2 + 4*3 + 3*4) / (2+3+4) = (4 + 12 + 12) / 9 = 28 / 9 = 3.11 atm. The nearest integer is 3 atm. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "gaseous2024easy000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2022,
+    "session": "June",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "Which amongst the given plots is the correct plot for pressure (p) vs density (d) for an ideal gas at different temperatures T1, T2, T3 (given T3 > T2 > T1)? (see diagram)",
+    "questionImage": "gaseous easy/gs_easy_q2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "(B)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "(A)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "(C)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "(D)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Since pM = dRT => p = (RT/M) * d. Slope = RT/M. Since T3 > T2 > T1, the slope order is T3 > T2 > T1. Plot (B) shows T3 with highest slope, T2 intermediate, T1 lowest. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2022 Chapter wise Questions by MathonGo.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "gaseous2024easy000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "September",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "Which one of the following density plots is NOT correct for an ideal gas? (see diagram)",
+    "questionImage": "gaseous easy/gs_easy_q3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "(II)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "(I)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "(III)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "(IV)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Density of ideal gas is d = pM/RT. Hence d is inversely proportional to T. Plot II shows d directly proportional to T, which is incorrect. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "gaseous state - jee main 2020 sep.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "gaseous2024easy000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2019,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "The combination of plots in the diagram which does NOT represent isothermal expansion of an ideal gas is: (see diagram)",
+    "questionImage": "gaseous easy/gs_easy_q4.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "(B) and (D)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "(A) and (C)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "(B) and (C)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "(A) and (D)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Isothermal expansion implies constant temperature. P vs Vm is a hyperbola (B is incorrect straight line). Internal energy U depends only on T for ideal gas, so U vs Vm must be horizontal line (D is incorrect straight line). Hence B and D are incorrect. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "cqb_chemistry_jee_main_2019_gaseous_state.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "gaseous2024easy000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "Boyle's law states that at constant temperature, the volume of a given mass of gas is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inversely proportional to pressure",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Directly proportional to pressure",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Independent of pressure",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Inversely proportional to square of pressure",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "gaseous2024easy000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "Charles' law states that at constant pressure, the volume of a given mass of gas is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Directly proportional to absolute temperature",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Inversely proportional to absolute temperature",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Directly proportional to temperature in Celsius",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Independent of temperature",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "gaseous2024easy000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "Gay-Lussac's law states that at constant volume, the pressure of a given mass of gas is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Directly proportional to absolute temperature",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Inversely proportional to absolute temperature",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Independent of temperature",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Directly proportional to square of temperature",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "gaseous2024easy000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "The value of gas constant R in L atm K-1 mol-1 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.0821",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "8.314",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1.987",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "83.14",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "gaseous2024easy000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "The value of gas constant R in J K-1 mol-1 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "8.314",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "0.0821",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1.987",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0.083",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "gaseous2024easy000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "An ideal gas is one which obeys gas laws at:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "All temperatures and pressures",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Low temperature and high pressure only",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "High temperature and low pressure only",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "All temperatures and low pressures only",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "gaseous2024easy000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "The volume of 1 mole of an ideal gas at STP (273 K, 1 atm) is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "22.4 L",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "22.7 L",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "11.2 L",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "44.8 L",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "gaseous2024easy000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "The molecular speed order is always:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "V_mps < V_avg < V_rms",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "V_rms < V_avg < V_mps",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "V_avg < V_mps < V_rms",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "V_mps < V_rms < V_avg",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "gaseous2024easy000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "The formula for root mean square speed (V_rms) of a gas is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "sqrt(3RT/M)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "sqrt(2RT/M)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "sqrt(8RT/pi M)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "sqrt(RT/M)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "gaseous2024easy000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "The formula for most probable speed (V_mps) of a gas is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "sqrt(2RT/M)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "sqrt(3RT/M)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "sqrt(8RT/pi M)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "sqrt(RT/M)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "gaseous2024easy000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "The formula for average speed (V_avg) of a gas is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "sqrt(8RT/pi M)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "sqrt(3RT/M)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "sqrt(2RT/M)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "sqrt(RT/M)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "gaseous2024easy000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "According to Dalton's law of partial pressures, the total pressure of a mixture of non-reacting gases is equal to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "The sum of partial pressures of individual gases",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "The product of partial pressures of individual gases",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "The average of partial pressures of individual gases",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "gaseous2024easy000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "The partial pressure of a gas in a mixture is equal to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mole fraction * Total pressure",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Mole fraction / Total pressure",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Total pressure / Mole fraction",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Total pressure * Molar mass",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "gaseous2024easy000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "Graham's law of diffusion states that at constant temperature and pressure, the rate of diffusion of a gas is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inversely proportional to square root of its density/molar mass",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Directly proportional to its density",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Inversely proportional to its density",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Independent of density",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "gaseous2024easy000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "The kinetic gas equation is represented by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "PV = 1/3 m N u^2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "PV = nRT",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "PV = 2/3 m N u^2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "PV = 1/2 m N u^2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "gaseous2024easy000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "Average kinetic energy of 1 mole of an ideal gas is equal to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3/2 RT",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1/2 RT",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "RT",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "3/2 kT",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "gaseous2024easy000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "Average kinetic energy per molecule of an ideal gas is equal to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3/2 kT",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3/2 RT",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1/2 kT",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "kT",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "gaseous2024easy000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "Which gas diffuses faster under similar conditions of temperature and pressure?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hydrogen",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Helium",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Oxygen",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Nitrogen",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "gaseous2024easy000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "The ratio of rates of diffusion of SO2 and O2 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 : sqrt(2)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "sqrt(2) : 1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1 : 2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2 : 1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "gaseous2024easy000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "For 1 mole of an ideal gas, the compressibility factor Z is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Equal to 1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Greater than 1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Less than 1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Zero",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "gaseous2024easy000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "Standard temperature and pressure (STP) values in IUPAC convention are:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "273.15 K and 1 bar",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "273.15 K and 1 atm",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "298 K and 1 atm",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "298 K and 1 bar",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "gaseous2024easy000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "The temperature at which a real gas behaves like an ideal gas over an appreciable range of pressure is called:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Boyle temperature",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Critical temperature",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Inversion temperature",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Boiling temperature",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "gaseous2024easy000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "The critical temperature (T_c) of a gas is defined as:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "The temperature above which a gas cannot be liquefied, no matter how much pressure is applied",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "The temperature at which a gas liquefies at 1 atm",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "The temperature at which a gas behaves ideally",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "The freezing point of the gas",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "gaseous2024easy000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "Which of the following is not a property of gases?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "They have high density",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "They are highly compressible",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "They exert pressure equally in all directions",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "They diffuse easily",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "gaseous2024easy000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "If temperature is kept constant, when pressure of a given mass of gas is doubled, its volume becomes:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Halved",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Doubled",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Four times",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Unchanged",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "gaseous2024easy000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "The plot of PV vs P for an ideal gas is a:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Straight line parallel to pressure axis",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Straight line passing through origin",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Hyperbola",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Parabola",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "gaseous2024easy000030f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "The ratio of most probable speed, average speed, and root mean square speed is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 : 1.128 : 1.224",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1 : 1.224 : 1.128",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1.224 : 1.128 : 1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1.128 : 1 : 1.224",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 31,
+    "_id": {
+      "$oid": "gaseous2024easy000031f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "Which parameter is kept constant in Charles's Law?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pressure and amount of gas",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Temperature and amount of gas",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Volume and amount of gas",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 32,
+    "_id": {
+      "$oid": "gaseous2024easy000032f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "A gas cylinder can withstand a maximum pressure of 15 atm. If it contains gas at 27 C and 10 atm, at what temperature will it burst?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "177 C",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "450 C",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "150 C",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "300 C",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 33,
+    "_id": {
+      "$oid": "gaseous2024easy000033f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "The rate of diffusion of a gas is proportional to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "P / sqrt(M)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "P * sqrt(M)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "sqrt(M) / P",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1 / (P * sqrt(M))",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 34,
+    "_id": {
+      "$oid": "gaseous2024easy000034f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "The units of van der Waals constant 'a' are:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "atm L2 mol-2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "atm L mol-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "L mol-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "atm L2 mol-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 35,
+    "_id": {
+      "$oid": "gaseous2024easy000035f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "The units of van der Waals constant 'b' are:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "L mol-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "L2 mol-2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "atm L mol-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "mol L-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 36,
+    "_id": {
+      "$oid": "gaseous2024easy000036f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "Which gas has the lowest critical temperature?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Helium",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Hydrogen",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Nitrogen",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Carbon dioxide",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 37,
+    "_id": {
+      "$oid": "gaseous2024easy000037f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "The compressibility factor Z of a gas is defined as:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "PV / nRT",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "PV / n",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "nRT / PV",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "P / V",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 38,
+    "_id": {
+      "$oid": "gaseous2024easy000038f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "Under what conditions do real gases show maximum deviation from ideal behavior?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Low temperature and high pressure",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "High temperature and low pressure",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "High temperature and high pressure",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Low temperature and low pressure",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 39,
+    "_id": {
+      "$oid": "gaseous2024easy000039f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Easy",
+    "question": "The volume occupied by 4.0 g of oxygen gas at STP is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2.8 L",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "5.6 L",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "11.2 L",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "22.4 L",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard gas law or definition check.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter.pdf",
+    "id": 40,
+    "_id": {
+      "$oid": "gaseous2024easy000040f9efa96"
+    }
+  }
+]

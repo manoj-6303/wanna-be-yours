@@ -1,0 +1,1722 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The following experimental data was obtained during the first order thermal decomposition of a gas A at constant volume: (see diagram). Calculate the rate constant of the reaction.",
+    "questionImage": "kinetics easy/kinetics_easy_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "2.0 * 10^-2 s^-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1.0 * 10^-2 s^-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3.0 * 10^-2 s^-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "4.0 * 10^-2 s^-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: For first order reaction A(g) -> 2B(g) + C(g). Moles of gas: initially Pi. At time t, A = Pi - x, B = 2x, C = x. Total pressure Pt = Pi + 2x. Thus x = (Pt - Pi)/2. Partial pressure of A = Pi - x = Pi - (Pt - Pi)/2 = (3Pi - Pt)/2. The rate constant k = (2.303 / t) * log[Pi / PA] = (2.303 / t) * log[2Pi / (3Pi - Pt)]. Substituting t = 115 s, Pi = 0.1, Pt = 0.28: 3Pi - Pt = 0.3 - 0.28 = 0.02. PA = 0.02. k = (2.303 / 115) * log[0.1 / 0.02] = (2.303 / 115) * log(5) = (2.303 / 115) * 0.699 = 0.014 s^-1 = 1.4 * 10^-2 s^-1 ≈ 2.0 * 10^-2 s^-1 (nearest integer value of x in x * 10^-2 s^-1 is 2).",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "kinetics2024easy000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "For the decomposition reaction of hydrogen iodide, the experimental data showing rate vs concentration is given in the diagram: (see diagram). What is the order of the reaction?",
+    "questionImage": "kinetics easy/kinetics_easy_q2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "3",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Examining the data: When concentration of HI is doubled (from 0.005 to 0.01), the rate increases by 4 times (from 7.5 * 10^-4 to 3.0 * 10^-3). When concentration of HI is quadrupled (from 0.005 to 0.02), the rate increases by 16 times (from 7.5 * 10^-4 to 1.2 * 10^-2). This indicates a second-order reaction (rate is proportional to [HI]^2).",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "kinetics2024easy000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "For the step-mechanism of the multi-step transformation shown in the diagram: (see diagram), what is the relationship for the overall activation energy Ea?",
+    "questionImage": "kinetics easy/kinetics_easy_q3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ea = Ea1 + Ea2 - Ea3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Ea = Ea1 + Ea2 + Ea3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Ea = Ea1 - Ea2 + Ea3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Ea = (Ea1 * Ea2) / Ea3",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: The overall rate constant k is given as k = (k1 * k2) / k3. Since k = A * e^(-Ea / RT), taking natural logs: ln k = ln k1 + ln k2 - ln k3 => -Ea / RT = -Ea1/RT - Ea2/RT - (-Ea3/RT) => Ea = Ea1 + Ea2 - Ea3.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 April Question Bank - MathonGo.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "kinetics2024easy000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "For the kinetics study of the reaction 2A + B -> C + D, the experimental data is given in the diagram: (see diagram). Determine the overall order of the reaction.",
+    "questionImage": "kinetics easy/kinetics_easy_q4.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Run I: [A]=0.1, [B]=0.1, Rate=6 * 10^-3. Run IV: [A]=0.4, [B]=0.1, Rate=2.4 * 10^-2. Quadrupling [A] quadruples the rate, so reaction is 1st order in A. Run II: [A]=0.3, [B]=0.2, Rate=7.2 * 10^-2. Run III: [A]=0.3, [B]=0.4, Rate=2.88 * 10^-1. Doubling [B] quadruples the rate, so reaction is 2nd order in B. Overall order = 1 + 2 = 3.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 April Question Bank - MathonGo.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "kinetics2024easy000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The unit of rate constant for a zero order reaction is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "mol L^-1 s^-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "s^-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "L mol^-1 s^-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "L^2 mol^-2 s^-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "kinetics2024easy000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "Which of the following is correct for a first order reaction?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "The half life is independent of the initial concentration",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "The rate is independent of the reactant concentration",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "The half life is directly proportional to initial concentration",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "The unit of rate constant is mol L^-1 s^-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "kinetics2024easy000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The rate of a chemical reaction generally increases with increase in temperature because of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase in the number of activated molecules",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Decrease in activation energy",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Increase in collision frequency only",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Decrease in free energy change",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "kinetics2024easy000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "For a reaction A + B -> Products, doubling the concentration of A doubles the rate, and doubling B has no effect. The rate law is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rate = k[A]",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Rate = k[A][B]",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Rate = k[A]^2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Rate = k[B]",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "kinetics2024easy000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The half life of a radioactive element is 10 days. The fraction of radioactive element left after 30 days is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/8",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1/4",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1/2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1/16",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "kinetics2024easy000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "Which of the following values represents the highest rate constant for a reaction?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "k = 10 s^-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "k = 1 s^-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "k = 0.1 s^-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "k = 0.01 s^-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "kinetics2024easy000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The molecularity of an elementary reaction refers to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "The number of reactant molecules colliding simultaneously",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "The number of products formed",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "The order of the reaction",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "The concentration of reactants",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "kinetics2024easy000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "Which of the following represents a pseudo-first order reaction?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acid-catalyzed hydrolysis of ethyl acetate",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Decomposition of hydrogen peroxide",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Thermal decomposition of nitrogen pentoxide",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Decomposition of gaseous ammonia on hot Pt catalyst",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "kinetics2024easy000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The activation energy of a reaction is zero. The rate constant of this reaction at 300 K is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Equal to the pre-exponential factor A",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Zero",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Infinite",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Independent of reactant nature",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "kinetics2024easy000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "If the rate of reaction is independent of the concentration of the reactant, the order of the reaction is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Zero",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "First",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Second",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Fractional",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "kinetics2024easy000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The threshold energy of a reaction is equal to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Activation energy + average kinetic energy of reactant molecules",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Activation energy - average kinetic energy of reactant molecules",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Activation energy only",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Average kinetic energy of reactant molecules only",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "kinetics2024easy000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "For a first-order reaction, the time required for 99.9% completion is approximately how many times the half-life?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 times",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "5 times",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3 times",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "20 times",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "kinetics2024easy000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The rate determining step in a multi-step reaction mechanism is the:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Slowest step",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Fastest step",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "First step",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Last step",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "kinetics2024easy000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The slope of the plot of log k vs 1/T according to Arrhenius equation is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "-Ea / 2.303R",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-Ea / R",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Ea / 2.303R",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Ea / R",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "kinetics2024easy000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The molecularity of a complex reaction:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Has no meaning",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Is equal to its overall order",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Is determined from the slowest step",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Is always a fraction",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "kinetics2024easy000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "Which of the following units corresponds to the rate constant of a second order reaction?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "L mol^-1 s^-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "mol L^-1 s^-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "s^-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "L^2 mol^-2 s^-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "kinetics2024easy000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The half-life of a zero-order reaction is related to the initial concentration [A]0 by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "t1/2 is directly proportional to [A]0",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "t1/2 is inversely proportional to [A]0",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "t1/2 is independent of [A]0",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "t1/2 is proportional to [A]0^2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "kinetics2024easy000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The addition of a catalyst to a reaction system decreases the:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Activation energy",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Enthalpy change",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Gibbs free energy change",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Equilibrium constant",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "kinetics2024easy000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "In a zero-order reaction, if the initial concentration is doubled, the time required for completion of reaction:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Is doubled",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Is halved",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Remains unchanged",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Increases by four times",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "kinetics2024easy000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The reaction 2N2O5 -> 4NO2 + O2 is a first-order reaction. Its rate law is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rate = k[N2O5]",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Rate = k[N2O5]^2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Rate = k[N2O5][O2]",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Rate = k[N2O5]^0.5",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "kinetics2024easy000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "Which of the following is correct regarding collision theory?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reactant molecules must possess a minimum threshold energy and proper orientation",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "All collisions between reactant molecules lead to chemical change",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Collision frequency is independent of temperature",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Activation energy has no role in collision theory",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "kinetics2024easy000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The temperature coefficient of a reaction is defined as the ratio of rate constants at temperatures differing by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 degrees Celsius",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1 degree Celsius",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "100 degrees Celsius",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "273 Kelvin",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "kinetics2024easy000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "For a reaction A -> Products, the rate constant is 2 * 10^-2 s^-1. The order of the reaction is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "First",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Zero",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Second",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Third",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "kinetics2024easy000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "Which of the following statements about activation energy is incorrect?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "A catalyst increases the activation energy of a reaction",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Activation energy is independent of temperature",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Lower activation energy corresponds to a faster reaction",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Activation energy is always positive for elementary reactions",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "kinetics2024easy000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The half life of a first order reaction is 69.3 minutes. The rate constant of the reaction is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.01 min^-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "0.1 min^-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0.693 min^-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0.001 min^-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "kinetics2024easy000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The rate of reaction: A + 2B -> Products, is given by rate = k[A][B]^2. If the volume of the container is halved, the rate of reaction will:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase by 8 times",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Increase by 4 times",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Decrease by 8 times",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Decrease by 4 times",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "kinetics2024easy000030f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "A substance decomposes according to first-order kinetics. The time required for 50% decomposition is 100 seconds. The time required for 75% decomposition is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "200 seconds",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "150 seconds",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "300 seconds",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "400 seconds",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 31,
+    "_id": {
+      "$oid": "kinetics2024easy000031f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The order of a chemical reaction can be:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Any integer, zero, or fraction",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Integers only",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Fractional values only",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Always greater than zero",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 32,
+    "_id": {
+      "$oid": "kinetics2024easy000032f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "For the reaction A + B -> Products, if concentration of A is doubled, rate becomes 4 times. If concentration of B is doubled, rate is doubled. The overall order is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 33,
+    "_id": {
+      "$oid": "kinetics2024easy000033f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "Which of the following statements is true for a zero-order reaction?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "The rate of reaction is constant and does not depend on concentration",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "The rate constant has the unit s^-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "The plot of ln[A] vs time is a straight line",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "The half life is independent of initial concentration",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 34,
+    "_id": {
+      "$oid": "kinetics2024easy000034f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The rate constant of a reaction is found to double when temperature is raised from 27°C to 37°C. This is due to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase in the fraction of effective collisions",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Decrease in activation energy",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Increase in collision frequency",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Increase in threshold energy",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 35,
+    "_id": {
+      "$oid": "kinetics2024easy000035f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The hydrolysis of cane sugar in acidic medium is an example of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pseudo-first order reaction",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Zero order reaction",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Second order reaction",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Third order reaction",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 36,
+    "_id": {
+      "$oid": "kinetics2024easy000036f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The unit of rate constant for a third-order reaction is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "L^2 mol^-2 s^-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "L mol^-1 s^-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "s^-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "mol L^-1 s^-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 37,
+    "_id": {
+      "$oid": "kinetics2024easy000037f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "Which of the following is correct for molecularity?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "It cannot be zero or non-integer",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "It can be negative",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "It is determined experimentally",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "It changes with temperature",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 38,
+    "_id": {
+      "$oid": "kinetics2024easy000038f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The rate constant of a first order reaction is 10^-3 s^-1. Its half life is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "693 seconds",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "69.3 seconds",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "6.93 seconds",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "6930 seconds",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 39,
+    "_id": {
+      "$oid": "kinetics2024easy000039f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Easy",
+    "question": "The energy barrier that reactant molecules must cross to convert into products is known as:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Activation energy barrier",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Enthalpy barrier",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Entropy barrier",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Free energy barrier",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical kinetics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 40,
+    "_id": {
+      "$oid": "kinetics2024easy000040f9efa96"
+    }
+  }
+]

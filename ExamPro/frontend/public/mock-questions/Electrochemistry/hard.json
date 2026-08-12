@@ -1,0 +1,1292 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "For the strong electrolyte AB, molar conductivity values at 18 C are listed in the diagram. Find the value of the constant A based on the data: (see diagram)",
+    "questionImage": "electro hard/el_hard_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "127",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "254",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "63",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "20",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Applying Onsager equation, slope A = 127 in units based on calculations from data. Option A is correct.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "electro2024hard000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "In the cell potential configuration shown in the diagram, find the value of x (nearest integer): (see diagram)",
+    "questionImage": "electro hard/el_hard_q2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "4",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "3",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed calculations using Nernst equation and solubility product gives x = 2. Option A is correct.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "electro2024hard000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "Regarding the standard reduction potentials of metals shown in the diagram, find the correct order of decreasing tendency to act as reducing agent: (see diagram)",
+    "questionImage": "electro hard/el_hard_q3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Al > Cr > Fe2+ > Co2+",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Cr > Fe2+ > Al > Co2+",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Al > Fe2+ > Cr > Co2+",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Al > Cr > Co2+ > Fe2+",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Lower (more negative) reduction potential indicates stronger reducing agent strength. Thus, Al (-1.66 V) > Cr (-0.74 V) > Fe2+ (+0.77 V) > Co2+ (+1.81 V). Option A is correct.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "electro2024hard000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "The limiting molar conductivity of Ca2+ and Cl- are 119 and 76.3 S cm2 mol-1. The limiting molar conductivity of CaCl2 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "271.6 S cm2 mol-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "195.3 S cm2 mol-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "311.6 S cm2 mol-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "152.6 S cm2 mol-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "electro2024hard000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "A button cell used in watches functions as follows: Zn(s) + Ag2O(s) + H2O(l) -> Zn2+(aq) + 2Ag(s) + 2OH-(aq). If E^0_Zn2+/Zn = -0.76 V and E^0_Ag+/Ag = 0.34 V, the cell potential E^0 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1.10 V",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1.56 V",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0.42 V",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0.76 V",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "electro2024hard000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "If the standard electrode potential of Cu2+/Cu is 0.34 V, what is the electrode potential at pH = 14 for the Cu2+/Cu couple? (Ksp of Cu(OH)2 = 1.0 * 10^-19):",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "-0.22 V",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-0.11 V",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "+0.11 V",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "-0.34 V",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "electro2024hard000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "The molar conductivity of a 1.5 M solution of an electrolyte is found to be 138.9 S cm2 mol-1. What is the conductivity of this solution?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.208 S cm-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2.08 S cm-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0.0208 S cm-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0.1389 S cm-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "electro2024hard000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "The standard reduction potentials of Cu2+/Cu and Cu+/Cu are +0.337 V and +0.521 V respectively. The standard electrode potential of Cu2+/Cu+ is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "+0.153 V",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "+0.184 V",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "-0.184 V",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "+0.858 V",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "electro2024hard000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "How many hours does it take to reduce 3 moles of Fe3+ to Fe2+ with a current of 2.0 A?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "40.2 hours",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "80.4 hours",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "20.1 hours",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "10.0 hours",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "electro2024hard000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "The standard potential of the cell Fe(s) + 2Fe3+(aq) -> 3Fe2+(aq) is 1.21 V. The standard reduction potential of Fe3+/Fe2+ is +0.77 V. What is the standard reduction potential of Fe2+/Fe?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "-0.44 V",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "+0.44 V",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "-0.77 V",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "+0.11 V",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "electro2024hard000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "The limiting molar conductivities of KCl, KNO3 and AgNO3 are 149.9, 145.0 and 133.4 S cm2 mol-1. What is the limiting molar conductivity of AgCl?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "138.3 S cm2 mol-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "128.5 S cm2 mol-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "161.5 S cm2 mol-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "121.5 S cm2 mol-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "electro2024hard000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "For the cell reaction: 2Fe3+(aq) + 2I-(aq) -> 2Fe2+(aq) + I2(s), E^0_cell is 0.236 V at 298 K. The standard Gibbs energy change (delta G^0) for the cell reaction is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "-45.5 kJ mol-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-91.0 kJ mol-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "+45.5 kJ mol-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "-22.8 kJ mol-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "electro2024hard000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "The standard reduction potentials of Ag+/Ag and Fe3+/Fe2+ are +0.80 V and +0.77 V. The equilibrium constant for the reaction Ag+(aq) + Fe2+(aq) -> Ag(s) + Fe3+(aq) at 298 K is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3.2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "0.32",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "10",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1.0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "electro2024hard000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "During the electrolysis of aqueous Na2SO4 using inert electrodes, the products at cathode and anode are respectively:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "H2 and O2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Na and O2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "H2 and SO2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Na and SO2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "electro2024hard000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "A conductivity cell has cell constant 0.5 cm-1. When filled with 0.01 M electrolyte, its resistance is 100 ohm. The molar conductivity of the electrolyte is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "500 S cm2 mol-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "50 S cm2 mol-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "5 S cm2 mol-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "5000 S cm2 mol-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "electro2024hard000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "The reduction potential of hydrogen electrode in contact with a solution of pH = 10 at 25 C is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "-0.59 V",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "0.00 V",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "-0.30 V",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "-0.45 V",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "electro2024hard000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "The cell Zn | Zn2+(1M) || Cu2+(1M) | Cu has E^0_cell = 1.10 V. The maximum work that can be obtained from this cell under standard conditions is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "212.3 kJ",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "106.1 kJ",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "424.6 kJ",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "53.0 kJ",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "electro2024hard000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "The solubility product of AgCl is 1.0 * 10^-10. The standard electrode potential of Ag+/Ag is 0.80 V. The standard potential of the Ag | AgCl(s) | Cl- electrode is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "+0.21 V",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "+0.34 V",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "+0.59 V",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "+0.80 V",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "electro2024hard000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "Which of the following expression correctly represents the variation of molar conductivity (Lambda_m) with concentration (C) for a strong electrolyte like KCl?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lambda_m = Lambda_m^0 - A * sqrt(C)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Lambda_m = Lambda_m^0 - A * C",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Lambda_m = Lambda_m^0 + A * sqrt(C)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Lambda_m = Lambda_m^0 / C",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "electro2024hard000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "The standard reduction potential of Zn2+/Zn is -0.76 V. What is the cell potential of Zn | Zn2+(0.1 M) || H+(1 M) | H2(1 atm) | Pt at 298 K?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "+0.79 V",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "+0.73 V",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "+0.76 V",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "+0.82 V",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "electro2024hard000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "During the electrolysis of aqueous CuSO4 using Pt electrodes, if a current of 2.0 A is passed for 1 hour, the volume of O2 gas liberated at STP is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.418 L",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "0.836 L",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0.209 L",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1.67 L",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "electro2024hard000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "The standard reduction potential for Fe2+/Fe is -0.44 V and Fe3+/Fe is -0.04 V. The standard reduction potential for Fe3+/Fe2+ is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "+0.76 V",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-0.76 V",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "+0.40 V",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "-0.40 V",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "electro2024hard000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "For the cell reaction 2Cu+ -> Cu + Cu2+, E^0_cell is +0.36 V. The equilibrium constant for the reaction at 298 K is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1.2 * 10^6",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1.2 * 10^3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1.2 * 10^-6",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "3.6 * 10^5",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "electro2024hard000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "Which of the following statements is incorrect regarding fuel cells?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "They have low efficiency of about 20%",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "They are eco-friendly",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "They use catalyst like platinum or palladium",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "They run continuously as long as fuels are supplied",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "electro2024hard000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "The specific conductance of 0.01 M solution of a weak monobasic acid is 2.0 * 10^-4 S cm-1. If the limiting molar conductivity of this acid is 400 S cm2 mol-1, the dissociation constant (Ka) of the acid is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2.5 * 10^-5",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2.5 * 10^-4",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1.25 * 10^-5",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "5.0 * 10^-5",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "electro2024hard000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "The reduction potential of a hydrogen electrode in contact with a buffer solution containing equal concentrations of acetic acid and sodium acetate is (Ka of CH3COOH = 1.8 * 10^-5):",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "-0.28 V",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-0.59 V",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "-0.14 V",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "-0.45 V",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "electro2024hard000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "During the electrolysis of CuSO4 solution, the mass of copper deposited is plotted against the charge passed. The slope of the straight line is equal to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Electrochemical equivalent of copper",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Chemical equivalent of copper",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Faraday's constant",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1 / Faraday's constant",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "electro2024hard000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "The standard reduction potentials of Zn2+/Zn and Fe2+/Fe are -0.76 V and -0.44 V. The standard EMF of the cell Zn | Zn2+ || Fe2+ | Fe is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "+0.32 V",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-0.32 V",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "+1.20 V",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "-1.20 V",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "electro2024hard000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "The equivalent conductance of NaCl at concentration C and infinite dilution are Lambda_C and Lambda_inf. According to Debye-Huckel-Onsager equation:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lambda_C = Lambda_inf - B * sqrt(C)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Lambda_C = Lambda_inf + B * sqrt(C)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Lambda_C = Lambda_inf - B * C",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "electro2024hard000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "The standard EMF of the cell Zn | Zn2+(1M) || Cu2+(1M) | Cu is 1.10 V. The EMF of the cell when concentration of Zn2+ is 0.1 M and Cu2+ is 0.01 M at 298 K is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1.07 V",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1.13 V",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1.10 V",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1.16 V",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Detailed theoretical reasoning checks advanced curriculum expectations.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "electro2024hard000030f9efa96"
+    }
+  }
+]

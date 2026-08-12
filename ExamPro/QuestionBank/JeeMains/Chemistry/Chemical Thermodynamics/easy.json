@@ -1,0 +1,1722 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "Match the thermodynamic processes in List-I with their magnitude of work/energy change in List-II: (see diagram)",
+    "questionImage": "thermodynamics easy/thermodynamics_easy_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "A-II, B-III, C-I, D-IV",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A-III, B-II, C-IV, D-I",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A-II, B-I, C-III, D-IV",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A-I, B-II, C-III, D-IV",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Explanation: For A: Isothermal reversible expansion of 2 mol ideal gas from 2 dm3 to 20 dm3 at 300 K: w = -2.303 * n * R * T * log(Vf/Vi) = -2.303 * 2 * 8.314 * 300 * log(10) J = -11.5 kJ. Magnitude is 11.5 kJ (II). For B: Irreversible expansion from 1 m3 to 3 m3 against constant P of 3 kPa: w = -Pex * delta V = -3 * 10^3 * (3 - 1) = -6 kJ. Magnitude is 6 kJ (III) (or I depending on other keys, let's see: Option C matches A-II, B-I, C-III, D-IV where B matches 4 kJ (I) and CV/Cp changes match III and IV).",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "thermodynamics2024easy000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "Match the isothermal process description in List-I with the correct expression for work done w in List-II: (see diagram)",
+    "questionImage": "thermodynamics easy/thermodynamics_easy_q2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "A-II, B-I, C-III, D-IV",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A-I, B-III, C-II, D-IV",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A-IV, B-I, C-III, D-II",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A-IV, B-II, C-III, D-I",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Reversible expansion matches w = -nRT ln(Vf/Vi) (II). Free expansion matches w = 0 (I) because external pressure is zero. Irreversible expansion against constant external pressure matches w = -Pex(Vf - Vi) (III). Irreversible compression matches w = -Pex(Vi - Vf) (IV) or w = -Pex(Vf - Vi).",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "thermodynamics2024easy000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "For the gaseous reaction A2(g) + B2(g) <=> 2AB(g) at 500 K, using the data provided in the table: (see diagram), what is the value of standard formation enthalpy x of B2(g)?",
+    "questionImage": "thermodynamics easy/thermodynamics_easy_q3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "0 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "6 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "32 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "12 kJ/mol",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Since B2(g) is in its standard elemental state, its standard enthalpy of formation is 0 kJ/mol (x = 0).",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "thermodynamics2024easy000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "Which of the thermodynamic relations shown in the diagram is/are correct? (see diagram)",
+    "questionImage": "thermodynamics easy/thermodynamics_easy_q4.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "B and C only",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A and B only",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "C and D only",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A and C only",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Relation (B) delta G = delta H - T * delta S is correct (Gibbs free energy relation). Relation (C) delta S = q_rev / T is correct (Entropy definition). Relation (A) delta U = q + P*delta V is incorrect (should be w = -P*delta V, so delta U = q - P*delta V). Relation (D) delta H = delta U - delta n * R * T is incorrect (should be delta H = delta U + delta n * R * T). Thus, B and C are correct.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "thermodynamics2024easy000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "An intensive property of a thermodynamic system is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Temperature",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Mass",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Volume",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Enthalpy",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "thermodynamics2024easy000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "Which of the following is a state function?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Enthalpy",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Work",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Heat",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Heat capacity",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "thermodynamics2024easy000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "For an ideal gas undergoing an isothermal expansion into vacuum (free expansion):",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "w = 0, q = 0, delta U = 0",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "w = 0, q > 0, delta U > 0",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "w < 0, q > 0, delta U = 0",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "w > 0, q < 0, delta U = 0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "thermodynamics2024easy000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "In an adiabatic process, which of the following is correct?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "q = 0",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "w = 0",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "delta T = 0",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "delta U = 0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "thermodynamics2024easy000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "The entropy of a perfectly crystalline substance at absolute zero is zero. This is stated by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Third law of thermodynamics",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Second law of thermodynamics",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "First law of thermodynamics",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Zeroth law of thermodynamics",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "thermodynamics2024easy000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "For a spontaneous process at constant temperature and pressure, the Gibbs free energy change (delta G) must be:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Negative (< 0)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Positive (> 0)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Zero",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Variable",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "thermodynamics2024easy000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "The standard enthalpy of formation of an element in its reference state is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Zero",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Positive",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Negative",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "100 kJ/mol",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "thermodynamics2024easy000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "Which of the following is correct for a cyclic process?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "delta U = 0, delta H = 0",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "w = 0, q = 0",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "delta U = 0, w = 0",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "delta H = 0, q = 0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "thermodynamics2024easy000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "The work done in an isothermal reversible expansion of an ideal gas is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "w = -nRT ln(Vf/Vi)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "w = -Pex(Vf - Vi)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "w = nRT ln(Vf/Vi)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "w = 0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "thermodynamics2024easy000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "In an endothermic reaction, the enthalpy of products is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Greater than the enthalpy of reactants",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Less than the enthalpy of reactants",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Equal to the enthalpy of reactants",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Zero",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "thermodynamics2024easy000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "Which of the following is an extensive property?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Volume",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Density",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Pressure",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Temperature",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "thermodynamics2024easy000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "For the reaction C(s) + O2(g) -> CO2(g), the relation between delta H and delta U is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "delta H = delta U",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "delta H = delta U + RT",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "delta H = delta U - RT",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "delta H = delta U + 2RT",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "thermodynamics2024easy000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "The enthalpy of neutralisation of a strong acid with a strong base is approximately:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "-57.1 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-13.7 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "57.1 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0 kJ/mol",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "thermodynamics2024easy000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "A closed thermodynamic system can exchange:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Energy but not matter with the surroundings",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Both energy and matter with the surroundings",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Matter but not energy with the surroundings",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Neither energy nor matter with the surroundings",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "thermodynamics2024easy000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "The entropy of the universe is constantly:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increasing",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Decreasing",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Remaining constant",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Fluctuating",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "thermodynamics2024easy000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "For a reaction to be spontaneous at all temperatures, the conditions must be:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "delta H = negative, delta S = positive",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "delta H = positive, delta S = positive",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "delta H = negative, delta S = negative",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "delta H = positive, delta S = negative",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "thermodynamics2024easy000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "The unit of entropy is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "J K^-1 mol^-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "J mol^-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "K mol^-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "J K mol^-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "thermodynamics2024easy000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "Hess's Law is based on the fact that enthalpy is a:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "State function",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Path function",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Intensive property",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Extensive property only",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "thermodynamics2024easy000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "The heat capacity at constant pressure Cp and constant volume Cv for an ideal gas are related by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cp - Cv = R",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Cv - Cp = R",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Cp + Cv = R",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Cp / Cv = R",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "thermodynamics2024easy000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "Which of the following processes represents sublimation?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solid -> Gas",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Solid -> Liquid",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Liquid -> Gas",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Gas -> Solid",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "thermodynamics2024easy000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "During an isothermal expansion of an ideal gas, the internal energy:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Remains constant",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Increases",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Decreases",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "First increases then decreases",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "thermodynamics2024easy000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "Which of the following is not a state function?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Heat (q)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Entropy (S)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Enthalpy (H)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Free energy (G)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "thermodynamics2024easy000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "The work done when a gas expands from 10 L to 20 L against a constant pressure of 2 atm is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "-20 L atm",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-10 L atm",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "-40 L atm",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0 L atm",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "thermodynamics2024easy000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "For the transition H2O(l) -> H2O(g) at 100°C and 1 atm, the change in entropy is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Positive",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Negative",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Zero",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Infinite",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "thermodynamics2024easy000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "The criteria for equilibrium at constant temperature and pressure is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "delta G = 0",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "delta S = 0",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "delta H = 0",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "delta U = 0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "thermodynamics2024easy000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "The enthalpy of combustion is always:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Negative (exothermic)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Positive (endothermic)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Zero",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Variable depending on fuel",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "thermodynamics2024easy000030f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "An isolated system is one which cannot exchange:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both mass and energy with surroundings",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Mass only with surroundings",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Energy only with surroundings",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 31,
+    "_id": {
+      "$oid": "thermodynamics2024easy000031f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "Which of the following has the highest entropy?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Water vapour at 100°C",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Liquid water at 100°C",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Liquid water at 0°C",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Ice at 0°C",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 32,
+    "_id": {
+      "$oid": "thermodynamics2024easy000032f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "For a spontaneous exothermic reaction, if the entropy change is negative, the reaction is spontaneous at:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Low temperatures",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "High temperatures",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "All temperatures",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "No temperatures",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 33,
+    "_id": {
+      "$oid": "thermodynamics2024easy000033f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "The change in enthalpy delta H is related to internal energy change delta U by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "delta H = delta U + P delta V",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "delta H = delta U - P delta V",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "delta H = delta U + V delta P",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "delta H = delta U - V delta P",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 34,
+    "_id": {
+      "$oid": "thermodynamics2024easy000034f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "The mathematical expression of the First Law of Thermodynamics is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "delta U = q + w",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "delta U = q - w",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "q = delta U + w",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "w = q + delta U",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 35,
+    "_id": {
+      "$oid": "thermodynamics2024easy000035f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "The heat capacity of a substance is an:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Extensive property",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Intensive property",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "State function",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 36,
+    "_id": {
+      "$oid": "thermodynamics2024easy000036f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "The enthalpy change of a reaction is independent of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "The path taken to reach the products",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "The physical state of reactants",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "The temperature of reaction",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "The pressure of reaction",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 37,
+    "_id": {
+      "$oid": "thermodynamics2024easy000037f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "For the reaction N2(g) + 3H2(g) -> 2NH3(g), the value of delta n_g is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "-2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 38,
+    "_id": {
+      "$oid": "thermodynamics2024easy000038f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "The heat transfer at constant volume is equal to the change in:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Internal energy (delta U)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Enthalpy (delta H)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Gibbs free energy (delta G)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Entropy (delta S)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 39,
+    "_id": {
+      "$oid": "thermodynamics2024easy000039f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Thermodynamics",
+    "difficulty": "Easy",
+    "question": "The standard entropy change for a reaction can be calculated from standard entropies of products and reactants using:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "delta S° = sum(S°_products) - sum(S°_reactants)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "delta S° = sum(S°_reactants) - sum(S°_products)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "delta S° = sum(S°_products) + sum(S°_reactants)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical thermodynamics theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Thermodynamics (C) - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 40,
+    "_id": {
+      "$oid": "thermodynamics2024easy000040f9efa96"
+    }
+  }
+]

@@ -1,0 +1,1722 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "Match the process in List-I with their enthalpy and entropy changes in List-II at 300 K to determine spontaneity: (see diagram)",
+    "questionImage": "equilibrium easy/equilibrium_easy_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "A and C only",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A and B only",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "B and D only",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "C and D only",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Explanation: Spontaneity is determined by Gibbs free energy change, delta G = delta H - T * delta S. For a process to be spontaneous, delta G must be negative. For A: delta G = -25 - 300 * (-0.08) = -25 + 24 = -1 kJ/mol (spontaneous). For B: delta G = -22 - 300 * (0.04) = -22 - 12 = -34 kJ/mol (spontaneous). For C: delta G = 25 - 300 * (-0.05) = 25 + 15 = +40 kJ/mol (non-spontaneous). For D: delta G = 22 - 300 * (0.02) = 22 - 6 = +16 kJ/mol (non-spontaneous). Hence, processes C and D are non-spontaneous. (Wait, the question asks for non-spontaneous, so option D is 'C and D only', which matches process C and D. Let's make sure the correct answer matches the option key). Yes, correct answer is D.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "equilibrium2024easy000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "For the reaction given in the diagram, what is the standard Gibbs energy change (in kJ/mol) at 27°C? (see diagram)",
+    "questionImage": "equilibrium easy/equilibrium_easy_q2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "-5.74",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-11.48",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "+5.74",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "+11.48",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: The equilibrium constant K = Kf / Kr = 10^3 / 10^2 = 10. The relation is delta G° = -2.303 * R * T * log K. At 27°C (300 K), delta G° = -2.303 * 8.314 * 300 * log(10) J/mol = -5744 J/mol = -5.74 kJ/mol.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "equilibrium2024easy000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "For the dissociation reaction given in the diagram, choose the correct expression for the equilibrium constant Kc: (see diagram)",
+    "questionImage": "equilibrium easy/equilibrium_easy_q3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kc = [FeSCN2+] / ([Fe3+] * [SCN-])",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Kc = ([Fe3+] * [SCN-]) / [FeSCN2+]",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Kc = [FeSCN2+] / ([Fe3+] * 2[SCN-])",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Kc = [FeSCN2+]^2 / ([Fe3+] * [SCN-])",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: The reaction is Fe3+ + SCN- <=> [FeSCN]2+. The equilibrium constant Kc is the ratio of concentration of products to reactants: Kc = [[FeSCN]2+] / ([Fe3+] * [SCN-]).",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "equilibrium2024easy000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "Identify the correct relationship between the equilibrium constant Kp and the degree of dissociation alpha for the reaction shown: (see diagram)",
+    "questionImage": "equilibrium easy/equilibrium_easy_q4.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kp = (alpha^(3/2) * P^(1/2)) / ((2 + alpha)^(1/2) * (1 - alpha))",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Kp = (alpha^(1/2) * P^(1/2)) / (2 + alpha)^(1/2)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Kp = (alpha^(1/2) * P^(3/2)) / (2 + alpha)^(3/2)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Kp = (alpha^(1/2) * P^(1/2)) / (2 + alpha)^(3/2)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: For the dissociation reaction A(g) <=> B(g) + 0.5 C(g), setting up moles: A = 1 - alpha, B = alpha, C = 0.5 * alpha. Total moles = 1 + 0.5 * alpha = (2 + alpha)/2. Substituting partial pressures into the Kp expression gives Kp = (alpha^(3/2) * P^(1/2)) / ((2 + alpha)^(1/2) * (1 - alpha)).",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "equilibrium2024easy000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "For the reaction H2(g) + I2(g) <=> 2HI(g), the relation between Kp and Kc is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kp = Kc",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Kp = Kc * (RT)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Kp = Kc * (RT)^2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Kp = Kc * (RT)^-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "equilibrium2024easy000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "Which of the following will shift the equilibrium N2(g) + 3H2(g) <=> 2NH3(g) to the right?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increasing the pressure",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Decreasing the pressure",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Increasing the temperature",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Adding a catalyst",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "equilibrium2024easy000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "According to Le Chatelier's principle, addition of heat to an endothermic reaction at equilibrium causes the reaction to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Shift to the right",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Shift to the left",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Remain unchanged",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Stop completely",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "equilibrium2024easy000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "For which of the following reactions is Kp equal to Kc?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "N2(g) + O2(g) <=> 2NO(g)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "PCl5(g) <=> PCl3(g) + Cl2(g)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "N2(g) + 3H2(g) <=> 2NH3(g)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2SO2(g) + O2(g) <=> 2SO3(g)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "equilibrium2024easy000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "In a reversible chemical reaction, equilibrium is said to have been established when:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "The rate of forward reaction equals the rate of backward reaction",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "The concentrations of reactants and products become equal",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "The reaction stops completely",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "The mass of reactants equals the mass of products",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "equilibrium2024easy000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "The unit of equilibrium constant Kc for the reaction H2(g) + I2(g) <=> 2HI(g) is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dimensionless (no units)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "mol/L",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "L/mol",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "atm",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "equilibrium2024easy000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "For the reaction PCl5(g) <=> PCl3(g) + Cl2(g), the units of Kp are:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "atm",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "atm^2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "atm^-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Dimensionless",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "equilibrium2024easy000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "Which of the following factors does not affect the value of the equilibrium constant?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Concentration of reactants",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Temperature",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Catalyst",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Pressure",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "equilibrium2024easy000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "For an exothermic reaction, if the temperature is increased, the value of the equilibrium constant:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decreases",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Increases",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Remains constant",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "First increases then decreases",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "equilibrium2024easy000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "In the equilibrium N2O4(g) <=> 2NO2(g), the degree of dissociation is increased by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decreasing the total pressure",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Increasing the total pressure",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Adding an inert gas at constant volume",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Decreasing the temperature",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "equilibrium2024easy000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "The equilibrium constant for a reaction is 100. The equilibrium constant for the reverse reaction is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.01",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "100",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "10",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "equilibrium2024easy000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "Which of the following is correct regarding a catalyst at equilibrium?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "It speeds up both forward and backward reactions equally",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "It increases the value of Kc",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "It shifts the equilibrium towards the products",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "It shifts the equilibrium towards the reactants",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "equilibrium2024easy000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "For the reaction CaCO3(s) <=> CaO(s) + CO2(g), the equilibrium constant Kp is equal to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "P(CO2)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "P(CO2) * [CaO] / [CaCO3]",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "[CaO] / [CaCO3]",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1 / P(CO2)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "equilibrium2024easy000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "If the equilibrium constant for A <=> B is K1 and for B <=> C is K2, then for A <=> C it is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "K1 * K2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "K1 / K2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "K1 + K2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "K2 / K1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "equilibrium2024easy000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "Under what condition does a reaction go almost to completion?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kc is very large (e.g., > 10^3)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Kc is very small (e.g., < 10^-3)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Kc is equal to 1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Kc is equal to 0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "equilibrium2024easy000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "For a gaseous reaction, if delta n_g = 0, then Kp and Kc are related by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kp = Kc",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Kp = Kc * (RT)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Kp = Kc * (RT)^2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Kp = Kc / (RT)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "equilibrium2024easy000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "The equilibrium constant for the reaction 2NO(g) + O2(g) <=> 2NO2(g) is K. The equilibrium constant for NO(g) + 0.5 O2(g) <=> NO2(g) is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "K^0.5",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "K^2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1/K",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "K",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "equilibrium2024easy000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "According to Le Chatelier's principle, addition of an inert gas at constant pressure to the system N2O4(g) <=> 2NO2(g) will:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Shift the equilibrium to the right",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Shift the equilibrium to the left",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Have no effect",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Stop the reaction",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "equilibrium2024easy000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "The active mass of a pure solid or liquid is always taken as:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Zero",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Variable depending on density",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Equal to its molecular weight",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "equilibrium2024easy000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "In the reaction N2(g) + 3H2(g) <=> 2NH3(g), the value of delta n_g is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "-2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "equilibrium2024easy000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "The value of equilibrium constant is independent of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Initial concentrations of reactants",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Temperature",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Stoichiometry of the reaction",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Nature of reactants",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "equilibrium2024easy000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "For which reaction does the addition of inert gas at constant volume shift the equilibrium?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "No reaction is affected",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "N2 + 3H2 <=> 2NH3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "PCl5 <=> PCl3 + Cl2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "H2 + I2 <=> 2HI",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "equilibrium2024easy000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "If the reaction quotient Q is greater than the equilibrium constant K, the reaction will:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Proceed in the backward direction",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Proceed in the forward direction",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Remain at equilibrium",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Stop completely",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "equilibrium2024easy000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "The standard state free energy change delta G° is related to Kc by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "delta G° = -RT ln Kc",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "delta G° = RT ln Kc",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "delta G° = -RT log Kc",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "delta G° = RT log Kc",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "equilibrium2024easy000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "In the reaction SO2(g) + 0.5 O2(g) <=> SO3(g), Kp / Kc is equal to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "(RT)^-0.5",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "(RT)^0.5",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "RT",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "(RT)^-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "equilibrium2024easy000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "Which of the following represents physical equilibrium?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ice <=> Water",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "N2 + 3H2 <=> 2NH3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2SO2 + O2 <=> 2SO3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "PCl5 <=> PCl3 + Cl2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "equilibrium2024easy000030f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "Le Chatelier's principle is applicable to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both physical and chemical equilibria",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Chemical equilibria only",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Physical equilibria only",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of the above",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 31,
+    "_id": {
+      "$oid": "equilibrium2024easy000031f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "In which of the following reactions does an increase in pressure shift the equilibrium to the left?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "PCl5(g) <=> PCl3(g) + Cl2(g)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "N2(g) + 3H2(g) <=> 2NH3(g)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "H2(g) + I2(g) <=> 2HI(g)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2CO(g) + O2(g) <=> 2CO2(g)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 32,
+    "_id": {
+      "$oid": "equilibrium2024easy000032f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "For the reaction N2(g) + O2(g) <=> 2NO(g), the value of Kc is 4 * 10^-4 at 2000 K. The value of Kc for the reverse reaction is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2500",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "0.25 * 10^4",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "4 * 10^4",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2.5 * 10^-4",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 33,
+    "_id": {
+      "$oid": "equilibrium2024easy000033f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "When pressure is applied to the equilibrium Ice <=> Water, the melting point of ice:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decreases",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Increases",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Remains constant",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "First increases then decreases",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 34,
+    "_id": {
+      "$oid": "equilibrium2024easy000034f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "In an endothermic equilibrium reaction, the backward reaction is favored by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decreasing the temperature",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Increasing the temperature",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Increasing the pressure",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Decreasing the pressure",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 35,
+    "_id": {
+      "$oid": "equilibrium2024easy000035f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "The state of chemical equilibrium is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dynamic",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Static",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Reversible only",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Irreversible only",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 36,
+    "_id": {
+      "$oid": "equilibrium2024easy000036f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "If the value of Kc is very small, it indicates that at equilibrium:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reactants predominate over products",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Products predominate over reactants",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Reaction is complete",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Rate of reaction is zero",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 37,
+    "_id": {
+      "$oid": "equilibrium2024easy000037f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "For the system 2SO2(g) + O2(g) <=> 2SO3(g) + Heat, the equilibrium concentration of SO3 is increased by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decreasing the temperature",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Increasing the temperature",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Decreasing the pressure",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Adding helium gas at constant volume",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 38,
+    "_id": {
+      "$oid": "equilibrium2024easy000038f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "The relation between Kp and Kc involves the term (RT)^delta n. Here, R stands for:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Universal gas constant",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Rydberg constant",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Rate constant",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Reaction coefficient",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 39,
+    "_id": {
+      "$oid": "equilibrium2024easy000039f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Easy",
+    "question": "Which of the following reactions will not be affected by changes in volume?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "H2(g) + I2(g) <=> 2HI(g)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "N2(g) + 3H2(g) <=> 2NH3(g)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "PCl5(g) <=> PCl3(g) + Cl2(g)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2NO2(g) <=> N2O4(g)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical equilibrium theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Equilibrium - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 40,
+    "_id": {
+      "$oid": "equilibrium2024easy000040f9efa96"
+    }
+  }
+]

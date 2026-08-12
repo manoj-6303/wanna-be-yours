@@ -17,6 +17,26 @@ export default function Dashboard() {
         return;
       }
       try {
+        if (token === 'mock-token') {
+          setProfile({
+            name: "Demo Student",
+            email: "student@test.com",
+            role: "student",
+            coins: 100,
+            currentLevel: 10,
+            completedLevels: [],
+            paidLevels: [1, 2, 3]
+          });
+          setLevels([
+            { _id: '1', levelNumber: 1, title: 'Chemistry Easy Level', passingPercentage: 50, duration: 60, subject: 'Chemistry', questionCount: 3, isPaid: true },
+            { _id: '2', levelNumber: 2, title: 'Chemistry Medium Level', passingPercentage: 50, duration: 60, subject: 'Chemistry', questionCount: 3, isPaid: true },
+            { _id: '3', levelNumber: 3, title: 'Chemistry Hard Level', passingPercentage: 50, duration: 60, subject: 'Chemistry', questionCount: 2, isPaid: true }
+          ]);
+          setCertificates([]);
+          setSecurityReports([]);
+          return;
+        }
+
         const config = { headers: { Authorization: `Bearer ${token}` } };
         const [profileRes, levelsRes, certsRes, secRes] = await Promise.all([
           axios.get('/api/v1/users/profile', config),

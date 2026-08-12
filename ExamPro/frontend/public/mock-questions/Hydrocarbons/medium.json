@@ -1,0 +1,1722 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "For the but-2-yne hydrogenation reactions shown in the diagram yielding stereoisomers X and Y, identify the incorrect statements: (see diagram)",
+    "questionImage": "hyd medium/hyd_medium_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "B and D Only",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A and C Only",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A and B Only",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "B and C Only",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: X is cis-but-2-ene, and Y is trans-but-2-ene. Y is symmetrical, so its dipole moment is zero. X is polar, so its dipole moment is non-zero (B is incorrect). Ozonolysis of both X and Y yields identical products (2 moles of acetaldehyde) (D is incorrect). Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "hydromedium2024medium000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "Regarding the Friedel-Crafts reaction statements and drawings shown in the diagram, choose the correct evaluation: (see diagram)",
+    "questionImage": "hyd medium/hyd_medium_q2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Statement I is incorrect but Statement II is correct",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Both Statement I and Statement II are incorrect",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Both Statement I and Statement II are correct",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Statement I is correct but Statement II is incorrect",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Friedel-Crafts alkylation/acylation does not occur on strongly deactivated benzene rings (like nitrobenzene), hence nitrobenzene cannot react with CH3COCl/AlCl3 to give meta-nitroacetophenone (Statement I is false). The nitro group is indeed meta-directing and deactivating (Statement II is true). Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "hydromedium2024medium000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "Identify the major product 'P' formed in the naphthalene derivative KMnO4 oxidation reaction shown in the diagram: (see diagram)",
+    "questionImage": "hyd medium/hyd_medium_q3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "(2)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "(1)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "(3)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "(4)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Alkaline KMnO4 at high temperature oxidizes all alkyl chains with benzylic hydrogen (like ethyl), hydrolyzes esters to acids, and cleaves alkenes to carboxylic acids. Thus, all three substituents are converted to -COOH groups, forming naphthalene-tricarboxylic acid. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "hydromedium2024medium000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "Identify the product types A and B from the alkene addition reactions shown in the diagram: (see diagram)",
+    "questionImage": "hyd medium/hyd_medium_q4.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "A = primary alcohol, B = secondary/tertiary alcohol",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A = secondary/tertiary alcohol, B = primary alcohol",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A = primary alcohol, B = primary alcohol",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A = secondary/tertiary alcohol, B = secondary/tertiary alcohol",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Hydroboration-oxidation (Path A) is an anti-Markovnikov syn-addition of water, converting terminal alkene to primary alcohol. Oxymercuration-demercuration (Path B) is Markovnikov addition of water without rearrangement, yielding secondary/tertiary alcohol. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "hydromedium2024medium000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "An alkene on ozonolysis gives a mixture of ethanal and pentan-3-one. The structure of the alkene is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3-ethylpent-2-ene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2-ethylpent-2-ene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3-methylhex-2-ene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "hex-2-ene",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "hydromedium2024medium000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "A hydrocarbon (A) of molecular formula C6H10 reacts with sodamide to give a sodium salt. On reaction with dilute H2SO4/HgSO4, it forms a ketone (B) C6H12O. The hydrocarbon (A) is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "hex-1-yne",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "hex-2-yne",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "hex-3-yne",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "cyclohexene",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "hydromedium2024medium000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "When propyne is treated with dilute H2SO4 in the presence of HgSO4, the major product is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acetone (propanone)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Propanal",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Allyl alcohol",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Propane",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "hydromedium2024medium000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "Benzene reacts with CH3Cl in the presence of anhydrous AlCl3 to give toluene. If excess CH3Cl and AlCl3 are used, the major product is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1,2,4,5-tetramethylbenzene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Hexamethylbenzene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "o-xylene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "p-xylene",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "hydromedium2024medium000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "The relative rates of hydrogenation of alkenes follow the order:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ethene > Propene > But-2-ene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "But-2-ene > Propene > Ethene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Propene > Ethene > But-2-ene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "hydromedium2024medium000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "Which of the following represents the correct order of stability of alkenes?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "trans-but-2-ene > cis-but-2-ene > but-1-ene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "but-1-ene > cis-but-2-ene > trans-but-2-ene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "cis-but-2-ene > trans-but-2-ene > but-1-ene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "trans-but-2-ene > but-1-ene > cis-but-2-ene",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "hydromedium2024medium000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "The electrolysis of an aqueous solution of sodium succinate yields:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ethene (at anode)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Ethane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Ethyne",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Methane",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "hydromedium2024medium000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "The electrolysis of an aqueous solution of sodium maleate or fumarate yields:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ethyne (at anode)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Ethene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Ethane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Methane",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "hydromedium2024medium000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "Which of the following compounds reacts fastest with HBr via electrophilic addition?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2-methylpropene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "propene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "ethene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "but-2-ene",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "hydromedium2024medium000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "The addition of HBr to 3-methylbut-1-ene yields which major product?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2-bromo-2-methylbutane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2-bromo-3-methylbutane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1-bromo-3-methylbutane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "hydromedium2024medium000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "Which of the following is used to convert alkynes to trans-alkenes?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sodium in liquid ammonia",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "H2 with Lindlar's catalyst",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "H2 with Pt/C",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "LiAlH4",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "hydromedium2024medium000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "Which of the following compounds is non-aromatic?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cyclooctatetraene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Benzene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Naphthalene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Anthracene",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "hydromedium2024medium000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "The nitration of toluene yields a mixture of ortho and para nitrotoluenes because the methyl group is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ortho/para-directing due to +I and hyperconjugation",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Meta-directing",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Deactivating",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "hydromedium2024medium000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "Benzene reacts with fuming sulfuric acid at room temperature to form:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Benzene sulfonic acid",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "m-benzene disulfonic acid",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Sulfanilic acid",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Nitrobenzene",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "hydromedium2024medium000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "The major product of the reaction of toluene with CrO2Cl2 followed by hydrolysis is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Benzaldehyde",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Benzoic acid",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Benzyl alcohol",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Benzoyl chloride",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "hydromedium2024medium000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "The oxidation of toluene with hot alkaline KMnO4 followed by acidification yields:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Benzoic acid",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Benzaldehyde",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Benzyl alcohol",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Benzoyl alcohol",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "hydromedium2024medium000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "The treatment of benzene with Cl2 in the presence of anhydrous AlCl3 in dark yields:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chlorobenzene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "BHC",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Hexachlorobenzene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Benzene hexachloride",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "hydromedium2024medium000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "In the Friedel-Crafts alkylation of benzene with n-propyl chloride, the major product is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Isopropylbenzene (cumene)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "n-propylbenzene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Propylbenzene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "hydromedium2024medium000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "The compound which undergoes electrophilic nitration fastest is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anisole",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Toluene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Benzene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Nitrobenzene",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "hydromedium2024medium000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "Which of the following alkenes gives only acetone on ozonolysis?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2,3-dimethylbut-2-ene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "but-2-ene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2-methylbut-2-ene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "propene",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "hydromedium2024medium000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "The addition of bromine to trans-but-2-ene yields:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Meso-2,3-dibromobutane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Racemic 2,3-dibromobutane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "d-2,3-dibromobutane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "l-2,3-dibromobutane",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "hydromedium2024medium000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "The addition of bromine to cis-but-2-ene yields:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Racemic 2,3-dibromobutane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Meso-2,3-dibromobutane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "trans-but-2-ene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "hydromedium2024medium000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "Aromatization of n-heptane under catalytic reforming conditions yields:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Toluene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Benzene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Xylene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Ethylbenzene",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "hydromedium2024medium000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "Which of the following compounds has the lowest boiling point?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2,2-dimethylpropane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "n-pentane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2-methylbutane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "n-hexane",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "hydromedium2024medium000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "Alkynes undergo electrophilic addition reactions less easily than alkenes because:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "The sp hybridized carbon of alkyne is more electronegative, holding pi electrons tightly",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Alkyne has higher density",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Linear geometry",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "hydromedium2024medium000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "The reduction of a carbonyl group to a methylene group using Zn-Hg and concentrated HCl is called:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Clemmensen reduction",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Wolff-Kishner reduction",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Rosenmund reduction",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Stephen reduction",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "hydromedium2024medium000030f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "The reduction of a carbonyl group to a methylene group using hydrazine and KOH in ethylene glycol is called:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wolff-Kishner reduction",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Clemmensen reduction",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Rosenmund reduction",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Stephen reduction",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 31,
+    "_id": {
+      "$oid": "hydromedium2024medium000031f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "Which of the following reagents can be used to distinguish terminal alkynes from non-terminal alkynes?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ammoniacal silver nitrate",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Baeyer's reagent",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Bromine water",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "FeCl3",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 32,
+    "_id": {
+      "$oid": "hydromedium2024medium000032f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "The sodium salt of which carboxylic acid is needed to prepare propane by decarboxylation?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sodium butanoate",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Sodium propanoate",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Sodium acetate",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Sodium pentanoate",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 33,
+    "_id": {
+      "$oid": "hydromedium2024medium000033f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "Ozonolysis of a hydrocarbon C8H12 gives only one product: succinaldehyde. The hydrocarbon is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cycloocta-1,5-diene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Cycloocta-1,3-diene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Octa-1,7-diene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 34,
+    "_id": {
+      "$oid": "hydromedium2024medium000034f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "The acidic character of terminal alkynes is due to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "High s-character (50%) of sp hybridized carbon making it highly electronegative",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Resonance stabilization of conjugate base",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Inductive effect of alkyl groups",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 35,
+    "_id": {
+      "$oid": "hydromedium2024medium000035f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "The reaction of benzene with carbon monoxide and HCl in the presence of anhydrous AlCl3/CuCl yields benzaldehyde. This reaction is called:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gattermann-Koch reaction",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Gattermann aldehyde synthesis",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Friedel-Crafts acylation",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Etard reaction",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 36,
+    "_id": {
+      "$oid": "hydromedium2024medium000036f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "Which of the following is correct stability order of free radicals formed during chlorination of isobutane?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "t-Butyl free radical > Isobutyl free radical",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Isobutyl free radical > t-Butyl free radical",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Both are equally stable",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 37,
+    "_id": {
+      "$oid": "hydromedium2024medium000037f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "What is the major product when n-butane is treated with Cl2 in presence of light?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2-chlorobutane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1-chlorobutane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1,2-dichlorobutane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 38,
+    "_id": {
+      "$oid": "hydromedium2024medium000038f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "The reaction of benzene with ozone yields benzene triozonide, which on hydrolysis with zinc dust gives:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Glyoxal (3 moles)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Formaldehyde",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Acetaldehyde",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Oxalic acid",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 39,
+    "_id": {
+      "$oid": "hydromedium2024medium000039f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "Which of the following compounds will not show geometrical isomerism?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Propene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "But-2-ene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Pent-2-ene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Hex-3-ene",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conceptual evaluation of unsaturated hydrocarbons addition/oxidation pathways.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Hydrocarbons - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 40,
+    "_id": {
+      "$oid": "hydromedium2024medium000040f9efa96"
+    }
+  }
+]

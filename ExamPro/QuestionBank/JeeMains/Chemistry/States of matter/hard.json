@@ -1,0 +1,1292 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "For 1 mol of a real gas, the plot of pV vs p is shown in the diagram. What is the value of the compressibility factor at point A? (see diagram)",
+    "questionImage": "gaseous hard/gs_hard_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 - a / (RTV)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1 + b / V",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1 - b / V",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1 + a / (RTV)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: At low pressure, the van der Waals equation simplifies to (P + a/V2)V = RT => PV = RT - a/V => Z = PV/RT = 1 - a/(RTV). Hence option A is correct.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "gaseous2024hard000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "For the frictionless piston cylinder schematic shown in the diagram containing 0.1 mol of ideal gas, find the volume of the gas in litres after equilibrium is achieved (nearest integer): (see diagram)",
+    "questionImage": "gaseous hard/gs_hard_q2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 L",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "4 L",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1 L",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "3 L",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Thermodynamical calculations involving aqueous ethylene glycol freezing point depression and gas pressure gives final volume = 2.18 L, which rounds to 2 L. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "gaseous state - jee main 2020 sep.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "gaseous2024hard000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "Regarding the vapour pressure vs temperature curves for liquids X, Y, and Z shown in the diagram, choose the correct statements: (see diagram)",
+    "questionImage": "gaseous hard/gs_hard_q3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "B only",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A and C",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A and B",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "B and C",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Since vapour pressure order is X > Y > Z, the intermolecular force of attraction order is X < Y < Z. Thus, statement B (Intermolecular force of X < Y) is correct, while A and C are incorrect. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Gaseous State - JEE Main 2020 January.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "gaseous2024hard000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "The exclusion volume (b) of a gas is related to the actual volume of the gas molecules (v) by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "b = 4 v",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "b = v",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "b = 2 v",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "b = 8 v",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "gaseous2024hard000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "If the collision frequency of a gas at 1 atm is Z_11, then its value at 2 atm and same temperature is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4 Z_11",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2 Z_11",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Z_11",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1.41 Z_11",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "gaseous2024hard000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "The mean free path of a gas molecule is inversely proportional to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Square of molecular diameter",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Molecular diameter",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Square root of molecular diameter",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Independent of molecular diameter",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "gaseous2024hard000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "What is the ratio of average kinetic energy of O2 molecules to that of O3 molecules at the same temperature?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 : 1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2 : 3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3 : 2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "4 : 3",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "gaseous2024hard000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "The compressibility factor Z for a gas obeying the equation P(V - b) = RT is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 + Pb/RT",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1 - Pb/RT",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3/8",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "gaseous2024hard000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "The temperature at which the second virial coefficient of a real gas becomes zero is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Boyle temperature",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Critical temperature",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Inversion temperature",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Boiling temperature",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "gaseous2024hard000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "At critical temperature, the surface tension of a liquid is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Zero",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Infinite",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Same as at room temperature",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Double",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "gaseous2024hard000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "The numerical value of critical compressibility factor Z_c for an ideal gas is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1.0",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "0.375",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0.28",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0.5",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "gaseous2024hard000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "For a gas obeying van der Waals equation, the Joule-Thomson expansion of the gas causes heating if the initial temperature is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Above inversion temperature",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Below inversion temperature",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Equal to Boyle temperature",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Below Boyle temperature",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "gaseous2024hard000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "The inversion temperature (T_i) of a gas is related to van der Waals constants by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "T_i = 2a / Rb",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "T_i = a / Rb",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "T_i = 8a / 27Rb",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "T_i = a / 27b",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "gaseous2024hard000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "Under what condition will the van der Waals constant 'b' be equal to the molar volume of the gas?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "When Z = 1 + Pb/RT and Z = 2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "When gas is at critical point",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "At Boyle temperature",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Never",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "gaseous2024hard000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "A container holds 1 mole of He and 1 mole of Xe. If a small pinhole is made, the initial ratio of rates of escape of He to Xe is (At. Mass: He = 4, Xe = 131):",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "5.7 : 1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1 : 5.7",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "32.7 : 1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1 : 32.7",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "gaseous2024hard000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "If the van der Waals constants for a gas are a = 4.0 atm L2 mol-2 and b = 0.04 L mol-1, its Boyle temperature is (R = 0.082 L atm K-1 mol-1):",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1220 K",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "122 K",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "610 K",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "305 K",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "gaseous2024hard000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "The root mean square velocity of an ideal gas in a closed container of fixed volume is increased by 2 times. The pressure of the gas increases by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4 times",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2 times",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1.41 times",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "8 times",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "gaseous2024hard000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "The term that accounts for intermolecular forces in van der Waals equation is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "a / V^2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "b",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "RT",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "(V - b)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "gaseous2024hard000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "Which of the following equations represents the Virial equation of state?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Z = 1 + B/V + C/V^2 + ...",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "PV = nRT",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "P(V-b) = RT",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "gaseous2024hard000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "The value of critical temperature of water is higher than that of oxygen because water molecules have:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hydrogen bonding",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Larger size",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Higher molar mass",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "More electrons",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "gaseous2024hard000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "A real gas behaves most like an ideal gas at:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "High temperature and low pressure",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Low temperature and high pressure",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "High temperature and high pressure",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Low temperature and low pressure",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "gaseous2024hard000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "The fraction of volume occupied by gas molecules in 1 mole of gas at STP (assuming molecular radius 10^-10 m) is approximately:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "10^-4",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "10^-6",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "10^-2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "10^-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "gaseous2024hard000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "If the critical temperature of a gas is 100 K, its Boyle temperature is expected to be around:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "337.5 K",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "100 K",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "200 K",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "50 K",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "gaseous2024hard000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "At very low pressure, the compressibility factor Z of a real gas is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 - a/RTV",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1 + Pb/RT",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1 - Pb/RT",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "gaseous2024hard000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "Which of the following is correct relation between T_c, T_B and T_i?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "T_i > T_B > T_c",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "T_c > T_B > T_i",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "T_B > T_i > T_c",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "T_i > T_c > T_B",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "gaseous2024hard000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "A mixture of neon and argon contains 2.0 g of Ne and 4.0 g of Ar. The total kinetic energy of the mixture at 27 C is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "748 J",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "7480 J",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3740 J",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1870 J",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "gaseous2024hard000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "Which of the following gases cannot be liquefied at room temperature (298 K)?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oxygen (T_c = 154 K)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Carbon dioxide (T_c = 304 K)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Ammonia (T_c = 405 K)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Water vapor (T_c = 647 K)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "gaseous2024hard000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "The vapor pressure of a liquid increases with:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase in temperature",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Increase in surface area",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Increase in intermolecular forces",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "All of the above",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "gaseous2024hard000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "The pressure exerted by a real gas is less than that of an ideal gas due to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Intermolecular forces of attraction pulling molecules backward",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Collisions being inelastic",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Molecules having finite volume",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Molecules moving slower",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "gaseous2024hard000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Gaseous State",
+    "difficulty": "Hard",
+    "question": "The ratio of rates of diffusion of helium and methane under same conditions of temperature and pressure is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 : 1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1 : 2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "4 : 1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1 : 4",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Analytical evaluation check of real gas physical parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "States of Matter - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "gaseous2024hard000030f9efa96"
+    }
+  }
+]

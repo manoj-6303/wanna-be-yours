@@ -1,0 +1,1292 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2021,
+    "session": "March",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "Match the complex compounds in List-I with their type of isomerism in List-II: (see diagram)",
+    "questionImage": "coordination hard/coordination_hard_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "(a)-(iv), (b)-(ii), (c)-(iii), (d)-(i)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: (a) [Co(NH3)6][Cr(CN)6] shows coordination isomerism (iii). (b) [Co(NH3)3(NO2)3] contains ambidentate ligand NO2- which can coordinate via N or O, showing linkage isomerism (i) (and also facial-meridional geometrical isomerism). (c) [Cr(H2O)6]Cl3 shows solvate/hydrate isomerism (ii). (d) cis-[CrCl2(ox)2]3- is chiral and shows optical isomerism (iv). Matching is (a)-(iii), (b)-(i), (c)-(ii), (d)-(iv), which is option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "coodination compounds jee main 2021 mar.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "coordination2024hard000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "Match the coordination complexes in List-I with their crystal field d-orbital electronic configuration (split in e and t2) in List-II: (see diagram)",
+    "questionImage": "coordination hard/coordination_hard_q2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "A-III, B-I, C-IV, D-II",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A-III, B-I, C-II, D-IV",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A-IV, B-III, C-II, D-I",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A-I, B-III, C-IV, D-II",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: TiCl4 contains Ti4+ (d0), splitting into e^0 t2^0 (A-III). [FeO4]2- contains Fe6+ (d2, tetrahedral), splitting into e^2 t2^0 (B-I). [FeCl4]- contains Fe3+ (d5 high-spin, tetrahedral), splitting into e^2 t2^3 (C-IV). [CoCl4]2- contains Co2+ (d7 tetrahedral), splitting into e^4 t2^3 (D-II). Matching is A-III, B-I, C-IV, D-II, which is option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2024 April Question Bank - MathonGo.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "coordination2024hard000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "Match the compounds in List-I with their uses/applications in List-II: (see diagram)",
+    "questionImage": "coordination hard/coordination_hard_q3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "A-III, B-I, C-IV, D-II",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A-I, B-III, C-IV, D-II",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A-II, B-IV, C-I, D-III",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A-III, B-II, C-I, D-IV",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Iodoform is used as an antiseptic (A-III). Carbon tetrachloride is used as a fire extinguisher (B-I). CFCs are used as refrigerants (C-IV). DDT is used as an insecticide (D-II). Matching is A-III, B-I, C-IV, D-II, which is option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2024 April Question Bank - MathonGo.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "coordination2024hard000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "The correct structures of trans-[NiBr2(PPh3)2] and meridional-[Co(NH3)3(NO2)3], respectively, are:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Square planar & octahedral",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Tetrahedral & octahedral",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Square planar & trigonal bipyramidal",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Tetrahedral & trigonal bipyramidal",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "coordination2024hard000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "The equivalents of ethylene diamine required to replace the neutral ligands from the coordination sphere of the trans-complex of CoCl3.4NH3 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "coordination2024hard000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "[Ti(H2O)6]3+ absorbs light of wavelength 498 nm during a d-d transition. The octahedral splitting energy for the above complex is ______ * 10^-19 J. (Given h = 6.63 * 10^-34 J s, c = 3 * 10^8 m/s):",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "5",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "coordination2024hard000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "Three moles of AgCl are precipitated when an excess of AgNO3 is added to one mole of a complex with the empirical formula CoCl3.6NH3. The coordination number of cobalt in this complex is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "6",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "5",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "coordination2024hard000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "The number of geometrical isomers possible for the complex [Pt(NH3)(NH2OH)(py)(NH3)]+ is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "coordination2024hard000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "The value of crystal field stabilization energy (CFSE) of [Co(CN)6]3- in terms of delta_o is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "-2.4 delta_o",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-0.4 delta_o",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "-1.2 delta_o",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "-1.8 delta_o",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "coordination2024hard000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "Which of the following complexes will show maximum structural distortion due to Jahn-Teller effect?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "[Cu(H2O)6]2+",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "[Cr(H2O)6]3+",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "[Ni(H2O)6]2+",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "[Fe(CN)6]4-",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "coordination2024hard000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "The number of geometrical and optical isomers possible for [Co(en)2Cl2]+ are respectively:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Geometrical: 2, Optical: 2 (cis only)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Geometrical: 2, Optical: 2 (trans only)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Geometrical: 3, Optical: 2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Geometrical: 2, Optical: 0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "coordination2024hard000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "The correct order of spin-only magnetic moment for the complexes [Fe(CN)6]3-, [Fe(H2O)6]3+ and [Co(C2O4)3]3- is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "[Fe(H2O)6]3+ > [Fe(CN)6]3- > [Co(C2O4)3]3-",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "[Fe(CN)6]3- > [Fe(H2O)6]3+ > [Co(C2O4)3]3-",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "[Co(C2O4)3]3- > [Fe(H2O)6]3+ > [Fe(CN)6]3-",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "[Fe(H2O)6]3+ > [Co(C2O4)3]3- > [Fe(CN)6]3-",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "coordination2024hard000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "The synergic bonding in metal carbonyls involves:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "pi back-bonding from filled d-orbitals of metal to empty pi* orbitals of CO",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "sigma donation from filled orbitals of metal to CO",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "pi donation from filled pi orbitals of CO to metal",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of the above",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "coordination2024hard000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "The correct increasing order of crystal field splitting energy (delta_o) for the complexes is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "[Cr(Cl)6]3- < [Cr(H2O)6]3- < [Cr(NH3)6]3- < [Cr(CN)6]3-",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "[Cr(CN)6]3- < [Cr(NH3)6]3- < [Cr(H2O)6]3- < [Cr(Cl)6]3-",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "[Cr(H2O)6]3- < [Cr(Cl)6]3- < [Cr(NH3)6]3- < [Cr(CN)6]3-",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "[Cr(Cl)6]3- < [Cr(NH3)6]3- < [Cr(H2O)6]3- < [Cr(CN)6]3-",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "coordination2024hard000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "The number of d-electrons in [Cr(H2O)6]3+ is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "4",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "5",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "6",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "coordination2024hard000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "Which of the following statements about the complex [Co(NH3)5(CO3)]Cl is correct?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is a coordination position isomer of [Co(NH3)5Cl]CO3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Cobalt is in +2 oxidation state",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "It has coordination number 5",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "It is paramagnetic",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "coordination2024hard000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "Among [Ni(CO)4], [Ni(CN)4]2-, and [NiCl4]2-, the hybridization states of Ni atom are respectively:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "sp3, dsp2, sp3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "sp3, sp3, dsp2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "dsp2, dsp2, sp3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "dsp2, sp3, sp3",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "coordination2024hard000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "The number of geometrical isomers of [Co(NH3)3(NO2)3] is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 (fac and mer)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3 (fac, mer, and cis)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2 (cis and trans)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "coordination2024hard000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "A solution of [Ni(H2O)6]2+ is green but a solution of [Ni(CN)4]2- is colorless. This is because:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "[Ni(CN)4]2- has no unpaired electrons (d-d transitions are in UV region)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "[Ni(CN)4]2- has d10 configuration",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "CN- is a weak field ligand",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Ni is in +4 oxidation state in cyanide complex",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "coordination2024hard000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "The spin-only magnetic moment of [Fe(H2O)6]2+ is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4.90 BM",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "5.92 BM",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3.87 BM",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0 BM",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "coordination2024hard000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "Which of the following organometallic compounds is a pi-bonded complex?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ferrocene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Trimethylaluminum",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Diethylzinc",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Tetraethyllead",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "coordination2024hard000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "The stabilization energy (CFSE) of tetrahedral [CoCl4]2- is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "-1.2 delta_t",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-0.6 delta_t",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "-0.8 delta_t",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "-1.8 delta_t",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "coordination2024hard000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "Which of the following complexes is optically active?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "[Co(en)3]3+",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "trans-[Co(en)2Cl2]+",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "[Co(NH3)4Cl2]+",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "trans-[Pt(NH3)2Cl2]",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "coordination2024hard000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "The coordination number of copper in [Cu(NH3)4]SO4 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "6",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "8",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "coordination2024hard000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "The oxidation state and coordination number of cobalt in [Co(NH3)5(SO4)]Br are respectively:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "+3 and 6",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "+2 and 6",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "+3 and 5",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "+2 and 5",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "coordination2024hard000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "Which of the following ligands is a hexadentate ligand?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "EDTA4-",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "en",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "ox2-",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "dien",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "coordination2024hard000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "The hybridization of the central metal ion in [Fe(H2O)6]2+ is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "sp3d2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "d2sp3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "dsp2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "sp3",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "coordination2024hard000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "The number of geometrical isomers of [Pt(NH3)3Cl] is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "coordination2024hard000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "The value of delta_t is related to delta_o by the equation:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "delta_t = 4/9 delta_o",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "delta_t = 9/4 delta_o",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "delta_t = 1/2 delta_o",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "delta_t = 2/3 delta_o",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "coordination2024hard000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Hard",
+    "question": "The spin-only magnetic moment of [Cr(H2O)6]2+ is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4.90 BM",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3.87 BM",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2.83 BM",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "5.92 BM",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified advanced conceptual question matching JEE Mains standards.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "coordination2024hard000030f9efa96"
+    }
+  }
+]

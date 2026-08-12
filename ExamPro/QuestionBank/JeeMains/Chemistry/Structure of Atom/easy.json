@@ -1,0 +1,1722 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2021,
+    "session": "February",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The plots of radial distribution functions for various orbitals of hydrogen atom against 'r' are given. The correct plot for 3s orbital is: (see diagram)",
+    "questionImage": "atomic easy/atomic_easy_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "D",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "B",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "C",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: For a 3s orbital, the number of radial nodes is given by n - l - 1 = 3 - 0 - 1 = 2. Plot D shows exactly 2 radial nodes (where the radial probability function becomes zero twice before peaking and decaying). Therefore, D is the correct plot.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "atomic structure-jee main-2021 feb.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "atomic2021easy000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "Given below are two statements :\nStatement-I: Two photons having equal linear momenta have equal wavelengths.\nStatement-II: If the wavelength of photon is decreased, then the momentum and energy of a photon will also decrease.\nChoose the correct answer:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Statement-I is false but Statement-II is true",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Both Statement-I and Statement-II are true",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Both Statement-I and Statement-II are false",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Statement-I is true but Statement-II is false",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "atomic2021easy000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "Determine Bohr's radius of Li2+ ion for n = 2. Given (Bohr's radius of H-atom = a0):",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3 a0 / 4",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "4 a0 / 3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "a0 / 3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "16 a0 / 9",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "atomic2021easy000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "Determine the de Broglie wavelength of an electron revolving in the 4th Bohr's orbit of hydrogen atom:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4 pi a0",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2 pi a0",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "8 pi a0",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "16 pi a0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "atomic2021easy000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "According to Bohr's theory, the relationship between the velocity of an electron (v) and principal quantum number (n) is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "v is proportional to n",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "v is inversely proportional to n",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "v is proportional to n^2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "v is inversely proportional to n^2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "atomic2021easy000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The maximum number of electrons that can be accommodated in a subshell with l = 3 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "6",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "10",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "14",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "18",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "atomic2021easy000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following quantum numbers determines the orientation of an orbital in space?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Principal quantum number (n)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Azimuthal quantum number (l)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Magnetic quantum number (ml)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Spin quantum number (ms)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "atomic2021easy000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The total number of orbitals associated with the third shell (n = 3) is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "6",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "9",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "18",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "atomic2021easy000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following sets of quantum numbers is not permissible for an electron in an atom?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "n=3, l=2, ml=0, ms=+1/2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "n=4, l=0, ml=0, ms=-1/2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "n=3, l=3, ml=1, ms=+1/2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "n=2, l=1, ml=-1, ms=-1/2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "atomic2021easy000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The energy of an electron in the hydrogen atom in the ground state is -13.6 eV. What is the energy of the electron in the first excited state?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "-3.4 eV",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-1.51 eV",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "-6.8 eV",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "-27.2 eV",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "atomic2021easy000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The number of spectral lines in the Lyman series when an electron transitions from n = 5 to the ground state is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "5",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "10",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "atomic2021easy000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The de Broglie wavelength of a particle is inversely proportional to its:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mass",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Velocity",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Momentum",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Energy",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "atomic2021easy000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following series of hydrogen spectrum lies in the visible region?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lyman series",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Balmer series",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Paschen series",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Brackett series",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "atomic2021easy000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The value of Planck's constant is approximately:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "6.626 x 10^-34 J s",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "6.626 x 10^-27 J s",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "6.626 x 10^-31 J s",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "6.626 x 10^-19 J s",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "atomic2021easy000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "Who proposed the dual nature of matter (wave-particle duality)?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rutherford",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Niels Bohr",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "de Broglie",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Heisenberg",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "atomic2021easy000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The region in space around the nucleus where the probability of finding an electron is maximum is called:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Orbit",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Orbital",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Node",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Subshell",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "atomic2021easy000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The spin angular momentum of an electron is given by the formula:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "h / 2pi",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "sqrt(s(s+1)) * h / 2pi",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "s * h / 2pi",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "sqrt(2s(s+1)) * h / 2pi",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "atomic2021easy000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following elements has the electronic configuration 1s2 2s2 2p6 3s2 3p6 4s1?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sodium",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Potassium",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Calcium",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Argon",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "atomic2021easy000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The charge to mass ratio (e/m) of cathode rays was first measured by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rutherford",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "J.J. Thomson",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Millikan",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Dalton",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "atomic2021easy000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The subshell designated by n = 4 and l = 2 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4s",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "4p",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "4d",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "4f",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "atomic2021easy000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The number of unpaired electrons in a nitrogen atom in its ground state is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "atomic2021easy000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The designation of an orbital with n = 3 and l = 0 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3s",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3p",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3d",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "3f",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "atomic2021easy000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The radius of the ground state orbit of hydrogen atom is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.529 Å",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1.058 Å",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2.116 Å",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0.265 Å",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "atomic2021easy000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "Which particle has the highest value of charge to mass ratio (e/m)?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Proton",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Neutron",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Electron",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Alpha particle",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "atomic2021easy000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The wave character of electron was experimentally verified by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "De Broglie",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Davisson and Germer",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Rutherford",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Niels Bohr",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "atomic2021easy000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The maximum number of electrons in a shell with principal quantum number n is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2n",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2n^2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "n^2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "4n^2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "atomic2021easy000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "For an d-orbital, the azimuthal quantum number (l) is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "3",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "atomic2021easy000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "A p-orbital can accommodate a maximum of how many electrons?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "6",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "10",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "14",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "atomic2021easy000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The value of Bohr's radius for the first orbit of Hydrogen is denoted by a0. The radius of the second orbit is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 a0",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "4 a0",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "a0 / 2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "a0 / 4",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "atomic2021easy000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following orbitals is spherical in shape?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1s",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2p",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3d",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "4f",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "atomic2021easy000030f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The line spectrum of helium mono-positive ion (He+) is similar to that of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hydrogen atom",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Lithium atom",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Helium atom",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Sodium atom",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 31,
+    "_id": {
+      "$oid": "atomic2021easy000031f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The number of nodal planes in a p_x orbital is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "3",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 32,
+    "_id": {
+      "$oid": "atomic2021easy000032f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The velocity of light is related to wavelength and frequency by the equation:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "c = lambda x nu",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "c = lambda / nu",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "c = nu / lambda",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "c = lambda + nu",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 33,
+    "_id": {
+      "$oid": "atomic2021easy000033f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The wave number of electromagnetic radiation is defined as the reciprocal of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Frequency",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Wavelength",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Velocity",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Amplitude",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 34,
+    "_id": {
+      "$oid": "atomic2021easy000034f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following rays contains positive ions?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cathode rays",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Anode rays (Canal rays)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "X-rays",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Gamma rays",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 35,
+    "_id": {
+      "$oid": "atomic2021easy000035f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The magnetic quantum number (ml) can have values ranging from:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0 to n-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-l to +l",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "-n to +n",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1 to n",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 36,
+    "_id": {
+      "$oid": "atomic2021easy000036f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The electronic configuration of copper (Z = 29) in its ground state is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "[Ar] 3d9 4s2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "[Ar] 3d10 4s1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "[Ar] 3d8 4s2 4p1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "[Ar] 3d10 4s2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 37,
+    "_id": {
+      "$oid": "atomic2021easy000037f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The orbital angular momentum of a 2s orbital is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Zero",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "h / 2pi",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "sqrt(2) * h / 2pi",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "h / 4pi",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 38,
+    "_id": {
+      "$oid": "atomic2021easy000038f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "Rutherford's alpha-scattering experiment led to the discovery of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Electron",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Proton",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Neutron",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Nucleus",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 39,
+    "_id": {
+      "$oid": "atomic2021easy000039f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2020,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The quantum of light energy is called a:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Proton",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Photon",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Positron",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Phonon",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Atomic Structure - JEE Main 2020 January.pdf",
+    "id": 40,
+    "_id": {
+      "$oid": "atomic2021easy000040f9efa96"
+    }
+  }
+]

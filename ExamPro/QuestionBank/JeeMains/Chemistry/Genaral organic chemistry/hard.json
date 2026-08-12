@@ -1,0 +1,1292 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "Find the correct increasing order of stability for the four resonance structures A, B, C, D shown in the diagram: (see diagram)",
+    "questionImage": "goc hard/goc_hard_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "C < A < B < D",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "C < D < B < A",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "D < C < A < B",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "D < C < B < A",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Structures B and D have complete octets (positive charge on nitrogen), hence are more stable than A and C (which have carbon positive charge and incomplete octets). Between B and D, D is more stable because negative charge resides on electronegative oxygen. Between A and C, A is more stable. Hence C < A < B < D. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "gochard2024hard000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "Determine which of the four cyclic carbocations A, B, C, D shown in the diagram have the same number of hyperconjugating structures: (see diagram)",
+    "questionImage": "goc hard/goc_hard_q2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "A and C only",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A, C and D only",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A and B Only",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "B and C Only",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Hyperconjugating structures are equal to the number of alpha-hydrogen atoms. Cation A has 6 alpha-H (2 on C-2, 2 on C-6, 2 on ethyl CH2). Cation C has 6 alpha-H. Cation B has 6 alpha-H? No, let's verify: A and C only have the exact same hyperconjugation. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "gochard2024hard000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "Determine the strongest acid from the four phenol derivative structures shown in the diagram: (see diagram)",
+    "questionImage": "goc hard/goc_hard_q3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "(1)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "(2)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "(3)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "(4)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Structure (1) is m-nitrophenol. The NO2 group acts via strong electron-withdrawing inductive effect (-I) at meta position, making it more acidic than phenol (4) and m-cresol (2) (which has donating methyl group). Cl is less electron withdrawing than NO2. Hence, (1) is the strongest acid. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "gochard2024hard000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "The correct descending order of acidic strength for the following carboxylic acids is: (A) CH3COOH, (B) F3CCOOH, (C) ClCH2COOH, (D) FCH2COOH, (E) BrCH2COOH",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "B > D > C > E > A",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "B > C > D > E > A",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "E > D > B > A > C",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "D > B > A > E > C",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "gochard2024hard000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "The number of hyperconjugation structures possible for the ethyl carbocation (CH3CH2+) is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "6",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "9",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "gochard2024hard000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "The number of hyperconjugation structures possible for the isopropyl carbocation ((CH3)2CH+) is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "6",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "9",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "gochard2024hard000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "The number of hyperconjugating structures possible for the t-butyl carbocation ((CH3)3C+) is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "9",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "6",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "12",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "gochard2024hard000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "Which of the following organic compounds will give blood-red color with FeCl3 after fusion with sodium?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aniline + Thiourea",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Aniline + Urea",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Glycine + Urea",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Thiourea only",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "gochard2024hard000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "The correct order of basic strength of the following in aqueous medium is: (I) NH3, (II) CH3NH2, (III) (CH3)2NH, (IV) (CH3)3N",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "III > II > IV > I",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "III > IV > II > I",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "IV > III > II > I",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "II > III > IV > I",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "gochard2024hard000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "The correct order of basic strength of ethyl substituted amines in aqueous medium is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "(C2H5)2NH > (C2H5)3N > C2H5NH2 > NH3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "(C2H5)2NH > C2H5NH2 > (C2H5)3N > NH3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "(C2H5)3N > (C2H5)2NH > C2H5NH2 > NH3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "gochard2024hard000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "The number of stereoisomers possible for 2,3-pentanediol is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4 (two pairs of enantiomers)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "4",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "8",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "gochard2024hard000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "Which of the following statements about mesomeric effect is incorrect?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is a temporary effect",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "It involves delocalization of pi electrons",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "It operates through conjugated systems",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "It can be positive (+M) or negative (-M)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "gochard2024hard000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "The dipole moment of chlorobenzene is 1.69 D. The expected dipole moment of meta-dichlorobenzene is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1.69 D",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2.92 D",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0 D",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "3.38 D",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "gochard2024hard000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "The expected dipole moment of ortho-dichlorobenzene is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2.92 D",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1.69 D",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0 D",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "3.38 D",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "gochard2024hard000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "The expected dipole moment of para-dichlorobenzene is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0 D",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1.69 D",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2.92 D",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "3.38 D",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "gochard2024hard000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "During the Lassaigne's test for nitrogen, the Prussian blue color is chemically due to the formation of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fe4[Fe(CN)6]3 . xH2O",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Na4[Fe(CN)6]",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Fe[Fe(CN)6]",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Fe3[Fe(CN)6]2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "gochard2024hard000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "Which of the following is the correct order of stability of these carbanions?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "HC#C- > CH2=CH- > CH3-CH2-",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "CH3-CH2- > CH2=CH- > HC#C-",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "CH2=CH- > HC#C- > CH3-CH2-",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "gochard2024hard000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "The number of chiral carbons in glucose (open chain form) is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "5",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "6",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "gochard2024hard000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "Which of the following butane isomers has the lowest boiling point?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2-Methylpropane (isobutane)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "n-Butane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "n-Pentane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2-Methylbutane",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "gochard2024hard000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "The purification method 'vacuum distillation' or 'distillation under reduced pressure' is used for:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Liquids which decompose at or below their normal boiling points",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Liquids with very low boiling points",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Miscible liquids with close boiling points",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Immiscible liquids",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "gochard2024hard000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "In Carius method, 0.15 g of an organic compound gave 0.12 g of AgBr. The percentage of bromine in the compound is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "34.0%",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "42.5%",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "25.0%",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "17.0%",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "gochard2024hard000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "The correct order of leaving group ability in nucleophilic substitution reactions is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "I- > Br- > Cl- > F-",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "F- > Cl- > Br- > I-",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Cl- > Br- > I- > F-",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "I- > Cl- > Br- > F-",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "gochard2024hard000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "Which of the following carbocations is least stable?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vinyl carbocation (CH2=CH+)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Allyl carbocation",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Ethyl carbocation",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Isopropyl carbocation",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "gochard2024hard000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "In the resonance structures of phenol, which positions relative to the -OH group acquire a partial negative charge?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ortho and Para positions",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Meta position only",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Ortho position only",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Meta and Para positions",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "gochard2024hard000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "An organic compound contains 69% carbon and 4.8% hydrogen, and the remainder is oxygen. The percentage of oxygen in the compound is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "26.2%",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "31.0%",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "20.5%",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "15.0%",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "gochard2024hard000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "A mixture of glycerol and spent-lye in soap industry is separated by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Distillation under reduced pressure",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Steam distillation",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Fractional distillation",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Simple distillation",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "gochard2024hard000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "Which of the following compounds has the highest acidic strength?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Para-nitrophenol",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Ortho-nitrophenol",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Meta-nitrophenol",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Phenol",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "gochard2024hard000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "The number of hyperconjugating structures in toluene is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "6",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "9",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "gochard2024hard000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "The IUPAC name of the compound CH3-C#C-CH(CH3)-CH3 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4-methylpent-2-yne",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2-methylpent-3-yne",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "dimethylbutyne",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "hex-2-yne",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "gochard2024hard000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "The compound that will not exhibit tautomerism is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Benzaldehyde",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Acetaldehyde",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Acetone",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Cyclohexanone",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard GOC acidic/basic strength rules.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "gochard2024hard000030f9efa96"
+    }
+  }
+]

@@ -1,0 +1,1292 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "Which of the points in the wave function graph (Figure 2) most accurately represents the spherical nodal surface shown in the electron probability density of the 2s orbital (Figure 1)? (see diagram)",
+    "questionImage": "atomic hard/atomic_hard_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "D",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "C",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "B",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Explanation: A nodal surface is a region in space where the wave function crosses zero, meaning the probability density (psi^2) of finding the electron is exactly zero. Looking at Figure 2 (the wave function graph of the 2s orbital), point B is the exact location where the curve crosses the horizontal distance axis (y = 0). Thus, point B represents the spherical nodal surface.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "atomic2026hard000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "A proton and a Li3+ nucleus are accelerated by the same potential. If lambda_Li and lambda_p denote the de Broglie wavelengths of Li3+ and proton respectively, then the value of lambda_Li / lambda_p is x x 10^-1. The value of x is: [Mass of Li3+ = 8.3 x mass of proton]",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "4",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "6",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "8",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "atomic2026hard000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "According to Bohr's atomic theory, which of the following is/are correct?\n(A) Kinetic energy of electron is proportional to Z^2 / n^2.\n(B) The product of velocity (v) and principal quantum number (n) is proportional to Z^2.\n(C) Frequency of revolution of electron in an orbit is proportional to Z^2 / n^3.\n(D) Coulombic force of attraction on the electron is proportional to Z^3 / n^4.\nChoose the correct options:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "A and C only",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A, C and D only",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A only",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "B and D only",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "atomic2026hard000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "The Schrödinger wave equation for a hydrogen atom is given by H psi = E psi. The mathematical operator H is known as:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hamiltonian operator",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Laplacian operator",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Hermitian operator",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Eigen operator",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "atomic2026hard000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "The wave function of an orbital is represented as psi(r, theta, phi) = R(r) x Y(theta, phi). The radial part of the wave function R(r) depends on which quantum numbers?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "n and l",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "l and ml",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "n and ml",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "n, l and ml",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "atomic2026hard000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "Which of the following graphs represents the plot of radial probability density 4*pi*r^2*R^2(r) against r for a 2s orbital?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "A curve starting at 0, rising to a small peak, dropping to 0, and then rising to a larger peak before decaying",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A curve starting at a maximum value on the y-axis and decaying exponentially",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A curve starting at 0, rising to a single peak, and decaying to 0",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A curve starting at 0, rising to three distinct peaks, and decaying",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "atomic2026hard000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "In a hydrogen-like atom, the wave function for an electron is given by psi = k x (2 - r/a0) x e^(-r/2a0). The radial node for this orbital is located at distance r equal to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 a0",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "a0",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "a0 / 2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "4 a0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "atomic2026hard000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "The ratio of the time period of revolution of an electron in the first orbit of Hydrogen to that in the second orbit of He+ ion is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1/4",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1/8",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "atomic2026hard000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "For the hydrogen atom spectrum, the transition that produces light of the shortest wavelength is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "n = 2 to n = 1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "n = 3 to n = 2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "n = 4 to n = 3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "n = 5 to n = 4",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "atomic2026hard000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "The energy of the electron in the second orbit of Hydrogen atom is -3.4 eV. The energy of the electron in the third orbit of Li2+ ion is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "-13.6 eV",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-30.6 eV",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "-3.4 eV",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "-1.51 eV",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "atomic2026hard000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "The wavelength of light emitted when an electron transitions from a state with energy E1 to E2 is lambda. If the mass of the nucleus is considered (finite mass correction), the wavelength will:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase slightly",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Decrease slightly",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Remain completely unchanged",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Double in value",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "atomic2026hard000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "If the potential energy of an electron in the ground state of a hydrogen-like system is -V, its total energy is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "-V / 2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-V",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "-2V",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "+V / 2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "atomic2026hard000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "In the photoelectric effect, the slope of the plot of maximum kinetic energy of photoelectrons vs. frequency of incident light is equal to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Planck's constant (h)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "h / e",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Work function",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Threshold frequency",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "atomic2026hard000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "The probability of finding an electron in a small volume element dV at a distance r from the nucleus is proportional to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "psi^2 dV",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "psi dV",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1/psi^2 dV",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "r^2 psi dV",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "atomic2026hard000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "Which of the following statements about Schrödinger wave equation is correct?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eigenvalues correspond to the allowed energy levels of the system",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Eigenfunctions are always negative",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "The wave equation can be solved exactly for a Helium atom",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "The Hamiltonian operator does not include potential energy",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "atomic2026hard000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "The radius of the first Bohr orbit of Hydrogen is r. The de Broglie wavelength of the electron in the third Bohr orbit is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 pi r",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3 pi r",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "9 pi r",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1.5 pi r",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "atomic2026hard000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "For a 3d_z2 orbital, the number of angular nodes is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "3",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "atomic2026hard000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "An electron in a hydrogen atom in its ground state absorbs 1.5 times as much energy as the minimum required to escape the atom. The velocity of the emitted electron is approximately:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1.54 x 10^6 m/s",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2.18 x 10^6 m/s",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1.09 x 10^6 m/s",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "3.08 x 10^6 m/s",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "atomic2026hard000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "The kinetic energy of the photoelectron ejected from a metal surface is 1.0 eV when radiation of frequency nu is incident. If frequency is doubled to 2nu, the kinetic energy of the photoelectron will be:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "More than 2.0 eV",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Exactly 2.0 eV",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Between 1.0 eV and 2.0 eV",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Less than 1.0 eV",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "atomic2026hard000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "The wave function of an orbital has no radial nodes and one angular node. The orbital is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2p",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1s",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3d",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2s",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "atomic2026hard000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "The energy required to excite an electron from n=2 to n=3 in a hydrogen-like atom of Z=2 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "7.56 eV",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1.89 eV",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "30.24 eV",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "15.12 eV",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "atomic2026hard000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "The wavelength of radiation required to excite an electron from ground state to the second excited state in H-atom is approximately:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "102.6 nm",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "121.6 nm",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "97.2 nm",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1216 nm",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "atomic2026hard000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "If the position of an electron is measured with an accuracy of 10^-10 m, the uncertainty in its velocity is approximately: [m = 9.1 x 10^-31 kg]",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "5.79 x 10^5 m/s",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "5.79 x 10^6 m/s",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "5.79 x 10^4 m/s",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "5.79 x 10^7 m/s",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "atomic2026hard000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "Which of the following quantum states has the highest number of radial nodes?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4s",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3p",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3d",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2s",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "atomic2026hard000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "The orbital wave function for the 1s orbital of Hydrogen is psi = (1/sqrt(pi * a0^3)) x e^(-r/a0). The probability of finding the electron is maximum at r equal to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "a0",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2 a0",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "a0 / 2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "atomic2026hard000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "The ground state electronic configuration of chromium (Z = 24) is 3d5 4s1. This configuration is particularly stable due to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Symmetrical distribution of electron charge and high exchange energy",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Lower nuclear charge",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Higher shielding effect",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Smaller atomic radius",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "atomic2026hard000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "The transition in He+ that will have the same wavelength as the transition n=2 to n=1 in H-atom is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "n=4 to n=2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "n=3 to n=2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "n=2 to n=1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "n=4 to n=1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "atomic2026hard000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "The number of nodal surfaces for a 4s orbital is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "4",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "atomic2026hard000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "The spectral line corresponding to the transition from n=4 to n=2 in He+ ion lies in which region?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Visible (Balmer)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Ultraviolet (Lyman)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Infrared (Paschen)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Far-infrared",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "atomic2026hard000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "In the Schrodinger wave equation, the term (E - V) represents:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kinetic energy of the particle",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Potential energy of the particle",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Total energy of the particle",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Rest energy of the particle",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual chemistry question matching official JEE Main syllabus guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Structure of Atom - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "atomic2026hard000030f9efa96"
+    }
+  }
+]

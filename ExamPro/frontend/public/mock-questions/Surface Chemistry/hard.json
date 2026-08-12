@@ -1,0 +1,1292 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2019,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "Adsorption of a gas follows Freundlich adsorption isotherm. In the given plot, x is the mass of the gas adsorbed on mass m of the adsorbent at pressure p. x/m is proportional to:",
+    "questionImage": "surface_hard_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "p^1/2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "p^2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "p^1/4",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "p",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: From the graph, slope 1/n = Rise / Run = 2 / 4 = 1/2. Therefore, x/m is proportional to p^(1/n) = p^(1/2).",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "cqb_chemistry_jee_main_2019_surface_chemistry.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2019,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "Adsorption of a gas follows Freundlich adsorption isotherm. x is the mass of the gas adsorbed on mass m of the adsorbent. The plot of log(x/m) versus log p is shown in the given graph. x/m is proportional to:",
+    "questionImage": "surface_hard_q2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "p^2/3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "p^3/2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "p^3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "p^2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: The slope of the y-log plot represents 1/n = Rise / Run = 2 / 3. Hence x/m is proportional to p^(2/3).",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "cqb_chemistry_jee_main_2019_surface_chemistry.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2021,
+    "session": "August",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "Select the graph that correctly describes the adsorption isotherms at two temperatures T1 and T2 (T1 > T2) for a gas (x - mass of gas adsorbed ; m - mass of adsorbent ; P - pressure):",
+    "questionImage": "surface_hard_q3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Graph (4) (showing curves with T2 above T1, since physical adsorption decreases with temperature)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Graph (1)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Graph (2)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Graph (3)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Physical adsorption decreases as temperature increases because the process is exothermic. Hence, at any given pressure, the extent of adsorption (x/m) is greater at lower temperature T2 than at T1. Option 4 represents curves where T2 is above T1.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2021 August Chapter-wise - MathonGo.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "The coagulation of 200 mL of a positive colloidal sol requires 2 mL of 1 M Na2SO4 solution. The coagulating value of Na2SO4 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "10.0",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "5.0",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "20.0",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1.0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "In Freundlich adsorption isotherm: log(x/m) = log K + 1/n log P. If the slope of the straight line is 0.5 and the intercept on the y-axis is 0.3010, the amount of gas adsorbed per gram of adsorbent at a pressure of 4 atm is (K = 2.0):",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4.0",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2.0",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "8.0",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1.0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "A 100 mL solution of 0.1 M surfactant forms a monolayer on a polar surface of area 200 cm2. If the area occupied by one surfactant molecule is 2.0 * 10^-15 cm2, the fraction of surfactant molecules adsorbed as a monolayer is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1.66 * 10^-5",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3.32 * 10^-5",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1.00 * 10^-4",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "Under the influence of an electric field, a colloidal sol of ferric hydroxide Fe(OH)3 is subjected to electrophoresis. Which of the following is correct?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "The colloidal particles migrate towards the cathode (since Fe(OH)3 sol is positively charged)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "The colloidal particles migrate towards the anode",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "The dispersion medium migrates towards the cathode",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "No movement is observed",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "An organic compound of molar mass 284 g/mol forms a monolayer on a water surface. 0.01 g of the compound was dissolved in hexane and spread on water. After hexane evaporated, a monolayer of area 100 cm2 is formed. The cross-sectional area of a single molecule is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4.7 * 10^-18 cm2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "4.7 * 10^-16 cm2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2.3 * 10^-18 cm2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "9.4 * 10^-18 cm2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "On addition of 1.0 mL of 10% NaCl solution to 10 mL gold sol in the presence of 0.25 g of starch, coagulation is prevented. The gold number of starch is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "250",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "25",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0.25",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2.5",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "A gas is adsorbed on charcoal at 300 K according to Freundlich adsorption isotherm. A plot of log(x/m) vs log P gives a straight line with slope = 1 and intercept on y-axis = 0.4771. The mass of gas adsorbed per gram of charcoal at a pressure of 2 atm is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "6.0 g",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3.0 g",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1.5 g",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "12.0 g",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "The coagulating value of NaCl is 50 for a negative sol. What is the mass of NaCl required to coagulate 2 L of this sol?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "5.85 g",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "11.7 g",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2.93 g",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0.58 g",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "An emulsion of oil in water is stabilized by a surfactant. On adding an electrolyte to this emulsion, what happens?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "It breaks down the emulsion by neutralizing the charge on the droplets",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "The emulsion becomes more stable",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "The viscosity increases significantly",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "Which of the following is correct regarding the coagulation of a negative sol like As2S3?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Flocculating power order: Al3+ > Mg2+ > Na+ (Hardy-Schulze rule)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Flocculating power order: Na+ > Mg2+ > Al3+",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "The coagulating values decrease with decreasing valency",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "Which of the following colloidal systems is/are correctly matched with their dispersed phase and dispersion medium?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cloud: Dispersed phase = Liquid, Dispersion medium = Gas",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Smoke: Dispersed phase = Gas, Dispersion medium = Solid",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Cheese: Dispersed phase = Gas, Dispersion medium = Liquid",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "A freshly prepared precipitate of Fe(OH)3 is peptized by shaking with a small amount of FeCl3 solution. The charge acquired by the colloidal particles is due to the preferential adsorption of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fe3+ ions (forming positively charged colloidal particles)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Cl- ions",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "OH- ions",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "H+ ions",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "A colloidal sol of sulfur is prepared by passing H2S gas through an aqueous solution of SO2. The chemical reaction involved is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oxidation: 2H2S + SO2 -> 3S(colloid) + 2H2O",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Reduction",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Hydrolysis",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Double decomposition",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "Which of the following electrolytes has the minimum coagulating value for a positive ferric hydroxide Fe(OH)3 sol?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "K4[Fe(CN)6]",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "K2SO4",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "K3PO4",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "KCl",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "For the coagulation of a negative sol, the species that has the highest flocculating power is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Al3+",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Ba2+",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Na+",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "K+",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "The coagulation of 100 mL of a negative arsenious sulfide sol requires 5 mL of 0.1 M MgCl2. The flocculating value of MgCl2 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "5.0",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2.5",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "10.0",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1.0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "In physical adsorption, the gas molecules are held to the solid surface by weak van der Waals forces. The enthalpy of physical adsorption is in the range of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "20 to 40 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "80 to 240 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "100 to 200 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "When temperature is increased, chemisorption:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "First increases and then decreases",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Decreases continuously",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Increases continuously",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Remains constant",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "For the adsorption of a gas on a solid, a plot of log(x/m) vs log P is a straight line. If the slope of the line is 0.5, then the amount of gas adsorbed is proportional to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "P^0.5",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "P^2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "P",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "P^0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "In physical adsorption, how many molecular layers are formed on the adsorbent surface?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Multi-molecular layers (under high pressure)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Unimolecular layer only",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "No layers are formed",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "Which of the following properties is not exhibited by lyophobic colloidal sols?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "They are highly hydrated and stable",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "They can be easily coagulated by adding electrolytes",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "They show Tyndall effect and Brownian movement",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "They are irreversible in nature",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "The phenomenon of Tyndall effect in colloidal solutions is due to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scattering of light by colloidal particles",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Absorption of light by colloidal particles",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Reflection of light by colloidal particles",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Refraction of light by colloidal particles",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "Which of the following forms micelles above critical micelle concentration?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sodium stearate",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Glucose",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Urea",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Pyridinium chloride",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "The addition of gelatin to a gold sol makes it stable towards coagulation. Gelatin here acts as a:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Protective colloid",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Peptizing agent",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Coagulating agent",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Reducing agent",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "Which of the following ions has the lowest flocculating power for a negative sol?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Na+",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Ba2+",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Al3+",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Fe3+",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "When a beam of light is passed through a colloidal sol, the path of the beam becomes illuminated. This is called:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tyndall effect",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Zeeman effect",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Raman effect",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Stark effect",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Surface Chemistry",
+    "difficulty": "Hard",
+    "question": "During physical adsorption, the balance of forces on the surface of the adsorbent results in:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Residual attractive forces being satisfied, releasing heat (exothermic process)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Covalent bond formation",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Absorption of heat",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Derived using standard rules for gold numbers, Hardy-Schulze valency criteria, and physical vs. chemical adsorption characteristics.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Surface Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "surfacechemistryhard2024hard000030f9efa96"
+    }
+  }
+]

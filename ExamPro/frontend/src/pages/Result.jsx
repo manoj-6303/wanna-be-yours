@@ -207,10 +207,22 @@ export default function Result() {
                       </div>
                     )}
                     
+                    {ans.questionImage && (
+                      <div className="mb-4 flex justify-center bg-white p-3 border border-gray-100 rounded-xl max-w-xl mx-auto shadow-sm">
+                        <img 
+                          src={ans.questionImage.startsWith('http') ? ans.questionImage : `/images/${ans.questionImage}`} 
+                          alt="Question Diagram" 
+                          className="max-h-60 object-contain"
+                        />
+                      </div>
+                    )}
+                    
                     <div className="space-y-2 mb-4">
                       {ans.options?.map((opt, i) => {
-                        const isUserChoice = opt === ans.selectedAnswer;
-                        const isCorrectAnswer = opt === ans.correctAnswer;
+                        const optText = typeof opt === 'object' ? opt.text : opt;
+                        const optImg = typeof opt === 'object' ? opt.image : (ans.optionImages ? ans.optionImages[i] : null);
+                        const isUserChoice = optText === ans.selectedAnswer;
+                        const isCorrectAnswer = optText === ans.correctAnswer;
                         
                         let optStyle = "border-gray-200 text-gray-600";
                         let optBg = "bg-white";
@@ -224,48 +236,43 @@ export default function Result() {
                         }
 
                         return (
-                          <div key={i} className={`p-3 rounded-lg border ${optStyle} ${optBg} flex justify-between items-center`}>
-                            <span><MathText text={opt} /></span>
-                            {isUserChoice && <span className="text-xs uppercase tracking-wider font-bold opacity-70 flex items-center shrink-0 ml-2">Your Answer</span>}
-                            {isCorrectAnswer && !isUserChoice && <span className="text-xs uppercase tracking-wider font-bold opacity-70 flex items-center text-green-700 shrink-0 ml-2">Correct Answer</span>}
+                          <div key={i} className={`p-3 rounded-lg border ${optStyle} ${optBg} flex flex-col sm:flex-row justify-between sm:items-center gap-3`}>
+                            <div className="flex items-center">
+                              <span>{optText}</span>
+                            </div>
+                            {optImg && (
+                              <div className="bg-white p-1 border border-gray-100 rounded max-w-xs shadow-sm sm:ml-auto">
+                                <img 
+                                  src={optImg.startsWith('http') ? optImg : `/images/${optImg}`} 
+                                  alt={`Option ${optText}`} 
+                                  className="max-h-20 object-contain"
+                                />
+                              </div>
+                            )}
+                            <div className="flex items-center gap-2">
+                              {isUserChoice && <span className="text-xs uppercase tracking-wider font-bold opacity-70">Your Answer</span>}
+                              {isCorrectAnswer && !isUserChoice && <span className="text-xs uppercase tracking-wider font-bold opacity-70 text-green-700">Correct Answer</span>}
+                            </div>
                           </div>
                         );
                       })}
                     </div>
 
-                    <div className="mt-4 p-5 bg-slate-50/80 rounded-2xl border border-slate-200/80 shadow-xs">
-                      { (ans.explanationImage || ans.solutionImage) ? (
-                        <div className="mb-4 flex flex-col items-center bg-white p-3 rounded-xl border border-indigo-100 shadow-2xs">
-                          <span className="text-xs text-indigo-600 mb-1.5 font-bold uppercase tracking-wider">
-                            🖼️ Step-by-Step Solution Diagram
-                          </span>
-                          <img 
-                            src={ans.explanationImage || ans.solutionImage} 
-                            alt="Solution Diagram" 
-                            className="max-h-64 object-contain rounded-lg"
-                          />
-                        </div>
-                      ) : ans.questionImage ? (
-                        <div className="mb-4 flex flex-col items-center bg-white p-3 rounded-xl border border-slate-200 shadow-2xs">
-                          <span className="text-xs text-slate-500 mb-1.5 font-bold uppercase tracking-wider">
-                            🖼️ Question Diagram Reference
-                          </span>
-                          <img 
-                            src={ans.questionImage} 
-                            alt="Question Diagram Reference" 
-                            className="max-h-64 object-contain rounded-lg"
-                          />
-                        </div>
-                      ) : null }
-
-                      <SolutionFormatter 
-                        explanation={ans.explanation}
-                        solution={ans.solution}
-                        correctAnswer={ans.correctAnswer}
-                        chapter={ans.chapter}
-                        subject="Physics"
-                      />
-                    </div>
+                    {ans.explanation && (
+                      <div className="mt-4 p-4 bg-indigo-50/50 rounded-xl border border-indigo-100 text-sm text-indigo-950">
+                        <span className="font-bold block mb-1">Explanation & Solution:</span>
+                        <p className="leading-relaxed">{ans.explanation}</p>
+                        {ans.explanationImage && (
+                          <div className="mt-3 flex justify-center bg-white p-3 border border-gray-100 rounded-lg max-w-md mx-auto shadow-sm">
+                            <img 
+                              src={ans.explanationImage.startsWith('http') ? ans.explanationImage : `/images/${ans.explanationImage}`} 
+                              alt="Solution Diagram" 
+                              className="max-h-48 object-contain"
+                            />
+                          </div>
+                        )}
+                      </div>
+                    )}
                     
 
                   </div>

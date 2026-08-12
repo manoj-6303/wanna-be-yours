@@ -1,0 +1,1722 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Match the species in List-I with their corresponding molecular shape in List-II: (see diagram)",
+    "questionImage": "bonding easy/bonding_easy_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "A-IV, B-III, C-I, D-II",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A-II, B-I, C-III, D-IV",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A-IV, B-I, C-III, D-II",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A-III, B-IV, C-II, D-I",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: BrF5 has 5 bond pairs and 1 lone pair, giving it a square pyramidal shape (IV). H2O has 2 bond pairs and 2 lone pairs, giving it a bent shape (III). ClF3 has 3 bond pairs and 2 lone pairs, giving it a T-shape (I). SF4 has 4 bond pairs and 1 lone pair, giving it a see-saw shape (II).",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "bonding2024easy000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Match the compound/species in List-I with its shape/geometry in List-II: (see diagram)",
+    "questionImage": "bonding easy/bonding_easy_q2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "A-III, B-IV, C-II, D-I",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A-II, B-III, C-I, D-IV",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A-III, B-IV, C-I, D-II",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A-IV, B-II, C-III, D-I",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: SF4 is See-saw (III). BrF3 is Bent T-shape (IV). BrO3- has pyramidal shape (II) due to sp3 hybridization with one lone pair. NH4+ has tetrahedral geometry (I) with sp3 hybridization and zero lone pairs.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 April Question Bank - MathonGo.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "bonding2024easy000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Identify the formal charges on atoms marked (1) to (4) in the given Lewis representation of HNO3: (see diagram)",
+    "questionImage": "bonding easy/bonding_easy_q3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "0, +1, 0, -1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "0, 0, -1, +1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "+1, 0, 0, -1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0, -1, 0, +1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: The formal charge calculation yields: Atom (1) [Hydrogen-bound Oxygen] = 0, Atom (2) [Central Nitrogen] = +1, Atom (3) [Double-bound Oxygen] = 0, Atom (4) [Single-bound coordinate Oxygen] = -1.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "bonding2024easy000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Match the hybridization in List-I with the orientation in space in List-II: (see diagram)",
+    "questionImage": "bonding easy/bonding_easy_q4.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "A-III, B-IV, C-I, D-II",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A-IV, B-III, C-I, D-II",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A-III, B-I, C-IV, D-II",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A-II, B-I, C-IV, D-III",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: sp3 is Tetrahedral (III). dsp2 is Square planar (IV). sp3d is Trigonal bipyramidal (I). sp3d2 is Octahedral (II).",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 April Question Bank - MathonGo.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "bonding2024easy000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following molecules has a dipole moment equal to zero?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Carbon dioxide (CO2)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Water (H2O)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Ammonia (NH3)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Sulfur dioxide (SO2)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "bonding2024easy000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following compounds contains both ionic and covalent bonds?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sodium hydroxide (NaOH)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Sodium chloride (NaCl)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Water (H2O)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Methane (CH4)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "bonding2024easy000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "The hybridization of sulfur in sulfur hexafluoride (SF6) is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "sp3d2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "sp3d",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "sp3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "sp2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "bonding2024easy000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following diatomic species is diamagnetic?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "N2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "O2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "B2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "C2+",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "bonding2024easy000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "The shape of the water molecule is bent because of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "The presence of two lone pairs of electrons on oxygen",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "The high electronegativity of oxygen",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "The small size of hydrogen atoms",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "The presence of polar covalent bonds",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "bonding2024easy000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "In which of the following species is the bond order equal to 3?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "N2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "O2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "O2+",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "NO-",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "bonding2024easy000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Fajan's rules predict that a covalent bond is favored by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Small cation and large anion",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Large cation and small anion",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Small cation and small anion",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Large cation and large anion",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "bonding2024easy000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following molecules has a pyramidal shape?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ammonia (NH3)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Boron trifluoride (BF3)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Water (H2O)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Methane (CH4)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "bonding2024easy000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "The number of sigma and pi bonds in ethyne (acetylene) is respectively:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3 sigma and 2 pi",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2 sigma and 3 pi",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3 sigma and 1 pi",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "5 sigma and 0 pi",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "bonding2024easy000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following elements has the highest electronegativity?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fluorine (F)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Oxygen (O)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Chlorine (Cl)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Nitrogen (N)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "bonding2024easy000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "The strength of a hydrogen bond is determined by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "The electronegativity and size of the atoms involved",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "The number of valence electrons",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "The molar mass of the compound",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "The molecular volume",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "bonding2024easy000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following species has sp3 hybridization?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ammonium ion (NH4+)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Boron trichloride (BCl3)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Carbon dioxide (CO2)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Ethene (C2H4)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "bonding2024easy000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "The shape of carbon dioxide (CO2) molecule is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Linear",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Bent",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Trigonal planar",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Tetrahedral",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "bonding2024easy000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following compounds has the highest lattice energy?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sodium fluoride (NaF)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Sodium chloride (NaCl)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Sodium bromide (NaBr)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Sodium iodide (NaI)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "bonding2024easy000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "In a homonuclear diatomic molecule, the bonding molecular orbital is formed by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Constructive interference of atomic orbitals",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Destructive interference of atomic orbitals",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "No overlap of atomic orbitals",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Overlap of non-bonding orbitals",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "bonding2024easy000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "The bond angle in a regular tetrahedral molecule like CH4 is close to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "109.5 degrees",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "120 degrees",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "180 degrees",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "90 degrees",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "bonding2024easy000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following molecules has a T-shaped geometry?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chlorine trifluoride (ClF3)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Phosphorus pentachloride (PCl5)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Sulfur tetrafluoride (SF4)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Xenon tetrafluoride (XeF4)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "bonding2024easy000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "The hybridization of carbon in graphite and diamond respectively are:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "sp2 and sp3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "sp3 and sp2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "sp2 and sp",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "sp and sp3",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "bonding2024easy000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following molecules has a permanent dipole moment?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Water (H2O)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Carbon dioxide (CO2)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Boron trifluoride (BF3)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Methane (CH4)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "bonding2024easy000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "According to Molecular Orbital Theory, the bond order of O2- is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1.5",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2.5",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "bonding2024easy000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following forces is the weakest?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "London dispersion forces",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Hydrogen bonding",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Dipole-dipole interactions",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Covalent bonding",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "bonding2024easy000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "The number of lone pairs on the central atom of XeF2 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "bonding2024easy000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following species is linear?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Beryllium chloride (BeCl2)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Sulfur dioxide (SO2)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Water (H2O)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Ozone (O3)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "bonding2024easy000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "The hybridization of phosphorus in PCl5 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "sp3d",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "sp3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "sp3d2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "sp2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "bonding2024easy000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "The paramagnetism of oxygen molecule (O2) is explained by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Molecular Orbital Theory",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Valence Bond Theory",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "VSEPR Theory",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Lewis Structure Theory",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "bonding2024easy000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following molecules does not obey the octet rule?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nitric oxide (NO)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Carbon dioxide (CO2)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Water (H2O)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Ammonia (NH3)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "bonding2024easy000030f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "The bond order of N2+ is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2.5",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1.5",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 31,
+    "_id": {
+      "$oid": "bonding2024easy000031f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following has the shortest bond length?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "N2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "O2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "F2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "C2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 32,
+    "_id": {
+      "$oid": "bonding2024easy000032f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "The formal charge on the central oxygen atom in ozone (O3) is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "+1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "0",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "+2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 33,
+    "_id": {
+      "$oid": "bonding2024easy000033f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following compounds is non-polar?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Carbon tetrachloride (CCl4)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Chloroform (CHCl3)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Water (H2O)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Ammonia (NH3)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 34,
+    "_id": {
+      "$oid": "bonding2024easy000034f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "The dipole moment of NF3 is less than that of NH3 because:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "The lone pair dipole and bond dipoles oppose each other in NF3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Nitrogen is more electronegative than fluorine",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "The bond length of N-F is shorter",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "NF3 has a planar geometry",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 35,
+    "_id": {
+      "$oid": "bonding2024easy000035f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following molecules has a see-saw geometry?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sulfur tetrafluoride (SF4)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Xenon tetrafluoride (XeF4)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Silicon tetrachloride (SiCl4)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Water (H2O)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 36,
+    "_id": {
+      "$oid": "bonding2024easy000036f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "The species having octahedral geometry is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "SF6",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "PCl5",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "BF3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "CH4",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 37,
+    "_id": {
+      "$oid": "bonding2024easy000037f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following statements is true about pi bonds?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "A pi bond is formed by lateral overlap of p-orbitals",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A pi bond is stronger than a sigma bond",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A pi bond allows free rotation of atoms",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A pi bond is formed by axial overlap",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 38,
+    "_id": {
+      "$oid": "bonding2024easy000038f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "The hybridization of xenon in XeF4 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "sp3d2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "sp3d",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "sp3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "sp2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 39,
+    "_id": {
+      "$oid": "bonding2024easy000039f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "difficulty": "Easy",
+    "question": "Which of the following diatomic species does not exist according to MOT?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Be2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "He2+",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Li2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "B2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard curriculum question covering chemical bonding theory.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Bonding and Molecular Structure - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 40,
+    "_id": {
+      "$oid": "bonding2024easy000040f9efa96"
+    }
+  }
+]

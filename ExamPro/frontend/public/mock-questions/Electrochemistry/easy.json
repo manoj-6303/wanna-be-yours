@@ -1,0 +1,1722 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2021,
+    "session": "August",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "Match the parameters in List-I with their corresponding units in List-II: (see diagram)",
+    "questionImage": "electro easy/el_easy_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "(a)-(i), (b)-(iv), (c)-(iii), (d)-(ii)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Cell constant unit is m-1 (a-iii). Molar conductivity unit is S cm2 mol-1 (b-i). Conductivity unit is ohm-1 m-1 (c-iv). Degree of dissociation is dimensionless (d-ii). Hence option A is correct.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2021 August Chapter-wise - MathonGo.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "electro2024easy000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "Calculate the potential for the given half cell reaction at 298 K: (see diagram)",
+    "questionImage": "electro easy/el_easy_q2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "-0.9 x 10^-2 V",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-1.5 x 10^-2 V",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "-0.5 x 10^-2 V",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "-1.8 x 10^-2 V",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: E = E0 - (0.06/2) log(P_H2 / [H+]^2) = 0 - 0.03 log(2 / 1^2) = -0.03 * 0.3 = -0.009 V = -0.9 x 10^-2 V. Hence option A is correct.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "electro2024easy000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "For the redox reaction shown in the diagram, if the equilibrium constant is given as Keq = 10^x, find the value of x (nearest integer): (see diagram)",
+    "questionImage": "electro easy/el_easy_q3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "333",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "167",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "250",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "125",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: E0_cell = 1.51 - (-0.49) = 2.0 V. The number of electrons transferred in the balanced equation (2 MnO4- + 5 H2C2O4 ...) is n = 10. log Keq = n * E0_cell / 0.06 = 10 * 2.0 / 0.06 = 333.33. Hence x = 333. Option A is correct.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "electro2024easy000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "Regarding the rusting of iron, choose the incorrect statement from the ones listed in the diagram: (see diagram)",
+    "questionImage": "electro easy/el_easy_q4.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coating of iron surface by tin prevents rusting, even if the tin coating is peeling off.",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "When pH lies above 9 or 10, rusting of iron does not take place.",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Dissolved acidic oxides SO2, NO2 in water act as catalyst in the process of rusting.",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Rusting is electrochemical in nature.",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Tin has higher reduction potential than iron. If the tin coating is scratched or peeling off, iron behaves as anode and corrosion is accelerated. Hence statement 1 is incorrect (and thus is the correct answer). Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2024 January Question Bank - MathonGo.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "electro2024easy000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "The unit of conductivity (kappa) is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "S m-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "S m2 mol-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "ohm m",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "S-1 m-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "electro2024easy000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "The unit of molar conductivity is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "S cm2 mol-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "S cm-1 mol-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "S-1 cm2 mol-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "S cm2 mol",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "electro2024easy000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "According to Kohlrausch's law, the limiting molar conductivity of an electrolyte AxBy is equal to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "x * lambda_A^0 + y * lambda_B^0",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "lambda_A^0 + lambda_B^0",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "x * lambda_A^0 - y * lambda_B^0",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "y * lambda_A^0 + x * lambda_B^0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "electro2024easy000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "During the electrolysis of aqueous NaCl solution, the product obtained at anode is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cl2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "H2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "O2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Na",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "electro2024easy000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "During the electrolysis of aqueous CuSO4 solution using inert Pt electrodes, the product obtained at cathode is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cu",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "H2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "O2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "SO2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "electro2024easy000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "The metal that cannot displace hydrogen from dilute acids is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Copper",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Zinc",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Iron",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Magnesium",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "electro2024easy000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "The standard reduction potential of three metals A, B and C are +0.5 V, -3.0 V and -1.2 V respectively. The reducing power of these metals follows the order:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "B > C > A",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A > C > B",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "C > B > A",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "B > A > C",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "electro2024easy000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "The charge required to deposit one gram equivalent of any substance is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "96500 Coulombs (1 Faraday)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1 Coulomb",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "965 Coulombs",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "96500 Ampere",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "electro2024easy000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "Which of the following is a primary cell?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dry cell (Leclanche cell)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Lead storage battery",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Nickel-Cadmium cell",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "All of the above",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "electro2024easy000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "The electrolyte used in a dry cell (Leclanche cell) is a paste of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "NH4Cl and ZnCl2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "KOH and ZnO",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "H2SO4",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "NaOH",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "electro2024easy000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "The electrolyte used in a lead storage battery is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "38% H2SO4 solution",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Concentrated HCl",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "KOH solution",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "NaCl solution",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "electro2024easy000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "During discharging of a lead storage battery, choose the correct observation:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "PbSO4 is formed at both electrodes",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "PbO2 is formed at cathode",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Pb is formed at anode",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "H2SO4 is consumed and water is produced - all of these are correct",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "electro2024easy000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "The cell potential of a standard hydrogen electrode (SHE) is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.00 V",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1.00 V",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0.50 V",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "-0.50 V",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "electro2024easy000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "The Nernst equation for the half-cell M^n+ + ne- -> M is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "E = E^0 - (RT/nF) ln(1/[M^n+])",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "E = E^0 + (RT/nF) ln(1/[M^n+])",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "E = E^0 - (RT/nF) ln([M^n+])",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "E = E^0 - (nF/RT) ln(1/[M^n+])",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "electro2024easy000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "With increase in dilution, the specific conductivity (kappa) of an electrolyte solution:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decreases",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Increases",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Remains constant",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "First increases then decreases",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "electro2024easy000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "With increase in dilution, the molar conductivity of a weak electrolyte solution:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increases sharply",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Decreases sharply",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Remains constant",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Increases linearly",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "electro2024easy000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "The electrochemical equivalent of a substance is equal to its chemical equivalent weight divided by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "96500",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "96.5",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1.6 * 10^-19",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Faraday's constant * 2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "electro2024easy000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "Which of the following represents a fuel cell?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "H2-O2 cell",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Daniell cell",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Leclanche cell",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Mercury cell",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "electro2024easy000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "The standard Gibb's free energy change (delta G^0) is related to standard EMF (E^0_cell) by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "delta G^0 = -nFE^0_cell",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "delta G^0 = nFE^0_cell",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "delta G^0 = -FE^0_cell",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "delta G^0 = -nE^0_cell",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "electro2024easy000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "In a galvanic cell, the electrode at which oxidation takes place is called:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anode, which is negative",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Cathode, which is positive",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Anode, which is positive",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Cathode, which is negative",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "electro2024easy000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "The salt bridge in a galvanic cell is used to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Maintain electrical neutrality and complete the circuit",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Increase the EMF of the cell",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Prevent the flow of current",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "All of the above",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "electro2024easy000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "Which of the following electrolytes is commonly used in salt bridge?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "KCl in agar-agar",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "NaCl",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "CH3COOH",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "H2SO4",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "electro2024easy000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "A device that converts chemical energy of combustion of fuels directly into electrical energy is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fuel cell",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Galvanic cell",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Electrolytic cell",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Dynamo",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "electro2024easy000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "In a mercury cell, the anode consists of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Zinc-Mercury amalgam",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Mercury",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Carbon",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Nickel",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "electro2024easy000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "During electrolysis of acidulated water, the gas liberated at anode is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oxygen",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Hydrogen",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Ozone",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Chlorine",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "electro2024easy000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "The quantity of electricity required to liberate 11.2 L of hydrogen gas at STP from acidulated water is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "96500 C (1 F)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "48250 C",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "193000 C",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "9650 C",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "electro2024easy000030f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "The conductivity of an electrolytic solution depends on:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nature of electrolyte and concentration",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Temperature",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Size of ions and viscosity of solvent",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "All of the above",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 31,
+    "_id": {
+      "$oid": "electro2024easy000031f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "According to Faraday's first law of electrolysis, the mass of a substance deposited at an electrode is directly proportional to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "The quantity of electricity passed through the electrolyte",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "The equivalent weight of the substance",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "The resistance of the cell",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Faraday's First Law states that w = z * Q, where w is the mass of substance deposited and Q is the total charge passed.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 32,
+    "_id": {
+      "$oid": "electro2024easy000032f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "The cell constant is defined as:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "l/A",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A/l",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "l * A",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1/(l*A)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 33,
+    "_id": {
+      "$oid": "electro2024easy000033f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "For a cell reaction to be spontaneous, the Gibbs free energy change (delta G) must be:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Negative",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Positive",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Zero",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 34,
+    "_id": {
+      "$oid": "electro2024easy000034f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "In a concentration cell, the EMF of the cell is due to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Difference in concentrations of electrolytes in the two half-cells",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Difference in electrodes",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Chemical reactions at electrodes",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 35,
+    "_id": {
+      "$oid": "electro2024easy000035f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "The standard reduction potential values of Fe2+/Fe and Sn2+/Sn are -0.44 V and -0.14 V. The standard EMF of the cell Fe | Fe2+ || Sn2+ | Sn is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "+0.30 V",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-0.30 V",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "+0.58 V",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "-0.58 V",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 36,
+    "_id": {
+      "$oid": "electro2024easy000036f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "Which metal is used for galvanizing iron to prevent rusting?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Zinc",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Copper",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Tin",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Nickel",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 37,
+    "_id": {
+      "$oid": "electro2024easy000037f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "The unit of cell constant is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "cm-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "cm",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "cm2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "S cm-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 38,
+    "_id": {
+      "$oid": "electro2024easy000038f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "The number of Faradays required to reduce 1 mole of MnO4- to Mn2+ is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "5",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 39,
+    "_id": {
+      "$oid": "electro2024easy000039f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Easy",
+    "question": "Which of the following statements is true for an electrolytic cell?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cathode is negative and anode is positive",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Cathode is positive and anode is negative",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Chemical energy is converted into electrical energy",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Both A and C",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Fundamental concept check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry.pdf",
+    "id": 40,
+    "_id": {
+      "$oid": "electro2024easy000040f9efa96"
+    }
+  }
+]

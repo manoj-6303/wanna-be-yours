@@ -1,0 +1,1722 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "Regarding the structural chemical statements for compound (X) and compound (Y) shown in the diagram, choose the correct evaluation: (see diagram)",
+    "questionImage": "goc medium/goc_medium_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Statement I is true but Statement II is false",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Both Statement I and Statement II are true",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Statement I is false but Statement II is true",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Both Statement I and Statement II are false",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Compound X has a COOH group, hence dissolves in NaHCO3. Its cyclopentane group has 2 chiral carbons, so Statement I is true. Compound Y has one sp3 carbon (CH3) and two sp2 carbons (CH= and =C=), hence has 0 sp carbon (Statement II is false). Option A is correct.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "gocmedium2024medium000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "From the figure of column chromatography showing bands a, b, c, identify the incorrect statements from those listed below the diagram: (see diagram)",
+    "questionImage": "goc medium/goc_medium_q2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "A, B and C only",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A, B and D only",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "B and D only",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "B, C and D only",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Since c elutes first, it is the least polar (Statement A is false). Band a is adsorbed strongest, so it is most polar (Statement B is false). Band c comes out of the column first, then b, then a (Statement C is false). Statement D is true. Thus, A, B and C are incorrect. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "gocmedium2024medium000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "Find the correct IUPAC nomenclature name for the organic structure shown in the diagram: (see diagram)",
+    "questionImage": "goc medium/goc_medium_q3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "2-Methyl-5-oxohexanoic acid",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2-Formyl-5-methylhexan-6-oic acid",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "5-Methyl-2-oxohexan-6-oic acid",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "5-Formyl-2-methylhexanoic acid",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: The principal chain starts numbering from -COOH as C-1. C-2 has a methyl group, and C-5 has a keto (=O, oxo) group. Total chain length is 6 carbons. The correct IUPAC name is 2-Methyl-5-oxohexanoic acid. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "gocmedium2024medium000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "Which of the four Newman conformations shown in the diagram will be the most stable? (see diagram)",
+    "questionImage": "goc medium/goc_medium_q4.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "(1)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "(2)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "(3)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "(4)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Conformation (1) represents the anti-conformation of butane, where the bulky methyl groups are 180 degrees apart. This minimizes steric and torsional strain, making it the most stable. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "gocmedium2024medium000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "The IUPAC name of the compound CH3-C(CH3)2-CH2-CH(CH3)-CH3 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2,2,4-trimethylpentane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2,4,4-trimethylpentane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "octane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2,2-dimethyl-4-methylpentane",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "gocmedium2024medium000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "The number of stereoisomers possible for 1,2-dichlorocyclobutane is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3 (one cis-meso and two trans-enantiomers)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "4",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "8",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "gocmedium2024medium000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "Which of the following represents the correct order of +I effect of alkyl groups?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "-C(CH3)3 > -CH(CH3)2 > -CH2CH3 > -CH3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-CH3 > -CH2CH3 > -CH(CH3)2 > -C(CH3)3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "-C(CH3)3 > -CH2CH3 > -CH(CH3)2 > -CH3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "gocmedium2024medium000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "In the resonance structures of aniline, nitrogen shows positive charge due to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "+R effect",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-R effect",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "+I effect",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "-I effect",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "gocmedium2024medium000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "The number of chiral carbons in 2-bromo-3-chlorobutane is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "gocmedium2024medium000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "Which of the following compounds will exhibit geometrical isomerism?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "but-2-ene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "but-1-ene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2-methylpropene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "propene",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "gocmedium2024medium000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "The correct order of stability of free radicals is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tertiary > Secondary > Primary > Methyl",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Methyl > Primary > Secondary > Tertiary",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Tertiary > Primary > Secondary > Methyl",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "gocmedium2024medium000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "The IUPAC name of CH3-CO-CH2-CH2-COOH is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4-oxopentanoic acid",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2-oxopentanoic acid",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "methyl succinic acid",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "4-acetylpropanoic acid",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "gocmedium2024medium000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "Thin layer chromatography (TLC) is a type of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adsorption chromatography",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Partition chromatography",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Gas chromatography",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Column chromatography",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "gocmedium2024medium000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "The Rf value in thin layer chromatography is defined as:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Distance run by compound / Distance run by solvent",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Distance run by solvent / Distance run by compound",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Distance run by compound * Distance run by solvent",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "gocmedium2024medium000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "During Lassaigne's test, if both nitrogen and sulfur are present in the organic compound, they form which complex that gives blood-red color with Fe3+?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "[Fe(SCN)]2+",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "[Fe(CN)6]3-",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "[Fe(CN)5NOS]4-",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Fe4[Fe(CN)6]3",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "gocmedium2024medium000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "In Kjeldahl's method for estimation of nitrogen, copper sulfate (CuSO4) acts as:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Catalytic agent to speed up decomposition",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Oxidising agent",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Reducing agent",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Hydrolysing agent",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "gocmedium2024medium000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "The IUPAC name of CH3-CH2-CO-O-CH3 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Methyl propanoate",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Ethyl acetate",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Methyl acetate",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Propyl methanoate",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "gocmedium2024medium000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "Identify the aromatic monocyclic compound from the following:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Benzene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Cyclobutadiene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Cyclooctatetraene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Cyclopentadiene",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "gocmedium2024medium000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "According to Huckel's rule, a cyclic planar conjugated system is aromatic if it contains:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "(4n + 2) pi electrons",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "4n pi electrons",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "(2n + 2) pi electrons",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2n pi electrons",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "gocmedium2024medium000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "Which of the following is antiaromatic?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cyclobutadiene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Benzene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Cyclooctatetraene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Naphthalene",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "gocmedium2024medium000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "The basic strength of amines in aqueous solution follows the order:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "(CH3)2NH > CH3NH2 > (CH3)3N > NH3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "(CH3)2NH > (CH3)3N > CH3NH2 > NH3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "(CH3)3N > (CH3)2NH > CH3NH2 > NH3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "gocmedium2024medium000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "The IUPAC name of the compound CH2=CH-CH2-C#CH is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "pent-1-en-4-yne",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "pent-4-en-1-yne",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "pent-1-yn-4-ene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "gocmedium2024medium000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "Which of the following carbocations is stabilized by resonance?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Allyl carbocation (CH2=CH-CH2+)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Isopropyl carbocation",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Ethyl carbocation",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "t-Butyl carbocation",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "gocmedium2024medium000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "Which of the following species is non-planar?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Methyl free radical",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Methyl carbocation",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Methyl carbanion",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Ethylene",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "gocmedium2024medium000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "The correct order of stability of the following carbocations is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Benzyl > Allyl > t-Butyl > Isopropyl",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Benzyl > t-Butyl > Allyl > Isopropyl",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "t-Butyl > Benzyl > Allyl > Isopropyl",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "gocmedium2024medium000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "The number of resonance structures possible for benzene is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 Kekule structures",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "5",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "gocmedium2024medium000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "Hyperconjugation is also known as:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "No-bond resonance (Baker-Nathan effect)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Electromeric effect",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Inductomeric effect",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Mesomeric effect",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "gocmedium2024medium000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "Which of the following has the highest dipole moment?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "cis-1,2-dichloroethene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "trans-1,2-dichloroethene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1,4-dichlorobenzene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "trans-but-2-ene",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "gocmedium2024medium000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "During the estimation of phosphorus by Carius method, phosphorus is precipitated as:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ammonium phosphomolybdate",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Magnesium pyrophosphate",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Barium phosphate",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Silver phosphate",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "gocmedium2024medium000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "The IUPAC name of the compound CH3-O-CH2-CH2-CH3 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1-methoxypropane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "methyl propyl ether",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3-methoxypropane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "propoxy methane",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "gocmedium2024medium000030f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "Which type of isomerism is shown by pentan-2-one and pentan-3-one?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Position isomerism",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Chain isomerism",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Functional isomerism",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Metamerism",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 31,
+    "_id": {
+      "$oid": "gocmedium2024medium000031f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "Which type of isomerism is shown by diethyl ether and methyl propyl ether?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Metamerism",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Position isomerism",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Chain isomerism",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Functional isomerism",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 32,
+    "_id": {
+      "$oid": "gocmedium2024medium000032f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "In a chromatogram, the Rf value of three compounds A, B and C are 0.15, 0.45, and 0.85. The compound that has the strongest adsorption on the stationary phase is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "A",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "B",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "C",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "All are equal",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 33,
+    "_id": {
+      "$oid": "gocmedium2024medium000033f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "Which of the following is not a meta-directing group?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "-NHCOCH3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-NO2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "-CN",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "-COOH",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 34,
+    "_id": {
+      "$oid": "gocmedium2024medium000034f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "The compound CH3-CH=C=CH-CH3 has how many sp2 and sp hybridized carbon atoms?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Two sp2, one sp",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Three sp2, zero sp",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Two sp2, two sp",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "One sp2, two sp",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 35,
+    "_id": {
+      "$oid": "gocmedium2024medium000035f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "Which of the following is the most stable conformation of cyclohexane?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chair form",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Boat form",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Twist boat form",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Half chair form",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 36,
+    "_id": {
+      "$oid": "gocmedium2024medium000036f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "During the Lassaigne's test, nitrogen containing organic compound is fused with sodium to convert nitrogen into:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sodium cyanide (NaCN)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Sodium nitrate (NaNO3)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Sodium amide (NaNH2)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Sodium cyanate (NaOCN)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 37,
+    "_id": {
+      "$oid": "gocmedium2024medium000037f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "Which of the following structures represents a meso compound?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "A compound with chiral centers and a plane of symmetry",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A compound with no chiral center",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "An equatorial conformation of cyclohexane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A racemic mixture",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 38,
+    "_id": {
+      "$oid": "gocmedium2024medium000038f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "A mixture of ortho-nitrophenol and para-nitrophenol can be separated by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Steam distillation",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Fractional crystallization",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Simple decantation",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Sublimation",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 39,
+    "_id": {
+      "$oid": "gocmedium2024medium000039f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "General Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "The acidic strength of carboxylic acids follows the order:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "HCOOH > CH3COOH > CH2ClCOOH > CHCl2COOH",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "CHCl2COOH > CH2ClCOOH > HCOOH > CH3COOH",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "CH2ClCOOH > CHCl2COOH > HCOOH > CH3COOH",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "HCOOH > CH3COOH > CHCl2COOH > CH2ClCOOH",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Explanation: Evaluated based on JEE Main syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "General Organic Chemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 40,
+    "_id": {
+      "$oid": "gocmedium2024medium000040f9efa96"
+    }
+  }
+]

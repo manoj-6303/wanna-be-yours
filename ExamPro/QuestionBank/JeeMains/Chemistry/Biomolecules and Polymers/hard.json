@@ -1,0 +1,1292 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "In the given pentapeptide, find out the essential amino acid (Y) and the sequence present in the pentapeptide: (see diagram)",
+    "questionImage": "biomolecules hard/biomolecules_hard_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Y = Threonine, Sequence = Ser-Thr-Asp-Gly-Ala",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Y = Serine, Sequence = Ser-Asp-Thr-Ala-Gly",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Y = Threonine, Sequence = Thr-Ser-Asp-Gly-Ala",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Y = Threonine, Sequence = Thr-Ser-Asp-Ala-Gly",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Explanation: The peptide sequence is identified by reading from the N-terminal (left) to the C-terminal (right). The side chains are: C1: -CH(OH)CH3 (Threonine), C2: -CH2OH (Serine), C3: -CH2COOH (Aspartic Acid), C4: -CH3 (Alanine), C5: -H (Glycine). Thus, the sequence is Thr-Ser-Asp-Ala-Gly. Among these amino acids, Threonine is an essential amino acid (it cannot be synthesized by the human body and must be supplied in diet), while Ser, Asp, Ala, and Gly are non-essential.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "biomolecules2026hard000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "The DNA molecule contains 4 bases whose structures are shown. One of the structures is not correct, identify the incorrect base structure: (see diagram)",
+    "questionImage": "biomolecules hard/biomolecules_hard_q2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "(1)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "(2)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "(3)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "(4)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Structure (1) represents a thymine derivative, but its methyl group or double bond conjugation is drawn incorrectly relative to the heterocyclic ring nitrogen atoms. Therefore, structure (1) is the incorrect base structure.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2024 April Question Bank - MathonGo.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "biomolecules2026hard000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "The incorrect statement regarding the given structure is: (see diagram)",
+    "questionImage": "biomolecules hard/biomolecules_hard_q3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "It can be oxidized to a dicarboxylic acid with bromine water",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "It will coexist in equilibrium with two other cyclic structures",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "It is a reducing sugar",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "It is D-glucose",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Bromine water is a mild oxidizing agent that only oxidizes the terminal aldehyde (-CHO) group of glucose to a carboxylic acid (-COOH) group, forming gluconic acid (a monocarboxylic acid). Strong oxidizing agents like nitric acid (HNO3) are required to oxidize both C1 and C6 to form saccharic acid (a dicarboxylic acid). Thus, statement A is incorrect.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2024 April Question Bank - MathonGo.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "biomolecules2026hard000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "In an oligopeptide named Alanylglycylphenylalanylisoleucine, the number of peptide bonds present is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "4",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "5",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "biomolecules2026hard000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "The naturally occurring amino acid that contains only one basic functional group in its chemical structure is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Asparagine",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Lysine",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Arginine",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Histidine",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "biomolecules2026hard000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "Which of the following statements about the primary structure of proteins is correct?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "It represents the linear sequence of amino acids joined by covalent peptide bonds and is unaffected by denaturation",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "It is held together exclusively by hydrogen bonding",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "It represents the overall folding of the polypeptide chain",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "It is destroyed during coagulation of egg white",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "biomolecules2026hard000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "The total number of possible tripeptides that can be formed from three different amino acids, using each amino acid exactly once, is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "6",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "8",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "biomolecules2026hard000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "The helical structure of proteins is stabilized by hydrogen bonding between:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Amide carbonyl oxygen (C=O) of one residue and amide nitrogen (N-H) of the fourth residue along the chain",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Side chain carboxyl group and side chain amino group",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Nitrogenous bases",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Phosphate group and ribose sugar",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "biomolecules2026hard000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "The sugar molecule in RNA (D-ribose) differs from the sugar molecule in DNA (D-2-deoxyribose) by having:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "A hydroxyl group at C2' carbon",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "An aldehyde group instead of ketone",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A six-membered ring structure",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "An extra carbon atom",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "biomolecules2026hard000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "The hydrolysis of nucleoside yields:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "A pentose sugar and a nitrogenous base",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A pentose sugar, a nitrogenous base, and phosphoric acid",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Phosphoric acid and a nitrogenous base",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Amino acids",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "biomolecules2026hard000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "Mutarotation of D-glucose is catalyzed by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both acids and bases",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Acids only",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Bases only",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Neither acids nor bases",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "biomolecules2026hard000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "Which of the following compounds is a non-reducing sugar containing a C1-C2 glycosidic linkage between glucose and fructose?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sucrose",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Lactose",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Maltose",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Cellobiose",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "biomolecules2026hard000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "The tertiary structure of a protein is stabilized by which of the following interactions?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hydrogen bonds, disulfide linkages, van der Waals forces, and electrostatic attractions",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Peptide bonds only",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Glycosidic linkages",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Phosphodiester linkages",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "biomolecules2026hard000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "An amino acid is least soluble in water at its:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Isoelectric point (pI)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Highly acidic pH",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Highly alkaline pH",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Neutral pH (7.0) regardless of pI",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "biomolecules2026hard000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "In proteins, disulfide linkages are formed by the oxidation of the sulfhydryl (-SH) groups of which amino acid?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cysteine",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Methionine",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Alanine",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Serine",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "biomolecules2026hard000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "The reaction of glucose with excess acetic anhydride yields a pentacetate. This indicates the presence of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Five hydroxyl groups in glucose",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "One aldehyde group in glucose",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "One primary alcoholic group",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A cyclic hemiacetal ring",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "biomolecules2026hard000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "When an electron-rich nitrogenous base of a nucleoside is linked to C1' of a pentose sugar, the linkage is a:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "N-glycosidic linkage",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "O-glycosidic linkage",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Phosphodiester linkage",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Peptide linkage",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "biomolecules2026hard000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "Which of the following statements about RNA is correct?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is usually single-stranded and plays a direct role in protein synthesis",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "It contains thymine as its primary pyrimidine base",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "It undergoes self-replication during cell division",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "It contains 2-deoxy-D-ribose sugar",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "biomolecules2026hard000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "Which of the following statements about the quaternary structure of proteins is correct?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "It represents the spatial arrangement of multiple polypeptide subunits relative to one another",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "It is present in all proteins",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "It is held together by covalent peptide bonds",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "It is unaffected by pH or temperature changes",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "biomolecules2026hard000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "The specific rotation of freshly prepared alpha-D-glucose solution changes from +112 degrees to an equilibrium value of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "+52.7 degrees",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "+19 degrees",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "+102 degrees",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "+32 degrees",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "biomolecules2026hard000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "The specific rotation of freshly prepared beta-D-glucose solution changes from +19 degrees to an equilibrium value of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "+52.7 degrees",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "+112 degrees",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "+102 degrees",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "+32 degrees",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "biomolecules2026hard000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "The enzyme that catalyzes the conversion of glucose into ethyl alcohol and carbon dioxide is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Zymase",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Invertase",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Diastase",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Maltase",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "biomolecules2026hard000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "A peptide linkage (-CO-NH-) can be hydrolyzed under what conditions?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Boiling with strong mineral acids or bases",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Treating with cold water",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Treating with mild bromine water",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Treating with hydrogen gas in the presence of Pd",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "biomolecules2026hard000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "Which of the following carbohydrates is a non-reducing sugar that does not form an osazone?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sucrose",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Lactose",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Maltose",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Galactose",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "biomolecules2026hard000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "Which of the following represents the correct sequence of nucleotide components in a DNA single strand?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sugar-Phosphate-Sugar-Phosphate with bases attached to sugars",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Base-Phosphate-Base-Phosphate with sugars attached to bases",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Sugar-Base-Sugar-Base with phosphates attached to bases",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Phosphate-Base-Phosphate-Base with sugars attached to phosphates",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "biomolecules2026hard000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "During transcription, the template strand of DNA is read to synthesize:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Messenger RNA (mRNA)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Transfer RNA (tRNA)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Ribosomal RNA (rRNA)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Complementary DNA (cDNA)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "biomolecules2026hard000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "Which of the following amino acids contains a guanidino group in its side chain?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Arginine",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Lysine",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Histidine",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Proline",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "biomolecules2026hard000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "Which of the following statements about prosthetic groups in proteins is correct?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "They are non-protein organic or inorganic parts tightly bound to the protein that are essential for its biological activity",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "They are always composed of amino acids",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "They are destroyed during translation",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "They are only present in fibrous proteins",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "biomolecules2026hard000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "The secondary structure element beta-pleated sheet is characterized by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Polypeptide chains aligned side-by-side held by intermolecular hydrogen bonds",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A single polypeptide chain coiled into a tight spiral stabilized by intramolecular hydrogen bonds",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Covalent links between C-terminal and N-terminal residues",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A globular three-dimensional shape",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "biomolecules2026hard000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "Which of the following properties is characteristic of DNA but not RNA?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Self-duplication (replication) during cell division",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Being a polymer of nucleotides",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Having a sugar-phosphate backbone",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Containing Cytosine",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Biomolecules - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "biomolecules2026hard000030f9efa96"
+    }
+  }
+]

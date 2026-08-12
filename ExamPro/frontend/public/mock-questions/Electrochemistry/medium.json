@@ -1,0 +1,1722 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "Match the cell type in List-I with its corresponding use/property/reaction in List-II: (see diagram)",
+    "questionImage": "electro medium/el_medium_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "A-IV, B-III, C-I, D-II",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A-II, B-III, C-IV, D-I",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A-I, B-II, C-III, D-IV",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A-III, B-I, C-IV, D-II",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Leclanche cell: Reaction at anode is Zn -> Zn2+ + 2e- (A-IV). Ni-Cd cell: Rechargeable (B-III). Fuel cell: Converts combustion energy to electrical (C-I). Mercury cell: Used in hearing aids (D-II). Option A is correct.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2024 April Question Bank - MathonGo.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "electro2024medium000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "The molar conductivity curves for electrolytes A and B are plotted against C^1/2 as shown in the diagram. Identify the nature of electrolytes A and B: (see diagram)",
+    "questionImage": "electro medium/el_medium_q2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "A: strong electrolyte ; B: weak electrolyte",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A: weak electrolyte ; B: weak electrolyte",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A: weak electrolyte ; B: strong electrolyte",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A: strong electrolyte ; B: strong electrolyte",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Explanation: Curve A shows a sharp increase in molar conductivity upon dilution, which is characteristic of weak electrolytes (like CH3COOH). Curve B is linear and increases slowly, which represents strong electrolytes (like KCl). Option C is correct.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2024 April Question Bank - MathonGo.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "electro2024medium000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "For a closed circuit Daniell cell, which of the plots shown in the diagram is the accurate one at a given temperature? (see diagram)",
+    "questionImage": "electro medium/el_medium_q3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "(1)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "(2)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "(3)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "(4)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: The standard cell potential E0_cell is a constant value at a given temperature and is independent of time or concentration. Hence, a straight horizontal line (Plot 1) is correct. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "electro2024medium000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "Regarding the cell Ag(s)|AgCl(s)|FeCl2(aq), FeCl3(aq)|Pt(s) at 298 K, choose the correct statements from the ones shown in the diagram: (see diagram)",
+    "questionImage": "electro medium/el_medium_q4.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "C, D and E Only",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "B Only",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A and E Only",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A and B Only",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: The cell reaction is Ag(s) + Cl-(aq) + Fe3+(aq) -> AgCl(s) + Fe2+(aq). E = E0 - (RT/F) ln([Fe2+] / ([Cl-][Fe3+])). Thus, cell potential increases when [Fe2+] decreases (C), [Fe3+] increases (D), or [Cl-] increases (E). Option A is correct.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "electro2024medium000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "What pressure (bar) of H2 would be required to make the emf of a hydrogen electrode zero in pure water at 25 C?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "10^-14",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "10^-7",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "10^7",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "electro2024medium000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "One of the commonly used reference electrodes is the calomel electrode. Under which category does it fall?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Metal - Insoluble Salt - Anion electrodes",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Oxidation - Reduction electrodes",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Metal ion - Metal electrodes",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Gas - Ion electrodes",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "electro2024medium000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "For a strong electrolyte, a plot of molar conductivity against C^1/2 is a straight line with a negative slope. The correct unit for the slope is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "S cm2 mol^-3/2 L^1/2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "S cm2 mol^-3/2 L^-1/2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "S cm2 mol^-3/2 L",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "S cm2 mol^-1 L^1/2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "electro2024medium000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "The reaction at cathode in the mercury cells commonly used in clocks involves:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "reduction of Hg from +2 to 0 (HgO + H2O + 2e- -> Hg + 2OH-)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "reduction of Mn from +4 to +3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "oxidation of Zn from 0 to +2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "reduction of Hg from +2 to +1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "electro2024medium000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "Molar ionic conductivities of a divalent cation and divalent anion are 57 S cm2 mol-1 and 73 S cm2 mol-1 respectively. The molar conductivity of the electrolyte solution will be:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "130 S cm2 mol-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "260 S cm2 mol-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "65 S cm2 mol-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "187 S cm2 mol-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "electro2024medium000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "The quantity of silver deposited when one coulomb of charge is passed through AgNO3 solution is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 electrochemical equivalent of silver",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1 g of silver",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1 chemical equivalent of silver",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0.1 g of silver",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "electro2024medium000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "For the electrochemical cell M | M2+ || X2- | X with E^0(M2+/M) = -0.46 V and E^0(X/X2-) = 0.34 V, which of the following is correct?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "M + X -> M2+ + X2- is spontaneous with E_cell = 0.80 V",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "E_cell = -0.80 V",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "M2+ + X2- -> M + X is spontaneous",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "M + X -> M2+ + X2- is spontaneous with E_cell = 0.12 V",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "electro2024medium000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "A conductivity cell with two electrodes is half-filled with an infinitely dilute solution of a weak electrolyte. If the volume is doubled by adding water at constant temperature, the molar conductivity of the cell will:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "remain same",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "decrease sharply",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "increase sharply",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "depend upon the electrolyte",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "electro2024medium000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "How can an electrochemical cell be converted into an electrolytic cell?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Applying an external opposite potential greater than E^0_cell",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Applying an external opposite potential lower than E^0_cell",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Reversing the salt bridge",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Exchanging the electrodes",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "electro2024medium000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "The EMF of the cell Tl | Tl+(0.001M) || Cu2+(0.01M) | Cu is 0.83 V at 298 K. It could be increased by:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "increasing concentration of Cu2+ ions",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "decreasing concentration of both ions",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "increasing concentration of Tl+ ions",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "increasing concentration of both ions",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "electro2024medium000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "The reaction H2(g) + AgCl(s) -> H+(aq) + Cl-(aq) + Ag(s) occurs in which of the following galvanic cells?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pt | H2(g) | HCl(soln) || AgCl(s) | Ag",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Ag | AgCl(s) | KCl || AgNO3 | Ag",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Pt | H2(g) | KCl || AgCl(s) | Ag",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Pt | H2(g) | HCl || AgNO3 | Ag",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "electro2024medium000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "A 100 W sodium street lamp emits yellow light of wavelength 589 nm. The number of photons emitted per second by the lamp is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2.96 * 10^20",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "5.92 * 10^20",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1.5 * 10^20",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "8.5 * 10^19",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "electro2024medium000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "During the electrolysis of aqueous CuSO4 using copper electrodes, which of the following reactions takes place at anode?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cu(s) -> Cu2+(aq) + 2e-",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2H2O -> O2 + 4H+ + 4e-",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "SO42- -> SO4 + 2e-",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2SO42- -> S2O82- + 2e-",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "electro2024medium000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "An electrochemical cell behaves like an electrolytic cell when:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "E_ext > E_cell",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "E_ext = E_cell",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "E_ext < E_cell",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "E_cell = 0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "electro2024medium000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "Three Faraday of electricity is passed through aqueous solutions of AgNO3, CuSO4 and AlCl3. The ratio of moles of metals deposited at cathode is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 : 3 : 2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1 : 2 : 3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3 : 2 : 1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2 : 3 : 6",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "electro2024medium000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "A solution of CuSO4 is electrolyzed for 10 minutes with a current of 1.5 amperes. The mass of copper deposited at the cathode is (At. Mass of Cu = 63.5):",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.296 g",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "0.586 g",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0.146 g",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1.17 g",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "electro2024medium000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "The standard reduction potential of Zn2+/Zn is -0.76 V. What is the reduction potential of zinc electrode in 0.01 M Zn2+ solution at 298 K?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "-0.82 V",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-0.70 V",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "-0.76 V",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "-0.88 V",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "electro2024medium000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "In a lead-acid battery, during recharging, the reaction occurring at anode is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "PbSO4(s) + 2H2O -> PbO2(s) + SO42- + 4H+ + 2e-",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Pb(s) + SO42- -> PbSO4(s) + 2e-",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "PbSO4(s) + 2e- -> Pb(s) + SO42-",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "PbO2(s) + SO42- + 4H+ + 2e- -> PbSO4(s) + 2H2O",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "electro2024medium000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "The limiting molar conductivities of NH4Cl, NaOH and NaCl are 130, 248 and 126 S cm2 mol-1 respectively. The limiting molar conductivity of NH4OH is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "252 S cm2 mol-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "378 S cm2 mol-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "244 S cm2 mol-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "118 S cm2 mol-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "electro2024medium000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "Which of the following is correct statement about electrochemical series?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fluorine has highest reduction potential and is strongest oxidizing agent",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Lithium has lowest reduction potential and is strongest reducing agent",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Metals with negative reduction potentials are stronger reducing agents than hydrogen",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "All of these are correct",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "electro2024medium000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "The cell reaction of a Ni-Cd cell during discharge is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cd(s) + 2NiO(OH)(s) + 2H2O(l) -> Cd(OH)2(s) + 2Ni(OH)2(s)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Cd(s) + Ni(OH)2(s) -> CdO(s) + Ni(s)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Cd(s) + NiO2(s) -> Cd(OH)2(s) + Ni(s)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "electro2024medium000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "Which of the following expressions represents Kohlrausch's law for a weak electrolyte HA?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "lambda_m^0 = lambda_H+^0 + lambda_A-^0",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "lambda_m = lambda_m^0 - A * sqrt(C)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "alpha = lambda_m / lambda_m^0",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Both A and C",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "electro2024medium000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "A galvanic cell consists of a zinc electrode in 1 M Zn2+ and a copper electrode in 1 M Cu2+. Under standard conditions, if the size of the copper electrode is doubled, the cell EMF will:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Remain unchanged",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Double",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Be halved",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Increase slightly",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "electro2024medium000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "The Nernst equation shows that cell potential decreases when:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Product concentration increases",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Reactant concentration increases",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Temperature decreases",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "electro2024medium000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "During the electrolysis of aqueous CuSO4 using Pt electrodes, the gas evolved at anode is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oxygen",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Hydrogen",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Sulfur dioxide",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Chlorine",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "electro2024medium000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "The standard reduction potential values of A, B and C are -0.45 V, -0.80 V and -0.12 V respectively. The correct order of their reducing strength is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "B > A > C",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "C > A > B",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A > B > C",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "B > C > A",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "electro2024medium000030f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "The molar conductivity of 0.05 M BaCl2 solution is 230 S cm2 mol-1. Its conductivity (kappa) is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.0115 S cm-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "0.115 S cm-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1.15 S cm-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0.00115 S cm-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 31,
+    "_id": {
+      "$oid": "electro2024medium000031f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "The standard reduction potential for Cu2+/Cu is +0.34 V. The reduction potential at pH = 14 for the Cu2+/Cu couple (Ksp of Cu(OH)2 = 1.0 * 10^-19) is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "-0.22 V",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-0.11 V",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "+0.11 V",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "-0.34 V",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 32,
+    "_id": {
+      "$oid": "electro2024medium000032f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "In the electrolysis of alumina (Hall-Heroult process), cryolite is added to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lower the melting point of alumina and increase electrical conductivity",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Act as a catalyst",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Minimize anode consumption",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Oxidize alumina",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 33,
+    "_id": {
+      "$oid": "electro2024medium000033f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "For a cell reaction Zn(s) + Cu2+(aq) -> Zn2+(aq) + Cu(s), the cell representation is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Zn(s) | Zn2+(aq) || Cu2+(aq) | Cu(s)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Cu(s) | Cu2+(aq) || Zn2+(aq) | Zn(s)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Zn2+(aq) | Zn(s) || Cu(s) | Cu2+(aq)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 34,
+    "_id": {
+      "$oid": "electro2024medium000034f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "The electrical resistance of a column of 0.05 M NaOH solution of diameter 1 cm and length 50 cm is 5.5 * 10^3 ohm. Its resistivity (rho) is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "86.4 ohm cm",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "172.8 ohm cm",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "43.2 ohm cm",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "21.6 ohm cm",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 35,
+    "_id": {
+      "$oid": "electro2024medium000035f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "The specific conductance of a 0.1 N KCl solution at 25 C is 0.012 S cm-1. The resistance of cell containing this solution is 55 ohm. The cell constant is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.66 cm-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "4.58 cm-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0.12 cm-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2.20 cm-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 36,
+    "_id": {
+      "$oid": "electro2024medium000036f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "In which of the following cells, the cell constant changes with concentration?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "None of these (cell constant is constant for a given cell)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Conductivity cell",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Galvanic cell",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Concentration cell",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 37,
+    "_id": {
+      "$oid": "electro2024medium000037f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "Which of the following is not a secondary cell?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mercury cell",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Lead storage battery",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Nickel-Cadmium cell",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "All are secondary",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 38,
+    "_id": {
+      "$oid": "electro2024medium000038f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "The standard cell potential E^0_cell for a cell reaction with n = 2 is found to be 0.295 V at 25 C. The equilibrium constant Keq for the reaction is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1.0 * 10^10",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1.0 * 10^5",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2.0 * 10^10",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1.0 * 10^-10",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 39,
+    "_id": {
+      "$oid": "electro2024medium000039f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "In Rusting of Iron, the reaction occurring at anode is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fe(s) -> Fe2+(aq) + 2e-",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "O2 + 4H+ + 4e- -> 2H2O",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Fe2+ -> Fe3+ + e-",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2H2O -> O2 + 4H+ + 4e-",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified medium difficulty electrochemistry properties question.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Electrochemistry - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 40,
+    "_id": {
+      "$oid": "electro2024medium000040f9efa96"
+    }
+  }
+]

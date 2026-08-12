@@ -23,6 +23,7 @@ export default function Exam() {
     
     const initAttempt = async () => {
       const token = localStorage.getItem('token');
+      if (token === 'mock-token') return;
       try {
         await axios.post('/api/v1/exams/start-attempt', { level: parseInt(levelNumber) }, {
           headers: { Authorization: `Bearer ${token}` }
@@ -46,6 +47,55 @@ export default function Exam() {
     setSubmitting(true);
     
     const token = localStorage.getItem('token');
+    if (token === 'mock-token') {
+      let correctAnswers = 0;
+      let wrongAnswers = 0;
+      
+      const evaluatedAnswers = questions.map(q => {
+        const selected = answers[q._id] || null;
+        const isCorrect = selected === q.correctAnswer;
+        if (isCorrect) correctAnswers++;
+        else if (selected) wrongAnswers++;
+        
+        return {
+          questionId: q._id,
+          selectedAnswer: selected,
+          correct: isCorrect,
+          correctAnswer: q.correctAnswer,
+          explanation: q.explanation,
+          explanationImage: q.explanationImage,
+          questionText: q.question,
+          questionImage: q.questionImage,
+          options: q.options.map(opt => typeof opt === 'object' ? opt.text : opt),
+          optionImages: q.options.map(opt => typeof opt === 'object' ? opt.image : null),
+          chapter: q.topic,
+          difficulty: q.difficulty
+        };
+      });
+      
+      const score = correctAnswers * 4;
+      const percentage = Math.round((correctAnswers / questions.length) * 100);
+      const qualified = percentage >= 50;
+      
+      const resultData = {
+        result: {
+          level: parseInt(levelNumber) || 0,
+          totalQuestions: questions.length,
+          correctAnswers,
+          wrongAnswers,
+          score,
+          percentage,
+          timeTaken: (15 * 60) - timeLeft,
+          answers: evaluatedAnswers
+        },
+        qualified,
+        newCertificate: null
+      };
+      
+      localStorage.removeItem(`exam_answers_${levelNumber}`);
+      navigate('/result', { state: { resultData } });
+      return;
+    }
     
     const payload = {
       level: parseInt(levelNumber) || 0,
@@ -85,6 +135,30 @@ export default function Exam() {
 
     const fetchQuestions = async () => {
       const token = localStorage.getItem('token');
+      if (token === 'mock-token') {
+        try {
+          // Map levels to mock difficulty json files
+          // Let's load the hard.json directly for visual aldol questions or let the user choose!
+          // We can map: Level 1 -> easy.json, Level 2 -> medium.json, Level 3 -> hard.json
+          let mockFile = 'easy.json';
+          const lvl = parseInt(levelNumber);
+          if (lvl === 2 || lvl === 5 || lvl === 7 || lvl === 9) {
+            mockFile = 'medium.json';
+          } else if (lvl === 3 || lvl === 6 || lvl === 8 || lvl === 10) {
+            mockFile = 'hard.json';
+          }
+          const res = await fetch(`/mock-questions/${mockFile}`);
+          const data = await res.json();
+          setQuestions(data);
+          setLoading(false);
+        } catch (err) {
+          console.error("Failed to load mock questions", err);
+          alert('Failed to load mock questions');
+          navigate('/dashboard');
+        }
+        return;
+      }
+      
       try {
         const res = await axios.get(`/api/v1/exams/${levelNumber}`, {
           headers: { Authorization: `Bearer ${token}` }
@@ -116,8 +190,9 @@ export default function Exam() {
   }, [timeLeft, loading, submitting, handleSubmit]);
 
   const handleOptionSelect = (questionId, option) => {
+    const val = typeof option === 'object' ? option.text : option;
     setAnswers(prev => {
-      const newAnswers = { ...prev, [questionId]: option };
+      const newAnswers = { ...prev, [questionId]: val };
       if (!isCustomTest) {
         localStorage.setItem(`exam_answers_${levelNumber}`, JSON.stringify(newAnswers));
       }
@@ -230,34 +305,48 @@ export default function Exam() {
               <MathText text={currentQ.question} />
             </h2>
 
-            {(currentQ.questionImage || currentQ.image) && (
-              <div className="mb-6 flex justify-center bg-gray-50 p-4 rounded-xl border border-gray-200">
+            {currentQ.questionImage && (
+              <div className="mb-8 flex justify-center bg-white p-4 border border-gray-100 rounded-2xl shadow-sm">
                 <img 
-                  src={currentQ.questionImage || currentQ.image} 
-                  alt="Reference Diagram" 
-                  className="max-h-64 object-contain rounded-lg shadow-sm"
+                  src={currentQ.questionImage.startsWith('http') ? currentQ.questionImage : `/images/${currentQ.questionImage}`} 
+                  alt="Question Diagram" 
+                  className="max-h-72 object-contain"
                 />
               </div>
             )}
 
             <div className="space-y-4">
-              {(currentQ?.options || []).map((opt, idx) => {
-                const isSelected = answers[currentQ._id] === opt;
+              {currentQ.options.map((opt, idx) => {
+                const optText = typeof opt === 'object' ? opt.text : opt;
+                const optImg = typeof opt === 'object' ? opt.image : (currentQ.optionImages ? currentQ.optionImages[idx] : null);
+                const isSelected = answers[currentQ._id] === optText;
+                
                 return (
                   <label 
                     key={idx} 
                     className={`block w-full p-4 border rounded-xl cursor-pointer transition-all duration-200 ${isSelected ? 'bg-indigo-50 border-indigo-500 shadow-sm' : 'border-gray-200 hover:bg-gray-50 hover:border-indigo-300'}`}
                   >
-                    <div className="flex items-center">
-                      <input 
-                        type="radio" 
-                        name={`question-${currentQ._id}`} 
-                        value={opt}
-                        checked={isSelected}
-                        onChange={() => handleOptionSelect(currentQ._id, opt)}
-                        className="h-5 w-5 text-indigo-600 focus:ring-indigo-500 border-gray-300 shrink-0"
-                      />
-                      <span className="ml-4 text-lg text-gray-700"><MathText text={opt} /></span>
+                    <div className="flex flex-col sm:flex-row sm:items-center w-full">
+                      <div className="flex items-center">
+                        <input 
+                          type="radio" 
+                          name={`question-${currentQ._id}`} 
+                          value={optText}
+                          checked={isSelected}
+                          onChange={() => handleOptionSelect(currentQ._id, opt)}
+                          className="h-5 w-5 text-indigo-600 focus:ring-indigo-500 border-gray-300"
+                        />
+                        <span className="ml-4 text-lg text-gray-700">{optText}</span>
+                      </div>
+                      {optImg && (
+                        <div className="mt-3 sm:mt-0 sm:ml-auto bg-white p-2 border border-gray-100 rounded-lg max-w-xs shadow-sm">
+                          <img 
+                            src={optImg.startsWith('http') ? optImg : `/images/${optImg}`} 
+                            alt={`Option ${optText}`} 
+                            className="max-h-24 object-contain"
+                          />
+                        </div>
+                      )}
                     </div>
                   </label>
                 );

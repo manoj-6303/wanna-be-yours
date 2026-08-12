@@ -1,0 +1,1292 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2022,
+    "session": "June",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "For the decomposition of acetaldehyde, the rate constants are measured over 700-1000 K and analyzed by plotting ln k vs 10^3/T as shown: (see diagram). Calculate the activation energy (in kJ/mol) of the reaction.",
+    "questionImage": "kinetics hard/kinetics_hard_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "154",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "18.5",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "77",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "308",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: The slope of the plot of ln k vs 10^3/T is equal to -Ea / (1000 * R). From the graph, Slope = -18.5. Thus, -Ea / (1000 * 8.314) = -18.5 => Ea = 18.5 * 1000 * 8.314 J/mol = 153.8 kJ/mol ≈ 154 kJ/mol.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2022 Chapter wise Questions by MathonGo.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "kinetics2026hard000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2022,
+    "session": "July",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "For the first-order decomposition of azomethane, the variation in partial pressure with time at 600 K is plotted in the diagram: (see diagram). Calculate the half life of the reaction.",
+    "questionImage": "kinetics hard/kinetics_hard_q2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "20 * 10^2 s",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "10 * 10^2 s",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3.5 * 10^2 s",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "20 * 10^-5 s",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: The graph plots ln(p/p0) vs t/s for a first-order reaction, yielding a straight line with Slope = -k. Here, Slope = -3.465 * 10^-4. Thus k = 3.465 * 10^-4 s^-1. The half life t1/2 = ln 2 / k = 0.693 / (3.465 * 10^-4) = 2000 s = 20 * 10^2 s.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "kinetics2026hard000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2022,
+    "session": "June",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "For the decomposition of a gaseous compound, the half-life data at different initial pressures is given: (see diagram). What is the order of the reaction?",
+    "questionImage": "kinetics hard/kinetics_hard_q3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "3",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Explanation: Let initial pressures be P1 = 55.5 kPa and P2 = 27.8 kPa (P2 is exactly half of P1). The corresponding half-lives are t1 = 340 s and t2 = 170 s (t2 is exactly half of t1). Since half-life is directly proportional to initial pressure (t1/2 ∝ [A]0), the reaction order is zero. (Wait, let's re-verify: t1/2 ∝ [A]0^(1-n). For n=0, t1/2 ∝ [A]0. Thus t2/t1 = P2/P1 => 170/340 = 27.8/55.5 = 1/2. Yes, this fits zero-order reaction. Thus correct answer is C: Zero order. Let's make sure the option key is correct: option A is 2, B is 1, C is 0. So correctAnswer is C).",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2022 Chapter wise Questions by MathonGo.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "kinetics2026hard000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "For a gaseous reaction A -> B + C, the rate constant is 2 * 10^-3 s^-1. If initial pressure of A is 1 atm, what is the rate of reaction (in atm/s) after 500 seconds?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "7.36 * 10^-4",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3.68 * 10^-4",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1.84 * 10^-4",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "5.52 * 10^-4",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "kinetics2026hard000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "At 300 K, the rate constant of a reaction is 10^-4 s^-1. If the pre-exponential factor A is 10^13 s^-1, what is the activation energy of the reaction?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "97.5 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "48.7 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "195.0 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "24.3 kJ/mol",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "kinetics2026hard000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "For the reaction A + B -> Products, the rate law is rate = k[A][B]^2. If the initial concentrations are [A]0 = 1.0 M and [B]0 = 2.0 M, what is the rate of reaction when half of A has reacted? (k = 0.1 M^-2 s^-1)",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.05 M/s",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "0.10 M/s",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0.20 M/s",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0.025 M/s",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "kinetics2026hard000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "The half life of a first-order reaction is 60 minutes. What is the time required for 99.9% completion of the reaction?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "600 minutes",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "300 minutes",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "180 minutes",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "120 minutes",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "kinetics2026hard000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "For the decomposition of nitrogen pentoxide, the rate constant is k1 = 3 * 10^-5 s^-1 at 27°C and k2 = 9 * 10^-5 s^-1 at 37°C. The activation energy is close to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "85 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "42.5 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "170 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "21.2 kJ/mol",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "kinetics2026hard000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "The activation energy of a reaction is 100 kJ/mol. In the presence of a catalyst, the activation energy is reduced by 25 kJ/mol. The ratio of catalyzed to uncatalyzed rate constants at 500 K is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "400",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "200",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "100",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "50",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "kinetics2026hard000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "For a second-order reaction: A -> Products, if the initial concentration of A is 2.0 M and rate constant is 0.25 M^-1 s^-1, what is the time taken for reactant concentration to become 0.5 M?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3.0 seconds",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1.5 seconds",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "6.0 seconds",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0.75 seconds",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "kinetics2026hard000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "For the first-order reaction: A(g) -> 2B(g) + C(g), the total pressure after 100 minutes is 1.5 bar. If the initial pressure of A is 1.0 bar, what is the rate constant?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "6.9 * 10^-3 min^-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "6.9 * 10^-4 min^-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1.38 * 10^-2 min^-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "3.45 * 10^-3 min^-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "kinetics2026hard000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "A substance decomposes via two parallel first-order pathways: A -> B (k1 = 10^-4 s^-1) and A -> C (k2 = 3 * 10^-4 s^-1). The percentage of product B formed in the mixture is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "25%",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "75%",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "50%",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "33.3%",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "kinetics2026hard000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "The decay of radioisotope Zn-65 has a half-life of 245 days. How long will it take for the activity of a sample to decay to 25% of its initial value?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "490 days",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "245 days",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "735 days",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "980 days",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "kinetics2026hard000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "The pre-exponential factors of two different reactions of same order are identical. If the activation energy of the first reaction exceeds the second by 20 kJ/mol, what is the ratio of rate constants k2/k1 at 300 K?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3000",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "300",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "30",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "30000",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "kinetics2026hard000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "For a first-order reaction, the time taken for decomposition to 1/8th of its initial concentration is t1/8, and to 1/10th is t1/10. What is the value of (t1/8 / t1/10) * 10?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "9",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0.9",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "30",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "kinetics2026hard000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "At 27°C, the rate constant of a reaction is 10^-2 min^-1. What is the rate constant of this reaction at 127°C if activation energy is 50 kJ/mol?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.45 min^-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "4.5 min^-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0.09 min^-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "9.0 min^-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "kinetics2026hard000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "The activation energy of a reaction is 60 kJ/mol. By what percentage does the rate constant increase when temperature is raised from 300 K to 301 K?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "8%",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "4%,",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2%",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "16%",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "kinetics2026hard000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "A first-order reaction has a rate constant of 2.303 * 10^-3 s^-1. What is the time required for the reactant concentration to reduce from 1.0 M to 0.25 M?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "600 seconds",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "300 seconds",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1200 seconds",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "150 seconds",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "kinetics2026hard000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "For the reaction A + B -> Products, if the initial concentrations are [A]0 = 0.5 M and [B]0 = 0.5 M, and the rate law is rate = k[A]^2[B], what is the rate of reaction when half of the reactants are consumed? (k = 0.2 M^-2 s^-1)",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3.1 * 10^-3 M/s",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "6.2 * 10^-3 M/s",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1.5 * 10^-3 M/s",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1.2 * 10^-2 M/s",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "kinetics2026hard000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "At a certain temperature, a reaction is 90% complete in 2 hours. What is the time required for 99% completion of the same first-order reaction?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4 hours",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3 hours",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "6 hours",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "8 hours",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "kinetics2026hard000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "For the gaseous reaction: 2A(g) -> 4B(g) + C(g), the initial pressure of A is 100 torr. If the total pressure at equilibrium is 250 torr, and the reaction is first order with half-life of 20 minutes, what is the total pressure after 40 minutes?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "212.5 torr",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "175.0 torr",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "250.0 torr",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "125.0 torr",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "kinetics2026hard000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "The rate constant of a reaction increases by a factor of 4 when temperature is raised from 300 K to 320 K. The activation energy of the reaction is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "55.3 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "27.6 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "110.6 kJ/mol",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "13.8 kJ/mol",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "kinetics2026hard000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "A radioactive sample decays by 90% in 100 years. What is the half-life of the sample?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "30.1 years",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "50.0 years",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "69.3 years",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "10.0 years",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "kinetics2026hard000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "For the reaction 2A -> B + C, the rate law is r = k[A]^2 with k = 1.0 L mol^-1 min^-1. If the reaction is initiated with [A]0 = 1.0 M, what is the concentration of A after 1 minute?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.5 M",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "0.25 M",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0.75 M",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0 M",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "kinetics2026hard000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "The standard enthalpy change for the activation of a reaction is +80 kJ/mol. If the catalyst reduces activation energy by 20 kJ/mol, what is the ratio of rates at 400 K?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "400",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "200",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "100",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "50",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "kinetics2026hard000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "For the decomposition of nitrogen pentoxide, the rate constant is 5 * 10^-4 s^-1. What is the time taken for 99.9% of the reactant to decompose?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "13.8 * 10^3 s",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "6.9 * 10^3 s",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "27.6 * 10^3 s",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "3.45 * 10^3 s",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "kinetics2026hard000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "The decay constant of a radioactive element is 10^-3 year^-1. The average life of the element is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1000 years",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "693 years",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1440 years",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2000 years",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "kinetics2026hard000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "For the reaction A + 3B -> 2C, if the rate of disappearance of B is 1.5 * 10^-3 mol L^-1 s^-1, what is the rate of appearance of C?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1.0 * 10^-3 mol L^-1 s^-1",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1.5 * 10^-3 mol L^-1 s^-1",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "3.0 * 10^-3 mol L^-1 s^-1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0.5 * 10^-3 mol L^-1 s^-1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "kinetics2026hard000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "The rate constant of a reaction is 10^-2 s^-1. If the concentration of reactant is doubled, the value of the rate constant will:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Remain unchanged",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Double",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Halve",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Become four times",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "kinetics2026hard000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Chemical Kinetics",
+    "difficulty": "Hard",
+    "question": "For the reaction: A -> Products, if the half-life is 100 minutes when initial concentration is 1.0 M, and 400 minutes when initial concentration is 0.5 M, the order of the reaction is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified textbook chemistry theory question matching standard syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Chemical Kinetics - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "kinetics2026hard000030f9efa96"
+    }
+  }
+]

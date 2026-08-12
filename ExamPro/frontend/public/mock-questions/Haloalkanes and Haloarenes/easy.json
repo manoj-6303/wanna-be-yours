@@ -1,0 +1,1722 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Which of the following organic reactions is NOT correctly represented in the diagram? (see diagram)",
+    "questionImage": "halo easy/halo_easy_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "(4)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "(3)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "(2)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "(1)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Reaction (4) shows bromination of methylcyclohexane (a saturated cyclic alkane) yielding benzyl bromide, which is incorrect. Aromatic side-chain bromination occurs in toluene to yield benzyl bromide, not in methylcyclohexane. Hence option A is correct.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "haloeasy2024easy000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "The number of halobenzenes from the five structures shown in the diagram that can be prepared by Sandmeyer's reaction is: (see diagram)",
+    "questionImage": "halo easy/halo_easy_q2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: The Sandmeyer reaction involves treating a diazonium salt with cuprous chloride (Cu2Cl2/HCl) or cuprous bromide (Cu2Br2/HBr) to prepare chlorobenzene (II) and bromobenzene (III). Fluorobenzene (I) is prepared via Balz-Schiemann, and iodobenzene (IV) via KI heating. Hence, exactly 2 can be prepared. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2024 April Question Bank - MathonGo.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "haloeasy2024easy000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Choose the correct evaluation mapping of the halogen which is most reactive towards SN1 reaction in the pairs A, B, C, D shown in the diagram: (see diagram)",
+    "questionImage": "halo easy/halo_easy_q3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "A - Br(a); B - I(a); C - Br(b); D - Br(a)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A - Br(b); B - I(b); C - Br(b); D - Br(b)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A - Br(b); B - I(a); C - Br(a); D - Br(a)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A - Br(a); B - I(a); C - Br(a); D - Br(a)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: In pair A, benzylic Br(a) is more reactive than secondary Br(b). In B, allylic I(a) is more reactive than vinylic I(b) (which is inert). In C, secondary Br(b) is reactive while bridgehead Br(a) is inert. In D, tertiary Br(a) is more reactive than primary Br(b). Hence A - Br(a); B - I(a); C - Br(b); D - Br(a). Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "haloeasy2024easy000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Find the correct sequence of melting point of the dichlorobenzenes shown in the diagram: (see diagram)",
+    "questionImage": "halo easy/halo_easy_q4.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "para > ortho > meta",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "para > meta > ortho",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "ortho > para > meta",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "meta > ortho > para",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Para-dichlorobenzene has high symmetry and fits much better into the crystal lattice than ortho and meta isomers, resulting in a significantly higher melting point. The order is para > ortho > meta. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "haloeasy2024easy000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Which of the following alkyl halides is most reactive towards SN2 reaction?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Methyl chloride",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Ethyl chloride",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Isopropyl chloride",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "t-Butyl chloride",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "haloeasy2024easy000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Which of the following alkyl halides is most reactive towards SN1 reaction?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "t-Butyl chloride",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Isopropyl chloride",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Ethyl chloride",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Methyl chloride",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "haloeasy2024easy000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "The reaction of alkyl halides with sodium in dry ether to form alkanes is known as:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wurtz reaction",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Fittig reaction",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Wurtz-Fittig reaction",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Frankland reaction",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "haloeasy2024easy000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "The reaction of aryl halides with sodium in dry ether to form diaryls is known as:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fittig reaction",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Wurtz reaction",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Wurtz-Fittig reaction",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Sandmeyer reaction",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "haloeasy2024easy000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "The reaction of a mixture of alkyl halide and aryl halide with sodium in dry ether to form alkylbenzene is known as:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wurtz-Fittig reaction",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Fittig reaction",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Wurtz reaction",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Friedel-Crafts reaction",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "haloeasy2024easy000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Alkyl fluorides are prepared best by heating alkyl chloride/bromide in the presence of metallic fluorides. This reaction is known as:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Swarts reaction",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Finkelstein reaction",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Sandmeyer reaction",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Wurtz reaction",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "haloeasy2024easy000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Alkyl iodides are prepared best by reacting alkyl chloride/bromide with NaI in acetone. This reaction is known as:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Finkelstein reaction",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Swarts reaction",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Wurtz reaction",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Sandmeyer reaction",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "haloeasy2024easy000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Which of the following acts as the solvent in Finkelstein reaction to precipitate NaCl/NaBr?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acetone",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Water",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Ethanol",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Ether",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "haloeasy2024easy000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "The nucleophile in the SN2 reaction attacks the substrate from:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Back-side (180 degrees to leaving group)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Front-side (same side as leaving group)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Any direction",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of the above",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "haloeasy2024easy000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "The SN2 reaction proceeds with:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Complete inversion of configuration (Walden inversion)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Complete retention of configuration",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Partial racemization",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Complete racemization",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "haloeasy2024easy000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "The SN1 reaction of an optically active alkyl halide proceeds with:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Racemization (both inversion and retention)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Complete inversion",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Complete retention",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "No change",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "haloeasy2024easy000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Which of the following leaving groups is the best?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "I-",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Br-",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Cl-",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "F-",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "haloeasy2024easy000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Aryl halides are extremely less reactive towards nucleophilic substitution compared to alkyl halides because of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Resonance stabilization of C-Cl bond (partial double bond character)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "sp2 hybridization of carbon holding halogen",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Instability of phenyl cation",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "All of the above",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "haloeasy2024easy000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Which of the following represents DDT?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dichlorodiphenyltrichloroethane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Dichlorodiphenyltetrachloroethane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Diphenyldichlorotrichloroethane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "haloeasy2024easy000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Chiral molecules are those which are:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non-superimposable on their mirror images",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Superimposable on their mirror images",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Planar",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Symmetric",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "haloeasy2024easy000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Which of the following organohalogen compounds is chiral?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2-Chlorobutane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1-Chlorobutane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2-Chloropropane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Chlorobenzene",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "haloeasy2024easy000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "The preparation of alkyl chlorides by reacting alcohol with thionyl chloride (SOCl2) is preferred because:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "The by-products (SO2 and HCl) are gases and escape easily, giving pure alkyl chloride",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "It is the fastest reaction",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "It does not require any catalyst",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "It is very cheap",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "haloeasy2024easy000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Which catalyst is used in the Grooves' process for preparing alkyl chlorides from alcohols?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anhydrous ZnCl2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Concentrated H2SO4",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Red phosphorus",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Iron powder",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "haloeasy2024easy000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "The boiling points of alkyl halides follow the order:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "RI > RBr > RCl > RF",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "RF > RCl > RBr > RI",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "RCl > RBr > RI > RF",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "RBr > RCl > RF > RI",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "haloeasy2024easy000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Which of the following halogens is the most electronegative?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fluorine",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Chlorine",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Bromine",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Iodine",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "haloeasy2024easy000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "The reaction C6H5N2+Cl- + Cu2Cl2/HCl -> C6H5Cl + N2 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sandmeyer reaction",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Gattermann reaction",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Fittig reaction",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Balz-Schiemann reaction",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "haloeasy2024easy000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "The reaction C6H5N2+Cl- + Cu/HCl -> C6H5Cl + N2 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gattermann reaction",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Sandmeyer reaction",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Fittig reaction",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Balz-Schiemann reaction",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "haloeasy2024easy000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "A racemic mixture is optically inactive because of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "External compensation",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Internal compensation",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Presence of plane of symmetry",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "haloeasy2024easy000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "A meso compound is optically inactive because of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Internal compensation (plane of symmetry)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "External compensation",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Absence of chiral carbons",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "haloeasy2024easy000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "The dipole moment of CH3Cl is higher than that of CH3F because:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "The C-Cl bond length is significantly larger, compensating for the slightly smaller charge difference",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Cl is more electronegative",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "F has larger size",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "haloeasy2024easy000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "The fire extinguisher 'Pyrene' is chemically:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Carbon tetrachloride (CCl4)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Chloroform (CHCl3)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Iodoform (CHI3)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Methylene chloride (CH2Cl2)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "haloeasy2024easy000030f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Which of the following compounds is used as an antiseptic due to liberation of free iodine?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Iodoform (CHI3)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Chloroform (CHCl3)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Carbon tetrachloride",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Freon-12",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 31,
+    "_id": {
+      "$oid": "haloeasy2024easy000031f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Freons are:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chlorofluorocarbons (CFCs)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Fluorinated alkanes only",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Chlorinated alkanes only",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Bromoarenes",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 32,
+    "_id": {
+      "$oid": "haloeasy2024easy000032f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Which of the following is commonly used as a refrigerant under the name Freon-12?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "CF2Cl2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "CF3Cl",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "CFCl3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "CHF2Cl",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 33,
+    "_id": {
+      "$oid": "haloeasy2024easy000033f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "The C-X bond length in alkyl halides increases in the order:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "C-F < C-Cl < C-Br < C-I",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "C-I < C-Br < C-Cl < C-F",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "C-Cl < C-F < C-Br < C-I",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "C-Br < C-Cl < C-F < C-I",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 34,
+    "_id": {
+      "$oid": "haloeasy2024easy000034f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "The IUPAC name of neopentyl chloride is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1-chloro-2,2-dimethylpropane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2-chloro-2-methylpropane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1-chloropentane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2,2-dimethylpropyl chloride",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 35,
+    "_id": {
+      "$oid": "haloeasy2024easy000035f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Which of the following halides has the highest density?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Methyl iodide",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Methyl bromide",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Methyl chloride",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Methyl fluoride",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 36,
+    "_id": {
+      "$oid": "haloeasy2024easy000036f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Which reagent is used in the Hunsdiecker reaction to prepare alkyl bromides?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Br2 in CCl4 with silver salt of carboxylic acid",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "PBr3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "HBr",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "NaBr",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 37,
+    "_id": {
+      "$oid": "haloeasy2024easy000037f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Which of the following represents an allylic halide?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3-chloroprop-1-ene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1-chloroprop-1-ene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2-chloropropene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "3-chloroprop-1-yne",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 38,
+    "_id": {
+      "$oid": "haloeasy2024easy000038f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "Which of the following represents a vinylic halide?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1-chloroethene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3-chloroprop-1-ene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "chloromethylbenzene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2-phenylethyl chloride",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 39,
+    "_id": {
+      "$oid": "haloeasy2024easy000039f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Easy",
+    "question": "The C-Cl bond length in chlorobenzene is shorter than in methyl chloride because:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Carbon in chlorobenzene is sp2 hybridized",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Resonance gives C-Cl bond double bond character",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Both A and B",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Explanation: Standard definition check based on NCERT syllabus.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes.pdf",
+    "id": 40,
+    "_id": {
+      "$oid": "haloeasy2024easy000040f9efa96"
+    }
+  }
+]

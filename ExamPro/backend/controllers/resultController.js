@@ -66,15 +66,14 @@ const cleanText = (raw) => {
         selectedAnswer: ans.selectedAnswer,
         correct: isCorrect,
         correctAnswer: q ? q.correctAnswer : null,
-        explanation: sanitizedExp,
-        explanationImage: q ? (q.explanationImage || q.solutionImage || null) : null,
-        solutionImage: q ? (q.solutionImage || q.explanationImage || null) : null,
-        questionImage: q ? (q.questionImage || q.image || null) : null,
+        explanation: q ? q.explanation : null,
+        explanationImage: q ? q.explanationImage : null,
         questionText: q ? q.question : null,
-        options: q ? q.options : null,
+        questionImage: q ? q.questionImage : null,
+        options: q ? q.options : [],
+        optionImages: q ? q.optionImages : [],
         chapter: q ? q.chapter : null,
-        difficulty: q ? q.difficulty : null,
-        solution: sanitizedExp
+        difficulty: q ? q.difficulty : null
       };
     });
 

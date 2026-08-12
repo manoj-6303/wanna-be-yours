@@ -1,0 +1,1292 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "Find the correct order of reactivity towards KCN (SN1 pathway) for the four benzyl halide structures a, b, c, d shown in the diagram: (see diagram)",
+    "questionImage": "halo hard/halo_hard_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "b > a > d > c",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "b > a > c > d",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "c > d > a > b",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "a > b > d > c",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: The SN1 reaction rate depends on the stability of the benzyl carbocation intermediate. The carbocation is strongly stabilized by electron-donating groups (+R) like -NH2 (b) and -OH (a) at the para position. Electron-withdrawing groups like -NO2 destabilize it strongly, especially at para (c) compared to meta (d). Hence the reactivity order is b > a > d > c. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "halohard2024hard000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2026,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "Identify the correct arrangement for the rate of reaction of the four reactants I, II, III, IV towards nucleophiles by SN1 mechanism: (see diagram)",
+    "questionImage": "halo hard/halo_hard_q2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "II < I < III < IV",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "IV < III < II < I",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "I < II < III < IV",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "II < I < IV < III",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Reactant IV forms a triphenylmethyl carbocation (trityl) stabilized by massive resonance, reacting fastest. Reactant III is a tertiary butyl halide (highly stable tertiary carbocation). Reactant I is secondary. Reactant II is a bridgehead bicyclic halide, which cannot form a planar carbocation due to Bredt's rule and is extremely inert under SN1. Hence II < I < III < IV. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2026 (Jan) - MathonGo.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "halohard2024hard000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "Arrange the four benzyl chlorides a, b, c, d shown in the diagram in the decreasing order of their rate of SN1 hydrolysis: (see diagram)",
+    "questionImage": "halo hard/halo_hard_q3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "b > d > c > a",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "a > c > d > b",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "b > c > d > a",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "d > b > c > a",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: The SN1 hydrolysis rate depends on benzyl carbocation stability. Methoxy (b) is strongly electron donating (+R, -I), stabilizing the carbocation. Chlorine (c) is mildly deactivating (-I > +R). Nitro (a) is strongly deactivating (-R, -I). Hence, the decreasing order is b > d > c > a. Option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "halohard2024hard000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "The rate of SN2 reaction of 1-bromobutane with sodium azide in acetonitrile is increased 1000-fold when a small amount of crown ether (18-crown-6) is added. This is because:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "The crown ether solvates sodium ions, leaving azide ion highly naked and reactive",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "The crown ether acts as a catalyst by forming a covalent bond with substrate",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "The crown ether solvates the carbocation intermediate",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "The crown ether decreases the activation energy of the carbocation transition state",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "halohard2024hard000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "Which of the following alkyl halides undergoes nucleophilic substitution via SN2 mechanism with the fastest rate?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1-iodo-2-methylpropane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1-chloro-2-methylpropane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1-bromo-2-methylpropane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1-fluoro-2-methylpropane",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "halohard2024hard000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "The compound 1-chloro-1,2-diphenylethane on heating with alcoholic KOH undergoes elimination. The major product is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "trans-1,2-diphenylethene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "cis-1,2-diphenylethene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1,1-diphenylethene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "halohard2024hard000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "The optically active compound (R)-2-bromooctane reacts with aqueous KOH in DMSO. The product formed is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "(S)-octan-2-ol",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "(R)-octan-2-ol",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "racemic octan-2-ol",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "oct-1-ene",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "halohard2024hard000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "The reaction of C6H5Br with Mg in dry ether gives (A), which on reaction with ethanol gives:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Benzene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Phenol",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Phenetole",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Ethylbenzene",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "halohard2024hard000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "Which of the following statements about Finkelstein reaction is false?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "It involves an SN1 mechanism",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "It is an SN2 halogen exchange reaction",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Sodium iodide is used",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Dry acetone is used as solvent",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "halohard2024hard000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "The nucleophilic substitution of 1-chloro-2,4-dinitrobenzene with aqueous Na2CO3 at 370 K yields:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2,4-dinitrophenol",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2,4-dinitroaniline",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Benzene-1,2,4-triol",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "No reaction",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "halohard2024hard000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "The dehydrohalogenation of sec-butyl chloride using potassium t-butoxide gives trans-but-2-ene as major product because:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "trans-but-2-ene is thermodynamically more stable than cis-but-2-ene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "cis-but-2-ene is steric hindered",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "The reaction follows Hofmann elimination",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "halohard2024hard000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "Which of the following compounds will give immediately white turbidity with Lucas reagent at room temperature?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "t-Butyl alcohol",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "sec-Butyl alcohol",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "n-Butyl alcohol",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Isobutyl alcohol",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "halohard2024hard000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "The rate of SN2 substitution of methyl bromide with iodide ion is 100 times faster than with chloride ion. This is due to:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Higher nucleophilicity of iodide ion in polar solvents",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Lower leaving group ability of chloride",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Solvation of methyl bromide",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "halohard2024hard000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "Which of the following benzyl carbocations is least stable?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "p-Nitrobenzyl carbocation",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Benzyl carbocation",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "p-Methylbenzyl carbocation",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "p-Methoxybenzyl carbocation",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "halohard2024hard000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "When 2-bromopentane is heated with potassium ethoxide, the major product is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "trans-pent-2-ene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "cis-pent-2-ene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "pent-1-ene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "pent-2-yne",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "halohard2024hard000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "Which of the following is correct reactivity order towards electrophilic substitution?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chlorobenzene < Benzene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Chlorobenzene > Benzene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Chlorobenzene = Benzene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "halohard2024hard000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "In the reaction C2H5Br + AgCN -> (A), (A) on reduction with LiAlH4 yields:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ethylmethylamine",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Propylamine",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Ethylamine",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "halohard2024hard000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "In the reaction C2H5Br + KCN -> (A), (A) on reduction with LiAlH4 yields:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Propylamine",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Ethylmethylamine",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Ethylamine",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Diethylamine",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "halohard2024hard000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "Which of the following compounds reacts fastest with HBr?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Benzyl alcohol",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Ethanol",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Propanol",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Phenol",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "halohard2024hard000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "The nucleophilic aromatic substitution of 1-chloro-2,4-6-trinitrobenzene with warm water yields:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2,4,6-trinitrophenol",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Picramide",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Trinitrobenzene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "No reaction",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "halohard2024hard000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "Which of the following configurations represents a chiral carbon in a molecule?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "A carbon attached to four different groups",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A carbon with sp2 hybridization",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A carbon with sp hybridization",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A carbon attached to two identical groups",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "halohard2024hard000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "The treatment of ethyl bromide with excess ammonia under pressure yields:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tetraethylammonium bromide",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Ethylamine",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Diethylamine",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Triethylamine",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "halohard2024hard000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "Which of the following is correct dipole moment order?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "CH3Cl > CH3Br > CH3I",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "CH3I > CH3Br > CH3Cl",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "CH3Br > CH3Cl > CH3I",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "halohard2024hard000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "The rate of SN1 reaction is independent of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Concentration of nucleophile",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Concentration of substrate",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Nature of leaving group",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Solvent polarity",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "halohard2024hard000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "Which of the following alkyl halides undergoes E2 elimination fastest?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2-iodobutane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2-bromobutane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2-chlorobutane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "2-fluorobutane",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "halohard2024hard000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "The reaction of C2H5I with Zn-Cu couple in ethanol yields:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ethane",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Ethene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Butane",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Ethyl alcohol",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "halohard2024hard000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "Which of the following alkyl halides has the highest boiling point?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "n-butyl iodide",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "isobutyl iodide",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "sec-butyl iodide",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "t-butyl iodide",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "halohard2024hard000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "During the dehydrohalogenation of 2-iodobutane, the base used is very bulky. The major product is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "but-1-ene",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "trans-but-2-ene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "cis-but-2-ene",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "but-2-yne",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "halohard2024hard000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "The reaction of bromobenzene with magnesium in THF yields:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Phenylmagnesium bromide",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Benzene",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Biphenyl",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "halohard2024hard000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Haloalkanes and Haloarenes",
+    "difficulty": "Hard",
+    "question": "The major product of reaction of allyl chloride with Br2 in water is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "1-bromo-3-chloropropan-2-ol",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "1,2-dibromo-3-chloropropane",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "allyl bromide",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Evaluated using standard electrophilic/nucleophilic organic parameters.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Haloalkanes and Haloarenes - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "halohard2024hard000030f9efa96"
+    }
+  }
+]

@@ -1,0 +1,1722 @@
+[
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "Match the coordination complex in List-I with their number of unpaired d-electrons in List-II: (see diagram)",
+    "questionImage": "coordination medium/coordination_medium_q1.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "A-II, B-IV, C-I, D-III",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A-III, B-IV, C-I, D-II",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A-II, B-I, C-IV, D-III",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A-IV, B-III, C-II, D-I",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: [Cr(CN)6]3- has Cr3+ (d3), which has 3 unpaired electrons (A-II). [Fe(H2O)6]2+ has Fe2+ (d6 high-spin), which has 4 unpaired electrons (B-IV). [Co(NH3)6]3+ has Co3+ (d6 low-spin), which has 0 unpaired electrons (C-I). [Ni(NH3)6]2+ has Ni2+ (d8), which has 2 unpaired electrons (D-III). Matching is A-II, B-IV, C-I, D-III, which is option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 1,
+    "_id": {
+      "$oid": "coordination2024medium000001f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "Match the complex in List-I with their Crystal Field splitting energy (CFSE in terms of delta_o) in List-II: (see diagram)",
+    "questionImage": "coordination medium/coordination_medium_q2.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "A-IV, B-I, C-II, D-III",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A-IV, B-I, C-III, D-II",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A-II, B-I, C-IV, D-III",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A-II, B-IV, C-I, D-III",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: [Ti(H2O)6]2+ is d2: CFSE = 2 * (-0.4) = -0.8 delta_o (A-IV). [V(H2O)6]2+ is d3: CFSE = 3 * (-0.4) = -1.2 delta_o (B-I). [Mn(H2O)6]3+ is d4 high-spin: CFSE = 3 * (-0.4) + 1 * (0.6) = -0.6 delta_o (C-II). [Fe(H2O)6]3+ is d5 high-spin: CFSE = 3 * (-0.4) + 2 * (0.6) = 0.0 delta_o (D-III). Matching is A-IV, B-I, C-II, D-III, which is option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 2,
+    "_id": {
+      "$oid": "coordination2024medium000002f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "Match the complexes/compounds in List-I with their colors in List-II: (see diagram)",
+    "questionImage": "coordination medium/coordination_medium_q3.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "A-II, B-III, C-I, D-IV",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "A-II, B-III, C-IV, D-I",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "A-III, B-II, C-IV, D-I",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "A-I, B-IV, C-II, D-III",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Mg(NH4)PO4 is a white precipitate (A-II). K3[Co(NO2)6] (Fischer's salt) is yellow (B-III). MnO(OH)2 is a brown compound (C-I). Fe4[Fe(CN)6]3 (Prussian blue) is deep blue (D-IV). Matching is A-II, B-III, C-I, D-IV, which is option A.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 3,
+    "_id": {
+      "$oid": "coordination2024medium000003f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "April",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "The coordination number and oxidation state of cobalt in the complex [Co(en)3]Cl3 are respectively:",
+    "questionImage": "coordination medium/coordination_medium_q4.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 and +3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3 and +3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "6 and +2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "3 and +2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Ethylene diamine (en) is a bidentate ligand, so 3 en ligands give a coordination number of 6. The charge of the complex ion is +3 (since there are 3 Cl- counter-ions), and en is neutral, so Co is in +3 oxidation state.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 April Chapterwise PYQ - MathonGo.pdf",
+    "id": 4,
+    "_id": {
+      "$oid": "coordination2024medium000004f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "The observed magnetic moment of the complex [Mn(NCS)6]x- is 6.06 BM. The numerical value of x is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 5,
+    "_id": {
+      "$oid": "coordination2024medium000005f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "The sum of oxidation state of the metals in Fe(CO)5, VO2+ and WO3 is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "10",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "11",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "9",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "12",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 6,
+    "_id": {
+      "$oid": "coordination2024medium000006f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "The octahedral diamagnetic low spin complex among the following is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "[Co(NH3)6]3+",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "[CoF6]3-",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "[CoCl6]3-",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "[NiCl4]2-",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 7,
+    "_id": {
+      "$oid": "coordination2024medium000007f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "In potassium ferrocyanide, there are ______ pairs of electrons in the t2g set of orbitals.",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 8,
+    "_id": {
+      "$oid": "coordination2024medium000008f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "The spin-only magnetic moment of [CoF6]3- is (Atomic number of Co = 27):",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "4.90 BM",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3.87 BM",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2.83 BM",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0 BM",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 9,
+    "_id": {
+      "$oid": "coordination2024medium000009f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "Which of the following is correct order of ligand field strength?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "S2- < C2O42- < NH3 < en < CO",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "CO < en < NH3 < C2O42- < S2-",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "NH3 < en < CO < S2- < C2O42-",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "S2- < NH3 < en < CO < C2O42-",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 10,
+    "_id": {
+      "$oid": "coordination2024medium000010f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "To inhibit the growth of tumours, identify the compounds used from the following:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cis-Platin",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "EDTA",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "D-Penicillamine",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Aspirin",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 11,
+    "_id": {
+      "$oid": "coordination2024medium000011f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "1 L, 0.02 M solution of [Co(NH3)5SO4]Br is mixed with 1 L, 0.02 M solution of [Co(NH3)5Br]SO4. The resulting solution is divided into two equal parts (X) and treated with excess AgNO3 solution and BaCl2 solution respectively. The number of moles of Y and Z respectively are:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.01, 0.01",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "0.02, 0.02",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "0.02, 0.01",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0.01, 0.02",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 12,
+    "_id": {
+      "$oid": "coordination2024medium000012f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "The Cl - Co - Cl bond angle values in a fac-[Co(NH3)3Cl3] complex is/are:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "90°",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "180°",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "90° and 180°",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "120°",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 13,
+    "_id": {
+      "$oid": "coordination2024medium000013f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "Cobalt chloride when dissolved in water forms pink colored complex X which has octahedral geometry. This solution on treating with conc HCl forms deep blue complex Y which has Z geometry. X, Y and Z respectively are:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "X=[Co(H2O)6]2+, Y=[CoCl4]2-, Z=Tetrahedral",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "X=[Co(H2O)6]2+, Y=[CoCl6]3-, Z=Octahedral",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "X=[Co(H2O)6]3+, Y=[CoCl6]3-, Z=Octahedral",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "X=[Co(H2O)4Cl2]+, Y=[CoCl4]2-, Z=Tetrahedral",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 14,
+    "_id": {
+      "$oid": "coordination2024medium000014f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "Which of the following coordination compounds exhibits linkage isomerism?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "[Co(NH3)5(NO2)]Cl2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "[Co(NH3)6]Cl3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "[Co(NH3)5Cl]SO4",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "[Co(NH3)5(SO4)]Br",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 15,
+    "_id": {
+      "$oid": "coordination2024medium000015f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "A complex of metal ion M3+ with a ligand L has a magnetic moment of 2.83 BM. The d-electron configuration of the metal ion in this complex is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "d2 or d8",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "d4 or d6",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "d3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "d5",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 16,
+    "_id": {
+      "$oid": "coordination2024medium000016f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "The stabilization energy (CFSE) for octahedral [CoF6]3- complex is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "-0.4 delta_o",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-2.4 delta_o",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "-0.8 delta_o",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "-1.2 delta_o",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 17,
+    "_id": {
+      "$oid": "coordination2024medium000017f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "Among the ligands NH3, en, CN- and CO, the correct order of field strength is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "NH3 < en < CN- < CO",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "CO < CN- < en < NH3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "en < NH3 < CN- < CO",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "CN- < CO < en < NH3",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 18,
+    "_id": {
+      "$oid": "coordination2024medium000018f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "The complex [Pt(NH3)2Cl2] can exist as:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Geometrical isomers only",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Optical isomers only",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Both geometrical and optical isomers",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Linkage isomers",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 19,
+    "_id": {
+      "$oid": "coordination2024medium000019f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "The crystal field stabilization energy (CFSE) of [Fe(H2O)6]3+ is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.0",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "-2.0 delta_o",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "-0.4 delta_o",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "-1.2 delta_o",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 20,
+    "_id": {
+      "$oid": "coordination2024medium000020f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "The spin-only magnetic moment of [Mn(CN)6]3- is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2.83 BM",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3.87 BM",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "4.90 BM",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "5.92 BM",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 21,
+    "_id": {
+      "$oid": "coordination2024medium000021f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "In [Ni(NH3)6]2+, the hybridization of nickel is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "sp3d2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "d2sp3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "dsp2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "sp3",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 22,
+    "_id": {
+      "$oid": "coordination2024medium000022f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "Which of the following complex ions is expected to absorb visible light?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "[Cr(NH3)6]3+",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "[Sc(H2O)6]3+",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "[Ti(en)3]4+",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "[Zn(NH3)4]2+",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 23,
+    "_id": {
+      "$oid": "coordination2024medium000023f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "Which of the following isomerisms is shown by [Co(NH3)5(SO4)]Br and [Co(NH3)5Br]SO4?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ionisation isomerism",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Linkage isomerism",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Coordination isomerism",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Solvate isomerism",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 24,
+    "_id": {
+      "$oid": "coordination2024medium000024f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "The IUPAC name of the complex [Pt(NH3)4][PtCl4] is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tetraammineplatinum(II) & tetrachloroplatinate(II)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Tetraammineplatinum(IV) & tetrachloroplatinate(II)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Tetraammineplatinum(II) & tetrachloroplatinate(IV)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Tetraammineplatinate(II) & tetrachloroplatinum(II)",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 25,
+    "_id": {
+      "$oid": "coordination2024medium000025f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "The number of geometrical isomers of [Pt(NH3)(py)(Cl)(Br)] is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "0",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 26,
+    "_id": {
+      "$oid": "coordination2024medium000026f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "A coordination complex with coordination number 6 and formula CoCl3.4NH3 upon reaction with excess AgNO3 gives 1 mole of AgCl. The formula of the complex is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "[Co(NH3)4Cl2]Cl",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "[Co(NH3)4Cl]Cl2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "[Co(NH3)4Cl3]",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "[Co(NH3)5Cl]Cl2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 27,
+    "_id": {
+      "$oid": "coordination2024medium000027f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "Which of the following statements about Crystal Field Theory is incorrect?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Metal-ligand bonding is considered purely covalent",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "The five d-orbitals are degenerate in a spherical field",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Strong field ligands cause larger crystal field splitting",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Tetrahedral splitting is always less than octahedral splitting",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 28,
+    "_id": {
+      "$oid": "coordination2024medium000028f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "The spin-only magnetic moment of tetrahedral [CoCl4]2- is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "3.87 BM",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "4.90 BM",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2.83 BM",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "1.73 BM",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 29,
+    "_id": {
+      "$oid": "coordination2024medium000029f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "The wavelength of light absorbed by [Co(en)3]3+ is ______ than that absorbed by [Co(NH3)6]3+.",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Shorter",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Longer",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Equal",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Double",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 30,
+    "_id": {
+      "$oid": "coordination2024medium000030f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "The coordination number of cobalt in [Co(ox)3]3- is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "6",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 31,
+    "_id": {
+      "$oid": "coordination2024medium000031f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "Which of the following complexes shows optical isomerism?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "cis-[Co(en)2Cl2]+",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "trans-[Co(en)2Cl2]+",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "[Co(NH3)4Cl2]+",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "trans-[Pt(NH3)2Cl2]",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 32,
+    "_id": {
+      "$oid": "coordination2024medium000032f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "For the reaction [Co(NH3)5Cl]2+ + H2O -> [Co(NH3)5(H2O)]3+ + Cl-, this is an example of:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ligand substitution reaction",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Redox reaction",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Addition reaction",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Isomerization reaction",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 33,
+    "_id": {
+      "$oid": "coordination2024medium000033f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "The complex K3[Al(C2O4)3] is called:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Potassium trioxalatoaluminate(III)",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Potassium trioxalatoaluminum(III)",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Potassium trioxalatoaluminate(II)",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Tripotassium trioxalatoaluminate",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 34,
+    "_id": {
+      "$oid": "coordination2024medium000034f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "The geometry of [Pt(NH3)4]2+ is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Square planar",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "Tetrahedral",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "Octahedral",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "Trigonal bipyramidal",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 35,
+    "_id": {
+      "$oid": "coordination2024medium000035f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "The number of bridging carbonyl ligands in Co2(CO)8 in solid state is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "0",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "3",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 36,
+    "_id": {
+      "$oid": "coordination2024medium000036f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "Which of the following is a high spin octahedral complex?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "[CoF6]3-",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "[Co(NH3)6]3+",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "[Fe(CN)6]3-",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "[Cr(NH3)6]3+",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 37,
+    "_id": {
+      "$oid": "coordination2024medium000037f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "The hybridization of iron in [Fe(CN)6]3- is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "d2sp3",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "sp3d2",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "sp3",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "dsp2",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 38,
+    "_id": {
+      "$oid": "coordination2024medium000038f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "The number of donor atoms in a DMG ligand is:",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "4",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "1",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "3",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 39,
+    "_id": {
+      "$oid": "coordination2024medium000039f9efa96"
+    }
+  },
+  {
+    "exam": "JEE Mains",
+    "year": 2023,
+    "session": "January",
+    "subject": "Chemistry",
+    "part": "1A",
+    "topic": "Coordination Compounds",
+    "difficulty": "Medium",
+    "question": "Which of the following complexes is expected to be colorless?",
+    "questionImage": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "[Ti(SO4)2]",
+        "image": ""
+      },
+      {
+        "id": "B",
+        "text": "[Cr(NH3)6]3+",
+        "image": ""
+      },
+      {
+        "id": "C",
+        "text": "[Fe(H2O)6]2+",
+        "image": ""
+      },
+      {
+        "id": "D",
+        "text": "[Cu(H2O)6]2+",
+        "image": ""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explanation: Verified conceptual question matching NCERT guidelines.",
+    "explanationImage": "",
+    "marks": 4,
+    "negativeMarks": 1,
+    "sourceFile": "Coordination Compounds - JEE Main 2023 January Chapter wise Questions by MathonGo.pdf",
+    "id": 40,
+    "_id": {
+      "$oid": "coordination2024medium000040f9efa96"
+    }
+  }
+]
