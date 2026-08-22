@@ -1,0 +1,899 @@
+[
+  {
+    "difficulty": "Medium",
+    "question": "Consider a triangular plot ABC with sides AB = 7 m, BC = 5 m and CA = 6 m. A vertical lamp-post at the mid point D of AC subtends an angle $30^{\\circ}$ at B. The height (in m) of the lamp-post is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{3}{2}\\sqrt{21}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{2}{3}\\sqrt{21}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2\\sqrt{21}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$7\\sqrt{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let the height of the lamp-post is $h$. By Appollonius Theorem, $2\\left(BD^2 + \\left(\\frac{AC}{2}\\right)^2\\right) = BC^2 + AB^2$. So $2(m^2 + 3^2) = 5^2 + 49 \\Rightarrow m = 2\\sqrt{7}$. Now $\\tan 30^{\\circ} = \\frac{h}{BD} \\Rightarrow h = 2\\sqrt{7} \\times \\frac{1}{\\sqrt{3}} = \\frac{2\\sqrt{21}}{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Two poles standing on a horizontal ground are of heights 5m and 10m respectively. The line joining their tops makes an angle of $15^{\\circ}$ with the ground. Then the distance (in m) between the poles, is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$5(2+\\sqrt{3})$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$5(\\sqrt{3}+1)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{5}{2}(2+\\sqrt{3})$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$10(\\sqrt{3}-1)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "By the diagram, $\\tan 15^{\\circ} = \\frac{5}{d} \\Rightarrow d = \\frac{5}{\\tan 15^{\\circ}} = \\frac{5(\\sqrt{3}+1)}{\\sqrt{3}-1} = \\frac{5(4+2\\sqrt{3})}{2} = 5(2+\\sqrt{3})$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the angle of elevation of a cloud from a point P which is 25 m above a lake be $30^{\\circ}$ and the angle of depression of reflection of the cloud in the lake from P be $60^{\\circ}$, then the height of the cloud (in meters) from the surface of the lake is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$60$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$50$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$45$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$42$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let height of the cloud from the surface of the lake be $h$ meters. In $\\triangle PRQ$, $\\tan 30^{\\circ} = \\frac{h-25}{PR} \\Rightarrow PR = (h-25)\\sqrt{3}$ ... (i). In $\\triangle APR$, $\\tan 60^{\\circ} = \\frac{h+25}{PR} \\Rightarrow PR = \\frac{h+25}{\\sqrt{3}}$ ... (ii). From (i) and (ii), $(h-25)\\sqrt{3} = \\frac{h+25}{\\sqrt{3}} \\Rightarrow h = 50\\text{ m}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Two vertical poles of heights, 20 m and 80 m stand apart on a horizontal plane. The height (in meters) of the point of intersection of the lines joining the top of each pole to the foot of the other, from this horizontal plane is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$15$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$18$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$16$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Equations of lines OB and AC are respectively $y = \\frac{80}{x_1}x$ and $\\frac{x}{x_1} + \\frac{y}{20} = 1$. Equations (i) and (ii) intersect each other, substituting the value of $x$ from equation (i) to equation (ii), we get $\\frac{y}{80} + \\frac{y}{20} = 1 \\Rightarrow y + 4y = 80 \\Rightarrow y = 16\\text{ m}$. Hence, height of intersection point is 16 m.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "A 2 m ladder leans against a vertical wall. If the top of the ladder begins to slide down the wall at the rate 25 cm/sec., then the rate (in cm/sec.) at which the bottom of the ladder slides away from the wall on the horizontal ground when the top of the ladder is 1 m above the ground is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$25\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{25}{\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{25}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$25$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "According to the question, $\\frac{dy}{dt} = -25\\text{ at }y=1$. By Pythagoras theorem, $x^2 + y^2 = 4$. When $y=1 \\Rightarrow x = \\sqrt{3}$. Diff. equation w.r.t. $t$, $2x\\frac{dx}{dt} + 2y\\frac{dy}{dt} = 0 \\Rightarrow x\\frac{dx}{dt} + y\\frac{dy}{dt} = 0 \\Rightarrow \\sqrt{3}\\frac{dx}{dt} + (-25) = 0 \\Rightarrow \\frac{dx}{dt} = \\frac{25}{\\sqrt{3}}\\text{ cm/s}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The angle of elevation of the top of a vertical tower standing on a horizontal plane is observed to be $45^{\\circ}$ from a point A on the plane. Let B be the point 30 m vertically above the point A. If the angle of elevation of the top of the tower from B be $30^{\\circ}$, then the distance (in m) of the foot of the tower from the point A is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$15(3+\\sqrt{3})$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$15(5-\\sqrt{3})$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$15(3-\\sqrt{3})$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$15(1+\\sqrt{3})$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let the height of the tower be $h$ and distance of the foot of the tower from the point A is $d$. By the diagram, $\\tan 45^{\\circ} = \\frac{h}{d} = 1 \\Rightarrow h = d$ ... (i). $\\tan 30^{\\circ} = \\frac{h-30}{d} \\Rightarrow \\sqrt{3}(h-30) = d$ ... (ii). Put the value of $h$ from (i) to (ii), $\\sqrt{3}d = d + 30\\sqrt{3} \\Rightarrow d = \\frac{30\\sqrt{3}}{\\sqrt{3}-1} = 15\\sqrt{3}(\\sqrt{3}+1) = 15(3+\\sqrt{3})$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Consider a triangular plot $ABC$ with sides $AB = 7\\text{ m}$, $BC = 5\\text{ m}$ and $CA = 6\\text{ m}$. A vertical lamp-post at the mid point $D$ of $AC$ subtends an angle $30^\\circ$ at $B$. The height (in m) of the lamp-post is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{3}{2}\\sqrt{21}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{2}{3}\\sqrt{21}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2\\sqrt{21}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$7\\sqrt{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let the height of the lamp-post be $h$. By Apollonius Theorem, $2 \\left( BD^2 + \\left(\\frac{AC}{2}\\right)^2 \\right) = BC^2 + AB^2$. Therefore, $2(m^2 + 3^2) = 25 + 49 \\implies m = 2\\sqrt{7}$. Also, $\\tan 30^\\circ = \\frac{h}{BD} \\implies h = 2\\sqrt{7} \\times \\frac{1}{\\sqrt{3}} = \\frac{2\\sqrt{21}}{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the angle of elevation of a cloud from a point $P$ which is $25\\text{ m}$ above a lake be $30^\\circ$ and the angle of depression of reflection of the cloud in the lake from $P$ be $60^\\circ$, then the height of the cloud (in meters) from the surface of the lake is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$60$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$50$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$45$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$42$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let height of the cloud from the surface of the lake be $h$ meters. In $\\triangle PRQ$: $\\tan 30^\\circ = \\frac{h - 25}{PR} \\implies PR = (h - 25)\\sqrt{3}$. In $\\triangle PRS$: $\\tan 60^\\circ = \\frac{h + 25}{PR} \\implies PR = \\frac{h + 25}{\\sqrt{3}}$. Equating both expressions for $PR$, we get $(h - 25)\\sqrt{3} = \\frac{h + 25}{\\sqrt{3}} \\implies h = 50\\text{ m}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Two vertical poles of heights, $20\\text{ m}$ and $80\\text{ m}$ stand apart on a horizontal plane. The height (in meters) of the point of intersection of the lines joining the top of each pole to the foot of the other, from this horizontal plane is :",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$15$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$18$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$16$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Equations of lines $OB$ and $AC$ are respectively $y = \\frac{80}{x_1}x$ and $\\frac{x}{x_1} + \\frac{y}{20} = 1$. Solving these equations simultaneously, we get $\\frac{y}{80} + \\frac{y}{20} = 1 \\implies y + 4y = 80 \\implies y = 16\\text{ m}$. Hence, height of intersection point is $16\\text{ m}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Two poles standing on a horizontal ground are of heights $5\\text{ m}$ and $10\\text{ m}$ respectively. The line joining their tops makes an angle of $15^\\circ$ with the ground. Then the distance (in m) between the poles, is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$5(2 + \\sqrt{3})$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$5(\\sqrt{3} + 1)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{5}{2}(2 + \\sqrt{3})$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$10(\\sqrt{3} - 1)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "By the diagram, $\\tan 15^\\circ = \\frac{5}{d} \\implies d = \\frac{5}{\\tan 15^\\circ} = \\frac{5(\\sqrt{3} + 1)}{\\sqrt{3} - 1} = \\frac{5(4 + 2\\sqrt{3})}{2} = 5(2 + \\sqrt{3})$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "A $2\\text{ m}$ ladder leans against a vertical wall. If the top of the ladder begins to slide down the wall at the rate $25\\text{ cm/sec.}$, then the rate (in cm/sec.) at which the bottom of the ladder slides away from the wall on the horizontal ground when the top of the ladder is $1\\text{ m}$ above the ground is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$25\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{25}{\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{25}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$25$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "According to the question, $\\frac{dy}{dt} = -25$ at $y = 1$. By Pythagoras theorem, $x^2 + y^2 = 4$. When $y = 1 \\implies x = \\sqrt{3}$. Differentiating w.r.t. $t$, $2x \\frac{dx}{dt} + 2y \\frac{dy}{dt} = 0 \\implies x \\frac{dx}{dt} + y \\frac{dy}{dt} = 0 \\implies \\sqrt{3}\\frac{dx}{dt} + (-25) = 0 \\implies \\frac{dx}{dt} = \\frac{25}{\\sqrt{3}}\\text{ cm/s}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The angle of elevation of the top of a vertical tower standing on a horizontal plane is observed to be $45^\\circ$ from a point A on the plane. Let B be the point $30\\text{ m}$ vertically above the point A. If the angle of elevation of the top of the tower from B be $30^\\circ$, then the distance (in m) of the foot of the tower from the point A is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$15(3 + \\sqrt{3})$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$15(5 - \\sqrt{3})$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$15(3 - \\sqrt{3})$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$15(1 + \\sqrt{3})$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let height of the tower be $h$ and distance of the foot of the tower from point A be $d$. From the diagram, $\\tan 45^\\circ = \\frac{h}{d} = 1 \\implies h = d$ ...(i). Also, $\\tan 30^\\circ = \\frac{h - 30}{d} \\implies \\sqrt{3}(h - 30) = d$ ...(ii). Substituting $h = d$ into (ii), $\\sqrt{3}d = d + 30\\sqrt{3} \\implies d = \\frac{30\\sqrt{3}}{\\sqrt{3} - 1} = 15\\sqrt{3}(\\sqrt{3} + 1) = 15(3 + \\sqrt{3})$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Two vertical poles are $150\\text{ m}$ apart and the height of one is three times that of the other. If from the middle point of the line joining their feet, an observer finds the angles of elevation of their tops to be complementary, then the height of the shorter pole (in meters) is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$25$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$20\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$30$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$25\\sqrt{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$\\tan\\theta = \\frac{h}{75} = \\frac{75}{3\\hbar} \\Rightarrow h^2 = \\frac{75^2}{3} \\Rightarrow h = 25\\sqrt{3}\\text{ m}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The angle of elevation of a jet plane from a point $A$ on the ground is $60^\\circ$. After a flight of $20\\text{ seconds}$ at the speed of $432\\text{ km/hour}$, the angle of elevation changes to $30^\\circ$. If the jet plane is flying at a constant height, then its height is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1200\\sqrt{3}\\text{ m}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1800\\sqrt{3}\\text{ m}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3600\\sqrt{3}\\text{ m}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2400\\sqrt{3}\\text{ m}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$v = 432 \\times \\frac{1000}{60\\times 60}\\text{ m/sec} = 120\\text{ m/sec}$\nDistance $AB = v \\times 20 = 2400\\text{ meter}$\nIn $\\triangle PAC$, $\\tan 60^\\circ = \\frac{h}{PC} \\Rightarrow PC = \\frac{h}{\\sqrt{3}}$\nIn $\\triangle PBD$, $\\tan 30^\\circ = \\frac{h}{PD} \\Rightarrow PD = \\sqrt{3}h$\n$PD = PC + CD$\n$\\sqrt{3}h = \\frac{h}{\\sqrt{3}} + 2400 \\Rightarrow \\frac{2h}{\\sqrt{3}} = 2400$\n$h = 1200\\sqrt{3}\\text{ meter}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "A pole stands vertically inside a triangular park $ABC$. Let the angle of elevation of the top of the pole from each corner of the park be $\\frac{\\pi}{3}$. If the radius of the circumcircle of $\\Delta ABC$ is $2$, then the height of the pole is equal to:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{2\\sqrt{3}}{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{\\sqrt{3}}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let $PD = h$, $R = 2$. As angle of elevation of top of pole from $A, B, C$ are equal, so $D$ must be circumcentre of $\\Delta ABC$. $\\tan\\left(\\frac{\\pi}{3}\\right) = \\frac{PD}{R} = \\frac{h}{R}$. $h = R \\tan\\left(\\frac{\\pi}{3}\\right) = 2\\sqrt{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "A vertical pole fixed to the horizontal ground is divided in the ratio $3 : 7$ by a mark on it with lower part shorter than the upper part. If the two parts subtend equal angles at a point on the ground $18\\text{ m}$ away from the base of the pole, then the height of the pole (in meters) is :",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$12\\sqrt{15}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$12\\sqrt{10}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$8\\sqrt{10}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$6\\sqrt{10}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let height of pole $= 10\\ell$\n$\\tan \\alpha = \\frac{3\\ell}{18} = \\frac{\\ell}{6}$\n$\\tan 2\\alpha = \\frac{10\\ell}{18}$\n$\\frac{2\\tan\\alpha}{1-\\tan^2\\alpha} = \\frac{10\\ell}{18}$\nuse $\\tan \\alpha = \\frac{\\ell}{6} \\implies \\ell = \\sqrt{\\frac{72}{5}}$\nheight of pole $= 10\\ell = 12\\sqrt{10}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $AB$ and $PQ$ be two vertical poles, $160\\text{ m}$ apart from each other. Let $C$ be the middle point of $B$ and $Q$, which are feet of these two poles. Let $\\frac{\\pi}{8}$ and $\\theta$ be the angles of elevation from $C$ to $P$ and $A$, respectively. If the height of pole $PQ$ is twice the height of pole $AB$, then $\\tan^2 \\theta$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{3-2\\sqrt{2}}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{3+\\sqrt{2}}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{3-2\\sqrt{2}}{4}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{3-\\sqrt{2}}{4}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let $BC = CQ = x$ & $AB = h$ and $PQ = 2h$. We have $\\tan \\theta = \\frac{h}{x}$, $\\tan \\frac{\\pi}{8} = \\frac{2h}{x}$. Then $\\frac{\\tan \\theta}{\\tan \\left(\\frac{\\pi}{8}\\right)} = \\frac{1}{2}$, so $\\tan \\theta = \\frac{1}{2} \\tan \\left(\\frac{\\pi}{8}\\right) = \\frac{1}{2}(\\sqrt{2}-1)$. Thus, $\\tan^2 \\theta = \\frac{1}{4}(3-2\\sqrt{2})$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "From the base of a pole of height $20\\text{ meter}$, the angle of elevation of the top of a tower is $60^\\circ$. The pole subtends an angle $30^\\circ$ at the top of the tower. Then the height of the tower is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$15\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$20\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$20+10\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$30$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let height of tower be $h$. From the diagram, $\\frac{PT}{AB} = \\frac{1}{\\sqrt{3}}$, so $\\frac{AB}{h-20} = \\sqrt{3} \\implies h = 3(h-20) \\implies h = 30$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "From the top $A$ of a vertical wall $AB$ of height $30\\text{ m}$, the angles of depression of the top $P$ and bottom $Q$ of a vertical tower $PQ$ are $15^{\\circ}$ and $60^{\\circ}$ respectively, $B$ and $Q$ are on the same horizontal level. If $C$ is a point on $AB$ such that $CB = PQ$, then the area (in $\\text{m}^2$) of the quadrilateral $BCPQ$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$300(\\sqrt{3}-1)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$300(\\sqrt{3}+1)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$600(\\sqrt{3}-1)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$200(\\sqrt{3}-1)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "From the diagram, $\\tan 60^{\\circ} = \\frac{AB}{BQ} \\Rightarrow \\frac{30}{x} = \\sqrt{3} \\Rightarrow x = 10\\sqrt{3}\\text{ m}$. Also, $\\tan 15^{\\circ} = \\frac{AC}{CP} \\Rightarrow \\frac{30-h}{x} = 2-\\sqrt{3} \\Rightarrow 30-h = 10\\sqrt{3}(2-\\sqrt{3}) \\Rightarrow 30-h = 20\\sqrt{3}-30 \\Rightarrow h = 60-20\\sqrt{3}$. Now area of the quadrilateral $BCPQ$ is $BC \\times BQ = hx = (60-20\\sqrt{3})10\\sqrt{3} = 200\\sqrt{3}(3-\\sqrt{3}) = 600(\\sqrt{3}-1)\\text{ m}^2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The angle of elevation of the top $P$ of a tower from the feet of one person standing due south of the tower is $45^{\\circ}$ and from the feet of another person standing due west of the tower is $30^{\\circ}$. If the height of the tower is $5$ meters, then the distance (in meters) between the two persons is equal to",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{5}{2}\\sqrt{5}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$10$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$5\\sqrt{5}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let the distance of $A, B$ from the tower be $x_1, x_2$. $\\tan 45^{\\circ} = \\frac{5}{x_1}$, $\\tan 30^{\\circ} = \\frac{5}{x_2}$. $\\Rightarrow x_1 = 5$, $x_2 = 5\\sqrt{3}$. $\\Rightarrow AB = \\sqrt{{x_1}^2 + {x_2}^2} = \\sqrt{(5)^2 + (5\\sqrt{3})^2} = 10\\text{ m}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "A tower PQ stands on a horizontal ground with base Q on the ground. The point R divides the tower in two parts such that $QR = 15\\text{ m}$. If from a point A on the ground the angle of elevation of R is $60^\\circ$ and the part PR of the tower subtends an angle of $15^\\circ$ at A, then the height of the tower is :",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$5(2\\sqrt{3} + 3)\\text{ m}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$5(\\sqrt{3} + 3)\\text{ m}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$10(\\sqrt{3} + 1)\\text{ m}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$10(2\\sqrt{3} + 1)\\text{ m}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "From the given figure in the solution, in right angled triangle AQR: $\\frac{15}{AQ} = \\tan 60^\\circ \\dots (1)$\nIn right angled triangle AQP: $\\frac{15 + x}{AQ} = \\tan 75^\\circ \\dots (2)$\nDividing (1) by (2) gives $x = 10\\sqrt{3}$.\nSo, $PQ = 15 + 10\\sqrt{3} = 5(2\\sqrt{3} + 3)\\text{ m}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "A horizontal park is in the shape of a triangle OAB with $AB = 16$. A vertical lamp post OP is erected at the point O such that $\\angle PAO = \\angle PBO = 15^\\circ$ and $\\angle PCO = 45^\\circ$, where C is the midpoint of AB. Then $(OP)^2$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{32}{\\sqrt{3}}(\\sqrt{3}-1)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{32}{\\sqrt{3}}(2-\\sqrt{3})$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{16}{\\sqrt{3}}(\\sqrt{3}-1)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{16}{\\sqrt{3}}(2-\\sqrt{3})$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let $OP = h$. Since $\\angle PAO = \\angle PBO = 15^\\circ$, $AO = BO = h \\cot 15^\\circ$. Using the properties of triangle OAB with C as the midpoint and $\\angle PCO = 45^\\circ$, we can solve for $(OP)^2$ to get $\\frac{32}{\\sqrt{3}}(2-\\sqrt{3})$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "A vertical pole $AB$ is divided at $C$ such that $BC = 2h$ and $AC = h$. If the two parts subtend equal angles $\\alpha$ at a point $P$ on the ground at a distance $d = \\sqrt{7}h$ from the foot of the pole, then find $\\tan \\alpha$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\sqrt{7} - 2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2 - \\sqrt{7}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\sqrt{7} + 2",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "7 - \\sqrt{2}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "From the given conditions, we have $d = \\sqrt{7}h$. Using the properties of triangles, $\\tan 2\\alpha = \\frac{3h}{x}$ and $\\tan \\alpha = \\frac{h}{x}$. Solving these equations yields $\\tan \\alpha = \\sqrt{7} - 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "difficulty": "Easy",
+    "question": "The value of $\\sin 10^\\circ \\sin 30^\\circ \\sin 50^\\circ \\sin 70^\\circ$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{16}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{32}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{18}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{36}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "We know $\\sin(60^\\circ + A)\\sin(60^\\circ - A)\\sin A = \\frac{1}{4}\\sin 3A$. $\\therefore \\sin 10^\\circ \\sin 50^\\circ \\sin 70^\\circ = \\sin 10^\\circ \\sin(60^\\circ - 10^\\circ) \\sin(60^\\circ + 10^\\circ) = \\frac{1}{4}\\sin 30^\\circ$. $\\Rightarrow \\sin 10^\\circ \\sin 30^\\circ \\sin 50^\\circ \\sin 70^\\circ = \\frac{1}{4}\\sin^2 30^\\circ = \\frac{1}{16}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The value of $\\sin 10^\\circ \\sin 30^\\circ \\sin 50^\\circ \\sin 70^\\circ$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{16}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{32}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{18}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{36}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using $\\sin(60^\\circ + A)\\sin(60^\\circ - A)\\sin A = \\frac{1}{4}\\sin 3A$, we get $\\sin 10^\\circ \\sin 50^\\circ \\sin 70^\\circ = \\sin 10^\\circ \\sin(60^\\circ - 10^\\circ)\\sin(60^\\circ + 10^\\circ) = \\frac{1}{4}\\sin 30^\\circ$. Thus $\\sin 10^\\circ \\sin 30^\\circ \\sin 50^\\circ \\sin 70^\\circ = \\frac{1}{4}\\sin^2 30^\\circ = \\frac{1}{16}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The value of $\\csc 10^\\circ - \\sqrt{3}\\sec 10^\\circ$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$\\csc 10^\\circ - \\sqrt{3}\\sec 10^\\circ = \\frac{\\cos 10^\\circ - \\sqrt{3}\\sin 10^\\circ}{\\sin 10^\\circ \\cos 10^\\circ}$ \n Numerator: $\\cos 10^\\circ - \\sqrt{3}\\sin 10^\\circ = 2\\left(\\frac{1}{2}\\cos 10^\\circ - \\frac{\\sqrt{3}}{2}\\sin 10^\\circ\\right) = 2\\cos 70^\\circ = 2\\sin 20^\\circ$. \n Denominator: $\\sin 10^\\circ \\cos 10^\\circ = \\frac{1}{2}\\sin 20^\\circ$. \n $\\text{Result} = \\frac{2\\sin 20^\\circ}{\\frac{1}{2}\\sin 20^\\circ} = 4$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

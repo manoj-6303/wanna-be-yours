@@ -9,13 +9,19 @@ export const protect = async (req, res, next) => {
       token = req.headers.authorization.split(' ')[1];
       const decoded = jwt.verify(token, process.env.JWT_SECRET || 'lakshya_secret_key');
       
-      const user = await User.findById(decoded.id).select('-password');
-      if (!user) {
-        return res.status(401).json({ message: 'Not authorized, user not found' });
+      try {
+        const user = await User.findById(decoded.id).select('-password');
+        if (!user) {
+          return res.status(401).json({ message: 'Not authorized, user not found' });
+        }
+        req.user = user;
+        return next();
+      } catch (dbError) {
+        console.error('Database Error in Auth Middleware:', dbError);
+        return res.status(500).json({ message: 'Server error while fetching user profile' });
       }
-      req.user = user;
-      return next();
     } catch (error) {
+      console.error('JWT Verification Failed:', error);
       return res.status(401).json({ message: 'Not authorized, token failed' });
     }
   }

@@ -1,0 +1,1 @@
+const mongoose = require('mongoose'); mongoose.connect('mongodb://localhost:27017/exampro').then(async () => { const q = await mongoose.connection.db.collection('questions').findOne({ question: { $regex: 'Tangent to' } }); if (q) { console.log('Question: ', q.question); console.log('Explanation: ', q.explanation); } else { console.log('Not found'); } mongoose.disconnect(); });

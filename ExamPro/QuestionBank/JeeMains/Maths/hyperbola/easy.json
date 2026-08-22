@@ -1,0 +1,80 @@
+[
+  {
+    "difficulty": "Easy",
+    "question": "The equation of a tangent to the hyperbola $4x^2 - 5y^2 = 20$ parallel to the line $x - y = 2$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x - y + 1 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x - y + 7 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x - y + 9 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x - y - 3 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Equation of line $x - y = 2 \\Rightarrow y = x - 2$, slope $m = 1$. Hyperbola is $\\frac{x^2}{5} - \\frac{y^2}{4} = 1$, so $a^2 = 5, b^2 = 4$. Equation of tangent is $y = mx \\pm \\sqrt{a^2m^2 - b^2} = x \\pm \\sqrt{5(1) - 4} = x \\pm 1 \\Rightarrow x - y \\pm 1 = 0$. Thus, $x - y + 1 = 0$ is a valid option.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Let the foci of a hyperbola coincide with the foci of the ellipse $\\frac{x^2}{36} + \\frac{y^2}{16} = 1$. If the eccentricity of the hyperbola is $5$, then the length of its latus rectum is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$24\\sqrt{5}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{96}{\\sqrt{5}}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "For ellipse $\\frac{x^2}{36} + \\frac{y^2}{16} = 1$: $A = 6, B = 4, C = \\sqrt{36 - 16} = 2\\sqrt{5}$.\nFoci of ellipse: $(\\pm 2\\sqrt{5}, 0)$.\nFor hyperbola with eccentricity $e = 5$ and foci at $(\\pm 2\\sqrt{5}, 0)$:\n$e = \\frac{c}{a} \\Rightarrow 5 = \\frac{2\\sqrt{5}}{a} \\Rightarrow a = \\frac{2\\sqrt{5}}{5}$.\n$c^2 = a^2 + b^2 \\Rightarrow 20 = \\frac{4}{5} + B^2 \\Rightarrow B^2 = \\frac{96}{5}$.\nLatus rectum $= \\frac{2B^2}{a} = \\frac{2 \\cdot \\frac{96}{5}}{\\frac{2\\sqrt{5}}{5}} = \\frac{96}{\\sqrt{5}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

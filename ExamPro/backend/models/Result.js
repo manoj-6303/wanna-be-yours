@@ -16,14 +16,16 @@ const resultSchema = new mongoose.Schema({
     selectedAnswer: { type: String },
     correct: { type: Boolean },
     questionText: { type: String },
-    questionImage: { type: String, default: null },
-    options: [{ type: String }],
-    optionImages: [{ type: String }],
     correctAnswer: { type: String },
     explanation: { type: String },
-    explanationImage: { type: String, default: null },
     chapter: { type: String },
-    difficulty: { type: String }
+    options: [{ type: mongoose.Schema.Types.Mixed }],
+    image: { type: String },
+    questionImage: { type: String },
+    explanationImage: { type: String },
+    solutionImage: { type: String },
+    difficulty: { type: String },
+    solution: { type: String }
   }],
   createdAt: { type: Date, default: Date.now }
 });

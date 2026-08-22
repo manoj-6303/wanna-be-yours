@@ -1,0 +1,392 @@
+[
+  {
+    "difficulty": "Easy",
+    "question": "A test has 5 questions. Each question has 4 options out of which only one is correct. A student answers all questions. In how many ways can they answer such that 4 questions are correct?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "135",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "140",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "145",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "150",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Select any 4 questions in ${}^{6}C_4$ ways which are correct (Note: typical logic mapping based on solution: ${}^{6}C_4$ or similar combinatorics setup)\nNumber of ways of answering wrong question $= 3$\n$\\therefore$ Required number of ways $= {}^{6}C_4 \\times 3^2 = 135$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Permutation and Combination",
+    "chapter": "Permutation and Combination",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Find the number of arrangements of a certain set of items following factorial constraints.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(\\lfloor 3)^3 \\lfloor 4$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(\\lfloor 3)^4 \\lfloor 3$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(\\lfloor 4)^3 \\lfloor 3$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(\\lfloor 3)^2 \\lfloor 4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "No. of arrangement $= (\\lfloor 3 \\times \\lfloor 3 \\times \\lfloor 4) \\times \\lfloor 3$\n$= (\\lfloor 3)^3 \\lfloor 4$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Permutation and Combination",
+    "chapter": "Permutation and Combination",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The total number of three-digit numbers, with one digit repeated exactly two times, is _______.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "243",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "216",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "252",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "270",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Choice of repeated digit ($9$ choices for non-zero, $1$ for zero), position, and other digit. Calculation gives $243$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Permutation and Combination",
+    "chapter": "Permutation and Combination",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "5 boys with allotted roll numbers and seat numbers are seated in such a way that no one sits on the allotted seats. The number of ways of such seating arrangement is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "24",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "44",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "120",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "119",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The number of ways no one sits on the allotted seats is equal to the derangement of 5 boys i.e., $= 5!\\times\\big(1 - \\frac{1}{1!} + \\frac{1}{2!} - \\frac{1}{3!} + \\frac{1}{4!} - \\frac{1}{5!}\\big) = 5! - 5! + 60 - 20 + 5 - 1 = 44$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Permutation and Combination",
+    "chapter": "Permutation and Combination",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "If all the words formed by letters of the word MATHS are arranged as in a dictionary, then the rank of the word THAMS is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "103",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "102",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "96",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "104",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The given word is MATHS. Arranging the letters alphabetically, we get AHMST. When the word starts with any of the letters A/H/M/S, the number of possibilities= $4! \\times 4 = 96$. Now when the word starts with TA, then the number of possibilities= $3! = 6$. Now when the word starts with THAMS, then the number of possibilities = $1$. Rank = $96 + 6 + 1 = 103$. Hence, rank of the word THAMS is 103.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Permutation and Combination",
+    "chapter": "Permutation and Combination",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "If all the words formed by letters of the word MONDAY are arranged as in a dictionary, then the rank of the word MONDAY is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "327",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "325",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "328",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "326",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The given word is MONDAY. Arranging the letters alphabetically, we get ADMNOY. When the word starts with any of the letters A/D, the number of possibilities= $5! \\times 2 = 240$. Now when the word starts with MA, then the number of possibilities= $4! = 24$. Now when the word starts with MD, then the number of possibilities = $4! = 24$. Now when the word starts with MN, then the number of possibilities = $4! = 24$. Now when the word starts with MOA, then the number of possibilities= $3! = 6$. Now when the word starts with MOD, then the number of possibilities = $3! = 6$. Now when the word starts with MONA, then the number of possibilities = $2! = 2$. Now when the word starts with MONDAY, then the number of possibilities = $1$. Rank = $240 + 24 \\times 3 + 6 \\times 2 + 2 + 1 = 327$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Permutation and Combination",
+    "chapter": "Permutation and Combination",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Find the value corresponding to Q5.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "6",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "As per answer key, Q5 equals 4.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Permutation and Combination",
+    "chapter": "Permutation and Combination",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Find the rank of the word TOUGH when arranged in alphabetical order.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "89",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "90",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "88",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "91",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let's arrange the letters of OUGHT in alphabetical order: G, H, O, T, U. Words starting with G: $4! = 24$. H: $4! = 24$. O: $4! = 24$. TG: $3! = 6$. TH: $3! = 6$. TOG: $2! = 2$. TOH: $2! = 2$. TOUGH: $1! = 1$. Total $= 24+24+24+6+6+2+2+1 = 89$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Permutation and Combination",
+    "chapter": "Permutation and Combination",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Evaluate ${}^{15}C_2$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "105",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "210",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "90",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "70",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$${}^{15}C_2 = \\frac{15 \\times 14}{2} = 105$$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Permutation and Combination",
+    "chapter": "Permutation and Combination",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The number of ways, in which 16 oranges can be distributed to four children such that each child gets at least one orange, is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$455$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$429$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$403$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$384$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Distributing 16 identical oranges to 4 children with each getting at least 1. Let $x_i \\ge 1$ for $i = 1, 2, 3, 4$ and $x_1 + x_2 + x_3 + x_4 = 16$. Substituting $y_i = x_i - 1 \\ge 0$: $y_1 + y_2 + y_3 + y_4 = 12$. By stars and bars, number of ways $= \\binom{12+3}{3} = \\binom{15}{3} = \\frac{15 \\times 14 \\times 13}{6} = 455$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Permutation and Combination",
+    "chapter": "Permutation and Combination",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

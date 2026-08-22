@@ -1,0 +1,2537 @@
+[
+  {
+    "difficulty": "Hard",
+    "question": "Solution set of $3^x(3^x - 1) + 2 = |3^x - 1| + |3^x - 2|$ contains",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "singleton set",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "two elements",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "at least four elements",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "infinite elements",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let $3^x = t$\\\n$t(t-1) + 2 = |t-1| + |t-2|$\\\n$t^2 - t + 2 = |t-1| + |t-2|$\\\n$t = a$\\\n$3^x = a$\\\n$x = \\log_3 a$, so singleton set.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Find number of real roots of equation $e^{4x} + e^{3x} - 4e^{2x} + e^x + 1 = 0$ is\\\nसमीकरण $e^{4x} + e^{3x} - 4e^{2x} + e^x + 1 = 0$ के वास्तविक हलों की संख्या है-",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let $e^x = t \\in (0, \\infty)$给定 समीकरण\\\n$t^4 + t^3 - 4t^2 + t + 1 = 0$\\\n$t^2 + t - 4 + \\frac{1}{t} + \\frac{1}{t^2} = 0$\\\n$\\left(t^2 + \\frac{1}{t^2}\\right) + \\left(t + \\frac{1}{t}\\right) - 4 = 0$\\\nLet $t + \\frac{1}{t} = \\alpha$\\\n$(\\alpha^2 - 2) + \\alpha - 4 = 0$\\\n$\\alpha^2 + \\alpha - 6 = 0$\\\n$\\alpha = -3, 2 \\implies \\alpha = 2 \\implies e^x + e^{-x} = 2$\\\n$x = 0$ only solution.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If one real root of the quadratic equation $81x^2 + kx + 256 = 0$ is cube of the other root, then a value of $k$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-81$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$100$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$144$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-300$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let roots be $\\alpha$ and $\\beta = \\alpha^3$. Product of roots $= \\frac{256}{81} \\Rightarrow \\alpha^4 = \\frac{256}{81} \\Rightarrow \\alpha = \\frac{4}{3}, \\beta = \\frac{64}{27}$. Sum of roots $= -\\frac{k}{81} \\Rightarrow \\alpha + \\beta = -\\frac{k}{81} \\Rightarrow k = -300$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\lambda$ be the ratio of the roots of the quadratic equation in $x$, $3m^2x^2 + m(m-4)x + 2 = 0$, then the least value of $m$ for which $\\lambda + \\frac{1}{\\lambda} = 1$, is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2 - \\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4 - 3\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-2 + \\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4 - 2\\sqrt{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given $\\lambda = \\frac{\\alpha}{\\beta}$ and $\\lambda + \\frac{1}{\\lambda} = 1 \\Rightarrow \\frac{(\\alpha+\\beta)^2 - 2\\alpha\\beta}{\\alpha\\beta} = 1$. Substituting $\\alpha+\\beta$ and $\\alpha\\beta$ from the quadratic equation $3m^2x^2 + m(m-4)x + 2 = 0$, we get $(m-4)^2 = 18 \\Rightarrow m = 4 \\pm \\sqrt{18} = 4 - 3\\sqrt{2}$ for the least value.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Q14: If $\\alpha$ and $\\beta$ are the roots of the equation $x^2 - \\sqrt{2}x + 1 = 0$, then the value of $|\\alpha^3 - \\beta^3|$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2\\sqrt{5}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$8\\sqrt{5}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$5\\sqrt{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sum of roots $= \\frac{3}{m^2+1}$ (Note: correlated from the upper right region context for corresponding problem). Sum of roots is greatest $\\therefore m=0$. Hence equation becomes $x^2-3x+1=0$. Now, $\\alpha+\\beta=3, \\alpha\\beta=1 \\Rightarrow |-\\alpha-\\beta|=\\sqrt{5}$. $|\\alpha^3-\\beta^3|=|(\\alpha-\\beta)(\\alpha^2+\\beta^2+\\alpha\\beta)|=\\sqrt{5}(9-1)=8\\sqrt{5}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Q15: Let $\\alpha$ and $\\beta$ be the roots of the equation $x^2 + x \\sin \\theta - 2 \\sin \\theta = 0$, where $\\theta \\in (0, \\pi/2)$. Then the value of $\\frac{\\alpha^{12} + \\beta^{12}}{(\\alpha^{12} + \\beta^{12})(\\alpha - \\beta)^{24}}$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{2^{12}}{(\\sin \\theta + 8)^{12}}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{2^{12}}{(\\sin \\theta - 8)^{12}}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{2^{6}}{(\\sin \\theta + 8)^{6}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{2^{12}}{\\sin^{12}\\theta(\\sin \\theta + 8)^{12}}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given equation is $x^2+x\\sin\\theta-2\\sin\\theta=0$. $\\alpha+\\beta=-\\sin\\theta$ and $\\alpha\\beta=-2\\sin\\theta$. $\\frac{(\\alpha^{12}+\\beta^{12})\\alpha^{12}\\beta^{12}}{(\\alpha^{12}+\\beta^{12})(\\alpha-\\beta)^{24}} = \\frac{(\\alpha\\beta)^{12}}{(\\alpha-\\beta)^{24}}$. $\\therefore |\\alpha-\\beta|=\\sqrt{(\\alpha+\\beta)^2-4\\alpha\\beta} = \\sqrt{\\sin^2\\theta+8\\sin\\theta}$. $\\therefore \\frac{(\\alpha\\beta)^{12}}{(\\alpha-\\beta)^{24}} = \\frac{(2\\sin\\theta)^{12}}{\\sin^{12}\\theta(\\sin\\theta+8)^{12}} = \\frac{2^{12}}{(\\sin\\theta+8)^{12}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If both the roots of the quadratic equation $x^2 - mx + 4 = 0$ are real and distinct and they lie in the interval $[1, 5]$, then $m$ lies in the interval:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(-5, -4)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(4, 5)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(5, 6)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(3, 4)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given quadratic equation is $x^2 - mx + 4 = 0$. Both roots are real and distinct, so $B^2 - 4AC > 0 \\implies m^2 - 16 > 0 \\implies m \\in (-\\infty, -4) \\cup (4, \\infty) \\quad \\text{--- (i)}$. Since both roots lie in $[1, 5]$, $-\\frac{m}{2} \\in (1, 5) \\implies m \\in (2, 10) \\quad \\text{--- (ii)}$. And $1 \\cdot (1 - m + 4) > 0 \\implies m < 5 \\implies m \\in (-\\infty, 5) \\quad \\text{--- (iii)}$. And $1 \\cdot (25 - 5m + 4) > 0 \\implies m < \\frac{29}{5} \\implies m \\in (-\\infty, \\frac{29}{5}) \\quad \\text{--- (iv)}$. From (i), (ii), (iii) and (iv), $m \\in (4, 5)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Consider the quadratic equation $(c - 5)x^2 - 2cx + (c - 4) = 0, c \\neq 5$. Let S be the set of all integral values of c for which one root of the equation lies in the interval $(0, 2)$ and its other root lies in the interval $(2, 3)$. Then the number of elements in S is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$18$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$10$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$11$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Consider the quadratic equation $(c - 5)x^2 - 2cx + (c - 4) = 0$. Let $f(x) = (c-5)x^2 - 2cx + c - 4$. Since one root lies in $(0, 2)$ and the other in $(2, 3)$, we must have $f(0)f(3) > 0$ and $f(2) < 0$. This gives $(c - 4)(4c - 49) > 0$ and $(c - 4)(c - 24) < 0$. Solving these yields $c \\in \\left(\\frac{49}{4}, 24\\right)$. The integral values in this interval are $13, 14, \\dots, 23$. Hence, $S = \\{13, 14, \\dots, 23\\}$, which has $11$ elements.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If one real root of the quadratic equation $81x^2 + kx + 256 = 0$ is cube of the other root, then a value of k is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-81$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$100$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$144$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-300$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let $\\alpha$ and $\\beta$ be the roots of the equation $81x^2 + kx + 256 = 0$. Given $\\alpha = \\beta^3$. Product of roots $\\alpha\\beta = \\frac{256}{81} \\implies (\\beta^3)\\beta = \\frac{256}{81} \\implies \\beta^4 = \\left(\\frac{4}{3}\\right)^4 \\implies \\beta = \\frac{4}{3}$. Thus $\\alpha = \\frac{64}{27}$. Sum of the roots $\\alpha + \\beta = -\\frac{k}{81} \\implies \\frac{4}{3} + \\frac{64}{27} = -\\frac{k}{81} \\implies k = -300$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\lambda$ be the ratio of the roots of the quadratic equation in x, $3m^2x^2 + m(m - 4)x + 2 = 0$, then the least value of m for which $\\lambda + \\frac{1}{\\lambda} = 1$, is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2 - \\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4 - 3\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-2 + \\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4 - 2\\sqrt{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let roots of the quadratic equation be $\\alpha, \\beta$. Given $\\lambda = \\frac{\\alpha}{\\beta}$ and $\\lambda + \\frac{1}{\\lambda} = 1 \\implies \\frac{\\alpha}{\\beta} + \\frac{\\beta}{\\alpha} = 1 \\implies \\frac{(\\alpha+\\beta)^2 - 2\\alpha\\beta}{\\alpha\\beta} = 1 \\quad \\text{--- (1)}$. The quadratic equation is $3m^2x^2 + m(m-4)x + 2 = 0$. $\\alpha + \\beta = -\\frac{m(m-4)}{3m^2} = \\frac{4-m}{3m}$ and $\\alpha\\beta = \\frac{2}{3m^2}$. Put these values in eq (1): $\\frac{\\left(\\frac{4-m}{3m}\\right)^2}{\\frac{2}{3m^2}} = 3 \\implies (m - 4)^2 = 18 \\implies m = 4 \\pm \\sqrt{18}$. Therefore, least value is $4 - \\sqrt{18} = 4 - 3\\sqrt{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\alpha$ and $\\beta$ are the roots of the equation $x^2 + x \\sin \\theta - 2 \\sin \\theta = 0$, where $\\theta \\in (0, \\frac{\\pi}{2})$, then the value of $\\frac{\\alpha^{12} + \\beta^{12}}{(\\alpha^{12} + \\beta^{12})(\\alpha - \\beta)^{24}}$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\frac{2^{12}}{(\\sin \\theta + 8)^{12}}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\frac{2^{12}}{(\\sin \\theta - 8)^{12}}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\frac{1}{(\\sin \\theta + 8)^{12}}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\frac{2^{12}}{(\\sin \\theta + 8)^{6}}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given equation is $x^2 + x \\sin \\theta - 2 \\sin \\theta = 0$. $\\alpha + \\beta = -\\sin \\theta$ and $\\alpha\\beta = -2 \\sin \\theta$. The expression simplifies to $\\frac{(\\alpha^{12}+\\beta^{12})\\alpha^{12}\\beta^{12}}{(\\alpha^{12}+\\beta^{12})(\\alpha-\\beta)^{24}} = \\frac{(\\alpha\\beta)^{12}}{(\\alpha-\\beta)^{24}}$. Also, $|\\alpha-\\beta| = \\sqrt{(\\alpha+\\beta)^2-4\\alpha\\beta} = \\sqrt{\\sin^2\\theta+8\\sin\\theta}$. Thus, $\\frac{(\\alpha\\beta)^{12}}{(\\alpha-\\beta)^{24}} = \\frac{(2\\sin\\theta)^{12}}{\\sin^{12}\\theta(\\sin\\theta+8)^{12}} = \\frac{2^{12}}{(\\sin\\theta+8)^{12}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The number of real solutions of the equation $5 + |2^x - 1| = 2^{x}(2^{x} - 2)$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let $2^x - 1 = t$. Then $5 + |t| = (t+1)(t-1) \\Rightarrow |t| = t^2 - 6$. When $t > 0, t^2 - t - 6 = 0 \\Rightarrow t = 3$ or $-2$. $t = -2$ is rejected. When $t < 0, t^2 + t - 6 = 0 \\Rightarrow t = -3$ or $2$ (both rejected). Therefore, $2^x - 1 = 3 \\Rightarrow 2^x = 4 \\Rightarrow x = 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The numbers of pairs $(a, b)$ of real numbers, such that whenever $\\alpha$ is a root of the equation $x^2 + ax + b = 0, \\alpha^2 - 2$ is also a root of this equation, is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$8$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Consider the equation $x^2 + ax + b = 0$. If it has two roots (not necessarily real $\\alpha & \\beta$), either $\\alpha = \\beta$ or $\\alpha \\neq \\beta$. Case(1) If $\\alpha = \\beta$, then it is a repeated root. Given that $\\alpha^2 - 2$ is also a root. So, $\\alpha = \\alpha^2 - 2 \\Rightarrow (\\alpha + 1)(\\alpha - 2) = 0 \\Rightarrow \\alpha = -1$ or $\\alpha = 2$. When $\\alpha = -1$ then $(a, b) = (2, 1)$, $\\alpha = 2$ then $(a, b) = (-4, 4)$. Case(2) If $\\alpha \\neq \\beta$ Then (I) $\\alpha = \\alpha^2 - 2$ and $\\beta = \\beta^2 - 2$. Here $(\\alpha, \\beta) = (2, -1)$ or $(-1, 2)$. Hence $(a, b) = -(\\alpha + \\beta), \\alpha\\beta = (-1, -2)$. (II) $\\alpha = \\beta^2 - 2$ and $\\beta = \\alpha^2 - 2$. Then $\\alpha - \\beta = \\beta^2 - \\alpha^2 = (\\beta - \\alpha)(\\beta + \\alpha)$. Since $\\alpha \\neq \\beta$ we get $\\alpha + \\beta = \\beta^2 + \\alpha^2 - 4$. $\\alpha + \\beta = (\\alpha + \\beta)^2 - 2\\alpha\\beta - 4$. Thus $-1 = 1 - 2\\alpha\\beta - 4$ which implies $\\alpha\\beta = -1$. Therefore $(a, b) = -(\\alpha + \\beta), \\alpha\\beta = (1, -1)$. (III) $\\alpha = \\alpha^2 - 2 = \\beta^2 - 2$ and $\\alpha \\neq \\beta \\Rightarrow \\alpha = -\\beta$. Thus $\\alpha = 2, \\beta = -2$ or $\\alpha = -1, \\beta = 1$. Therefore $(a, b) = (0, -4)$ & $(0, -1)$. (IV) $\\beta = \\alpha^2 - 2 = \\beta^2 - 2$ and $\\alpha \\neq \\beta$ is same as $(III)$. Therefore we get $6$ pairs of $(a, b)$ which are $(2, 1), (-4, 4), (-1, -2), (1, -1), (0, -4)$. Option (1)",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The number of real roots of the equation $e^{4x} + 2e^{3x} - e^x - 6 = 0$ is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let $e^x = t > 0$. $f(t) = t^4 + 2t^3 - t - 6 = 0$. $f'(t) = 4t^3 + 6t^2 - 1$. $f''(t) = 12t^2 + 12t > 0$. $f(0) = -6, f(1) = -4, f(2) = 24 \\Rightarrow$ Number of real roots $= 1$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $3x^2 + 4x + 3 = a$ and $3x^2 + 4x + 2 = b$, find the range of $k$ for which the equation $(3x^2 + 4x + 3)^2 - (k + 1)(3x^2 + 4x + 3)(3x^2 + 4x + 2) + k(3x^2 + 4x + 2)^2 = 0$ has real roots.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$[1, \\frac{5}{2}]$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "(1, \\frac{5}{2}]",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "[1, \\frac{5}{2})",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "(1, \\frac{5}{2})",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let $3x^2 + 4x + 3 = a$ and $3x^2 + 4x + 2 = b \\Rightarrow b = a - 1$. Given equation becomes $a^2 - (k+1)ab + kb^2 = 0 \\Rightarrow (a - kb)(a - b) = 0 \\Rightarrow a = kb$ or $a = b$ (reject). $\\therefore a = kb \\Rightarrow 3x^2 + 4x + 3 = k(3x^2 + 4x + 2) \\Rightarrow 3(k-1)x^2 + 4(k-1)x + (2k-3) = 0$. For real roots, $D \\ge 0 \\Rightarrow 16(k-1)^2 - 4(3(k-1))(2k-3) \\ge 0 \\Rightarrow (k-1)(2k-5) \\le 0$. Thus $k \\in [1, \\frac{5}{2}]$. Also $k \\neq 1$, so $k \\in (1, \\frac{5}{2}]$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\alpha$ and $\\beta$ are the distinct roots of the equation $x^2 + (3)^{1/4}x + 3^{1/2} = 0$, then the value of $\\alpha^{96}(\\alpha^{12} - 1) + \\beta^{96}(\\beta^{12} - 1)$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$56 \\times 3^{25}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$56 \\times 3^{24}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$52 \\times 3^{24}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$28 \\times 3^{25}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "As, $(\\alpha^2 + \\sqrt{3}) = -(3)^{1/4} \\cdot \\alpha$ \\\n$\\Rightarrow (\\alpha^4 + 2\\sqrt{3}\\alpha^2 + 3) = \\sqrt{3}\\alpha^2$ (On squaring) \\\n$\\therefore (\\alpha^4 + 3) = -\\sqrt{3}\\alpha^2$ \\\n$\\Rightarrow \\alpha^8 + 6\\alpha^4 + 9 = 3\\alpha^4$ (Again squaring) \\\n$\\therefore \\alpha^8 + 3\\alpha^4 + 9 = 0$ \\\n$\\Rightarrow \\alpha^8 = -9 - 3\\alpha^4$ \\\n(Multiply by $\\alpha^4$) \\\nSo, $\\alpha^{12} = -9\\alpha^4 - 3\\alpha^8$ \\\n$\\therefore \\alpha^{12} = -9\\alpha^4 - 3(-9 - 3\\alpha^4)$ \\\n$\\Rightarrow \\alpha^{12} = 27$ \\\nHence, $\\alpha^{12} = 27$ \\\n$\\Rightarrow (\\alpha^{12})^8 = (27)^8$ \\\n$\\Rightarrow \\alpha^{96} = (3)^{24}$ \\\nSimilarly $\\beta^{96} = (3)^{24}$ \\\n$\\therefore \\alpha^{96}(\\alpha^{12} - 1) + \\beta^{96}(\\beta^{12} - 1) = (3)^{24} \\times 52$ \\\n$\\Rightarrow$ Option (3) is correct.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\alpha, \\beta$ are roots of the equation $x^2 + 5\\sqrt{2}x + 10 = 0, \\alpha > \\beta$ and $P_n = \\alpha^n - \\beta^n$ for each positive integer $n$, then the value of $\\left(\\frac{P_{17}P_{20} + 5\\sqrt{2}P_{17}P_{19}}{P_{18}P_{19} + 5\\sqrt{2}P_{18}^2}\\right)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$x^2 + 5\\sqrt{2}x + 10 = 0$ \\\n& $P_n = \\alpha^n - \\beta^n$ (Given) \\\nNow $\\frac{P_{17}P_{20} + 5\\sqrt{2}P_{17}P_{19}}{P_{18}P_{19} + 5\\sqrt{2}P_{18}^2} = \\frac{P_{17}(P_{20} + 5\\sqrt{2}P_{19})}{P_{18}(P_{19} + 5\\sqrt{2}P_{18})} = \\frac{P_{17}(\\alpha^{20}-\\beta^{20} + 5\\sqrt{2}(\\alpha^{19}-\\beta^{19}))}{P_{18}(\\alpha^{19}-\\beta^{19} + 5\\sqrt{2}(\\alpha^{18}-\\beta^{18}))}$ \\\n$= \\frac{P_{17}(\\alpha^{19}(\\alpha + 5\\sqrt{2}) - \\beta^{19}(\\beta + 5\\sqrt{2}))}{P_{18}(\\alpha^{18}(\\alpha + 5\\sqrt{2}) - \\beta^{18}(\\beta + 5\\sqrt{2}))}$ \\\nSince $\\alpha + 5\\sqrt{2} = -10/\\alpha \\dots \\dots (1)$ \\\n& $\\beta + 5\\sqrt{2} = -10/\\beta$ \\\nNow put these values in above expression $= \\frac{10P_{17}P_{18}}{10P_{18}P_{17}} = 1$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The number of real roots of the equation $e^{4x} - e^{3x} - 4e^{2x} - e^x + 1 = 0$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$t^4 - t^3 - 4t^2 - t + 1 = 0, e^x = t > 0$ \\\n$\\Rightarrow t^2 - t - 4 - \\frac{1}{t} + \\frac{1}{t^2} = 0$ \\\n$\\Rightarrow \\alpha^2 - \\alpha - 6 = 0, \\alpha = t + \\frac{1}{t} \\ge 2$ \\\n$\\Rightarrow \\alpha = 3, -2 \\text{ (reject)}$ \\\n$\\Rightarrow t + \\frac{1}{t} = 3$ \\\n$\\Rightarrow \\text{The number of real roots} = 2$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $x^4 - 3x^3 - 2x^2 + 3x + 1 = 0$ have roots $\\alpha, \\beta, \\gamma, \\delta$. Find the value of $\\alpha^3 + \\beta^3 + \\gamma^3 + \\delta^3$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "12",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "24",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "30",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "36",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$x^4 - 3x^3 - 2x^2 + 3x + 1 = 0$\n\n$x = 0$ is not the root of this equation so divide it by $x^2$:\n\n$x^2 - 3x - 2 + \\frac{3}{x} + \\frac{1}{x^2} = 0$\n\n$(x^2 + \\frac{1}{x^2}) - 3\\left(x - \\frac{1}{x}\\right) - 2 = 0$\n\n$\\left(x - \\frac{1}{x}\\right)^2 - 3\\left(x - \\frac{1}{x}\\right) = 0$\n\n$x - \\frac{1}{x} = 0, \\quad x - \\frac{1}{x} = 3$\n\n$x^2 - 1 = 0 \\implies x = \\pm 1$\n\n$x^2 - 3x - 1 = 0 \\implies \\gamma + \\delta = 3, \\gamma\\delta = -1$\n\n$\\alpha = 1, \\beta = -1$\n\n$\\alpha^3 + \\beta^3 + \\gamma^3 + \\delta^3$\n\n$= 1 - 1 + (\\gamma + \\delta)((\\gamma + \\delta)^2 - 3\\gamma\\delta)$\n\n$= 0 + 3(9 - 3(-1))$\n\n$= 0 + 3(12) = 36$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $e^{2x} - 11e^x - 45e^{-x} + \\frac{81}{2} = 0$ has roots $x_1, x_2, x_3$, find the value of $P = x_1 + x_2 + x_3$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "9",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "27",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "45",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "81",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$e^{2x} - 11e^x - 45e^{-x} + \\frac{81}{2} = 0$\n\n$(e^x)^3 - 11(e^x)^2 - 45 + \\frac{81e^x}{2} = 0$\n\nLet $e^x = t$\n\n$2t^3 - 22t^2 + 81t - 90 = 0$\n\n$t_1 t_2 t_3 = 45$\n\n$e^{x_1} \\cdot e^{x_2} \\cdot e^{x_3} = 45$\n\n$e^{x_1 + x_2 + x_3} = 45$\n\n$\\log_e e^{x_1 + x_2 + x_3} = \\log_e 45$\n\n$x_1 + x_2 + x_3 = \\log_e 45$\n\n$\\log_e P = \\log_e 45 \\implies P = 45$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the roots of $x^2 - 4\\lambda x + 5 = 0$ are $\\alpha, \\beta$ and the roots of $x^2 - (3\\sqrt{2} + 2\\sqrt{3})x + (7 + 3\\lambda\\sqrt{3}) = 0$ are $\\alpha, \\gamma$, find the value of $(\\alpha + 2\\beta + \\lambda)^2$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "49",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "64",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "81",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "98",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$x^2 - 4\\lambda x + 5 = 0 \\implies \\alpha + \\beta = 4\\lambda, \\alpha\\beta = 5$\n\n$x^2 - (3\\sqrt{2} + 2\\sqrt{3})x + (7 + 3\\lambda\\sqrt{3}) = 0 \\implies \\alpha + \\gamma = 3\\sqrt{2} + 2\\sqrt{3}, \\alpha\\gamma = 7 + 3\\lambda\\sqrt{3}$\n\n$\\beta + \\lambda = 3\\sqrt{2}$\n\n$\\therefore \\alpha = 2\\lambda + \\sqrt{3}$\n\n$\\beta = 2\\lambda - \\sqrt{3}$\n\n$\\alpha\\beta = (2\\lambda + \\sqrt{3})(2\\lambda - \\sqrt{3}) = 4\\lambda^2 - 3 = 5 \\implies 4\\lambda^2 = 8 \\implies \\lambda = \\sqrt{2}$\n\n$\\therefore (\\alpha + 2\\beta + \\lambda)^2 = (4\\alpha + 3\\sqrt{2})^2 = (7\\sqrt{2})^2 = 98$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The number of real roots of the equation $e^{4x} + 4e^{3x} - 58e^{2x} + 4e^x + 1 = 0$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "1",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given equation is $e^{4x} + 4e^{3x} - 58e^{2x} + 4e^x + 1 = 0$. Dividing by $e^{2x}$ and substituting $t = e^x + \\frac{1}{e^x}$, we get $t^2 + 4t - 58 = 0$. Solving for $t$, we obtain $t = -2 \\neq 2\\sqrt{62}$ or $t = -2 - 2\\sqrt{62}$ (not possible as $t \\ge 2$). For $t = -2 + 2\\sqrt{62}$, the corresponding quadratic in $e^x$ yields 2 real roots.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f(x)$ be a polynomial of degree 4 with real coefficients such that $f(-2) + f(3) = 0$. If $f(x) = (x+1)(ax+b)$... [truncated from context]",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\frac{11}{3}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\frac{10}{3}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\frac{8}{3}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using the given conditions $f(-2) + f(3) = 0$ and $f(x) = (x+1)(ax+b)$, we substitute to find the relation $14a + 3b = 0$. Thus $-\\frac{b}{a} = \\frac{14}{3}$. Sum of roots = $-1 + \\frac{-b}{a} = -1 + \\frac{14}{3} = \\frac{11}{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\alpha, \\beta, \\gamma$ be the three roots of the equation $x^3 + bx + c = 0$ if $\\beta \\gamma = 1 = -\\alpha$ then $b^3 + 2c^3 - 3a^3 - 6\\beta^3 - 8\\gamma^3$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{155}{8}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$21$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{169}{8}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$19$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Given that roots of $x^3 + bx + c = 0$ are $\\alpha, \\beta, \\gamma$. Also given that $\\beta\\gamma = 1 = -\\alpha \\Rightarrow \\alpha = -1$. Now let us apply the relation between the roots of the cubic equation with the coefficients. $\\Rightarrow \\alpha + \\beta + \\gamma = 0$. $\\Rightarrow \\alpha\\beta\\gamma = -c$. $\\Rightarrow (-1)(1) = -c \\Rightarrow c = 1$. On substituting the value of $\\alpha = -1$ in eq (ii) we get, $\\beta + \\gamma = 1$. $\\therefore \\alpha\\beta + \\beta\\gamma + \\gamma\\alpha = b \\Rightarrow \\alpha(\\beta + \\gamma) + \\beta\\gamma = b \\Rightarrow b = 0$. Hence, equation will be, $x^3 + 1 = 0$. Whose roots will be, $-1, -\\omega, -\\omega^2$. We know that $1 + \\omega + \\omega^2 = 0 \\Rightarrow \\alpha + \\beta + \\gamma = 0 \\Rightarrow -1 + \\beta + \\gamma = 0 \\therefore \\beta = -\\omega, \\gamma = -\\omega^2$. $\\Rightarrow \\beta^3 = -\\omega^3 = -1$ and $\\gamma^3 = -\\omega^6 = -1$. Hence the value of $b^3 + 2c^3 - 3\\alpha^3 - 6\\beta^3 - 8\\gamma^3$ is $0 + 2 + 3 + 6 + 8 = 19$. Hence this is the correct option.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $m$ and $n$ be the numbers of real roots of the quadratic equations $x^2 - 12x + [x] + 31 = 0$ and $x^2 - 5|x + 2| - 4 = 0$ respectively, where $[x]$ denotes the greatest integer $\\le x$. Then $m^2 + mn + n^2$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "7",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "12",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "9",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "15",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given, $x^2 - 12x + [x] + 31 = 0 \\Rightarrow x^2 - 12x + 31 = -[x]$. Now from above equation we say that, it could have its solution in $[5, 6)$ but it does not exist as at $x = 5$ as LHS = $1$, $\\ge -5$. So no solution, hence $m = 0$. Now solving, $x^2 - 5|x + 2| - 4 = 0$. Taking Case 1 when $x \\ge -2$ we get, $x^2 - 5(x + 2) - 4 = 0 \\Rightarrow x^2 - 5x - 14 = 0 \\Rightarrow x = 7, -2$. Now taking Case 2 when $x < -2$ we get, $x^2 + 5x + 10 - 4 = 0 \\Rightarrow x = -2, -3$. So, total 3 solution i.e., $x = -3, -2, 7$. Hence, $n = 3$. So, the value of $m^2 + mn + n^2 = 0 + 0 + 3^2 = 9$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The number of points, where the curve $f(x) = e^{8x} - e^{6x} - 3e^{4x} - e^{2x} + 1, x \\in \\mathbb{R}$ cuts $x$-axis, is equal to............",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given, $e^{8x} - e^{6x} - 3e^{4x} - e^{2x} + 1 = 0 \\Rightarrow e^{4x} - e^{-2x} - 3 - \\frac{1}{e^{2x}} + \\frac{1}{e^{4x}} = 0 \\Rightarrow e^{4x} + \\frac{1}{e^{4x}} - 2 - \\left(e^{2x} + \\frac{1}{e^{2x}}\\right) = 5 \\Rightarrow \\left(e^{2x} + \\frac{1}{e^{2x}}\\right)^2 - \\left(e^{2x} + \\frac{1}{e^{2x}}\\right) = 3$. Now let $\\left(e^{2x} + \\frac{1}{e^{2x}}\\right) = t$. So, the equation becomes $t^2 - t - 5 = 0 \\Rightarrow t = \\frac{1 \\pm \\sqrt{21}}{2}$, ignoring negative sign as exponential function are positive. Now $e^{2x} + \\frac{1}{e^{2x}} = \\frac{1 + \\sqrt{21}}{2} \\Rightarrow e^{4x} - \\frac{1 + \\sqrt{21}}{2}e^{2x} + 1 = 0$ which is quadratic equation in $e^{2x}$ with upward parabola. Now by A.M $\\ge$ G.M we get, $e^{2x} + \\frac{1}{e^{2x}} \\ge 2$. So, $y = \\frac{1 + \\sqrt{21}}{2} > 2$, hence it will cut at two distinct point. Hence, there will be two solution.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\alpha, \\beta$ be the roots of the quadratic equation $x^2 + \\sqrt{6}x + 3 = 0$. Then $\\frac{\\alpha^{23} + \\beta^{23} + \\alpha^{14} + \\beta^{14}}{\\alpha^{15} + \\beta^{15} + \\alpha^{10} + \\beta^{10}}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$81$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$9$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$72$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$729$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "To find the value of $\\frac{\\alpha^{23} + \\beta^{23} + \\alpha^{14} + \\beta^{14}}{\\alpha^{15} + \\beta^{15} + \\alpha^{10} + \\beta^{10}}$. Let $a_n = \\alpha^n + \\beta^n$. Hence, $\\frac{\\alpha^{23} + \\beta^{23} + \\alpha^{14} + \\beta^{14}}{\\alpha^{15} + \\beta^{15} + \\alpha^{10} + \\beta^{10}} = \\frac{a_{23} + a_{14}}{a_{15} + a_{10}}$. Now, $x^2 + \\sqrt{6}x + 3 = 0$ has roots $\\alpha \\text{ & } \\beta$. So, $x = \\frac{-\\sqrt{6} \\pm \\sqrt{-6}}{2} \\Rightarrow x = \\sqrt{6}\\left(\\frac{-1 \\pm i}{2}\\right) \\Rightarrow x = \\sqrt{3}\\left(\\frac{-1 \\pm i}{\\sqrt{2}}\\right)$. Hence, $\\alpha = \\sqrt{3}e^{i\\frac{3\\pi}{4}}$ and $\\beta = \\sqrt{3}e^{i\\frac{5\\pi}{4}}$. Now, solving $\\frac{(\\sqrt{3})^{23}(e^{i\\frac{23\\times 3\\pi}{4}} + e^{i\\frac{23\\times 5\\pi}{4}}) + (\\sqrt{3})^{14}(e^{i\\frac{14\\times 3\\pi}{4}} + e^{i\\frac{14\\times 5\\pi}{4}})}{(\\sqrt{3})^{15}(e^{i\\frac{15\\times 3\\pi}{4}} + e^{i\\frac{15\\times 5\\pi}{4}}) + (\\sqrt{3})^{10}(e^{i\\frac{10\\times 3\\pi}{4}} + e^{i\\frac{10\\times 5\\pi}{4}})}$. Simplifying this using Euler's formula and properties yields $81$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\alpha, \\beta$ be the roots of the equation $x^2 - \\sqrt{2}x + 2 = 0$ Then $\\alpha^{14} + \\beta^{14}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-64$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-64\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-128$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-128\\sqrt{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given, $x^2 - \\sqrt{2}x + 2 = 0 \\Rightarrow x = \\frac{\\sqrt{2} \\pm \\sqrt{6}i}{2} \\Rightarrow x = \\sqrt{2}\\left(\\frac{1 \\pm \\sqrt{3}i}{2}\\right) \\Rightarrow x = \\sqrt{2}\\left(\\frac{1}{2} \\pm \\frac{\\sqrt{3}i}{2}\\right) \\Rightarrow x = \\sqrt{2}\\left(\\cos \\frac{\\pi}{3} \\pm i \\sin \\frac{\\pi}{3}\\right)$. So, $\\alpha = \\sqrt{2}\\left(\\cos \\frac{\\pi}{3} + i \\sin \\frac{\\pi}{3}\\right) = \\sqrt{2}e^{i\\frac{\\pi}{3}}$. And $\\beta = \\sqrt{2}\\left(\\cos \\frac{\\pi}{3} - i \\sin \\frac{\\pi}{3}\\right) = \\sqrt{2}e^{-i\\frac{\\pi}{3}}$. Now $\\alpha^{14} + \\beta^{14} = \\left(\\sqrt{2}e^{i\\frac{\\pi}{3}}\\right)^{14} + \\left(\\sqrt{2}e^{-i\\frac{\\pi}{3}}\\right)^{14} = (\\sqrt{2})^{14}\\left(e^{i\\frac{14\\pi}{3}} + e^{-i\\frac{14\\pi}{3}}\\right) = 2^7 \\left(2 \\cos \\frac{14\\pi}{3}\\right) = 2^8 \\left(\\cos \\left(4\\pi + \\frac{2\\pi}{3}\\right)\\right) = 2^8 \\cos \\left(\\frac{2\\pi}{3}\\right) = -2^8 \\times \\frac{1}{2} = -128$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The number of real roots of the equation $x|x| - 5|x + 2| + 6 = 0$, is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$3$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Given, $x|x| - 5|x + 2| + 6 = 0$. Now taking case (1) when $x < -2$ we get, $-x^2 + 5x + 10 + 6 = 0 \\Rightarrow x^2 - 5x - 16 = 0 \\Rightarrow x = \\frac{5 - \\sqrt{89}}{2}$, ignoring $x = \\frac{5 + \\sqrt{89}}{2}$ as $x < -2$, so one solution is possible here. Now taking case (2) when $-2 \\le x < 0$ we get, $-x^2 - 5x - 10 + 6 = 0 \\Rightarrow x^2 + 5x + 4 = 0 \\Rightarrow x = -1$, ignoring $x = -4$ as $-2 \\le x < 0$. Now taking case (3), when $x \\ge 0$ we get, $x^2 - 5x - 10 + 6 = 0 \\Rightarrow x^2 - 5x - 4 = 0 \\Rightarrow x = \\frac{5 + \\sqrt{41}}{2}$, ignoring $x = \\frac{5 - \\sqrt{41}}{2}$ as $x \\ge 0$. So, from all cases we get total 3 solutions.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\log_2 (9^{2\\alpha-4} + 13) - \\log_2 \\left(\\frac{5}{2} \\cdot 3^{2\\alpha-4} + 1\\right) = 2$, find the maximum value of $\\beta$ for which $x^2 - 50x + 25\\beta = 0$ has real roots.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "15",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "20",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "25",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "30",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$\\log_2 (9^{2\\alpha-4} + 13) - \\log_2 \\left(\\frac{5}{2} \\cdot 3^{2\\alpha-4} + 1\\right) = 2 \\implies \\frac{9^{2\\alpha-4} + 13}{\\frac{5}{2} \\cdot 3^{2\\alpha-4} + 1} = 4 \\implies \\alpha = 2 \\text{ or } 3$. $\\sum_{\\alpha \\in S} \\alpha = 5$ and $\\sum_{\\alpha \\in S} (\\alpha+1)^2 = 25 \\implies x^2 - 50x + 25\\beta = 0$ has real roots $\\implies \\beta \\le 25 \\implies \\beta_{\\max} = 25$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\alpha$ and $\\beta$ are the roots of $x^2 + 60^{\\frac{1}{4}}x + a = 0$ such that $\\alpha^4 + \\beta^4 = -30$, find the product of all possible values of $a$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "30",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "40",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "45",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "60",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "For $x^2 + 60^{\\frac{1}{4}}x + a = 0$ with roots $\\alpha, \\beta$, we have $\\alpha + \\beta = -60^{\\frac{1}{4}}$ and $\\alpha\\beta = a$. Given $\\alpha^4 + \\beta^4 = -30 \\implies (\\alpha^2 + \\beta^2)^2 - 2\\alpha^2\\beta^2 = -30 \\implies \\left((\\alpha+\\beta)^2 - 2\\alpha\\beta\\right)^2 - 2a^2 = -30 \\implies \\left(60^{\\frac{1}{2}} - 2a\\right)^2 - 2a^2 = -30 \\implies 2a^2 - 4 \\cdot 60^{\\frac{1}{2}} a + 90 = 0$. Product = $\\frac{90}{2} = 45$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The number of real solutions of the equation $x|x + 5| + 2|x + 7| - 2 = 0$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Case I : $x \\ge -5$, $x^2 + 5x + 2x + 12 = 0 \\Rightarrow x^2 + 7x + 12 = 0 \\Rightarrow x = -3, -4$. Case II : $-7 < x < -5$, $-x^2 - 5x + 2x + 14 - 2 = 0 \\Rightarrow -x^2 - 3x + 12 = 0 \\Rightarrow x = \\frac{-3 \\pm \\sqrt{9 + 48}}{2} = \\frac{-3 \\pm \\sqrt{57}}{2}$ (one accepted, one rejected). Case III : $x \\le -7$, $-x^2 - 5x - 2x - 14 - 2 = 0 \\Rightarrow x^2 + 7x + 16 = 0$, $D < 0$, no solutions. Total no. of solutions $= 3$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\alpha, \\beta$ be the distinct roots of the equation $x^2 - (t^2 - 5t + 6)x + 1 = 0, t \\in \\mathbb{R}$ and $a_n = \\alpha^n + \\beta^n$. Then the minimum value of $\\frac{a_{2023} + a_{2025}}{a_{2024}}$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-1/4$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-1/4$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-1/2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1/4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "By Newton's theorem, $a_{n+2} - (t^2 - 5t + 6)a_{n+1} + a_n = 0 \\Rightarrow a_{2025} + a_{2023} = (t^2 - 5t + 6)a_{2024} \\Rightarrow \\frac{a_{2023} + a_{2025}}{a_{2024}} = t^2 - 5t + 6 = \\left(t - \\frac{5}{2}\\right)^2 - \\frac{1}{4}$. Minimum value is $-\\frac{1}{4}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $x_1, x_2, x_3, x_4$ be the solution of the equation $4x^4 + 8x^3 - 17x^2 - 12x + 9 = 0$ and $(4 + x_1^2)(4 + x_2^2)(4 + x_3^2)(4 + x_4^2) = \\frac{125}{16}m$. Then the value of $m$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "221",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "211",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "201",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "231",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$4x^4 + 8x^3 - 17x^2 - 12x + 9 = 4(x - x_1)(x - x_2)(x - x_3)(x - x_4)$. Put $x = 2i \\& -2i$, we get $m = 221$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\alpha$ and $\\beta$ be the roots of the equation $x^2 + 2\\sqrt{2}x - 1 = 0$. Let a quadratic equation whose roots are $\\alpha^4 + \\beta^4$ and $\\frac{1}{10}(\\alpha^6 + \\beta^6)$ be:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x^2 - 195x + 9506 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x^2 - 195x + 950 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x^2 + 195x + 9506 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x^2 + 195x + 950 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $x^2 + 2\\sqrt{2}x - 1 = 0$, we have $\\alpha + \\beta = -2\\sqrt{2}$ and $\\alpha\\beta = -1$.\nNow, $\\alpha^4 + \\beta^4 = ((\\alpha+\\beta)^2 - 2\\alpha\\beta)^2 - 2(\\alpha\\beta)^2 = ((-2\\sqrt{2})^2 - 2(-1))^2 - 2(-1)^2 = (8+2)^2 - 2(1) = 100 - 2 = 98$.\nAnd $\\alpha^6 + \\beta^6 = ((\\alpha+\\beta)((\\alpha+\\beta)^2 - 3\\alpha\\beta))^2 - 2(\\alpha\\beta)^3 = (-2\\sqrt{2}(8+3))^2 + 2 = (8)(121) + 2 = 970$.\nThus, $\\frac{1}{10}(\\alpha^6 + \\beta^6) = 97$.\nSum of roots = $98 + 97 = 195$.\nProduct of roots = $98 \\times 97 = 9506$.\nTherefore, the quadratic equation is $x^2 - 195x + 9506 = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\alpha, \\beta$ be the roots of $x^2 - \\sqrt{2}x - \\sqrt{3} = 0$ and $P_n = \\alpha^n - \\beta^n$. Then the value of $P_{12} - \\sqrt{2}P_{11} - \\sqrt{3}P_{10}$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$10\\sqrt{3}P_9$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$P_9$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-\\sqrt{3}P_9$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since $\\alpha$ and $\\beta$ are the roots of $x^2 - \\sqrt{2}x - \\sqrt{3} = 0$, we have $\\alpha^{n+2} - \\sqrt{2}\\alpha^{n+1} - \\sqrt{3}\\alpha^n = 0$ and $\\beta^{n+2} - \\sqrt{2}\\beta^{n+1} - \\sqrt{3}\\beta^n = 0$. Subtracting these gives $P_{n+2} - \\sqrt{2}P_{n+1} - \\sqrt{3}P_n = 0$. Putting $n = 10$ directly gives $P_{12} - \\sqrt{2}P_{11} - \\sqrt{3}P_{10} = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\alpha$ and $\\beta$ be the roots of the equation $px^2 + qx - r = 0$, where $p \\neq 0$. If $p, q$ and $r$ be the consecutive terms of a non-constant G.P and $\\frac{1}{\\alpha} + \\frac{1}{\\beta} = \\frac{3}{4}$, then the value of $(\\alpha - \\beta)^2$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{80}{9}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "9",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{20}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "8",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$px^2 + qx - r = 0$ \\\\ Let $p = A, q = AR, r = AR^2$ \\\\ $Ax^2 + ARx - AR^2 = 0$ \\\\ $x^2 + Rx - R^2 = 0$ \\\\ $\\because \\frac{1}{\\alpha} + \\frac{1}{\\beta} = \\frac{3}{4}$ \\\\ $\\therefore \\frac{\\alpha + \\beta}{\\alpha\\beta} = \\frac{3}{4} \\Rightarrow \\frac{-R}{-R^2} = \\frac{3}{4} \\Rightarrow R = \\frac{4}{3}$ \\\\ $(\\alpha - \\beta)^2 = (\\alpha + \\beta)^2 - 4\\alpha\\beta = R^2 - 4(-R^2) = 5\\left(\\frac{16}{9}\\right) = 80/9$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\alpha, \\beta$ are the roots of the equation, $x^2 - x - 1 = 0$ and $S_n = 2023\\alpha^n + 2024\\beta^n$, then",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2S_{12} = S_{11} + S_{10}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$S_{12} = S_{11} + S_{10}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2S_{11} = S_{12} + S_{10}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$S_{11} = S_{10} + S_{12}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$x^2 - x - 1 = 0$ \\\\ $S_n = 2023\\alpha^n + 2024\\beta^n$ \\\\ $S_{n-1} + S_{n-2} = 2023\\alpha^{n-1} + 2024\\beta^{n-1} + 2023\\alpha^{n-2} + 2024\\beta^{n-2}$ \\\\ $= 2023\\alpha^{n-2}[1 + \\alpha] + 2024\\beta^{n-2}[1 + \\beta]$ \\\\ $= 2023\\alpha^{n-2}[\\alpha^2] + 2024\\beta^{n-2}[\\beta^2]$ \\\\ $= 2023\\alpha^n + 2024\\beta^n$ \\\\ $S_{n-1} + S_{n-2} = S_n$ \\\\ Put $n = 12$ \\\\ $S_{11} + S_{10} = S_{12}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $x^2 - 70x + \\lambda = 0$ have roots $\\alpha$ and $\\beta$. If $\\alpha$ and $\\beta$ are positive integers, find the sum of all possible values of $\\lambda$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "325",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "60",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "385",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "350",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$\\alpha + \\beta = 70$, $\\alpha \\beta = \\lambda$. Therefore $\\alpha(70 - \\alpha) = \\lambda$. Since $2$ and $3$ do not divide $\\lambda$, $\\alpha = 5, \\beta = 65, \\lambda = 325$. By putting value of $\\alpha, \\beta, \\lambda$ we get the required value $60$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f(x) = (a+b-2c)x^2 + (b+c-2a)x + (c+a-2b) = 0$ where $a, b, c$ are sides of a triangle. If one root is $1$, then the other root $\\alpha$ satisfies:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-1 < \\alpha < 0$ or $0 < \\alpha < 1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-1 < \\alpha < 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$0 < \\alpha < 1$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\alpha > 1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$f(1) = a+b-2c + b+c-2a + c+a-2b = 0$, so $f(1) = 0$. Thus $\\alpha \\cdot 1 = \\frac{c+a-2b}{a+b-2c}$. If $-1 < \\alpha < 0$, $-1 < \\frac{c+a-2b}{a+b-2c} < 0$, $b+c < 2a$ and $b > \\frac{a+c}{2}$, therefore $b$ cannot be G.M. between $a$ and $c$. If $0 < \\alpha < 1$, $0 < \\frac{c+a-2b}{a+b-2c} < 1$, $b > c$ and $b < \\frac{a+c}{2}$, therefore $b$ may be the G.M. between $a$ and $c$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The number of solutions of $e^{\\sin x} - e^{-\\sin x} = 2$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "0",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Infinite",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Take $e^{\\sin x} = t (t > 0)$. Then $t - \\frac{2}{t} = 2 \\implies t^2 - 2t - 2 = 0 \\implies t = 1 \\pm \\sqrt{3} \\approx 2.73$ or $-0.73$ (rejected as $t > 0$). $e^{\\sin x} = 2.73 \\implies \\sin x = \\log_e 2.73 > 1$, which is impossible. So no solution.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $(a^2+b^2)x^2 - 2b(a+c)x + b^2 + c^2 = 0$ has equal roots, and $\\alpha, \\beta$ are roots, find $2(\\alpha^2+\\beta^2)$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "36",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "12",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "18",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "24",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$(a^2+b^2)x^2 - 2b(a+c)x + b^2 + c^2 = 0 \\implies a^2x^2 - 2abx + b^2 + b^2x^2 - 2bcx + c^2 = 0 \\implies (ax-b)^2 + (bx-c)^2 = 0 \\implies ax-b=0, bx-c=0 \\implies \\alpha = \\frac{\\sqrt{5}-1}{2}, \\beta = \\frac{\\sqrt{5}+1}{2}$. Thus $2(\\alpha^2+\\beta^2) = 36$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\alpha$ and $\\beta (\\alpha < \\beta)$ are the roots of the equation $(-2 + \\sqrt{3})(|\\sqrt{x} - 3|) + (x - 6\\sqrt{x}) + (9 - 2\\sqrt{3}) = 0, x \\ge 0$, then $\\sqrt{\\frac{\\beta}{\\alpha}} + \\sqrt{\\alpha\\beta}$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "1",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "2",
+        "text": "$11$",
+        "image": null
+      },
+      {
+        "id": "3",
+        "text": "$9$",
+        "image": null
+      },
+      {
+        "id": "4",
+        "text": "$10$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let $t = \\sqrt{x} \\ge 0$. The equation becomes $(-2 + \\sqrt{3})|t - 3| + (t^2 - 6t) + (9 - 2\\sqrt{3}) = 0$.\nSince $t^2 - 6t + 9 = (t - 3)^2$, we get $(t - 3)^2 + (\\sqrt{3} - 2)|t - 3| - 2\\sqrt{3} = 0$.\nLet $u = |t - 3| \\ge 0$: $u^2 + (\\sqrt{3} - 2)u - 2\\sqrt{3} = 0$.\nDiscriminant = $(\\sqrt{3} - 2)^2 + 8\\sqrt{3} = 7 + 4\\sqrt{3} = (2 + \\sqrt{3})^2$.\n$u = \\frac{(2 - \\sqrt{3}) \\pm (2 + \\sqrt{3})}{2}$, giving $u = 2$ or $u = -\\sqrt{3}$ (rejected).\n$|t - 3| = 2 \\implies t = 5$ or $t = 1$, so $x = 25$ or $x = 1$.\n$\\alpha = 1, \\beta = 25$.\n$\\sqrt{\\beta/\\alpha} + \\sqrt{\\alpha\\beta} = \\sqrt{25} + \\sqrt{25} = 5 + 5 = 10$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The sum of all the real solutions of the equation $\\log_{(x+3)}\\left(6x^2 + 28x + 30\\right) = 5 - 2\\log_{(6x+10)}\\left(x^2 + 6x + 9\\right)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "1",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "2",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "3",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "4",
+        "text": "$4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Note $6x^2 + 28x + 30 = 2(3x + 5)(x + 3)$,\n$x^2 + 6x + 9 = (x + 3)^2$,\n$6x + 10 = 2(3x + 5)$.\nLet $a = \\log_{(x+3)}[2(3x + 5)]$. Then $\\text{LHS} = a + 1$ and $\\log_{2(3x+5)}(x + 3)^2 = \\frac{2}{a}$.\nEquation becomes $a + 1 = 5 - \\frac{2}{a}$, i.e., $a^2 - 4a + 4 = 0 \\implies a = 2$.\nSo $\\log_{(x+3)}[2(3x + 5)] = 2 \\implies (x + 3)^2 = 6x + 10 \\implies x^2 = 1 \\implies x = 1$ or $x = -1$.\nBoth satisfy domain conditions (bases $> 0, \\neq 1$; arguments $> 0$).\nSum = $1 + (-1) = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $S = \\{x^3 + ax^2 + bx + c : a, b, c \\in \\mathbf{N} \\text{ and } a, b, c \\le 20\\}$ be a set of polynomials. Then the number of polynomials in S, which are divisible by $x^2 + 2$, is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "1",
+        "text": "$10$",
+        "image": null
+      },
+      {
+        "id": "2",
+        "text": "$20$",
+        "image": null
+      },
+      {
+        "id": "3",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "4",
+        "text": "$120$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "If $x^2 + 2$ divides $x^3 + ax^2 + bx + c$, write $x^3 + ax^2 + bx + c = (x^2 + 2)(x + k)$.\nExpanding: $x^3 + kx^2 + 2x + 2k$.\nComparing coefficients: $a = k$, $b = 2$, $c = 2a$.\nConstraints: $a \\in \\mathbf{N}$, $a \\le 20$, and $c = 2a \\le 20 \\implies a \\le 10$.\nSo $a \\in \\{1, 2, 3, \\dots, 10\\}$, giving $10$ polynomials.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\alpha, \\beta$, where $\\alpha < \\beta$, are the roots of the equation $\\lambda x^2 - (\\lambda + 3)x + 3 = 0$ such that $\\frac{1}{\\alpha} - \\frac{1}{\\beta} = \\frac{1}{3}$, then the sum of all possible values of $\\lambda$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "1",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "2",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "3",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "4",
+        "text": "$4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$\\alpha + \\beta = \\frac{\\lambda + 3}{\\lambda}$, $\\alpha\\beta = \\frac{3}{\\lambda}$.\n$\\frac{1}{\\alpha} - \\frac{1}{\\beta} = \\frac{\\beta - \\alpha}{\\alpha\\beta} = \\frac{1}{3}$, so $\\beta - \\alpha = \\frac{\\alpha\\beta}{3} = \\frac{1}{\\lambda}$.\n$(\\beta - \\alpha)^2 = (\\alpha + \\beta)^2 - 4\\alpha\\beta$:\n$\\frac{1}{\\lambda^2} = \\frac{(\\lambda+3)^2}{\\lambda^2} - \\frac{12}{\\lambda}$\n$1 = (\\lambda + 3)^2 - 12\\lambda = \\lambda^2 - 6\\lambda + 9$\n$\\lambda^2 - 6\\lambda + 8 = 0 \\implies \\lambda = 2 \\text{ or } \\lambda = 4$.\nBoth values satisfy $\\alpha < \\beta$ (verified). Sum = $2 + 4 = 6$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The number of real roots of the equation $x^5(x^3 - x^2 - x + 1) + x(3x^3 - 4x^2 - 2x + 4) - 1 = 0$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "5",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The given equation can be factored as $(x-1)^2(x+1)(x^5 + 3x - 1) = 0$. Let $f(x) = x^5 + 3x - 1$, then $f'(x) > 0 \\; \\forall x \\in \\mathbb{R}$. Hence $f(x) = 0$ has only 1 real root, and overall there are 3 real distinct roots.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\alpha$ and $\\beta$ be the roots of the equation $x^2 - (5 + 3^{\\log_3 5} - 5^{\\log_5 3})x + 3^{(3^{\\log_3 5})} - 5^{(5^{\\log_5 3})} - 1 = 0$. Then the equation whose roots are $\\alpha + \\frac{1}{\\beta}$ and $\\beta + \\frac{1}{\\alpha}$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$3x^2 - 10x - 4 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$3x^2 + 10x - 4 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3x^2 - 10x + 4 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$3x^2 + 10x + 4 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Simplifying the given quadratic equation yields $x^2 - 5x - 3 = 0$, so $\\alpha + \\beta = 5$ and $\\alpha\\beta = -3$. The new roots are $\\alpha + \\frac{1}{\\beta} = \\frac{-2}{\\alpha}$ and $\\beta + \\frac{1}{\\alpha} = \\frac{-2}{\\beta}$. Substituting $t = \\frac{-2}{\\alpha}$ into the original equation gives $3t^2 - 10t - 4 = 0$, i.e., $3x^2 - 10x - 4 = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The sum of all real values of $x$ satisfying the equation $\\frac{3x^2 - 9x + 17}{x^2 + 3x + 10} = \\frac{5x^2 - 7x + 19}{3x^2 + 5x + 12}$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "6",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "8",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "10",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Rewriting the equation as $1 + \\frac{2x^2 - 12x + 7}{x^2 + 3x + 10} = 1 + \\frac{2x^2 - 12x + 7}{3x^2 + 5x + 12}$, we get $(2x^2 - 12x + 7)(\\frac{1}{x^2 + 3x + 10} - \\frac{1}{3x^2 + 5x + 12}) = 0$. This gives $2x^2 - 12x + 7 = 0$ (sum of roots = 6) and $2x^2 + 2x + 2 = 0$ (no real solutions). Hence, the sum of roots is 6.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f(x) = ax^2 + bx + c$ be a quadratic expression such that $f(0) + f(1) + f(3) + f(-2)$ gives specific conditions. Find the value of $\\lambda$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$5$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $f(0) + 3 + \\lambda + 4 = 14 \\implies f(0) = 7 - \\lambda = c$. Also $f(1) = a + b + c = 3 \\dots(i)$, $f(3) = 9a + 3b + c = 4 \\dots(ii)$, $f(-2) = 4a - 2b + c = \\lambda \\dots(iii)$. Solving $(ii) - (iii)$ and substituting gives $6\\lambda = 24$, hence $\\lambda = 4$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $P_n = \\alpha^n - \\beta^n$ where $\\alpha$ and $\\beta$ are the roots of $x^2 - x - 4 = 0$. Find the value of $\\frac{P_{15}P_{16} - P_{14}P_{16} - P_{15}^2 + P_{14}P_{15}}{P_{13}P_{14}}$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$16$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Given $P_n = \\alpha^n - \\beta^n$ and $x^2 - x - 4 = 0$. We have $P_n - P_{n-1} = 4 P_{n-2}$. Simplifying the expression: $\\frac{(P_{15} - P_{14})(P_{16} - P_{15})}{P_{13}P_{14}} = \\frac{(4P_{13})(4P_{14})}{P_{13}P_{14}} = 16$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Find number of real roots of equation $e^{4x} + e^{3x} - 4e^{2x} + e^x + 1 = 0$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Dividing the equation by $e^{2x}$ ($e^x > 0$), we get $e^{2x} + e^x - 4 + \\frac{1}{e^x} + \\frac{1}{e^{2x}} = 0$. Let $t = e^x + \\frac{1}{e^x}$ where $t \\ge 2$. Then $e^{2x} + \\frac{1}{e^{2x}} = t^2 - 2$. Substituting gives $(t^2 - 2) + t - 4 = 0 \\implies t^2 + t - 6 = 0 \\implies (t+3)(t-2) = 0$. Since $t \\ge 2$, we have $t = 2$, which gives $e^x + \\frac{1}{e^x} = 2 \\implies e^x = 1 \\implies x = 0$. Thus, there is only 1 real root.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $a, b \\in R, a \\neq 0$ be such that the equation, $ax^2 - 2bx + 5 = 0$ has a repeated root $\\alpha$, which is also a root of the equation, $x^2 - 2bx - 10 = 0$. If $\\beta$ is the other root of this equation, then $\\alpha^2 + \\beta^2$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "25",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "26",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "24",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "28",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since $\\alpha$ is a repeated root of $ax^2 - 2bx + 5 = 0$, the discriminant is zero: $(-2b)^2 - 4(a)(5) = 0 \\implies 4b^2 - 20a = 0 \\implies b^2 = 5a$. Also, $\\alpha$ is a root of $x^2 - 2bx - 10 = 0$. Since $\\alpha$ is the vertex of the first quadratic, $\\alpha = \\frac{2b}{2a} = \\frac{b}{a}$. Substituting $\\alpha$ in the second equation: $\\left(\\frac{b}{a}\\right)^2 - 2b\\left(\\frac{b}{a}\\right) - 10 = 0$. Solving yields the roots for the quadratic equations, leading to $\\alpha^2 + \\beta^2 = 25$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\alpha$ and $\\beta$ are the roots of the equation $x^2 + px + 2 = 0$ and $\\frac{1}{\\alpha}$ and $\\frac{1}{\\beta}$ are the roots of the equation $2x^2 + 2qx + 1 = 0$, then $(\\alpha - \\frac{1}{\\beta})(\\beta - \\frac{1}{\\alpha})(\\alpha + \\frac{1}{\\alpha})(\\beta + \\frac{1}{\\beta})$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{9}{4}(9 - q^2)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{9}{4}(9 + p^2)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{9}{4}(9 + q^2)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{9}{4}(9 - p^2)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Using relations between roots and coefficients, we find the expression evaluates to $\\frac{9}{4}(9 - p^2)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Consider the two sets: $A = \\{m \\in R : \\text{both the roots of } x^2 - (m+1)x = m + 4 = 0 \\text{ are real}\\}$ and $B = [-3, 5)$. Which of the following is not true?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$A \\cap B = \\{-3\\}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$B - A = (-3, 5)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$A \\cup B = R$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$A - B = (-\\infty, -3) \\cup (5, \\infty)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "For real roots, discriminant $D \\ge 0 \\implies (m+1)^2 - 4(m+4) \\ge 0 \\implies m^2 - 2m - 15 \\ge 0 \\implies (m-5)(m+3) \\ge 0 \\implies m \\in (-\\infty, -3] \\cup [5, \\infty)$. Thus $A = (-\\infty, -3] \\cup [5, \\infty)$ and $B = [-3, 5)$. Evaluating the set operations shows that option (D) is not true.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The set of all real values of $\\lambda$ for which the quadratic equations, $(\\lambda^2 + 1)x^2 - 4\\lambda x + 2 = 0$ always have exactly one root in the interval $(0, 1)$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "(-3,-1)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "(2,4)",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "(0,2)",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "(1,3)",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let $f(x) = (\\lambda^2 + 1)x^2 - 4\\lambda x + 2$. For exactly one root in $(0, 1)$, $f(0)f(1) < 0$. Here $f(0) = 2 > 0$, so $f(1) < 0$. Thus $(\\lambda^2 + 1) - 4\\lambda + 2 < 0 \\implies \\lambda^2 - 4\\lambda + 3 < 0 \\implies (\\lambda-1)(\\lambda-3) < 0 \\implies \\lambda \\in (1, 3)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\lambda \\neq 0$ be in $R$. If $\\alpha$ and $\\beta$ are the roots of the equation, $x^2 - x + 2\\lambda = 0$ and $\\alpha$ and $\\gamma$ are the roots of the equation, $3x^2 - 10x + 27\\lambda = 0$, then $\\frac{\\beta \\gamma}{\\lambda}$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "18",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "9",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "27",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "36",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since $\\alpha$ is a common root, it satisfies both equations. Substituting $\\alpha$ and solving for $\\alpha$ and $\\lambda$, we obtain $\\frac{\\beta \\gamma}{\\lambda} = 18$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\alpha$ and $\\beta$ are the roots of the equation, $7x^2 - 3x - 2 = 0$, then the value of $\\frac{\\alpha}{1-\\alpha^2} + \\frac{\\beta}{1-\\beta^2}$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{24}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{27}{32}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{3}{8}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{27}{16}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Using $\\alpha^2 = \\frac{3\\alpha + 2}{7}$, we simplify the denominators. Combining terms and using $\\alpha + \\beta = \\frac{3}{7}$ and $\\alpha\\beta = -\\frac{2}{7}$, the expression evaluates to $\\frac{27}{16}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $a, b, c$ be in arithmetic progression. Let the centroid of the triangle with vertices $(a, c), (2, b)$ and $(a, b)$ be $\\left(\\frac{10}{3}, \\frac{7}{3}\\right)$. If $\\alpha, \\beta$ are the roots of the equation $ax^2 + bx + 1 = 0$, then the value of $\\alpha^2 + \\beta^2 - \\alpha\\beta$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{71}{256}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-\\frac{69}{256}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{69}{256}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-\\frac{71}{256}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$2b = a + c$\n$\\frac{2a+2}{3} = \\frac{10}{3}$ and $\\frac{2b+c}{3} = \\frac{7}{3}$\n$a = 4$, $\\left.\\begin{matrix} 2b + c = 7 \\\\ 2b - c = 4 \\end{matrix}\\right\\}$, solving\n$b = \\frac{11}{4}$\n$c = \\frac{3}{2}$\n$\\therefore$ Quadratic Equation is $4x^2 + \\frac{11}{4}x + 1 = 0$\n$\\therefore$ The value of $(\\alpha + \\beta)^2 - 3\\alpha\\beta = \\frac{121}{256} - \\frac{3}{4} = -\\frac{71}{256}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The number of the real roots of the equation $(x + 1)^2 + |x - 5| = \\frac{27}{4}$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "0",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "3",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "For $x \\geq 5$\n$(x + 1)^2 + (x - 5) = \\frac{27}{4}$\n$\\Rightarrow x^2 + 3x - 4 = \\frac{27}{4}$\n$\\Rightarrow x^2 + 3x - \\frac{43}{4} = 0$\n$\\Rightarrow 4x^2 + 12x - 43 = 0$\n$x = \\frac{-12 \\pm \\sqrt{144 + 688}}{8}$\n$x = \\frac{-12 \\pm \\sqrt{832}}{8} = \\frac{-12 \\pm 28.8}{8} = \\frac{-3 \\pm 7.2}{2}$\n$x = \\frac{-3+7.2}{2}, \\frac{-3-7.2}{2}$ (Therefore no solution)\nFor $x \\leq 5$\n$(x + 1)^2 - (x - 5) = \\frac{27}{4}$\n$x^2 + x + 6 - \\frac{27}{4} = 0$\n$4x^2 + 4x - 3 = 0$\n$x = \\frac{-4 \\pm \\sqrt{16 + 48}}{8}$\n$x = \\frac{-4 \\pm 8}{8} \\Rightarrow x = \\frac{4}{8}, \\frac{-12}{8}$\n$\\therefore$ 2 Real Root's",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\alpha$ and $\\beta$ be the roots of the equation $x^2 - 6x - 2 = 0$. If $a_n = \\alpha^n - \\beta^n$ for $n \\ge 1$, then the value of $\\frac{a_{10} - 2a_8}{3a_9}$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $x^2 - 6x - 2 = 0$ with roots $\\alpha$ and $\\beta$, we have $\\alpha + \\beta = 6$ and $\\alpha\\beta = -2$.\nAlso, $\\alpha^2 - 6\\alpha - 2 = 0 \\implies \\alpha^2 - 2 = 6\\alpha$ and $\\beta^2 - 2 = 6\\beta$.\nWe need to find $\\frac{a_{10} - 2a_8}{3a_9} = \\frac{(\\alpha^{10} - \\beta^{10}) - 2(\\alpha^8 - \\beta^8)}{3(\\alpha^9 - \\beta^9)}$\n$= \\frac{\\alpha^8(\\alpha^2 - 2) - \\beta^8(\\beta^2 - 2)}{3(\\alpha^9 - \\beta^9)} = \\frac{\\alpha^8(6\\alpha) - \\beta^8(6\\beta)}{3(\\alpha^9 - \\beta^9)} = \\frac{6(\\alpha^9 - \\beta^9)}{3(\\alpha^9 - \\beta^9)} = \\frac{6}{3} = 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\alpha$ and $\\beta$ be the roots of $x^2 - x - 1 = 0$ with $P_n = \\alpha^n + \\beta^n$. If $P_{n+1} = 29$ and $P_{n-1} = 11$, then the value of $P_n^2$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "121",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "841",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "324",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "484",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $\\alpha + \\beta = 1, \\alpha\\beta = -1$. The quadratic equation with roots $\\alpha, \\beta$ is $x^2 - x - 1 = 0 \\implies \\alpha^2 = \\alpha + 1$.\nMultiplying both sides by $\\alpha^{n-1}$, we get $\\alpha^{n+1} = \\alpha^n + \\alpha^{n-1}$ ... (1)\nSimilarly, $\\beta^{n+1} = \\beta^n + \\beta^{n-1}$ ... (2)\nAdding (1) and (2): $\\alpha^{n+1} + \\beta^{n+1} = (\\alpha^n + \\beta^n) + (\\alpha^{n-1} + \\beta^{n-1})$\n$\\implies P_{n+1} = P_n + P_{n-1}$\nGiven $P_{n+1} = 29$ and $P_{n-1} = 11$, we have $29 = P_n + 11 \\implies P_n = 18$.\nTherefore, $P_n^2 = 18^2 = 324$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The value of $4 + \\frac{1}{5 + \\frac{1}{4 + \\frac{1}{5 + \\frac{1}{4 + \\ldots \\infty}}}}$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2 + \\frac{2}{5}\\sqrt{30}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2 + \\frac{4}{\\sqrt{5}}\\sqrt{30}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4 + \\frac{4}{\\sqrt{5}}\\sqrt{30}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$5 + \\frac{2}{5}\\sqrt{30}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let $y = 4 + \\frac{1}{5 + \\frac{1}{y}}$ \\\\ $y - 4 = \\frac{y}{5y + 1}$ \\\\ $5y^2 - 20y - 4 = 0$ \\\\ $y = \\frac{20 + \\sqrt{480}}{10}$ \\\\ $y = \\frac{20 - \\sqrt{480}}{10} \\rightarrow \\text{rejected}$ \\\\ $y = 2 + \\sqrt{\\frac{480}{100}} = 2 + \\frac{2}{5}\\sqrt{30}$ \\\\ Correct with Option (A)",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The value of $3 + \\frac{1}{4 + \\frac{1}{3 + \\frac{1}{4 + \\frac{1}{3 + \\ldots \\infty}}}}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1.5 + \\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2 + \\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3 + 2\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4 + \\sqrt{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let $x = 3 + \\frac{1}{4 + \\frac{1}{3 + \\frac{1}{4 + \\ldots \\infty}}}$ \\\\ So, $x = 3 + \\frac{1}{4 + \\frac{1}{x}} = 3 + \\frac{x}{4x + 1}$ \\\\ $\\Rightarrow (x - 3) = \\frac{x}{4x + 1}$ \\\\ $\\Rightarrow (4x + 1)(x - 3) = x$ \\\\ $\\Rightarrow 4x^2 - 12x + x - 3 = x$ \\\\ $\\Rightarrow 4x^2 - 12x - 3 = 0$ \\\\ $x = \\frac{12 \\pm \\sqrt{(12)^2 + 12 \\times 4}}{2 \\times 4} = \\frac{12 \\pm \\sqrt{12(16)}}{8}$ \\\\ $= \\frac{12 \\pm 4\\sqrt{2}\\sqrt{3}}{8} = \\frac{3 \\pm 2\\sqrt{3}}{2}$ \\\\ $x = \\frac{3}{2} \\pm \\sqrt{3} = 1.5 \\pm \\sqrt{3}$ \\\\ But only positive value is accepted \\\\ So, $x = 1.5 + \\sqrt{3}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $f(x)$ and $g(x)$ are two polynomials such that the polynomial $P(x) = f(x^3) + xg(x^3)$ is divisible by $x^2 + x + 1$, then $P(1)$ is equal to ____",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "0",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "3",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$P(x) = f(x^3) + xg(x^3)$ \\\\ $P(1) = f(1) + g(1)$ ... (1) \\\\ Now $P(x)$ is divisible by $x^2 + x + 1$ \\\\ $\\Rightarrow P(x) = Q(x)(x^2 + x + 1)$ \\\\ $P(\\omega) = 0 = P(\\omega^2)$ where $\\omega, \\omega^2$ are non-real cube roots of unity.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Quadratic Equation",
+    "chapter": "Quadratic Equation",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

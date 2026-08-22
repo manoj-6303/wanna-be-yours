@@ -1,0 +1,1 @@
+const s1 = '\right'; const s2 = '\\right'; const s3 = '\\\\right'; console.log('1:', s1.length, s1.charCodeAt(0), s1.charCodeAt(1)); console.log('2:', s2.length, s2.charCodeAt(0), s2.charCodeAt(1)); console.log('3:', s3.length, s3.charCodeAt(0), s3.charCodeAt(1));

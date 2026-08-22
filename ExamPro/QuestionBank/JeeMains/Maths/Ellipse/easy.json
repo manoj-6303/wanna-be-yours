@@ -1,0 +1,119 @@
+[
+  {
+    "difficulty": "Easy",
+    "question": "If distance between the foci of an ellipse is $6$ and distance between its directrices is $12$, then length of its latus rectum is\n\u092f\u0926\u093f \u090f\u0915 \u0926\u0940\u0930\u094d\u0918\u0935\u0943\u0924\u094d\u0924 \u0915\u0947 \u0928\u093e\u092d\u093f\u092f\u094b\u0902 \u0915\u0947 \u092e\u0927\u094d\u092f \u0915\u0940 \u0926\u0942\u0930\u0940 $6$ \u0939\u0948 \u0924\u0925\u093e \u0907\u0938\u0915\u0940 \u0928\u093f\u092f\u0924\u093e\u0913 \u0915\u0947 \u092e\u0927\u094d\u092f \u0915\u0940 \u0926\u0942\u0930\u0940 $12$ \u0939\u0948 \u0924\u092c \u0907\u0938\u0915\u0947 \u0928\u093e\u092d\u093f\u0932\u092e\u094d\u092c \u0915\u0940 \u0932\u092e\u094d\u092c\u093e\u0908 \u0939\u0948-",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$3\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$9$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2\\sqrt{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$2ae = 6 \\Rightarrow ae = 3 \\Rightarrow a^2 = 18$\n$\\frac{2a}{e} = 12 \\Rightarrow \\frac{a}{e} = 6$\n$\\Rightarrow b^2 = a^2 - a^2e^2 = 18 - 9 = 9$\n$\\Rightarrow \\text{L.R.} = \\frac{2b^2}{a} = \\frac{2\\times 9}{3\\sqrt{2}} = 3\\sqrt{2}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Ellipse",
+    "chapter": "Ellipse",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "An ellipse has its center at $(1, -2)$, one focus at $(3, -2)$ and one vertex at $(5, -2)$. Then the length of its latus rectum is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{16}{\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$6\\sqrt{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Center at $(1, -2)$, focus at $(3, -2)$, vertex at $(5, -2)$ lie on horizontal line. Distance from center to focus: $c = 2$. Distance from center to vertex: $a = 4$. Since $b^2 = a^2 - c^2 = 16 - 4 = 12$. Length of latus rectum: $L = \\frac{2b^2}{a} = \\frac{2(12)}{4} = 6$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Ellipse",
+    "chapter": "Ellipse",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "If the co-ordinates of two points $A$ and $B$ are $(\\sqrt{7}, 0)$ and $(-\\sqrt{7}, 0)$ respectively and $P$ is any point on the conic, $9x^2 + 16y^2 = 144$, then $PA + PB$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$9$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$8$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The conic equation is $9x^2 + 16y^2 = 144 \\Rightarrow \\frac{x^2}{16} + \\frac{y^2}{9} = 1$. Here $a^2 = 16, b^2 = 9$. Eccentricity $e = \\sqrt{1 - \\frac{9}{16}} = \\frac{\\sqrt{7}}{4}$. Foci are $(\\pm ae, 0) = (\\pm \\sqrt{7}, 0)$, which are points $A$ and $B$. Thus, $PA + PB$ is the sum of focal distances of point $P$ on the ellipse, which equals $2a = 2(4) = 8$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Ellipse",
+    "chapter": "Ellipse",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

@@ -1,0 +1,1 @@
+const s = 'stra\right) x'; console.log(s.replace(/\right\)/g, '\\right)'));

@@ -1,0 +1,902 @@
+[
+  {
+    "difficulty": "Medium",
+    "question": "If $\\alpha$ and $\\beta$ are the roots of equation $(k+1)\\tan^2 x - \\sqrt{2} \\lambda \\tan x = 1 - k$ and $\\tan^2 (\\alpha+\\beta) = 50$. Find value of $\\lambda$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "10",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "7",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "12",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given equation is $(k+1)\\tan^2 x - \\sqrt{2} \\lambda \\tan x + (k-1) = 0$. Here $\\tan \\alpha + \\tan \\beta = \\frac{\\sqrt{2}\\lambda}{k+1}$ and $\\tan \\alpha \\tan \\beta = \\frac{k-1}{k+1}$. Then $\\tan(\\alpha+\\beta) = \\frac{\\frac{\\sqrt{2}\\lambda}{k+1}}{1-\\frac{k-1}{k+1}} = \\frac{\\sqrt{2}\\lambda}{2} = \\frac{\\lambda}{\\sqrt{2}}$. Therefore $\\tan^2(\\alpha+\\beta) = \\frac{\\lambda^2}{2} = 50 \\implies \\lambda^2 = 100 \\implies \\lambda = 10$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $\\theta_1$ and $\\theta_2$ (where $\\theta_1 < \\theta_2$) are two solutions of $2\\cot^2 \\theta - \\frac{5}{\\sin \\theta} + 4 = 0, \\theta \\in [0, 2\\pi)$ then $\\int_{\\theta_1}^{\\theta_2} \\cos^2 3\\theta d\\theta$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\frac{\\pi}{3}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\frac{2\\pi}{3}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\frac{\\pi}{9}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\frac{\\pi}{3} + \\frac{1}{6}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $2\\cot^2\\theta - \\frac{5}{\\sin \\theta} + 4 = 0 \\implies 2\\frac{\\cos^2\\theta}{\\sin^2\\theta} - \\frac{5}{\\sin\\theta} + 4 = 0 \\implies 2\\cos^2\\theta - 5\\sin\\theta + 4\\sin^2\\theta = 0$ (with $\\sin\\theta \\neq 0$). This gives $2\\sin^2\\theta - 5\\sin\\theta + 2 = 0 \\implies (2\\sin\\theta - 1)(\\sin\\theta - 2) = 0 \\implies \\sin\\theta = \\frac{1}{2}$. For $\\theta \\in [0, 2\\pi)$, $\\theta_1 = \\frac{\\pi}{6}, \\theta_2 = \\frac{5\\pi}{6}$. Then $\\int_{\\pi/6}^{5\\pi/6} \\cos^2 3\\theta d\\theta = \\int_{\\pi/6}^{5\\pi/6} \\frac{1+\\cos 6\\theta}{2} d\\theta = \\frac{1}{2}\\left[ \\theta + \\frac{\\sin 6\\theta}{6} \\right]_{\\pi/6}^{5\\pi/6} = \\frac{1}{2}\\left( \\frac{5\\pi}{6} - \\frac{\\pi}{6} + 0 - 0 \\right) = \\frac{1}{2} \\cdot \\frac{4\\pi}{6} = \\frac{\\pi}{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If for $x \\in \\left(0, \\frac{\\pi}{2}\\right)$, $\\log_{10} \\sin x + \\log_{10} \\cos x = -1$ and $\\log_{10}(\\sin x + \\cos x) = \\frac{1}{2}(\\log_{10} n - 1), n > 0$ then the value of n is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "20",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "12",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "9",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "16",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$x \\in \\left(0, \\frac{\\pi}{2}\\right)$\n$\\log_{10} \\sin x + \\log_{10} \\cos x = -1$\n$\\Rightarrow \\log_{10} \\sin x \\cdot \\cos x = -1$\n$\\Rightarrow \\sin x \\cdot \\cos x = \\frac{1}{10}$\n$\\log_{10}(\\sin x + \\cos x) = \\frac{1}{2}(\\log_{10} n - 1)$\n$\\Rightarrow \\sin x + \\cos x = 10^{\\left(\\log_{10} \\sqrt{n} - \\frac{1}{2}\\right)} = \\sqrt{\\frac{n}{10}}$\nby squaring\n$1 + 2 \\sin x \\cdot \\cos x = \\frac{n}{10}$\n$\\Rightarrow 1 + \\frac{1}{5} = \\frac{n}{10} \\Rightarrow n = 12$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $e^{(\\cos^2 x + \\cos^4 x + \\cos^6 x + \\ldots \\infty)\\ln 2} = 2^{\\cos^2 x + \\cos^4 x + \\ldots \\infty}$ satisfies the equation $t^2 - 9t + 8 = 0$, then the value of $\\frac{2 \\sin x}{\\sin x + \\sqrt{3} \\cos x}$ ($0 < x < \\frac{\\pi}{2}$) is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{3}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sqrt{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$e^{(\\cos^2 x + \\cos^4 x + \\ldots \\infty)\\ln 2} = 2^{\\cos^2 x + \\cos^4 x + \\ldots \\infty} = 2^{\\cot^2 x}$\n$t^2 - 9t + 8 = 0 \\Rightarrow t = 1, 8$\n$\\Rightarrow 2^{\\cot^2 x} = 1, 8 \\Rightarrow \\cot^2 x = 0, 3$\nSo, $\\frac{2 \\sin x}{\\sin x + \\sqrt{3} \\cos x} = \\frac{2}{1 + \\sqrt{3} \\cot x} = \\frac{2}{4} = \\frac{1}{2}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "All possible values of $\\theta \\in [0, 2\\pi]$ for which $\\sin 2\\theta + \\tan 2\\theta > 0$ lie in:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(0, \\frac{\\pi}{2}) \\cup (\\pi, \\frac{3\\pi}{2})$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(0, \\frac{\\pi}{4}) \\cup (\\frac{\\pi}{2}, \\frac{3\\pi}{4}) \\cup (\\pi, \\frac{5\\pi}{4}) \\cup (\\frac{3\\pi}{2}, \\frac{7\\pi}{4})$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(0, \\frac{\\pi}{2}) \\cup (\\frac{\\pi}{2}, \\frac{3\\pi}{4}) \\cup (\\pi, \\frac{7\\pi}{6})$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(0, \\frac{\\pi}{4}) \\cup (\\frac{\\pi}{2}, \\frac{3\\pi}{4}) \\cup (\\frac{3\\pi}{2}, \\frac{11\\pi}{6})$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$\\tan 2\\theta (1 + \\cos 2\\theta) > 0$\n$2\\theta \\in (0, \\frac{\\pi}{2}) \\cup (\\pi, \\frac{3\\pi}{2}) \\cup (2\\pi, \\frac{5\\pi}{2}) \\cup (3\\pi, \\frac{7\\pi}{2})$\n$\\Rightarrow \\theta \\in (0, \\frac{\\pi}{4}) \\cup (\\frac{\\pi}{2}, \\frac{3\\pi}{4}) \\cup (\\pi, \\frac{5\\pi}{4}) \\cup (\\frac{3\\pi}{2}, \\frac{7\\pi}{4})$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The number of integral values of '$k$' for which the equation $3 \\sin x + 4 \\cos x = k + 1$ has a solution, $k \\in R$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "11",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$3 \\sin x + 4 \\cos x = k + 1$\n$-5 \\le k + 1 \\le 5$\n$-6 \\le k \\le 4$\n$-6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4 \\Rightarrow 11$ integral values",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $0 \\le x < \\frac{\\pi}{2}$, then the number of values of x for which $\\sin x - \\sin 2x + \\sin 3x = 0$, is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$\\sin x - \\sin 2x + \\sin 3x = 0$ $\\Rightarrow \\sin x - 2\\sin x \\cos x + 3\\sin x - 4\\sin^3 x = 0$ $\\Rightarrow 4\\sin x - 4\\sin^3 x - 2\\sin x \\cos x = 0$ $\\Rightarrow 2\\sin x(1 - \\sin^2 x) - \\sin x \\cos x = 0$ $\\Rightarrow 2\\sin x \\cos^2 x - \\sin x \\cos x = 0$ $\\Rightarrow \\sin x \\cos x(2\\cos x - 1) = 0$ $\\therefore \\sin x = 0, \\cos x = 0, \\cos x = \\frac{1}{2}$ $\\therefore x = 0, \\frac{\\pi}{3}$ $\\because x \\in \\left[0, \\frac{\\pi}{2}\\right]$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The sum of all values of $\\theta \\in \\left(0, \\frac{\\pi}{2}\\right)$ satisfying $\\sin^2 2\\theta + \\cos^4 2\\theta = \\frac{3}{4}$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\pi$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{5\\pi}{4}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\pi}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{3\\pi}{8}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$\\sin^2 2\\theta + \\cos^4 2\\theta = \\frac{3}{4}$ $\\Rightarrow 1 - \\cos^2 2\\theta + \\cos^4 2\\theta = \\frac{3}{4}$ $\\Rightarrow \\cos^2 2\\theta(1 - \\cos^2 2\\theta) = \\frac{1}{4}$ ... (1) $\\because \\text{G.M.} \\le \\text{A.M.}$ $\\therefore (\\cos^2 2\\theta)(1 - \\cos^2 2\\theta) \\le \\left(\\frac{\\cos^2 2\\theta + (1 - \\cos^2 2\\theta)}{2}\\right)^2 = \\frac{1}{4}$ ... (2) So, from eq. (1) & (2), we get $\\text{G.M.} = \\text{A.M.}$ It is possible only if, $\\cos^2 2\\theta = 1 - \\cos^2 2\\theta$ $\\Rightarrow \\cos^2 2\\theta = \\frac{1}{2}$ $\\Rightarrow \\cos 2\\theta = \\pm\\frac{1}{\\sqrt{2}}$ $\\Rightarrow \\theta = \\frac{\\pi}{8}, \\frac{3\\pi}{8}$ $\\therefore \\text{Sum} = \\frac{\\pi}{8} + \\frac{3\\pi}{8} = \\frac{\\pi}{2}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The number of solutions of the equation $1 + \\sin^4 x = \\cos^2 3x, x \\in \\left[-\\frac{5\\pi}{2}, \\frac{5\\pi}{2}\\right]$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$7$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Consider equation, $1 + \\sin^4 x = \\cos^2 3x$ $\\text{L.H.S.} = 1 + \\sin^4 x$ and $\\text{R.H.S.} = \\cos^2 3x$ $\\because \\text{L.H.S.} \\ge 1$ and $\\text{R.H.S.} \\le 1 \\Rightarrow \\text{L.H.S.} = \\text{R.H.S.} = 1$ $\\sin^4 x = 0$, and $\\cos^2 3x = 1$ $\\Rightarrow \\sin x = 0$ and $(4\\cos^2 x - 3)^2 \\cos^2 x = 1$ $\\Rightarrow \\sin x = 0$ and $\\cos^2 x = 1 \\Rightarrow x = 0, \\pm\\pi, \\pm2\\pi$ Hence, total number of solutions is $5$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $0 \\le x < \\frac{\\pi}{2}$, then the number of values of $x$ for which $\\sin x - \\sin 2x + \\sin 3x = 0$, is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$\\sin x - \\sin 2x + \\sin 3x = 0$ $\\Rightarrow \\sin x - 2\\sin x \\cos x + 3\\sin x - 4\\sin^3 x = 0$ $\\Rightarrow 4\\sin x - 4\\sin^3 x - 2\\sin x \\cos x = 0$ $\\Rightarrow 2\\sin x (1 - \\sin^2 x) - \\sin x \\cos x = 0$ $\\Rightarrow 2\\sin x \\cos^2 x - \\sin x \\cos x = 0$ $\\Rightarrow \\sin x \\cos x (2\\cos x - 1) = 0$ $\\therefore \\sin x = 0, \\cos x = 0, \\cos x = \\frac{1}{2}$. $\\therefore x = 0, \\frac{\\pi}{3}$. $\\because x \\in \\left[0, \\frac{\\pi}{2}\\right)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "All the pairs $(x, y)$ that satisfy the inequality $2^{\\sqrt{\\sin^2 x - 2\\sin x + 5}} \\cdot \\frac{1}{4^{\\sin^2 y}} \\le 1$ also satisfy the equation:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2|\\sin x| = 3\\sin y$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2\\sin x = \\sin y$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\sin x = 2\\sin y",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\sin x = |\\sin y|",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Given inequality is, $2^{\\sqrt{\\sin^2 x - 2\\sin x + 5}} \\le 2^{2\\sin^2 y}$ $\\Rightarrow \\sqrt{\\sin^2 x - 2\\sin x + 5} \\le 2\\sin^2 y$ $\\Rightarrow \\sqrt{(\\sin x - 1)^2 + 4} \\le 2\\sin^2 y$. It is true if $\\sin x = 1$ and $|\\sin y| = 1$. Therefore, $\\sin x = |\\sin y|$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The number of solutions of the equation $1 + \\sin^4 x = \\cos^2 3x, x \\in \\left[-\\frac{5\\pi}{2}, \\frac{5\\pi}{2}\\right]$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$7$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Consider equation, $1 + \\sin^4 x = \\cos^2 3x$. $\\text{L.H.S.} = 1 + \\sin^4 x$ and $\\text{R.H.S.} = \\cos^2 3x$. $\\because \\text{L.H.S.} \\ge 1$ and $\\text{R.H.S.} \\le 1 \\Rightarrow \\text{L.H.S.} = \\text{R.H.S.} = 1$. $\\sin^4 x = 0$, and $\\cos^2 3x = 1$. $\\Rightarrow \\sin x = 0$ and $(4\\cos^2 x - 3)^2 \\cos^2 x = 1$ $\\Rightarrow \\sin x = 0$ and $\\cos^2 x = 1 \\Rightarrow x = 0, \\pm \\pi, \\pm 2\\pi$. Hence, total number of solutions is $5$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The number of solutions of the equation $32^{\\tan^2 x} + 32^{\\sec^2 x} = 81, 0 \\le x \\le \\frac{\\pi}{4}$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$(32)^{\\tan^2 x} + (32)^{\\sec^2 x} = 81$\n$\\Rightarrow (32)^{\\tan^2 x} + (32)^{1+\\tan^2 x} = 81$\n$\\Rightarrow (32)^{\\tan^2 x} = \\frac{81}{33}$\nIn interval $\\left[0, \\frac{\\pi}{4}\\right]$ only one solution.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The number of solutions of $\\sin^7 x + \\cos^7 x = 1, x \\in [0, 4\\pi]$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "11",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "7",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "9",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$\\sin^7 x \\le \\sin^2 x \\le 1 \\dots (1)$ and $\\cos^7 x \\le \\cos^2 x \\le 1 \\dots (2)$ and $\\sin^2 x + \\cos^2 x = 1$. $\\Rightarrow$ equality must hold for $(1) \\& (2) \\Rightarrow \\sin^7 x = \\sin^2 x$ \\& $\\cos^7 x = \\cos^2 x$. $\\Rightarrow \\sin x = 0$ \\& $\\cos x = 1$ or $\\cos x = 0$ \\& $\\sin x = 1$. $\\Rightarrow x = 0, 2\\pi, 4\\pi, \\frac{\\pi}{2}, \\frac{5\\pi}{2}$. $\\Rightarrow 5$ solutions.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The sum of all values of x in $[0, 2\\pi]$, for which $\\sin x + \\sin 2x + \\sin 3x + \\sin 4x = 0$, is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$8\\pi$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$11\\pi$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$12\\pi$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$9\\pi$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$(\\sin x + \\sin 4x) + (\\sin 2x + \\sin 3x) = 0$ $\\Rightarrow 2 \\sin \\frac{5x}{2} \\left\\{ \\cos \\frac{3x}{2} + \\cos \\frac{x}{2} \\right\\} = 0$ $\\Rightarrow 2 \\sin \\frac{5x}{2} \\left\\{ 2 \\cos x \\cos \\frac{x}{2} \\right\\} = 0$ $2 \\sin \\frac{5x}{2} = 0 \\Rightarrow \\frac{5x}{2} = 0, \\pi, 2\\pi, 3\\pi, 4\\pi, 5\\pi$ $\\Rightarrow x = 0, \\frac{2\\pi}{5}, \\frac{4\\pi}{5}, \\frac{6\\pi}{5}, \\frac{8\\pi}{5}, 2\\pi$ $\\cos \\frac{x}{2} = 0 \\Rightarrow \\frac{x}{2} = \\frac{\\pi}{2} \\Rightarrow x = \\pi$ $\\cos x = 0 \\Rightarrow x = \\frac{\\pi}{2}, \\frac{3\\pi}{2}$ So sum = $6\\pi + \\pi + 2\\pi = 9\\pi$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The number of solutions of $\\sin^7 x + \\cos^7 x = 1, x \\in [0, 4\\pi]$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "11",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "7",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "9",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$\\sin^7 x \\leq \\sin^2 x \\leq 1 \\dots (1)$ and $\\cos^7 x \\leq \\cos^2 x \\leq 1 \\dots (2)$. Also $\\sin^2 x + \\cos^2 x = 1$. $\\Rightarrow$ equality must hold for $(1) \\& (2) \\Rightarrow \\sin^7 x = \\sin^2 x$ \\& $\\cos^7 x = \\cos^2 x$. $\\Rightarrow \\sin x = 0 \\& \\cos x = 1$ or $\\cos x = 0 \\& \\sin x = 1$. $\\Rightarrow x = 0, 2\\pi, 4\\pi, \\frac{\\pi}{2}, \\frac{5\\pi}{2}$. $\\Rightarrow 5$ solutions.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The number of solutions of the equation $\\sin^2 x + \\sin x - 1 = 0$ in the interval $[0, 2\\pi]$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "1",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given equation is $\\sin^2 x + \\sin x - 1 = 0$. Solving for $\\sin x$, we get $\\sin x = \\frac{-1 \\pm \\sqrt{5}}{2}$. Since $\\sqrt{5} \\approx 2.236$, we have $\\sin x = \\frac{-1 + \\sqrt{5}}{2} > 0$ (+ve) and $\\sin x = \\frac{-1 - \\sqrt{5}}{2} < 0$ (-ve). Both values lie between $-1$ and $1$. For each value of $\\sin x$ in $(0, 1)$ or $(-1, 0)$, there are 2 distinct solutions in $[0, 2\\pi]$. Thus, there are a total of $2 + 2 = 4$ roots.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $S=\\left\\{x \\in \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right): 9^{1-\\tan^2 x} + 9^{\\tan^2 x} = 10\\right\\}$ and $\\beta = \\sum_{x \\in S} \\tan^2 \\left(\\frac{x}{3}\\right)$, then $\\frac{1}{6}(\\beta - 14)^2$ is equal to \\\\ [2023 (10 Apr Shift 2)]",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$64$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$32$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Given, $9^{1-\\tan^2 x} + 9^{\\tan^2 x} = 10$. Now let $9^{\\tan^2 x} = t$, then above equation will be, $\\frac{9}{t} + t = 10 \\Rightarrow t^2 - 10t + 9 = 0 \\Rightarrow t = 9$ or $t = 1$. So, when $9^{\\tan^2 x} = 9 \\Rightarrow \\tan^2 x = 1 \\Rightarrow \\tan x = \\pm 1 \\Rightarrow x = \\pm \\frac{\\pi}{4}$, as given $x \\in \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$. Now when $9^{\\tan^2 x} = 1 \\Rightarrow \\tan^2 x = 0 \\Rightarrow x = 0$. Hence, $\\beta = \\sum_{x \\in S} \\tan^2 \\left(\\frac{x}{3}\\right) = \\tan^2 \\left(\\frac{0}{3}\\right) + \\tan^2 \\left(\\frac{\\pi}{12}\\right) + \\tan^2 \\left(\\frac{-\\pi}{12}\\right) = 0 + 2\\left(2 - \\sqrt{3}\\right)^2 = 14 - 8\\sqrt{3}$. So, the value of $\\frac{1}{6}(\\beta - 14)^2 = \\frac{64 \\times 3}{6} = 32$. Hence this is the correct option.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If m and n respectively are the numbers of positive and negative value of $\\theta$ in the interval $[-\\pi, \\pi]$ that satisfy the equation $\\cos 2\\theta \\cdot \\cos \\frac{\\theta}{2} = \\cos 3\\theta \\cdot \\cos \\frac{9\\theta}{2}$, then $mn$ is equal to ______.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "$\\cos 2\\theta \\cdot \\cos \\frac{\\theta}{2} = \\cos 3\\theta \\cdot \\cos \\frac{9\\theta}{2}$ \n\n$\\Rightarrow 2\\cos 2\\theta \\cdot \\cos \\frac{\\theta}{2} = 2\\cos \\frac{9\\theta}{2} \\cdot \\cos 3\\theta$ \n\n$\\Rightarrow \\cos \\frac{5\\theta}{2} + \\cos \\frac{3\\theta}{2} = \\cos \\frac{15\\theta}{2} + \\cos \\frac{3\\theta}{2}$ \n\n$\\Rightarrow \\cos \\frac{15\\theta}{2} = \\cos \\frac{5\\theta}{2}$ \n\n$\\Rightarrow \\frac{15\\theta}{2} = 2k\\pi \\pm \\frac{5\\theta}{2}$ \n\n$5\\theta = 2k\\pi$ or $10\\theta = 2k\\pi$ \n\n$\\theta = \\frac{2k\\pi}{5}$ or $\\theta = \\frac{k\\pi}{5}$ \n\n$\\therefore \\theta = \\left\\{-\\pi, \\frac{-4\\pi}{5}, \\frac{-3\\pi}{5}, \\frac{-2\\pi}{5}, \\frac{-\\pi}{5}, 0, \\frac{\\pi}{5}, \\frac{2\\pi}{5}, \\frac{3\\pi}{5}, \\frac{4\\pi}{5}, \\pi\\right_{\\text{ }}$ \n\n$m = 5, n = 5$ \n\n$\\therefore m \\cdot n = 25$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Suppose $\\theta \\in \\left[0, \\frac{\\pi}{4}\\right]$ is a solution of $4\\cos \\theta - 3\\sin \\theta = 1$. Then $\\cos \\theta$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{4}{(3\\sqrt{6} + 2)}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{6 + \\sqrt{6}}{(3\\sqrt{6} + 2)}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{4}{(3\\sqrt{6} - 2)}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{6 - \\sqrt{6}}{(3\\sqrt{6} - 2)}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Using half-angle substitution, let $t = \\tan \\frac{\\theta}{2}$.\nWe know $\\cos \\theta = \\frac{1 - t^2}{1 + t^2}$ and $\\sin \\theta = \\frac{2t}{1 + t^2}$.\nGiven equation: $4 \\left(\\frac{1 - t^2}{1 + t^2}\\right) - 3 \\left(\\frac{2t}{1 + t^2}\\right) = 1$\n$\\implies 4 - 4t^2 - 6t = 1 + t^2 \\implies 5t^2 + 6t - 3 = 0$\nSolving for $t$, we get $t = \\frac{-3 + 2\\sqrt{6}}{5}$.\nThen, substituting back into $\\cos \\theta = \\frac{1 - t^2}{1 + t^2}$ and rationalizing yields $\\frac{4}{3\\sqrt{6} - 2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The number of solutions of the equation $4\\sin^2 x - 4\\cos^3 x + 9 - 4\\cos x = 0; x \\in [-2\\pi, 2\\pi]$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "0",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$4\\sin^2 x - 4\\cos^3 x + 9 - 4\\cos x = 0; x \\in [-2\\pi, 2\\pi]$\n$4 - 4\\cos^2 x - 4\\cos^3 x + 9 - 4\\cos x = 0$\n$4\\cos^3 x + 4\\cos^2 x + 4\\cos x - 13 = 0$\n$4\\cos^3 x + 4\\cos^2 x + 4\\cos x = 13$\nL.H.S. $\\le 12$ can't be equal to $13$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Number of solutions of $\\sqrt{3}\\cos 2\\theta + 8\\cos \\theta + 3\\sqrt{3} = 0, \\theta \\in [-3\\pi, 2\\pi]$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "0",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Using $\\cos 2\\theta = 2\\cos^2 \\theta - 1$: $2\\sqrt{3}\\cos^2 \\theta + 8\\cos \\theta + 2\\sqrt{3} = 0 \\Rightarrow \\sqrt{3}\\cos^2 \\theta + 4\\cos \\theta + \\sqrt{3} = 0$. $\\cos \\theta = \\frac{-4 \\pm 2}{2\\sqrt{3}}$, giving $\\cos \\theta = -\\frac{1}{\\sqrt{3}}$ or $\\cos \\theta = -\\sqrt{3}$ (rejected). Let $\\alpha = \\cos^{-1}(-1/\\sqrt{3}) \\approx 2.186$ rad. General solution: $\\theta = 2n\\pi \\pm \\alpha$. In $[-3\\pi, 2\\pi]$: $\\theta = \\alpha, -\\alpha, 2\\pi - \\alpha, -2\\pi + \\alpha, -2\\pi - \\alpha$. Total = 5 solutions.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The number of solutions of $|\\cos x| = \\sin x$, such that $-4\\pi \\le x \\le 4\\pi$ is :",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "6",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "8",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "12",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "By plotting the graphs of $y = |\\cos x|$ and $y = \\sin x$, we find 2 solutions in $(0, 2\\pi)$. Extending this interval to $[-4\\pi, 4\\pi]$, there are 8 solutions in total.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the sum of solutions of the system of equations $2\\sin^2 \\theta - \\cos 2\\theta = 0$ and $2\\cos^2 \\theta + 3\\sin \\theta = 0$ in the interval $[0, 2\\pi]$ is $k\\pi$, then $k$ is equal to ______.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "From $2\\sin^2 \\theta - (1 - 2\\sin^2 \\theta) = 0 \\implies \\sin^2 \\theta = \\frac{1}{4}$. From $2\\cos^2 \\theta + 3\\sin \\theta = 0 \\implies 2\\sin^2 \\theta - 3\\sin \\theta - 2 = 0 \\implies \\sin \\theta = -\\frac{1}{2}$. Common solutions are $\\theta = \\frac{7\\pi}{6}, \\frac{11\\pi}{6}$. Sum $= \\frac{7\\pi + 11\\pi}{6} = 3\\pi = k\\pi \\implies k = 3$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric equations",
+    "chapter": "trignometric equations",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

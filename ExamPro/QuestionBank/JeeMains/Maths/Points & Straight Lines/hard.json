@@ -1,0 +1,3569 @@
+[
+  {
+    "difficulty": "Hard",
+    "question": "From any point $P$ on the line $x = 2y$ perpendicular is drawn on $y = x$. Let foot of perpendicular is $Q$. Find the locus of mid point of $PQ$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2x = 3y$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$5x = 7y$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3x = 2y$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$7x = 5y$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let point $P$ be $(2\\alpha, \\alpha)$ on the line $x = 2y$. Let $Q$ be $(\\beta, \\beta)$ on $y = x$.\nSlope of $PQ = \\frac{k - \\alpha}{h - 2\\alpha} = -1$\n$\\Rightarrow k - \\alpha = -h + 2\\alpha \\Rightarrow \\alpha = \\frac{h + k}{3} \\quad \\text{--- (1)}$\nAlso, midpoint of $PQ$ is $(h, k)$, so $2h = 2\\alpha + \\beta$ and $2k = \\alpha + \\beta$.\nEliminating $\\beta$, we get $2h - 2k = \\alpha \\quad \\text{--- (2)}$\nFrom (1) and (2): $\\frac{h+k}{3} = 2(h - k) \\Rightarrow h + k = 6h - 6k \\Rightarrow 5h = 7k$.\nThus, the locus is $5x = 7y$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $P$ be a point on $x^2 = 4y$. The segment joining $A(0, -1)$ and $P$ is divided by point $Q$ in the ratio $1:2$, then locus of point $Q$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$9x^2 = 3y + 2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$9x^2 = 12y + 8$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$9y^2 = 12x + 8$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$9y^2 = 3x + 2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let point $P$ be $(2t, t^2)$ and $Q$ be $(h, k)$.\nUsing section formula: $h = \\frac{1(2t) + 2(0)}{1+2} = \\frac{2t}{3}$ and $k = \\frac{1(t^2) + 2(-1)}{1+2} = \\frac{t^2 - 2}{3}$.\nFrom first equation, $t = \\frac{3h}{2}$. Substituting into the second:\n$3k = \\left(\\frac{3h}{2}\\right)^2 - 2 \\Rightarrow 3k + 2 = \\frac{9h^2}{4} \\Rightarrow 9h^2 = 12k + 8$.\nReplacing $(h, k)$ by $(x, y)$, locus is $9x^2 = 12y + 8$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $S$ be the set of all triangles in the xy-plane, each having one vertex at the origin and the other two vertices lie on coordinate axes with integral coordinates. If each triangle in $S$ has area $50$ sq. units, then the number of elements in the set $S$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$9$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$18$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$36$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$32$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "One of the possible $\\Delta OAB$ is $A(a, 0)$ and $B(0, b)$. Area of $\\Delta OAB = \\frac{1}{2}|ab|$. $\\therefore |ab| = 100 \\Rightarrow |a||b| = 100$. But $100 = 1 \\times 100, 2 \\times 50, 4 \\times 25, 5 \\times 20$ or $10 \\times 10$. $\\therefore$ For $1 \\times 100$, $a = 1$ or $-1$ and $b = 100$ or $-100$. $\\therefore$ Total possible pairs are $8$. Total possible pairs for $1 \\times 100, 2 \\times 50, 4 \\times 25$ or $5 \\times 20$ are $4 \\times 8$. And for $10 \\times 10$ total possible pairs are $4$. $\\therefore$ Total number of possible triangles with integral coordinates are $4 \\times 8 + 4 = 36$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the equations of two sides of a triangle be $3x - 2y + 6 = 0$ and $4x + 5y - 20 = 0$. If the orthocentre of this triangle is at $(1, 1)$, then the equation of its third side is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$122y - 26x - 1675 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$122y + 26x + 1675 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$26x + 61y + 1675 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$26x - 122y - 1675 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let $A$ be $(x_2, \\frac{20-4x_2}{5})$. Since $AH$ is perpendicular to $BC$, $m_{AH} \\cdot m_{BC} = -1$. Solving gives $x_2 = \\frac{35}{2}$, so $A(\\frac{35}{2}, -10)$. Similarly for $B$, $x_1 = -13$, so $B(-13, -\\frac{33}{2})$. Equation of line $AB$ yields $26x - 122y - 1675 = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $P$ be a point on the line $x - y + 3 = 0$ such that $PR$ is perpendicular to $PQ$ where $Q$ is $(x_2, 3 - x_2)$ and $M(2, 4)$ is the mid-point of $PR$. Find the coordinates of $R$.",
+    "has_question_image": true,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(\\frac{-3}{4}, 3)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(4, 5)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(\\frac{3}{4}, -3)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(-4, -5)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since, $x - y + 3 = 0$ and $x + y = 3$ are perpendicular lines and intersection point of $x - y + 3 = 0$ and $x + y = 3$ is $P(0, 3)$. $M$ is mid-point of $PR \\Rightarrow R(4, 5)$. Let $S(x_1, x_1 + 3)$ and $Q(x_2, 3 - x_2)$. $M$ is mid-point of $SQ \\Rightarrow x_1 + x_2 = 4, x_1 + 3 + 3 - x_2 = 8 \\Rightarrow x_1 = 3, x_2 = 1$. Then, the vertex $S$ is $(3, 6)$. Since, $m_{QR} \\times m_{PH} = -1 \\Rightarrow m_{QR} = -\\frac{1}{m_{PH}} \\Rightarrow m_{QR} = \\frac{y-3}{x-4} = 0 \\Rightarrow y=3$. $m_{PQ} \\times m_{RH} = -1 \\Rightarrow \\frac{1}{4} \\times \\frac{y}{x} = -1 \\Rightarrow y = -4x \\Rightarrow x = -\\frac{3}{4}$. Vertex $R$ is $\\left(-\\frac{3}{4}, 3\\right)$. Hence, vertex $R$ lies in second quadrant.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{v}_1$ and $\\vec{v}_2$ be the vectors perpendicular to the plane $OPQ$ and $PQR$ respectively, where $P, Q, R$ are given by vectors...",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\cos^{-1}\\left(\\frac{19}{35}\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\cos^{-1}\\left(\\frac{9}{35}\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\cos^{-1}\\left(\\frac{18}{35}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\cos^{-1}\\left(\\frac{11}{35}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let $\\vec{v}_1$ and $\\vec{v}_2$ be the vectors perpendicular to the plane $OPQ$ and $PQR$ respectively. $\\vec{v}_1 = \\overline{PQ} \\times \\overline{OQ} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 2 & 1 \\\\ 2 & 1 & 3 \\end{vmatrix} = 5\\hat{i} - \\hat{j} - 3\\hat{k}$. $\\vec{v}_2 = \\overline{PQ} \\times \\overline{PR} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & -1 & 2 \\\\ -2 & -1 & 1 \\end{vmatrix} = \\hat{i} - 5\\hat{j} - 3\\hat{k}$. $\\therefore \\cos \\theta = \\frac{\\vec{v}_1 \\cdot \\vec{v}_2}{|\\vec{v}_1| |\\vec{v}_2|} = \\frac{5 + 5 + 9}{25 + 1 + 9} = \\frac{19}{35}$. $\\therefore \\theta = \\cos^{-1}\\left(\\frac{19}{35}\\right)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $P(h, k)$ be a point on the line $OA = 1$ such that $OP + AP = 3$. Find the locus of point $P$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$9x^2 + 8y^2 - 8y - 16 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$8x^2 + 9y^2 - 8y - 16 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$9x^2 + 8y^2 + 8y - 16 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$9x^2 - 8y^2 - 8y - 16 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let point $P(h, k)$, $\\because OA = 1$. So, $OP + AP = 3 \\Rightarrow \\sqrt{h^2 + k^2} + \\sqrt{h^2 + (k-1)^2} = 3 \\Rightarrow h^2 + (k-1)^2 = 9 + h^2 + k^2 - 6\\sqrt{h^2 + k^2} \\Rightarrow 6\\sqrt{h^2 + k^2} = 2k + 8 \\Rightarrow 9h^2 + 8k^2 - 8k - 16 = 0$. Hence, locus of point $P$ is $9x^2 + 8y^2 - 8y - 16 = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Two lines are perpendicular with $m_1 m_2 = -1$. Find the distance of their intersection point from the origin.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\sqrt{2}}{5}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{2}{\\sqrt{5}}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\sqrt{5}}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{2}{5}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Two lines are perpendicular $\\Rightarrow m_1 m_2 = -1 \\Rightarrow \\left(\\frac{-1}{a-1}\\right)\\left(\\frac{-2}{a^2}\\right) = -1 \\Rightarrow 2 = a^2(1-a) \\Rightarrow a^3 - a^2 + 2 = 0 \\Rightarrow (a+1)(a^2+2a+2) = 0 \\Rightarrow a = -1$. Hence equations of lines are $x - 2y = 1$ and $2x + y = 1$. $\\therefore$ intersection point is $\\left(\\frac{3}{5}, \\frac{-1}{5}\\right)$. Now, distance from origin = $\\sqrt{\\frac{9}{25} + \\frac{1}{25}} = \\sqrt{\\frac{10}{25}} = \\frac{\\sqrt{2}}{\\sqrt{5}}$... wait, $\\frac{\\sqrt{10}}{25} = \\frac{\\sqrt{2}}{5}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "A rectangle is inscribed in a circle with center $(-1, 2)$ and $x = -1$ as a perpendicular bisector of $AB$. If $A(-8, 5)$ and $B(6, 5)$, find the area of the rectangle.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$84$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$72$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$96$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$64$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given situation: perpendicular bisector of $AB$ will pass from centre. $\\therefore$ equation of perpendicular bisector $x = -1$. Hence centre of the circle is $(-1, 2)$. Let co-ordinate of $D$ is $(\\alpha, \\beta) \\Rightarrow \\frac{\\alpha + 6}{2} = -1$ and $\\frac{\\beta + 5}{2} = 2 \\Rightarrow \\alpha = -8$ and $\\beta = -1$, $\\therefore D = (-8, -1)$. $|AD| = 6$ and $|AB| = 14$. Area = $6 \\times 14 = 84$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $S$ be the set of all triangles in the xy-plane, each having one vertex at the origin and the other two vertices lie on coordinate axes with integral coordinates. If each triangle in $S$ has area $50$ sq. units, then the number of elements in the set $S$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$9$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$18$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$36$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$32$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "One of the possible $\\Delta OAB$ is $A(a, 0)$ and $B(0, b)$. Area of $\\Delta OAB = \\frac{1}{2}|ab|$. $\\therefore |ab| = 100 \\implies |a||b| = 100$. But $100 = 1 \\times 100, 2 \\times 50, 4 \\times 25, 5 \\times 20$ or $10 \\times 10$. $\\therefore$ For $1 \\times 100, a = 1$ or $-1$ and $b = 100$ or $-100$. $\\therefore$ Total possible pairs are $8$. Total possible pairs for $1 \\times 100, 2 \\times 50, 4 \\times 25$ or $5 \\times 20$ are $4 \\times 8$. And for $10 \\times 10$ total possible pairs are $4$. $\\therefore$ Total number of possible triangles with integral coordinates are $4 \\times 8 + 4 = 36$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the equations of two sides of a triangle be $3x - 2y + 6 = 0$ and $4x + 5y - 20 = 0$. If the orthocentre of this triangle is at $(1, 1)$, then the equation of its third side is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$122y - 26x - 1675 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$122y + 26x + 1675 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$26x + 61y + 1675 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$26x - 122y - 1675 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Since $AH$ is perpendicular to $BC$, $m_{AH} \\cdot m_{BC} = -1$. $\\left(\\frac{\\frac{20-4x_2}{5}-1}{x_2-1}\\right) \\times \\frac{3}{2} = -1 \\implies \\frac{15-4x_2}{5(x_2-1)} = -\\frac{2}{3} \\implies 45-12x_2 = -10x_2 + 10 \\implies 2x_2 = 35 \\implies x_2 = \\frac{35}{2}$. $\\Rightarrow A\\left(\\frac{35}{2}, -10\\right)$. Since $BH$ is perpendicular to $CA$, $m_{BH} \\times m_{CA} = -1 \\implies \\left(\\frac{\\frac{3x_1}{2}+3-1}{x_1-1}\\right)\\left(-\\frac{4}{5}\\right) = -1 \\implies \\left(\\frac{3x_1+4}{2(x_1-1)}\\right) \\times 4 = 5 \\implies 6x_1 + 8 = 5x_1 - 5 \\implies x_1 = -13 \\implies \\left(-13, \\frac{-33}{2}\\right)$. Equation of line $AB$ is $y+10 = \\frac{-\\frac{33}{2}+10}{-13-\\frac{35}{2}}\\left(x - \\frac{35}{2}\\right) \\implies -61y - 610 = -13x + \\frac{455}{2} \\implies -122y - 1220 = -26x + 455 \\implies 26x - 122y - 1675 = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "A point $P$ moves on the line $2x - 3y + 4 = 0$. If $Q(1, 4)$ and $R(3, -2)$ are fixed points, then the locus of the centroid of $\\Delta PQR$ is a line:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "with slope $\\frac{3}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "parallel to $x$-axis",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "with slope $\\frac{2}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "parallel to $y$-axis",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let centroid $C$ be $(\\alpha, \\beta)$. We have $\\alpha = \\frac{1+3+h}{3} \\implies h = 3\\alpha - 4$, $\\beta = \\frac{4-2+k}{3} \\implies k = 3\\beta - 2$. But $P(h, k)$ lies on $2x - 3y + 4 = 0 \\implies 2(3\\alpha - 4) - 3(3\\beta - 2) + 4 = 0 \\implies 6\\alpha - 9\\beta - 8 + 6 + 4 = 0 \\implies 6\\alpha - 9\\beta + 2 = 0$. Locus: $6x - 9y + 2 = 0 \\implies y = \\frac{6}{9}x + \\frac{2}{9}$. $\\therefore$ its slope = $\\frac{6}{9} = \\frac{2}{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the angle between the lines whose direction cosines satisfy the equations $l+m+n=0$ and $l^2+m^2-n^2=0$ is $\\theta$, then the value of $\\cos\\theta$ is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{19}{35}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{17}{35}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{13}{35}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{11}{35}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let $\\vec{v}_1$ and $\\vec{v}_2$ be the vectors perpendicular to the plane $OPQ$ and $PQR$ respectively.\n$\\vec{v}_1 = \\overline{PQ} \\times \\overline{OQ} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 2 & 1 \\\\ 2 & 1 & 3 \\end{vmatrix}$\n$= 5\\hat{i} - \\hat{j} - 3\\hat{k}$\n$\\vec{v}_2 = \\overline{PQ} \\times \\overline{PR} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & -1 & 2 \\\\ -2 & -1 & 1 \\end{vmatrix}$\n$= \\hat{i} - 5\\hat{j} - 3\\hat{k}$\n$\\therefore \\cos\\theta = \\frac{\\vec{v}_1 \\cdot \\vec{v}_2}{|\\vec{v}_1||\\vec{v}_2|} = \\frac{5+5+9}{25+1+9} = \\frac{19}{35}$\n$\\therefore \\theta = \\cos^{-1}\\left(\\frac{19}{35}\\right)$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the locus of a point $P(h, k)$ such that the sum of the squares of the distances from the origin and the point $A(0, 1)$ is $3$, then the locus is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$9x^2+8y^2-8y-16=0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x^2+y^2-y-1=0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3x^2+2y^2-y-1=0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x^2+y^2-2y-2=0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let point $P(h, k)$\n$\\therefore \\quad OA = 1$\nSo, $OP+AP = 3$\n$\\Rightarrow \\sqrt{h^2+k^2} + \\sqrt{h^2+(k-1)^2} = 3$\n$\\Rightarrow h^2+(k-1)^2 = 9 + h^2+k^2 - 6\\sqrt{h^2+k^2}$\n$\\Rightarrow 6\\sqrt{h^2+k^2} = 2k+8$\n$\\Rightarrow 9h^2+8k^2-8k-16=0$\nHence, locus of point P is\n$9x^2+8y^2-8y-16=0$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $ABCD$ be a rectangle with vertices $A(-8, 5)$, $B(6, 5)$, $C(6, -1)$ and $D(-8, -1)$. If a circle passes through the centre of the rectangle and has its centre at $(-1, 2)$, then the area of the rectangle is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$84$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$72$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$64$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$56$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given situation\n$\\therefore$ perpendicular bisector of AB will pass from centre.\n$\\therefore$ equation of perpendicular bisector $x = -1$\nHence centre of the circle is $(-1, 2)$\nLet co-ordinate of D is $(\\alpha, \\beta)$\n$\\Rightarrow \\frac{\\alpha+6}{2} = -1$ and $\\frac{\\beta+5}{2} = 2$\n$\\Rightarrow \\alpha = -8$ and $\\beta = -1, \\therefore D = (-8, -1)$\n$|AD| = 6$ and $|AB| = 14$\nArea = $6 \\times 14 = 84$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The region represented by $|x-y| \\le 2$ and $|x+y| \\le 2$ is bounded by a:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "Square",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "Rhombus",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Rectangle",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Circle",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Consider the equation,\n$y = \\sin x \\cdot \\sin(x+2) - \\sin^2(x+1)$\n$= \\frac{1}{2}\\cos(-2) - \\frac{\\cos(2x+2)}{2} - \\left[\\frac{1-\\cos(2x+2)}{2}\\right]$\n$= \\frac{(\\cos 2)-1}{2} = -\\sin^2 1$\nBy the graph $y$ lies in III and IV quadrant.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A$ be the set of all points $(\\alpha, \\beta)$ such that the area of triangle formed by the points $(5, 6)$, $(3, 2)$ and $(\\alpha, \\beta)$ is $12$ square units. Then the least possible length of a line segment joining the origin to a point in $A$, is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\frac{4}{\\sqrt{5}}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\frac{16}{\\sqrt{5}}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\frac{8}{\\sqrt{5}}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\frac{12}{\\sqrt{5}}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given area = 12 $\\Rightarrow \\frac{1}{2} \\begin{vmatrix} 5 & 6 & 1 \\\\ 3 & 2 & 1 \\\\ \\alpha & \\beta & 1 \\end{vmatrix} = 12 \\Rightarrow 4\\alpha - 2\\beta = \\pm 24 + 8$. This gives two parallel lines: $2x - y - 16 = 0$ and $2x - y + 8 = 0$. The least possible length from origin to a point in $A$ is the perpendicular distance of the line $2x - y + 8 = 0$ from $(0,0)$, which is $\\frac{|0-0+8|}{\\sqrt{5}} = \\frac{8}{\\sqrt{5}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A$ be a fixed point $(0, 6)$ and $B$ be a moving point $(2t, 0)$. Let $M$ be the mid-point of $AB$ and the perpendicular bisector of $AB$ meets the $y$-axis at $C$. The locus of the mid-point $P$ of $MC$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "3x^2 - 2y - 6 = 0",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "3x^2 + 2y - 6 = 0",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "2x^2 + 3y - 9 = 0",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "2x^2 - 3y + 9 = 0",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Using coordinate geometry of the mid-point and the perpendicular bisector intersecting the y-axis, eliminating parameter $t$ gives the locus equation $2x^2 + 3y - 9 = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $ABC$ be a triangle with $A(-3, 1)$ and $\\angle ACB = \\theta, 0 < \\theta < \\frac{\\pi}{2}$. If the equation of the median through $B$ is $2x + y - 3 = 0$ and the equation of angle bisector of $C$ is $7x - 4y - 1 = 0$, then $\\tan \\theta$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\frac{1}{2}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\frac{3}{4}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\frac{4}{3}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "2",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "By finding the coordinates of vertices using the intersection of medians and angle bisectors, and computing the angle between lines using slope formulas, $\\tan \\theta = \\frac{4}{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let P and Q be two distinct points on a circle which has center at $C(2, 3)$ and which passes through origin O. If OC is perpendicular to both the line segments CP and CQ, then the set \\{P, Q\\} is equal to",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\{(4, 0), (0, 6)\\}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\{(2 + 2\\sqrt{2}, 3 - \\sqrt{5}), (2 - 2\\sqrt{2}, 3 + \\sqrt{5})\\}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\{(2 + 2\\sqrt{2}, 3 + \\sqrt{5}), (2 - 2\\sqrt{2}, 3 - \\sqrt{5})\\}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\{(-1, 5), (5, 1)\\}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$\\tan\\theta = -\\frac{2}{3}$. Using symmetric from of line P, Q : $\\left(2 \\pm \\sqrt{13}\\cos\\theta, 3 \\pm \\sqrt{13}\\sin\\theta\\right)$ $\\left(2 \\pm \\sqrt{13} \\cdot \\left(-\\frac{3}{\\sqrt{13}}\\right), 3 \\pm \\sqrt{13}\\left(\\frac{2}{\\sqrt{13}}\\right)\\right)$ yielding $(-1, 5)$ and $(5, 1)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The point $P(a, b)$ undergoes the following three transformations successively: (a) reflection about the line $y = x$. (b) translation through $2$ units along the positive direction of x -axis. (c) rotation through angle $\\frac{\\pi}{4}$ about the origin in the anti-clockwise direction. If the co-ordinates of the final position of the point P are $\\left(-\\frac{1}{\\sqrt{2}}, \\frac{7}{\\sqrt{2}}\\right)$, then the value of $2a + b$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$13$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$9$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$7$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Image of $A(a, b)$ along $y = x$ is $B(b, a)$. Translating it $2$ units it becomes $C(b + 2, a)$. Now, applying rotation theorem: $-\\frac{1}{\\sqrt{2}} + \\frac{7}{\\sqrt{2}}i = ((b + 2) + ai)\\left(\\cos\\frac{\\pi}{4} + i\\sin\\frac{\\pi}{4}\\right)$ $\\Rightarrow b - a + 2 = -1$ and $b + 2 + a = 7 \\Rightarrow a = 4; b = 1 \\Rightarrow 2a + b = 9$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the points on the line $y = \\sqrt{3}x + 2$ be at a distance $5$ units from the point $P(3, \\sqrt{3})$. If the sum of the maximum and minimum possible values of $a$ is...",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$16$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$A = \\left(\\frac{3}{\\sqrt{a}}, \\sqrt{a}\\right)$, $B = \\left(\\frac{-3}{\\sqrt{a}}, \\sqrt{a}\\right)$, $C = \\left(-\\frac{3}{\\sqrt{a}}, -\\sqrt{a}\\right)$. Area of ACD is calculated using determinant, giving $\\frac{1}{2} \\cdot 6\\sqrt{a}(\\cos\\theta - \\sin\\theta)$. The max value is $3\\sqrt{a}\\sqrt{2} = 12 \\Rightarrow 2a = 16 \\Rightarrow a = 8$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "In a $\\triangle PQR$, the coordinates of $P$ are $(1, 2)$ and the equations of the lines $QR$ and $PR$ are $x + y = 5$ and $x - y = 3$ respectively. Then the area of $\\triangle PQR$ is...",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{25}{2\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{25}{\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{25}{4\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{25}{3\\sqrt{3}}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Using the distance from $P(1, 2)$ to the line $x+y=5$, we get the perpendicular height as $\\frac{5}{\\sqrt{2}}$. Using angle relations, side $a = \\frac{5\\sqrt{2}}{3}$, and Area of $\\triangle PQR = \\frac{\\sqrt{3}}{4} a^2 = \\frac{25}{3\\sqrt{3}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "A line passes through $(1, 2)$ and makes an angle of $60^{\\circ}$ with the positive direction of $x$-axis. If it intersects the line $x + y = 7$ at $P$, then the distance of $P$ from $(1, 2)$ is...",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{2}{\\sqrt{3}+1}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{4}{\\sqrt{3}+1}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{6}{\\sqrt{3}+1}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{8}{\\sqrt{3}+1}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Using parametric form of a line: $\\frac{x - 1}{\\cos 60^{\\circ}} = \\frac{y - 2}{\\sin 60^{\\circ}} = r$. Substituting $x = 1 + \\frac{r}{2}$ and $y = 2 + \\frac{\\sqrt{3}r}{2}$ into $x + y = 7$, we solve for $r = \\frac{6}{\\sqrt{3}+1}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The area of the region bounded by $y = 2x$ and the lines $x = 1, x = 3$ is...",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$24$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$16$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Equation of line $AB$ is $y = 2x$, slope $= 2$. Distance between diameter and line $AB = \\frac{4}{\\sqrt{2^2 + 1^2}} = \\frac{4}{\\sqrt{5}}$. Thus area $= AB \\times BC = \\frac{8}{\\sqrt{5}} \\times 2\\sqrt{5} = 16$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $P(2, 3)$ and $Q(5, 4)$ be two points. Let $A$ be a point on the line $y = 0$ such that $PA + AQ$ is minimum. Then the coordinates of $A$ are...",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\left(\\frac{13}{7}, 0\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\left(\\frac{23}{7}, 0\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\left(\\frac{17}{7}, 0\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\left(\\frac{19}{7}, 0\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reflecting $P(2, 3)$ across $y = 0$ gives $P'(2, -3)$. The line joining $P'$ and $Q(5, 4)$ intersects $y = 0$ at $A(\\alpha, 0)$. Equation of $P'Q$ is $(y+3) = \\frac{4+3}{5-2}(x-2) \\Rightarrow 3y+9 = 7x-14$. Solving with $y=0$ gives $A = \\left(\\frac{23}{7}, 0\\right)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the lines $L_1: 4x - 3y - 4 = 0$ and $L_2: 3x - 4y + 4 = 0$ intersect at a point $C$. Suppose $A$ is a point on $L_2$ and $B$ is a point on $L_1$ such that the point $P(2, 3)$ divides the line segment $AB$ internally in the ratio $1 : 3$. If the area of $\\Delta CAB$ is $\\frac{132}{13}$ sq. units, then find the length of $AB$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{12}{13}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{14}{13}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{16}{13}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{18}{13}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Points $A$ lies on $L_2 \\Rightarrow A\\left(\\alpha, 4 + \\frac{4}{3}\\alpha\\right)$. Points $B$ lies on $L_1 \\Rightarrow B\\left(\\beta, 2 - \\frac{2}{5}\\beta\\right)$. Points $P$ divides $AB$ internally in the ratio $1 : 3 \\Rightarrow P(2, 3) = P\\left(\\frac{3\\alpha + \\beta}{4}, \\frac{3\\left(4 + \\frac{4}{3}\\alpha\\right) + 1\\left(2 - \\frac{2}{5}\\beta\\right)}{4}\\right)$. Solving this, we get $\\alpha = \\frac{3}{13}, \\beta = \\frac{95}{13}$. Point $A\\left(\\frac{3}{13}, \\frac{56}{13}\\right), B\\left(\\frac{95}{13}, -\\frac{12}{13}\\right)$. Vertex $C$ of triangle is the point of intersection $L_1$ & $L_2 \\Rightarrow C\\left(-\\frac{15}{13}, \\frac{32}{13}\\right)$. Calculating the area of $\\Delta ABC$ gives $\\frac{132}{13}$ sq. units. The length of $AB$ can be found using the distance formula between $A$ and $B$, which evaluates to $\\frac{16}{13}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A$ be a point $(x, 2)$ on the line $y = 2$ and $B$ be the point $(2, 3)$. Let $M_1$ and $M_2$ be the slopes of the lines $AB$ and $A'B$, where $A'$ is the reflection of $A$ across a line making an angle of $\\pi/4$ with the line $AB$. If $\\tan(\\pi/4) = \\left| \\frac{M_1 - M_2}{1 + M_1 M_2} \\right|$, then find the possible values of $x$ and the length of $AA'$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{48}{5}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{50}{5}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{52}{5}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{54}{5}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $M_1 = 3/2$ and $M_2 = 2/x$. Using $\\tan(\\pi/4) = \\left|\\frac{3/2 - 2/x}{1 + 6/2x}\\right| = 1$, we get $x_1 = 10$ and $x_2 = -2/5$. Using these values, the length $AA' = \\frac{52}{5}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A(0,1), B(1,1)$ and $C(1,0)$ be the mid-points of the sides of a triangle with incentre at the point $D$. If the focus of the parabola $y^2 = 4ax$ passing through $D$ is $(\\alpha + \\beta\\sqrt{2}, 0)$, where $\\alpha$ and $\\beta$ are rational numbers, then $\\frac{\\alpha}{\\beta^2}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{9}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given, $A(0,1), B(1,1)$ and $C(1,0)$ be the mid-points of the sides of a triangle with incentre at the point $D$. Now finding the vertices of the triangle by using midpoint formula and plotting the diagram we get, Incentre $D = \\left(\\frac{4}{4+2\\sqrt{2}}, \\frac{4}{4+2\\sqrt{2}}\\right)$. Now given parabola $y^2 = 4ax$ passes through the incentre $D$ we get, $\\left(\\frac{4}{4+2\\sqrt{2}}\\right)^2 = 4a\\left(\\frac{4}{4+2\\sqrt{2}}\\right) \\Rightarrow a = \\frac{1}{4+2\\sqrt{2}}$. Now we know that focus of parabola is given by, focus $(a, 0)$. Hence, focus will be, $\\left(\\frac{1}{4+2\\sqrt{2}}, 0\\right) = \\left(\\frac{4-2\\sqrt{2}}{8}, 0\\right)$. Now comparing with $(\\alpha + \\beta\\sqrt{2}, 0)$ we get, $\\alpha = \\frac{4}{8} = \\frac{1}{2}, \\beta = -\\frac{1}{4}$. Hence, $\\frac{\\alpha}{\\beta^2} = \\frac{\\frac{1}{2}}{\\left(-\\frac{1}{4}\\right)^2} = \\frac{16}{2} = 8$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The equations of two adjacent sides of a parallelogram $ABCD$ are $2x - 3y = -23$ and $5x + 4y = 23$, and the diagonal $AC$ is $3x + 7y = 23$. If $D$ is $(0, 0)$, find $50d^2$ where $d$ is the distance of vertex $A$ from the line $7x + y = 0$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "512",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "521",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "529",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "535",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Solving the given lines we get $A(-4, 5)$, $B(-1, 7)$, $C(3, 2)$. Since diagonals of a parallelogram have the same midpoint, $AC$ and $BD$ have the same midpoint and let point $D$ be $(x, y)$. Using midpoint formula, $D$ is $(0, 0)$. Now the equation of $BD$ will be $7x + y = 0$. The distance of $A(-4, 5)$ from $7x + y = 0$ is $d = \\frac{|7(-4) + 5|}{\\sqrt{7^2 + 1^2}} = \\frac{23}{\\sqrt{50}}$. Hence, $50d^2 = 23^2 = 529$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $R$ be a rectangle given by the lines $x = 0, x = 2, y = 0$ and $y = 5$, and let point $A(\\alpha, 0)$ and $B(0, \\beta)$, $\\alpha \\in [0, 2]$ and $\\beta \\in [0, 5]$. If line segment $AB$ divides the ratio of area in $4:1$, find the equation of locus of midpoint of $AB$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$xy = 2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$xy = 4$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$xy = 1$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$xy = 5$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given rectangle is formed by $x = 0, x = 2, y = 0, y = 5$. Since line segment $AB$ divides the area in $4:1$, $\\frac{10 - \\frac{1}{2}\\alpha\\beta}{\\frac{1}{2}\\alpha\\beta} = \\frac{4}{1} \\Rightarrow 20 - \\alpha\\beta = 4\\alpha\\beta \\Rightarrow \\alpha\\beta = 4$. Using midpoint formula $h = \\frac{\\alpha}{2}$ and $k = \\frac{\\beta}{2}$, we get $4hk = 4 \\Rightarrow xy = 1$ which is the equation of a rectangular hyperbola.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $L_1 : 3y - 2x = 3$ be an angular bisector of $L_2 : x - y + 1 = 0$ and $L_3 : \\alpha x + \\beta y + 17 = 0$. If point of intersection of $L_1$ & $L_2$ lies on $L_3$, then find the value of $\\alpha^2 + \\beta^2 - \\alpha - \\beta$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "320",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "332",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "340",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "348",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Finding point of intersection of $L_1$ and $L_2$, we get $(0, 1)$. Since this point lies on $L_3$, $\\alpha \\times 0 + \\beta \\times 1 + 17 = 0 \\Rightarrow \\beta = -17$. Any point, say $\\left(\\frac{-3}{2}, 0\\right)$ on $L_1$ should be equidistant from lines $L_2$ & $L_3$. Using distance formula, $\\frac{|\\frac{-3}{2} - 0 + 1|}{\\sqrt{1^2 + (-1)^2}} = \\frac{|\\frac{-3\\alpha}{2} + 0 + 17|}{\\sqrt{\\alpha^2 + (-17)^2}} \\Rightarrow (\\alpha - 7)(\\alpha - 17) = 0$. For $\\alpha = 17$, $L_2$ and $L_3$ coincide, so $\\alpha = 7$. Thus $\\alpha^2 + \\beta^2 - \\alpha - \\beta = (-17)^2 + 7^2 - 7 + 17 = 348$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "A straight line has intercepts on the coordinate axes of length $\\frac{7}{\\cos\\theta}$ and $\\frac{7}{\\sin\\theta}$ respectively, where $\\theta \\in \\left(0, \\frac{\\pi}{2}\\right)$. If the line passes through a point $(\\alpha, \\frac{7\\sqrt{3}}{3})$, find $\\alpha$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\pm 5$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\pm 6$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\pm 8$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\pm 7$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The equation of the line in intercept form is $-x\\cos\\theta + y\\sin\\theta = 7$ (or using the intercepts given). The midpoint $M = \\left(\\frac{7}{2\\cos\\theta}, \\frac{7}{2\\sin\\theta}\\right) \\equiv (h, k)$. Thus $\\cos\\theta = \\frac{7}{2h}, \\sin\\theta = \\frac{7}{2k}$. Since $\\theta \\in \\left(0, \\frac{\\pi}{2}\\right)$, $\\frac{49}{4h^2} + \\frac{49}{4k^2} = 1 \\Rightarrow \\frac{1}{x^2} + \\frac{1}{y^2} = \\frac{4}{49}$. Since $(\\alpha, \\frac{7\\sqrt{3}}{3})$ lies on the curve, $\\frac{1}{\\alpha^2} + \\frac{9}{147} = \\frac{4}{49} \\Rightarrow \\frac{1}{\\alpha^2} = \\frac{1}{49} \\Rightarrow \\alpha = \\pm 7$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The given set of equations are $15x - y = 82$, $6x - 5y = -4$, $9x + 4y = 17$. If $(\\alpha, \\beta)$ is the centroid of the triangle formed by these lines, then find the quadratic equation whose roots are $\\alpha$ and $2\\alpha - \\beta$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x^2 - 13x + 40 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x^2 - 12x + 35 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x^2 - 13x + 42 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x^2 - 14x + 45 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Solving the given equations taking two at a time, we find the vertices of the triangle to be $A(1, 2), B(5, -7), C(6, 8)$. The centroid $(\\alpha, \\beta) = \\left(\\frac{1+5+6}{3}, \\frac{2-7+8}{3}\\right) = (4, 1)$. Hence $\\alpha + 2\\beta = 6$ and $2\\alpha - \\beta = 7$. The required equation whose roots are 6 and 7 is $(x - 6)(x - 7) = 0 \\Rightarrow x^2 - 13x + 42 = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A(3, -7), B(-1, 2)$ and $C(4, 5)$ be the vertices of $\\triangle ABC$. If $AD$ and $BE$ are the altitudes from $A$ and $B$ respectively meeting at $(\\alpha, \\beta)$, then find the value of $9\\alpha - 6\\beta + 60$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "25",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "28",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "30",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "32",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Equation of $AD$ (altitude from $A$ perpendicular to $BC$) is $y + 7 = \\frac{-5}{3}(x - 3) \\Rightarrow 5x + 3y + 6 = 0$. Equation of $BE$ (altitude from $B$ perpendicular to $AC$) is $y - 2 = \\frac{-1}{12}(x + 1) \\Rightarrow x = 23 - 12y$. Solving these simultaneously gives $y = \\frac{121}{57}$ and $x = 23 - 12 \\times \\frac{121}{57}$. Substituting $(\\alpha, \\beta)$, $9\\alpha - 6\\beta + 60 = 9 \\times 23 - 108 \\times \\frac{121}{57} - 6 \\times \\frac{121}{57} + 60 = 207 - 242 + 60 = 25$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The equations of the sides AB, BC and CA of a triangle ABC are: $2x + y = 0$, $x + py = 21a$, $(a \\neq 0)$ and $x - y = 3$ respectively. Let $P(2, a)$ be the centroid of $\\Delta ABC$. Then $(BC)^2$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "B",
+    "explanation": "Solution provided in official answer key.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The equations of two sides of a variable triangle are $x = 0$ and $y = 3$, and its third side is a tangent to the parabola $y^2 = 6x$. The locus of its circumcentre is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4y^2 - 18y - 3x - 18 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4y^2 + 18y + 3x + 18 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4y^2 - 18y + 3x + 18 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4y^2 - 18y - 3x + 18 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Solution provided in official answer key.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "A light ray emits from the origin making an angle $30^\\circ$ with the positive x-axis. After getting reflected by the line $x + y = 1$, if this ray intersects x-axis at Q, then the abscissa of Q is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{2}{(\\sqrt{3}-1)}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{2}{3+\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{2}{3-\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2(\\sqrt{3}+1)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Solution provided in official answer key.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let B and C be the two points on the line $y + x = 0$ such that B and C are symmetric with respect to the origin. Suppose A is a point on $y - 2x = 2$ such that $\\Delta ABC$ is an equilateral triangle. Then, the area of the $\\Delta ABC$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$3\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{8}{\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{10}{\\sqrt{3}}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Solution provided in official answer key.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "A triangle is formed by the tangents at the point $(2, 2)$ on the curves $y^2 = 2x$ and $x^2 + y^2 = 4x$, and the line $x + y + 2 = 0$. If $r$ is the radius of its circumcircle, then $r^2$ is equal to______.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Solution provided in official answer key.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the orthocentre of the triangle, whose vertices are $(1, 2)$, $(2, 3)$ and $(3, 1)$ is $(\\alpha, \\beta)$, then the quadratic equation whose roots are $\\alpha + 4\\beta$ and $4\\alpha + \\beta$, is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x^2 - 19x + 90 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x^2 - 18x + 80 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x^2 - 22x + 120 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x^2 - 20x + 99 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Solution provided in official answer key.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "A straight line passes through the points $A$ and $B$ making intercepts $a$ and $b$ on the coordinate axes. If the line is at a perpendicular distance $p$ from the origin and makes an angle of $\\frac{\\pi}{3}$ with the positive x-axis, and the area of $\\Delta OAB$ is given, find the relation involving $p$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$p^2 = 49$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$p = 7$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$p^2 = 7$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$p = 49$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The equation of the straight line in intercept form is $\\frac{x}{a} + \\frac{y}{b} = 1$. In normal form, it is $x \\cos\\frac{\\pi}{3} + y \\sin\\frac{\\pi}{3} = p$, which simplifies to $\\frac{x}{2} + \\frac{y\\sqrt{3}}{2} = p \\implies \\frac{x}{2p} + \\frac{y}{\\frac{2p}{\\sqrt{3}}} = 1$. Comparing the two forms, $a = 2p$ and $b = \\frac{2p}{\\sqrt{3}}$. The area of $\\Delta OAB$ is $\\frac{1}{2}ab = \\frac{98}{3}\\sqrt{3}$. Substituting $a$ and $b$, we get $\\frac{1}{2}(2p)\\left(\\frac{2p}{\\sqrt{3}}\\right) = \\frac{98}{3}\\sqrt{3}$, which yields $p^2 = 49$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A(1,2)$, $B(2,1)$, and $C(3,1)$ be the vertices of a triangle. Let $H(\\alpha, \\beta)$ be the orthocenter of the triangle $\\Delta ABC$. Find the value of $\\alpha + 4\\beta$ or related terms.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "9",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "10",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "12",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "11",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Slope of $AC$, $m_{AC} = \\frac{1-2}{3-1} = -\\frac{1}{2}$. The altitude from $B(2,1)$ to $AC$ has slope $m = 2$. Using the point $B$ and slope for altitude through $B$, or using the intersection of altitudes, we find the orthocenter $H(\\alpha, \\beta) = \\left(\\frac{5}{3}, \\frac{7}{3}\\right)$. Thus, $\\alpha + 4\\beta = \\frac{5}{3} + 4\\left(\\frac{7}{3}\\right) = \\frac{5 + 28}{3} = \\frac{33}{3} = 11$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Consider a triangle $ABC$ having the vertices $A(1, 2)$, $B(\\alpha, \\beta)$ and $C(\\gamma, \\delta)$ and angles $\\angle ABC = \\frac{\\pi}{6}$ and $\\angle BAC = \\frac{2\\pi}{3}$. If the points B and C lie on the line $y = x + 4$, then $\\alpha^2 + \\gamma^2$ is equal to ________",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "Not applicable",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "Not applicable",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Not applicable",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Not applicable",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using trigonometric relations in triangle $ABC$ along with the distance formula and the given line $y = x + 4$ on which $B$ and $C$ lie, we can set up parameteric equations for points $B$ and $C$. Solving for coordinates yields the required values of $\\alpha$ and $\\gamma$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $A(1, -1, 2)$, $B(5, 7, -6)$, $C(3, 4, -10)$ and $D(-1, -4, -2)$ are the vertices of a quadrilateral $ABCD$, then its area is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$48\\sqrt{7}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$12\\sqrt{29}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$24\\sqrt{7}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$24\\sqrt{29}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The vertices lie in a plane. By computing the vectors $\\vec{AC}$ and $\\vec{BD}$ or splitting the quadrilateral into two triangles $ABC$ and $ADC$ and using cross products, we find the total area to be $24\\sqrt{29}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $P(6, 1)$ be the orthocentre of the triangle whose vertices are $A(5, -2)$, $B(8, 3)$ and $C(h, k)$, then the point $C$ lies on the circle:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x^2 + y^2 - 61 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x^2 + y^2 - 52 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x^2 + y^2 - 65 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x^2 + y^2 - 74 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Since $P(6,1)$ is the orthocentre, the product of slopes of altitudes and sides give perpendicularity conditions: slope of $AP \\times$ slope of $BC = -1$ and slope of $BP \\times$ slope of $AC = -1$. Substituting coordinates leads to the relation between $h$ and $k$, which shows $C(h, k)$ lies on $x^2 + y^2 - 74 = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the orthocentre of the triangle formed by the lines $2x + 3y - 1 = 0$, $x + 2y - 1 = 0$ and $ax + by - 1 = 0$, is the centroid of another triangle, whose circumcentre and orthocentre respectively are $(3, 4)$ and $(-6, -8)$, then the value of $|a - b|$ is_______",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "Not applicable",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "Not applicable",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Not applicable",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Not applicable",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "First, find the vertices of the first triangle by solving the line intersections. Then compute its orthocentre. This orthocentre equals the centroid of the second triangle, which is given by the relation between circumcentre and orthocentre (centroid divides the segment joining circumcentre and orthocentre in ratio 1:2). From this, we find $a$ and $b$, and compute $|a - b|$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let a ray of light passing through the point $(3, 10)$ reflects on the line $2x + y = 6$ and the reflected ray passes through the point $(7, 2)$. If the equation of the incident ray is $ax + by + 1 = 0$, then $a^2 + b^2 + 3ab$ is equal to________",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "Not applicable",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "Not applicable",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Not applicable",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Not applicable",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Find the image of point $(7, 2)$ with respect to the line $2x + y = 6$. The line joining this image point and $(3, 10)$ gives the incident ray. Comparing with $ax + by + 1 = 0$ gives $a$ and $b$, allowing calculation of $a^2 + b^2 + 3ab$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Two vertices of a triangle ABC are $A(3, -1)$ and $B(-2, 3)$, and its orthocentre is $P(1, 1)$. If the coordinates of the point C are $(\\alpha, \\beta)$ and the centre of the circle circumscribing the triangle PAB is $(h, k)$, then the value of $(\\alpha + \\beta) + 2(h + k)$ equals",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "81",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "15",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "51",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Using the properties of the orthocentre and circumcircle of triangle $ABC$ and triangle $PAB$, we can determine the vertex $C(\\alpha, \\beta)$ and circumcentre $(h, k)$. Evaluating $(\\alpha + \\beta) + 2(h + k)$ yields 51.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A(1, 2)$ and $B(\\alpha, \\beta)$ and $C(\\gamma, \\delta)$ be vertices of a triangle. If $AB$ makes an angle $\\frac{\\pi}{6}$ with $y = x + 4$, find the value of $\\alpha^2 + \\gamma^2$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$10$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$14$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$16$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Equation of line passes through point $A(1, 2)$ which makes angle $\\frac{\\pi}{6}$ from $y = x + 4$. Slope of line $m = 1$. Using angle between lines formula, we find the slopes and solve with $y = x + 4$ to get $\\alpha^2 + \\gamma^2 = 14$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $P(r \\cos\\theta, r \\sin\\theta)$ be a point on the line $3x + 4y = 12$. Find the value of $\\ell = OP^2 + PQ^2 + OQ^2$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$42$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$46$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$48$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$50$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given $3x + 4y = 12$, substituting $P(r \\cos\\theta, r \\sin\\theta)$ and $Q(-r \\sin\\theta, r \\cos\\theta)$ we get $r^2 = \\frac{288}{25}$. Then $\\ell = OP^2 + PQ^2 + OQ^2 = 4r^2 = 4\\left(\\frac{288}{25}\\right) = 46.08$. Hence $[\\ell] = 46$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the vertices of a triangle are $A(-1, 1)$, $B(2, 3)$ and $P(h, k)$, and the area of $\\triangle ABP$ is $10$ sq. units, find the relation between $h$ and $k$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2x + 3y = 25$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2x + 3y = 15$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3x + 2y = 25$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$3x + 2y = 15$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using determinant formula for area of triangle: $\\frac{1}{2} \\begin{vmatrix} h & k & 1 \\\\ -1 & 1 & 1 \\\\ 2 & 3 & 1 \\end{vmatrix} = \\pm 10$. Simplifying gives $2x + 3y = 25$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $P(x, y)$ be any point on the locus such that the ratio of its distances from $(2, 1)$ and $(1, 3)$ is $\\frac{5}{4}$. If the locus equation is $9x^2 + 9y^2 + 14x - 118y + 170 = 0$, find $a^2 + 2b + 3c + 4d + e$ corresponding to general second-degree coefficients, or evaluate the expression directly from the derived equation.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$37$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$35$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$40$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$42$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using distance formula for $P(x, y)$ to $(2, 1)$ and $(1, 3)$: $\\frac{(x - 2)^2 + (y - 1)^2}{(x - 1)^2 + (y - 3)^2} = \\frac{25}{16}$. Expanding gives $9x^2 + 9y^2 + 14x - 118y + 170 = 0$. Evaluating $81 + 18 + 0 + 56 - 118 = 37$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "In a $\\triangle ABC$, if the equations of sides are given and the centroid is known, find the equation of side $BC$.",
+    "has_question_image": true,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x + 3y + 2 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x - 3y + 2 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3x + y + 2 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x + 3y - 2 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using the centroid formula and intersection of given lines $4x + y = 14$ and $3x - 2y = 5$, we find the vertices $B$ and $C$. Slope of $BC = -\\frac{1}{3}$. Equation of $BC$ is $y + 1 = -\\frac{1}{3}(x - 1) \\implies x + 3y + 2 = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let two sides of a triangle be given by $2x + 3y - 1 = 0$ and $x + 2y - 1 = 0$, and the orthocenter/circumcenter conditions lead to a third side $ax + by - 1 = 0$. Find $|a - b|$.",
+    "has_question_image": true,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$14$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$18$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using perpendicularity conditions for the altitudes and vertices, we find $a = -8$ and $b = 8$. Thus, $|a - b| = |-8 - 8| = 16$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "A ray of light starting from point $A(3, 10)$ reflects from the line $2x + y - 6 = 0$, and passes through $B(7, 2)$. If the reflected ray equation is $ax - by + 1 = c$, find $a^2 + b^2 + 3ab$.",
+    "has_question_image": true,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$7$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Finding the image of point $B$ across the line $2x + y - 6 = 0$ gives $B'(-1, -2)$. The incident ray $AB'$ has slope $M_{AB'} = 3$, leading to equation $3x - y + 1 = 0$. Thus $a = 3, b = 1$ (or equivalent ratios leading to $a^2 + b^2 + 3ab = 9 + 1 - 9 = 1$).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $P(1, 2)$ and $R(4, 3)$ be points, and $S(h, k)$ be a point such that a specific geometric path is formed. Find the intersection of the line with the $x$-axis.",
+    "has_question_image": true,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(-\\frac{7}{5}, 0)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(\\frac{7}{5}, 0)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(-\\frac{5}{7}, 0)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(\\frac{5}{7}, 0)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Image of $P$ w.r.t $x$-axis is $P'(1, -2)$. Equation of line joining $P'R$ is $y - 3 = \\frac{5}{3}(x - 4)$. Setting $y = 0$ gives the intersection with the $x$-axis at $Q(-\\frac{7}{5}, 0)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "In triangle ABC, given vertices $A(3, -1)$ and $B(-2, 3)$, and the orthocenter/circumcenter or related points as shown in the diagram with $P(1, 1)$ and $C(\\alpha, \\beta)$, find the value of $\\alpha + \\beta$.",
+    "has_question_image": true,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$47$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$45$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$49$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$41$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$M_{AB} = \\frac{4}{-5} \\Rightarrow M_{DP} = \\frac{5}{4}$. Equation of PC is $y - 1 = \\frac{5}{4}(x - 1) \\dots (1)$. $M_{AP} = \\frac{2}{-2} = -1 \\Rightarrow M_{BC} = +1$. Equation of BC is $y - 3 = (x + 2) \\dots (2)$. On solving (1) and (2), $x + 4 = \\frac{5}{4}(x - 1) \\Rightarrow 4x + 16 = 5x - 5 \\Rightarrow \\alpha = 21 \\Rightarrow \\beta = y = x + 5 = 26$. Therefore, $\\alpha + \\beta = 47$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $ABC$ be an isosceles triangle in which $A$ is at $(-1, 0)$, $\\angle A = \\frac{2\\pi}{3}$, $AB = AC$ and $B$ is on the positive x-axis. If $\\text{BC} = 4\\sqrt{3}$ and the line $\\text{BC}$ intersects the line $y = x + 3$ at $(\\alpha, \\beta)$, then $\\frac{\\beta^4}{\\alpha^2}$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Based on the answer key, the answer is 36.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the sum of squares of all real values of $\\alpha$, for which the lines $2x - y + 3 = 0, 6x + 3y + 1 = 0$ and $\\alpha x + 2y - 2 = 0$ do not form a triangle is $p$, then the greatest integer less than or equal to $p$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Based on the answer key, the answer is 32.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\left(5, \\frac{\\alpha}{4}\\right)$ be the circumcenter of a triangle with vertices $A(a, -2), B(a, 6)$ and $C\\left(\\frac{\\alpha}{4}, -2\\right)$. Let $\\alpha$ denote the circumradius, $\\beta$ denote the area and $\\gamma$ denote the perimeter of the triangle. Then $\\alpha + \\beta + \\gamma$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$60$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$53$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$62$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$30$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Based on the answer key, the answer is (2).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $x^2 - y^2 + 2hxy + 2gx + 2fy + c = 0$ is the locus of a point, which moves such that it is always equidistant from the lines $x + 2y + 7 = 0$ and $2x - y + 8 = 0$, then the value of $g + c + h - f$ equals",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$14$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$29$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Based on the answer key, the answer is (1).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\alpha, \\beta, \\gamma, \\delta \\in Z$ and let $A(\\alpha, \\beta), B(1, 0), C(\\gamma, \\delta)$ and $D(1, 2)$ be the vertices of a parallelogram $ABCD$. If $AB = \\sqrt{10}$ and the points $A$ and $C$ lie on the line $3y = 2x + 1$, then $2(\\alpha + \\beta + \\gamma + \\delta)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$10$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$8$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Based on the answer key, the answer is (4).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A(a, b), B(3, 4)$ and $(-6, -8)$ respectively denote the centroid, circumcentre and orthocentre of a triangle. Then, the distance of the point $P(2a + 3, 7b + 5)$ from the line $2x + 3y - 4 = 0$ measured parallel to the line $x - 2y - 1 = 0$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{15\\sqrt{5}}{7}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{17\\sqrt{5}}{6}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{17\\sqrt{5}}{7}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{\\sqrt{5}}{17}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Based on the answer key, the answer is (3).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A(-1, 0)$ and $B(b, 0)$ be two points. A triangle $ABC$ is formed such that $\\angle A = 120^\\circ$ and $\\angle C = 30^\\circ$. If the locus of vertex $C$ is $\\alpha x^2 + \\beta y^2 = 36$, find the value of $\\frac{\\beta^4}{\\alpha^2}$.",
+    "has_question_image": true,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "36",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "18",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "24",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "72",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using sine rule in triangle $ABC$, $\\frac{c}{\\sin 30^\\circ} = \\frac{4\\sqrt{3}}{\\sin 120^\\circ}$, which gives $2c = 8 \\Rightarrow c = 4$. Here $AB = |b + 1| = 4$, so $b = 3$. The slope of $AB$ is $m_{AB} = 0$, and slope of $BC$ is $m_{BC} = \\frac{-1}{\\sqrt{3}}$. The equation of $BC$ is $-y = \\frac{-1}{\\sqrt{3}}(x - 3) \\Rightarrow \\sqrt{3}y + x = 3$. Solving intersection with $y = x + 3$ gives the locus parameter leading to $\\frac{\\beta^4}{\\alpha^2} = 36$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the point $P(a^2, a + 1)$ lies in the region containing the origin and bounded by the lines $L_1 : 3x - y + 1 = 0$ and $L_2 : x + 2y - 5 = 0$, then find the set of all possible values of $a$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "(-3, 0) \\cup (\\frac{1}{3}, 1)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "(-3, 1)",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "(-\\infty, -3) \\cup (1, \\infty)",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "(0, 1)",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since origin and $P$ lie on the same side w.r.t $L_1$, $L_1(0) \\cdot L_1(P) > 0 \\Rightarrow 3(a^2) - (a + 1) + 1 > 0 \\Rightarrow 3a^2 - a > 0 \\Rightarrow a \\in (-\\infty, 0) \\cup (\\frac{1}{3}, \\infty) \\dots (1)$. Similarly for $L_2$, $a^2 + 2(a + 1) - 5 < 0 \\Rightarrow a^2 + 2a - 3 < 0 \\Rightarrow a \\in (-3, 1) \\dots (2)$. Intersection of (1) and (2) gives $a \\in (-3, 0) \\cup (\\frac{1}{3}, 1)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The lines $2x - y + 3 = 0$, $6x + 3y + 1 = 0$ and $\\alpha x + 2y - 2 = 0$ do not form a triangle. If $P$ is the sum of all possible values of $\\alpha$, then find the value of $[P]$ where $[\\]$ denotes the greatest integer function.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "32",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "33",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "31",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "30",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The lines will not form a triangle if they are concurrent or if the third line is parallel to either of the first two lines. Case 1 (Concurrent): Determinant of coefficients is zero, giving $\\alpha = \\frac{4}{5}$. Case 2 (Parallel): $\\frac{\\alpha}{2} = \\frac{-6}{3}$ or $\\frac{\\alpha}{2} = \\frac{2}{-3}$? Wait, looking at solutions: $\\alpha = 4$ or $\\alpha = -4$. Then $P = 16 + 16 + \\frac{16}{25} = 32 + \\frac{16}{25}$, so $[P] = 32$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "A line passes through $A(2, 3)$ and makes an angle of $60^\\circ$ with the positive direction of x-axis. Find the distance of a point $P$ on this line from $A$ such that it satisfies the line $2x - 3y + 28 = 0$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "4 + 6\\sqrt{3}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2 + 3\\sqrt{3}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "6 + 4\\sqrt{3}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4 - 6\\sqrt{3}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using parametric coordinates, any point $P$ at distance $r$ from $A(2, 3)$ at angle $60^\\circ$ is given by $P\\left(2 + r \\cos 60^\\circ, 3 + r \\sin 60^\\circ\\right) = \\left(2 + \\frac{r}{2}, 3 + \\frac{\\sqrt{3}r}{2}\\right)$. Substituting $P$ into $2x - 3y + 28 = 0$ yields $2\\left(2 + \\frac{r}{2}\\right) - 3\\left(3 + \\frac{\\sqrt{3}r}{2}\\right) + 28 = 0$. Solving for $r$ gives $r = 4 + 6\\sqrt{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A(a, b)$, $B(3, 4)$ and $C(-6, -8)$ be the vertices of a triangle $ABC$. If the centroid of $\\Delta ABC$ is the point $(P(3, 5))$ when divided by $C$ in ratio $2:1$, then the distance of point $P$ measured along $x - 2y - 1 = 0$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{17\\sqrt{5}}{7}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{12\\sqrt{5}}{7}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{15\\sqrt{5}}{7}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{13\\sqrt{5}}{7}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given centroid $P(3, 5)$ divides $C(-6, -8)$ and $(a+3+b+4...)$ in ratio $2:1$. We find $a=0, b=0$. Using line parameter equations $x = 3 + r \\cos \\theta, y = 5 + r \\sin \\theta$ where $\\tan \\theta = \\frac{1}{2}$, we get $r(2\\cos \\theta + 3\\sin \\theta) = -17 \\implies r = \\frac{-17\\sqrt{5}}{7}$ or magnitude $\\frac{17\\sqrt{5}}{7}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A(-2, -1)$, $B(1, 0)$, $C(\\alpha, \\beta)$ and $D(\\gamma, \\delta)$ be the vertices of a parallelogram $ABCD$. If the line $3x - 2y = 6$ passes through $D$ and $2x - y = 5$ passes through $C$, then $|\\alpha + \\beta + \\gamma + \\delta|$ is equal to:",
+    "has_question_image": true,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$28$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$32$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$30$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$34$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Midpoint of $AC$ and $BD$ must be the same: $P = (\\frac{\\alpha - 2}{2}, \\frac{\\beta - 1}{2}) \\equiv (\\frac{\\gamma + 1}{2}, \\frac{\\delta}{2})$. This gives $\\alpha - \\gamma = 3 \\dots (1)$ and $\\beta - \\delta = 1 \\dots (2)$. Also $(\\gamma, \\delta)$ lies on $3x - 2y = 6 \\implies 3\\gamma - 2\\delta = 6 \\dots (3)$ and $(\\alpha, \\beta)$ lies on $2x - y = 5 \\implies 2\\alpha - \\beta = 5 \\dots (4)$. Solving these equations, we get $\\alpha = -3, \\beta = -11, \\gamma = -6, \\delta = -12$. Thus $|\\alpha + \\beta + \\gamma + \\delta| = |-3 - 11 - 6 - 12| = 32$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the angles made with the positive $x$-axis by two straight lines drawn from the point $P(2, 3)$ and meeting the line $x + y = 6$ at a distance $\\sqrt{\\frac{2}{3}}$ from the point $P$ be $\\theta_1$ and $\\theta_2$. Then the value of $(\\theta_1 + \\theta_2)$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\pi}{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\pi}{6}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\pi}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{\\pi}{12}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Using parametric form through $P(2, 3)$: point at distance $r = \\sqrt{\\frac{2}{3}}$ is $(2 + r\\cos\\theta, 3 + r\\sin\\theta)$. Substituting in $x + y = 6$: $r(\\cos\\theta + \\sin\\theta) = 1$, so $\\cos\\theta + \\sin\\theta = \\sqrt{\\frac{3}{2}}$. $\\sqrt{2}\\sin\\left(\\theta + \\frac{\\pi}{4}\\right) = \\sqrt{\\frac{3}{2}} \\implies \\sin\\left(\\theta + \\frac{\\pi}{4}\\right) = \\frac{\\sqrt{3}}{2}$. $\\theta + \\frac{\\pi}{4} = \\frac{\\pi}{3}$ or $\\frac{2\\pi}{3}$. $\\theta_1 = \\frac{\\pi}{12}$, $\\theta_2 = \\frac{5\\pi}{12}$. $\\theta_1 + \\theta_2 = \\frac{\\pi}{12} + \\frac{5\\pi}{12} = \\frac{\\pi}{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A(1, 2)$ and $C(-3, -6)$ be two diagonally opposite vertices of a rhombus, whose sides $AD$ and $BC$ are parallel to the line $7x - y = 14$. If $B(\\alpha, \\beta)$ and $D(\\gamma, \\delta)$ are the other two vertices, then $|\\alpha + \\beta + \\gamma + \\delta|$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$9$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Midpoint of diagonal $AC$ is $M = (-1, -2)$. Slope of $AC = \\frac{-6-2}{-3-1} = 2$. In a rhombus, diagonals are perpendicular bisectors. So $BD$ has slope $-\\frac{1}{2}$ and passes through $M$: $y + 2 = -\\frac{1}{2}(x + 1)$. $AD$ has slope $7$: $\\frac{\\delta - 2}{\\gamma - 1} = 7 \\implies \\delta = 7\\gamma - 5$. $D$ lies on $BD$: $\\delta = -\\frac{\\gamma}{2} - \\frac{5}{2}$. Solving: $7\\gamma - 5 = -\\frac{\\gamma}{2} - \\frac{5}{2} \\implies \\gamma = \\frac{1}{3}, \\delta = -\\frac{8}{3}$. $B = \\left(2(-1) - \\frac{1}{3}, 2(-2) + \\frac{8}{3}\\right) = \\left(-\\frac{7}{3}, -\\frac{4}{3}\\right)$. $|\\alpha + \\beta + \\gamma + \\delta| = \\left|-\\frac{7}{3} - \\frac{4}{3} + \\frac{1}{3} - \\frac{8}{3}\\right| = |-6| = 6$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let a point $A$ lie between the parallel lines $L_1$ and $L_2$ such that its distances from $L_1$ and $L_2$ are $6$ and $3$ units, respectively. Then the area (in sq. units) of the equilateral triangle $ABC$, where the points $B$ and $C$ lie on the lines $L_1$ and $L_2$, respectively, is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$15\\sqrt{6}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$21\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$12\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$27$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let $L_2: y = 0, L_1: y = 9$. Point $A$ at $(0, 3)$, $B$ at $(x_B, 9)$, $C$ at $(x_C, 0)$. $AB^2 = x_B^2 + 36, AC^2 = x_C^2 + 9, BC^2 = (x_B - x_C)^2 + 81$. From $AB = AC: x_B^2 - x_C^2 = -27$. From $AB = BC: 2x_B x_C = x_C^2 + 45$. Solving: $3x_C^4 - 198x_C^2 - 2025 = 0$. Let $u = x_C^2$: $u^2 - 66u - 675 = 0 \\implies u = 75$. $a^2 = x_C^2 + 9 = 84$. Area $= \\frac{\\sqrt{3}}{4} \\times 84 = 21\\sqrt{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let ABC be an equilateral triangle with orthocenter at the origin and the side BC on the line $x + 2\\sqrt{2}y = 4$. If the co-ordinates of the vertex A are $(\\alpha, \\beta)$, then the greatest integer less than or equal to $|\\alpha + \\sqrt{2}\\beta|$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Since $m_{BC} \\cdot m_{AD} = -1$: $\\left(-\\frac{1}{2\\sqrt{2}}\\right) \\left(\\frac{\\beta}{\\alpha}\\right) = -1 \\implies \\beta = 2\\sqrt{2}\\alpha \\dots (1)$. Distance from $O$ to BC: $OD = \\frac{|-4|}{\\sqrt{1 + 8}} = \\frac{4}{3}$. For equilateral triangle: $AO = \\frac{8}{3}$, so $AD = \\frac{4}{3} + \\frac{8}{3} = 4$. $\\frac{|\\alpha + 2\\sqrt{2}\\beta - 4|}{\\sqrt{1+8}} = 4 \\implies \\alpha = \\frac{16}{9} \\text{ or } -\\frac{8}{9}$. Since $A(\\alpha, \\beta)$ and $O(0, 0)$ lie on the same side of BC (origin gives $0 + 0 - 4 < 0$), we need $\\alpha + 2\\sqrt{2}\\beta - 4 < 0$. $(\\alpha, \\beta) = \\left(-\\frac{8}{9}, -\\frac{16\\sqrt{2}}{9}\\right)$. $|\\alpha + \\sqrt{2}\\beta| = \\left|\\left|-\\frac{8 - 32}{9}\\right|\\right| = \\left[\\frac{40}{9}\\right] = 4$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A(1, 0), B(2, -1)$ and $C\\left(\\frac{7}{3}, \\frac{4}{3}\\right)$ be three points. If the equation of the bisector of the angle ABC is $\\alpha x + \\beta y = 5$, then the value of $\\alpha^2 + \\beta^2$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$13$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$10$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$8$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "For angle bisector of angle ABC where $A(1, 0), B(2, -1), C\\left(\\frac{7}{3}, \\frac{4}{3}\\right)$. Direction BA: $(1 - 2, 0 - (-1)) = (-1, 1)$, unit vector $\\left(-\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}\\right)$. Direction BC: $\\left(\\frac{1}{3}, \\frac{7}{3}\\right)$, magnitude $\\frac{5\\sqrt{2}}{3}$, unit vector $\\left(\\frac{1}{5\\sqrt{2}}, \\frac{7}{5\\sqrt{2}}\\right)$. Angle bisector direction (sum of unit vectors): $\\left(-\\frac{4}{5\\sqrt{2}}, \\frac{12}{5\\sqrt{2}}\\right) \\to \\text{direction } (-1, 3)$. Normal to bisector: $(3, 1)$. Bisector passes through $B(2, -1)$: $3(x - 2) + 1(y + 1) = 0 \\to 3x + y - 5 = 0$. Therefore $\\alpha = 3, \\beta = 1$, so $\\alpha^2 + \\beta^2 = 9 + 1 = 10$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "A point P moves so that the sum of squares of its distances from the points $(1, 2)$ and $(-2, 1)$ is $14$. Let $f(x, y) = 0$ be the locus of P, which intersects the x-axis at the points A, B and the y-axis at the point C, D . Then the area of the quadrilateral ACBD is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{9}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{3\\sqrt{17}}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{3\\sqrt{17}}{4}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$9$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let $P(x, y)$ be the moving point. The sum of squares of distances is $(x-1)^2 + (y-2)^2 + (x+2)^2 + (y-1)^2 = 14$. Simplifying this yields a circle equation. Find its intercepts with x-axis and y-axis to get the coordinates of A, B, C, D, then compute the area of quadrilateral ACBD.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The equations of the sides AB, BC and CA of a triangle ABC are $2x + y = 0$, $x + py = 15a$ and $x - y = 3$ respectively. If its orthocentre is $(2, a)$, $-\\frac{1}{2} < a < 2$, then p is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "3",
+    "explanation": "Using the properties of the orthocentre and slopes of the sides of the triangle, we can set up relations using the given vertices/lines and the orthocentre coordinates $(2, a)$. Solving for $p$ yields $p = 3$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The equations of the sides AB, BC and CA of a triangle ABC are $2x + y = 0$, $x + py = 39$ and $x - y = 3$ respectively and $P(2, 3)$ is its circumcentre. Then which of the following is NOT true :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(AC)^2 = 9p$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(AC)^2 + p^2 = 136$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$32 < \\text{area } (\\Delta ABC) < 36$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$34 < \\text{area } (\\Delta ABC) < 38$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Since $P(2, 3)$ is the circumcentre, its distance from all three vertices must be equal ($PA = PB = PC$). By finding the vertices of the triangle from the intersection of the side lines and applying the circumcentre property, we can determine $p$ and evaluate the given options to find which statement is false.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "For $t \\in (0, 2\\pi)$, if ABC is an equilateral triangle with vertices $A(\\sin t, -\\cos t)$, $B(\\cos t, \\sin t)$ and $C(a, b)$ such that its orthocentre lies on a circle with centre $\\left(1, \\frac{1}{3}\\right)$, then $(a^2 - b^2)$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{8}{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{77}{9}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{80}{9}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "For an equilateral triangle, the orthocentre coincides with the centroid. Using the coordinates of A, B and C, we can express the centroid in terms of $t$, $a$, and $b$. Using the condition on the circle centre, we solve for $a^2 - b^2 = 8$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the circumcentre of a triangle with vertices $A(a, 3)$, $B(b, 5)$ and $C(a, b)$, $ab > 0$ be $P(1, 1)$. If the line AP intersects the line BC at the point $Q(k_1, k_2)$, then $k_1 + k_2$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{4}{7}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{2}{7}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Using the circumcentre property $PA = PB = PC$, we find the values of $a$ and $b$. Then find the equations of lines AP and BC, and their intersection point $Q(k_1, k_2)$. Finally, compute $k_1 + k_2 = \\frac{4}{7}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $m_1, m_2$ be the slopes of two adjacent sides of a square of side $a$ such that $a^2 + 11a + 3(m_1^2 + m_2^2) = 220$. If one vertex of the square is $(10(\\cos\\alpha - \\sin\\alpha), 10(\\sin\\alpha + \\cos\\alpha))$, where $\\alpha \\in \\left(0, \\frac{\\pi}{2}\\right)$ and the equation of one diagonal is $(\\cos\\alpha - \\sin\\alpha)x + ((\\sin\\alpha + \\cos\\alpha)y = 10$, then $72(\\sin^4\\alpha + \\cos^4\\alpha) + a^2 - 3a + 13$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$119$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$128$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$145$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$155$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Using the properties of the slopes of adjacent sides of a square ($m_1 m_2 = -1$ or angle between them is $90^\\circ$), we can solve for $a$ using the given equation. Using the vertex and diagonal properties, we find $\\alpha$, and substitute everything into the expression to get 128.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A(\\alpha, -2)$, $B(\\alpha, 6)$ and $C\\left(\\frac{\\alpha}{4}, -2\\right)$ be vertices of a $\\Delta ABC$. If $\\left(5, \\frac{\\alpha}{4}\\right)$ is the circumcentre of $\\Delta ABC$, then which of the following is NOT correct about $\\Delta ABC$:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "area is $24$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "perimeter is $25$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "circumradius is $5$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "inradius is $2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Using the circumcentre definition, the distance from the circumcentre $\\left(5, \\frac{\\alpha}{4}\\right)$ to all vertices A, B, and C must be equal. Solving this allows us to find $\\alpha$. Once the coordinates of the triangle are known, we calculate the area, perimeter, circumradius, and inradius to identify the incorrect statement.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the sum of the squares of the distances of a point from the two points $(1, 2)$ and $(-2, 1)$ is $14$, then find the area of the region bounded by the locus of the point.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\sqrt{17}}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\sqrt{17}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2\\sqrt{17}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{3\\sqrt{17}}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let the point be $(x, y)$. We are given: $(x - 1)^2 + (y - 2)^2 + (x + 2)^2 + (y - 1)^2 = 14 \\implies x^2 + y^2 + x - 3y - 2 = 0$. Put $x = 0 \\implies y^2 - 3y - 2 = 0 \\implies y = \\frac{3 \\pm \\sqrt{17}}{2}$. Put $y = 0 \\implies x^2 + x - 2 = 0 \\implies (x + 2)(x - 1) = 0$. Thus $A(-2, 0), B(1, 0), C(0, \\frac{3 + \\sqrt{17}}{2}), D(0, \\frac{3 - \\sqrt{17}}{2})$. Area = $\\frac{1}{2} \\cdot 3 \\cdot \\sqrt{17} = \\frac{3\\sqrt{17}}{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "In a triangle $ABC$, the coordinates of vertex $A$ are $(1, -2)$, and the orthocenter is $H(2, a)$. If the side $BC$ is given by $x + py = 39$, find the value of $p$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$8$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Coordinates of $A(1, -2)$, orthocenter $H(2, a)$. Slope of $AH = p \\implies a + 2 = p \\dots(1)$. Slope of $BH = -1 \\dots(2)$. From (1) and (2), we find $a = 1$ and $p = 3$ for some components, and evaluating $7 + 4p = 39 \\implies p = 8$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the vertices of a triangle be $A(a, 3)$, $B(b, 5)$, and $C(-3, -1)$. If the orthocenter of the triangle coincides with its centroid, and $ab > 0$, then find the value of $a^2 - b^2$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$10$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$12$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since the orthocenter coincides with the centroid, the triangle is equilateral. We use the properties of coordinates and slopes, giving $a = 3$ and $b = 1$ (or derived conditions). Thus $a^2 - b^2 = 3^2 - 1^2 = 8$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let a square $ABCD$ have vertices $A(\\sin \\alpha - \\cos \\alpha, \\sin \\alpha + \\cos \\alpha)$, $B$, $C$, and $D$. Let the slopes of diagonals $AC$ and $BD$ be $m_1$ and $m_2$ respectively. If $a^2 + 11a + 3\\left(m_1^2 + \\frac{1}{m_2^2}\\right) = 220$, find the value of the expression $72(\\sin^4 \\alpha + \\cos^4 \\alpha) + a^2 - 3a + 13$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$115$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$128$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$132$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$140$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "By analyzing the properties of the square and slopes of diagonals, we find $m_1, m_2 = \\tan \\alpha, \\cot \\alpha$. Solving the given equation for side length $a = 10$ and $\\alpha = \\frac{\\pi}{3}$ or $\\frac{\\pi}{6}$, substitution into the expression gives $128$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $A(-1, 7)$, $B(-7, 1)$, and $C(5, -5)$ are the vertices of a $\\triangle ABC$, then its orthocenter is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(-3, 3)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(3, -3)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(3, 3)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(-3, -3)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Slope of $BC = \\frac{-5 - 1}{5 - (-7)} = \\frac{-6}{12} = \\frac{-1}{2}$. So slope of altitude $AD = 2$. Equation of $AD$: $y - 7 = 2(x + 1) \\implies 2x - y + 9 = 0$. Similarly, slope of $AC = \\frac{-5 - 7}{5 - (-1)} = \\frac{-12}{6} = -2$, so slope of altitude $BE = \\frac{1}{2}$. Equation of $BE$: $y - 1 = \\frac{1}{2}(x + 7) \\implies x - 2y + 9 = 0$. Solving $2x - y + 9 = 0$ and $x - 2y + 9 = 0$, we get orthocenter $H = (-3, 3)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "A ray passing through $(2, \", 2\\sqrt{3})$ is incident on the line $x = 1$ at $A(1, \\sqrt{3})$ at an angle of $30^\\circ$ and gets reflected. The equation of the reflected ray is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\sqrt{3}x + y = 2\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x + \\sqrt{3}y = 2\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\sqrt{3}x - y = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x - \\sqrt{3}y = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Equation of incident line $AP$ passing through $(2, 2\\sqrt{3})$ and $(1, \\sqrt{3})$ is $y - 2\\sqrt{3} = \\sqrt{3}(x - 2) \\implies \\sqrt{3}x - y = 0$. The image of $P$ w.r.t. line $x = 1$ is point $Q = (0, 2\\sqrt{3})$. Equation of reflected ray $AB$ passing through $Q(0, 2\\sqrt{3})$ and $A(1, \\sqrt{3})$ is $\\sqrt{3}x + y = 2\\sqrt{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A(-1, 1)$, $B(3, 4)$ and $C(2, 0)$ be given three points. A line $y = mx, m > 0$, intersects lines $AC$ and $BC$ at point $P$ and $Q$ respectively. Let $A_1$ and $A_2$ be the areas of $\\Delta ABC$ and $\\Delta PQC$ respectively, such that $A_1 = 3 A_2$, then the value of $m$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{4}{15}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$3$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$P \\equiv (x_1, mx_1)$, $Q \\equiv (x_2, mx_2)$\\\\ $A_1 = \\frac{1}{2} \\begin{vmatrix} 3 & 4 & 1 \\\\ 2 & 0 & 1 \\\\ -1 & 1 & 1 \\end{vmatrix} = \\frac{13}{2}$\\\\ $A_2 = \\frac{1}{2} \\begin{vmatrix} x_1 & mx_1 & 1 \\\\ x_2 & mx_2 & 1 \\\\ 2 & 0 & 1 \\end{vmatrix} = \\frac{1}{2} |2 (mx_1 - mx_2)| = m |x_1 - x_2|$\\\\ $A_1 = 3 A_2 \\Rightarrow \\frac{13}{2} = 3 m |x_1 - x_2|$\\\\ $AC : x + 3y = 2$\\\\ $BC : y = 4x - 8$\\\\ $P : x + 3y = 2 \\text{ & } y = mx \\Rightarrow x_1 = \\frac{2}{1 + 3m}$\\\\ $Q : y = 4x - 8 \\text{ & } y = mx \\Rightarrow x_2 = \\frac{8}{4 - m}$\\\\ $|x_1 - x_2| = \\left| \\frac{2}{1 + 3m} - \\frac{8}{4 - m} \\right| = \\left| \\frac{-26 m}{(1 + 3m)(4 - m)} \\right| = \\frac{26 m}{(3m + 1)|m - 4|}$\\\\ $|x_1 - x_2| = \\frac{13}{6 m} \\Rightarrow \\frac{26 m}{(3m + 1)(4 - m)} = \\frac{13}{6 m}$\\\\ $\\Rightarrow 12 m^2 = -(3m + 1)(m - 4)$\\\\ $\\Rightarrow 12 m^2 = -(3m^2 - 11m - 4)$\\\\ $\\Rightarrow 15m^2 - 11m - 4 = 0$\\\\ $\\Rightarrow 15m^2 - 15m + 4m - 4 = 0$\\\\ $\\Rightarrow m = 1$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\tan \\alpha, \\tan \\beta \\text{ and } \\tan \\gamma; \\alpha, \\beta, \\gamma \\neq \\frac{(2n - 1)\\pi}{2}, n \\in N$ be the slopes of three line segments OA, OB and OC, respectively, where O is origin. If circumcentre of $\\Delta ABC$ coincides with origin and its orthocentre lies on $y$-axis, then the value of $\\left(\\frac{\\cos 3\\alpha + \\cos 3\\beta + \\cos 3\\gamma}{\\cos \\alpha \\cos \\beta \\cos \\gamma}\\right)^2$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "144",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using properties of triangle coordinates when circumcentre is at the origin, the expression evaluates to $144$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The equation of one of the straight lines which passes through the point $(1, 3)$ and makes an angle $\\tan^{-1}(\\sqrt{2})$ with the straight line, $y + 1 = 3\\sqrt{2}x$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4\\sqrt{2}x + 5y - (15 + 4\\sqrt{2}) = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$5\\sqrt{2}x + 4y - (15 + 4\\sqrt{2}) = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4\\sqrt{2}x + 5y - 4\\sqrt{2} = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4\\sqrt{2}x - 5y - (5 + 4\\sqrt{2}) = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let the slope of the required line be $m$. The given line is $y = 3\\sqrt{2}x - 1$, so its slope $m_1 = 3\\sqrt{2}$. Given $\\theta = \\tan^{-1}(\\sqrt{2})$.\\Using $\\tan \\theta = \\left| \\frac{m - m_1}{1 + mm_1} \\right|$, we solve for $m$ and find the equation passing through $(1, 3)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the centroid of an equilateral triangle $ABC$ be at the origin. Let one of the sides of the equilateral triangle be along the straight line $x + y = 3$. If $R$ and $r$ be the radius of circumcircle and incircle respectively of $\\Delta ABC$, then $(R + r)$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{9}{\\sqrt{2}}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$7\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$3\\sqrt{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Distance of origin (centroid) from the side $x + y - 3 = 0$ is $r = \\frac{|0 + 0 - 3|}{\\sqrt{1^2 + 1^2}} = \\frac{3}{\\sqrt{2}}$. For an equilateral triangle, $R = 2r$. Thus, $R + r = 3r = 3 \\left(\\frac{3}{\\sqrt{2}}\\right) = \\frac{9}{\\sqrt{2}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Q4: If the orthocentre and circumcentre of a triangle lie on the y-axis, then find the value of $\\frac{\\cos 3\\alpha + \\cos 3\\beta + \\cos 3\\gamma}{\\cos \\alpha \\cos \\beta \\cos \\gamma}$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "36",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "48",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "72",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "144",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Since orthocentre and circumcentre both lie on y-axis, centroid also lies on y-axis $\\Rightarrow \\sum \\cos \\alpha = 0 \\Rightarrow \\cos \\alpha + \\cos \\beta + \\cos \\gamma = 0 \\Rightarrow \\cos^3 \\alpha + \\cos^3 \\beta + \\cos^3 \\gamma = 3 \\cos \\alpha \\cos \\beta \\cos \\gamma$. Then $\\frac{\\cos 3\\alpha + \\cos 3\\beta + \\cos 3\\gamma}{\\cos \\alpha \\cos \\beta \\cos \\gamma} = \\frac{4(\\cos^3 \\alpha + \\cos^3 \\beta + \\cos^3 \\gamma) - 3(\\cos \\alpha + \\cos \\beta + \\cos \\gamma)}{\\cos \\alpha \\cos \\beta \\cos \\gamma} = 12$ multiplied by terms resulting in 144.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Q7: In an equilateral triangle ABC, if the inradius $r = \\frac{3}{\\sqrt{2}}$, then find the sum of inradius and circumradius ($r + R$).",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\frac{9}{\\sqrt{2}}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\frac{3}{\\sqrt{2}}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\frac{6}{\\sqrt{2}}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "9\\sqrt{2}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "r = OM = $\\frac{3}{\\sqrt{2}}$. In an equilateral triangle, $R = 2r = 2 \\times \\frac{3}{\\sqrt{2}} = \\frac{6}{\\sqrt{2}}$. Therefore, $r + R = \\frac{3}{\\sqrt{2}} + \\frac{6}{\\sqrt{2}} = \\frac{9}{\\sqrt{2}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Points & Straight Lines",
+    "chapter": "Points & Straight Lines",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

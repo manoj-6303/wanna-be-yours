@@ -1,0 +1,41 @@
+[
+  {
+    "difficulty": "Easy",
+    "question": "Find the value of $\\alpha + \\beta$ given plane conditions.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "6",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "7",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "8",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Point $(2, 2, -2)$ also lies on given plane\nSo $2 + 3 \\times 2 - 2(-2) + \\beta = 0$\n$\\Rightarrow 2 + 6 + 4 + \\beta = 0 \\Rightarrow \\beta = -12$\nAlso $\\alpha \\times 1 - 5 \\times 3 + 2 \\times -2 = 0$\n$\\Rightarrow \\alpha - 15 - 4 = 0 \\Rightarrow \\alpha = 19$\n$\\therefore \\alpha + \\beta = 19 - 12 = 7$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "three dimensional  geometry",
+    "chapter": "three dimensional  geometry",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

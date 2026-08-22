@@ -1,13 +1,28 @@
 import { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import axios from 'axios';
-import MathText from '../components/MathText';
-import SolutionFormatter from '../components/SolutionFormatter';
+import MathRenderer from '../components/MathRenderer';
+
+const getImageUrl = (path) => {
+  if (!path || typeof path !== 'string') return null;
+  if (path.startsWith('http') || path.startsWith('/images/')) return encodeURI(path);
+  if (path.startsWith('images/')) return encodeURI('/' + path);
+  return encodeURI('/images/' + path);
+};
 
 export default function Result() {
   const location = useLocation();
   const navigate = useNavigate();
-  const data = location.state?.resultData;
+  
+  const [data, setData] = useState(() => {
+    const fromState = location.state?.resultData;
+    if (fromState) {
+      localStorage.setItem('lastResultData', JSON.stringify(fromState));
+      return fromState;
+    }
+    const saved = localStorage.getItem('lastResultData');
+    return saved ? JSON.parse(saved) : null;
+  });
+
   const [filterType, setFilterType] = useState('All');
 
   if (!data) {
@@ -21,21 +36,17 @@ export default function Result() {
     );
   }
 
-  const { result, qualified, newCertificate } = data;
+  const { result, qualified, newCertificate, passingPercentage } = data;
 
-  const weakTopicsMap = {};
-  result.answers.forEach(ans => {
-    if (!ans.correct && ans.selectedAnswer && ans.chapter) {
-      weakTopicsMap[ans.chapter] = (weakTopicsMap[ans.chapter] || 0) + 1;
-    }
-  });
-  const weakTopics = Object.keys(weakTopicsMap).sort((a, b) => weakTopicsMap[b] - weakTopicsMap[a]);
+  const weakTopics = result.answers
+    .filter(a => !a.correct && (a.chapter || a.topic))
+    .map(a => a.chapter || a.topic)
+    .filter((v, i, a) => a.indexOf(v) === i);
 
   const filteredAnswers = result.answers.filter(ans => {
     if (filterType === 'All') return true;
     if (filterType === 'Correct') return ans.correct;
     if (filterType === 'Not Attempted') return !ans.selectedAnswer;
-    if (filterType === 'Wrong') return !ans.correct && ans.selectedAnswer;
     if (filterType === 'Wrong') return !ans.correct && ans.selectedAnswer;
     return true;
   });
@@ -52,7 +63,7 @@ export default function Result() {
               {qualified ? 'Qualified! 🎉' : 'Not Qualified ❌'}
             </h1>
             <p className="text-lg opacity-90 mb-4">
-              {qualified ? "You've successfully passed this level." : "You didn't meet the passing criteria for this level."}
+              {qualified ? "You've successfully passed this level." : `You didn't meet the passing criteria for this level. You need at least ${passingPercentage || 'a minimum'}% to pass.`}
             </p>
             {qualified && (
               <div className="inline-block bg-yellow-400 text-yellow-900 font-bold px-4 py-2 rounded-full text-sm shadow-md">
@@ -193,82 +204,77 @@ export default function Result() {
                         </div>
                       )}
                     </div>
-                    <div className="text-lg font-medium text-gray-900 mb-4 flex items-start">
-                      <MathText text={ans.questionText} />
+                    <div className="text-lg font-medium text-gray-900 mb-4">
+                      <MathRenderer text={ans.questionText} />
                     </div>
-                    
-                    {(ans.questionImage || ans.image) && (
-                      <div className="mb-4 flex justify-center bg-gray-50 p-3 rounded-xl border border-gray-200">
-                        <img 
-                          src={ans.questionImage || ans.image} 
-                          alt="Question Diagram" 
-                          className="max-h-56 object-contain rounded-lg shadow-sm"
-                        />
-                      </div>
-                    )}
-                    
-                    {ans.questionImage && (
-                      <div className="mb-4 flex justify-center bg-white p-3 border border-gray-100 rounded-xl max-w-xl mx-auto shadow-sm">
-                        <img 
-                          src={ans.questionImage.startsWith('http') ? ans.questionImage : `/images/${ans.questionImage}`} 
-                          alt="Question Diagram" 
-                          className="max-h-60 object-contain"
-                        />
+                    {ans.image && getImageUrl(ans.image) && (
+                      <div className="mb-6 flex justify-center">
+                        <img src={getImageUrl(ans.image)} alt="Question Graphic" className="max-w-full h-auto rounded-lg shadow-sm border border-gray-200" style={{ maxHeight: '300px' }} />
                       </div>
                     )}
                     
                     <div className="space-y-2 mb-4">
-                      {ans.options?.map((opt, i) => {
-                        const optText = typeof opt === 'object' ? opt.text : opt;
-                        const optImg = typeof opt === 'object' ? opt.image : (ans.optionImages ? ans.optionImages[i] : null);
-                        const isUserChoice = optText === ans.selectedAnswer;
-                        const isCorrectAnswer = optText === ans.correctAnswer;
-                        
-                        let optStyle = "border-gray-200 text-gray-600";
-                        let optBg = "bg-white";
-                        
-                        if (isCorrectAnswer) {
-                          optStyle = "border-green-500 text-green-800 font-bold";
-                          optBg = "bg-green-100";
-                        } else if (isUserChoice && !ans.correct) {
-                          optStyle = "border-red-500 text-red-800";
-                          optBg = "bg-red-100";
-                        }
+                      {ans.options && ans.options.length > 0 ? (
+                        ans.options.map((opt, i) => {
+                          const optText = typeof opt === 'object' ? opt.text : opt;
+                          const optImage = typeof opt === 'object' ? opt.image : null;
+                          const isUserChoice = optText === ans.selectedAnswer || (ans.selectedAnswer && typeof ans.selectedAnswer === 'object' && optText === ans.selectedAnswer.text);
+                          const isCorrectAnswer = optText === ans.correctAnswer || (ans.correctAnswer && typeof ans.correctAnswer === 'object' && optText === ans.correctAnswer.text);
+                          
+                          let optStyle = "border-gray-200 text-gray-600";
+                          let optBg = "bg-white";
+                          
+                          if (isCorrectAnswer) {
+                            optStyle = "border-green-500 text-green-800 font-bold";
+                            optBg = "bg-green-100";
+                          } else if (isUserChoice && !ans.correct) {
+                            optStyle = "border-red-500 text-red-800";
+                            optBg = "bg-red-100";
+                          }
 
-                        return (
-                          <div key={i} className={`p-3 rounded-lg border ${optStyle} ${optBg} flex flex-col sm:flex-row justify-between sm:items-center gap-3`}>
-                            <div className="flex items-center">
-                              <span>{optText}</span>
-                            </div>
-                            {optImg && (
-                              <div className="bg-white p-1 border border-gray-100 rounded max-w-xs shadow-sm sm:ml-auto">
-                                <img 
-                                  src={optImg.startsWith('http') ? optImg : `/images/${optImg}`} 
-                                  alt={`Option ${optText}`} 
-                                  className="max-h-20 object-contain"
-                                />
+                          return (
+                            <div key={i} className={`p-3 rounded-lg border ${optStyle} ${optBg} flex flex-col`}>
+                              <div className="flex justify-between items-center w-full">
+                                <div className="flex-1 overflow-x-auto"><MathRenderer text={optText} /></div>
+                                {isUserChoice && <span className="text-xs uppercase tracking-wider font-bold opacity-70 flex items-center ml-4 whitespace-nowrap">Your Answer</span>}
+                                {isCorrectAnswer && !isUserChoice && <span className="text-xs uppercase tracking-wider font-bold opacity-70 flex items-center text-green-700 ml-4 whitespace-nowrap">Correct Answer</span>}
                               </div>
-                            )}
-                            <div className="flex items-center gap-2">
-                              {isUserChoice && <span className="text-xs uppercase tracking-wider font-bold opacity-70">Your Answer</span>}
-                              {isCorrectAnswer && !isUserChoice && <span className="text-xs uppercase tracking-wider font-bold opacity-70 text-green-700">Correct Answer</span>}
+                              {optImage && getImageUrl(optImage) && (
+                                <div className="mt-2">
+                                  <img src={getImageUrl(optImage)} alt="Option graphic" className="max-w-full h-auto rounded border border-gray-200" style={{ maxHeight: '100px' }} />
+                                </div>
+                              )}
                             </div>
+                          );
+                        })
+                      ) : (
+                        <div className="space-y-2">
+                          <div className={`p-4 rounded-lg border ${ans.correct ? 'border-green-500 bg-green-50' : 'border-red-500 bg-red-50'}`}>
+                            <p className="text-sm font-bold text-gray-500 mb-1">Your Answer:</p>
+                            <p className={`text-lg font-medium ${ans.correct ? 'text-green-800' : 'text-red-800'}`}>{ans.selectedAnswer || 'Not Attempted'}</p>
                           </div>
-                        );
-                      })}
+                          {!ans.correct && (
+                            <div className="p-4 rounded-lg border border-green-500 bg-green-50">
+                              <p className="text-sm font-bold text-green-700 mb-1">Correct Answer:</p>
+                              <p className="text-lg font-medium text-green-800">{ans.correctAnswer}</p>
+                            </div>
+                          )}
+                        </div>
+                      )}
                     </div>
-
-                    {ans.explanation && (
-                      <div className="mt-4 p-4 bg-indigo-50/50 rounded-xl border border-indigo-100 text-sm text-indigo-950">
-                        <span className="font-bold block mb-1">Explanation & Solution:</span>
-                        <p className="leading-relaxed">{ans.explanation}</p>
-                        {ans.explanationImage && (
-                          <div className="mt-3 flex justify-center bg-white p-3 border border-gray-100 rounded-lg max-w-md mx-auto shadow-sm">
-                            <img 
-                              src={ans.explanationImage.startsWith('http') ? ans.explanationImage : `/images/${ans.explanationImage}`} 
-                              alt="Solution Diagram" 
-                              className="max-h-48 object-contain"
-                            />
+                    
+                    {(ans.explanation || ans.solution || ans.explanationImage || ans.solutionImage) && (
+                      <div className="mt-6 bg-blue-50/50 p-4 rounded-xl border border-blue-100">
+                        <h4 className="text-sm font-bold text-blue-900 mb-2 flex items-center">
+                          <svg className="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                          Explanation
+                        </h4>
+                        <div className="text-sm text-blue-800">
+                          {(ans.explanation || ans.solution) && <MathRenderer text={ans.explanation || ans.solution} />}
+                        </div>
+                        {(ans.explanationImage || ans.solutionImage) && getImageUrl(ans.explanationImage || ans.solutionImage) && (
+                          <div className="mt-4 flex justify-center">
+                            <img src={getImageUrl(ans.explanationImage || ans.solutionImage)} alt="Explanation graphic" className="max-w-full h-auto rounded-lg shadow-sm border border-gray-200" style={{ maxHeight: '300px' }} />
                           </div>
                         )}
                       </div>

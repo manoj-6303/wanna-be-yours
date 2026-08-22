@@ -1,0 +1,1430 @@
+[
+  {
+    "difficulty": "Hard",
+    "question": "Two newspapers $A$ and $B$ are published in a city. It is known that $25\\%$ of the city population reads $A$ and $20\\%$ reads $B$ while $8\\%$ reads both $A$ and $B$. Further, $30\\%$ of those who read $A$ but not $B$ look into advertisements and $40\\%$ of those who read $B$ but not $A$ also look into advertisements, while $50\\%$ of those who read both $A$ and $B$ look into advertisements. Then the percentage of the population who look into advertisements is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$13.9$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$12.8$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$13$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$13.5$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "From the Venn diagram, \\\\ $\\%$ of people who reads $A$ only $= 25 - 8 = 17\\%$ \\\\ $\\%$ of people who read $B$ only $= 20 - 8 = 12\\%$ \\\\ $\\%$ of people from $A$ only who read advertisement $= 17 \\times 0.3 = 5.1\\%$ \\\\ $\\%$ of people from $B$ only who read advertisement $= 12 \\times 0.4 = 4.8\\%$ \\\\ $\\%$ of people from $A \\& B$ both who read advertisement $= 8 \\times 0.5 = 4\\%$ \\\\ $\\therefore$ total $\\%$ of people who read advertisement $= 5.1 + 4.8 + 4 = 13.9\\%$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A$, $B$ and $C$ be sets such that $\\phi \\neq A \\cap B \\subseteq C$. Then which of the following statements is not true ?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$B \\cap C \\neq \\phi$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "If $(A-B) \\subseteq C$, then $A \\subseteq C$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(C \\cup A) \\cap (C \\cup B) = C$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "If $(A-C) \\subseteq B$, then $A \\subseteq B$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "(1), (2) and (4) are always correct. \\\\ In (3) option, \\\\ If $A = C$ then $A - C = \\phi$ \\\\ Clearly, $\\phi \\subseteq B$ but $A \\subseteq B$ is not always true.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A$, $B$ and $C$ be sets such that $\\phi \\neq A \\cap B \\subseteq C$. Then which of the following statements is not true ?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$B \\cap C \\neq \\phi$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "If $(A-B) \\subseteq C$, then $A \\subseteq C$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(C \\cup A) \\cap (C \\cup B) = C$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "If $(A-C) \\subseteq B$, then $A \\subseteq B$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "(1), (2) and (4) are always correct. In (3) option, If $A = C$ then $A - C = \\phi$. Clearly, $\\phi \\subseteq B$ but $A \\subseteq B$ is not always true.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\mathbb{Z}$ be the set of all integers, \\\\ $\\text{A} = \\{(x, y) \\in \\mathbb{Z} \\times \\mathbb{Z} : (x - 2)^2 + y^2 \\le 4\\}$ \\\\ $\\text{B} = \\{(x, y) \\in \\mathbb{Z} \\times \\mathbb{Z} : x^2 + y^2 \\le 4\\}$ and \\\\ $\\text{C} = \\{(x, y) \\in \\mathbb{Z} \\times \\mathbb{Z} : (x - 2)^2 + (y - 2)^2 \\le 4\\}$ \\\\ If the total number of relation from $\\text{A} \\cap \\text{B}$ to $\\text{A} \\cap \\text{C}$ is $2^p$, then the value of $p$ is :",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$25$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$49$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$9$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "No. of points common in $C_1 \\& C_2$ is $5$. $(0, 0), (1, 0), (2, 0), (1, 1), (1, -1)$. Similarly in $C_2 \\& C_3$ is $5$. No. of relations = $5 \\times 5 = 2^{25}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\text{A} = \\{x \\in \\mathbf{R} : |x - 2| > 1\\}$, $\\text{B} = \\{x \\in \\mathbf{R} : \\sqrt{x^2 - 3} > 1\\}$, \\\\ $\\text{C} = \\{x \\in \\mathbf{R} : |x - 4| \\ge 2\\}$ and $\\mathbf{Z}$ is the set of all integers, then the number of subsets of the set $(\\text{A} \\cap \\text{B} \\cap \\text{C})^c \\cap \\mathbf{Z}$ is .",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "C",
+    "explanation": "$\\text{A} = (-\\infty, 1) \\cup (3, \\infty)$ \\\\ $\\text{B} = (-\\infty, -2) \\cup (2, \\infty)$ \\\\ $\\text{C} = (-\\infty, 2] \\cup [6, \\infty)$ \\\\ So, $\\text{A} \\cap \\text{B} \\cap \\text{C} = (-\\infty, -2) \\cup [6, \\infty)$ \\\\ $\\mathbf{Z} \\cap (\\text{A} \\cap \\text{B} \\cap \\text{C})' = \\{-2, -1, 0, -1, 2, 3, 4, 5\\}$ \\\\ Hence no. of its subsets = $2^8 = 256$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\mathrm{A} = \\{n \\in \\mathbf{N} \\mid n^2 \\le n + 10,000\\}, \\mathrm{B} = \\{3k + 1 \\mid k \\in \\mathbf{N}\\}$, and $\\mathrm{C} = \\{2k \\mid k \\in \\mathbf{N}\\}$, then the sum of all the elements of the set $\\mathrm{A} \\cap (\\mathrm{B} - \\mathrm{C})$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "832",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "823",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "840",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "816",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$B - C = \\{7, 13, 19, \\dots, 97, \\dots\\}$. Now, $n^2 - n \\le 100 \\times 100 \\Rightarrow n(n - 1) \\le 100 \\times 100 \\Rightarrow A = \\{1, 2, \\dots, 100\\}$. So, $A \\cap (B - C) = \\{7, 13, 19, \\dots, 97\\}$. Hence, $\\text{sum} = \\frac{16}{2}(7 + 97) = 832$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $R_1$ and $R_2$ be relations on the set $\\{1, 2, ..., 50\\}$ such that $R_1 = \\{(p, p^n) : \\text{p is a prime and } n \\ge 0 \\text{ is an integer}\\}$ and $R_2 = \\{(p, p^n) : \\text{p is a prime and } n = 0 \\text{ or } 1\\}$. Then, the number of elements in $R_1 - R_2$ is _________.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$8$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Here, $p, p^n \\in \\{1, 2, ..., 50\\}$\nNow $p$ can take values $2, 3, 5, 7, 11, 13, 17, 23, 29, 31, 37, 41, 43$ and $47$.\nWe can calculate no. of elements in $R_1$, as $(2, 2^0), (2, 2^1) ... (2, 2^5)$\n$(3, 3^0), ... (3, 3^3)$\n$(5, 5^0), ... (5, 5^2)$\n$(7, 7^0), ... (7, 7^2)$\n$(11, 11^0), ... (11, 1^1)$\nAnd rest for all other two elements each\n$\\therefore n(R_1) = 6 + 4 + 3 + 3 + (2 \\times 10) = 36$\nSimilarly for $R_2$\n$(2, 2^0), (2, 2^1)$\n$(47, 47^0), (47, 47^1)$\n$\\therefore n(R_2) = 2 \\times 14 = 28$\n$\\therefore n(R_1) - n(R_2) = 36 - 28 = 8$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $R_1 = \\{(a, b) \\in \\mathbb{N} \\times \\mathbb{N} : |a-b| \\le 13\\}$ and $R_2 = \\{(a, b) \\in \\mathbb{N} \\times \\mathbb{N} : |a-b| \\neq 13\\}$. Then on $\\mathbb{N}$:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "Both $R_1$ and $R_2$ are equivalence relations",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "Neither $R_1$ nor $R_2$ is an equivalence relation",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$R_1$ is an equivalence relation but $R_2$ is not",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$R_2$ is an equivalence relation but $R_1$ is not",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "For $R_1$:\ni) Reflexive relation: $(a,a) \\in \\mathbb{N} \\times \\mathbb{N} : |a-a| \\le 13$\nii) Symmetric relation: $(a,b) \\in R_1, (b,a) \\in R_1 : |b-a| \\le 13$\niii) Transitive relation: $(a,b) \\in R_1, (b,c) \\in R_1, (a,c) \\in R_1$\n$(1,3) \\in R_1, (3,16) \\in R_1$, but $(1,16) \\not\\in R_1$\nFor $R_2$:\ni) Reflexive relation: $(a,a) \\in \\mathbb{N} \\times \\mathbb{N} : |a-a| \\neq 13$\nii) Symmetric relation: $(b,a) \\in \\mathbb{N} \\times \\mathbb{N} : |b-a| \\neq 13$\niii) Transitive relation: $(1,3) \\in R_2, (3,14) \\in R_2$, but $(1,14) \\not\\in R_2$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "In a group of 100 persons 75 speak English and 40 speak Hindi. Each person speaks at least one of the two languages. If the number of persons who speak only English is $\\alpha$ and the number of persons who speaks only Hindi is $\\beta$, then the eccentricity of the ellipse $25(\\beta^2 x^2 + \\alpha^2 y^2) = \\alpha^2 \\beta^2$ is",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\sqrt{119}}{12}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\sqrt{117}}{12}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{3\\sqrt{15}}{12}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{\\sqrt{129}}{12}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given, In a group of 100 persons 75 speak English and 40 speak Hindi, And each person speaks at least one of the two languages, And the number of persons who speaks only English is $\\alpha$ and the number of persons who speaks only Hindi is $\\beta$ \\newline Now from above diagram we can see that, $\\beta = 100 - 75 = 25$ \\newline So, $\\alpha = 75 - (40 - 25) = 60$ \\newline Hence, number of people who speak English only is $\\alpha = 60$ and Hindi is $\\beta = 25$, \\newline Now putting the value in given equation of ellipse we get, \\newline $25 \\left[ \\frac{x^2}{60^2} + \\frac{y^2}{25^2} \\right] = 1 \\Rightarrow \\frac{x^2}{36 \\times 4} + \\frac{y^2}{25} = 1$ \\newline Now comparing with $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ we get, $a = 12$ & $b = 5$ \\newline Now we know that, Eccentricity of ellipse is given by $e = \\sqrt{1 - \\frac{b^2}{a^2}}$ \\newline $\\Rightarrow e = \\sqrt{1 - \\frac{25}{36 \\times 4}} = \\frac{\\sqrt{119}}{12}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A = \\{1, 3, 4, 6, 9\\}$ and $B = \\{2, 4, 5, 8, 10\\}$. Let relation $R$ be given by $R = \\{(a_1, b_1), (a_2, b_2) : a_1 \\le b_2 \\text{ and } b_1 \\le a_2\\}$. Then the total number of elements in $R$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "120",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "130",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "140",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "160",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Now taking cases for $a_1 \\le b_2$ we get: $a_1 = 1, b_2 \\in \\{2, 4, 5, 8, 10\\} \\rightarrow 5$ cases. $a_1 = 3, b_2 \\in \\{4, 5, 8, 10\\} \\rightarrow 4$ cases. $a_1 = 4, b_2 \\in \\{4, 5, 8, 10\\} \\rightarrow 4$ cases. $a_1 = 6, b_2 \\in \\{8, 10\\} \\rightarrow 2$ cases. $a_1 = 9, b_2 \\in \\{10\\} \\rightarrow 1$ case. So, total 16 cases will be there. Now finding cases of $b_1 \\le a_2$ we get: $b_1 = 2, a_2 \\in \\{3, 4, 6, 9\\} \\rightarrow 4$ cases. $b_1 = 4, a_2 \\in \\{4, 6, 9\\} \\rightarrow 3$ cases. $b_1 = 5, a_2 \\in \\{6, 9\\} \\rightarrow 2$ cases. $b_1 = 8, a_2 \\in \\{9\\} \\rightarrow 1$ case. So, here total 10 cases. Hence, total elements in relation $= 16 \\times 10 = 160$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A = \\{1, 2, 3\\}$. The total number of relations on $A$ which are reflexive and transitive but not symmetric is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Given $A = \\{1, 2, 3\\}$, $A \\times A = \\{(1,1), (2,1), (1,2), \\dots, (3,3)\\}$. For relation to be reflexive, $(1,1), (2,2), (3,3) \\in R$. Also given $(1,2), (2,3) \\in R$, so $(1,3)$ must $\\in R$. Possible cases: Case-1: All of $(2,1), (3,2), (3,1) \\notin R \\rightarrow 1$ relation. Case-2: Only one of $(2,1), (3,2), (3,1) \\in R \\rightarrow 3$ relations. Note that exactly two of $(2,1), (3,2), (3,1) \\in R$ is not possible because if two of these $\\in R$, third must $\\in R$ to make relation transitive. Total number of relations $= 4$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A = \\{-4, -3, -2, 0, 1, 3, 4\\}$ and $R = \\{(a, b) \\in A \\times A : b = |a| \\text{ or } b^2 = a + 1\\}$ be a relation on $A$. Then the minimum number of elements that must be added to $R$ so that it is symmetric and reflexive is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "6",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "7",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "8",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $A = \\{-4, -3, -2, 0, 1, 3, 4\\}$ and $R = \\{(a, b) \\in A \\times A : b = |a| \\text{ or } b^2 = a + 1\\}$. So, the relation is given by $R = \\{(-4, 4), (-3, 3), (0, 0), (1, 1), (3, 3), (4, 4), (0, 1), (3, -2)\\}$. Now, relation to be reflexive $(a, a) \\in R \\ \\forall a \\in A \\Rightarrow (-4, -4), (-3, -3), (-2, -2)$ also should be added in $R$. Now relation to be symmetric if $(a, b) \\in R$, then $(b, a) \\in R \\ \\forall a, b \\in A \\Rightarrow (-4, -4), (-3, -3), (1, 0), (-2, 3)$ also should be added in $R$. Hence, minimum number of elements to be added to $R$ is $3 + 4 = 7$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $n \\in [10, 100]$ and $n \\in \\mathbb{N}$. The number of such elements $n$ for which $3^n - 3$ is divisible by $7$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "13",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "14",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "15",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "16",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $n \\in [10, 100]$ and $n \\in \\mathbb{N}$. Let us take the values of $n = 1, 2, 3, \\dots$ and check whether $3^n - 3$ is divisible by $7$ or not. $\\Rightarrow 3^1 - 3 = 0$ is divisible by $7$. $\\Rightarrow 3^2 - 3 = 6$ is not divisible by $7$. $\\Rightarrow 3^6 = 7k + 1$ is not divisible by $7$. $\\Rightarrow 3^7 = 7\\alpha + 3 \\Rightarrow 3^7 - 3 = 7\\alpha$ is divisible by $7$. Similarly $\\Rightarrow 3^{13} = (7k + 1)(7\\alpha + 3) = 7\\beta + 3 \\Rightarrow 3^{13} - 3 = 7\\beta$ is divisible by $7$. If we observe the pattern for $n = 1, 7, 13, 3^n - 3$ is divisible by $7$. That means the series forms an AP with $d = 6$. Also $n \\in [10, 100]$. The required progression is $13, 19, \\dots, a_n \\Rightarrow a_n = 13 + (n - 1)6$. But $13 + (n - 1)6 < 100 \\Rightarrow n < 15.5 \\Rightarrow n = 15 \\in \\mathbb{N}$. Therefore, the required answer is $15$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A = \\{1, 2, 3, 4\\}$ and relation on $A \\times A$ as $2a + 3b = 4c + 5d$. Then the number of elements in the relation is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "6",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "8",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $A = \\{1, 2, 3, 4\\}$ and relation on $A \\times A$ as $2a + 3b = 4c + 5d$. Now, Maximum value of $2a + 3b = 20$ at $(4, 4)$. And Minimum value of $4c + 5d = 9$ at $(1, 1)$. So, $4c + 5d$ can be equal to $9, 13, 14, 17, 18, 19$. Now $2a + 3b$ can be $9$ if $(a, b) = (3, 1) \\Rightarrow (c, d) = (1, 1)$. Similarly, $2a + 3b$ can be $13$ if $(a, b) = (2, 3) \\Rightarrow (c, d) = (2, 1)$ and $2a + 3b$ can be $14$ if $(a, b) = (4, 2)$ or $(1, 4) \\Rightarrow (c, d) = (1, 2)$. Similarly, $2a + 3b$ can be $17$, if $(a, b) = (4, 3) \\Rightarrow (c, d) = (3, 1)$. And $2a + 3b$ can be $18$ if $(a, b) = (3, 4) \\Rightarrow (c, d) = (2, 2)$. Hence, there are total 6 elements which satisfy the given relation.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $R$ be a relation on $\\mathbb{N} \\times \\mathbb{N}$ defined by $(a, b)\\,R\\,(c, d)$ if and only if $ad(b - c) = bc(a - d)$. Then $R$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "symmetric but neither reflexive nor transitive",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "transitive but neither reflexive nor symmetric",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "reflexive and symmetric but not transitive",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "symmetric and transitive but not reflexive",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Reflexive: $(a, b) R (a, b) \\Rightarrow ab(b - a) = ba(a - b)$, which is true only if $a = b$. So not reflexive.\nSymmetric: $(a, b) R (c, d) \\Rightarrow ad(b - c) = bc(a - d) \\Rightarrow cb(d - a) = da(c - b) \\Rightarrow (c, d) R (a, b)$. So symmetric.\nTransitive: Can be shown to be not transitive by counterexample.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Among the relations $S = \\{(a, b) : a, b \\in \\mathbb{R} - \\{0\\}, 2 + \\frac{a}{b} > 0\\}$ and $T = \\{(a, b) : a, b \\in \\mathbb{R}, a^2 - b^2 \\in \\mathbb{Z}\\}$,",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$S$ is transitive but $T$ is not",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$T$ is symmetric but $S$ is not",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Neither $S$ nor $T$ is transitive",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Both $S$ and $T$ are symmetric",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "For $S$, let $a = 1, b = -1$, then $2 + \\frac{1}{-1} = 1 > 0$, so $(1, -1) \\in S$. But for $(-1, 1)$, $2 + \\frac{-1}{1} = 1 > 0$, wait let's check symmetry: if $(a, b) \\in S$, then $2 + \\frac{a}{b} > 0$. Let $a = -3, b = 1$, then $2 + \\frac{-3}{1} = -1 \\ngtr 0$. Thus $S$ is not symmetric. For $T$, $a^2 - b^2 \\in \\mathbb{Z} \\Rightarrow b^2 - a^2 \\in \\mathbb{Z}$, so $T$ is symmetric.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $P(S)$ denote the power set of $S = \\{1, 2, 3, ..., 10\\}$. Define the relations $R_1$ and $R_2$ on $P(S)$ as $A\\,R_1\\,B$ if $(A \\cap B^c) \\cup (B \\cap A^c) = \\emptyset$ and $A\\,R_2\\,B$ if $A \\cup B^c = B \\cup A^c, \\forall A, B \\in P(S)$. Then:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "both $R_1$ and $R_2$ are equivalence relations",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "only $R_1$ is an equivalence relation",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "only $R_2$ is an equivalence relation",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "both $R_1$ and $R_2$ are not equivalence relations",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "For $R_1$: $(A \\cap B^c) \\cup (B \\cap A^c) = \\emptyset \\Rightarrow A \\Delta B = \\emptyset \\Rightarrow A = B$. Thus $R_1$ is identity relation, which is an equivalence relation.\nFor $R_2$: $A \\cup B^c = B \\cup A^c \\Rightarrow A = B$, which also forms an equivalence relation.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $R = \\{(a, b) \\in \\mathbb{N} \\times \\mathbb{N} : |a - b| \\le 5\\}$. Then the relation $R$ needs to be made an equivalence relation by adding minimum number of elements. Find the number of elements to be added.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "7",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "6",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "For Symmetric: $(a, b), (b, c) \\in R \\implies (b, a), (c, b) \\in R$. For Transitive: $(a, b), (b, c) \\in R \\implies (a, c) \\in R$. 1. Symmetric: $\\therefore (a, c) \\in R \\implies (c, a) \\in R$. 2. Transitive: $\\therefore (a, b), (b, a) \\in R \\implies (a, a) \\in R \\text{ & } (b, c), (c, b) \\in R \\implies (b, b) \\text{ & } (c, c) \\in R$. Elements to be added: $\\{(b, a), (c, b), (a, c), (c, a), (a, a), (b, b), (c, c)\\}$. Number of elements to be added $= 7$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $S = \\left\\{(a, b) : a, b \\in \\mathbb{R} - \\{0\\}, 2 + \\frac{a}{b} > 0\\right\\}$. Then $S$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "not reflexive, not symmetric",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "symmetric only",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "equivalence",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "reflexive only",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "For relation $T = a^2 - b^2 = -1$. Then, $(b, a)$ on relation $R \\implies b^2 - a^2 = -1 \\therefore T$ is symmetric. $S = \\left\\{(a, b) : a, b \\in \\mathbb{R} - \\{0\\}, 2 + \\frac{a}{b} > 0\\right\\}$. $2 + \\frac{a}{b} > 0 \\implies \\frac{a}{b} > -2, \\implies \\frac{b}{a} < -\\frac{1}{2}$. If $(b, a) \\in S$ then $2 + \\frac{b}{a}$ not necessarily positive. $\\therefore S$ is not symmetric.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "In a survey of $220$ students of a higher secondary school, it was found that at least $125$ and at most $130$ students studied Mathematics; at least $85$ and at most $95$ studied Physics; at least $75$ and at most $90$ studied Chemistry; $30$ studied both Physics and Chemistry; $50$ studied both Chemistry and Mathematics; $40$ studied both Mathematics and Physics and $10$ studied none of these subjects. Let $m$ and $n$ respectively be the least and the most number of students who studied all the three subjects. Then $m + n$ is equal to \\underline{\\hspace{1cm}}",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "45",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$125 \\le m + 90 - x \\le 130$ \\\\ $85 \\le P + 70 - x \\le 95$ \\\\ $75 \\le C + 80 - x \\le 90$ \\\\ $m + P + C + 120 - 2x = 210$ \\\\ $\\Rightarrow 15 \\le x \\le 45 \\& 30 - x \\ge 0$ \\\\ $\\Rightarrow 15 \\le x \\le 30$ \\\\ $30 + 15 = 45$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the set $S = \\{2, 4, 8, 16, \\dots, 512\\}$ be partitioned into 3 sets $A, B, C$ with equal number of elements such that $A \\cup B \\cup C = S$ and $A \\cap B = B \\cap C = A \\cap C = \\phi$. The maximum number of such possible partitions of $S$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1680",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "1640",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "1520",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "1710",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Based on the official Answer Key, option (1) i.e., 1680 is correct.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the relations $R_1$ and $R_2$ on the set $X = \\{1, 2, 3, \\dots, 20\\}$ be given by $R_1 = \\{(x, y) : 2x - 3y = 2\\}$ and $R_2 = \\{(x, y) : -5x + 4y = 0\\}$. If $M$ and $N$ be the minimum number of elements required to be added in $R_1$ and $R_2$, respectively, in order to make the relations symmetric, then $M + N$ equals",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "12",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "16",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "8",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "10",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Based on the official Answer Key, option (4) i.e., 10 is correct.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A = \\{2, 3, 6, 8, 9, 11\\}$ and $B = \\{1, 4, 5, 10, 15\\}$. Let $R$ be a relation on $A \\times B$ defined by $(a, b)R(c, d)$ if and only if $3ad - 7bc$ is an even integer. Then the relation $R$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "an equivalence relation.",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "reflexive and symmetric but not transitive.",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "transitive but not symmetric.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "reflexive but not symmetric.",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Based on the official Answer Key, option (2) is correct.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A = \\{2, 3, 5, 7, 9\\}$. Let $R$ be the relation on $A$ defined by $xRy$ if and only if $2x \\le 3y$. Let $l$ be the number of elements in $R$, and $m$ be the minimum number of elements required to be added in $R$ to make it a symmetric relation. Then $l + m$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "21",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "27",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "23",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "25",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Given $A = \\{2, 3, 5, 7, 9\\}$ and $xRy$ iff $2x \\le 3y$, i.e., $y \\ge \\frac{2x}{3}$. For $x = 2: y \\in \\{2, 3, 5, 7, 9\\} \\to 5$ pairs. For $x = 3: y \\in \\{2, 3, 5, 7, 9\\} \\to 5$ pairs. For $x = 5: y \\in \\{5, 7, 9\\} \\to 3$ pairs. For $x = 7: y \\in \\{5, 7, 9\\} \\to 3$ pairs. For $x = 9: y \\in \\{7, 9\\} \\to 2$ pairs. So $l = 18$. For symmetry, pairs in $R$ whose reversal is missing: $(2, 5), (2, 7), (2, 9), (3, 5), (3, 7), (3, 9), (5, 9)$ require adding $(5, 2), (7, 2), (9, 2), (5, 3), (7, 3), (9, 3), (9, 5) \\to m = 7$. $l + m = 18 + 7 = 25$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A = \\{-2, -1, 0, 1, 2, 3, 4\\}$. Let $R$ be a relation on $A$ defined by $xRy$ if and only if $2x + y \\le 2$. Let $l$ be the number of elements in $R$. Let $m$ and $n$ be the minimum number of elements required to be added in $R$ to make it reflexive and symmetric relations respectively. Then $l + m + n$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "35",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "34",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "33",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "32",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $A = \\{-2, -1, 0, 1, 2, 3, 4\\}$ and $xRy$ iff $2x + y \\le 2$. For $x = -2: y \\le 6$, all 7 elements valid (7 pairs). For $x = -1: y \\le 4$, all 7 elements valid (7 pairs). For $x = 0: y \\le 2 \\Rightarrow y \\in \\{-2, -1, 0, 1, 2\\}$ (5 pairs). For $x = 1: y \\le 0 \\Rightarrow y \\in \\{-2, -1, 0\\}$ (3 pairs). For $x = 2: y \\le -2 \\Rightarrow y \\in \\{-2\\}$ (1 pair). For $x = 3, 4$: no valid $y$. So $l = 7 + 7 + 5 + 3 + 1 = 23$. For reflexive: $(x, x) \\in R \\Rightarrow 3x \\le 2 \\Rightarrow x \\le 2/3$. Already present for $x = -2, -1, 0$. Missing for $x = 1, 2, 3, 4$, so $m = 4$. For symmetric: need $(y, x) \\in R$ for every $(x, y) \\in R$. Missing pairs: $(3, -2), (4, -2), (2, -1), (3, -1), (4, -1), (2, 0)$, so $n = 6$. $l + m + n = 23 + 4 + 6 = 33$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The number of elements in the relation $R = \\{(x, y) : 4x^2 + y^2 < 52, x, y \\in \\mathbf{Z}\\}$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "77",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "67",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "86",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "89",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "We need $4x^2 + y^2 < 52$ with $x, y \\in \\mathbf{Z}$. This requires $x^2 < 13$, so $x \\in \\{-3, -2, -1, 0, 1, 2, 3\\}$. $x = 0: y^2 < 52 \\Rightarrow y \\in \\{-7, \\dots, 7\\} \\to 15$ values. $x = \\pm 1: y^2 < 48 \\Rightarrow |y| \\le 6 \\to 13$ each $\\to 26$ values. $x = \\pm 2: y^2 < 36 \\Rightarrow |y| \\le 5 \\to 11$ each $\\to 22$ values. $x = \\pm 3: y^2 < 16 \\Rightarrow |y| \\le 3 \\to 7$ each $\\to 14$ values. Total = $15 + 26 + 22 + 14 = 77$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $S$ be the set of the first $11$ natural numbers. Then the number of elements in $A = \\{B \\subseteq S : n(B) \\ge 2$ and the product of all elements of $B$ is even$\\}$ is ______.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "The set $S = \\{1, 2, 3, \\dots, 11\\}$ has $11$ elements. We need to count subsets $B$ with $n(B) \\ge 2$ and even product. A product is even iff at least one element is even. Equivalently, count complements: a product is odd iff all elements are odd. The odd numbers in $S$ are $\\{1, 3, 5, 7, 9, 11\\}$ ($6$ elements). Subsets of odd numbers: $2^6 = 64$. Among these, those with $n(B) \\ge 2$ are all except empty set ($1$) and singletons ($6$): $64 - 7 = 57$. Total subsets with $n(B) \\ge 2: 2^{11} - 1 - 11 = 2036$. Subsets with even product and $n(B) \\ge 2: 2036 - 57 = 1979$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the relation R on the set $M = \\{1, 2, 3, \\dots, 16\\}$ be given by $\\text{R} = \\{(x, y) : 4y = 5x - 3, x, y \\in M\\}$. Then the minimum number of elements required to be added in R, in order to make the relation symmetric, is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "3",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $\\text{R} = \\{(x, y) : 4y = 5x - 3, x, y \\in M\\}$ where $M = \\{1, 2, \\dots, 16\\}$. From $4y = 5x - 3$, we get $y = \\frac{5x - 3}{4}$. For $y$ to be a positive integer, $5x - 3 \\equiv 0 \\pmod 4$, i.e., $x \\equiv 3 \\pmod 4$. So $x = 3, 7, 11, 15$. $x = 3 \\Rightarrow y = 3$, $x = 7 \\Rightarrow y = 8$, $x = 11 \\Rightarrow y = 13$, $x = 15 \\Rightarrow y = 18 \\notin M$. $\\text{R} = \\{(3, 3), (7, 8), (11, 13)\\}$. For symmetry, $(7, 8) \\in R$ requires $(8, 7) \\in R$ and $(11, 13) \\in R$ requires $(13, 11) \\in R$. $(3, 3)$ is already symmetric. Minimum elements to be added $= 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A = \\{0, 1, 2, \\dots, 9\\}$. Let R be a relation on A defined by $(x, y) \\in \\text{R}$ if and only if $|x - y|$ is a multiple of $3$.\nGiven below are two statements:\nStatement I: $n(\\text{R}) = 36$.\nStatement II: $\\text{R}$ is an equivalence relation.\nIn the light of the above statements, choose the correct answer from the options given below",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "Statement I is incorrect but Statement II is correct",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "Statement I is correct but Statement II is incorrect",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Both Statement I and Statement II are incorrect",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Both Statement I and Statement II are correct",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The relation $R$ on $A = \\{0, 1, 2, \\dots, 9\\}$ is defined by $(x, y) \\in R$ iff $|x - y|$ is a multiple of $3$, i.e., $x \\equiv y \\pmod 3$. Statement II: $R$ is reflexive ($|x - x| = 0$, a multiple of $3$), symmetric ($|x - y| = |y - x|$), and transitive (if $x \\equiv y$ and $y \\equiv z \\pmod 3$, then $x \\equiv z \\pmod 3$). So $R$ is an equivalence relation. Statement II is correct. Statement I: The equivalence classes are $\\{0, 3, 6, 9\\}$ ($4$ elements), $\\{1, 4, 7\\}$ ($3$ elements), $\\{2, 5, 8\\}$ ($3$ elements). $n(R) = 4^2 + 3^2 + 3^2 = 16 + 9 + 9 = 34 \\neq 36$. Statement I is incorrect.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let R be a relation defined on the set $\\{1, 2, 3, 4\\} \\times \\{1, 2, 3, 4\\}$ by $\\text{R} = \\{((a, b), (c, d)) : 2a + 3b = 3c + 4d\\}$. Then the number of elements in R is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "18",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "6",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "15",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "12",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "We need $2a + 3b = 3c + 4d$ where $a, b, c, d \\in \\{1, 2, 3, 4\\}$. Possible values of $2a + 3b$: range from $5$ to $20$. Possible values of $3c + 4d$: range from $7$ to $28$. For each common value $k$, the number of elements in $R$ equals (number of $(a, b)$ with $2a + 3b = k$) $\\times$ (number of $(c, d)$ with $3c + 4d = k$). $k = 7: (a, b) = (2, 1), (c, d) = (1, 1) \\Rightarrow 1 \\times 1 = 1$. $k = 10: (2, 2), (2, 1) \\Rightarrow 1$. $k = 11: (1, 3), (4, 1), (1, 2) \\Rightarrow 2$. $k = 13: (2, 3), (3, 1) \\Rightarrow 1$. $k = 14: (1, 4), (4, 2), (2, 2) \\Rightarrow 2$. $k = 15: (3, 3), (1, 3) \\Rightarrow 1$. $k = 16: (2, 4), (4, 1) \\Rightarrow 1$. $k = 17: (4, 3), (3, 2) \\Rightarrow 1$. $k = 18: (3, 4), (2, 3) \\Rightarrow 1$. $k = 20: (4, 4), (4, 2) \\Rightarrow 1$. Total = $1 + 1 + 2 + 1 + 2 + 1 + 1 + 1 + 1 + 1 = 12$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A = \\{1, 2, 3, 4, 5, 6, 7\\}$. Define $B = \\{T \\subseteq A : \\text{either } 1 \\notin T \\text{ or } 2 \\in T\\}$ and $C = \\{T \\subseteq A : \\text{the sum of all the elements of } T \\text{ is a prime number\\}$. Then the number of elements in the set $B \\cup C$ is ___________",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "$107$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $R_1$ and $R_2$ be two relations defined on $\\mathbb{R}$ by $a \\; R_1 \\; b \\iff ab \\geq 0$ and $a \\; R_2 \\; b \\iff a \\geq b$, then",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$R_1$ is an equivalence relation but not $R_2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$R_2$ is an equivalence relation but not $R_1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "both $R_1$ and $R_2$ are equivalence relations",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "neither $R_1$ nor $R_2$ is an equivalence relation",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$R_1 = \\{xy \\geq 0, x, y \\in R\\}$. For reflexive $x \\times x \\geq 0$ which is true. For symmetric If $xy \\geq 0 \\Rightarrow yx \\geq 0$. If $x = 2, y = 0$ and $z = -2$. Then $x.y \\geq 0 \\text{ & } y.z \\geq 0$ but $x.z \\geq 0$ is not true $\\Rightarrow$ not transitive relation. $\\Rightarrow R_1$ is not equivalence. $R_2$ if $a \\geq b$ it does not implies $b \\geq a$. $\\Rightarrow R_2$ is not equivalence relation $\\Rightarrow D$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "For $\\alpha \\in \\mathbb{N}$, consider a relation $R$ on $\\mathbb{N}$ given by $R = \\{(x, y) : 3x + \\alpha y \\text{ is a multiple of } 7\\}$. The relation $R$ is an equivalence relation if and only if :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\alpha = 14$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\alpha$ is a multiple of 4",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4$ is the remainder when $\\alpha$ is divided by $10$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4$ is the remainder when $\\alpha$ is divided by $7$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "For $R$ to be reflexive $\\Rightarrow x \\; R \\; x \\Rightarrow 3x + \\alpha x = 7x \\Rightarrow (3 + \\alpha)x = 7K \\Rightarrow 3 + \\alpha = 7\\lambda \\Rightarrow \\alpha = 7\\lambda - 3 = 7N + 4, K, \\lambda, N \\in I$. $\\therefore$ when $\\alpha$ divided by $7$, remainder is $4$. $R$ to be symmetric $xRy \\Rightarrow yRx \\implies 3x + \\alpha y = 7N_1, 3y + \\alpha x = 7N_2 \\Rightarrow (3 + \\alpha)(x + y) = 7(N_1 + N_2) = 7N_3$. Which holds when $3 + \\alpha$ is multiple of $7$. $\\therefore \\alpha = 7N + 4$ (as did earlier). $R$ to be transitive $xRy \\& yRz \\Rightarrow xRz \\implies 3x + \\alpha y = 7N_1 \\text{ & } 3y + \\alpha z = 7N_2$ and $3x + \\alpha z = 7N_3$. $\\therefore 3x + 7N_2 - 3y = 7N_3 \\implies 7N_1 - \\alpha y + 7N_2 - 3y = 7N_3 \\implies 7(N_1 + N_2) - (3 + \\alpha)y = 7N_3 \\implies (3 + \\alpha)y = 7N$. Which is true again when $3 + \\alpha$ divisible by $7$, i.e., when $\\alpha$ divided by $7$, remainder is $4$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $R$ be a relation from the set $\\{1, 2, 3, ........ , 60\\}$ to itself such that $R = \\{(a, b) : b = pq, \\text{ where } p, q \\geq 3 \\text{ are prime numbers\\}$. Then, the number of elements in $R$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$600$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$660$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$540$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$720$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$660$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Define a relation $R$ over a class of $n \\times n$ real matrices $A$ and $B$ as \"ARB iff there exists a non-singular matrix $P$ such that $PAP^{-1} = B$\". Then which of the following is true?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "R is symmetric, transitive but not reflexive,",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "R is reflexive, symmetric but not transitive",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "R is an equivalence relation",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "R is reflexive, transitive but not symmetric",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$A$ and $B$ are matrices of $n \\times n$ order \\& $ARB$ iff there exists a non singular matrix $P(\\det(P) \\neq 0)$ such that $PAP^{-1} = B$ \\\\ For reflexive $ARA \\implies PAP^{-1} = A \\dots (1)$ must be true \\\\ for $P = I$, Eq.(1) is true so 'R' is reflexive \\\\ For symmetric $ARB \\iff PAP^{-1} = B \\dots (1)$ is true \\\\ for $BRA$ iff $PBP^{-1} = A \\dots (2)$ must be true $\\because P^{-1} = B$ \\\\ $P^{-1}PAP^{-1} = P^{-1}B$ \\\\ $IAP^{-1}p = P^{-1}BP$ \\\\ $A = P^{-1}BP$ \\\\ from $(2)$ \\& $(3)$ $PBP^{-1} = P^{-1}BP$ \\\\ can be true some $P = P^{-1} \\implies P^2 = I(\\det(P) \\neq 0)$ \\\\ So 'R' is symmetric \\\\ For transitive \\\\ $ARB \\iff PAP^{-1} = B \\dots$ is true \\\\ $BRC \\iff PBP^{-1} = C \\dots$ is true \\\\ now $PPAP^{-1}P^{-1} = C$ \\\\ $P^2 A (P^2)^{-1} = C \\implies ARC$ \\\\ So 'R' is transitive relation \\\\ $\\implies$ Hence R is equivalence",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $S$ be the set of all real roots of the equation, $3^x(3^x - 1) + 2|3^x - 1| + |3^x - 2|$. Then $S$ :",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "singleton set",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "two elements",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "at least four elements",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "infinite elements",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let $3^x = t$ \\\\ $t(t-1) + 2 = |t-1| + |t-2|$ \\\\ $t^2 - t + 2 = |t-1| + |t-2|$ \\\\ are positive solution $t = a$ \\\\ $3^x = a$ \\\\ $x = \\log_3 a$ so singleton set",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $R_1$ and $R_2$ be two relation defined as follows: \\\\ $R_1 = \\{(a, b) \\in \\mathbb{R}^2 : a^2 + b^2 \\in \\mathbb{Q}\\}$ and \\\\ $R_2 = \\{(a, b) \\in \\mathbb{R}^2 : a^2 + b^2 \\notin \\mathbb{Q}\\}$, where $Q$ is the set of all rational numbers. Then:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "Neither $R_1$ nor $R_2$ is transitive.",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$R_2$ is transitive but $R_1$ is not transitive.",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$R_1$ and $R_2$ are both transitive.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$R_1$ is transitive but $R_2$ is not transitive.",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "(I) If $(a,b) \\in R_1$ and $(b,c) \\in R_1$ \\\\ $\\Rightarrow a^2 + b^2 \\in \\mathbb{Q}$ and $b^2 + c^2 \\in \\mathbb{Q}$ \\\\ then $a^2 + 2b^2 + c^2 \\in \\mathbb{Q}$ but we cannot say anything about $a^2 + c^2$, that it is rational or not. \\\\ So $R_1$ is not transitive. \\\\ (II) If $(a,b) \\in R_2$ and $(b,c) \\in R_2$ \\\\ $\\Rightarrow a^2 + b^2 \\notin \\mathbb{Q}$ and $b^2 + c^2 \\notin \\mathbb{Q}$ \\\\ but we can't say anything about $a^2 + c^2$, that it is rational or irrational. \\\\ So $R_2$ is not transitive.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\bigcup_{i=1}^{50} X_i = \\bigcup_{i=1}^{n} Y_i = T$, where each $X_i$ contains $10$ elements and each $Y_i$ contains $5$ elements. If each element of the set $T$ is an element of exactly $20$ of sets $X_i$ s and exactly $6$ of sets $Y_i$, s then $n$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$50$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$15$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$30$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$45$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$\\bigcup_{i=1}^{50} X_i = \\bigcup_{i=1}^{n} Y_i = T$ \\\\ $\\Rightarrow \\frac{10 \\times 50}{20} = \\frac{5n}{6} \\implies \\begin{cases} \\because n(x_i) = 10, n(Y_i) = 5 \\\\ \\text{so, } \\bigcup_{i=1}^{50} x_i = 500, \\bigcup_{i=1}^{n} Y_i = 5n \\end{cases}$ \\\\ $\\Rightarrow mn = 30$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A = \\{1, 2, 3, 4\\}$ and $B = \\{1, 2, 3, 4\\}$. Let $f: A \\to B$ be a function such that $2 \\in f(A)$. Then the number of such functions is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "19",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "15",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "17",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "21",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The desired functions will contain either one element or two elements in its codomain of which '2' always belongs to $f(A)$. The set $B$ can be $\\{2\\}, \\{1, 2\\}, \\{2, 3\\}, \\{2, 4\\}$. Total number of functions = $1 + (2^3 - 2)3 = 19$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

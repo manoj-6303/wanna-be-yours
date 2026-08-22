@@ -32,7 +32,7 @@
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Explanation: Please see the solution in the MathonGo PDF Amines - JEE Main 2026 (Jan) - MathonGo.pdf.",
+    "explanation": "The reaction sequence is as follows:\n\n1. **Bromination of nitrobenzene** with $\\text{Br}_2/\\text{FeBr}_3$ results in meta-bromonitrobenzene because the $-\\text{NO}_2$ group is meta-directing. (1 Br atom)\n\n2. **Reduction of the nitro group** using $\\text{Sn}/\\text{HCl}$ followed by pH neutralization converts $-\\text{NO}_2$ to $-\\text{NH}_2$. The product is m-bromoaniline.\n\n3. **Reaction with bromine water** ($\\text{Br}_2/\\text{H}_2\\text{O}$) on m-bromoaniline: The $-\\text{NH}_2$ group is highly activating and ortho/para directing. In m-bromoaniline, the positions ortho and para to $-\\text{NH}_2$ are vacant (positions 2, 4, and 6 relative to $-\\text{NH}_2$). Bromine water causes polybromination at all available ortho and para positions. This adds 3 more bromine atoms. (Total $1 + 3 = 4$ Br atoms)\n\n4. **Diazotization** with $\\text{NaNO}_2/\\text{HBr}$ at $0 - 5^\\circ\\text{C}$ converts the $-\\text{NH}_2$ group into a diazonium salt $-\\text{N}_2^+\\text{Br}^-$.\n\n5. **Sandmeyer reaction** with $\\text{CuBr}/\\text{NaBr}$ replaces the diazonium group with a bromine atom. (Total $4 + 1 = 5$ Br atoms)\n\nThe final product (P) is 1,2,3,4,5-pentabromobenzene. Therefore, the number of bromine atoms in the final product is 5.",
     "explanationImage": "",
     "marks": 4,
     "negativeMarks": 1,
@@ -75,7 +75,7 @@
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Explanation: Please see the solution in the MathonGo PDF Amines - JEE Main 2026 (Jan) - MathonGo.pdf.",
+    "explanation": "Starting with 137 mg of 4-nitrotoluene ($\\text{C}_7\\text{H}_9\\text{NO}_2$, MW = 137):\n\n- **Step 1:** Reduction with $\\text{Sn}/\\text{HCl}$ converts $-\\text{NO}_2$ to $-\\text{NH}_2$, producing 4-aminotoluene (A).\n- **Step 2:** Acetylation with $(\\text{CH}_3\\text{CO})_2\\text{O}$ produces the acetamide intermediate, then bromination with $\\text{Br}_2/\\text{AcOH}$ adds bromine to the ortho position relative to the methyl group (which is para to the acetamide group, ortho-para directing due to the acetamide group), yielding 4-bromo-N-(4-methylphenyl)acetamide (B) with molecular formula $\\text{C}_9\\text{H}_{10}\\text{BrNO}$ and MW = 228 g/mol.\n\nMoles of starting material = $137\\text{ mg} \\div 137\\text{ g/mol} = 1\\text{ mmol}$.\n\nAssuming complete reaction, moles of B produced = 1 mmol.\n\nMass of B = $1\\text{ mmol} \\times 228\\text{ mg/mmol} = 228\\text{ mg}$.",
     "explanationImage": "",
     "marks": 4,
     "negativeMarks": 1,
@@ -118,7 +118,7 @@
       }
     ],
     "correctAnswer": "D",
-    "explanation": "Explanation: Please see the solution in the MathonGo PDF Amines - JEE Main 2026 (Jan) - MathonGo.pdf.",
+    "explanation": "The final product is cyclohexyl isocyanide ($\\text{C}_6\\text{H}_{11}\\text{NC}$).\n\nWorking backwards from the final product:\n- The last step involves $\\text{CHCl}_3$ and $\\text{KOH}$ (alc), which is the **Carbylamine reaction**. This reaction converts a primary amine ($R-\\text{NH}_2$) into an isocyanide ($R-\\text{NC}$). Thus, the intermediate before this step must be cyclohexylamine ($\\text{C}_6\\text{H}_{11}\\text{NH}_2$).\n- The step before cyclohexylamine involves $\\text{Br}_2$ and $\\text{KOH}$, which is the **Hoffmann Bromamide Degradation** reaction. This reaction converts an amide ($R-\\text{CONH}_2$) into a primary amine ($R-\\text{NH}_2$) with one less carbon atom. Therefore, the amide 'Q' must be cyclohexanecarboxamide ($\\text{C}_6\\text{H}_{11}\\text{CONH}_2$).\n- The first step converts 'P' into 'Q' using $\\text{NH}_3$ and heat. Carboxylic acids react with $\\text{NH}_3$ followed by heating to form amides. Thus, 'P' must be cyclohexanecarboxylic acid ($\\text{C}_6\\text{H}_{11}\\text{COOH}$).\n\n**Reaction sequence:**\n$$\\text{C}_6\\text{H}_{11}\\text{COOH (P)} \\xrightarrow[\\Delta]{\\text{NH}_3} \\text{C}_6\\text{H}_{11}\\text{CONH}_2\\text{ (Q)} \\xrightarrow{\\text{Br}_2, \\text{KOH}} \\text{C}_6\\text{H}_{11}\\text{NH}_2\\text{ (Cyclohexylamine)} \\xrightarrow{\\text{CHCl}_3, \\text{KOH}} \\text{C}_6\\text{H}_{11}\\text{NC (Cyclohexyl isocyanide)}$$\n\nComparing with the options, 'P' is cyclohexanecarboxylic acid, which corresponds to option (4).",
     "explanationImage": "",
     "marks": 4,
     "negativeMarks": 1,
@@ -1641,7 +1641,7 @@
     "part": "1A",
     "topic": "Amines",
     "difficulty": "Easy",
-    "question": "The reaction of aniline with nitrous acid at 0-5 °C gives:",
+    "question": "The reaction of aniline with nitrous acid at 0-5 \u00b0C gives:",
     "questionImage": "",
     "options": [
       {
@@ -1666,7 +1666,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Explanation: Aniline undergoes diazotization when treated with NaNO2 and HCl at 0-5 °C to form stable benzene diazonium chloride.",
+    "explanation": "Explanation: Aniline undergoes diazotization when treated with NaNO2 and HCl at 0-5 \u00b0C to form stable benzene diazonium chloride.",
     "explanationImage": "",
     "marks": 4,
     "negativeMarks": 1,

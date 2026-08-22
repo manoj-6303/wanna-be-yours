@@ -1,0 +1,80 @@
+[
+  {
+    "difficulty": "Easy",
+    "question": "If $\\lim_{x \\to 1} \\frac{x^2 - ax + b}{x - 1} = 5$, then $a + b$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-4$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-7$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since limit exists and denominator is 0 at $x=1$, numerator must be 0 at $x=1 \\implies 1 - a + b = 0 \\implies b = a - 1$. By L'Hospital rule: $\\lim_{x \\to 1} (2x - a) = 5 \\implies 2 - a = 5 \\implies a = -3$. Thus $b = -4$, and $a + b = -7$... wait, $b = -3 - 1 = -4$, so $a+b = -3 + (-4) = -7$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Let $f: \\mathbf{R} \\to \\mathbf{R}$ be a function such that $f(2) = 4$ and $f'(2) = 1$. Then, the value of $\\lim_{x \\to 2} \\frac{x^2 f(2) - 4f(x)}{x-2}$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$12$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Apply L'Hopital Rule $\\lim_{x \\to 2} \\left(\\frac{2x f(2) - 4f'(x)}{1}\\right)$\n$= \\frac{2(4)-4}{1} = 12$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

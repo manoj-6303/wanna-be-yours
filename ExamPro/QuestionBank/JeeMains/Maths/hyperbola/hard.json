@@ -1,0 +1,1586 @@
+[
+  {
+    "difficulty": "Hard",
+    "question": "For some $\\theta \\in (0, \\frac{\\pi}{2})$, if the eccentricity of the hyperbola, $x^2 - y^2\\sec^2\\theta = 10$ is $\\sqrt{5}$ times the eccentricity of the ellipse, $x^2\\sec^2\\theta + y^2 = 5$, then the length of the latus rectum of the ellipse, is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2\\sqrt{6}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{2\\sqrt{5}}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{4\\sqrt{5}}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sqrt{30}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$E: \\frac{x^2}{\\cos^2\\theta} + \\frac{y^2}{1} = 5 \\Rightarrow e_e = \\sqrt{1 - \\frac{\\cos^2\\theta}{1}} = \\sin\\theta$. $H: \\frac{x^2}{1} - \\frac{y^2}{\\cos^2\\theta} = 10 \\Rightarrow e_H = \\sqrt{1 + \\cos^2\\theta}$. $\\because e_H = \\sqrt{5}e_e \\Rightarrow 1 + \\cos^2\\theta = 5\\sin^2\\theta \\Rightarrow \\sin\\theta = \\frac{1}{\\sqrt{3}}$. Length of latus rectum of ellipse = $\\frac{2a^2}{b} = \\frac{2(5\\cos^2\\theta)}{\\sqrt{5}} = 2\\sqrt{5}\\left(\\frac{2}{3}\\right) = \\frac{4\\sqrt{5}}{3}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "A hyperbola having the transverse axis of length $\\sqrt{2}$ has the same foci as that of the ellipse of $3x^2 + 4y^2 = 12$, then this hyperbola does not pass through which of the following points?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\left(-\\sqrt{\\frac{3}{2}}, 1\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\left(\\sqrt{\\frac{3}{2}}, \\frac{1}{\\sqrt{2}}\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\left(\\frac{1}{\\sqrt{2}}, 0\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\left(1, -\\frac{1}{\\sqrt{2}}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Here ellipse : $3x^2 + 4y^2 = 12 \\Rightarrow \\frac{x^2}{4} + \\frac{y^2}{3} = 1$. $\\Rightarrow b^2 = a^2(1 - e^2) \\Rightarrow e = \\frac{1}{2}$. Foci = $(\\pm 1, 0)$. Now for Hyperbola - $2a = \\sqrt{2} \\Rightarrow a = \\frac{1}{\\sqrt{2}} \\text{ & } ae = 1 \\Rightarrow e = \\sqrt{2} \\Rightarrow b = \\frac{1}{\\sqrt{2}}$. So equation of hyperbola: $\\frac{x^2}{\\frac{1}{2}} - \\frac{y^2}{\\frac{1}{2}} = 1 \\Rightarrow x^2 - y^2 = \\frac{1}{2}$. So option (D) does not satisfy it.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $P(3, 3)$ be a point on the hyperbola, $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$. If the normal to it at $P$ intersects the x-axis at $(9, 0)$ and $e$ is its eccentricity, then the ordered pair $(a^2, e^2)$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(9, 3)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\left(\\frac{9}{2}, 3\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\left(\\frac{3}{2}, 2\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\left(\\frac{9}{2}, 2\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$\\because$ equation of hyperbola is : $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$. $\\because$ it passes through $(3, 3)$: $\\frac{1}{a^2} - \\frac{1}{b^2} = \\frac{1}{9} \\dots (1)$. Equation of normal at point $(3, 3)$ is : $\\frac{x - 3}{\\frac{1}{a^2} \\cdot 3} = \\frac{y - 3}{-\\frac{1}{b^2} \\cdot 3}$. $\\because$ It passes through $(9, 0)$: $\\frac{6}{\\frac{3}{a^2}} = \\frac{-3}{-\\frac{3}{b^2}} \\Rightarrow \\frac{1}{b^2} = \\frac{1}{2a^2}$. From equation (1) and equation (2), $a^2 = \\frac{9}{2}, b^2 = 9$. $\\because$ Eccentricity = $e$, then $e^2 = 1 + \\frac{b^2}{a^2} = 3$. $\\therefore (a^2, e^2) = \\left(\\frac{9}{2}, 3\\right)$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the line $y = mx + c$ is a common tangent to the hyperbola $\\frac{x^2}{100} - \\frac{y^2}{64} = 1$ and the circle $x^2 + y^2 = 36$, then which one of the following is true?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$5m = 4$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$8m + 5 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$c^2 = 369$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4c^2 = 369$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "General tangent to hyperbola in slope form is $y = mx \\pm \\sqrt{100m^2 - 64}$ and that of circle is $y = mx \\pm 6\\sqrt{1 + m^2}$. For common tangent $36(1 + m^2) = 100m^2 - 64 \\Rightarrow 100 = 64m^2 \\Rightarrow m^2 = \\frac{100}{64}$. $\\therefore c^2 = 36\\left(1 + \\frac{100}{64}\\right) = \\frac{164 \\times 36}{64} = \\frac{369}{4} \\Rightarrow 4c^2 = 369$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "A square ABCD has all its vertices on the curve $x^2y^2 = 1$. The midpoints of its sides also lie on the same curve. Then, the square of area of ABCD is",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "80",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let vertices be represented in parametric form $A\\left(t_1, \\frac{1}{t_1}\\right)$ and $B\\left(t_2, \\frac{1}{t_2}\\right)$ with $t_1, t_2 > 0$. The midpoint condition and perpendicularity condition give $t_1^2 - t_2^2 = 4$ and $t_1t_2 = 1$. Solving for $t_1$ and $t_2$, we find $t_1^2 + t_2^2 = \\sqrt{4^2 + 4} = 2\\sqrt{5}$, and $AB^2 = (t_1 - t_2)^2 + \\left(\\frac{1}{t_1} - \\frac{1}{t_2}\\right)^2 = 2\\left(t_1^2 + \\frac{1}{t_1^2}\\right) = 4\\sqrt{5}$. Hence, the area squared is $(4\\sqrt{5})^2 = 80$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Consider a hyperbola $H : x^2 - 2y^2 = 4$. Let the tangent at a point $P(4, \\sqrt{6})$ meet the x-axis at $Q$ and latus rectum at $R(x_1, y_1), x_1 > 0$. If $F$ is a focus of $H$ which is nearer to the point $P$, then the area of $\\Delta QFR$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "4\\sqrt{6}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\sqrt{6} - 1",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\frac{7}{\\sqrt{6}} - 2",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4\\sqrt{6} - 1",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The hyperbola is $\\frac{x^2}{4} - \\frac{y^2}{2} = 1$, so $e = \\sqrt{1 + \\frac{b^2}{a^2}} = \\sqrt{\\frac{3}{2}}$. The focus $F(ae, 0) \\Rightarrow F(\\sqrt{6}, 0)$. The equation of the tangent at $P(4, \\sqrt{6})$ is $2x - y\\sqrt{6} = 2$. This tangent meets the x-axis at $Q(1, 0)$. The latus rectum is $x = \\sqrt{6}$, so at $R$, $x = \\sqrt{6}$ and $y = \\frac{2}{\\sqrt{6}}(\\sqrt{6} - 1)$. Therefore, the area of $\\Delta QFR = \\frac{1}{2}(\\sqrt{6} - 1) \\cdot \\frac{2}{\\sqrt{6}}(\\sqrt{6} - 1) = \\frac{7}{\\sqrt{6}} - 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $0 < \\theta < \\frac{\\pi}{2}$. If the eccentricity of the hyperbola $\\frac{x^2}{\\cos^2 \\theta} - \\frac{y^2}{\\sin^2 \\theta} = 1$ is greater than $2$, then the length of its latus rectum lies in the interval:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(3, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(3/2, 2]$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(2, 3]$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(1, 3/2]$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $a^2 = \\cos^2 \\theta, b^2 = \\sin^2 \\theta$. Since $e > 2 \\Rightarrow e^2 > 4 \\Rightarrow 1 + \\frac{b^2}{a^2} > 4 \\Rightarrow 1 + \\tan^2 \\theta > 4 \\Rightarrow \\sec^2 \\theta > 4 \\Rightarrow \\theta \\in \\left(\\frac{\\pi}{3}, \\frac{\\pi}{2}\\right)$. Latus rectum $LR = \\frac{2b^2}{a} = \\frac{2 \\sin^2 \\theta}{\\cos \\theta} = 2(\\sec \\theta - \\cos \\theta)$. Differentiating with respect to $\\theta$, $\\min(LR) = 2\\left(\\sec \\frac{\\pi}{3} - \\cos \\frac{\\pi}{3}\\right) = 2\\left(2 - \\frac{1}{2}\\right) = 3$. max(LR) tends to infinity as $\\theta \\to \\frac{\\pi}{2}$. Hence, length of latus rectum lies in the interval $(3, \\infty)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $S = \\left\\{(x, y) \\in \\mathbf{R}^2 : \\frac{y^2}{1+r} - \\frac{x^2}{1-r} = 1\\right\\}$ where $r \\neq \\pm 1$. Then $S$ represents:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "a hyperbola whose eccentricity is $\\frac{2}{\\sqrt{1-r}}$, when $0 < r < 1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "an ellipse whose eccentricity is $\\sqrt{\\frac{2}{r+1}}$, when $r > 1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "a hyperbola whose eccentricity is $\\frac{2}{\\sqrt{r+1}}$, when $0 < r < 1$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "an ellipse whose eccentricity is $\\frac{1}{\\sqrt{r+1}}$, when $r > 1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since $r \\neq \\pm 1$, for $r > 1$, the equation becomes $\\frac{x^2}{r-1} + \\frac{y^2}{r+1} = 1$ (Ellipse). Then $(r-1) = (r+1)(1 - e^2) \\Rightarrow e = \\sqrt{\\frac{2}{r+1}}$. Thus, option (2) is correct.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the line $y = mx + 7\\sqrt{3}$ is normal to the hyperbola $\\frac{x^2}{24} - \\frac{y^2}{18} = 1$, then a value of $m$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\sqrt{5}}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\sqrt{15}}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{2}{\\sqrt{5}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{3}{\\sqrt{5}}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Condition for $lx + my + n = 0$ to be a normal to $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ is $\\frac{a^2}{l^2} - \\frac{b^2}{m^2} = \\frac{(a^2+b^2)^2}{n^2}$. Here $mx - y + 7\\sqrt{3} = 0$, so $l = m, m = -1, n = 7\\sqrt{3}$. Thus, $\\frac{24}{m^2} - \\frac{18}{(-1)^2} = \\frac{(24+18)^2}{(7\\sqrt{3})^2} \\Rightarrow \\frac{24}{m^2} - 18 = \\frac{42^2}{147} = 12 \\Rightarrow \\frac{24}{m^2} = 30 \\Rightarrow m^2 = \\frac{24}{30} = \\frac{4}{5} \\Rightarrow m = \\frac{2}{\\sqrt{5}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $0 < \\theta < \\frac{\\pi}{2}$. If the eccentricity of the hyperbola $\\frac{x^2}{\\cos^2 \\theta} - \\frac{y^2}{\\sin^2 \\theta} = 1$ is greater than 2, then the length of its latus rectum lies in the interval:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(3, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(3/2, 2]$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(2, 3]$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(1, 3/2]$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $a^2 = \\cos^2 \\theta, b^2 = \\sin^2 \\theta$. Since $e > 2 \\Rightarrow e^2 > 4 \\Rightarrow 1 + b^2/a^2 > 4 \\Rightarrow 1 + \\tan^2 \\theta > 4 \\Rightarrow \\sec^2 \\theta > 4 \\Rightarrow \\theta \\in \\left(\\frac{\\pi}{3}, \\frac{\\pi}{2}\\right)$. Latus rectum $LR = \\frac{2b^2}{a} = \\frac{2\\sin^2 \\theta}{\\cos \\theta} = 2(\\sec \\theta - \\cos \\theta)$. Therefore, $\\frac{d(LR)}{d\\theta} = 2(\\sec \\theta \\tan \\theta + \\sin \\theta) > 0 \\; \\forall \\theta \\in \\left(\\frac{\\pi}{3}, \\frac{\\pi}{2}\\right)$. Thus, $\\min(LR) = 2\\left(\\sec \\frac{\\pi}{3} - \\cos \\frac{\\pi}{3}\\right) = 2\\left(2 - \\frac{1}{2}\\right) = 3$ and $\\max(LR)$ tends to infinity as $\\theta \\to \\frac{\\pi}{2}$. Hence, length of latus rectum lies in the interval $(3, \\infty)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $S = \\left\\{(x, y) \\in \\mathbf{R}^2 : \\frac{y^2}{1 + r} - \\frac{x^2}{1 - r} = 1\\right\\}$, where $r \\neq \\pm 1$ Then $S$ represents:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "a hyperbola whose eccentricity is $\\frac{2}{\\sqrt{1 - r}}$, when $0 < r < 1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "an ellipse whose eccentricity is $\\sqrt{\\frac{2}{r + 1}}$, when $r > 1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "a hyperbola whose eccentricity is $\\frac{2}{\\sqrt{r + 1}}$, when $0 < r < 1$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "an ellipse whose eccentricity is $\\frac{1}{\\sqrt{r + 1}}$, when $r > 1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since $r \\neq \\pm 1$, for $r > 1$, the equation can be written as $\\frac{x^2}{r - 1} + \\frac{y^2}{r + 1} = 1$ which is an ellipse. Here $a^2 = r + 1, b^2 = r - 1$. Using $b^2 = a^2(1 - e^2)$, we get $(r - 1) = (r + 1)(1 - e^2) \\Rightarrow e = \\sqrt{\\frac{2}{r + 1}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A(\\sec\\theta, 2\\tan\\theta)$ and $B(\\sec\\phi, 2\\tan\\phi)$, where $\\theta + \\phi = \\pi/2$, be two points on the hyperbola $2x^2 - y^2 = 2$. If $(\\alpha, \\beta)$ is the point of the intersection of the normals to the hyperbola at A and B, then $(2\\beta)^2$ is equal to .",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "36",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "18",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "72",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "12",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since, point $A(\\sec\\theta, 2\\tan\\theta)$ lies on the hyperbola $2x^2 - y^2 = 2$. Therefore, $2\\sec^2\\theta - 4\\tan^2\\theta = 2$ $\\Rightarrow 2 + 2\\tan^2\\theta - 4\\tan^2\\theta = 2$ $\\Rightarrow \\tan\\theta = 0 \\Rightarrow \\theta = 0$. Similarly, for point B, we will get $\\phi = 0$. but according to question $\\theta + \\phi = \\pi/2$ which is not possible. Hence it must be a 'BONUS'.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The point $P(-2\\sqrt{6}, \\sqrt{3})$ lies on the hyperbola $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ having eccentricity $\\frac{\\sqrt{5}}{2}$. If the tangent and normal at P to the hyperbola intersect its conjugate axis at the point $Q$ and $R$ respectively, then $QR$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$6\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$3\\sqrt{6}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$P(-2\\sqrt{6}, \\sqrt{3})$ lies on hyperbola $\\Rightarrow \\frac{24}{a^2} - \\frac{3}{b^2} = 1 \\dots (i)$ $e = \\frac{\\sqrt{5}}{2} \\Rightarrow b^2 = a^2\\left(\\frac{5}{4} - 1\\right) \\Rightarrow 4b^2 = a^2$. Put in $(i) \\Rightarrow \\frac{6}{b^2} - \\frac{3}{b^2} = 1 \\Rightarrow b = \\sqrt{3} \\Rightarrow a = \\sqrt{12}$. $\\frac{x^2}{12} - \\frac{y^2}{3} = 1$. Tangent at $P : \\frac{-x}{\\sqrt{6}} - \\frac{y}{\\sqrt{3}} = 1 \\Rightarrow Q(0, \\sqrt{3})$. Slope of $T = -\\frac{1}{\\sqrt{2}}$. Normal at $P : y - \\sqrt{3} = \\sqrt{2}(x + 2\\sqrt{6}) \\Rightarrow R = (0, 5\\sqrt{3})$. $QR = 6\\sqrt{3}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The locus of the centroid of the triangle formed by any point $P$ on the hyperbola $16x^2 - 9y^2 + 32x + 36y - 164 = 0$, and its foci is :",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$16x^2 - 9y^2 + 32x + 36y - 36 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$9x^2 - 16y^2 + 36x + 32y - 144 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$16x^2 - 9y^2 + 32x + 36y - 144 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$9x^2 - 16y^2 + 36x + 32y - 36 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given hyperbola is $16(x+1)^2 - 9(y-2)^2 = 164 + 16 - 36 = 144 \\Rightarrow \\frac{(x+1)^2}{9} - \\frac{(y-2)^2}{16} = 1$. Eccentricity, $e = \\sqrt{1 + \\frac{16}{9}} = \\frac{5}{3}$. Foci are $(4, 2)$ and $(-6, 2)$. Let the centroid be $(h, k)$ & $A(\\alpha, \\beta)$ be point on hyperbola. So $h = \\frac{\\alpha - 6 + 4}{3}, k = \\frac{\\beta + 2 + 2}{3} \\Rightarrow \\alpha = 3h + 2, \\beta = 3k - 4$. $(\\alpha, \\beta)$ lies on hyperbola so $16(3h + 2 + 1)^2 - 9(3k - 4 - 2)^2 = 144 \\Rightarrow 144(h + 1)^2 - 81(k - 2)^2 = 144 \\Rightarrow 16(h^2 + 2h + 1) - 9(k^2 - 4k + 4) = 16 \\Rightarrow 16x^2 - 9y^2 + 32x + 36y - 36 = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the eccentricity of the hyperbola $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ be $\\frac{5}{4}$. If the equation of the normal at the point $\\left(\\frac{8}{\\sqrt{5}}, \\frac{12}{5}\\right)$ on the hyperbola is $8\\sqrt{5}x + \\beta y = \\lambda$, then $\\lambda - \\beta$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$85$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using point on hyperbola and eccentricity condition, we find the normal equation and compare to get $\\lambda$ and $\\beta$, yielding $\\lambda - \\beta = 85$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let a line $L_1$ be tangent to the hyperbola $\\frac{x^2}{16} - \\frac{y^2}{4} = 1$ and let $L_2$ be the line passing through the origin and perpendicular to $L_1$. If the locus of the point of intersection of $L_1$ and $L_2$ is $(x^2 + y^2)^2 = \\alpha x^2 + \\beta y^2$, then $\\alpha + \\beta$ is equal to _____.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$12$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The locus of the intersection of perpendicular tangents to a hyperbola is its director circle, or derived via family of lines to get the given bi-quadratic form, giving $\\alpha + \\beta = 12$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $a > 0, b > 0$. Let $e$ and $l$ respectively be the eccentricity and length of the latus rectum of the hyperbola $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$. Let $e'$ and $l'$ respectively be the eccentricity and length of the latus rectum of its conjugate hyperbola. If $e^2 = \\frac{11}{14}l$ and $(e')^2 = \\frac{11}{8}l'$, then the value of $77a + 44b$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$100$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$110$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$120$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$130$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Substitute the expressions for eccentricity and latus rectum for both hyperbola and its conjugate, solve the simultaneous equations for $a$ and $b$, and evaluate $77a + 44b = 130$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $H : \\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1, a > 0, b > 0$, be a hyperbola such that the sum of lengths of the transverse and the conjugate axes is $4(2\\sqrt{2} + \\sqrt{14})$. If the eccentricity $H$ is $\\frac{\\sqrt{11}}{2}$, then value of $a^2 + b^2$ is equal to _____.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$88$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $2a + 2b = 4(2\\sqrt{2} + \\sqrt{14})$ and $e = \\frac{\\sqrt{11}}{2} \\implies 1 + \\frac{b^2}{a^2} = \\frac{11}{4} \\implies \\frac{b}{a} = \\frac{\\sqrt{7}}{2}$. Solving these gives $a$ and $b$, hence $a^2 + b^2 = 88$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $e_H$ and $e_E$ be the eccentricities of hyperbola $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ and ellipse respectively. If $12(e_H^2 + e_E^2) = 42$, find the value.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$42$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$38$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$40$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$45$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given the hyperbola $\\frac{x^2}{a^2} - \\frac{y^2}{1} = 1$ and ellipse $\\frac{x^2}{4} + \\frac{y^2}{3} = 1$. We have $e_H = \\sqrt{1 + \\frac{1}{a^2}}$ and $e_E = \\sqrt{1 - \\frac{3}{4}} = \\frac{1}{2}$. Latus rectum $\\ell.R. = \\frac{2}{a} = \\frac{2\\times 3}{2} = 3 \\Rightarrow a = \\frac{2}{3}$. Then $e_H = \\sqrt{1 + \\frac{9}{4}} = \\frac{\\sqrt{13}}{2}$. Finally, $12(e_H^2 + e_E^2) = 12\\left(\\frac{13}{4} + \\frac{1}{4}\\right) = \\frac{12\\times 14}{4} = 42$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the normal at the point $\\left(\\frac{8}{\\sqrt{5}}, \\frac{12}{5}\\right)$ on a hyperbola satisfies a given relation, find $\\lambda - \\beta$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$80$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$83$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$85$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$90$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Point $\\left(\\frac{8}{\\sqrt{5}}, \\frac{12}{5}\\right)$ satisfies $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$. Solving yields $a = \\frac{8}{5}, b = \\frac{6}{5}$. Normal at $A$ is $\\frac{\\sqrt{5}a^2 x}{8} + \\frac{5b^2 y}{12} = a^2 + b^2$. Comparing gives $\\lambda = 100, \\beta = 15$, so $\\lambda - \\beta = 85$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the point $(8, 3\\sqrt{3})$ lies on the hyperbola $\\frac{x^2}{a^2} - \\frac{y^2}{9} = 1$, then the equation of the normal at $(8, 3\\sqrt{3})$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2x - \\sqrt{3}y = 25$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2x + \\sqrt{3}y = 15$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2x + \\sqrt{3}y = 25$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sqrt{3}x + 2y = 25$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Since $(8, 3\\sqrt{3})$ lies on the hyperbola, $\\frac{64}{a^2} - \\frac{27}{9} = 1 \\Rightarrow a^2 = 16$. The equation of normal is $\\frac{16x}{8} + \\frac{9y}{3\\sqrt{3}} = 16 + 9 \\Rightarrow 2x + \\sqrt{3}y = 25$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the locus of the intersection of lines $L_1 and L_2$ form a curve such that $\\alpha + \\beta = 12$. Find the value.",
+    "has_question_image": true,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$10$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$11$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$13$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$12$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Using $\\frac{x\\sec\\theta}{4} - \\frac{y\\tan\\theta}{2} = 1$, we find slopes $m_1$ and $m_2$. Using $m_1 m_2 = -1$, we get the locus $(x^2 + y^2)^2 = 16x^2 - 4y^2$. Thus $\\alpha = 16, \\beta = -4$, so $\\alpha + \\beta = 12$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If for a hyperbola $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$, the eccentricity $e^2 = 1 + \\frac{b^2}{a^2} = \\frac{11}{4}$ and the sum of lengths of transverse and conjugate axes is $4(2\\sqrt{2} + \\sqrt{14})$, find $a^2$ and $b^2$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$a^2 = 16, b^2 = 28$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$a^2 = 32, b^2 = 56$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$a^2 = 24, b^2 = 42$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$a^2 = 8, b^2 = 14$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given $e^2 = 1 + \\frac{b^2}{a^2} = \\frac{11}{4} \\implies b^2 = \\frac{7}{4}a^2$. The equation of the hyperbola is $\\frac{x^2}{a^2} - \\frac{y^2}{(\\frac{\\sqrt{7}}{2}a)^2} = 1$. The sum of lengths of axes is $2a + 2b = 2a + 2\\frac{\\sqrt{7}}{2}a = 4(2\\sqrt{2} + \\sqrt{14})$. Solving this gives $a(2 + \\sqrt{7}) = 4\\sqrt{2}(2 + \\sqrt{7}) \\implies a = 4\\sqrt{2}$, so $a^2 = 32$. Then $b^2 = \\frac{7}{4} \\times 32 = 56$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $H_n : \\frac{x^2}{1+n} - \\frac{y^2}{3+n} = 1, n \\in \\mathbb{N}$. Let $k$ be the smallest even value of $n$ such that the eccentricity of $H_k$ is a rational number. If $l$ is the length of the latus rectum of $H_k$, then $21l$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Given, Equation of hyperbola, $H_n : \\frac{x^2}{1+n} - \\frac{y^2}{3+n} = 1, n \\in \\mathbb{N}$ \\newline Now using the eccentricity formula we get, \\newline $e^2 = 1 + \\frac{3+n}{1+n}$ \\newline $\\Rightarrow e^2 = \\frac{2n+4}{n+1} = \\frac{2(n+2)}{n+1}$ \\newline Now check when $(n+1) = 9, 25, 49, \\dots$ is perfect square and then at the same time $2(n+2)$ should also be perfect square. \\newline So checking for $n = 8 \\rightarrow e^2 = \\frac{20}{9}$ \\newline $n = 24 \\rightarrow e^2 = \\frac{52}{25}$ \\newline $n = 48 \\rightarrow e^2 = \\frac{100}{49} \\Rightarrow e = \\frac{10}{7}$ \\newline Hence, for $n = 48$ both $n+1$ & $2(n+2)$ are perfect square, \\newline Now we know that, \\newline Length of latusrectum is given by $l = \\frac{2b^2}{a} = \\frac{2(n+3)}{\\sqrt{n+1}} = \\frac{2 \\times 51}{7}$ \\newline Hence, $21l = \\frac{42 \\times 51}{7} = 306$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the tangent to the parabola $y^2 = 12x$ at the point $(3, \\alpha)$ be perpendicular to the line $2x+2y = 3$. Then the square of distance of the point $(6, -4)$ from the normal to the hyperbola $\\alpha^2 x^2 - 9y^2 = 9\\alpha^2$ at its point $(\\alpha-1, \\alpha+2)$ is equal to $\\dots\\dots\\dots\\dots\\dots$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Given, \\newline The tangent to the parabola $y^2 = 12x$ at the point $(3, \\alpha)$ be perpendicular to the line $2x+2y = 3$ \\newline So, Slope of tangent $= 1 = \\frac{6}{\\alpha} \\Rightarrow \\alpha = 6$ \\newline So, equation of hyperbola will be, \\newline $36x^2 - 9y^2 = 324$ \\newline $\\Rightarrow \\frac{x^2}{9} - \\frac{y^2}{36} = 1$ \\newline Now equation of tangent at $(5, 8)$ will be, \\newline $\\frac{5x}{9} - \\frac{8y}{36} = 1$ \\newline $\\Rightarrow 5x - 2y = 9$ \\newline So, slope of normal $= \\frac{-2}{5}$ \\newline Now finding, equation of normal $y - 8 = \\frac{-2}{5}(x-5)$ \\newline $\\Rightarrow 5y - 40 = -2x + 10$ \\newline $\\Rightarrow 5y + 2x = 50$ \\newline Now finding, distance from $(6, -4)$, we get, \\newline $= \\frac{12 - 20 - 50}{\\sqrt{29}} = \\frac{58}{\\sqrt{29}}$ \\newline $= 2\\sqrt{29}$ \\newline Hence, $(2\\sqrt{29})^2 = 116$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $m_1$ and $m_2$ be the slopes of the tangents drawn from the point $P(4, 1)$ to the hyperbola $H : \\frac{y^2}{25} - \\frac{x^2}{16} = 1$. If $Q$ is the point from which the tangents drawn to $H$ have slopes $|m_1|$ and $|m_2|$ and they make positive intercepts $\\alpha$ and $\\beta$ on the $x$-axis, then $\\frac{(PQ)^2}{\\alpha\\beta}$ is equal to $\\dots\\dots\\dots\\dots\\dots$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Given that $H : \\frac{y^2}{25} - \\frac{x^2}{16} = 1$ \\newline Equation of tangent to the hyperbola is: $y = mx \\pm \\sqrt{25 - 16m^2}$ \\newline Passes through $(4, 1)$ \\newline $\\Rightarrow y = mx + \\sqrt{25 - 16m^2}$ \\newline $\\Rightarrow 1 = 4m + \\sqrt{25 - 16m^2}$ \\newline $\\Rightarrow 4m^2 - m - 3$ \\newline $\\Rightarrow m_1 = 1, m_2 = \\frac{-3}{4}$ \\newline $\\Rightarrow |m_1| = 1, |m_2| = \\frac{3}{4}$ \\newline Equation of tangents with slopes $1$ & $\\frac{3}{4}$ \\newline $\\Rightarrow y = x - 3 \\dots\\dots (i)$ \\newline $\\Rightarrow y = \\frac{3}{4}x - 4 \\dots\\dots (ii)$ \\newline $(i)$ & $(ii) \\Rightarrow Q = (-4, -7)$ \\newline $P \\equiv (4, 1)$ \\newline $\\Rightarrow (PQ)^2 = 8^2 + 8^2 = 128$ \\newline On converting $(i)$ and $(ii)$ in intercept form we get, \\newline $(i) \\Rightarrow \\alpha = 3$, $(ii) \\Rightarrow \\beta = \\frac{16}{3}$ \\newline $\\frac{(PQ)^2}{\\alpha\\beta} = \\frac{128}{3 \\times \\frac{16}{3}} = 8$ \\newline Hence this is the required option.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The foci of a hyperbola are $(\\pm 2, 0)$ and its eccentricity is $\\frac{3}{2}$. A tangent, perpendicular to the line $2x + 3y = 6$, is drawn at a point in the first quadrant on the hyperbola. If the intercepts made by the tangent on the $x$- and $y$-axes are $a$ and $b$ respectively, then $|6a| + |5b|$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "The given equation of hyperbola is $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1, ae = 2, e = \\frac{3}{2}$ \\newline $\\Rightarrow a = \\frac{4}{3}$ \\newline $\\Rightarrow b^2 = a^2 e^2 - a^2 = 4 - \\frac{16}{9} = \\frac{20}{9}$ \\newline The tangent is perpendicular to $2x + 3y = 6$. \\newline Slope of tangent is $m = \\frac{-1}{\\frac{-2}{3}} = \\frac{3}{2}$ \\newline Equation of tangent, $m = \\frac{3}{2}$ \\newline Equation of tangent is $y = mx - \\sqrt{a^2m^2 - b^2}$ \\newline $\\Rightarrow y = \\frac{3}{2}x - \\sqrt{\\frac{16}{9} \\times \\frac{9}{4} - \\frac{20}{9}}$ \\newline $(\\because$ Tangent is in $1^{\\text{st}}$ quadrant $\\Rightarrow C < 0)$ \\newline $\\Rightarrow y = \\frac{3}{2}x - \\frac{4}{3}$ \\newline Converting the equation into intercept form: \\newline $\\Rightarrow \\frac{x}{(\\frac{8}{9})} + \\frac{y}{(\\frac{-4}{3})} = 1$ \\newline $\\Rightarrow |6a| + |5b| = \\left|\\frac{6 \\times 8}{9}\\right| + \\left|\\frac{5 \\times (-4)}{3}\\right| = 12$ \\newline Hence this is the required option.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let a tangent to the curve $y^2 = 24x$ meet the curve $xy = 2$ at the points A and B. Then the mid points of such line segments AB lie on a parabola with the\\n(1) directrix $4x = 3$\\n(2) directrix $4x = -3$\\n(3) Length of latus rectum $\\frac{3}{2}$\\n(4) Length of latus rectum $2$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "directrix $4x = 3$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "directrix $4x = -3$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Length of latus rectum $\\frac{3}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Length of latus rectum $2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "For $y^2 = 24x$, $a = 6$. Tangent is $ty = x + 6t^2$. For $xy = 2$, let chord AB be $T = S_1$, i.e., $kx + hy = 2hk$. Comparing coefficients with tangent equation, we get the locus $y^2 = -3x$. Therefore, the directrix is $4x = 3$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "For some $a, b, c \\in \\mathbb{N}$, let $f(x) = ax - 3$ and $g(x) = x^b + c, x \\in \\mathbb{R}$. If $(\\text{fog})^{-1}(x) = \\left(\\frac{x-7}{2}\\right)^{1/3}$, then $(\\text{fog})(ac) + (gof)(b)$ is equal to _____.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "B",
+    "explanation": "Let $h(x) = \\text{fog}(x) \\implies h^{-1}(x) = \\left(\\frac{x-7}{2}\\right)^{1/3} \\implies h(x) = \\text{fog}(x) = 2x^3 + 7$. Also $\\text{fog}(x) = a(x^b + c) - 3 \\implies a = 2, b = 3, c = 5$. Thus $\\text{fog}(ac) = \\text{fog}(10) = 2007$, $g(f(x)) = (2x-3)^3 + 5 \\implies \\text{gof}(b) = \\text{gof}(3) = 32$, so sum = $2039$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let T and C respectively be the transverse and conjugate axes of the hyperbola $16x^2 - y^2 + 64x + 4y + 44 = 0$. Then the area of the region above the parabola $x^2 = y+4$, below the transverse axis T and on the right of the conjugate axis C is:\\n(1) $4\\sqrt{6} + \\frac{44}{3}$\\n(2) $4\\sqrt{6} + \\frac{28}{3}$\\n(3) $4\\sqrt{6} - \\frac{44}{3}$\\n(4) $4\\sqrt{6} - \\frac{28}{3}$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4\\sqrt{6} + \\frac{44}{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4\\sqrt{6} + \\frac{28}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4\\sqrt{6} - \\frac{44}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4\\sqrt{6} - \\frac{28}{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Calculated via integration of the given regions bounded by the transformed hyperbola axes and the parabola, yielding $4\\sqrt{6} + \\frac{28}{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Consider a hyperbola $H$ having centre at the origin and foci on the $x$-axis. Let $C_1$ be the circle touching the hyperbola $H$ and having the centre at the origin. Let $C_2$ be the circle touching the hyperbola $H$ at its vertex and having the centre at one of its foci. If areas (in sq units) of $C_1$ and $C_2$ are $36\\pi$ and $4\\pi$, respectively, then the length (in units) of latus rectum of $H$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{14}{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{28}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{11}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{10}{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let $H: \\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$. The circle $C_1$ centered at origin and touching the hyperbola has radius $a$. Area of $C_1 = \\pi a^2 = 36\\pi \\implies a = 6$. The circle $C_2$ centered at focus $(ae, 0)$ and touching the vertex $(a, 0)$ has radius $ae - a = a(e-1)$. Area of $C_2 = \\pi a^2(e-1)^2 = 4\\pi \\implies 36\\pi(e-1)^2 = 4\\pi \\implies (e-1)^2 = \\frac{4}{36} = \\frac{1}{9}$. So $e - 1 = \\frac{1}{3} \\implies e = \\frac{4}{3}$ (since $e > 1$). Then $b^2 = a^2(e^2 - 1) = 36\\left(\\frac{16}{9} - 1\\right) = 36\\left(\\frac{7}{9}\\right) = 28$. Length of latus rectum $= \\frac{2b^2}{a} = \\frac{2(28)}{6} = \\frac{28}{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The length of the latus rectum and directrices of a hyperbola with eccentricity $e$ are $9$ and $x = \\pm \\frac{4}{\\sqrt{13}}$ respectively. Let the line $y - \\sqrt{3}x + \\sqrt{3} = 0$ touch this hyperbola at $(x_0, y_0)$. If $m$ is the product of the focal distances of the point $(x_0, y_0)$, then $4e^2 + m$ is equal to ______",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Given length of latus rectum $\\frac{2b^2}{a} = 9$ and directrix $x = \\pm \\frac{a}{e} = \\pm \\frac{4}{\\sqrt{13}}$ (assuming typo in question's directrix value). Tangent is $y = \\sqrt{3}x - \\sqrt{3}$. Using condition of tangency for $y = mx + c$, $c^2 = a^2m^2 - b^2$, we get $3 = 3a^2 - b^2$ and solving with $\\frac{2b^2}{a} = 9$ gives $a = 2, b = 3$. Then $e = \\sqrt{1 + \\frac{b^2}{a^2}} = \\sqrt{1 + \\frac{9}{4}} = \\frac{\\sqrt{13}}{2}$. Product of focal distances $m = S1 \\cdot S2 = e^2 x_0^2 - a^2$. Evaluating at point of contact and calculating $4e^2 + m = 61$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the foci of a hyperbola $H$ coincide with the foci of the ellipse $E: \\frac{(x-1)^2}{100} + \\frac{(y-1)^2}{75} = 1$ and the eccentricity of the hyperbola $H$ be the reciprocal of the eccentricity of the ellipse $E$. If the length of the transverse axis of $H$ is $\\alpha$ and the length of its conjugate axis is $\\beta$, then $3\\alpha^2 + 2\\beta^2$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$237$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$242$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$205$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$225$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "For ellipse $E$, $a^2 = 100, b^2 = 75$. Eccentricity $e_E = \\sqrt{1 - \\frac{75}{100}} = \\sqrt{\\frac{1}{4}} = \\frac{1}{2}$. Foci of ellipse are given by $(1 \\pm ae, 1) = (1 \\pm 10(\\frac{1}{2}), 1) = (1 \\pm 5, 1)$, i.e., $(6,1)$ and $(-4,1)$, and center is $(1,1)$. For hyperbola $H$, foci coincide with ellipse foci, so distance between foci $2ae_H = 10 \\implies ae_H = 5$ with center $(1,1)$. Eccentricity of hyperbola $e_H = \\frac{1}{e_E} = 2$. Thus $a e_H = 5 \\implies a(2) = 5 \\implies a = \\frac{5}{2}$. Transverse axis $\\alpha = 2a = 5 \\implies \\alpha^2 = 25$. For hyperbola, $b^2 = a^2(e_H^2 - 1) = \\frac{25}{4}(4 - 1) = \\frac{75}{4}$. Conjugate axis $\\beta = 2b \\implies \\beta^2 = 4b^2 = 75$. Therefore, $3\\alpha^2 + 2\\beta^2 = 3(25) + 2(75) = 75 + 150 = 225$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the point $P(\\alpha, \\beta)$ lies on the hyperbola $\\frac{x^2}{9} - \\frac{y^2}{4} = 1$ in the first quadrant such that the area of triangle $PS_1S_2$ is $2\\sqrt{13}$, where $S_1$ and $S_2$ are the foci of the hyperbola, then the square of the distance of $P$ from the origin is:",
+    "has_question_image": true,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$22$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$20$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$26$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$24$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given hyperbola is $\\frac{x^2}{9} - \\frac{y^2}{4} = 1$. Here $a^2 = 9, b^2 = 4$. Eccentricity $e^2 = 1 + \\frac{b^2}{a^2} = 1 + \\frac{4}{9} = \\frac{13}{9}$, so $e = \\frac{\\sqrt{13}}{3}$. Foci distance $S_1S_2 = 2ae = 2 \\times 3 \\times \\frac{\\sqrt{13}}{3} = 2\\sqrt{13}$. Area of $\\Delta PS_1S_2 = \\frac{1}{2} \\times \\beta \\times S_1S_2 = 2\\sqrt{13} \\Rightarrow \\frac{1}{2} \\times \\beta \\times 2\\sqrt{13} = 2\\sqrt{13} \\Rightarrow \\beta = 2$. Since $P(\\alpha, \\beta)$ lies on the hyperbola, $\\frac{\\alpha^2}{9} - \\frac{2^2}{4} = 1 \\Rightarrow \\frac{\\alpha^2}{9} - 1 = 1 \\Rightarrow \\alpha^2 = 18 \\Rightarrow \\alpha = 3\\sqrt{2}$. Distance of $P$ from origin is $\\sqrt{\\alpha^2 + \\beta^2} = \\sqrt{18 + 4} = \\sqrt{22}$. Thus, the square of the distance is $22$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $PQ$ be a chord of the hyperbola $\\frac{x^2}{4} - \\frac{y^2}{b^2} = 1$, perpendicular to the x -axis such that $OPQ$ is an equilateral triangle, $O$ being the centre of the hyperbola. If the eccentricity of the hyperbola is $\\sqrt{3}$, then the area of the triangle $OPQ$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{11}{5}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{9}{5}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{8\\sqrt{3}}{5}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Hyperbola $\\frac{x^2}{4} - \\frac{y^2}{b^2} = 1$ with $e = \\sqrt{3}$. $e^2 = 1 + \\frac{b^2}{4} = 3 \\Rightarrow b^2 = 8$.\nLet $P = (x_0, y_0)$, $Q = (x_0, -y_0)$.\nFor equilateral $\\Delta OPQ$:\n$OP = PQ \\Rightarrow x_0^2 + y_0^2 = 4y_0^2 \\Rightarrow x_0^2 = 3y_0^2$.\nFrom the hyperbola:\n$\\frac{3y_0^2}{4} - \\frac{y_0^2}{8} = 1 \\Rightarrow \\frac{5y_0^2}{8} = 1 \\Rightarrow y_0^2 = \\frac{8}{5}$.\nArea $= \\frac{\\sqrt{3}}{4}(2y_0)^2 = \\sqrt{3} \\cdot y_0^2 = \\frac{8\\sqrt{3}}{5}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "For some $\\theta \\in (0, \\frac{\\pi}{2})$, let the eccentricity and the length of the latus rectum of the hyperbola $x^2 - y^2 \\sec^2 \\theta = 8$ be $e_1$ and $l_1$, respectively, and let the eccentricity and the length of the latus rectum of the ellipse $x^2 \\sec^2 \\theta + y^2 = 6$ be $e_2$ and $l_2$, respectively. If $e_1^2 = e_2^2 (\\sec^2 \\theta + 1)$, then $\\left(\\frac{l_1 l_2}{e_1 e_2}\\right) \\tan^2 \\theta$ is equal to ____",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\frac{x^2}{8} - \\frac{y^2}{8 \\cos^2 \\theta} = 1$, $e_1 = \\sqrt{1 + \\frac{8 \\cos^2 \\theta}{8}} = \\sqrt{1 + \\cos^2 \\theta}$.\n$l_1 = \\frac{2b^2}{a} = \\frac{2 \\cdot (8 \\cos^2 \\theta)}{2\\sqrt{2}} = 2\\sqrt{2} \\cos^2 \\theta$.\n$\\frac{x^2}{6 \\cos^2 \\theta} + \\frac{y^2}{6} = 1$; $e_2 = \\sqrt{1 - \\frac{6 \\cos^2 \\theta}{6}} = \\sin \\theta$.\n$l_2 = \\frac{2b^2}{a} = \\frac{2 \\cdot 6 \\cos^2 \\theta}{\\sqrt{6}} = 2\\sqrt{6} \\cos^2 \\theta$.\n$e_1^2 = e_2^2(1 + \\sec^2 \\theta) \\Rightarrow 1 + \\cos^2 \\theta = \\sin^2 \\theta \\left(1 + \\frac{1}{\\cos^2 \\theta}\\right)$.\n$1 + \\cos^2 \\theta = \\sin^2 \\theta + \\tan^2 \\theta$. Solving we get $\\theta = \\frac{\\pi}{4}$.\n$l_1 = \\sqrt{2}$, $e_1 = \\sqrt{\\frac{3}{2}}$, $l_2 = \\sqrt{6}$, $e_2 = \\frac{1}{\\sqrt{2}}$.\n$\\left(\\frac{l_1 l_2}{e_1 e_2}\\right) \\tan^2 \\theta = 8$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the tangent drawn to the parabola $y^2 = 24x$ at the point $(\\alpha, \\beta)$ is perpendicular to the line $2x + 2y = 5$. Then the normal to the hyperbola $\\frac{x^2}{\\alpha^2} - \\frac{y^2}{\\beta^2} = 1$ at the point $(\\alpha + 4, \\beta + 4)$ does NOT pass through the point :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(25, 10)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(20, 12)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(30, 8)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(15, 13)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Slope of the line $2x + 2y = 5$ is $-1$. The tangent is perpendicular to it, so slope of tangent = $1$. For $y^2 = 24x$, $4a = 24 \\implies a = 6$. Slope of tangent at $(\\alpha, \\beta)$ is $\\frac{12}{\\beta} = 1 \\implies \\beta = 12$. Since $(\\alpha, \\beta)$ lies on $y^2 = 24x$, $12^2 = 24\\alpha \\implies \\alpha = 6$. The hyperbola is $\\frac{x^2}{36} - \\frac{y^2}{144} = 1$. The point is $(\\alpha+4, \\beta+4) = (10, 16)$. Finding the normal at $(10, 16)$ and checking which option it does not pass through gives (D).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "An ellipse $E: \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ passes through the vertices of the hyperbola $H: \\frac{x^2}{49} - \\frac{y^2}{64} = -1$. Let the major and minor axes of the ellipse E coincide with the transverse and conjugate axes of the hyperbola H. Let the product of the eccentricities of E and H be $\\frac{1}{2}$. If $l$ is the length of the latus rectum of the ellipse E, then the value of $113l$ is equal to ________.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "For hyperbola $H: \\frac{x^2}{49} - \\frac{y^2}{64} = -1$, vertices are $(0, \\pm b_1) = (0, \\pm 8)$. Since ellipse $E$ passes through the vertices of $H$, $b = 8$ and $a = 7$ (from the transverse/conjugate alignment). Eccentricity of $H$, $e_H = \\sqrt{1 + \\frac{49}{64}} = \\sqrt{\\frac{113}{64}} = \\frac{\\sqrt{113}}{8}$. Given $e_E \\cdot e_H = \\frac{1}{2} \\implies e_E \\cdot \\frac{\\sqrt{113}}{8} = \\frac{1}{2} \\implies e_E = \\frac{4}{\\sqrt{113}}$. For ellipse, $e^2 = 1 - \\frac{a^2}{b^2}$ (since $b > a$), so $\\frac{16}{113} = 1 - \\frac{a^2}{64} \\implies \\frac{a^2}{64} = \\frac{97}{113}$. Length of latus rectum $l = \\frac{2a^2}{b}$. Calculating $113l$ yields 1552.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "A common tangent T to the curves $C_1: \\frac{x^2}{4} + \\frac{y^2}{9} = 1$ and $C_2: \\frac{x^2}{42} - \\frac{y^2}{143} = 1$ does not pass through the fourth quadrant. If T touches $C_1$ at $(x_1, y_1)$ and $C_2$ at $(x_2, y_2)$, then $|2x_1 + x_2|$ is equal to ________.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Using the common tangent equations for the ellipse and hyperbola, we find the points of contact $(x_1, y_1)$ and $(x_2, y_2)$. Evaluating $|2x_1 + x_2|$ gives 20.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "For the hyperbola $H: x^2 - y^2 = 1$ and the ellipse $E: \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1, a > b > 0$, let (1) eccentricity of E be reciprocal of the eccentricity of H, and (2) the line $y = \\sqrt{\\frac{5}{2}}x + K$ be a common tangent of E and H. Then $4(a^2 + b^2)$ is equal to ________.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Eccentricity of $H: x^2 - y^2 = 1$ is $e_H = \\sqrt{2}$. Thus $e_E = \\frac{1}{\\sqrt{2}}$. For ellipse, $e^2 = 1 - \\frac{b^2}{a^2} = \\frac{1}{2} \\implies a^2 = 2b^2$. Using the condition for common tangent of ellipse and hyperbola with slope $m = \\sqrt{\\frac{5}{2}}$, we find $a^2$ and $b^2$. Then $4(a^2 + b^2) = 3$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the hyperbola $H: \\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ pass through the point $(2\\sqrt{2}, -2\\sqrt{2})$. A parabola is drawn whose focus is same as the focus of H with positive abscissa and the directrix of the parabola passes through the other focus of H. If the length of the latus rectum of the parabola is $e$ times the length of the latus rectum of H, where $e$ is the eccentricity of H, then which of the following points lies on the parabola?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "...",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "...",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "...",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "...",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "By substituting the point into the hyperbola and using conditions on foci and latus rectum, we determine the parabola's equation and verify that the correct option is B.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the focal chord of the parabola $P: y^2 = 4x$ along the line $L: y = mx + c, m > 0$ meet the parabola at the points M and N. Let the line L be a tangent to the hyperbola $H: x^2 - y^2 = 4$. If O is the vertex of P and F is the focus of H on the positive x-axis, then the area of the quadrilateral OMFN is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2\\sqrt{6}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2\\sqrt{14}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4\\sqrt{6}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4\\sqrt{14}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since $L: y = mx + c$ is a tangent to $H: \\frac{x^2}{4} - \\frac{y^2}{4} = 1$, the condition of tangency is $c^2 = a^2 m^2 - b^2 = 4m^2 - 4$. Also, $L$ is a focal chord of $y^2 = 4x$, so it passes through $(1,0)$, meaning $m(1) + c = 0 \\implies c = -m$. Substituting gives $m^2 = 4m^2 - 4 \\implies 3m^2 = 4 \\implies m = \\frac{2}{\\sqrt{3}}$. Using coordinates of M, N, O, and F, the area of quadrilateral OMFN is calculated as $2\\sqrt{14}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the tangent at $(\\alpha, \\beta)$ to the parabola $y^2 = 24\\alpha$ has slope $1$, find the normal at $(\\alpha+4, \\beta+4)$ to the hyperbola.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2x + 5y = 50$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x + 2y = 50$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2x + 5y = 75$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2x + 5y = 100$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Tangent at $(\\alpha, \\beta)$ has slope $1$. $\\beta^2 = 24\\alpha$. Equation of tangent $y\\beta = 12(x+\\alpha), \\frac{12}{\\beta} = 1 \\implies \\alpha = 6, \\beta = 12$. Point becomes $(10, 16)$. Normal at $(10, 16)$ to $\\frac{x^2}{36} - \\frac{y^2}{144} = 1$ is $2x + 5y = 100$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the eccentricity and directrix of a hyperbola are given, find the equation of the hyperbola.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2x^2 - y^2 = 3$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2x^2 - y^2 = 6$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x^2 - 2y^2 = 6$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x^2 - y^2 = 6$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "From the equation $\\frac{x^2}{6/k} - \\frac{y^2}{6} = 1$, we find $e^2 = 1 + \\frac{6}{6/k} = 1 + k$. Using $x = \\frac{a}{e}$, we get $k = 2$. Thus, the equation is $2x^2 - y^2 = 6$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "An ellipse $E: \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ passes through the vertices of the hyperbola $H: \\frac{y^2}{64} - \\frac{x^2}{49} = 1$. Find $113l$ where $l$ is the latus rectum.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1550$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1551$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$1552$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1553$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Hyperbola $H$ has $b = 8$. Eccentricity calculations yield $a^2 = 64 - \\frac{32^2}{113}$. The latus rectum $l = \\frac{2a^2}{b}$. Thus $113l = 1552$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Find the value of $|2x_1 + x_2|$ for the given common tangents of hyperbolas.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$10$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$15$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$20$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$25$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Common tangents are $T_1: y = mx \\pm \\sqrt{4m^2 + 9}$ and $T_2: y = mx \\pm \\sqrt{42m^2 - 13}$. Comparing gives $m = \\pm 2$ and $c = \\pm 5$. For the tangent not passing through the 4th quadrant, $T: y = 2x + 5$. Comparing and solving gives $|2x_1 + x_2| = 20$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the hyperbola $H: \\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ passes through the point $(2\\sqrt{2}, -2\\sqrt{2})$ and the distance between its foci is equal to $4ae$, then the equation of the parabola with focus at $(ae, 0)$ is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$y^2 = 4\\sqrt{3}x$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$y^2 = 8\\sqrt{3}x$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$y^2 = 4\\sqrt{2}x$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$y^2 = 8\\sqrt{2}x$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$H : \\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$\nFoci : $S(ae, 0), S'(-ae, 0)$\nGiven $4ae = e\\left(\\frac{2b^2}{a}\\right) \\Rightarrow b^2 = 2a^2 \\dots (1)$\nGiven $(2\\sqrt{2}, -2\\sqrt{2})$ lies on $H$\n$\\Rightarrow \\frac{1}{a^2} - \\frac{1}{b^2} = \\frac{1}{8} \\dots (2)$\nFrom (1) and (2)\n$a^2 = 4, b^2 = 8$\n$\\therefore b^2 = a^2(e^2 - 1)$\n$\\therefore e = \\sqrt{3}$\n$\\Rightarrow$ Equation of parabola is $y^2 = 8\\sqrt{3}x$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "hyperbola",
+    "chapter": "hyperbola",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

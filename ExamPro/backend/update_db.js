@@ -1,0 +1,1 @@
+﻿import mongoose from 'mongoose'; import Question from './models/Question.js'; mongoose.connect('mongodb://localhost:27017/exampro').then(async () => { const res = await Question.updateMany({subject: 'Maths'}, {$set: {subject: 'Mathematics'}}); console.log('Updated DB:', res); process.exit(0); });

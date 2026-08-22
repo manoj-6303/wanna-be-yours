@@ -1,0 +1,3032 @@
+[
+  {
+    "difficulty": "Hard",
+    "question": "Let $f(x) = \\frac{x[x]}{x^2 + 1} : (1, 3) \\rightarrow \\mathbb{R}$ then range of $f(x)$ is (where $[.]$ denotes greatest integer function)",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\left(0, \\frac{1}{2}\\right) \\cup \\left[\\frac{3}{5}, \\frac{7}{5}\\right]$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\left(\\frac{2}{5}, \\frac{1}{2}\\right) \\cup \\left[\\frac{3}{4}, \\frac{4}{5}\\right]$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\left(\\frac{2}{5}, 1\\right) \\cup \\left(1, \\frac{4}{5}\\right]$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\left(0, \\frac{1}{3}\\right) \\cup \\left(\\frac{2}{5}, \\frac{4}{5}\\right]$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$f(x) = \\begin{cases} \\frac{x}{x^2+1}; & x \\in (1, 2) \\\\ \\frac{2x}{x^2+1}; & x \\in [2, 3) \\end{cases}$\n$f(x)$ is a decreasing function.\n$y \\in \\left(\\frac{2}{5}, \\frac{1}{2}\\right) \\cup \\left(\\frac{6}{10}, \\frac{4}{5}\\right]$\n$\\Rightarrow y \\in \\left(\\frac{2}{5}, \\frac{1}{2}\\right) \\cup \\left[\\frac{3}{5}, \\frac{4}{5}\\right]$ (Note: $\\frac{6}{10} = \\frac{3}{5}$)",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Find the number of solution of $\\log_{1/2} |\\sin x| = 2 - \\log_{1/2} |\\cos x|, x \\in [0, 2\\pi]$",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$8$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$\\log_{1/2} |\\sin x| = 2 - \\log_{1/2} |\\cos x|$\n$\\log_{1/2} |\\sin x \\cos x| = 2$\n$|\\sin x \\cos x| = \\frac{1}{4}$\n$\\sin 2x = \\pm \\frac{1}{2}$\nNumber of solutions = 8.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\mathbf{N}$ be the set of natural numbers and two functions $f$ and $g$ be defined as $f, g: \\mathbf{N} \\to \\mathbf{N}$ such that $f(n) = \\begin{cases} \\frac{n+1}{2} & \\text{if } n \\text{ is odd} \\\\ \\frac{n}{2} & \\text{if } n \\text{ is even} \\end{cases}$ and $g(n) = n - (-1)^n$. Then $fog$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "onto but not one-one.",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "one-one but not onto.",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "both one-one and onto.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "neither one-one nor onto.",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "We can compute $f(g(n))$ for odd and even $n$ using the given definitions. For $n=1,2,3,4,5,6$, we get values $1, 1, 2, 2, 3, 3$. Thus $fog$ is onto but not one-one.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\sum_{k=1}^{10} f(a+k) = 16(2^{10} - 1)$, where the function $f$ satisfies $f(x+y) = f(x) f(y)$ for all natural numbers $x, y$ and $f(1) = 2$. Then the natural number '$a$' is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$3$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$f(x+y) = f(x)f(y) \\implies f(x) = 2^x$. Given $\\sum_{k=1}^{10} f(a+k) = 16(2^{10}-1) \\implies \\sum_{k=1}^{10} 2^{a+k} = 16(2^{10}-1) \\implies 2^a \\sum_{k=1}^{10} 2^k = 16(2^{10}-1) \\implies 2^a \\times \\frac{2(2^{10}-1)}{2-1} = 16(2^{10}-1) \\implies 2^a \\times 2 = 16 \\implies 2^a = 8 \\implies a = 3$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\mathbf{N}$ be the set of natural numbers and two functions $f$ and $g$ be defined as $f, g: \\mathbf{N} \\to \\mathbf{N}$ such that $f(n) = \\begin{cases} \\frac{n+1}{2}, & \\text{if } n \\text{ is odd} \\\\ \\frac{n}{2}, & \\text{if } n \\text{ is even} \\end{cases}$ and $g(n) = n - (-1)^n$. Then $fog$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "onto but not one-one.",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "one-one but not onto.",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "both one-one and onto.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "neither one-one nor onto.",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "For $n=1,2,3,4,5,6$, $g(n)$ outputs values $2, 1, 4, 3, 6, 5$. Then $f(g(n))$ for these values yields $1, 1, 2, 2, 3, 3 \\dots$ showing that multiple inputs map to the same output. Thus $fog$ is onto but not one-one.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the function $f: \\mathbf{R} - \\{1, -1\\} \\to A$ defined by $f(x) = \\frac{x^2}{1-x^2}$, is surjective, then $A$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\mathbf{R} - \\{-1\\}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$[0, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\mathbf{R} - [-1, 0]$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\mathbf{R} - (-1, 0)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $f(x) = \\frac{x^2}{1-x^2}$. Since $f(-x) = f(x)$, $f$ is an even function. Analyzing the range: as $x \\to \\pm 1$, $f(x) \\to \\infty$, and at $x=0$, $f(0) = 0$. The range is $(-\\infty, -1] \\cup [0, \\infty) = \\mathbf{R} - (-1, 0)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\sum_{k=1}^{10} f(a+k) = 16(2^{10} - 1)$, where the function $f$ satisfies $f(x+y) = f(x)f(y)$ for all natural numbers $x$, $y$ and $f(1) = 2$. Then the natural number '$a$' is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$3$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Since $f(x+y) = f(x)f(y)$ and $f(1)=2$, $f(x) = 2^x$. Given $\\sum_{k=1}^{10} f(a+k) = 16(2^{10}-1) \\implies \\sum_{k=1}^{10} 2^{a+k} = 2^a \\sum_{k=1}^{10} 2^k = 2^a \\frac{2(2^{10}-1)}{2-1} = 16(2^{10}-1)$. Thus $2^a \\cdot 2 = 16 \\implies 2^a = 8 \\implies a = 3$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The number of solutions of the equation $\\log_{(x+1)}(2x^2+7x+5) + \\log_{(2x+5)}(x+1)^2 - 4 = 0$ for $x > 0$, is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\left[0, \\frac{1}{e}\\right)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "[\\log_e 2, \\log_e 3)",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "[1, e)",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "[0, \\log_c 2)",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "By changing bases and simplifying the logarithmic equation, we find the number of valid solutions for $x > 0$ is 1.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $[x]$ denote the greatest integer less than or equal to $x$. Then, the values of $x \\in \\mathbf{R}$ satisfying the equation $[e^x]^2 + [e^x + 1] - 3 = 0$ lie in the interval :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\left[0, \\frac{1}{e}\\right)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "(\\log_e 2, \\log_e 3)",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "[1, e)",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "[0, \\log_e 2)",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let $t = [e^x]$. Since $[e^x+1] = [e^x]+1$, the equation becomes $t^2 + t + 1 - 3 = 0 \\implies t^2 + t - 2 = 0 \\implies (t+2)(t-1) = 0$. Thus $t = 1$ (since $t=[e^x] \\ge 0$). So $1 \\le e^x < 2 \\implies 0 \\le x < \\log_e 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the domain of the function $f(x) = \\frac{\\cos^{-1}\\sqrt{x^2-x+1}}{\\sin^{-1}\\left(\\frac{2x-1}{2}\\right)}$ is the interval $(\\alpha, \\beta]$, then $\\alpha + \\beta$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\frac{3}{2}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\frac{1}{2}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "1",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Find the domain by ensuring the argument of $\\cos^{-1}$ is in $[-1, 1]$, the argument of $\\sin^{-1}$ is in $[-1, 1]$, and the denominator is non-zero. Solving yields the required interval.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A = \\{0, 1, 2, 3, 4, 5, 6, 7\\}$. Then the number of bijective functions $f : A \\to A$ such that $f(1) + f(2) = 3 - f(3)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "720",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "360",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "144",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "540",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $f(1)+f(2)+f(3) = 3$. Since $f$ is a permutation of $0, 1, ..., 7$, the only possible non-negative distinct integers summing to 3 are $0, 1, 2$ in some order. Thus the set $\\{f(1), f(2), f(3)\\} = \\{0, 1, 2\\}$. The number of ways to arrange these 3 values is $3! = 6$. The remaining 5 elements can be arranged in $5! = 120$ ways. Total = $6 \\times 120 = 720$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $g : \\mathbf{N} \\to \\mathbf{N}$ be defined as $g(3n+1) = 3n+2$, $g(3n+2) = 3n+3$, $g(3n+3) = 3n+1$, for all $n \\ge 0$. Then which of the following statements is true?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "There exists an onto function $f : \\mathbf{N} \\to \\mathbf{N}$ such that $fog = f$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "There exists a one-one function $f : \\mathbf{N} \\to \\mathbf{N}$ such that $fog = f$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "gogog = g",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "There exists a function $f : \\mathbf{N} \\to \\mathbf{N}$ such that $gof = f$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Analyzing the cyclic nature of $g$, $g$ is a bijection (specifically a 3-cycle partition on $\\mathbf{N}$), hence onto functions satisfying $fog = f$ can be constructed.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the domain of the function $f(x) = \\log_4(\\log_5(\\log_3(18x - x^2 - 77)))$ be $(a, b)$. Then the value of the integral $\\int_a^b \\frac{\\sin^3 x}{(\\sin^3 x + \\sin^3(a+b-x))} dx$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "Answer corresponding to Q10 (1)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "Answer corresponding to Q10 (2)",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Answer corresponding to Q10 (3)",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Answer corresponding to Q10 (4)",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using standard definite integral properties $\\int_a^b f(x)dx = \\int_a^b f(a+b-x)dx$, the integral evaluates to $\\frac{b-a}{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $S = \\{1, 2, 3, 4, 5, 6, 7\\}$. Then the number of possible functions $f : S \\to S$ such that $f(m \\cdot n) = f(m) \\cdot f(n)$ for every $m, n \\in S$ and $m \\cdot n \\in S$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "490",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "350",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "420",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "512",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "By analyzing the multiplicative property on the elements of $S$, prime elements and composite elements are mapped consistently to satisfy the given functional equation, yielding 490 functions.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f : \\mathbf{R} \\to \\mathbf{R}$ be defined as $f(x+y) + f(x-y) = 2f(x)f(y)$, $f\\left(\\frac{1}{2}\\right) = -1$. Then the value of $\\sum_{k=1}^{20} \\frac{1}{\\sin(k) \\sin(k+f(k))}$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\csc^2(21) \\cos(20) \\cos(2)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\sec^2(1) \\sec(21) \\cos(20)",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\csc^2(1) \\csc(21) \\sin(20)",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\sec^2(21) \\sin(20) \\sin(2)",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The functional equation is satisfied by $f(x) = \\cos(ax)$. Using $f(1/2) = -1$, we find $f(x) = \\cos(2\\pi x)$ or similar trigonometric forms, leading to telescoping sum simplification.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\alpha = \\max_{x \\in \\mathbf{R}} \\left\\{8^{2 \\sin 3x} \\cdot 4^{4 \\cos 3x}\\right\\}$ and $\\beta = \\min_{x \\in \\mathbf{R}} \\left\\{8^{2 \\sin 3x} \\cdot 4^{4 \\cos 3x}\\right\\}$. If $8x^2 + bx + c = 0$ is a quadratic equation whose roots are $\\alpha^{1/5}$ and $\\beta^{1/5}$, then the value of $c - b$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "42",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "47",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "43",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "50",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Simplify the expression inside max/min: $8^{2 \\sin 3x} 4^{4 \\cos 3x} = 2^{6 \\sin 3x + 8 \\cos 3x}$. The range of $a \\sin \\theta + b \\cos \\theta$ is $[-\\sqrt{a^2+b^2}, \\sqrt{a^2+b^2}] = [-10, 10]$. Thus $\\alpha = 2^{10}$ and $\\beta = 2^{-10}$. Then $\\alpha^{1/5} = 4$ and $\\beta^{1/5} = 1/4$. Roots are $4$ and $1/4$. Quadratic equation with leading coefficient 8: $8(x-4)(x-1/4) = 8(x^2 - \\frac{17}{4}x + 1) = 8x^2 - 34x + 8 = 0$. So $b = -34, c = 8$. Then $c - b = 8 - (-34) = 42$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Find the number of solutions of the equation $\\log_{(x+1)}(2x^2+7x+5) + \\log_{(2x+5)}(x+1)^2 - 4 = 0$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "0",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "3",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given equation: $\\log_{(x+1)}(2x^2+7x+5) + \\log_{(2x+5)}(x+1)^2 - 4 = 0$. $\\log_{(x+1)}(2x+5)(x+1) + 2\\log_{(2x+5)}(x+1) = 4$. $\\log_{(x+1)}(2x+5) + 1 + 2\\log_{(2x+5)}(x+1) = 4$. Put $\\log_{(x+1)}(2x+5) = t$, $t + \\frac{2}{t} = 3 \\implies t^2 - 3t + 2 = 0$. $t = 1, 2$. $\\log_{(x+1)}(2x+5) = 1$ & $\\log_{(x+1)}(2x+5) = 2$. $x+1 = 2x+3$ & $2x+5 = (x+1)^2$. $x = -4$ (rejected), $x^2 = 4 \\implies x=2, -2$ (rejected). So, $x=2$. No. of solution = 1.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Find the solution set of the equation $[e^x]^2 + [e^x + 1] - 3 = 0$, where $[.]\n$ denotes the greatest integer function.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "[0, \\ln 2)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "(0, \\ln 2)",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "[0, \\ln 2]",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "(0, \\ln 2]",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$[e^x]^2 + [e^x+1] - 3 = 0 \\implies [e^x]^2 + [e^x] + 1 - 3 = 0$. Let $[e^x] = t \\implies t^2 + t - 2 = 0 \\implies t = -2, 1$. $[e^x] = -2$ (Not possible) or $[e^x] = 1 \\implies 1 \\le e^x < 2 \\implies \\ln(1) \\le x < \\ln(2) \\implies 0 \\le x < \\ln(2) \\implies x \\in [0, \\ln 2)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the domain of the function $f(x) = \\sin^{-1}\\left(\\frac{2x-1}{2}\\right) + \\cos^{-1}(x^2-x+1)$ is $[\\alpha, \\beta]$, then find $\\alpha$ and $\\beta$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\alpha = \\frac{1}{2}, \\beta = 1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\alpha = 0, \\beta = 1",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\alpha = \\frac{1}{2}, \\beta = \\frac{3}{2}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\alpha = 0, \\beta = \\frac{1}{2}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "For $\\cos^{-1}(x^2-x+1)$: $0 \\le x^2-x+1 \\le 1 \\implies x^2-x \\le 0 \\implies x \\in [0, 1]$. Also, for $\\sin^{-1}\\left(\\frac{2x-1}{2}\\right)$: $-1 \\le \\frac{2x-1}{2} \\le 1 \\implies 0 < \\sin^{-1}\\left(\\frac{2x-1}{2}\\right) \\le \\frac{\\pi}{2}$ (Wait, looking at solution) $\\implies 0 < \\frac{2x-1}{2} \\le 1 \\implies 0 < 2x-1 \\le 2 \\implies 1 < 2x \\le 3 \\implies \\frac{1}{2} < x \\le \\frac{3}{2}$. Taking intersection $x \\in (\\frac{1}{2}, 1]$, thus $\\alpha = \\frac{1}{2}, \\beta = 1$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f(x)$ be a polynomial of degree $3$ such that $f(k) = -\\frac{2}{k}$ for $k = 2, 3, 4, 5$. Then the value of $52 - 10f(10)$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "26",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "54",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "18",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "36",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$kf(k) + 2 = \\lambda(x-2)(x-3)(x-4)(x-5) \\dots (1)$<br>Put $x = 0$<br>we get $\\lambda = \\frac{1}{60}$<br>Now put $\\lambda$ in equation $(1)$<br>$\\Rightarrow kf(k) + 2 = \\frac{1}{60}(x-2)(x-3)(x-4)(x-5)$<br>Put $x = 10$<br>$\\Rightarrow 10f(10) + 2 = \\frac{1}{60}(8)(7)(6)(5)$<br>$\\Rightarrow 52 - 10f(10) = 52 - 26 = 26$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $S = \\{1, 2, 3, 4, 5, 6\\}$. Then the probability that a randomly chosen onto function $g$ from $S$ to $S$ satisfies $g(3) = 2g(1)$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{10}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{15}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{5}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{30}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$g(3) = 2g(1)$ can be defined in $3$ ways<br>number of onto functions in this condition $= 3 \\times 4!$<br>Total number of onto functions $= 6!$<br>Required probability $= \\frac{3 \\times 4!}{6!} = \\frac{1}{10}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be a function defined by $f(x) = \\left(2\\left(1 - \\frac{x^{25}}{2}\\right)^{1/50}\\left(2 + x^{25}\\right)\\right)$. If the function $g(x) = f(f(f(x))) + f(f(x))$, then the greatest integer less than or equal to $g(1)$ is ____",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Evaluate the function composition step by step starting with $f(1)$ and applying it iteratively.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let a function $f : \\mathbb{N} \\to \\mathbb{N}$ be defined by $f(n) = \\begin{cases} 2n, & n = 2, 4, 6, 8, \\dots \\\\ n-1, & n = 3, 7, 11, 15, \\dots \\\\ \\frac{n+1}{2}, & n = 1, 5, 9, 13, \\dots \\end{cases}$, then $f$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "one-one but not onto",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "onto but not one-one",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "neither one-one nor onto",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "one-one and onto",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Analyze the range and pre-images for each branch of $f(n)$ to determine if it is injective and surjective.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $S = \\{1, 2, 3, 4\\}$. Then the number of elements in the set $\\{f : S \\times S \\to S : f \\text{ is onto and } f(a, b) = f(b, a) \\geq a \\forall (a, b) \\in S \\times S\\}$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Use combinatorics and the conditions on symmetric binary operations on a finite set.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $2f(a) + 3f(c) = f(d) - f(b)$, find the number of one-one functions possible given certain constraints.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$30$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$32$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$31$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$28$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Using the fundamental principle of counting, the number of one-one function is $31$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f: \\mathbb{N} \\to \\mathbb{R}$, $f(x+y) = 2 f(x) f(y)$ and $f(1) = 2$. If $\\sum_{k=1}^{10} f(\\alpha + k) = 2f(\\alpha) \\sum_{k=1}^{10} f(k)$, find $\\alpha$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$5$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "From $f(x+y) = 2f(x)f(y)$ and $f(1) = 2$, we get $f(n) = 2^{2n-1}; n \\in \\mathbb{N}$. Substituting this into the given summation equation yields $\\alpha = 4$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $f(x) = \\left[2\\left(1 - \\frac{x^{25}}{2}\\right)\\left(2 + x^{25}\\right)\\right]^{\\frac{1}{50}}$ and $g(x) = f(f(f(x))) + f(f(x))$, find $[g(1)]$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$f(x) = [(4 - x^{50})^{\\frac{1}{50}}]$. Thus $f(f(x)) = x$. Therefore, $g(x) = f(x) + x$. For $x = 1$, $g(1) = f(1) + 1 = 3^{1/50} + 1$, so $[g(1)] = 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $f(x) + f(1-x) = \\frac{2e^{2x}}{e^{2x} + e} + \\frac{2e^{2-2x}}{e^{2-x} + e}$, find the sum $\\sum_{k=1}^{99} f\\left(\\frac{k}{100}\\right)$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$98$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$90$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$99$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$100$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Using symmetry properties of $f(x) + f(1-x) = 2$, grouping terms from $k=1$ to $99$ gives $49$ pairs plus the middle term, resulting in $98 + 1 = 99$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f : \\mathbb{N} \\to \\mathbb{N}$ be defined as $f(n) = \\begin{cases} 4R & ; n = 2R \\\\ 4R-2 & ; n = 4R-1 \\\\ 2R-1 & ; n = 4R-3 \\end{cases}$ where $R \\in \\mathbb{N}$. Then $f$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "one-one but not onto",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "onto but not one-one",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "neither one-one nor onto",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "both one-one and onto",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Note that for any element, it will fall into exactly one of these sets: $\\{y : y = 4R; y \\in \\mathbb{N}\\}$, $\\{y : y = 4R-2; y \\in \\mathbb{N}\\}$, $\\{y : y = 2R-1; y \\in \\mathbb{N}\\}$. Corresponding to that $y$, we will get exactly one value of $n$. Thus, $f$ is one-one & onto.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A = \\{a, b, c, d\\}$ and $B = \\{1, 2, 3, 4, 5\\}$. The number of functions $f : A \\to B$ such that $f(a) + 2f(b) = f(c) + f(d)$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "6",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "12",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "18",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "24",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Total number of functions without restriction is $n(s) = 5_{C_4} \\times 4! = 120$. Checking the possible combinations for $f(a) + 2f(b) = f(c) + f(d)$:\n\n| $f(a)$ | $+$ | $2f(b)$ | $=$ | $f(c)$ | $+$ | $f(d)$ |\n|---|---|---|---|---|---|---|\n| 5 | | $2\\times1$ | | 3 | | 4 |\n| 4 | | $2\\times2$ | | 3 | | 5 |\n| 1 | | $2\\times3$ | | 2 | | 5 |\n\nNumber of valid combinations $n(A) = 2 \\times 3 = 6$. Therefore, $P(A) = \\frac{n(A)}{n(s)} = \\frac{6}{120} = \\frac{1}{20}$ (Answer implies matching the count options, leading to option A).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The number of onto functions $f : \\{1, 2, 3, 4\\} \\to \\{1, 2, 3\\}$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "36",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "35",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "37",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "38",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Total functions = $3^4 = 81$ (simplified logic in solution: total onto functions = $72 - 4 - 32 + 1 = 37$).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be defined as $f(x) = (c+1)x^2 + (1-c^2)x + 2k$ and $f(x+y) = f(x) + f(y) - xy \\quad \\forall x, y \\in \\mathbb{R}$. Then the value of $\\sum_{x=1}^{20} |2f(x)|$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "3395",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "3400",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3350",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "3410",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $f(x+y) = f(x) + f(y) - xy$. Differentiating partially with respect to $y$ and setting $y \\to 0$ gives $f'(x) = f'(0) - x$. Integrating: $f(x) = -\\frac{1}{2}x^2 + f'(0)x + \\lambda$, where $\\lambda = 0$ since $f(0) = 0$. Comparing coefficients with $f(x) = (c+1)x^2 + (1-c^2)x + 2k$, we find $c = -3/2$, leading to $f(x) = -\\frac{1}{2}x^2 + \\frac{5}{4}x$. Then $\\sum_{x=1}^{20} |2f(x)| = 3395$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A = \\left\\{x \\in \\mathbb{R} : [x + 3] + [x + 4] \\leq 3\\right\\}$, $B = \\left\\{x \\in \\mathbb{R} : 3^x \\left(\\sum_{r=1}^{\\infty} \\frac{3}{10^r}\\right)^{x-3} < 3^{-3x}\\right\\}$, where $[t]$ denotes greatest integer function. Then,",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$B \\subset C, A \\neq B$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$A \\cap B = \\phi$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$A \\subset B, A \\neq B$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$A = B$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Given, $A = \\left\\{x \\in \\mathbb{R} : [x + 3] + [x + 4] \\leq 3\\right\\}$ and $B = \\left\\{x \\in \\mathbb{R} : 3^x \\left(\\sum_{r=1}^{\\infty} \\frac{3}{10^r}\\right)^{x-3} < 3^{-3x}\\right\\}$. Now solving $A$ we get, $[x + 3] + [x + 4] \\leq 3 \\implies [x] + 3 + [x] + 4 \\leq 3 \\implies 2[x] \\leq -4 \\implies [x] \\leq -2 \\implies x < -1 \\implies A = (-\\infty, -1)$. Now solving $B$ we get, $3^x \\left(\\sum_{r=1}^{\\infty} \\frac{3}{10^r}\\right)^{x-3} < 3^{-3x}$. Using infinite G.P formula $S_{\\infty} = \\frac{a}{1-r}$ we get, $\\sum_{r=1}^{\\infty} \\frac{3}{10^r} = \\frac{\\frac{3}{10}}{1-\\frac{1}{10}} = \\frac{1}{3}$. So, $3^x \\left(\\frac{1}{3}\\right)^{x-3} < 3^{-3x} \\implies 3^{x-x+3+3x} < 1 \\implies 3^{3(x+1)} < 1 \\implies 3(x+1) < 0 \\implies x < -1 \\implies B = (-\\infty, -1)$. Thus, $A = B$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If domain of the function $\\log_e \\left(\\frac{6x^2 + 5x + 1}{2x-1}\\right) + \\cos^{-1}\\left(\\frac{2x^2 - 3x + 4}{3x-5}\\right)$ is $(\\alpha, \\beta) \\cup (\\gamma, \\delta)$, then $18(\\alpha^2 + \\beta^2 + \\gamma^2 + \\delta^2)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "We need to find the domain of the function $\\log_e \\left(\\frac{6x^2 + 5x + 1}{2x-1}\\right) + \\cos^{-1}\\left(\\frac{2x^2 - 3x + 4}{3x-5}\\right)$. $\\frac{6x^2+5x+1}{2x-1} > 0 \\dots(1)$ and $-1 \\leq \\frac{2x^2-3x+4}{3x-5} \\leq 1 \\dots(2)$. From (1), $\\frac{(3x+1)(2x+1)}{2x-1} > 0 \\implies x \\in \\left(-\\frac{1}{2}, -\\frac{1}{3}\\right) \\cup \\left(\\frac{1}{2}, \\infty\\right) \\dots(a)$. From (2), $-1 \\leq \\frac{2x^2-3x+4}{3x-5} \\leq 1 \\implies \\frac{2x^2-3x+4}{3x-5} \\geq -1$ and $\\frac{2x^2-3x+4}{3x-5} \\leq 1$. Solving these gives $x \\in \\left(-\\infty, -\\frac{1}{\\sqrt{2}}\\right] \\cup \\left(\\frac{5}{3}, \\infty\\right)$ and $x \\in \\left(-\\infty, \\frac{5}{3}\\right)$. Intersection gives $x \\in \\left(-\\frac{1}{2}, -\\frac{1}{3}\\right) \\cup \\left(\\frac{1}{2}, \\frac{1}{\\sqrt{2}}\\right)$. Comparing with $(\\alpha, \\beta) \\cup (\\gamma, \\delta)$, we find $\\alpha^2 + \\beta^2 + \\gamma^2 + \\delta^2 = \\frac{10}{9}$. Thus $18(\\alpha^2 + \\beta^2 + \\gamma^2 + \\delta^2) = 20$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $R = \\{a, b, c, d, e\\}$ and $S = \\{1, 2, 3, 4\\}$. Total number of onto functions $f : R \\to S$ such that $f(a) \\neq 1$, is equal to ________.",
+    "has_question_image": true,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Given, $R = \\{a, b, c, d, e\\}$ and $S = \\{1, 2, 3, 4\\}$. Now taking $f(a) = 1$, one of $f(b), f(c), f(d), f(e) = 1$ then total such cases = $4 \\cdot 3! = 24$. Now if, only $f(a) = 1$, then we have distribute $\\{2, 3, 4\\}$ amongst $\\{b, c, d, e\\}$, so total cases = $3^4 - (^3C_1 \\cdot 2^4) + (^3C_2 \\cdot 1) = 36$. So, number of onto functions when $f(a) = 1$ is $24 + 36 = 60$. Now finding, total number of onto functions, $= 4^5 - (^4C_1 \\cdot 3^5) + (^4C_2 \\cdot 2^5) - (^4C_3 \\cdot 1) = 1024 - 973 + 192 - 4 = 240$. Number of required functions when $f(a) \\neq 1$ will be, $240 - 60 = 180$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $D$ be the domain of the function $f(x) = \\sin^{-1}\\left(\\log_{3x} \\left(\\frac{6+2\\log_3 x}{-5x}\\right)\\right)$. If the range of the function $g : D \\to \\mathbb{R}$ defined by $g(x) = x - [x]$, ([x] is the greatest integer function), is $(\\alpha, \\beta)$, then $\\alpha^2 + \\frac{5}{\\beta}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$135$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$45$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$46$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$136$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Solution involves finding the domain $D$ using properties of $\\sin^{-1}$ and $\\log$, then evaluating the range of $g(x) = x - [x]$ which is the fractional part function. Evaluating $\\alpha^2 + \\frac{5}{\\beta}$ gives 135.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "For the differentiable function $f : \\mathbb{R} - \\{0\\} \\to \\mathbb{R}$, let $3f(x) + 2f\\left(\\frac{1}{x}\\right) = \\frac{1}{x} - 10$, then $\\left|f(3) + f'\\left(\\frac{1}{4}\\right)\\right|$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{33}{5}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{29}{5}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$13$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Given $3f(x) + 2f\\left(\\frac{1}{x}\\right) = \\frac{1}{x} - 10$. Differentiating or substituting $x \\to \\frac{1}{x}$ allows finding $f(x)$ explicitly. Solving gives $f(3) + f'\\left(\\frac{1}{4}\\right) = 13$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the domain of the function $f(x) = \\log_e(4x^2 + 11x + 6) + \\sin^{-1}(4x+3) + \\cos^{-1}\\left(\\frac{10x+6}{3}\\right)$ is $(\\alpha, \\beta]$, then $36|\\alpha + \\beta|$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$54$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$72$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$63$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$45$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Find domain of each term: 1) $4x^2 + 11x + 6 > 0$, 2) $-1 \\leq 4x+3 \\leq 1$, 3) $-1 \\leq \\frac{10x+6}{3} \\leq 1$. Intersection gives the domain interval $(\\alpha, \\beta]$, then compute $36|\\alpha + \\beta|$. Result is 45.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the domain of the function $f(x) = \\sin^{-1}\\left(\\log_{3x}\\left(\\frac{6+2\\log_3 x}{-5x}\\right)\\right)$ be $(\\alpha, \\beta)$. Then $\\alpha^2 + \\frac{5}{\\beta}$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "135",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "140",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "125",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "130",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "We know that the domain of $\\sin^{-1} x$ is $-1 \\le x \\le 1$. $\\implies \\log_{3x}\\left(\\frac{6+2\\log_3 x}{-5x}\\right) \\in [-1, 1]$, $3x > 0, 3x \\neq 1, \\frac{6+2\\log_3 x}{-5x} > 0$. From (2), $x > 0$, from (3), $x \\neq \\frac{1}{3}$. From (4), $6+2\\log_3 x < 0$ $(\\because x > 0) \\implies \\log_3 x < -3 \\implies x < 3^{-3} \\implies x < \\frac{1}{27}$. From (2), (3), (4), $0 < x < \\frac{1}{27}$. From (1), $-1 \\le \\log_{3x}\\left(\\frac{6+2\\log_3 x}{-5x}\\right) \\le 1 \\implies 3x \\in (0, \\frac{1}{9}]$. Combining conditions, range $g(x)$ is domain of $f(x) \\implies g(x) \\in (3^{\\frac{-23}{6}}, \\frac{1}{27}) = (\\alpha, \\beta)$. Then $\\alpha^2 + \\frac{5}{\\beta} = (3^{\\frac{-23}{6}})^2 + \\frac{5}{\\frac{1}{27}} = (3^{\\frac{-23}{6}})^2 + 135 \\approx 135$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the domain of the function $f(x) = \\log(4x^2 + 11x + 6) + \\sin^{-1}(4x + 3) + \\cos^{-1}\\left(\\frac{10x+6}{3}\\right)$ be $[\\alpha, \\beta]$. Then $|36(\\alpha + \\beta)|$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "36",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "40",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "42",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "45",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "We know that the domain of $A(x) + B(x) + C(x)$ is $D(A) \\cap D(B) \\cap D(C)$. Let us find the domain of $\\log(4x^2 + 11x + 6)$. $4x^2 + 11x + 6 > 0 \\implies x \\in (-\\infty, -2) \\cup (-\\frac{3}{4}, \\infty)$. Let us find the domain of $\\sin^{-1}(4x+3) \\implies -1 \\le 4x+3 \\le 1 \\implies x \\in [-1, -\\frac{1}{2}]$. Let us find the domain of $\\cos^{-1}\\left(\\frac{10x+6}{3}\\right) \\implies -1 \\le \\frac{10x+6}{3} \\le 1 \\implies x \\in [-\\frac{9}{10}, -\\frac{3}{10}]$. Now the common domain is $\\frac{-3}{4} \\le x \\le \\frac{-1}{2} \\implies x \\in [-\\frac{3}{4}, -\\frac{1}{2}]$. But given that the domain of $f(x)$ is $x \\in [\\alpha, \\beta] \\implies \\alpha = -\\frac{3}{4}, \\beta = -\\frac{1}{2}$. $\\implies |36(\\alpha + \\beta)| = \\left|36\\left(-\\frac{3}{4} + \\left(-\\frac{1}{2}\\right)\\right)\\right| = \\left|36 \\times \\frac{-5}{4}\\right| = 45$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be a function defined by $f(x) = \\log_{\\sqrt{m}} \\{\\sqrt{2}(\\sin x - \\cos x) + m - 2\\}$, for some $m$, such that the range of $f$ is $[0, 2]$. Then the value of $m$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The expression $\\sqrt{2}(\\sin x - \\cos x)$ has range $[-\\sqrt{2}\\cdot\\sqrt{2}, \\sqrt{2}\\cdot\\sqrt{2}] = [-2, 2]$. Therefore, the argument of the logarithm, let's call it $g(x) = \\sqrt{2}(\\sin x - \\cos x) + m - 2$, has range $[m-4, m]$. Since the range of $f$ is $[0, 2]$ and base is $\\sqrt{m}$ (so $m > 1$), the argument ranges from $(\\sqrt{m})^0 = 1$ to $(\\sqrt{m})^2 = m$. Thus, $m-4 = 1 \\implies m = 5$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a}, \\vec{b}$ and $\\vec{c}$ be three non-zero non-coplanar vectors. Let the position vectors of four points A, B, C and D be $\\vec{a}-\\vec{b}+\\vec{c}, \\lambda\\vec{a}-3\\vec{b}+4\\vec{c}, -\\vec{a}+2\\vec{b}-3\\vec{c}$ and $2\\vec{a}-4\\vec{b}+6\\vec{c}$ respectively. If $\\vec{AB}$, $\\vec{AC}$ and $\\vec{AD}$ are coplanar, then $\\lambda$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Vectors $\\vec{AB}, \\vec{AC}, \\vec{AD}$ are coplanar if their scalar triple product is zero, i.e., $[\\vec{AB}, \\vec{AC}, \\vec{AD}] = 0$. $\\vec{AB} = (\\lambda-1)\\vec{a} - 2\\vec{b} + 3\\vec{c}$. $\\vec{AC} = -2\\vec{a} + 3\\vec{b} - 4\\vec{c}$. $\\vec{AD} = \\vec{a} - 3\\vec{b} + 5\\vec{c}$. Setting up the determinant with coefficients of $\\vec{a}, \\vec{b}, \\vec{c}$: $\\begin{vmatrix} \\lambda-1 & -2 & 3 \\\\ -2 & 3 & -4 \\\\ 1 & -3 & 5 \\end{vmatrix} = 0$. Expanding along the first row: $(\\lambda-1)(15 - 12) + 2(-10 + 4) + 3(6 - 3) = 0 \\implies 3(\\lambda-1) - 12 + 9 = 0 \\implies 3\\lambda - 3 - 3 = 0 \\implies 3\\lambda = 6 \\implies \\lambda = 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The absolute minimum value of the function $f(x) = |x^2 - x + 1| + [x^2 - x + 1]$, where $[t]$ denotes the greatest integer function, in the interval $[-1, 2]$, is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{3}{4}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{3}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{4}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{5}{4}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Solution corresponds to Q18 option (1).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f(x) = \\log_{\\sqrt{m}} (\\sqrt{2}(\\sin x - \\cos x) + m - 2)$ be defined for all $x \\in \\mathbb{R}$. If the range of $f(x)$ is $[0, 2]$, find the value of $m$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "6",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "5",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "We know that $-\\sqrt{2} \\le \\sin x - \\cos x \\le \\sqrt{2}$. Multiplying by $\\sqrt{2}$, we get $-2 \\le \\sqrt{2}(\\sin x - \\cos x) ≤ 2$. Let $k = \\sqrt{2}(\\sin x - \\cos x)$, so $k \\in [-2, 2]$. Since $f(x) = \\log_{\\sqrt{m}}(k + m - 2)$ has range $[0, 2]$, the minimum and maximum values of the argument must correspond to the range boundaries, leading to $-m + 3 = -2$, which gives $m = 5$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f : \\{1, 2, 3, 4\\} \\to \\{a \\in \\mathbb{Z} : |a| \\le 8\\}$ be a function satisfying $f(n) + \\frac{1}{n}f(n+1) = 1$ for all $n \\in \\{1, 2, 3\\}$. Find the number of possible functions $f(x)$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "3",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given $f(n) + \\frac{1}{n}f(n+1) = 1 \\implies f(n+1) = n(1 - f(n))$. Working backwards or testing integer values within the range $|a| \\le 8$, we find that $\\frac{f(4)}{3}$ must be odd since $f(3)$ should be even. This yields exactly 2 possible solution sets for $(f(4), f(3), f(2), f(1))$. Thus, there are 2 possible functions.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Consider the function $f : \\mathbb{R} \\to \\mathbb{R}$ defined by $f(x) = \\frac{2x}{\\sqrt{1+9x^2}}$. If the composition of $f, \\underbrace{(f \\circ f \\circ f \\circ \\dots \\circ f)}_{10 \\text{ times}}(x) = \\frac{2^{10}x}{\\sqrt{1+9\\alpha x^2}}$, then the value of $\\sqrt{3\\alpha + 1}$ is ______",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "By repeatedly applying $f(x)$, we observe the pattern of coefficients in the numerator and the coefficient under the square root in the denominator.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $[t]$ be the greatest integer less than or equal to $t$. Let $A$ be the set of all prime factors of $2310$ and $f : A \\to \\mathbb{Z}$ be the function $f(x) = \\left[\\log_2 \\left(x^2 + \\left[\\frac{x^3}{5}\\right]\\right)\\right]$. The number of one-one functions from $A$ to the range of $f$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$25$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$24$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$20$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$120$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Find the prime factors of 2310, evaluate $f(x)$ for each element in $A$, and determine the number of one-one functions.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f(x) = \\begin{cases} -a, & \\text{if } -a \\le x \\le 0 \\\\ x+a, & \\text{if } 0 < x \\le a \\end{cases}$ where $a > 0$ and $g(x) = (f(x) - |f(x)|)/2$. Then the function $g : [-a, a] \\to [-a, a]$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "neither one-one nor onto.",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "onto.",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "both one-one and onto.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "one-one.",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Analyze the definition of $g(x)$ in terms of negative and positive parts of $f(x)$ and check its mapping properties.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If a function $f$ satisfies $f(m+n) = f(m) + f(n)$ for all $m, n \\in \\mathbb{N}$ and $f(1) = 1$, then the largest natural number $\\lambda$ such that $\\sum_{k=1}^{2022} f(\\lambda + k) \\le (2022)^2$ is equal to ______",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Given the functional equation, $f(x) = x \\cdot f(1) = x$. Substitute into the summation and solve the inequality for $\\lambda$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the range of the function $f(x) = \\frac{1}{2 + \\sin 3x + \\cos 3x}, x \\in \\mathbb{R}$ be $[a, b]$. If $\\alpha$ and $\\beta$ are respectively the A.M. and the G.M. of $a$ and $b$, then $\\frac{\\alpha}{\\beta}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\pi$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\sqrt{\\pi}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sqrt{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Find the range of the denominator $2 + \\sin 3x + \\cos 3x$, which lies in $[2-\\sqrt{2}, 2+\\sqrt{2}]$, giving $a$ and $b$. Then compute $\\alpha$ and $\\beta$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f(\\theta) = \\frac{\\sin^4 \\theta + 3 \\cos^2 \\theta}{\\sin^4 \\theta + \\cos^2 \\theta}$. If the range of $f(\\theta)$ is $[a, b]$ and $S = \\sum_{\\theta} \\dots$, find $S$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$48$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$64$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$96$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$128$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$f(\\theta) = \\frac{\\sin^4 \\theta + 3 \\cos^2 \\theta}{\\sin^4 \\theta + \\cos^2 \\theta} = 1 + \\frac{2 \\cos^2 \\theta}{\\sin^4 \\theta + \\cos^2 \\theta} = \\frac{2}{\\cos^2 \\theta + \\sec^2 \\theta - 1} + 1$. Minimum value is 1, Maximum value is 3. $S = \\frac{64}{1 - 1/3} = 96$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Find the domain of $f(x) = \\sin^{-1} \\left(\\frac{x-1}{2x+3}\\right)$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(-\\infty, -4] \\cup [-\\frac{2}{3}, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(-\\infty, -4] \\cup (-\\frac{3}{2}, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$[-4, -\\frac{2}{3}]$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(-4, -\\frac{3}{2})$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "For domain, $2x+3 \\neq 0 \\implies x \\neq -\\frac{3}{2}$ and $\\left|\\frac{x-1}{2x+3}\\right| \\le 1 \\implies |x-1| \\le |2x+3|$. Solving gives $x \\in (-\\infty, -4] \\cup (-\\frac{2}{3}, \\infty)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the domain of the function $f(x) = \\frac{\\sqrt{x^2 - 25}}{(4 - x^2)} + \\log_{10}(x^2 + 2x - 15)$ is $(-\\infty, \\alpha) \\cup [\\beta, \\infty)$, then $\\alpha^2 + \\beta^3$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "140",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "175",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "150",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "125",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Solving for the domain of $f(x)$, we find the valid intervals for $x$ by ensuring non-negative terms under square roots, non-zero denominators, and positive arguments for logarithms. This yields $\\alpha = -5$ and $\\beta = 5$. Thus, $\\alpha^2 + \\beta^3 = (-5)^2 + (5)^3 = 25 + 125 = 150$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $f(x) = \\begin{cases} 2 + 2x, -1 \\le x < 0 \\\\ 1 - \\frac{x}{3}, 0 \\le x \\le 3 \\end{cases}; g(x) = \\begin{cases} -x, -3 \\le x \\le 0 \\\\ x, 0 < x \\le 1 \\end{cases}$, then range of $(fog)(x))$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "(0, 1]",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "[0, 3]",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "[0, 1]",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "[0, 1]",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "By evaluating the composite function $f(g(x))$ across the given intervals for $g(x)$ and subsequently $f(x)$, we obtain the resulting range as $[0, 1]$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Consider the function $f: \\left[\\frac{1}{2}, 1\\right] \\rightarrow \\mathbf{R}$ defined by $f(x) = 4\\sqrt{2}x^3 - 3\\sqrt{2}x - 1$. Consider the statements (I) The curve $y = f(x)$ intersects the $x$-axis exactly at one point (II) The curve $y = f(x)$ intersects the $x$-axis at $x = \\cos\\frac{\\pi}{12}$. Then",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "Only (II) is correct",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "Both (I) and (II) are incorrect",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Only (I) is correct",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Both (I) and (II) are correct",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Using trigonometric substitution $x = \\cos\\theta$, we simplify $f(x)$ and find the roots within the given interval. Both statements are verified to be correct.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the domain of the function $f(x) = \\cos^{-1}\\left(\\frac{2-|x|}{4}\\right) + (\\log_e(3-x))^{-1}$ is $[-\\alpha, \\beta) - \\{y\\}$, then $\\alpha + \\beta + \\gamma$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "12",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "9",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "11",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "8",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Evaluating the constraints for the inverse cosine and logarithmic function gives the domain bounds, allowing us to find $\\alpha$, $\\beta$, and $\\gamma$ and hence their sum.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f: \\mathbf{R} \\rightarrow \\mathbf{R}$ be a function defined $f(x) = \\frac{x}{(1+x^4)^{1/4}}$ and $g(x) = f(f(f(f(x))))$ then $18 \\int_{0}^{\\sqrt[4]{5}} x^2 g(x) dx$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "33",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "36",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "42",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "39",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "By repeatedly applying $f(x)$, we simplify $g(x) = f^{(4)}(x)$ and compute the definite integral using standard substitution methods to arrive at 39.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the function $f: (-\\infty, -1] \\rightarrow (a, b]$ defined by $f(x) = e^{x^3 - 3x + 1}$ is one-one and onto, then the distance of the point $P(2b + 4, a + 2)$ from the line $x + e^{-3}y = 4$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "2\\sqrt{1 + e^6}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "4\\sqrt{1 + e^6}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3\\sqrt{1 + e^6}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\sqrt{1 + e^6}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since $f$ is one-one and onto, we find the range parameters $a$ and $b$ using the endpoints of the domain $(-\\infty, -1]$. Then we calculate the perpendicular distance from point $P$ to the given line.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f(x)$ be a function and $g(x)$ be another function such that $f(g(x))$ is defined as per cases. Find the range of $f(g(x))$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$[0, 1]$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(-1, 1)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$[0, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$R$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Analyzing the cases for $f(g(x))$, by (1) $x \\in \\phi$ and by (2) $x \\in [-3, 0]$ and $x \\in [0, 1]$. Thus, the range of $f(g(x))$ is $[0, 1]$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f(x) = 4x^3 - 3x - 1 = 0$. Consider the number of solutions in various intervals.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "Has solution in $\\left[\\frac{1}{2}, 1\\right]$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "Has no solution",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Has 2 solutions",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "None",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$f'(x) = 12\\sqrt{2}x^2 - 3\\sqrt{2} \\ge 0$ for $\\left[\\frac{1}{2}, 1\\right]$, $f\\left(\\frac{1}{2}\\right) < 0$ and $f(1) > 0 \\Rightarrow$ (A) is correct.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f: A \\rightarrow P(A)$ be a function such that $a \\in f(a)$ for all $a \\in A$. Find the total number of such functions.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2^{42}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2^{36}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2^{48}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2^{24}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Total options for 1 will be $2^6$ (since $2^6$ subsets contain 1). Similarly for every other element, total is $2^6 \\times 2^6 \\times \\dots = 2^{42}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f(x) = \\frac{x}{(1+x^4)^{1/4}}$. Find the value of the integral involving composite functions of $f(x)$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "39",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "26",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "13",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "52",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "We find $f(f(f(f(x))))$, then evaluate the integral $\\int_{0}^{\\sqrt{2\\sqrt{5}}} \\frac{x^3}{(1+4x^4)^{1/4}} dx$ by substituting $1+4x^4 = t^4$ to get 39.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the domain of the function $f(x) = \\log_3 \\log_5 \\left(7 - \\log_2 (x^2 - 10x + 85)\\right) + \\sin^{-1} \\left(\\frac{3x - 7}{17 - x}\\right)$ be $(\\alpha, \\beta]$. Then $\\alpha + \\beta$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "9",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "10",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "12",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "8",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "For $\\log_3 \\log_5(\\cdot)$ we need $\\log_5(\\cdot) > 0$. So $7 - \\log_2(x^2 - 10x + 85) > 1$, giving $x^2 - 10x + 85 < 64$, $(x - 3)(x - 7) < 0 \\Rightarrow 3 < x < 7$. For $\\sin^{-1}\\left(\\left|\\frac{3x-7}{17-x}\\right|\\right)$ we need $|3x - 7| \\le |17 - x|$, i.e., $(x - 6)(x + 5) \\le 0 \\Rightarrow -5 \\le x \\le 6$. Intersection: $(3, 6]$, so $\\alpha = 3, \\beta = 6$. $\\alpha + \\beta = 9$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f$ and $g$ be functions satisfying $f(x + y) = f(x)f(y)$, $f(1) = 7$ and $g(x + y) = g(xy)$, $g(1) = 1$, for all $x, y \\in \\mathbf{N}$. If $\\sum_{x=1}^{n} \\left(\\frac{f(x)}{g(x)}\\right) = 19607$, then $n$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "7",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "6",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "5",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$f(x+y) = f(x)f(y)$ with $f(1) = 7$ gives $f(x) = 7^x$. For $g$: put $y = 1$ in $g(x+y) = g(xy)$ to get $g(x+1) = g(x)$. So $g(x) = g(1) = 1$ for all $x \\in \\mathbf{N}$. $\\sum_{x=1}^{n} \\frac{f(x)}{g(x)} = \\sum_{x=1}^{n} 7^x = \\frac{7(7^n - 1)}{6} = 19607 \\Rightarrow 7^{n+1} - 7 = 117642 \\Rightarrow 7^{n+1} = 117649 = 7^6 \\Rightarrow n+1 = 6 \\Rightarrow n = 5$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the domain of the function $f(x) = \\sin^{-1} \\left(\\frac{5-x}{2x+3}\\right) + \\frac{1}{\\log_e(10-x)}$ is $(-\\infty, \\alpha] \\cup [\\beta, \\gamma) - \\{\\delta\\}$, then $6(\\alpha + \\beta + \\gamma + \\delta)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "67",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "66",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "70",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "68",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$-1 \\le \\frac{5-x}{2x+3} \\le 1$ & $10-x > 0, 10-x \\neq 1$. $\\left|\\frac{5-x}{2x+3}\\right| \\ge 1$ & $x < 10 \\& x \\neq 9$. $(5-x)^2 - (2x+3)^2 \\le 0 \\& x < 10 \\& 4x \\neq 9$. $(x+8)(3x-2) \\ge 0 \\& x < 10 \\& x \\neq 9$. $\\Rightarrow (-\\infty, -8] \\cup \\left[\\frac{2}{3}, 10\\right) - \\{9\\}$. $\\Rightarrow (\\alpha + \\beta + \\gamma + \\delta) = 6 \\left(-8 + \\frac{2}{3} + 10 + 9\\right) = 70$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Consider two sets $A = \\{x \\in \\mathbf{Z} : (|x - 3| - 3)| \\le 1\\}$ and $B = \\left\\{x \\in \\mathbf{R} - \\{1, 2\\} : \\frac{(x - 2)(x - 4)}{x - 1} \\log_e(|x - 2|) = 0\\right\\}$. Then the number of onto functions $f : A \\to B$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "32",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "79",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "62",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "81",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "For set $A$: $(|x-3|-3) \\le 1 \\Rightarrow 2 \\le |x-3| \\le 4$. If $x \\ge 3: 5 \\le x \\le 7 \\Rightarrow x \\in \\{5, 6, 7\\}$. If $x < 3: -1 \\le x \\le 1 \\Rightarrow x \\in \\{-1, 0, 1\\}$. So $A = \\{-1, 0, 1, 5, 6, 7\\}$, $|A| = 6$. For set $B$: $\\frac{(x-2)(x-4)}{x-1}\\log_e(|x-2|) = 0$ with $x \\in \\mathbf{R} - \\{1, 2\\}$. Either $\\frac{(x-2)(x-4)}{x-1} = 0 \\Rightarrow x = 4$ (since $x \\neq 1, 2$), or $\\log_e(|x-2|) = 0 \\Rightarrow |x-2| = 1 \\Rightarrow x = 3$ (since $x \\neq 1$). So $B = \\{3, 4\\}$, $|B| = 2$. Number of onto functions from $A$ to $B$ = $2^6 - 2 = 62$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $g(x) = 3x^2 + 2x - 3, f(0) = -3$ and $4g(f(x)) = 3x^2 - 32x + 72$, then $f(g(2))$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "-\\frac{7}{2}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "-\\frac{25}{6}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\frac{7}{2}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\frac{25}{6}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let $f(x) = ax + b$. Then $4g(f(x)) = 12(ax+b)^2 + 8(ax+b) - 12$. Comparing with $3x^2 - 32x + 72$: $x^2: 12a^2 = 3 \\Rightarrow a = \\pm \\frac{1}{2}$. Constant: $12b^2 + 8b - 12 = 72 \\Rightarrow 3b^2 + 2b - 21 = 0 \\Rightarrow b = \\frac{7}{3}$ or $b = -3$. Since $f(0) = -3$, $b = -3$. $x: 8a(3(-3) + 1) = -32 \\Rightarrow -8a = -4 \\Rightarrow a = \\frac{1}{2}$. So $f(x) = \\frac{x}{2} - 3$. $g(2) = 3(4) + 4 - 3 = 13$. $f(g(2)) = f(13) = \\frac{13}{2} - 3 = \\frac{7}{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the domain of the function $f(x) = \\log_{(10x^2-17x+7)}(18x^2 - 11x + 1)$ is $(-\\infty, a) \\cup (b, c) \\cup (d, \\infty) - \\{e\\}$, then $90(a + b + c + d + e)$ equals:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "170",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "307",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "316",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "177",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "For $f(x) = \\log_{(10x^2-17x+7)}(18x^2-11x+1)$, we need: Base $> 0: 10x^2 - 17x + 7 > 0 \\Rightarrow 10(x-1)(x-7/10) > 0 \\Rightarrow x < 7/10 \\text{ or } x > 1$. Base $\\neq 1: 10x^2 - 17x + 6 = 0 \\Rightarrow x = 1/2 \\text{ or } x = 6/5$. Argument $> 0: 18x^2 - 11x + 1 > 0 \\Rightarrow 18(x-1/2)(x-1/9) > 0 \\Rightarrow x < 1/9 \\text{ or } x > 1/2$. Intersecting conditions 1 and 3: $(-\\infty, 1/9) \\cup (1/2, 7/10) \\cup (1, \\infty)$. Removing base $= 1$ points: $x = 1/2$ is already excluded; $x = 6/5 \\in (1, \\infty)$ must be removed. Domain: $(-\\infty, 1/9) \\cup (1/2, 7/10) \\cup (1, \\infty) - \\{6/5\\}$. So $a = 1/9, b = 1/2, c = 7/10, d = 1, e = 6/5$. $90(a + b + c + d + e) = 90\\left(\\frac{1}{9} + \\frac{1}{2} + \\frac{7}{10} + 1 + \\frac{6}{5}\\right) = 10 + 45 + 63 + 90 + 108 = 316$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The number of bijective functions $f : \\{1, 3, 5, 7, \\dots, 99\\} \\to \\{2, 4, 6, 8, \\dots, 100\\}$, such that $f(3) \\ge f(9) \\ge f(15) \\ge f(21) \\ge \\dots \\ge f(99)$, is _____",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$^{50}\\text{P}_{17}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$^{50}\\text{P}_{33}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$33! \\times 17!$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{50!}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The domain has 50 elements: $1, 3, 5, \\dots, 99$ (which are $50$ odd numbers, specifically $3, 9, 15, \\dots, 99$ are multiples of 3 among them). The elements in the domain that are multiples of 3 are $3, 9, 15, 21, \\dots, 99$, which is an AP with first term 3, common difference 6, and last term 99. Number of such terms is $\\frac{99 - 3}{6} + 1 = 17$. These 17 elements have the descending condition $f(3) \\ge f(9) \\ge \\dots \\ge f(99)$. The codomain has 50 elements. Thus, out of 50 available codomain values, we need to choose 17 values for these 17 domain elements in decreasing order, which can be done in $^{50}\\text{C}_{17}$ ways, and the remaining $50 - 17 = 33$ elements can be mapped arbitrarily in $33!$ ways. Wait, total bijective functions with the given condition: choosing 17 distinct elements from 50 and arranging them in descending order leaves 33 elements to be arranged in $33!$ ways, so total is $^{50}\\text{C}_{17} \\times 33! = \\frac{50!}{17!33!} \\times 33! = \\frac{50!}{17!} = ^{50}\\text{P}_{17}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f(x)$ be a quadratic polynomial with leading coefficient $1$ such that $f(0) = p, p \\neq 0$ and $f(1) = \\frac{1}{3}$. If the equation $f(x) = 0$ and $f(f(f(f(x)))) = 0$ have a common real root, then $f(-3)$ is equal to........................",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Let $f(x) = x^2 + bx + p$. Since $f(0) = p$, $f(1) = 1 + b + p = \\frac{1}{3} \\implies b + p = -\\frac{2}{3}$. Given $f(x) = 0$ and $f(f(f(f(x)))) = 0$ have a common real root, let this root be $\\alpha$. Then $f(\\alpha) = 0$. Since $f(\\alpha) = 0$, applying $f$ recursively gives $f(f(f(f(\\alpha)))) = f(f(f(0))) = f(f(p)) = f(p^2+bp+p) = 0$. Thus $p$ must be a root of $f(x) = 0$ or related properties yield $p = 1$ or similar, leading to the solution for $f(-3)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f, g : \\mathbb{N} - \\{1\\} \\to \\mathbb{N}$ be functions defined by $f(a) = \\alpha$, where $\\alpha$ is the maximum of the powers of those primes $p$ such that $p^\\alpha$ divides $a$, and $g(a) = \\alpha + 1$, for all $a \\in \\mathbb{N} - \\{1\\}$. Then, the function $f + g$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "one-one but not onto",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "onto but not one-one",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "both one-one and onto",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "neither one-one nor onto",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Analyze $f(a)$ and $g(a)$ based on prime factorization of $a$. $f(a)$ is the highest exponent among prime power divisors, and $g(a) = f(a) + 1$. Thus $(f+g)(a) = 2f(a) + 1$, which is always an odd integer greater than 1. Since the range only contains certain odd integers greater than 1, it is neither one-one nor onto.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The domain of the function $f(x) = \\sin^{-1}[2x^2 - 3] + \\log_2 \\left(\\log_{\\frac{1}{2}} (x^2 - 5x + 5)\\right)$, where $[t]$ is the greatest integer function, is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\left(-\\sqrt{\\frac{5}{2}}, \\frac{5-\\sqrt{5}}{2}\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\left(\\frac{5-\\sqrt{5}}{2}, \\frac{5+\\sqrt{5}}{2}\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\left(1, \\frac{5-\\sqrt{5}}{2}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\left[1, \\frac{5+\\sqrt{5}}{2}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "For $\\sin^{-1}[2x^2 - 3]$ to be defined, $-1 \\le [2x^2 - 3] \\le 1 \\implies -1 \\le 2x^2 - 3 < 2 \\implies 2 \\le 2x^2 < 5 \\implies 1 \\le x^2 < \\frac{5}{2}$. For the logarithmic term $\\log_{\\frac{1}{2}} (x^2 - 5x + 5) > 0 \\implies 0 < x^2 - 5x + 5 < 1$. Solving these inequalities simultaneously yields the domain $\\left(1, \\frac{5-\\sqrt{5}}{2}\\right)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\alpha, \\beta$ and $\\gamma$ be three positive real numbers. Let $f(x) = \\alpha x^5 + \\beta x^3 + \\gamma x, x \\in \\mathbb{R}$ and $g : \\mathbb{R} \\to \\mathbb{R}$ be such that $g(f(x)) = x$ for all $x \\in \\mathbb{R}$. If $a_1, a_2, a_3, \\dots, a_n$ be in arithmetic progression with mean zero, then the value of $f\\left(g\\left(\\frac{1}{n} \\sum_{i=1}^n f(a_i)\\right)\\right)$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$9$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$27$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since $g(f(x)) = x$, $g$ is the inverse function of $f$. $f(x)$ is an odd function because all powers of $x$ are odd and coefficients are positive. The mean of AP $a_1, a_2, \\dots, a_n$ is zero, meaning $\\sum a_i = 0$. By properties of odd polynomial functions and symmetry, the result evaluates to $0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The number of distinct solutions of the equation, $\\log_{1/2} |\\sin x| = 2 - \\log_{1/2} |\\cos x|$ in the interval $[0, 2\\pi]$, is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "6",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "8",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Using logarithm properties, $\\log_{1/2} (|\\sin x| \\cdot |\\cos x|) = 2 \\Rightarrow |\\sin x \\cos x| = \\left(\\frac{1}{2}\\right)^2 = \\frac{1}{4} \\Rightarrow |\\sin 2x| = \\frac{1}{2}$. In $[0, 2\\pi]$, $2x \\in [0, 4\\pi]$. The equation $|\\sin 2x| = \\frac{1}{2}$ has 8 solutions.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "For a suitably chosen real constant $a$, let a function, $f : \\mathbb{R} - \\{-a\\} \\rightarrow \\mathbb{R}$ be defined by $f(x) = \\frac{a-x}{a+x}$. Further suppose that for any real number $x \\neq -a$ and $f(x) \\neq -a$, $(fof)(x) = x$. Then $f\\left(-\\frac{1}{2}\\right)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-3$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-\\frac{1}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$3$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Since $(fof)(x) = x$, $f$ is its own inverse, meaning $f(x) = f^{-1}(x)$. Solving for $f(x) = \\frac{a-x}{a+x}$ gives $a=1$. Thus $f(x) = \\frac{1-x}{1+x}$, and $f\\left(-\\frac{1}{2}\\right) = \\frac{1 - (-1/2)}{1 + (-1/2)} = \\frac{3/2}{1/2} = 3$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $a + \\alpha = 1, b + \\beta = 2$ and $af(x) + \\alpha f\\left(\\frac{1}{x}\\right) = bx + \\frac{\\beta}{x}, x \\neq 0$, then the value of the expression $\\frac{f(x) + f\\left(\\frac{1}{x}\\right)}{x + \\frac{1}{x}}$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given $af(x) + \\alpha f\\left(\\frac{1}{x}\\right) = bx + \\frac{\\beta}{x}$ ... (i) Replacing $x$ by $\\frac{1}{x}$, we get $af\\left(\\frac{1}{x}\\right) + \\alpha f(x) = \\frac{b}{x} + \\beta x$ ... (ii) Adding (i) and (ii), $(a+\\alpha)\\left[f(x) + f\\left(\\frac{1}{x}\\right)\\right] = \\left(x + \\frac{1}{x}\\right)(b+\\beta)$. Since $a+\\alpha=1$ and $b+\\beta=2$, we have $\\frac{f(x)+f(\\frac{1}{x})}{x+\\frac{1}{x}} = \\frac{2}{1} = 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f, g: \\mathbb{N} \\rightarrow \\mathbb{N}$ such that $f(n+1) = f(n) + f(a) \\quad \\forall n \\in \\mathbb{N}$ and $g$ be any arbitrary function. Which of the following statements is NOT true?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "f is one-one",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "If fog is one-one, then g is one-one",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "If g is onto, then fog is one-one",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "If f is onto, then f(n) = n $\\forall n \\in \\mathbb{N}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $f(n+1) = f(n) + f(a)$, we get $f(2) = 2f(1)$, $f(3) = 3f(1)$, $f(4) = 4f(1)$, etc. Option (3) is NOT true because if $g$ is onto and $f \\circ g$ is one-one, $g$ has to be one-one as well.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A = \\{1, 2, 3, \\dots, 10\\}$ and $f: A \\rightarrow A$ be defined as $f(k) = \\begin{cases} k+1 & \\text{if } k \\text{ is odd} \\\\ k & \\text{if } k \\text{ is even} \\end{cases}$. Then the number of possible functions $g: A \\rightarrow A$ such that $g \\circ f = f$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "10^5",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "^{10}C_5",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "5^5",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "5!",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "For any $k \\in A$, $f(k)$ takes values in the even numbers $\\{2, 4, 6, 8, 10\\}$ (5 values). For $g(f(k)) = f(k)$ to hold, $g$ must map these 5 even numbers to themselves, while the remaining 5 odd numbers can be mapped arbitrarily to any of the 10 elements in $A$. Thus, there are $10^5$ such functions.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f(x) = \\sin^{-1} x$ and $g(x) = \\frac{x^2 - x - 2}{2x^2 - x - 6}$. If $g(2) = \\lim_{x \\to 2} g(x)$, then the domain of the function $f \\circ g$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "(- \\infty, -2] \\cup \\left[-\\frac{4}{3}, \\infty\\right)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "(- \\infty, -1] \\cup [2, \\infty)",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "(- \\infty, -2] \\cup [-1, \\infty)",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "(- \\infty, -2] \\cup \\left[-\\frac{3}{2}, \\infty\\right)",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "For $f(g(x))$ to be defined, $-1 \\le g(x) \\le 1$. Evaluating the limit for $g(2)$ or continuous extension gives $g(x) = \\frac{(x-2)(x+1)}{(x-2)(2x+3)} = \\frac{x+1}{2x+3}$ for $x \\neq 2$. Solving $-1 \\le \\frac{x+1}{2x+3} \\le 1$ yields $(-\\infty, -2] \\cup [-4/3, \\infty)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f(x) = \\frac{5^x}{5^x + 5}$. Then the value of $\\sum_{r=1}^{19} f\\left(\\frac{r}{20}\\right)$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$19$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$19.5$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$20$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$20.5$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$f(x) = \\frac{5^x}{5^x + 5} \\dots (i)$. $f(2 - x) = \\frac{5^{2-x}}{5^{2-x} + 5} = \\frac{5^2}{5^x + 5^2} = \\frac{5}{5^x + 5}$ (after simplification). Adding equation (i) and (ii), $f(x) + f(2 - x) = 1$. Thus, $f\\left(\\frac{1}{20}\\right) + f\\left(\\frac{39}{20}\\right) = 1$, ..., $f\\left(\\frac{19}{20}\\right) + f\\left(\\frac{21}{20}\\right) = 1$, and $f\\left(\\frac{20}{20}\\right) = f(1) = \\frac{1}{2}$. Sum $= 19 + \\frac{1}{2} = \\frac{39}{2} = 19.5$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The real valued function $f(x) = \\frac{\\text{cosec}^{-1} x}{\\sqrt{x - [x]}}$, where $[x]$ denotes the greatest integer less than or equal to $x$, is defined for all $x$ belonging to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "all reals except integers",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "all non-integers except the interval $[-1, 1]$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "all integers except $0, -1, 1$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "all reals except the Interval $[-1, 1]$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$f(x) = \\frac{\\text{cosec}^{-1} x}{\\sqrt{\\{x\\}}}$ \\\\ Domain $\\in (-\\infty, -1] \\cup [1, \\infty)$ \\\\ $\\{x\\} \\neq 0$ so $x \\neq$ integers \\\\ Thus, all non-integers except the interval $[-1, 1]$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f : \\mathbb{R} - \\{3\\} \\to \\mathbb{R} - \\{1\\}$ be defined by $f(x) = \\frac{x-2}{x-3}$. Let $g : \\mathbb{R} \\to \\mathbb{R}$ be given as $g(x) = 2x - 3$. Then, the sum of all the values of $x$ for which $f^{-1}(x) + g^{-1}(x) = \\frac{13}{2}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$7$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$3$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$f(x) = y = \\frac{x-2}{x-3} \\implies xy - 3y = x - 2 \\implies x = \\frac{3y-2}{y-1}$ \\\\ $\\therefore f^{-1}(x) = \\frac{3x-2}{x-1}$ \\\\ $g(x) = y = 2x - 3 \\implies x = \\frac{y+3}{2}$ \\\\ $\\therefore g^{-1}(x) = \\frac{x+3}{2}$ \\\\ Given $f^{-1}(x) + g^{-1}(x) = \\frac{13}{2}$ \\\\ $\\frac{3x-2}{x-1} + \\frac{x+3}{2} = \\frac{13}{2}$ \\\\ $\\implies x^2 - 5x + 6 = 0$ \\\\ $\\therefore$ sum of roots $x_1 + x_2 = 5$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

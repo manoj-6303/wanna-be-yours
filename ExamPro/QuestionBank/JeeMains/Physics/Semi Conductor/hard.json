@@ -6,7 +6,7 @@
     "chapter": "Semi Conductor",
     "difficulty": "Hard",
     "questionType": "MCQ",
-    "question": "A p-n junction diode built-in potential barrier $V_0$ is given by $V_0 = \\frac{k_B T}{e} \\ln\\left(\\frac{N_A N_D}{n_i^2}\right)$. Find the built-in potential of a Silicon diode at $T = 300\\text{ K}$ doped with $N_A = 10^{16}\\text{ cm}^{-3}$ and $N_D = 10^{16}\\text{ cm}^{-3}$ (Take $n_i = 1.5 \\times 10^{10}\\text{ cm}^{-3}$, $\\frac{k_B T}{e} = 26\\text{ mV}$, $\\ln 10 = 2.303$).",
+    "question": "A p-n junction diode built-in potential barrier $V_0$ is given by $V_0 = \\frac{k_B T}{e} \\ln\\left(\\frac{N_A N_D}{n_i^2}\\right)$. Find the built-in potential of a Silicon diode at $T = 300\\text{ K}$ doped with $N_A = 10^{16}\\text{ cm}^{-3}$ and $N_D = 10^{16}\\text{ cm}^{-3}$ (Take $n_i = 1.5 \\times 10^{10}\\text{ cm}^{-3}$, $\\frac{k_B T}{e} = 26\\text{ mV}$, $\\ln 10 = 2.303$).",
     "options": [
       "0.69 V",
       "0.78 V",

@@ -1,0 +1,59 @@
+[
+  {
+    "difficulty": "Easy",
+    "question": "Let the number of elements in sets $A$ and $B$ be five and two respectively. Then the number of subsets of $A \\times B$ each having at least 3 and at most 6 elements is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$752$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$782$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$792$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$772$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given, The number of elements in sets $A$ and $B$ be five and two respectively, So, $n(A) = 5$ and $n(B) = 2$ \\newline Now Cartesian product will be, $n(A \\times B) = 10$ \\newline Number of subsets having three elements $= {}^{10}C_3$ \\newline Number of subsets having four elements $= {}^{10}C_4$ \\newline Number of subsets having five elements $= {}^{10}C_5$ \\newline Number of subsets having six elements $= {}^{10}C_6$ \\newline So, number of subsets having at least 3 and at most 6 elements will be $= {}^{10}C_3 + {}^{10}C_4 + {}^{10}C_5 + {}^{10}C_6$ \\newline $= 120 + 210 + 252 + 210 = 792$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The number of elements in the set $\\{n \\in \\mathbb{Z} : |n^2 - 10n + 19| < 6\\}$ is ________.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Given, $|n^2 - 10n + 19| < 6$ \\newline Now we know that, $|x| < a \\Rightarrow -a < x < a$ \\newline Now using above formula we get, \\newline $-6 < n^2 - 10n + 19 < 6$ \\newline $\\Rightarrow n^2 - 10n + 25 > 0$ and $n^2 - 10n + 13 < 0$ \\newline $\\Rightarrow (n - 5)^2 > 0$ and $(n - (5 - 2\\sqrt{3}))(n - (5 + 2\\sqrt{3})) < 0$ \\newline $\\Rightarrow n \\in \\mathbb{Z} - \\{5\\}$ and $n \\in \\{2, 3, 4, 5, 6, 7, 8\\}$ \\newline Hence, $n = 2, 3, 4, 6, 7, 8$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Set and Relations",
+    "chapter": "Set and Relations",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

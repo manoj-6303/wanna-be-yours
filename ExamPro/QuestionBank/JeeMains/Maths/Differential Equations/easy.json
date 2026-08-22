@@ -1,0 +1,137 @@
+[
+  {
+    "difficulty": "Easy",
+    "question": "If $y(x)$ is a solution of differential equation $\\sqrt{1-x^2} \\frac{dy}{dx} + \\sqrt{1-y^2} = 0$, such that $y\\left(\\frac{1}{2}\\right) = \\frac{\\sqrt{3}}{2}$, then\n\n\u092f\u0926\u093f $y(x)$, \u0905\u0935\u0915\u0932 \u0938\u092e\u0940\u0915\u0930\u0923 $\\sqrt{1-x^2} \\frac{dy}{dx} + \\sqrt{1-y^2} = 0$ \u0915\u093e \u0939\u0932 \u0939\u0948 \u0924\u0925\u093e $y\\left(\\frac{1}{2}\\right) = \\frac{\\sqrt{3}}{2}$, \u0924\u092c",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$y\\left(\\frac{1}{\\sqrt{2}}\\right) = -\\frac{1}{\\sqrt{2}}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$y\\left(\\frac{1}{\\sqrt{2}}\\right) = \\frac{\\sqrt{3}}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$y\\left(\\frac{1}{\\sqrt{2}}\\right) = \\frac{1}{\\sqrt{2}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$y\\left(\\frac{1}{\\sqrt{2}}\\right) = \\frac{1}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Separating variables: $\\frac{dy}{\\sqrt{1-y^2}} + \\frac{dx}{\\sqrt{1-x^2}} = 0 \\implies \\sin^{-1}y + \\sin^{-1}x = c$.\nAt $x = \\frac{1}{2}, y = \\frac{\\sqrt{3}}{2} \\implies c = \\frac{\\pi}{2} \\implies \\sin^{-1}y = \\cos^{-1}x$.\nHence, $y\\left(\\frac{1}{\\sqrt{2}}\\right) = \\sin\\left(\\cos^{-1}\\frac{1}{\\sqrt{2}}\\right) = \\frac{1}{\\sqrt{2}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differential Equations",
+    "chapter": "Differential Equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Let a curve $y = f(x)$ pass through the point $\\left(2, (\\log_e 2)^2\\right)$ and have slope $\\frac{2y}{x \\log_e x}$ for all positive real value of $x$. Then the value of $f(e)$ is equal to ___",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Given $\\frac{dy}{dx} = \\frac{2y}{x \\log_e x} \\Rightarrow \\frac{dy}{y} = \\frac{2}{x \\log_e x} dx$. Integrating both sides: $\\ln y = 2\\ln(\\ln x) + c \\Rightarrow y = C(\\ln x)^2$. Since it passes through $\\left(2, (\\log_e 2)^2\\right)$, $C = 1$. Thus $y = (\\ln x)^2$. At $x = e$, $f(e) = (\\ln e)^2 = 1$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differential Equations",
+    "chapter": "Differential Equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The temperature $T(t)$ of a body at time $t = 0$ is $160^{\\circ}F$ and it decreases continuously as per the differential equation $\\frac{dT}{dt} = -K(T - 80)$, where $K$ is positive constant. If $T(15) = 120^{\\circ}F$, then $T(45)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$85^{\\circ}F$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$95^{\\circ}F$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$90^{\\circ}F$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$80^{\\circ}F$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Integrating $\\frac{dT}{T-80} = -K dt$ gives $\\ln(T-80) = -Kt + C$. Use $T(0) = 160$ and $T(15) = 120$ to find $K$ and subsequently $T(45)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differential Equations",
+    "chapter": "Differential Equations",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The differential equation of the family of curves, $x^2 = 4b(y + b)$, $b \\in \\mathbb{R}$, is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x\\left(\\frac{dy}{dx}\\right)^2 = 2y\\frac{dy}{dx} + x^2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x\\left(\\frac{dy}{dx}\\right)^2 = 2y\\frac{dy}{dx} + x$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x\\left(\\frac{dy}{dx}\\right)^2 = y\\frac{dy}{dx} + x^2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x\\left(\\frac{dy}{dx}\\right)^2 = y\\frac{dy}{dx} + 2x^2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $x^2 = 4by + 4b^2$. Differentiating w.r.t. $x$: $2x = 4by' \\implies b = \\frac{x}{2y'}$. Substituting $b$ back into the original equation: $x^2 = 4\\left(\\frac{x}{2y'}\\right)y + 4\\left(\\frac{x}{2y'}\\right)^2 \\implies x^2 = \\frac{2xy}{y'} + \\frac{x^2}{(y')^2}$. Multiply by $(y')^2 / x$: $x(y')^2 = 2yy' + x^2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differential Equations",
+    "chapter": "Differential Equations",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

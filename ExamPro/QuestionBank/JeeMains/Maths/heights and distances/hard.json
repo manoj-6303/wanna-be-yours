@@ -1,0 +1,353 @@
+[
+  {
+    "difficulty": "Hard",
+    "question": "ABC is a triangular park with AB = AC = 100 metres. A vertical tower is situated at the mid-point of BC. If the angles of elevation of the top of the tower at A and B are $\\cot^{-1}(3\\sqrt{2})$ and $\\text{cosec}^{-1}(2\\sqrt{2})$ respectively, then the height of the tower (in metres) is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{100}{3\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$10\\sqrt{5}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$20$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$25$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let the height of the vertical tower situated at the mid point of BC be $h$. In $\\triangle ALM$, $\\cot A = \\frac{AM}{LM} \\Rightarrow 3\\sqrt{2} = \\frac{AM}{h} \\Rightarrow AM = 3\\sqrt{2}h$. In $\\triangle BLM$, $\\cot B = \\frac{BM}{LM} \\Rightarrow \\sqrt{7} = \\frac{BM}{h} \\Rightarrow BM = \\sqrt{7}h$. In $\\triangle ABM$ by Pythagoras theorem $AM^2 + MB^2 = AB^2 \\Rightarrow 18h^2 + 7h^2 = 100 \\times 100 \\Rightarrow h^2 = 4 \\times 100 \\Rightarrow h = 20$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "$ABC$ is a triangular park with $AB = AC = 100\\text{ metres}$. A vertical tower is situated at the mid-point of $BC$. If the angles of elevation of the top of the tower at $A$ and $B$ are $\\cot^{-1}(3\\sqrt{2})$ and $\\cosec^{-1}(2\\sqrt{2})$ respectively, then the height of the tower (in metres) is :",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{100}{3\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$10\\sqrt{5}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$20$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$25$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let the height of the vertical tower situated at the mid point of $BC$ be $h$. In $\\triangle ALM$, $\\cot A = \\frac{AM}{LM} \\implies 3\\sqrt{2} = \\frac{AM}{h} \\implies AM = 3\\sqrt{2}h$. In $\\triangle BLM$, $\\cot B = \\frac{BM}{LM} \\implies \\sqrt{7} = \\frac{BM}{h} \\implies BM = \\sqrt{7}h$. In $\\triangle ABM$ by Pythagoras theorem, $AM^2 + MB^2 = AB^2 \\implies 18h^2 + 7h^2 = 100 \\times 100 \\implies h^2 = 4 \\times 100 \\implies h = 20$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "A man is observing, from the top of a tower, a boat speeding towards the tower from a certain point $A$, with uniform speed. At that point, angle of depression of the boat with the man's eye is $30^\\circ$ (Ignore man's height).\n\nAfter sailing for $20\\text{ seconds}$ towards the base of the tower (which is at the level of water), the boat has reached a point $B$, where the angle of depression is $45^\\circ$. Then the time taken (in seconds) by the boat from $B$ to reach the base of the tower is :",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$10(\\sqrt{3}-1)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$10\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$10$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$10(\\sqrt{3}+1)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$\\frac{h}{x+y} = \\tan 30^\\circ \\Rightarrow x+y = \\sqrt{3}h$\nAlso $\\frac{h}{y} = \\tan 45^\\circ \\Rightarrow h = y$\nPut in (1) $x+y = \\sqrt{3}y$\n$x = (\\sqrt{3}-1)y$\n$\\frac{x}{20} = 'v'\\text{ speed}$\n$\\therefore\\text{ time taken to reach Foot from B} = \\frac{y}{v} \\Rightarrow \\frac{x}{(\\sqrt{3}-1)\\cdot v} \\times 20 \\Rightarrow 10(\\sqrt{3}+1)$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Two poles, $AB$ of length $a$ metres and $CD$ of length $a + b \\, (b \\neq a)$ metres are erected at the same horizontal level with bases at $B$ and $D$. If $BD = x$ and $\\tan \\angle ACB = \\frac{1}{2}$, then:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x^2 + 2(a + 2b)x - b(a + b) = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x^2 + 2(a + 2b)x + a(a + b) = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x^2 - 2ax + b(a + b) = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x^2 - 2ax + a(a + b) = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$\\tan \\theta = \\frac{1}{2}$\n$\\tan(\\theta + \\alpha) = \\frac{x}{b}, \\tan \\alpha = \\frac{x}{a+b}$\n$\\implies \\frac{\\frac{1}{2} + \\frac{x}{a+b}}{1 - \\frac{1}{2} \\cdot \\frac{x}{a+b}} = \\frac{x}{b}$\n$\\implies x^2 - 2ax + ab + b^2 = 0$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "A $10$ inches long pencil $AB$ with mid point $C$ and a small eraser $P$ are placed on the horizontal top of a table such that $PC = \\sqrt{5}$ inches and $\\angle PCB = \\tan^{-1}(2)$. The acute angle through which the pencil must be rotated about $C$ so that the perpendicular distance between eraser and pencil becomes exactly $1$ inch is:",
+    "has_question_image": true,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\tan^{-1}\\left(\\frac{3}{4}\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\tan^{-1}(1)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\tan^{-1}\\left(\\frac{4}{3}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\tan^{-1}\\left(\\frac{1}{2}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "From figure.\n$\\sin \\beta = \\frac{1}{\\sqrt{5}}$\n$\\therefore \\tan \\beta = \\frac{1}{2}$\n$\\tan(\\alpha + \\beta) = 2$\n$\\frac{\\tan\\alpha + \\tan\\beta}{1 - \\tan\\alpha \\cdot \\tan\\beta} = 2$\n$\\frac{\\tan\\alpha + \\frac{1}{2}}{1 - \\tan\\alpha \\left(\\frac{1}{2}\\right)} = 2$\n$\\tan \\alpha = \\frac{3}{4}$\n$\\alpha = \\tan^{-1}\\left(\\frac{3}{4}\\right)$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "A spherical gas balloon of radius $16\\text{ meter}$ subtends an angle $60^\\circ$ at the eye of the observer A while the angle of elevation of its center from the eye of A is $75^\\circ$. Then the height (in meter) of the top most point of the balloon from the level of the observer's eye is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$8(2 + 2\\sqrt{3} + \\sqrt{2})$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$8(\\sqrt{6} + \\sqrt{2} + 2)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$8(\\sqrt{2} + 2 + \\sqrt{3})$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$8(\\sqrt{6} - \\sqrt{2} + 2)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$O \\rightarrow \\text{ centre of sphere} \\\\ P, Q \\rightarrow \\text{ point of contact of tangents from A} \\\\ \\text{Let T be top most point of balloon } \\& \\text{ R be foot of perpendicular from O to ground.} \\\\ \\text{From triangle OAP, } OA = 16 \\text{ cosec } 30^\\circ = 32 \\\\ \\text{From triangle ABO, } OR = OA \\sin 75^\\circ = 32 \\frac{(\\sqrt{3}+1)}{2\\sqrt{2}} \\\\ \\text{So level of top most point} = OR + OT \\\\ = 8(\\sqrt{6} + \\sqrt{2} + 2)$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let a vertical tower AB of height $2h$ stands on a horizontal ground. Let from a point P on the ground a man can see upto height $h$ of the tower with an angle of elevation $2\\alpha$. When from P, he moves a distance $d$ in the direction of $\\vec{AP}$, he can see the top B of the tower with an angle of elevation $\\alpha$. If $d = \\sqrt{7}h$, then $\\tan \\alpha$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\sqrt{5} - 2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\sqrt{3} - 1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\sqrt{7} - 2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sqrt{7} - \\sqrt{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Using trigonometric relations for the height $h$ and $2h$ at distances $x$ and $x+d$, we set up equations: $\\frac{h}{x} = \\tan(2\\alpha)$ and $\\frac{2h}{x+d} = \\tan\\alpha$. Substituting $d = \\sqrt{7}h$ and simplifying leads to $\\tan \\alpha = \\sqrt{7} - 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The angle of elevation of the top P of a vertical tower PQ of height $10$ from a point A on the horizontal ground is $45^\\circ$. Let R be a point on AQ and from a point B, vertically above R, the angle of elevation of P is $60^\\circ$. If $\\angle BAQ = 30^\\circ$, $AB = d$ and the area of the trapezium PQRB is $\\alpha$, then the ordered pair $(d, \\alpha)$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(10(\\sqrt{3}-1), 25)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(10(\\sqrt{3}-1), \\frac{25}{2})$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(10(\\sqrt{3}+1), 25)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(10(\\sqrt{3}+1), \\frac{25}{2})$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "By geometry of the triangle and trapezium, $AB = d = 10(\\sqrt{3}-1)$ and the area of the trapezium $\\alpha = 25$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The angle of elevation of the top of a tower from a point A due north of it is $\\alpha$ and from a point B at a distance of $9$ units due west of A, is $\\cos^{-1}\\left(\\frac{3}{\\sqrt{13}}\\right)$. If the distance of the point B from the tower is $15$ units, then $\\cot \\alpha$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{6}{5}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{9}{5}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{4}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{7}{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let height of tower be $h$ and foot of tower be origin. Point A is $(0, y, 0)$ and B is $(-9, y, 0)$. Given distance of B from tower is $15$, so $9^2 + y^2 = 15^2 \\implies y = 12$. From A, $\\cot \\alpha = \\frac{y}{h} = \\frac{12}{h}$. Using triangle with B, $\\cos\\theta = \\frac{3}{\\sqrt{13}}$, we find $h = 10$, thus $\\cot \\alpha = \\frac{12}{10} = \\frac{6}{5}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "heights and distances",
+    "chapter": "heights and distances",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

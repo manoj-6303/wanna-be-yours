@@ -1,0 +1,494 @@
+[
+    {
+        "_id": {
+            "$oid": "6a803563ca01911de46865a5"
+        },
+        "exam": "JEE Mains",
+        "year": 2024,
+        "session": "January",
+        "subject": "Mathematics",
+        "part": "1A",
+        "topic": "Area Under Curves",
+        "difficulty": "Hard",
+        "question": "The area of the region enclosed by the curve $f(x) = \\max\\{\\sin x, \\cos x\\}$, $-\\pi \\le x \\le \\pi$ and the $x$-axis is",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "2\\sqrt{2}(\\sqrt{2} + 1)",
+                "image": null
+            },
+            {
+                "id": "B",
+                "text": "4",
+                "image": null
+            },
+            {
+                "id": "C",
+                "text": "4(\\sqrt{2})",
+                "image": null
+            },
+            {
+                "id": "D",
+                "text": "2(\\sqrt{2} + 1)",
+                "image": null
+            }
+        ],
+        "correctAnswer": "B",
+        "explanation": "Plotting the required diagram, we can say that:\n$\\sin x$ is maximum for $x \\in \\left(-\\pi, -\\frac{3\\pi}{4}\\right) \\cup \\left(\\frac{\\pi}{4}, \\pi\\right)$ and $\\cos x$ is maximum for $x \\in \\left(-\\frac{3\\pi}{4}, \\frac{\\pi}{4}\\right)$.\n\nSo, the area of the region is given by:\n$A = \\left| \\int_{-\\pi}^{-\\frac{3\\pi}{4}} \\sin x \\, dx \\right| + \\left| \\int_{-\\frac{3\\pi}{4}}^{-\\frac{\\pi}{2}} \\sin x \\, dx \\right| + \\left| \\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{4}} \\cos x \\, dx \\right| + \\left| \\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{2}} \\cos x \\, dx \\right| + \\left| \\int_{\\frac{\\pi}{2}}^{\\pi} \\sin x \\, dx \\right|$\n$\\Rightarrow A = \\left| \\frac{1}{\\sqrt{2}} - 1 \\right| + \\left| 1 + \\frac{1}{\\sqrt{2}} \\right| + \\left| -1 + \\frac{1}{\\sqrt{2}} \\right| + \\left| \\frac{1}{\\sqrt{2}} \\right| + \\left| \\frac{1}{\\sqrt{2}} + 1 \\right|$\n$\\Rightarrow A = 2 + \\frac{2}{\\sqrt{2}} + 2 - \\frac{2}{\\sqrt{2}} = 4$\n\nHence, this is the required option.",
+        "marks": 4,
+        "negativeMarks": 1,
+        "chapter": "Area Under Curves"
+    },
+    {
+        "_id": {
+            "$oid": "6a8035cfca01911de46865a8"
+        },
+        "exam": "JEE Mains",
+        "year": 2024,
+        "session": "January",
+        "subject": "Mathematics",
+        "part": "1A",
+        "topic": "Area Under Curves",
+        "difficulty": "Hard",
+        "question": "Let $\\Delta$ be the area of the region $\\{(x,y) \\in \\mathbb{R}^2 : x^2 + y^2 \\le 21, y^2 \\le 4x, x \\ge 1\\}$. Then $\\frac{1}{2}\\left(\\Delta - 21\\sin^{-1}\\frac{2}{\\sqrt{7}}\\right)$ is equal to",
+        "questionImage": "area_under_curves_hard_1.png",
+        "options": [
+            {
+                "id": "A",
+                "text": "$2\\sqrt{3} - \\frac{1}{3}$",
+                "image": null
+            },
+            {
+                "id": "B",
+                "text": "$\\sqrt{3} - \\frac{2}{3}$",
+                "image": null
+            },
+            {
+                "id": "C",
+                "text": "$2\\sqrt{3} - \\frac{2}{3}$",
+                "image": null
+            },
+            {
+                "id": "D",
+                "text": "$\\sqrt{3} - \\frac{4}{3}$",
+                "image": null
+            }
+        ],
+        "correctAnswer": "D",
+        "explanation": "The region is bounded by the circle $x^2 + y^2 = 21$, the parabola $y^2 = 4x$, and the line $x = 1$.\n\nIntersection of circle and parabola:\n$$x^2 + 4x = 21 \\implies x^2 + 4x - 21 = 0 \\implies (x+7)(x-3) = 0 \\implies x = 3 \\text{ (since } x \\ge 1\\text{)}$$\nAt $x = 3$, $y^2 = 12 \\implies y = \\pm 2\\sqrt{3}$.\n\nArea $\\Delta = 2 \\int_{1}^{3} 2\\sqrt{x} \\, dx + 2 \\int_{3}^{\\sqrt{21}} \\sqrt{21 - x^2} \\, dx$\n$$\\Delta = 4 \\left[ \\frac{2}{3} x^{3/2} \\right]_{1}^{3} + 2 \\left[ \\frac{x}{2}\\sqrt{21-x^2} + \\frac{21}{2}\\sin^{-1}\\frac{x}{\\sqrt{21}} \\right]_{3}^{\\sqrt{21}}$$\n$$\\Delta = \\frac{8}{3}(3\\sqrt{3} - 1) + 21\\sin^{-1}\\left(\\frac{2}{\\sqrt{7}}\\right) - 6\\sqrt{3}$$\n$$\\Delta = 2\\sqrt{3} - \\frac{8}{3} + 21\\sin^{-1}\\left(\\frac{2}{\\sqrt{7}}\\right)$$\n\nTherefore,\n$$\\frac{1}{2}\\left(\\Delta - 21\\sin^{-1}\\frac{2}{\\sqrt{7}}\\right) = \\frac{1}{2}\\left(2\\sqrt{3} - \\frac{8}{3}\\right) = \\sqrt{3} - \\frac{4}{3}$$",
+        "marks": 4,
+        "negativeMarks": 1,
+        "chapter": "Area Under Curves"
+    },
+    {
+        "_id": {
+            "$oid": "6a8035cfca01911de46865a9"
+        },
+        "exam": "JEE Mains",
+        "year": 2024,
+        "session": "January",
+        "subject": "Mathematics",
+        "part": "1A",
+        "topic": "Area Under Curves",
+        "difficulty": "Hard",
+        "question": "Let $A = \\{(x,y) \\in \\mathbb{R}^2 : y \\ge 0, 2x \\le y \\le \\sqrt{4-(x-1)^2}\\}$ and $B = \\{(x,y) \\in \\mathbb{R} \\times \\mathbb{R} : 0 \\le y \\le \\min\\{2x, \\sqrt{4-(x-1)^2}\\} \\}$. Then the ratio of the area of A to the area of B is",
+        "questionImage": "area_under_curves_hard_2.png",
+        "options": [
+            {
+                "id": "A",
+                "text": "$\\frac{\\pi-1}{\\pi+1}$",
+                "image": null
+            },
+            {
+                "id": "B",
+                "text": "$\\frac{\\pi}{\\pi-1}$",
+                "image": null
+            },
+            {
+                "id": "C",
+                "text": "$\\frac{\\pi}{\\pi+1}$",
+                "image": null
+            },
+            {
+                "id": "D",
+                "text": "$\\frac{\\pi+1}{\\pi-1}$",
+                "image": null
+            }
+        ],
+        "correctAnswer": "A",
+        "explanation": "The boundary curve is the circle $(x-1)^2 + y^2 = 4$ with center $(1,0)$ and radius $2$.\n\nIntersection of $y = 2x$ and $(x-1)^2 + y^2 = 4$:\n$$(x-1)^2 + 4x^2 = 4 \\implies 5x^2 - 2x - 3 = 0 \\implies (5x+3)(x-1) = 0 \\implies x = 1 \\text{ (since } y \\ge 0\\text{)}$$\nAt $x = 1$, $y = 2$.\n\nArea of region A:\n$$\\text{Area } A = \\text{Area of circular sector (OABC)} - \\text{Area of } \\Delta OAB$$\n$$\\text{Area } A = \\frac{\\pi(2)^2}{4} - \\frac{1}{2}(2)(1) = \\pi - 1$$\n\nArea of region B:\n$$\\text{Area } B = \\text{Area of } \\Delta OAB + \\text{Area of arc of circle (ABC)}$$\n$$\\text{Area } B = \\frac{1}{2}(1)(2) + \\frac{\\pi(2)^2}{4} = 1 + \\pi$$\n\nThus, the ratio of the area of A to the area of B is:\n$$\\frac{\\text{Area } A}{\\text{Area } B} = \\frac{\\pi-1}{\\pi+1}$$",
+        "marks": 4,
+        "negativeMarks": 1,
+        "chapter": "Area Under Curves"
+    },
+    {
+        "_id": {
+            "$oid": "6a8035cfca01911de46865aa"
+        },
+        "exam": "JEE Mains",
+        "year": 2024,
+        "session": "January",
+        "subject": "Mathematics",
+        "part": "1A",
+        "topic": "Area Under Curves",
+        "difficulty": "Hard",
+        "question": "The area of the region $A = \\left\\{(x,y) : |\\cos x - \\sin x| \\le y \\le \\sin x, 0 \\le x \\le \\frac{\\pi}{2}\\right\\}$ is",
+        "questionImage": "area_under_curves_hard_3.png",
+        "options": [
+            {
+                "id": "A",
+                "text": "$1 - \\frac{3}{\\sqrt{2}} + \\frac{4}{\\sqrt{5}}$",
+                "image": null
+            },
+            {
+                "id": "B",
+                "text": "$\\sqrt{5} + 2\\sqrt{2} - 4.5$",
+                "image": null
+            },
+            {
+                "id": "C",
+                "text": "$\\frac{3}{\\sqrt{5}} - \\frac{3}{\\sqrt{2}} + 1$",
+                "image": null
+            },
+            {
+                "id": "D",
+                "text": "$\\sqrt{5} - 2\\sqrt{2} + 1$",
+                "image": null
+            }
+        ],
+        "correctAnswer": "D",
+        "explanation": "We have $|\\cos x - \\sin x| \\le y \\le \\sin x$.\nFor a valid region, we must have $|\\cos x - \\sin x| \\le \\sin x$.\n\nIntersection point of $\\cos x - \\sin x = \\sin x \\implies \\tan x = \\frac{1}{2}$.\nLet $\\psi = \\tan^{-1}\\frac{1}{2}$.\nSo, $\\tan \\psi = \\frac{1}{2}$, $\\sin \\psi = \\frac{1}{\\sqrt{5}}$, $\\cos \\psi = \\frac{2}{\\sqrt{5}}$.\n\n$$\\text{Area} = \\int_{\\psi}^{\\pi/2} (\\sin x - |\\cos x - \\sin x|) \\, dx$$\n$$= \\int_{\\psi}^{\\pi/4} (\\sin x - (\\cos x - \\sin x)) \\, dx + \\int_{\\pi/4}^{\\pi/2} (\\sin x - (\\sin x - \\cos x)) \\, dx$$\n$$= \\int_{\\psi}^{\\pi/4} (2\\sin x - \\cos x) \\, dx + \\int_{\\pi/4}^{\\pi/2} \\cos x \\, dx$$\n$$= \\left[ -2\\cos x - \\sin x \\right]_{\\psi}^{\\pi/4} + \\left[ \\sin x \\right]_{\\pi/4}^{\\pi/2}$$\n$$= \\left( -\\sqrt{2} - \\frac{1}{\\sqrt{2}} \\right) + 2\\cos \\psi + \\sin \\psi + \\left( 1 - \\frac{1}{\\sqrt{2}} \\right)$$\n$$= -\\sqrt{2} - \\frac{1}{\\sqrt{2}} + 2\\left(\\frac{2}{\\sqrt{5}}\\right) + \\frac{1}{\\sqrt{5}} + 1 - \\frac{1}{\\sqrt{2}}$$\n$$= \\sqrt{5} - 2\\sqrt{2} + 1$$",
+        "marks": 4,
+        "negativeMarks": 1,
+        "chapter": "Area Under Curves"
+    },
+    {
+        "_id": {
+            "$oid": "6a8035cfca01911de46865ac"
+        },
+        "exam": "JEE Mains",
+        "year": 2024,
+        "session": "January",
+        "subject": "Mathematics",
+        "part": "1A",
+        "topic": "Area Under Curves",
+        "difficulty": "Hard",
+        "question": "The area enclosed by the closed curve C given by the differential equation $\\frac{dy}{dx} + \\frac{x+a}{y-2} = 0, y(1) = 0$ is $4\\pi$. Let P and Q be the points of intersection of the curve C and the y-axis. If normals at P and Q on the curve C intersect x-axis at points R and S respectively, then the length of the line segment RS is",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "$2\\sqrt{3}$",
+                "image": null
+            },
+            {
+                "id": "B",
+                "text": "$\\frac{2\\sqrt{3}}{3}$",
+                "image": null
+            },
+            {
+                "id": "C",
+                "text": "2",
+                "image": null
+            },
+            {
+                "id": "D",
+                "text": "$\\frac{4\\sqrt{3}}{3}$",
+                "image": null
+            }
+        ],
+        "correctAnswer": "D",
+        "explanation": "The differential equation is:\n$$\\frac{dy}{dx} = -\\frac{x+a}{y-2} \\implies (2-y)dy = (x+a)dx$$\nIntegrating both sides:\n$$2y - \\frac{y^2}{2} = \\frac{x^2}{2} + ax + c \\implies x^2 + y^2 + 2ax - 4y + 2c = 0$$\nGiven $y(1) = 0 \\implies 1 + 2a + 2c = 0 \\implies 2c = -1 - 2a$.\nSo the equation of the circle is $x^2 + y^2 + 2ax - 4y - 1 - 2a = 0$.\n\nThe area of the circle is $\\pi r^2 = 4\\pi \\implies r^2 = 4$.\n$$r = \\sqrt{a^2 + 2^2 - (-1-2a)} = \\sqrt{a^2 + 2a + 5} = 2 \\implies a^2 + 2a + 5 = 4 \\implies (a+1)^2 = 0 \\implies a = -1$$\nThus, the circle is $x^2 + y^2 - 2x - 4y + 1 = 0$.\n\nIntersection with y-axis ($x=0$):\n$$y^2 - 4y + 1 = 0 \\implies y = 2 \\pm \\sqrt{3}$$\nSo $P = (0, 2+\\sqrt{3})$ and $Q = (0, 2-\\sqrt{3})$.\n\nThe center of the circle is $(1, 2)$. Since the normal to a circle always passes through its center, the normals at P and Q pass through $(1,2)$.\n\nEquation of normal at $P(0, 2+\\sqrt{3})$:\n$$y - 2 = -\\sqrt{3}(x-1)$$\nIntersection with x-axis ($y=0$):\n$$-2 = -\\sqrt{3}(x-1) \\implies x - 1 = \\frac{2}{\\sqrt{3}} \\implies R = \\left(1 + \\frac{2}{\\sqrt{3}}, 0\\right)$$\n\nEquation of normal at $Q(0, 2-\\sqrt{3})$:\n$$y - 2 = \\sqrt{3}(x-1)$$\nIntersection with x-axis ($y=0$):\n$$-2 = \\sqrt{3}(x-1) \\implies x - 1 = -\\frac{2}{\\sqrt{3}} \\implies S = \\left(1 - \\frac{2}{\\sqrt{3}}, 0\\right)$$\n\nLength of $RS = \\left| \\left(1 + \\frac{2}{\\sqrt{3}}\\right) - \\left(1 - \\frac{2}{\\sqrt{3}}\\right) \\right| = \\frac{4}{\\sqrt{3}} = \\frac{4\\sqrt{3}}{3}$.",
+        "marks": 4,
+        "negativeMarks": 1,
+        "chapter": "Area Under Curves"
+    },
+    {
+        "_id": {
+            "$oid": "6a80361dca01911de46865ae"
+        },
+        "exam": "JEE Mains",
+        "year": 2024,
+        "session": "January",
+        "subject": "Mathematics",
+        "part": "1A",
+        "topic": "Area Under Curves",
+        "difficulty": "Hard",
+        "question": "One of the points of intersection of the curves $y = 1 + 3x - 2x^2$ and $y = \\frac{1}{x}$ is $\\left(\\frac{1}{2}, 2\\right)$. Let the area of the region enclosed by these curves be $\\frac{1}{24}(l\\sqrt{5} + m) - n \\log_e(1 + \\sqrt{5})$, where $l, m, n \\in \\mathbf{N}$. Then $l + m + n$ is equal to",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "29",
+                "image": null
+            },
+            {
+                "id": "B",
+                "text": "31",
+                "image": null
+            },
+            {
+                "id": "C",
+                "text": "30",
+                "image": null
+            },
+            {
+                "id": "D",
+                "text": "32",
+                "image": null
+            }
+        ],
+        "correctAnswer": "C",
+        "explanation": "The area $A$ enclosed by the curves is given by:\n$$A = \\int_{\\frac{1}{2}}^{\\frac{1+\\sqrt{5}}{2}} \\left(1 + 3x - 2x^2 - \\frac{1}{x}\\right) dx$$\n$$A = \\left[ x + \\frac{3x^2}{2} - \\frac{2x^3}{3} - \\ln x \\right]_{\\frac{1}{2}}^{\\frac{1+\\sqrt{5}}{2}}$$\n$$A = \\frac{1+\\sqrt{5}}{2} + \\frac{3}{2}\\left(\\frac{1+\\sqrt{5}}{2}\\right)^2 - \\frac{2}{3}\\left(\\frac{1+\\sqrt{5}}{2}\\right)^3 - \\ln\\left(\\frac{1+\\sqrt{5}}{2}\\right) - \\left( \\frac{1}{2} + \\frac{3}{2}\\left(\\frac{1}{4}\\right) - \\frac{2}{3}\\left(\\frac{1}{8}\\right) - \\ln\\left(\\frac{1}{2}\\right) \\right)$$\n$$A = \\frac{1}{2} + \\frac{\\sqrt{5}}{2} + \\frac{3}{8} + \\frac{3}{4}\\sqrt{5} + \\frac{15}{8} - \\frac{4}{3} - \\frac{2}{3}\\sqrt{5} - \\frac{1}{2} - \\frac{3}{8} + \\frac{1}{12} - \\ln(1+\\sqrt{5})$$\n$$= \\sqrt{5}\\left(\\frac{1}{2} + \\frac{3}{4} - \\frac{2}{3}\\right) + \\frac{15}{8} - \\frac{4}{3} + \\frac{1}{12} - \\ln(1+\\sqrt{5})$$\n$$= \\frac{14}{24}\\sqrt{5} + \\frac{15}{24} - \\ln(1+\\sqrt{5})$$\nComparing this with $\\frac{1}{24}(l\\sqrt{5} + m) - n \\ln(1+\\sqrt{5})$, we get:\n$l = 14, m = 15, n = 1$\nTherefore, $l + m + n = 14 + 15 + 1 = 30$.",
+        "marks": 4,
+        "negativeMarks": 1,
+        "chapter": "Area Under Curves"
+    },
+    {
+        "_id": {
+            "$oid": "6a80361dca01911de46865b1"
+        },
+        "exam": "JEE Mains",
+        "year": 2024,
+        "session": "January",
+        "subject": "Mathematics",
+        "part": "1A",
+        "topic": "Area Under Curves",
+        "difficulty": "Hard",
+        "question": "Let the area of the region enclosed by the curves $y = 3x, 2y = 27 - 3x$ and $y = 3x - x\\sqrt{x}$ be $A$. Then $10A$ is equal to",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "172",
+                "image": null
+            },
+            {
+                "id": "B",
+                "text": "162",
+                "image": null
+            },
+            {
+                "id": "C",
+                "text": "154",
+                "image": null
+            },
+            {
+                "id": "D",
+                "text": "184",
+                "image": null
+            }
+        ],
+        "correctAnswer": "B",
+        "explanation": "The intersection points of the curves are:\n1. $y = 3x$ and $2y = 27 - 3x \\implies 6x = 27 - 3x \\implies x = 3, y = 9$.\n2. $y = 3x - x\\sqrt{x}$ and $y = 3x \\implies x\\sqrt{x} = 0 \\implies x = 0$.\n3. $y = 3x - x\\sqrt{x}$ and $2y = 27 - 3x \\implies 2(3x - x\\sqrt{x}) = 27 - 3x \\implies 9x - 27 = 2x\\sqrt{x} \\implies x = 9$.\n\nThe area $A$ is given by:\n$$A = \\int_{0}^{3} (3x - (3x - x\\sqrt{x})) dx + \\int_{3}^{9} \\left(\\frac{27-3x}{2} - (3x - x\\sqrt{x})\\right) dx$$\n$$A = \\int_{0}^{3} x^{3/2} dx + \\int_{3}^{9} \\left(\\frac{27}{2} - \\frac{9x}{2} + x^{3/2}\\right) dx$$\n$$A = \\left[ \\frac{2x^{5/2}}{5} \\right]_{0}^{3} + \\left[ \\frac{27x}{2} - \\frac{9x^2}{4} + \\frac{2x^{5/2}}{5} \\right]_{3}^{9}$$\n$$A = \\frac{2}{5}(3^{5/2}) + \\left( \\frac{243}{2} - \\frac{729}{4} + \\frac{486}{5} \\right) - \\left( \\frac{81}{2} - \\frac{81}{4} + \\frac{2}{5}(3^{5/2}) \\right)$$\n$$A = 81 - 162 + \\frac{486}{5} = \\frac{81}{5}$$\nTherefore, $10A = 10 \\times \\frac{81}{5} = 162$.",
+        "marks": 4,
+        "negativeMarks": 1,
+        "chapter": "Area Under Curves"
+    },
+    {
+        "_id": {
+            "$oid": "6a80361dca01911de46865b3"
+        },
+        "exam": "JEE Mains",
+        "year": 2024,
+        "session": "January",
+        "subject": "Mathematics",
+        "part": "1A",
+        "topic": "Area Under Curves",
+        "difficulty": "Hard",
+        "question": "Let $f(x)$ be a positive function such that the area bounded by $y = f(x), y = 0$ from $x = 0$ to $x = a > 0$ is $e^{-a} + 4a^2 + a - 1$. Then the differential equation, whose general solution is $y = c_1 f(x) + c_2$, where $c_1$ and $c_2$ are arbitrary constants, is",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "$(8e^x - 1)\\frac{d^2y}{dx^2} + \\frac{dy}{dx} = 0$",
+                "image": null
+            },
+            {
+                "id": "B",
+                "text": "$(8e^x - 1)\\frac{d^2y}{dx^2} - \\frac{dy}{dx} = 0$",
+                "image": null
+            },
+            {
+                "id": "C",
+                "text": "$(8e^x + 1)\\frac{d^2y}{dx^2} - \\frac{dy}{dx} = 0$",
+                "image": null
+            },
+            {
+                "id": "D",
+                "text": "$(8e^x + 1)\\frac{d^2y}{dx^2} + \\frac{dy}{dx} = 0$",
+                "image": null
+            }
+        ],
+        "correctAnswer": "D",
+        "explanation": "Given:\n$$\\int_{0}^{a} f(x) dx = e^{-a} + 4a^2 + a - 1$$\nDifferentiating both sides with respect to $a$:\n$$f(a) = -e^{-a} + 8a + 1 \\implies f(x) = -e^{-x} + 8x + 1$$\nThe general solution is:\n$$y = c_1 f(x) + c_2 = c_1(-e^{-x} + 8x + 1) + c_2$$\nDifferentiating with respect to $x$:\n$$\\frac{dy}{dx} = c_1(e^{-x} + 8)$$\n$$\\frac{d^2y}{dx^2} = -c_1 e^{-x} \\implies c_1 = -e^x \\frac{d^2y}{dx^2}$$\nSubstituting $c_1$ back into the first derivative equation:\n$$\\frac{dy}{dx} = -e^x \\frac{d^2y}{dx^2} (e^{-x} + 8) = -\\frac{d^2y}{dx^2}(1 + 8e^x)$$\n$$\\implies (8e^x + 1)\\frac{d^2y}{dx^2} + \\frac{dy}{dx} = 0$$",
+        "marks": 4,
+        "negativeMarks": 1,
+        "chapter": "Area Under Curves"
+    },
+    {
+        "_id": {
+            "$oid": "6a80361dca01911de46865b5"
+        },
+        "exam": "JEE Mains",
+        "year": 2024,
+        "session": "January",
+        "subject": "Mathematics",
+        "part": "1A",
+        "topic": "Area Under Curves",
+        "difficulty": "Hard",
+        "question": "The parabola $y^2 = 4x$ divides the area of the circle $x^2 + y^2 = 5$ in two parts. The area of the smaller part is equal to:",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "$\\frac{1}{3} + 5\\sin^{-1}(\\frac{2}{\\sqrt{5}})$",
+                "image": null
+            },
+            {
+                "id": "B",
+                "text": "$\\frac{1}{3} + \\sqrt{5}\\sin^{-1}(\\frac{2}{\\sqrt{5}})$",
+                "image": null
+            },
+            {
+                "id": "C",
+                "text": "$\\frac{2}{3} + 5\\sin^{-1}(\\frac{2}{\\sqrt{5}})$",
+                "image": null
+            },
+            {
+                "id": "D",
+                "text": "$\\frac{2}{3} + \\sqrt{5}\\sin^{-1}(\\frac{2}{\\sqrt{5}})$",
+                "image": null
+            }
+        ],
+        "correctAnswer": "C",
+        "explanation": "The intersection of $y^2 = 4x$ and $x^2 + y^2 = 5$ is at $x = 1$.\nThe area of the upper half of the smaller part is:\n$$A_1 = \\int_{0}^{1} \\sqrt{4x} dx + \\int_{1}^{\\sqrt{5}} \\sqrt{5 - x^2} dx$$\n$$= 2 \\left[ \\frac{2}{3}x^{3/2} \\right]_{0}^{1} + \\left[ \\frac{x}{2}\\sqrt{5-x^2} + \\frac{5}{2}\\sin^{-1}\\left(\\frac{x}{\\sqrt{5}}\\right) \\right]_{1}^{\\sqrt{5}}$$\n$$= \\frac{4}{3} + \\frac{5\\pi}{4} - 1 - \\frac{5}{2}\\sin^{-1}\\left(\\frac{1}{\\sqrt{5}}\\right)$$\n$$= \\frac{1}{3} + \\frac{5\\pi}{4} - \\frac{5}{2}\\sin^{-1}\\left(\\frac{1}{\\sqrt{5}}\\right)$$\n\nThe total required area is $2 A_1$:\n$$\\text{Area} = \\frac{2}{3} + \\frac{5\\pi}{2} - 5\\sin^{-1}\\left(\\frac{1}{\\sqrt{5}}\\right)$$\nUsing the identity $\\sin^{-1}\\left(\\frac{1}{\\sqrt{5}}\\right) = \\frac{\\pi}{2} - \\sin^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)$:\n$$\\text{Area} = \\frac{2}{3} + \\frac{5\\pi}{2} - 5\\left(\\frac{\\pi}{2} - \\sin^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)\\right) = \\frac{2}{3} + 5\\sin^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)$$",
+        "marks": 4,
+        "negativeMarks": 1,
+        "chapter": "Area Under Curves"
+    },
+    {
+        "_id": {
+            "$oid": "6a80361dca01911de46865b6"
+        },
+        "exam": "JEE Mains",
+        "year": 2024,
+        "session": "January",
+        "subject": "Mathematics",
+        "part": "1A",
+        "topic": "Area Under Curves",
+        "difficulty": "Hard",
+        "question": "The area (in square units) of the region enclosed by the ellipse $x^2 + 3y^2 = 18$ in the first quadrant below the line $y = x$ is",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "$\\sqrt{3}\\pi - \\frac{3}{4}$",
+                "image": null
+            },
+            {
+                "id": "B",
+                "text": "$\\sqrt{3}\\pi + 1$",
+                "image": null
+            },
+            {
+                "id": "C",
+                "text": "$\\sqrt{3}\\pi$",
+                "image": null
+            },
+            {
+                "id": "D",
+                "text": "$\\sqrt{3}\\pi + \\frac{3}{4}$",
+                "image": null
+            }
+        ],
+        "correctAnswer": "C",
+        "explanation": "The ellipse equation is $\\frac{x^2}{18} + \\frac{y^2}{6} = 1$.\nIntersection with $y = x$ in the first quadrant:\n$$\\frac{x^2}{18} + \\frac{x^2}{6} = 1 \\implies 4x^2 = 18 \\implies x = \\frac{3}{\\sqrt{2}}$$\nRequired area is:\n$$\\text{Area} = \\int_{0}^{3/\\sqrt{2}} x dx + \\int_{3/\\sqrt{2}}^{3\\sqrt{2}} \\sqrt{\\frac{18-x^2}{3}} dx$$\n$$= \\left[ \\frac{x^2}{2} \\right]_{0}^{3/\\sqrt{2}} + \\frac{1}{\\sqrt{3}} \\left[ \\frac{x}{2}\\sqrt{18-x^2} + 9\\sin^{-1}\\left(\\frac{x}{3\\sqrt{2}}\\right) \\right]_{3/\\sqrt{2}}^{3\\sqrt{2}}$$\n$$= \\frac{9}{4} + \\frac{1}{\\sqrt{3}} \\left( \\frac{9\\pi}{2} - \\frac{9}{4} - \\frac{9\\pi}{6} \\right)$$\n$$= \\frac{9}{4} + \\sqrt{3}\\pi - \\frac{9}{4} = \\sqrt{3}\\pi$$",
+        "marks": 4,
+        "negativeMarks": 1,
+        "chapter": "Area Under Curves"
+    },
+    {
+        "_id": {
+            "$oid": "6a80367dca01911de46865b9"
+        },
+        "exam": "JEE Mains",
+        "year": 2024,
+        "session": "January",
+        "subject": "Mathematics",
+        "part": "1A",
+        "topic": "Area Under Curves",
+        "difficulty": "Hard",
+        "question": "The area of the region $\\left\\{ (x, y) : y^2 \\le 4x, x < 4, \\frac{xy(x-1)(x-2)}{(x-3)(x-4)} > 0, x \\ne 3 \\right\\}$ is",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "$\\frac{16}{3}$",
+                "image": null
+            },
+            {
+                "id": "B",
+                "text": "$\\frac{64}{3}$",
+                "image": null
+            },
+            {
+                "id": "C",
+                "text": "$\\frac{8}{3}$",
+                "image": null
+            },
+            {
+                "id": "D",
+                "text": "$\\frac{32}{3}$",
+                "image": null
+            }
+        ],
+        "correctAnswer": "D",
+        "explanation": "We are given the region defined by:\n$y^2 \\le 4x, x < 4, \\frac{xy(x-1)(x-2)}{(x-3)(x-4)} > 0, x \\ne 3$\n\nLet's analyze the inequality:\n$$\\frac{xy(x-1)(x-2)}{(x-3)(x-4)} > 0$$\n\nCase-I: $y > 0$\nSince $y > 0$, the inequality becomes:\n$$\\frac{x(x-1)(x-2)}{(x-3)(x-4)} > 0$$\nUsing the sign scheme for $x \\in [0, 4)$:\n- For $x \\in (0, 1)$, the expression is positive.\n- For $x \\in (1, 2)$, the expression is negative.\n- For $x \\in (2, 3)$, the expression is positive.\n- For $x \\in (3, 4)$, the expression is negative.\nThus, for $y > 0$, we have $x \\in (0, 1) \\cup (2, 3)$.\n\nCase-II: $y < 0$\nSince $y < 0$, the inequality becomes:\n$$\\frac{x(x-1)(x-2)}{(x-3)(x-4)} < 0$$\nThus, for $y < 0$, we have $x \\in (1, 2) \\cup (3, 4)$.\n\nBy symmetry, the total area is equal to the area under the curve $y = 2\\sqrt{x}$ for the intervals of $x$ where the region is defined:\n$$\\text{Area} = 2 \\int_{0}^{4} \\sqrt{x} dx = 2 \\left[ \\frac{2}{3} x^{3/2} \\right]_{0}^{4} = \\frac{4}{3} (8) = \\frac{32}{3}$$\nThus, the correct option is (4).",
+        "marks": 4,
+        "negativeMarks": 1,
+        "chapter": "Area Under Curves"
+    },
+    {
+        "_id": {
+            "$oid": "6a804501ca01911de46865be"
+        },
+        "exam": "JEE Mains",
+        "year": 2024,
+        "session": "January",
+        "subject": "Mathematics",
+        "part": "1A",
+        "topic": "Area Under Curves",
+        "difficulty": "Hard",
+        "question": "The area bounded by the lines $y = ||x - 1| - 2|$ is\n\n*(Note: NTA has dropped this question in the final official answer key)*",
+        "questionImage": "area_under_curves_hard_4.png",
+        "options": [
+            {
+                "id": "A",
+                "text": "$8$",
+                "image": null
+            },
+            {
+                "id": "B",
+                "text": "$4$",
+                "image": null
+            },
+            {
+                "id": "C",
+                "text": "$6$",
+                "image": null
+            },
+            {
+                "id": "D",
+                "text": "$12$",
+                "image": null
+            }
+        ],
+        "correctAnswer": "A",
+        "explanation": "From the graph, the bounded area can be calculated as the area of the region enclosed by $y = ||x - 1| - 2|$ and the x-axis. The area of the triangle is $\\frac{1}{2} \\times \\text{base} \\times \\text{height} = 8$.",
+        "marks": 4,
+        "negativeMarks": 1,
+        "chapter": "Area Under Curves"
+    }
+]

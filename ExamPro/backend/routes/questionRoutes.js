@@ -1,5 +1,5 @@
 import express from 'express';
-import { getQuestions, createQuestion, updateQuestion, deleteQuestion, updateQuestionStatus, parseUploadFile, finalizeImport, getImportJobStatus, handleImportWebhook } from '../controllers/questionController.js';
+import { getQuestions, getGroupedQuestions, createQuestion, updateQuestion, deleteQuestion, updateQuestionStatus, parseUploadFile, finalizeImport, getImportJobStatus, handleImportWebhook } from '../controllers/questionController.js';
 import { protect, admin } from '../middleware/authMiddleware.js';
 import multer from 'multer';
 
@@ -11,6 +11,8 @@ router.post('/import/parse', protect, admin, upload.single('file'), parseUploadF
 router.get('/import/status/:jobId', protect, admin, getImportJobStatus);
 router.post('/import/webhook/:jobId', handleImportWebhook);
 router.post('/import/finalize', protect, admin, finalizeImport);
+
+router.get('/grouped', protect, admin, getGroupedQuestions);
 
 router.route('/')
   .get(protect, admin, getQuestions)

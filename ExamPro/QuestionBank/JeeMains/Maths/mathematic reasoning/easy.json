@@ -1,0 +1,782 @@
+[
+  {
+    "difficulty": "Easy",
+    "question": "The negation of '$\\sqrt{5}$ is an integer or $5$ is an irrational number' is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "1",
+        "text": "$\\sqrt{5}$ is an integer and $5$ is not an irrational Number",
+        "image": null
+      },
+      {
+        "id": "2",
+        "text": "$\\sqrt{5}$ is not an integer and $5$ is an irrational Number",
+        "image": null
+      },
+      {
+        "id": "3",
+        "text": "$\\sqrt{5}$ is not an integer or $5$ is not an irrational Number",
+        "image": null
+      },
+      {
+        "id": "4",
+        "text": "$\\sqrt{5}$ is not an integer and $5$ is not an irrational Number",
+        "image": null
+      }
+    ],
+    "correctAnswer": "4",
+    "explanation": "$\\sqrt{5}$ is not an integer and $5$ is not an irrational Number $\\sim(p \\vee q) = \\sim p \\wedge \\sim q$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "If $p \\rightarrow (p \\wedge \\sim q)$ is false. Truth value of $p \\& q$ will be\nयदि $p \\rightarrow (p \\wedge \\sim q)$ असत्य है, तब $p \\& q$ का सत्यता मान होगा",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "1",
+        "text": "TT",
+        "image": null
+      },
+      {
+        "id": "2",
+        "text": "TF",
+        "image": null
+      },
+      {
+        "id": "3",
+        "text": "FT",
+        "image": null
+      },
+      {
+        "id": "4",
+        "text": "FF",
+        "image": null
+      }
+    ],
+    "correctAnswer": "1",
+    "explanation": "Truth table analysis:\n\n| $p$ | $q$ | $\\sim q$ | $p \\wedge \\sim q$ | $p \\rightarrow (p \\wedge \\sim q)$ |\n|---|---|---|---|---|\n| T | T | F | F | F |\n| T | F | T | T | T |\n| F | T | F | F | T |\n| F | F | T | F | T |\n\nThus, $p$ and $q$ are both True (TT) when $p \\rightarrow (p \\wedge \\sim q)$ is false.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The negation of '$\\sqrt{5}$ is an integer or $5$ is an irrational number' is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\sqrt{5}$ is an integer and $5$ is not an irrational Number",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\sqrt{5}$ is not an integer and $5$ is an irrational Number",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\sqrt{5}$ is not an integer or $5$ is not an irrational Number",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sqrt{5}$ is not an integer and $5$ is not an irrational Number",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let $p$: $\\sqrt{5}$ is an integer, $q$: $5$ is an irrational number.\nGiven statement is $p \\vee q$.\nIts negation is $\\sim(p \\vee q) \\equiv \\sim p \\wedge \\sim q$.\nThus, '$\\sqrt{5}$ is not an integer and $5$ is not an irrational number'.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The contrapositive of the statement \"If I reach the station in time, then I will catch the train\" is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "If I will catch the train, then I reach the station in time",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "If I do not reach the station in time, then I will catch the train",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "If I do not reach the station in time, then I will not catch the train",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "If I will not catch the train, then I do not reach the station in time",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let $p$: I reach the station in time, $q$: I will catch the train.\nGiven statement is $p \\rightarrow q$.\nContrapositive is $\\sim q \\rightarrow \\sim p$, which means 'If I will not catch the train, then I do not reach the station in time'.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The negation of '$\\sqrt{5}$ is an integer or $5$ is an irrational number' is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\sqrt{5}$ is an integer and $5$ is not an irrational Number",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\sqrt{5}$ is not an integer and $5$ is an irrational Number",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\sqrt{5}$ is not an integer or $5$ is not an irrational Number",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sqrt{5}$ is not an integer and $5$ is not an irrational Number",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$\\sqrt{5}$ is not an integer and $5$ is not an irrational Number $\\sim (p \\lor q) = \\sim p \\wedge \\sim q$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "If $p \\to (p \\wedge \\sim q)$ is false. Truth value of $p$ & $q$ will be \\\\ यदि $p \\to (p \\wedge \\sim q)$ असत्य है, तब $p$ & $q$ का सत्यता मान होगा",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "TT",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "TF",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "FT",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "FF",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "| p | q | $\\sim q$ | $p \\wedge \\sim q$ | $p \\to (p \\wedge \\sim q)$ |\n|---|---|---|---|---|\n| T | T | F | F | F |\n| T | F | T | T | T |\n| F | T | F | F | T |\n| F | F | T | F | T |",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The contrapositive of the statement \"If you will work, you will earn money\" is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "If you will not earn money, you will not work",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "You will earn money, if you will not work",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "If you will earn money, you will work",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "To earn money, you need to work",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Contrapositive of $p \\rightarrow q$ is $\\sim q \\rightarrow \\sim p$\n$p \\rightarrow$ you will work\n$q \\rightarrow$ you will earn money\n$\\sim q \\rightarrow$ you will not earn money\n$\\sim p \\rightarrow$ you will not work\n$\\sim q \\rightarrow \\sim p \\Rightarrow$ if you will not earn money, you will not work.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Consider the statement: \\\"$P(n) : n^2 - n + 41$ is prime.\\\" Then which one of the following is true?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "Both $P(3)$ and $P(5)$ are true.",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$P(3)$ is false but $P(5)$ is true.",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Both $P(3)$ and $P(5)$ are false.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$P(5)$ is false but $P(3)$ is true.",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$P(n) = n^2 - n + 41$\\n$\\Rightarrow P(3) = 9 - 3 + 41 = 47$ (prime)\\n$\\& P(5) = 25 - 5 + 41 = 61$ (prime)\\n\\therefore P(3) \\text{ and } P(5) \\text{ are both prime i.e., true.}",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Contrapositive of the statement \\\"If two numbers are not equal, then their squares are not equal\\\". :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "If the squares of two numbers are not equal, then the numbers are equal.",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "If the squares of two numbers are equal, then the numbers are not equal.",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "If the squares of two numbers are equal, then the numbers are equal.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "If the squares of two numbers are not equal, then the numbers are not equal.",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Contrapositive of \\\"If A then B\\\" is \\\"If $\\thicksim B$ then $\\thicksim A$\\\". Hence contrapositive of \\\"If two numbers are not equal, then their squares are not equal\\\" is \\\"If squares of two numbers are equal, then the two numbers are equal\\\".",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The expression $\\thicksim (\\thicksim p \\rightarrow q)$ is logically equivalent to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\thicksim p \\bigwedge \\thicksim q$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$p \\bigwedge \\thicksim q$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\thicksim p \\bigwedge q$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$p \\bigwedge q$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$(1) \\thicksim (\\thicksim p \\rightarrow Q) \\boldsymbol{\\rho} \\thicksim (\\thicksim (\\thicksim p) \\bigvee q) \\boldsymbol{\\rho} \\thicksim (p \\bigvee q) \\boldsymbol{\\rho} \\thicksim p \\bigwedge \\thicksim q$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Consider the statement: \"$P(n): n^2 - n + 41$ is prime.\" Then which one of the following is true?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "Both $P(3)$ and $P(5)$ are true.",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$P(3)$ is false but $P(5)$ is true.",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Both $P(3)$ and $P(5)$ are false.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$P(5)$ is false but $P(3)$ is true.",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$P(n) = n^2 - n + 41$\\n$\\Rightarrow P(3) = 9 - 3 + 41 = 47$ (prime)\\n\\& $P(5) = 25 - 5 + 41 = 61$ (prime)\\n$\\therefore P(3)$ and $P(5)$ are both prime i.e., true.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Contrapositive of the statement \"If two numbers are not equal, then their squares are not equal\". :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "If the squares of two numbers are not equal, then the numbers are equal.",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "If the squares of two numbers are equal, then the numbers are not equal.",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "If the squares of two numbers are equal, then the numbers are equal.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "If the squares of two numbers are not equal, then the numbers are not equal.",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Contrapositive of \"If $A$ then $B$\" is \"If $\\sim B$ then $\\sim A$\". Hence contrapositive of \"If two numbers are not equal, then their squares are not equal\" is \"If squares of two numbers are equal, then the two numbers are equal\".",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The expression $\\sim (\\sim p \\to q)$ is logically equivalent to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\sim p \\wedge \\sim q$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$p \\wedge \\sim q$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\sim p \\wedge q$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$p \\wedge q$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\sim (\\sim p \\to q) \\equiv \\sim (\\sim (\\sim p) \\vee q) \\equiv \\sim (p \\vee q) \\equiv \\sim p \\wedge \\sim q$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The contrapositive of the statement \"If you are born in India, then you are a citizen of India\", is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "If you are not a citizen of India, then you are not born in India.",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "If you are a citizen of India, then you are born in India.",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "If you are born in India, then you are not a citizen of India.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "If you are not born in India, then you are not a citizen of India.",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "S: \"If you are born in India, then you are a citizen of India.\"`nContrapositive of $p \\to q$ is $\\sim q \\to \\sim p$\\nSo contrapositive of statement S will be :\\n\"If you are not a citizen of India, then you are not born in India.\"",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "If $p$ : weather is good, $q$ : ground is not wet. Write the negation of $p \\wedge q$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "weather is not good or ground is wet",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "weather is good or ground is wet",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "weather is not good and ground is wet",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "weather is good and ground is not wet",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using De Morgan's Law, $\\sim (p \\wedge q) \\equiv \\sim p \\vee \\sim q$.\nSince $p$ is 'weather is good', $\\sim p$ is 'weather is not good'.\nSince $q$ is 'ground is not wet', $\\sim q$ is 'ground is wet'.\nThus, $\\sim (p \\wedge q)$ means 'weather is not good or ground is wet'.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The Boolean expression $(\\sim (p \\land q)) \\lor q$ is equivalent to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$q \\rightarrow (p \\land q)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$p \\rightarrow q$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$p \\rightarrow (p \\rightarrow q)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$p \\rightarrow (p \\lor q)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$(\\sim p \\lor \\sim q) \\lor q = \\sim p \\lor (\\sim q \\lor q) = \\sim p \\lor T = T$, or by De Morgan's: $(\\sim p \\lor \\sim q) \\lor q = \\sim p \\lor T = T$. Wait, let's use implication: $\\sim p \\lor q \\equiv p \\rightarrow q$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Which of the following is a tautology?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(\\sim q \\wedge p) \\wedge q$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(\\sim q \\wedge p) \\wedge (p \\wedge \\sim p)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(\\sim q \\wedge p) \\vee (p \\vee \\sim p)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(p \\wedge q) \\wedge \\sim (p \\wedge q)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$(\\sim q \\wedge p) \\vee (p \\vee \\sim p) = (\\sim q \\wedge p) \\vee (t) = t$, which is a tautology.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The negation of the expression $q \\lor ((\\sim q) \\land p)$ is equivalent to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(\\sim p) \\land (\\sim q)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$p \\land (\\sim q)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(\\sim p) \\lor (\\sim q)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(\\sim p) \\lor q$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "We need the negation of $q \\lor (\\sim q \\land p)$. Using De Morgan's laws and distributive laws: $\\sim(q \\lor (\\sim q \\land p)) \\equiv \\sim q \\land \\sim(\\sim q \\land p) \\equiv \\sim q \\land (q \\lor \\sim p) \\equiv (\\sim q \\land q) \\lor (\\sim q \\land \\sim p) \\equiv F \\lor (\\sim p \\land \\sim q) \\equiv (\\sim p) \\land (\\sim q)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Negation of the Boolean expression $p \\iff (q \\Rightarrow p)$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(\\sim p) \\land q$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$p \\land (\\sim q)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(\\sim p) \\lor (\\sim q)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(\\sim p) \\land (\\sim q)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Negation of $p \\iff (q \\Rightarrow p)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Which of the following is logically equivalent to $(p \\lor q) \\land (p \\lor \\sim q)$?",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$p$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$q$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$p \\lor q$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$p \\land q$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using distributive law: $(p \\lor q) \\land (p \\lor \\sim q) \\equiv p \\lor (q \\land \\sim q) \\equiv p \\lor c \\equiv p$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

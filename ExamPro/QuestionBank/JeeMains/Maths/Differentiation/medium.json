@@ -1,0 +1,1289 @@
+[
+  {
+    "difficulty": "Medium",
+    "question": "Let \u092e\u093e\u0928\u093e $(x)^k + (y)^k = (a)^k$ where \u091c\u0939\u093e\u0901 $a, k > 0$ and \u0924\u0925\u093e $\\frac{dy}{dx} + \\left(\\frac{y}{x}\\right)^{\\frac{1}{3}} = 0$, then find \u0924\u092c $k$ \u092c\u0930\u093e\u092c\u0930 \u0939\u0948\u2014",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{2}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{4}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$k.x^{k-1} + k.y^{k-1} \\frac{dy}{dx} = 0 \\\\ \\frac{dy}{dx} = -\\left(\\frac{x}{y}\\right)^{k-1} \\\\ \\frac{dy}{dx} + \\left(\\frac{x}{y}\\right)^{k-1} = 0 \\\\ k - 1 = -\\frac{1}{3} \\\\ k = 1 - \\frac{1}{3} = \\frac{2}{3}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let \u092e\u093e\u0928\u093e $x = 2\\sin\\theta - \\sin 2\\theta$ and \u0914\u0930 $y = 2\\cos\\theta - \\cos 2\\theta$ find \u091c\u094d\u091e\u093e\u0924 \u0915\u0940\u091c\u093f\u092f\u0947 $\\frac{d^2 y}{dx^2}$ at $\\theta = \\pi$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{3}{8}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{3}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{5}{8}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{7}{8}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\frac{dx}{d\\theta} = 2\\cos\\theta - 2\\cos 2\\theta$, $\\frac{dy}{d\\theta} = -2\\sin\\theta + 2\\sin 2\\theta$. Therefore, $\\frac{dy}{dx} = \\frac{\\sin 2\\theta - \\sin\\theta}{\\cos\\theta - \\cos 2\\theta} = \\cot\\left(\\frac{3\\theta}{2}\\right)$. Differentiating again with respect to $x$ at $\\theta = \\pi$ yields $\\frac{3}{8}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The value of $\\int_{0}^{\\pi}|\\cos x|^3\\,dx$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{4}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{2}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-\\frac{4}{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$I = \\int_{0}^{\\pi}|\\cos x|^3\\,dx = 2\\int_{0}^{\\pi/2}\\cos^3 x\\,dx = \\frac{2}{4}\\int_{0}^{\\pi/2}(3\\cos x + \\cos 3x)\\,dx = \\frac{1}{2}\\left[3\\sin x + \\frac{\\sin 3x}{3}\\right]_{0}^{\\pi/2} = \\frac{1}{2}\\left(3-\\frac{1}{3}\\right) = \\frac{4}{3}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $x = 3\\tan t$ and $y = 3\\sec t$, then the value of $\\frac{d^2y}{dx^2}$ at $t = \\frac{\\pi}{4}$, is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{3\\sqrt{2}}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{6\\sqrt{2}}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{3}{2\\sqrt{2}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{6}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$x = 3\\tan t \\implies \\frac{dx}{dt} = 3\\sec^2 t$, $y = 3\\sec t \\implies \\frac{dy}{dt} = 3\\sec t \\tan t$. Then $\\frac{dy}{dx} = \\sin t$. $\\frac{d^2y}{dx^2} = \\cos t \\cdot \\frac{1}{3\\sec^2 t}$. At $t = \\frac{\\pi}{4}$, $\\frac{d^2y}{dx^2} = \\frac{1}{\\sqrt{2}} \\cdot \\frac{1}{3(\\sqrt{2})^2} = \\frac{1}{6\\sqrt{2}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $f(1) = 1, f'(1) = 3$, then the derivative of $f(f(f(x))) + (f(x))^2$ at $x = 1$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$33$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$15$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$9$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let $g(x) = f(f(f(x))) + (f(x))^2$. Differentiating both sides: $g'(x) = f'(f(f(x))) f'(f(x)) f'(x) + 2f(x)f'(x)$. At $x = 1$, $g'(1) = f'(f(f(1))) f'(f(1)) f'(1) + 2f(1)f'(1) = f'(1)f'(1)f'(1) + 2f(1)f'(1) = 3 \\times 3 \\times 3 + 2 \\times 1 \\times 3 = 27 + 6 = 33$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The derivative of $\\tan^{-1}\\left(\\frac{\\sin x - \\cos x}{\\sin x + \\cos x}\\right)$ with respect to $\\frac{x}{2}$, where $\\left(x \\in \\left(0, \\frac{\\pi}{2}\\right)\\right)$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{2}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let $f(x) = \\tan^{-1}\\left(\\frac{\\tan x - 1}{\\tan x + 1}\\right) = -\\tan^{-1}\\left(\\tan\\left(\\frac{\\pi}{4}-x\\right)\\right) = x - \\frac{\\pi}{4}$. Let $y = \\frac{x}{2} \\implies f(y) = 2y - \\frac{\\pi}{4}$. Differentiating w.r.t $y$, we get $\\frac{df(y)}{dy} = 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The value of $\\int_{0}^{\\pi} |\\cos x|^3 \\, dx$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{4}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{2}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-\\frac{4}{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$I = \\int_{0}^{\\pi} |\\cos x|^3 \\, dx = 2 \\int_{0}^{\\pi/2} \\cos^3 x \\, dx = \\frac{2}{4} \\int_{0}^{\\pi/2} (3\\cos x + \\cos 3x) \\, dx = \\frac{1}{2} \\left[3\\sin x + \\frac{\\sin 3x}{3}\\right]_{0}^{\\pi/2} = \\frac{1}{2}\\left(3 - \\frac{1}{3}\\right) = \\frac{4}{3}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $x = 3 \\tan t$ and $y = 3 \\sec t$, then the value of $\\frac{d^2 y}{dx^2}$ at $t = \\frac{\\pi}{4}$, is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{3\\sqrt{2}}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{6\\sqrt{2}}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{3}{2\\sqrt{2}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{6}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$\\frac{dx}{dt} = 3\\sec^2 t$, $\\frac{dy}{dt} = 3\\sec t \\tan t$. Then $\\frac{dy}{dx} = \\sin t$. $\\frac{d^2 y}{dx^2} = \\cos t \\cdot \\frac{1}{3\\sec^2 t}$. At $t = \\frac{\\pi}{4}$, $\\frac{d^2 y}{dx^2} = \\frac{1}{3} \\left(\\frac{1}{\\sqrt{2}}\\right)^3 = \\frac{1}{6\\sqrt{2}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $f(1) = 1, f'(1) = 3$, then the derivative of $f(f(f(x))) + (f(x))^2$ at $x = 1$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$33$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$15$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$9$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let $g(x) = f(f(f(x))) + (f(x))^2$. Then $g'(1) = f'(f(f(1)))f'(f(1))f'(1) + 2f(1)f'(1) = 3 \\times 3 \\times 3 + 2 \\times 1 \\times 3 = 27 + 6 = 33$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $e^y + xy = e$, the ordered pair $\\left(\\frac{dy}{dx}, \\frac{d^2y}{dx^2}\\right)$ at $x = 0$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\left(\\frac{1}{e}, -\\frac{1}{e^2}\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\left(-\\frac{1}{e}, \\frac{1}{e^2}\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\left(\\frac{1}{e}, \\frac{1}{e^2}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\left(-\\frac{1}{e}, -\\frac{1}{e^2}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "At $x = 0$, $y = 1$. Differentiating implicitly twice yields $\\frac{dy}{dx} = -\\frac{1}{e}$ and $\\frac{d^2y}{dx^2} = \\frac{1}{e^2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The derivative of $\\tan^{-1}\\left(\\frac{\\sin x - \\cos x}{\\sin x + \\cos x}\\right)$, with respect to $\\frac{x}{2}$, where $\\left(x \\in \\left(0, \\frac{\\pi}{2}\\right)\\right)$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{2}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$f(x) = \\tan^{-1}\\left(\\frac{\\tan x - 1}{\\tan x + 1}\\right) = x - \\frac{\\pi}{4}$. Let $y = \\frac{x}{2} \\implies f(y) = 2y - \\frac{\\pi}{4}$. Differentiating with respect to $y$ gives $2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $y(x) = \\cot^{-1}\\left(\\frac{\\sqrt{1+\\sin x} + \\sqrt{1-\\sin x}}{\\sqrt{1+\\sin x} - \\sqrt{1-\\sin x}}\\right)$, $x \\in \\left(\\frac{\\pi}{2}, \\pi\\right)$, then $\\frac{dy}{dx}$ at $x = \\frac{5\\pi}{6}$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$y(x) = \\cot^{-1}\\left[\\frac{\\cos\\frac{x}{2} + \\sin\\frac{x}{2} + \\sin\\frac{x}{2} - \\cos\\frac{x}{2}}{\\cos\\frac{x}{2} + \\sin\\frac{x}{2} - \\sin\\frac{x}{2} + \\cos\\frac{x}{2}}\\right]$ \\\\ $y(x) = \\cot^{-1}\\left(\\tan\\frac{x}{2}\\right) = \\frac{\\pi}{2} - \\frac{x}{2}$ \\\\ $y'(x) = -\\frac{1}{2}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $y = \\tan^{-1}(\\sec x^3 - \\tan x^3), \\frac{\\pi}{2} < x^3 < \\frac{3\\pi}{2}$, then",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$xy'' + 2y' = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x^2y'' - 6y + \\frac{3\\pi}{2} = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x^2y'' - 6y + 3\\pi = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$xy'' - 4y' = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$y = \\tan^{-1}(\\sec x^3 - \\tan x^3) = \\tan^{-1}\\left(\\frac{1-\\sin x^3}{\\cos x^3}\\right) = \\tan^{-1}\\left(\\frac{1-\\cos(\\frac{\\pi}{2}-x^3)}{\\sin(\\frac{\\pi}{2}-x^3)}\\right) = \\tan^{-1}\\left(\\tan(\\frac{\\pi}{4}-\\frac{x^3}{2})\\right)$. Since $\\frac{\\pi}{4}-\\frac{x^3}{2} \\in (-\\frac{\\pi}{2}, 0)$, $y = \\frac{\\pi}{4} - \\frac{x^3}{2}$. Differentiating gives $y' = \\frac{-3x^2}{2}, y'' = -3x$. Solving gives $x^2y'' - 6y + \\frac{3\\pi}{2} = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be defined as $f(x) = x^3 + x - 5$. If $g(x)$ is a function such that $f(g(x)) = x, \\forall x \\in \\mathbb{R}$, then $g'(63)$ is equal to ______.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{49}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{3}{49}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{43}{49}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{91}{49}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$f(x) = x^3 + x - 5 \\implies f'(x) = 3x^2 + 1 \\implies$ increasing function $\\implies$ invertible $\\implies g(x)$ is inverse of $f(x) \\implies g(f(x)) = x \\implies g'(f(x))f'(x) = 1$. For $f(x) = 63 \\implies x^3 + x - 5 = 63 \\implies x = 4$. Putting $x=4$ gives $g'(f(4))f'(4) = 1 \\implies g'(63) \\times 49 = 1 \\implies g'(63) = \\frac{1}{49}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\cos^{-1}\\left(\\frac{y}{2}\\right) = \\log_e\\left(\\frac{x}{5}\\right)^5, |y| < 2$, then :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x^2y'' + xy' - 25y = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x^2y'' - xy' - 25y = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x^2y'' - xy' + 25y = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x^2y'' + xy' + 25y = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Standard differential equation derivation yields $x^2y'' + xy' + 25y = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\cos^{-1}\\left(\\frac{y}{2}\\right) = 5 \\log_e \\left(\\frac{x}{5}\\right)^5$, then $x^2 y'' + xy'$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$25 y$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-25 y$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-5 y$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$5 y$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given $\\cos^{-1}\\left(\\frac{y}{2}\\right) = 5 \\log_e \\left(\\frac{x}{5}\\right)$. Differentiating both sides with respect to $x$: $\\frac{-1}{\\sqrt{1 - y^2/4}} \\frac{y'}{2} = 5 \\cdot \\frac{1}{x/5} \\cdot \\frac{1}{5} = \\frac{5}{x}$. This simplifies to $\\frac{-y'}{\\sqrt{4 - y^2}} = \\frac{5}{x} \\implies -xy' = 5\\sqrt{4 - y^2}$. Differentiating again with respect to $x$: $-xy'' - y' = 5 \\cdot \\frac{1}{2\\sqrt{4 - y^2}} (-2y y') \\implies xy'' + y' = \\frac{5y' y}{\\sqrt{4 - y^2}}$. Substituting $\\sqrt{4 - y^2} = \\frac{-xy'}{5}$ yields $xy'' + y' = 5\\left(\\frac{-5}{x}\\right)y \\implies x^2 y'' + xy' = -25 y$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $2^{xy} + 3y^x = 20$, then $\\frac{dy}{dx}$ at $(2, 2)$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-\\left(\\frac{2+\\log_e 8}{3+\\log_e 4}\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-\\left(\\frac{3+\\log_e 16}{4+\\log_e 8}\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-\\left(\\frac{3+\\log_e 8}{2+\\log_e 4}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-\\left(\\frac{3+\\log_e 4}{2+\\log_e 8}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given, $2^{xy} + 3y^x = 20$. Now differentiating both sides w.r.t $x$, we get $2^{xy}\\left(y' \\ln x + \\frac{y}{x}\\right) + 3y^x\\left(\\ln y + \\frac{x}{y} \\cdot y'\\right) = 0$ {here $\\ln = \\log_e$}. Putting $x = 2 \\text{ & } y = 2$, we get $\\Rightarrow 8(ln 2 \\cdot y' + 1) + 12(\\ln y + y') = 0 \\Rightarrow 8(\\ln 2 \\cdot y' + 1) + 12(\\ln \\ln 2 + y') = 0 \\Rightarrow y' = -\\left(\\frac{3 \\ln 2 + 2}{2 \\ln 2 + 3}\\right) \\Rightarrow y' = -\\left(\\frac{2+\\ln 8}{3+\\ln 4}\\right)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $f(x) = x^3 - x^2f'(1) + xf''(2) - f'''(3), x \\in R$, then",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$3f(1) + f(2) = f(3)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$f(3) - f(2) = f(1)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2f(0) - f(1) + f(3) = f(2)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$f(1) + f(2) + f(3) = f(0)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let $f'(1) = a, f''(2) = b, f'''(3) = c$. Then $f(x) = x^3 - ax^2 + bx - c$. $f'(x) = 3x^2 - 2ax + b$, $f''(x) = 6x - 2a$, $f'''(x) = 6$. Thus $c = 6, a = 3, b = 6$. So $f(x) = x^3 - 3x^2 + 6x - 6$. $f(1) = -2, f(2) = 2, f(3) = 12, f(0) = -6$. Hence, $2f(0) - f(1) + f(3) = 2 = f(2)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $y(x) = (1 + x)(1 + x^2)(1 + x^4)(1 + x^8)(1 + x^{16})$. Then $y' - y''$ at $x = -1$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$976$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$464$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$496$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$944$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$y = \\frac{1 - x^{32}}{1 - x} \\implies y - xy = 1 - x^{32}$. Differentiating both sides: $y' - xy' - y = -32x^{31}$, $y'' - xy'' - y' - y' = -(32)(31)x^{30}$. At $x = -1 \\implies y' - y'' = 496$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f : R \\to R$ be a differentiable function that satisfies the relation $f(x + y) = f(x) + f(y) - 1, \\forall x, y \\in R$. If $f'(0) = 2$, then $|f(-2)|$ is equal to \\_\\_\\_\\_\\_\\_.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h} = \\lim_{h \\to 0} \\frac{f(h) - f(0)}{h} = f'(0) = 2$. $f'(x) = 2 \\implies dy = 2dx \\implies y = 2x + C$. Given $x = 0, y = 1, C = 1$, so $y = 2x + 1$. Thus, $|f(-2)| = |-4 + 1| = |-3| = 3$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $y(x) = x^x, x > 0$, then $y''(2) - 2y'(2)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$8 \\log_e 2 - 2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4 \\log_e 2 + 2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4(\\log_e 2)^2 - 2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4(\\log_e 2)^2 + 2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Taking natural log on both sides: $\\ln y = x \\ln x$. Differentiating with respect to $x$: $\\frac{1}{y} y' = \\ln x + 1 \\implies y' = x^x (1 + \\ln x)$. Again differentiating: $y'' = x^x \\left(\\frac{1}{x}\\right) + (1 + \\ln x)^2 x^x$. Substituting $x = 2$, we find $y''(2) - 2y'(2) = 4(\\log_e 2)^2 - 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f, g: \\mathbb{R} \\rightarrow \\mathbb{R}$ be twice differentiable functions such that $f''(x) = g''(x) + 6x$, $f'(1) = 4g'(1) - 3 = 9$, and $f(2) = 3g(2) = 12$. Then:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$g(-2) - f(-2) = 20$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$|h(x)| < 10$ for all $x \\in (-1, 2)$ where $h(x) = f(x) - g(x)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$f(x) - g(x)$ is strictly increasing on $(-1, 1)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "We are given $f''(x) = g''(x) + 6x$. Integrating both sides, we get $f'(x) = g'(x) + 3x^2 + C_1$. Using $f'(1) = 4g'(1) - 3 = 9$, we can find the constants. Integrating again gives $f(x) = g(x) + x^3 + 3x - 6$. Substituting $x = -2$ gives $g(-2) - f(-2) = 20$. Thus option (A) is correct.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f(x) = x^5 + 2e^{x/4}$ for all $x \\in \\mathbf{R}$. Consider a function $g(x)$ such that $(g \\circ f)(x) = x$ for all $x \\in \\mathbf{R}$. Then the value of $8g'(2)$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$16$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$f(x) = 2$ when $x = 0$. $\\therefore g'(f(x))f'(x) = 1$. $g'(2) = \\frac{1}{f'(0)}$. $\\therefore f'(x) = 5x^4 + \\frac{2}{4}e^{x/4}$. $g'(2) = 2$. $\\text{Ans} = 16$. Option (1)",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Suppose for a differentiable function $h, h(0) = 0, h(1) = 1$ and $h'(0) = h'(1) = 2$. If $g(x) = h\\left(e^x\\right)e^{h(x)}$, then $g'(0)$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$3$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$g(x) = h(e^x) \\cdot e^{h(x)}$. $g'(x) = h(e^x) \\cdot e^{h(x)} \\cdot h'(x) + e^{h(x)} h'(x) \\cdot e^x$. $g'(0) = h(1)e^{h(0)}h'(0) + e^{h(0)}h'(1) = 2 + 2 = 4$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f(x) = ax^3 + bx^2 + cx + 41$ be such that $f(1) = 40, f'(1) = 2$ and $f''(1) = 4$. Then $a^2 + b^2 + c^2$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$73$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$62$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$51$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$54$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$f(x) = ax^3 + bx^2 + cx + 41$. $f'(x) = 3ax^2 + 2bx + cx \\Rightarrow f'(1) = 3a + 2b + c = 2 \\dots (1)$. $f''(x) = 6ax + 2b \\Rightarrow f''(1) = 6a + 2b = 4 \\Rightarrow 3a + b = 2 \\dots (2)$. $(1) - (2) \\Rightarrow b + c = 0 \\dots (3)$. $f(1) = 40 \\Rightarrow a + b + c + 41 = 40$. Use $(3) \\Rightarrow a + 41 = 40 \\Rightarrow a = -1$. By $(2) \\Rightarrow -3 + b = 2 \\Rightarrow b = 5 \\& c = -5$. $a^2 + b^2 + c^2 = 1 + 25 + 25 = 51$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f(x) = x^3 + x^2 f'(1) + x f''(2) + f'''(3), x \\in \\mathbb{R}$. Then $f'(10)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$202$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$200$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$205$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$198$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$f(x) = x^3 + x^2 f'(1) + x f''(2) + f'''(3) \\\\ f'(x) = 3x^2 + 2x f'(1) + f''(2) \\\\ f''(x) = 6x + 2f'(1) \\\\ f'''(x) = 6 \\\\ f'(1) = -5, f''(2) = 2, f'''(3) = 6 \\\\ f(x) = x^3 + x^2 \\cdot (-5) + x \\cdot (2) + 6 \\\\ f'(x) = 3x^2 - 10x + 2 \\\\ f'(10) = 300 - 100 + 2 = 202$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $y = \\log_e \\left(\\frac{1 - x^2}{1 + x^2}\\right), -1 < x < 1$. Then at $x = \\frac{1}{2}$, the value of $225 \\left(y' - y''\\right)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$732$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$746$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$742$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$736$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$y = \\log_e \\left(\\frac{1 - x^2}{1 + x^2}\\right) \\\\ \\frac{dy}{dx} = y' = \\frac{-4x}{1 - x^4} \\\\ \\frac{d^2y}{dx^2} = y'' = \\frac{-4(1 + 3x^4)}{(1 - x^4)^2} \\\\ y' - y'' = \\frac{-4x}{1 - x^4} + \\frac{4(1 + 3x^4)}{(1 - x^4)^2} \\\\ \\text{at } x = \\frac{1}{2}, \\\\ y' - y'' = \\frac{736}{225} \\\\ \\text{Thus } 225 \\left(y' - y''\\right) = 225 \\times \\frac{736}{225} = 736$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f(x) = x^3 + x^2f'(1) + 2xf''(2) + f'''(3), x \\in \\mathbf{R}$. Then the value of $f'(5)$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{117}{5}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{657}{5}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{2}{5}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{62}{5}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let $a = f'(1), b = f''(2), c = f'''(3)$. Then $f(x) = x^3 + ax^2 + 2bx + c$. Taking derivatives: $f'(x) = 3x^2 + 2ax + 2b$, $f''(x) = 6x + 2a$, $f'''(x) = 6$. From $f'(1) = a$: $3 + 2a + 2b = a$ gives $a = -3 - 2b$. From $f''(2) = b$: $12 + 2a = b$. From $f'''(3) = c$: $c = 6$. Substituting the first into the second: $b = 12 + 2(-3 - 2b) = 6 - 4b$ gives $5b = 6$, so $b = \\frac{6}{5}$. Then $a = -3 - \\frac{12}{5} = -\\frac{27}{5}$. $f(x) = x^3 - \\frac{27}{5}x^2 + \\frac{12}{5}x + 6$. $f'(x) = 3x^2 - \\frac{54}{5}x + \\frac{12}{5}$. $f'(5) = 75 - 54 + \\frac{12}{5} = \\frac{117}{5}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The value of $\\log_{e} 2 \\frac{\\mathrm{d}}{\\mathrm{dx}}(\\log_{\\cos x} \\operatorname{cosec} x)$ at $x = \\frac{\\pi}{4}$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-2\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-4$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let, $y = \\log_{\\cos x} \\operatorname{cosec} x = \\frac{\\ln(\\sin x)}{\\ln(\\cos x)}$\n$\\frac{\\mathrm{dy}}{\\mathrm{dx}} = \\frac{-[\\cot x \\cdot \\ln(\\cos x) + \\tan x \\cdot \\ln(\\sin x)]}{(\\ln(\\cos x))^2}$\n$\\left(\\frac{\\mathrm{dy}}{\\mathrm{dx}}\\right)_{x = \\frac{\\pi}{4}} = \\frac{4}{\\ln 2}$\nNow, $\\Rightarrow \\log_{e} 2 \\cdot \\frac{4}{\\ln 2} = 4$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $x^k + y^k = a^k$ where $a, k > 0$ and $\\frac{dy}{dx} + \\left(\\frac{y}{x}\\right)^{\\frac{1}{3}} = 0$ then find $k$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{2}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{4}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$k \\cdot x^{k-1} + k \\cdot y^{k-1} \\frac{dy}{dx} = 0 \\Rightarrow \\frac{dy}{dx} = -\\left(\\frac{x}{y}\\right)^{k-1}$. Given $\\frac{dy}{dx} + \\left(\\frac{x}{y}\\right)^{-\\frac{1}{3}} = 0$, so $k - 1 = -\\frac{1}{3} \\Rightarrow k = 1 - \\frac{1}{3} = \\frac{2}{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $x = 2\\sin\\theta - \\sin 2\\theta$ and $y = 2\\cos\\theta - \\cos 2\\theta, \\theta \\in [0, 2\\pi]$, then $\\frac{d^2 y}{dx^2}$ at $\\theta = \\pi$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{3}{8}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{3}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{3}{4}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-\\frac{3}{4}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "We have $\\frac{dx}{d\\theta} = 2\\cos\\theta - 2\\cos 2\\theta$ and $\\frac{dy}{d\\theta} = -2\\sin\\theta + 2\\sin 2\\theta$. Therefore, $\\frac{dy}{dx} = \\cot\\left(\\frac{3\\theta}{2}\\right)$. Differentiating again yields $\\frac{d^2 y}{dx^2} = \\frac{3}{8}$ at $\\theta = \\pi$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $(a + \\sqrt{2b}\\cos x)(a - \\sqrt{2b}\\cos y) = a^2 - b^2$, where $a > b > 0$, then $\\frac{dx}{dy}$ at $\\left(\\frac{\\pi}{4}, \\frac{\\pi}{4}\\right)$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{2a+b}{2a-b}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{a-b}{a+b}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{a+b}{a-b}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{a-2b}{a+2b}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "By differentiating implicitly and substituting the point $\\left(\\frac{\\pi}{4}, \\frac{\\pi}{4}\\right)$, we get $\\frac{a+b}{a-b}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $y(x)$ is a solution of the differential equation $y^2 + 2\\ln(\\cos x) = y$ such that $y(0) = 0$, then $|y''(0)|$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given $y^2 + 2\\ln(\\cos x) = y$. Differentiating both sides with respect to $x$, we get $2yy' - 2\\tan x = y'$. From $y(0) = 0$, we get $y'(0) = 0$. Again differentiating with respect to $x$, we get $2(y')^2 + 2yy'' - 2\\sec^2 x = y''$. Substituting $x = 0$ and $y'(0) = 0, y(0) = 0$, we get $2(0) + 2(0) - 2(1) = y''(0) \\implies y''(0) = -2$. Thus, $|y''(0)| = 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Differentiation",
+    "chapter": "Differentiation",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

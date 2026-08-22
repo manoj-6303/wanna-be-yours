@@ -1,0 +1,2921 @@
+[
+  {
+    "difficulty": "Medium",
+    "question": "If $y = mx + 4$ is common tangent to parabolas $y^2 = 4x$ and $x^2 = 2by$. Then value of b is \n\n यदि $y = mx + 4$ परवलय $y^2 = 4x$ तथा $x^2 = 2by$ की उभयनिष्ठ स्पर्श रेखा है तो $b$ का मान है-",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-64$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-32$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-128$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$16$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$y = mx + 4$ .....(i)\n$y^2 = 4x$ tangent की स्पर्श रेखा $y = mx + \\frac{a}{m} \\rightarrow y = mx + \\frac{1}{m}$ .........(ii)\nfrom (i) and (ii) से\n$4 = \\frac{1}{m} \\rightarrow m = \\frac{1}{4}$\nSo line $y = \\frac{1}{4}x + 4$ is also tangent to parabola $x^2 = 2by$, so solve\nअतः रेखा $y = \\frac{1}{4}x + 4$ परवलय $x^2 = 2by$ की स्पर्श रेखा है अतः:\n$x^2 = 2b\\binom{x + 16}{4}$\n$\\rightarrow 2x^2 - bx - 16b = 0 \\rightarrow D = 0 \\rightarrow b^2 - 4 \\times 2 \\times (-16b) = 0$\n$\\rightarrow b^2 + 32 \\times 4b = 0$\n$b = -128, b = 0$ (not possible असंभव)",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The locus of the mid-point of the line segment joining the focus of the parabola $y^2 = 4ax$ to a moving point of the parabola, is another parabola whose directrix is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x = a$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x = -\\frac{a}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x = \\frac{a}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$h = \\frac{at^2+a}{2}, k = \\frac{2at+0}{2} \\implies t^2 = \\frac{2h-a}{a}$ and $t = \\frac{k}{a} \\implies \\frac{k^2}{a^2} = \\frac{2h-a}{a}$ \\implies Locus of $(h, k)$ is $y^2 = a(2x-a) \\implies y^2 = 2a\\left(x - \\frac{a}{2}\\right)$. Its directrix is $x - \\frac{a}{2} = -\\frac{a}{2} \\implies x = 0$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $P$ is a point on the parabola $y = x^2 + 4$ which is closest to the straight line $y = 4x - 1$, then the co-ordinates of P are:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(-2, 8)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(1, 5)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(3, 13)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(2, 8)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$\\left.\\frac{dy}{dx}\\right|_p = 4 \\implies 2x_1 = 4 \\implies x_1 = 2$. Point will be $(2, 8)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "A tangent is drawn to the parabola $y^2 = 6x$ which is perpendicular to the line $2x + y = 1$. Which of the following points does NOT lie on it?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(0, 3)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(-6, 0)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(4, 5)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(5, 4)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Equation of tangent: $y = mx + \\frac{3}{2m}$, where $m_T = \\frac{1}{2}$ ($\\because$ perpendicular to line $2x + y = 1$). Tangent is $y = \\frac{x}{2} + 3 \\implies x - 2y + 6 = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the three normals drawn to the parabola, $y^2 = 2x$ pass through the point $(a, 0)$ where $a \\neq 0$, then 'a' must be greater than :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "-1",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "1",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "For standard parabola, for more than 3 normals (on axis) $x > \\frac{L}{2}$ (where L is length of L.R.). For $y^2 = 2x$, L.R. = $2$. For $(a, 0)$, $a > \\frac{\\text{L.R.}}{2} \\Rightarrow a > 1$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the common tangent to the parabolas, $y^2 = 4x$ and $x^2 = 2by$ is also a tangent to the curve $x^2 = 2by$, then the value of $b$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-128$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-64$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$128$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$64$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$y = mx + 4 \\quad \\dots (i)$ \\n $y^2 = 4x$ tangent $y = mx + \\frac{a}{m} \\Rightarrow y = mx + \\frac{1}{m} \\dots (ii)$ \\n from $(i)$ and $(ii)$ \\n $4 = \\frac{1}{m} \\Rightarrow m = \\frac{1}{4}$ \\n So line $y = \\frac{1}{4}x + 4$ is also tangent to parabola $x^2 = 2by$, so solve \\n $x^2 = 2b \\left(\\frac{x + 16}{4}\\right)$ \\n $\\Rightarrow 2x^2 - bx - 16b = 0 \\Rightarrow D = 0$ \\n $\\Rightarrow b^2 - 4 \\times 2 \\times (-16b) = 0$ \\n $\\Rightarrow b^2 + 32 \\times 4b = 0$ \\n $b = -128, b = 0 \\text{ (not possible)}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Axis of a parabola lies along x-axis. If its vertex and focus are at distance 2 and 4 respectively from the origin, on the positive x-axis, then which of the following points does not lie on it?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(5, 2\\sqrt{6})$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(8, \\sqrt{6})$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(6, 4\\sqrt{2})$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(4, \\sqrt{2})$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let point $P$ be $(2t, t^2)$ and $Q$ be $(h, k)$. \\n $h = \\frac{2t}{3}, k = \\frac{-2 + t^2}{3}$ \\n Hence locus is $3k + 2 = \\left(\\frac{3h}{2}\\right)^2$ \\n $\\Rightarrow 9x^2 = 12y + 8$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If one end of a focal chord of the parabola $y^2 = 16x$ is at $\\left(\\frac{1}{2}, -2\\right)$, then the equation of the tangent at the other end of this focal chord is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2y + x - 8 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2y - x - 8 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2y - x + 8 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x + 2y + 8 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let $\\left(\\frac{1}{2}, -2\\right)$ is $(2t^2, 4t) \\Rightarrow t = \\frac{-1}{2}$ \\n Parameter of other end of focal chord is $\\frac{2}{-1} = -2$ \\n $\\Rightarrow$ point is $(8, 8)$ \\n $\\Rightarrow$ equation of tangent is $8y - 4(x + 8) = 0$ \\n $\\Rightarrow 2y - x = 8$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The equation of the normal to the curve $y = x^2 + 7x + 2$ which is parallel to the line $3x - y + 4 = 0$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x + 3y + 26 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x - 3y + 26 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x + 3y - 26 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$3x - y + 1 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\because y = x^2 + 7x + 2$ \\n $\\therefore \\frac{dy}{dx} = 2x + 7$ \\n Slope of tangent parallel to line $y = 3x - 3$ \\n $\\therefore 2x + 7 = 3 \\Rightarrow x = -2$ \\n $\\therefore$ Point on curve $= (-2, -8)$ \\n Equation of normal at point $(-2, -8)$ \\n $y + 8 = \\frac{-1}{3}(x + 2)$ \\n $x + 3y + 26 = 0$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the length of the common chord of two circles $x^2 + y^2 + 8x + 1 = 0$ and $x^2 + y^2 + 2x + 2y - 2 = 0$ is $4$, then the radius of the second circle is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\sqrt{5}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2\\sqrt{5}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3\\sqrt{5}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4\\sqrt{5}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let the distance between centres be $d$. \\n $\\text{Length of common chord} = 2\\sqrt{r^2 - \\left(\\frac{d}{2}\\right)^2} = 4$ \\n $\\Rightarrow r^2 - \\frac{d^2}{4} = 4 \\text{ (given } r = 2\\sqrt{5})$ \\n $\\Rightarrow \\frac{d^2}{4} = 16$ \\n $\\Rightarrow d = 8$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $y = mx + 4$ is a tangent to both the parabolas $y^2 = 4x$ and $x^2 = 2by$. Then value of $b$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-64$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-32$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-128$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$16$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Equation of tangent to $y^2 = 4x$ with slope $m$ is $y = mx + \\frac{1}{m}$. Comparing with $y = mx + 4$, we get $\\frac{1}{m} = 4 \\implies m = \\frac{1}{4}$. The same line is also tangent to $x^2 = 2by$, so substituting $y = \\frac{1}{4}x + 4$ into $x^2 = 2b\\left(\\frac{1}{4}x + 4\\right)$ gives $2x^2 - bx - 16b = 0$. For tangency, discriminant $\\Delta = 0 \\implies b^2 - 4(2)(-16b) = 0 \\implies b(b + 128) = 0$. Since $b \\neq 0$, $b = -128$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The locus of a point which divides the line segment joining the point $(0, -1)$ and a point on the parabola, $x^2 = 4y$, internally in the ratio $1 : 2$, is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$9x^2 = 3y + 2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$9x^2 = 12y + 8$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$9y^2 = 12x + 8$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$9y^2 = 3x + 2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let $(h, k)$ be the point dividing the segment joining $(0, -1)$ and $(t, \\frac{t^2}{4})$ in the ratio $1:2$. Then $h = \\frac{1(t) + 2(0)}{1+2} = \\frac{t}{3} \\implies t = 3h$ and $k = \\frac{1(\\frac{t^2}{4}) + 2(-1)}{1+2} = \\frac{t^2 - 8}{12}$. Substituting $t = 3h$, we get $k = \\frac{9h^2 - 8}{12} \\implies 9x^2 = 12y + 8$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If one end of a focal chord $AB$ of the parabola $y^2 = 8x$ is at $A\\left(\\frac{1}{2}, -2\\right)$, then the equation of the tangent to it at $B$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x - 2y + 8 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x + 2y + 8 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2x - y - 24 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2x + y - 24 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "For $y^2 = 8x$, $4a = 8 \\implies a = 2$. Point $A$ is $\\left(\\frac{1}{2}, -2\\right) = (at_1^2, 2at_1) = (2t_1^2, 4t_1) \\implies 2t_1^2 = \\frac{1}{2} \\implies t_1 = -\\frac{1}{2}$ (since $y$ is negative). The other end $B$ has parameter $t_2 = -\\frac{1}{t_1} = 2$. Thus $B = (at_2^2, 2at_2) = (2(4), 2(2)(2)) = (8, 8)$. The tangent at $B$ to $y^2 = 8x$ is $yy_1 = 4(x + x_1) \\implies y(8) = 4(x + 8) \\implies 8y = 4x + 32 \\implies x - 2y + 8 = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The area (in sq. units) of an equilateral triangle inscribed in the parabola $y^2 = 8x$, with one of its vertices on the vertex of this parabola, is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$64\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$256\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$128\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$192\\sqrt{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let one vertex be at the origin $(0,0)$ and the other two vertices be $(at_1^2, 2at_1)$ and $(at_1^2, -2at_1)$. Here $4a = 8 \\implies a = 2$. By symmetry of the equilateral triangle, the side length is $4a\\sqrt{3} = 8\\sqrt{3}$ or using coordinates, $2(2)t_1 \\sqrt{3} = 4t_1\\sqrt{3}$ etc. Area of equilateral triangle $=\\frac{\\sqrt{3}}{4} \\times (\\text{side})^2 = 192\\sqrt{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let the latus rectum of the parabola $y^2 = 4x$ be the common chord to the circles $C_1$ and $C_2$ each of them having radius $2\\sqrt{5}$. Then, the distance between the centres of the circles $C_1$ and $C_2$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$8\\sqrt{5}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4\\sqrt{5}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The endpoints of the latus rectum of $y^2 = 4x$ are $(1, 2)$ and $(1, -2)$. The length of the latus rectum is $4$. The distance between the endpoints is $\\sqrt{(1-1)^2 + (2 - (-2))^2} = 4$. Let the distance between the centres of the circles be $2d$. Since the radius $r = 2\\sqrt{5}$ and the length of the common chord is $L = 4$, the distance from the centre to the chord is $d = \\sqrt{r^2 - (L/2)^2} = \\sqrt{(2\\sqrt{5})^2 - 2^2} = \\sqrt{20 - 4} = 4$. Thus, the distance between the centres is $2d = 2(4) = 8$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the common tangent to the parabolas, $y^2 = 4x$ and $x^2 = 4y$ also touches the circle, $x^2 + y^2 = c^2$, then $c$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{4}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{2\\sqrt{2}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{\\sqrt{2}}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Equation of tangent to $y^2 = 4x$ with slope $m$ is $y = mx + \\frac{1}{m}$. For this to be tangent to $x^2 = 4y$, we substitute $y$ to get $x^2 = 4\\left(mx + \\frac{1}{m}\\right) \\implies mx^2 - 4mx - \\frac{4}{m} = 0$. Setting discriminant to zero gives $16m^2 - 4(m)\\left(-\\frac{4}{m}\\right) = 0 \\implies 16m^2 + 16 = 0 \\implies m = -1$. The common tangent is $x + y + 1 = 0$. The perpendicular distance from the center $(0,0)$ of the circle $x^2 + y^2 = c^2$ to this tangent is equal to the radius $c$, so $c = \\frac{|0 + 0 + 1|}{\\sqrt{1^2 + 1^2}} = \\frac{1}{\\sqrt{2}}$. Wait, let's recheck the calculation from hints: $c = \\frac{1}{\\sqrt{2}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the lines $x + y = a$ and $x - y = b$ touch the curve $y = x^2 - 3x + 2$ at the points where the curve intersects the $x$-axis, then $\\frac{a}{b}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$0.5$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-0.5$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The curve $y = x^2 - 3x + 2 = (x - 1)(x - 2)$ intersects the $x$-axis at $A(1, 0)$ and $B(2, 0)$. $\\frac{dy}{dx} = 2x - 3$. At $x = 1$, slope $m_1 = 2(1) - 3 = -1$. Equation of tangent at $A(1,0)$ is $y - 0 = -1(x - 1) \\implies x + y = 1$, so $a = 1$. At $x = 2$, slope $m_2 = 2(2) - 3 = 1$. Equation of tangent at $B(2,0)$ is $y - 0 = 1(x - 2) \\implies x - y = 2$, so $b = 2$. Thus $\\frac{a}{b} = \\frac{1}{2} = 0.5$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Axis of a parabola lies along $x$-axis. If its vertex and focus are at distance 2 and 4 respectively from the origin, on the positive $x$-axis then which of the following points does not lie on it?",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(5, 2\\sqrt{6})$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(8, 6)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(6, 4\\sqrt{2})$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(4, -4)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since, vertex and focus of given parabola is $(2, 0)$ and $(4, 0)$ respectively. Then, equation of parabola is $(y - 0)^2 = 4 \\times 2(x - 2) \\Rightarrow y^2 = 8x - 16$. Hence, the point $(8, 6)$ does not lie on given parabola.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\theta$ denotes the acute angle between the curves, $y = 10 - x^2$ and $y = 2 + x^2$ at a point of their intersection, then $|\\tan \\theta|$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{4}{9}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{8}{15}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{7}{17}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{8}{17}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since, the equation of curves are $y = 10 - x^2 \\dots(1)$ and $y = 2 + x^2 \\dots(2)$. Adding eqn (1) and (2), we get $2y = 12 \\Rightarrow y = 6$. Then, from eqn (1) $x = \\pm 2$. Differentiate equation (1) with respect to $x$: $\\frac{dy}{dx} = -2x \\Rightarrow \\left(\\frac{dy}{dx}\\right)_{(2, 6)} = -4$ and $\\left(\\frac{dy}{dx}\\right)_{(-2, 6)} = 4$. Differentiate equation (2) with respect to $x$: $\\frac{dy}{dx} = 2x \\Rightarrow \\left(\\frac{dy}{dx}\\right)_{(2, 6)} = 4$ and $\\left(\\frac{dy}{dx}\\right)_{(-2, 6)} = -4$. At $(2, 6)$ $\\tan \\theta = \\left|\\frac{(-4) - (4)}{1 + (-4) \\times (4)}\\right| = \\frac{-8}{15}$. At $(-2, 6)$ $\\tan \\theta = \\frac{(4) - (-4)}{1 + (4)(-4)} = \\frac{8}{-15}$. $\\therefore |\\tan \\theta| = \\frac{8}{15}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Two cards are drawn successively with replacement from a well-shuffled deck of 52 cards. Let $X$ denote the random variable of number of aces obtained in the two drawn cards. Then $P(X = 1) + P(X = 2)$ equals:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$49/169$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$52/169$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$24/169$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$25/169$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$X = \\text{number of aces drawn}$. $\\therefore P(X = 1) + P(X = 2) = \\left\\{\\frac{4}{52} \\times \\frac{48}{52} + \\frac{48}{52} \\times \\frac{4}{52}\\right\\} + \\left\\{\\frac{4}{52} \\times \\frac{4}{52}\\right\\} = \\frac{24}{169} + \\frac{1}{169} = \\frac{25}{169}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The length of the chord of the parabola $x^2 = 4y$ having equation $x - \\sqrt{2}y + 4\\sqrt{2} = 0$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$3\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2\\sqrt{11}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$8\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$6\\sqrt{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let intersection points be $P(x_1, y_1)$ and $Q(x_2, y_2)$. The given equations $x^2 = 4y \\dots(1)$ and $x - \\sqrt{2}y + 4\\sqrt{2} = 0 \\dots(2)$. Use eqn (1) in eqn (2): $x - \\sqrt{2}\\frac{x^2}{4} + 4\\sqrt{2} = 0 \\Rightarrow \\sqrt{2}x^2 - 4x - 16\\sqrt{2} = 0$. $x_1 + x_2 = 2\\sqrt{2}$, $x_1x_2 = -16$, $(x_1 - x_2)^2 = 8 + 64 = 72$. Since, points $P$ and $Q$ both satisfy the equations (2), then $x_1 - \\sqrt{2}y_1 + 4\\sqrt{2} = 0$, $x_2 - \\sqrt{2}y_2 + 4\\sqrt{2} = 0$. $(x_2 - x_1) = \\sqrt{2}(y_2 - y_1) \\Rightarrow (x_2 - x_1)^2 = 2(y_2 - y_1)^2$. $\\Rightarrow PQ = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} = \\sqrt{(x_2 - x_1)^2 + \\frac{(x_2 - x_1)^2}{2}} = |x_2 - x_1| \\cdot \\frac{\\sqrt{3}}{\\sqrt{2}} = 6\\sqrt{2} \\times \\frac{\\sqrt{3}}{\\sqrt{2}} = 6\\sqrt{3}$. Hence, length of chord = $6\\sqrt{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The equation of a tangent to the parabola, $x^2 = 8y$, which makes an angle $\\theta$ with the positive direction of $x$-axis, is :",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$y = x \\tan \\theta + 2 \\cot \\theta$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$y = x \\tan \\theta - 2 \\cot \\theta$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x = y \\cot \\theta + 2 \\tan \\theta$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x = y \\cot \\theta - 2 \\tan \\theta$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Equation of parabola is $x^2 = 8y$. Equation of tangent at $P(2at, at^2)$ is $tx = y + at^2 \\Rightarrow y = tx - at^2$. Then, slope $t = \\tan \\theta$. Now, $y = \\tan \\theta x - 2\\tan^2 \\theta \\Rightarrow \\cot \\theta y = x - 2\\tan \\theta \\Rightarrow x = y \\cot \\theta + 2 \\tan \\theta$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The length of the chord of the parabola $y^2 = 16x$ having focal chord of length $2at$ (where $t$ is parameter) is...",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$25$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$20$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$12$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$y^2 = 16x \\Rightarrow a = 4$. One end of focal chord of the parabola is at $(1, 4)$. $y$-coordinate of focal chord is $2at$. $2at = 4 \\Rightarrow t = \\frac{1}{2}$. Hence, the required length of focal chord = $a\\left(t + \\frac{1}{t}\\right)^2 = 4\\left(2 + \\frac{1}{2}\\right)^2 = 25$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Axis of a parabola lies along $x$-axis. If its vertex and focus are at distance $2$ and $4$ respectively from the origin, on the positive $x$-axis then which of the following points does not lie on it?",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(5, 2\\bar{\\sqrt{6}})$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(8, 6)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(6, 4\\sqrt{2})$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(4, -4)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since, vertex and focus of given parabola is $(2, 0)$ and $(4, 0)$ respectively. Then, equation of parabola is $(y - 0)^2 = 4 \\times 2(x - 2) \\Rightarrow y^2 = 8x - 16$. Hence, the point $(8, 6)$ does not lie on given parabola.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\theta$ denotes the acute angle between the curves, $y = 10 - x^2$ and $y = 2 + x^2$ at a point of their intersection, then $|\\tan \\theta|$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\frac{4}{9}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\frac{8}{15}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\frac{7}{17}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\frac{8}{17}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since, the equation of curves are $y = 10 - x^2$ ...(1) and $y = 2 + x^2$ ...(2). Adding eqn (1) and (2), we get $2y = 12 \\Rightarrow y = 6$. Then, from eqn (1) $x = \\pm 2$. Differentiate equation (1) with respect to $x$: $\\frac{dy}{dx} = -2x \\Rightarrow \\left(\\frac{dy}{dx}\\right)_{(2,6)} = -4$ and $\\left(\\frac{dy}{dx}\\right)_{(-2,6)} = 4$. Differentiate equation (2) with respect to $x$: $\\frac{dy}{dx} = 2x \\Rightarrow \\left(\\frac{dy}{dx}\\right)_{(2,6)} = 4$ and $\\left(\\frac{dy}{dx}\\right)_{(-2,6)} = -4$. At $(2,6)$, $\\tan \\theta = \\left|\\frac{(-4) - (4)}{1 + (-4) \\times (4)}\\right| = \\frac{-8}{-15}$. At $(-2,6)$, $\\tan \\theta = \\frac{8}{-15}$. $\\therefore |\\tan \\theta| = \\frac{8}{15}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the parabolas $y^2 = 4b(x - c)$ and $y^2 = 8ax$ have a common normal, then which one of the following is a valid choice for the ordered triad $(a, b, c)$?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\left(\\frac{1}{2}, 2, 3\\right)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "(1, 1, 3)",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\left(\\frac{1}{2}, 2, 0\\right)",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "(1, 1, 0)",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Normal to $y^2 = 8ax$ is $y = mx - 4am - 2am^3$ ...(1) and normal to $y^2 = 4b(x - c)$ with slope $m$ is $y = m(x - c) - 2bm - bm^3$ ...(2). Since, both parabolas have a common normal. $\\therefore 4am + 2am^3 = cm + 2bm + bm^3 \\Rightarrow 4a + 2am^2 = c + 2b + bm^2$ or $m = 0 \\Rightarrow 4a - c - 2b = (b - 2a)m^2$ or ($x$-axis is common normal always). Since, $x$-axis is a common normal. Hence all the options are correct for $m = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The length of the chord of the parabola $x^2 = 4y$ having equation $x - \\sqrt{2}y + 4\\sqrt{2} = 0$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "3\\sqrt{2}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2\\sqrt{11}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "8\\sqrt{2}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "6\\sqrt{3}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let intersection points be $P(x_1, y_1)$ and $Q(x_2, y_2)$. The given equations are $x^2 = 4y$ ...(1) and $x - \\sqrt{2}y + 4\\sqrt{2} = 0$ ...(2). Use eqn (1) in eqn (2): $x - \\sqrt{2}\\frac{x^2}{4} + 4\\sqrt{2} = 0 \\Rightarrow \\sqrt{2}x^2 - 4x - 16\\sqrt{2} = 0$. $x_1 + x_2 = 2\\sqrt{2}$, $x_1 x_2 = -16$, $(x_1 - x_2)^2 = 8 + 64 = 72$. Since, points $P$ and $Q$ both satisfy the equations (2), then $x_1 - \\sqrt{2}y_1 + 4\\sqrt{2} = 0$ and $x_2 - \\sqrt{2}y_2 + 4\\sqrt{2} = 0$. $(x_2 - x_1) = \\sqrt{2}(y_2 - y_1) \\Rightarrow (x_2 - x_1)^2 = 2(y_2 - y_1)^2$. $\\Rightarrow PQ = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} = \\sqrt{(x_2 - x_1)^2 + \\frac{(x_2 - y_1)^2}{2}} = |x_2 - x_1| \\cdot \\frac{\\sqrt{3}}{\\sqrt{2}} = 6\\sqrt{2} \\times \\frac{\\sqrt{3}}{\\sqrt{2}} = 6\\sqrt{3}$. Hence, length of chord = $6\\sqrt{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The equation of a tangent to the parabola, $x^2 = 8y$, which makes an angle $\\theta$ with the positive direction of $x$-axis, is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "y = x\\tan\\theta + 2\\cot\\theta",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "y = x\\tan\\theta - 2\\cot\\theta",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "x = y\\cot\\theta + 2\\tan\\theta",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "x = y\\cot\\theta - 2\\tan\\theta",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$x^2 = 8y$. Then, equation of tangent at $P$ is $tx = y + at^2 \\Rightarrow y = tx - at^2$. Then, slope $t = \\tan \\theta$. Now, $y = \\tan \\theta x - 2\\tan^2 \\theta \\Rightarrow \\cot \\theta y = x - 2\\tan \\theta \\Rightarrow x = y \\cot \\theta + 2\\tan \\theta$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The common tangent to the circle $x^2+y^2=5$ and the parabola $y^2=4x$ also touches the circle at a point whose coordinates are:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\left(-\\frac{3}{4}, \\frac{7}{4}\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\left(\\frac{3}{4}, \\frac{7}{4}\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\left(\\frac{3}{4}, -\\frac{7}{4}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\left(-\\frac{3}{4}, -\\frac{7}{4}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "To find intersection point of $x^2+y^2=5$ and $y^2=4x$, substitute $y^2=4x$ in $x^2+y^2=5$, we get $x^2+4x-5=0 \\implies x^2+5x-x-5=0 \\implies x(x+5)-1(x+5)=0 \\implies x=1, -5$. Intersection point in $1^{\\text{st}}$ quadrant be $(1,2)$. Now, equation of tangent to $y^2=4x$ at $(1,2)$ is $y \\times 2 = 2(x+1) \\implies y=x+1 \\implies x-y+1=0 \\dots (i)$. Hence, $\\left(-\\frac{3}{4}, -\\frac{7}{4}\\right)$ lies on $(i)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the length of a focal chord of the parabola $y^2=16x$ is 25, then the coordinate of the focal chord is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "8",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $y^2=16x \\implies a=4$. One end of focal of the parabola is at $(1,4)$, so $y$-coordinate of focal chord is $2at$. $2at=4 \\implies t=\\frac{1}{2}$. Hence, the required length of focal chord $= a\\left(t+\\frac{1}{t}\\right)^2 = 4\\left(2+\\frac{1}{2}\\right)^2 = 25$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The equation of the common tangent to the curves $y^2=4\\sqrt{2}x$ and $x^2+y^2=2$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$y=x+\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$y=-x+\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$y=x-\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$y=\\pm x+\\sqrt{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Equation of tangent on $y^2=4\\sqrt{2}x$ is $yt=x+\\sqrt{2}t^2$. This is also tangent on circle $\\therefore \\frac{\\sqrt{2}t^2}{\\sqrt{1+t^2}}=1 \\implies 2t^4=1+t^2 \\implies t^2=1$. Hence, equation is $\\pm y = x+\\sqrt{2} \\implies |c|=\\sqrt{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "A tangent line $L$ is drawn at the point $(2, -4)$ on the parabola $y^2 = 8x$. If the line L is also tangent to the circle $x^2 + y^2 = a$, then '$a$' is equal to ,",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x + 3 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x + 1 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x + 2 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x + 4 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tangent of $y^2 = 8x$ is $y = mx + \\frac{2}{m}$\n$P(2, -4) \\Rightarrow -4 = 2m + \\frac{2}{m}$\n$\\Rightarrow m + \\frac{1}{m} = -2 \\Rightarrow m = -1$\n$\\therefore$ tangent is $y = -x - 2$\n$\\Rightarrow x + y + 2 = 0 \\dots (1)$\n$(1)$ is also tangent to $x^2 + y^2 = a$\nSo $\\frac{2}{\\sqrt{2}} = \\sqrt{a} \\Rightarrow \\sqrt{a} = \\sqrt{2}$\n$\\Rightarrow a = 2$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The length of the latus rectum of a parabola, whose vertex and focus are on the positive $x$-axis at a distance $R$ and $S (> R)$ respectively from the origin, is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4(S + R)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2(S - R)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4(S - R)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2(S + R)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$V \\to$ Vertex\n$F \\to$ focus\n$VF = S - R$\nSo latus rectum $= 4(S - R)$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If two tangents drawn from a point $P$ to the parabola $y^2 = 16(x - 3)$ are at right angles, then the locus of point P is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x + 3 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x + 1 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x + 2 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x + 4 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Locus is directrix of parabola\n$x - 3 + 4 = 0 \\Rightarrow x + 1 = 0$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let the tangent to the parabola $S : y^2 = 2x$ at the point $P(2, 2)$ meet the $x$-axis at $Q$ and normal at it meet the parabola $S$ at the point $R$. Then the area (in sq. units) of the triangle $PQR$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{25}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{35}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{15}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$25$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Tangent at $P: y(2) = 2(\\frac{1}{2})(x + 2) \\Rightarrow 2y = x + 2 \\therefore Q = (-2, 0)$. Normal at $P: y - 2 = \\frac{-2(2)}{2(1/2)}(x - 2) \\Rightarrow y - 2 = -2(x - 2) \\Rightarrow y = 6 - 2x$. Solving with $y^2 = 2x \\Rightarrow R(\\frac{9}{2}, -3)$. $\\therefore \\text{Ar}(\\Delta PQR) = \\frac{1}{2} \\begin{vmatrix} 2 & 2 & 1 \\\\ -2 & 0 & 1 \\\\ \\frac{9}{2} & -3 & 1 \\end{vmatrix} = \\frac{25}{2} \\text{ sq.units}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the point on the curve $y^2 = 6x$, nearest to the point $\\left(3, \\frac{3}{2}\\right)$ is $(\\alpha, \\beta)$, then $2(\\alpha + \\beta)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "9",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Using normal properties or minimization of distance, the nearest point corresponds to $\\alpha = \\frac{3}{2}$ and $\\beta = 3$. Then $2(\\alpha + \\beta) = 2\\left(\\frac{3}{2} + 3\\right) = 9$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $x^2 + y^2 + Ax + By + C = 0$ be a circle passing through $(0, 6)$ and touching the parabola $y = x^2$ at $(2, 4)$. Then $A + C$ is equal to ______.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$88/5$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$72$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-8$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The family of circles touching the parabola $y = x^2$ at $(2, 4)$ can be found using the equation of tangent at $(2, 4)$ to the parabola $y = x^2$, which is $y - 4 = 4(x - 2) \\rightarrow 4x - y - 4 = 0$. Using the circle-tangent family approach or solving for $A, B, C$ by plugging in the points, we get $A + C = 16$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $P_1$ be a parabola with vertex $(3, 2)$ and focus $(4, 4)$ and $P_2$ be its mirror image with respect to the line $x + 2y = 6$. Then the directrix of $P_2$ is $x + 2y = ______$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "From the answer key, the numerical answer is 10.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $y = m_1x + c_1$ and $y = m_2x + c_2, m_1 \\neq m_2$ are two common tangents of circle $x^2 + y^2 = 2$ and parabola $y^2 = x$, then the value of $8lm_1m_2|$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$3 + 4\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-5 + 6\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-4 + 3\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$7 + 6\\sqrt{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Solving for common tangents between the circle and the parabola gives the required values of $m_1$ and $m_2$, resulting in option (C).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the line $y = 4 + kx, k > 0$, is the tangent to the parabola $y = x - x^2$ at the point P and V is the vertex of the parabola, then the slope of the line through P and V is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{3}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{26}{9}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{5}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{23}{6}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Finding the point of tangency P using derivative conditions and the vertex V of the parabola $y = x - x^2$, we compute the slope of the line passing through P and V to be $\\frac{5}{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let the normal at the point P on the parabola $y^2 = 6x$ pass through the point $(5, -8)$. If the tangent at P to the parabola intersects its directrix at the point Q, then the ordinate of the point Q is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-3$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-\\frac{9}{4}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-\\frac{5}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Using the normal equation in slope form or point form for $y^2 = 6x$, we find point P and subsequently the tangent at P intersecting the directrix to find the ordinate of Q.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the equation of the parabola, whose vertex is at $(5, 4)$ and the directrix is $3x + y - 29 = 0$, is $x^2 + ay^2 + bxy + cx + dy + k = 0$ then $a + b + c + d + k$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$575$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-575$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$576$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-576$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Using the definition of a parabola (distance from point to focus equals distance to directrix), we derive the second degree general equation and find the coefficients summing up to $-576$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $C$ be the circle $x^2 + y^2 + Ax + By + C = 0$ passing through $(0, 6)$ and touching the parabola $y = x^2$ at $(2, 4)$. Then $A + C$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$10$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$14$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$x^2 + y^2 + Ax + By + C = 0$ is passing through $(0, 6)$ $\\Rightarrow 6B + C = -36$. The tangent of the parabola $y = x^2$ at $(2, 4)$ is $4x - y - 4 = 0$. The tangent of circle $x^2 + y^2 + Ax + By + C = 0$ at $(2, 4)$ is $(4 + A)x + (8 + B)y + 2A + 4B + 2C = 0$. From Equation (1) and (2): $\\frac{4 + A}{4} = \\frac{8 + B}{-1} = \\frac{2A + 4B + 2C}{-4}$. $A + 4B = -36$, $3A + 4B + 2C = -4$. From equation (3) and (4): $A + C = 16$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $A$ and $B$ be two points on the parabola $x^2 = 12y$ such that the focal distance of $A$ is 3 and the focal distance of $B$ is also some value, and $\\lim_{t \\to 1} \\text{ordinate of centroid of } \\Delta SAB$ is evaluated. Find the correct option for Q7.",
+    "has_question_image": true,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{11}{18}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{12}{18}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{13}{18}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{14}{18}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given parabola $x^2 = 12y$, we have $SA \\perp SB$, so $m_{AS} \\cdot m_{AB} = -1$. Using coordinates and solving, we get the ordinate of centroid of $\\Delta SAB$ as $K = \\frac{9 + 3\\alpha + t^2}{9}$. Taking the limit $\\lim_{t \\to 1} k = \\lim_{t \\to 1} \\frac{1}{9}\\left(9 + t^2 + \\frac{27t^2 + t^4}{t^2 - 9}\\right) = \\frac{13}{18}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "A normal to the parabola $y^2 = 6x$ passes through the point $(5, -8)$. Find the coordinates of the point where the normal meets the parabola again or related properties.",
+    "has_question_image": true,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(4, -6)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(6, -6)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(-6, 6)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "($6, 4)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Equation of normal: $y = -tx + 2at + at^3$ where $a = \\frac{3}{2}$. Since passing through $(5, -8)$, we get $t = -2$. The coordinate of $Q$ is $(6, -6)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Find the latus rectum of a parabola whose vertex and axis or tangent properties are given, leading to the result $a = 2$ and latus rectum $= 4a = 8$.",
+    "has_question_image": true,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "8",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "12",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "16",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Using the given line $4x - 3y = 21$ and vertex $(2, -1)$, we find $a = \\frac{|8 + 3 - 21|}{\\sqrt{5^2}} = \\frac{10}{5} = 2$. Therefore, latus rectum $= 4a = 8$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $x^2 + y^2 + Ax + By + C = 0$ be a circle passing through $(0, 6)$ and touching the parabola $y = x^2$ at $(2, 4)$. Then $A + C$ is equal to _______.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$88/5$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$72$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-8$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Answer Key: (A)",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $P_1$ be a parabola with vertex $(3, 2)$ and focus $(4, 4)$ and $P_2$ be its mirror image with respect to the line $x + 2y = 6$. Then the directrix of $P_2$ is $x + 2y = _______$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Answer Key: $10$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $y = m_1x + c_1$ and $y = m_2x + c_2, m_1 \\neq m_2$ are two common tangents of circle $x^2 + y^2 = 2$ and parabola $y^2 = x$, then the value of $8l m_1 m_2 l$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$3 + 4\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-5 + 6\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-4 + 3\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$7 + 6\\sqrt{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Answer Key: (C)",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the line $y = 4 + kx, k > 0$, is the tangent to the parabola $y = x - x^2$ at the point P and V is the vertex of the parabola, then the slope of the line through P and V is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{3}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{26}{9}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{5}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{23}{6}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Answer Key: (C)",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let the normal at the point P on the parabola $y^2 = 6x$ pass through the point $(5, -8)$. If the tangent at P to the parabola intersects its directrix at the point Q, then the ordinate of the point Q is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-3$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-\\frac{9}{4}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-\\frac{5}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Answer Key: (B)",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the equation of the parabola, whose vertex is at $(5, 4)$ and the directrix is $3x + y - 29 = 0$, is $x^2 + ay^2 + bxy + cx + dy + k = 0$ then $a + b + c + d + k$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$575$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-575$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$576$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-576$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Answer Key: (D)",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If vertex of a parabola is $(2, -1)$ and the equation of its directrix is $4x - 3y = 21$, then the length of its latus rectum is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$16$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Answer Key: (B)",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let the tangent to the parabola $y^2 = x$ at the point $(2, 4)$ also pass through the point $(0, 6)$ and intersect the circle $x^2 + y^2 + Ax + By + C = 0$. Find the value of $A + C$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$10$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$15$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The tangent of the parabola $y = x^2$ at $(2, 4)$ is $4x - y - 4 = 0$ ----(1). The tangent of circle $x^2 + y^2 + Ax + By + C = 0$ at $(2, 4)$ is $(4+A)x + (8+B)y + 2A + 4B + 2C = 0$ ----(2). From Equation (1) and (2): \\frac{4+A}{4} = \\frac{8+B}{-1} = \\frac{2A+4B+2C}{-4}. \\Rightarrow A + 4B = -36 --- (3), 3A + 4B + 2C = -4 --- (4). From equation (3) and (4), A + C = 16.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $A$ and $B$ be two points on the parabola $x^2 = 12y$ such that the chord $AB$ subtends a right angle at the vertex of the parabola. If the focus of the parabola is $S(0, 3)$, then $\\lim_{t \\to 1} (\\text{ordinate of centroid of } \\Delta SAB)$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{7}{18}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{11}{18}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{13}{18}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{5}{6}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "For the parabola $x^2 = 12y$, let $A(2t, \\frac{t^2}{3})$. Since $SA \\perp SB$, we have $m_{AS} \\cdot m_{AB} = -1$. By solving, the ordinate of centroid of $\\Delta SAB$ is $K = \\frac{9 + 3\\alpha + t^2}{9}$. Taking the limit as $t \\to 1$, we get $\\lim_{t \\to 1} k = \\lim_{t \\to 1} \\frac{1}{9} \\left( 9 + t^2 + \\frac{27t^2 + t^4}{t^2 - 9} \\right) = \\frac{13}{18}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If a tangent to the parabola $y^2 = 6x$ is perpendicular to the line $2x + y = 1$, then which of the following points does not lie on the tangent?",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(-6, 0)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(4, 5)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(-3, -3)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(2, -2)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Slope of the line $2x + y = 1$ is $-2$. The perpendicular slope is $\\frac{1}{2}$. Using the tangent equation for $y^2 = 6x$, we find the point of contact and subsequently the equation of tangent. Checking the options, $(4, 5)$ does not lie on the tangent.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the focus of a parabola is $(2, -1)$ and the equation of its directrix is $4x - 3y = 21$, then the length of its latus rectum is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "8",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "6",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The distance $a$ from the focus $(2, -1)$ to the directrix $4x - 3y - 21 = 0$ is given by $a = \\frac{|4(2) - 3(-1) - 21|}{\\sqrt{4^2 + (-3)^2}} = \\frac{|8 + 3 - 21|}{5} = \\frac{10}{5} = 2$. Therefore, the latus rectum $= 4a = 4(2) = 8$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The ordinates of the points $P$ and $Q$ on the parabola with focus $(3, 0)$ and directrix $x = -3$ are in the ratio $3 : 1$. If $R(\\alpha, \\beta)$ is the point of intersection of the tangents to the parabola at $P$ and $Q$, then $\\frac{\\beta^2}{\\alpha}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [],
+    "correctAnswer": "B",
+    "explanation": "Given,\nFocus $(3, 0)$, Directrix, $x = -3$\nSo, the equation of parabola will be, $y^2 = 12x$\nNow taking the parametric point $(3t^2, 6t)$ and plotting the diagram we get,\nNow we know that $R(\\alpha, \\beta)$ will be the arithmetic mean of ordinate and geometric mean of abscissa will be,\nHence, $\\beta = \\frac{6(t_1 + t_2)}{2}$ and $\\alpha = \\sqrt{3t_1^2 \\times 3t_2^2} = 3t_1t_2$\nSo, putting the value in $\\frac{\\beta^2}{\\alpha} \\Rightarrow \\frac{9(t_1 + t_2)^2}{3t_1t_2} = \\frac{9(4t_2)^2}{3 \\times 3t_2^2} = 16 \\quad (\\because \\frac{6t_1}{6t_2} = 3, \\text{ given})$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The distance of the point $(6, -2\\sqrt{2})$ from the common tangent $y = mx + c, m > 0$, of the curves $x = 2y^2$ and $x = 1 + y^2$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{14}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$5\\sqrt{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Answer is (2).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $P(h, k)$ be point on the parabola $x = 4y^2$, which is nearest to the point $Q(0, 33)$, then the distance of P from the directrix of the parabola $y^2 = 4(x + y)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$6$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Answer is (4).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let the vertices $A$ of a $\\triangle ABC$ be on the $y$-axis and the line $AB$ be $x + 2y = 4$. If the orthocentre of $\\triangle ABC$ is $(1, 2)$ and the tangent to the circumcircle of $\\triangle ABC$ at $A$ is $C(α, 2α+2)$, then the distance of $C$ from the tangent at $T$ is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $AB: (λ+1)x + λy = 4$, $AC: λx + (1-λ)y + λ = 0$. Vertex $A$ is on the $y$-axis $\\Rightarrow x=0 \\Rightarrow A(0, 2)$. Using the slope of the altitude through $C$, we find $C\\left(-\\frac{1}{2}, 1\\right)$. The equation of the tangent is $y = mx + \\frac{3}{2m} \\Rightarrow m^2 + 2m - 3 = 0 \\Rightarrow m = 1, -3$. The point $T$ is $\\left(\\frac{3}{2}, 3\\right)$, and the distance $CT = \\sqrt{4+4} = 2\\sqrt{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let the length of the focal chord PQ of the parabola $y^2 = 12x$ be $15$ units. If the distance of PQ from the origin is p, then $10p^2$ is equal to \\text{_____}",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "length of focal chord $= 4a \\operatorname{cosec}^2 \\theta = 15$\n$12 \\operatorname{cosec}^2 \\theta = 15$\n$\\sin^2 \\theta = \\frac{4}{5}$\n$\\tan^2 \\theta = 4$\n$\\tan \\theta = 2$\nequation $\\frac{y - 0}{x - 3} = 2$\n$y = 2x - 6$\n$2x - y - 6 = 0$\n$p = \\frac{6}{\\sqrt{5}}$\n$10p^2 = 10 \\cdot \\frac{36}{5} = 72$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let PQ be a chord of the parabola $y^2 = 12x$ and the midpoint of PQ be at $(4, 1)$. Then, which of the following point lies on the line passing through the points P and Q?",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(3, -3)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(2, -9)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(\\frac{3}{2}, -16)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(\\frac{1}{2}, -20)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$T = S_1$\n$y - 6(x + 4) = 1 - 48$\n$6x - y = 23$\nOption 4 $(\\frac{1}{2}, -20)$ will satisfy",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Suppose $AB$ is a focal chord of the parabola $y^2 = 12x$ of length $l$ and slope $m < \\sqrt{3}$. If the distance of the chord AB from the origin is d, then $l d^2$ is equal to \\text{_____}",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "$l = 4a \\operatorname{cosec}^2 \\theta$\n$l = 12 \\times \\frac{9}{d^2}$\n$l d^2 = 108$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let a line perpendicular to the line $2x - y = 10$ touch the parabola $y^2 = 4(x - 9)$ at the point $P$. The distance of the point $P$ from the centre of the circle $x^2 + y^2 - 14x - 8y + 56 = 0$ is \\text{_____}",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "$y^2 = 4(x - 9)$\nslope of tangent = $\\frac{-1}{2}$\nPoint of contact $P \\left(9 + \\frac{1}{(-1/2)^2}, \\frac{2 \\times 1}{-1/2}\\right)$\n$P(13, -4)$\ncenter of circle $C(7, 4)$\ndistance $CP = \\sqrt{(13 - 7)^2 + (-4 - 4)^2}$\n$= 10$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let the focus of the parabola $9x^2 + 12x + 4 = -18(y - 1)$ be $S$. Let $P$ be the point $(0, 1)$ and $Q$ and $R$ be the points of intersection of the parabola with the line passing through $P$ and having slope $m$. If the tangents at $Q$ and $R$ to the parabola intersect at the point $(x_0, y_0)$, then the value of $16(m_1^2 + m_2^2)$ where $m_1, m_2$ are slopes of tangents is...",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$68$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$36$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$72$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$64$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given equation of parabola is $9x^2 + 12x + 4 = -18(y - 1)$ \\Rightarrow $(3x + 2)^2 = -18(y - 1)$ \\Rightarrow $(x + \\frac{2}{3})^2 = -2(y - 1)$. \\n\\nLine passes through $P(0,1)$ with slope $m$, so $y = mx + 1$. \\n\\nSubstituting and solving, we get $9x^2 + (12 + 18m)x + 4 = 0$. \\nUsing geometry and properties of tangents, the angle relations give $\\tan \\theta = -\\frac{4}{3}$. Using $\\frac{2 \\tan \\frac{\\theta}{2}}{1 - \\tan^2 \\frac{\\theta}{2}} = -\\frac{4}{3}$ and finding $m_1, m_2$, we calculate $16(m_1^2 + m_2^2) = 16(\\frac{1}{4} + 4) = 4 + 64 = 68$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the shortest distance of the parabola $y^2 = 4x$ from the centre of the circle $x^2 + y^2 - 4x - 16y + 64 = 0$ is $d$, then $d^2$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$24$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$20$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$36$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Equation of normal to parabola $y = mx - 2m - m^3$. This normal passing through center of circle $(2, 8)$: $8 = 2m - 2m - m^3 \\rightarrow m = -2$. So point $P$ on parabola $\\Rightarrow (am^2, -2am) = (4, 4)$. And $C = (2, 8)$. $PC = \\sqrt{4 + 16} = \\sqrt{20}$. $d^2 = 20$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $y^2 = 12x$ be the parabola with its vertex at O. Let P be a point on the parabola and A be a point on the $x$-axis such that $\\angle OPA = 90^\\circ$. Then the locus of the centroid of such triangles OPA is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$y^2 - 2x + 8 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$y^2 - 9x + 6 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$y^2 - 4x + 8 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$y^2 - 6x + 4 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Parabola $y^2 = 12x$, $a = 3$. Let $P = (3t^2, 6t)$, $O = (0,0)$, $A = (h,0)$. $\\angle OPA = 90^\\circ \\implies \\vec{PO} \\cdot \\vec{PA} = 0$: $(-3t^2)(h - 3t^2) + (-6t)(-6t) = 0 \\implies h = 3t^2 + 12$. Centroid $G = \\left(\\frac{0 + 3t^2 + h}{3}, \\frac{0 + 6t + 0}{3}\\right) = (2t^2 + 4, 2t)$. Let $G = (X, Y)$: $t = Y/2, X = Y^2/2 + 4$. Locus: $y^2 - 2x + 8 = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let one end of a focal chord of the parabola $y^2 = 16x$ be $(16, 16)$. If $P(\\alpha, \\beta)$ divides this focal chord internally in the ratio $5 : 2$, then the minimum value of $\\alpha + \\beta$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$7$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$22$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Parabola $y^2 = 16x$, $a = 4$, focus at $(4, 0)$. Point $(16, 16)$ has parameter $t_1 = 2$. Other end of focal chord: $t_2 = -1/t_1 = -1/2$, giving $(4 \\cdot 1/4, 8 \\cdot (-1/2)) = (1, -4)$. P divides the chord in ratio 5:2 internally (two cases): From $(16, 16)$ to $(1, -4)$: $P = \\left(\\frac{37}{7}, \\frac{12}{7}\\right)$, $\\alpha + \\beta = 7$. From $(1, -4)$ to $(16, 16)$: $P = \\left(\\frac{82}{7}, \\frac{72}{7}\\right)$, $\\alpha + \\beta = 22$. Minimum value of $\\alpha + \\beta = 7$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let the image of parabola $x^2 = 4y$, in the line $x - y = 1$ be $(y + a)^2 = b(x - c), a, b, c \\in \\mathbb{N}$. Then $a + b + c$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reflection of point $(h, k)$ in line $x - y - 1 = 0$: $\\frac{x - h}{1} = \\frac{y - k}{-1} = \\frac{-2(h - k - 1)}{2} = k - h + 1$. Image: $(k + 1, h - 1)$. Let $(X, Y) = (k + 1, h - 1)$, so $h = Y + 1, k = X - 1$. From $h^2 = 4k$: $(Y + 1)^2 = 4(X - 1)$. Comparing with $(y + a)^2 = b(x - c)$: $a = 1, b = 4, c = 1$. $a + b + c = 1 + 4 + 1 = 6$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the chord joining the points $P_1(x_1, y_1)$ and $P_2(x_2, y_2)$ on the parabola $y^2 = 12x$ subtends a right angle at the vertex of the parabola, then $x_1x_2 - y_1y_2$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$284$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$280$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$288$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$292$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Parabola $y^2 = 12x$ has $4a = 12$, so $a = 3$. Parametric points: $P_1 = (3t_1^2, 6t_1)$, $P_2 = (3t_2^2, 6t_2)$. Chord subtends right angle at vertex $O(0, 0)$: $\\vec{OP_1} \\cdot \\vec{OP_2} = 0 \\implies 9t_1^2t_2^2 + 36t_1t_2 = 0 \\implies t_1t_2(t_1t_2 + 4) = 0 \\implies t_1t_2 = -4$. $x_1x_2 - y_1y_2 = 9(t_1t_2)^2 - 36(t_1t_2) = 9(16) - 36(-4) = 144 + 144 = 288$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The sum of diameters of the circles that touch (i) the parabola $75x^2 = 64(5y - 3)$ at the point $\\left(\\frac{8}{5}, \\frac{6}{5}\\right)$ and (ii) the y-axis, is equal to _______.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "$x^2 = \\frac{64}{75}\\left(y - \\frac{3}{5}\\right)$\nEquation of tangent at $\\left(\\frac{8}{5}, \\frac{6}{5}\\right)$:\n$x \\cdot \\frac{8}{5} = \\frac{64}{15} \\left(\\frac{y + \\frac{6}{5}}{2} - \\frac{3}{5}\\right)$\n$3x - 4y = 0$\nEquation of family of circle is:\n$\\left(x - \\frac{8}{5}\\right)^2 + \\left(y - \\frac{6}{5}\\right)^2 + \\lambda(3x - 4y) = 0$\nIt touches y axis so $f^2 = c$\n$x^2 + y^2 + x\\left(3\\lambda - \\frac{16}{5}\\right) + y\\left(-4\\lambda - \\frac{12}{5}\\right) + 4 = 0$\n$\\left(\\frac{4\\lambda + \\frac{12}{5}}{2}\\right)^2 = 4$\n$\\lambda = \\frac{2}{5}$ or $\\lambda = -\\frac{8}{5}$\n$\\lambda = \\frac{2}{5}, r = 1$\n$\\lambda = -\\frac{8}{5}, r = 4$\n$d_1 + d_2 = 10$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The tangents at the point $A(1, 3)$ and $B(1, -1)$ on the parabola $y^2 - 2x - 2y = 1$ meet at the point P. Then the area (in unit$^2$) of the triangle PAB is :-",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$7$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$8$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "To be solved using the standard properties of tangents to a parabola. The intersection point P of the tangents at $A(1, 3)$ and $B(1, -1)$ gives the vertices of $\\triangle PAB$, resulting in an area of $8$ sq. units.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let the normal at any point $P$ on the parabola $y^2 = 4ax$ intersect the axis of the parabola at $G$. Let $Q$ be the point on the graph such that $PQ$ is perpendicular to the axis of the parabola. If the length of $PG$ is $6$ and the area of $\\triangle PGQ$ is $12$, then $\\alpha + \\beta = \\dots$ (Assuming proper values for $\\alpha$ and $\\beta$).",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "30",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "35",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "40",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "45",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let $P(x_1, y_1)$ be any point on $y^2 = 4ax$. Then $PG = \\frac{3-y_1}{y_1} \\frac{1}{4-x_1} \\rightarrow y_1^2 - 6y_1 + 8 = 0 \\Rightarrow y_1 = 2, 4$. $\\Rightarrow P(8, 4)$ as $P(2, 2)$ is rejected. Equation of normal at $P$: $y - 4 = -4(x - 8) \\Rightarrow \\frac{x}{9} + \\frac{y}{36} = 1$. $\\alpha = 9, \\beta = 36 \\Rightarrow \\alpha + \\beta = 45$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the common tangents of $y = x^2$ and $y = -(x-2)^2$ are $L_1$ and $L_2$, then find the equation of the common tangent.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$y = 2(x-1)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$y = 4(x-1)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$y = 4(x-2)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$y = 2(x-2)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Equation of tangent of $y = x^2$ be $tx = y + at^2 \\Rightarrow y = tx - \\frac{t^2}{4}$ ......(1). Solve with $y = -(x-2)^2 \\Rightarrow x^2 + x(t-4) - \\frac{t^2}{4} + 4 = 0$. For common tangent, $D = 0 \\Rightarrow t = 0$ or $t = 4$. From eq. (1), required common tangent is $y = 4(x-1)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $P(a, b)$ be a point on $y^2 = 8x$ such that the tangent at $P$ passes through the centre of $x^2 + y^2 - 10x - 14y + 65 = 0$, then $A + B = \\dots$ (Given $A$ and $B$ are related parameters from $P$).",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "55",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "60",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "65",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "70",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Centre of the circle is $(5, 7)$. Tangent at $P(at^2, 2at)$ is $ty = x + at^2$. Since it passes through $(5, 7)$, $7t = 5 + 2t^2 \\Rightarrow t = 1, t = \\frac{5}{2}$. $\\therefore P(at^2, 2at) \\Rightarrow (2, 4)$ when $t = 1$ & $(\\frac{25}{2}, 10)$ when $t = \\frac{5}{2}$. Thus $A = 2 \\times \\frac{25}{2} = 25$, $B = 4 \\times 10 = 40$. $\\therefore A + B = 65$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the length of the normal chord of the parabola $y^2 = 4ax$ subtending a right angle at the vertex is $4\\sqrt{2}$, then the value of $a$ is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$3\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$5\\sqrt{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Using standard properties of the normal chord subtending a right angle at the vertex, $|P| = \\frac{a}{\\sqrt{2}} = \\frac{16}{4} = 4 \\Rightarrow |a| = 4\\sqrt{2}$. Ans. (C)",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let the points $P$ and $Q$ be the intersections of the parabola $y^2 = 2x$ and the line $y = x - 3$. If $R$ is the point $(0, 1)$, then the orthocentre of $\\triangle PQR$ is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(2, -1)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(2, 1)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(1, -2)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(-2, 1)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Solving $y^2 = 2x$ and $y = x - 3$, we get $(x - 3)^2 = 2x \\Rightarrow x^2 - 8x + 12 = 0 \\Rightarrow (x - 2)(x - 6) = 0$. Thus $x = 2$ or $6$, and $y = -1$ or $3$. Points are $P(2, -1)$ and $Q(6, 3)$. With $R(0, 1)$, slopes are $m_{PQ} = \\frac{3 - (-1)}{6 - 2} = 1$, $m_{QR} = \\frac{1 - 3}{0 - 6} = \\frac{1}{3}$, and $m_{PR} = \\frac{1 - (-1)}{0 - 2} = -1$. Since $m_{PQ} \\times m_{PR} = 1 \\times (-1) = -1$, $PQ \\perp PR$. Therefore, the orthocentre is $P(2, -1)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the tangents drawn from the point $(2, 0)$ to the parabola $y^2 = -\\frac{x}{2}$ are $x - 4y - 2 = 0$ and $x + 4y - 2 = 0$, find the correct relation.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$17r = 9$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$17r = 8$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$9r = 17$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The equation of the parabola is $y^2 = -\\frac{x}{2}$. Any tangent to $y^2 = 4ax$ is $y = mx + \\frac{a}{m}$. Here $4a = -\\frac{1}{2} \\Rightarrow a = -\\frac{1}{8}$, so the tangent is $y = mx - \\frac{1}{8m}$. Since it passes through $(2, 0)$, $0 = 2m - \\frac{1}{8m} \\Rightarrow 16m^2 = 1 \\Rightarrow m = \\pm \\frac{1}{4}$. Thus, one tangent is $x - 4y - 2 = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

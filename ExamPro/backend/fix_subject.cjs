@@ -1,0 +1,1 @@
+const mongoose = require('mongoose'); mongoose.connect('mongodb://localhost:27017/exampro').then(async () => { const result = await mongoose.connection.db.collection('questions').updateMany({ subject: 'Maths' }, { $set: { subject: 'Mathematics' } }); console.log('Updated DB:', result); mongoose.disconnect(); });

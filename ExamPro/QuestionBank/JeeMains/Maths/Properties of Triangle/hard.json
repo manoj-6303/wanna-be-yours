@@ -1,0 +1,410 @@
+[
+  {
+    "difficulty": "Hard",
+    "question": "In a triangle, the sum of lengths of two sides is $x$ and the product of the lengths of the same two sides is $y$. If $x^2 - c^2 = y$, where $c$ is the length of the third side of the triangle, then the circumradius of the triangle is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{3}{2} y$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{c}{\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{c}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{y}{\\sqrt{3}}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let two sides of triangle are $a$ and $b$.\n$a + b = x$\n$ab = y$\n$x^2 - c^2 = y \\Rightarrow (a+b)^2 - c^2 = ab$\n$\\Rightarrow (a+b-c)(a+b+c) = ab$\n$\\Rightarrow 2(s-c)(2s) = ab$\n$\\Rightarrow 4s(s-c) = ab$\n$\\Rightarrow \\frac{s(s-c)}{ab} = \\frac{1}{4}$\n$\\Rightarrow \\cos^2 \\frac{c}{2} = \\frac{1}{4}$\n$\\Rightarrow \\cos c = -\\frac{1}{2} \\Rightarrow c = 120^\\circ$\nArea of triangle is $\\Delta = \\frac{1}{2} ab \\sin(120^\\circ) = \\frac{\\sqrt{3}}{4} ab$\nWe know $R = \\frac{abc}{4\\Delta}$\n$\\Rightarrow R = \\frac{abc}{\\sqrt{3} ab} = \\frac{c}{\\sqrt{3}}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Properties of Triangle",
+    "chapter": "Properties of Triangle",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Given $\\frac{b+c}{11} = \\frac{c+a}{12} = \\frac{a+b}{13}$ for a $\\Delta ABC$ with usual notation. If $\\frac{\\cos A}{\\alpha} = \\frac{\\cos B}{\\beta} = \\frac{\\cos C}{\\gamma}$, then the ordered triad $(\\alpha, \\beta, \\gamma)$ has a value :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(7, 19, 25)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(3, 4, 5)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(5, 12, 13)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(19, 7, 25)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let $\\frac{b+c}{11} = \\frac{c+a}{12} = \\frac{a+b}{13} = k$ (Say).\n$\\Rightarrow b+c = 11k, c+a = 12k, a+b = 13k$\n$\\Rightarrow a+b+c = 18k$\n$\\Rightarrow a = 7k, b = 6k$ and $c = 5k$\n$\\cos A = \\frac{36k^2 + 25k^2 - 49k^2}{2 \\cdot 30k^2} = \\frac{1}{5}$\nand $\\cos B = \\frac{49k^2 + 25k^2 - 36k^2}{2 \\cdot 35k^2} = \\frac{19}{35}$\nand $\\cos C = \\frac{49k^2 + 36k^2 - 25k^2}{2 \\cdot 42k^2} = \\frac{5}{7}$\n$\\Rightarrow \\cos A : \\cos B : \\cos C = 7 : 19 : 25$\n$\\Rightarrow \\frac{\\cos A}{7} = \\frac{\\cos B}{19} = \\frac{\\cos C}{25}$\nHence, required ordered triplet is $(7, 19, 25)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Properties of Triangle",
+    "chapter": "Properties of Triangle",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the lengths of the sides of a triangle are in A.P. and the greatest angle is double the smallest, then a ratio of lengths of the sides of this triangle is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$5 : 9 : 13$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4 : 5 : 6$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3 : 4 : 5$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$5 : 6 : 7$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let the sides of triangle are $a > b > c$ where given $A = 2C$\n$A + B + C = \\pi$ and $A = 2C \\Rightarrow B = \\pi - 3C$\n$a, b, c$ are in A.P. $\\Rightarrow a + c = 2b$\n$\\Rightarrow \\sin A + \\sin C = 2 \\sin B$\n$\\Rightarrow \\sin A = \\sin(2C)$ and $\\sin B = \\sin 3C$\nFrom above, $\\sin 2C + \\sin C = 2 \\sin 3C$\n$\\Rightarrow (2 \\cos C + 1) \\sin C = 2 \\sin C (3 - 4 \\sin^2 C)$\n$\\Rightarrow 2 \\cos C + 1 = 6 - 8(1 - \\cos^2 C)$\n$\\Rightarrow 8 \\cos^2 C - 2 \\cos C - 3 = 0$\n$\\Rightarrow \\cos C = \\frac{3}{4}$ or $\\cos C = -\\frac{1}{2}$\n$C$ is acute angle $\\Rightarrow \\cos C = \\frac{3}{4} \\Rightarrow \\sin C = \\frac{\\sqrt{7}}{4}$\nand $\\sin A = 2 \\sin C \\cos C = 2 \\times \\frac{\\sqrt{7}}{4} \\times \\frac{3}{4} = \\frac{3\\sqrt{7}}{8}$\n$\\sin B = \\frac{3\\sqrt{7}}{4} - \\frac{4\\sqrt{7}}{4} \\times \\frac{7}{16} = \\frac{5\\sqrt{7}}{16}$\n$\\Rightarrow \\sin A : \\sin B : \\sin C :: a : b : c$ is $6 : 5 : 4$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Properties of Triangle",
+    "chapter": "Properties of Triangle",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "In a triangle, the sum of lengths of two sides is $x$ and the product of the lengths of the same two sides is $y$. If $x^2 - c^2 = y$, where $c$ is the length of the third side of the triangle, then the circumradius of the triangle is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{3}{2} y$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{c}{\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{c}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{y}{\\sqrt{3}}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let two sides of triangle are $a$ and $b$. $a+b=x$, $ab=y$. $x^2 - c^2 = y \\Rightarrow (a+b)^2 - c^2 = ab \\Rightarrow (a+b-c)(a+b+c) = ab \\Rightarrow 2(s-c)(2s) = ab \\Rightarrow 4s(s-c) = ab \\Rightarrow \\frac{s(s-c)}{ab} = \\frac{1}{4} \\Rightarrow \\cos^2 \\frac{c}{2} = \\frac{1}{4} \\Rightarrow \\cos c = -\\frac{1}{2} \\Rightarrow c = 120^\\circ$. Area of triangle is $\\Delta = \\frac{1}{2} ab (\\sin 120^\\circ) = \\frac{\\sqrt{3}}{4} ab$. We know $R = \\frac{abc}{4\\Delta} = \\frac{abc}{4(\\frac{\\sqrt{3}}{4}ab)} = \\frac{c}{\\sqrt{3}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Properties of Triangle",
+    "chapter": "Properties of Triangle",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Given $\\frac{b+c}{11} = \\frac{c+a}{12} = \\frac{a+b}{13}$ for a $\\Delta ABC$ with usual notation. If $\\frac{\\cos A}{\\alpha} = \\frac{\\cos B}{\\beta} = \\frac{\\cos C}{\\gamma}$, then the ordered triad $(\\alpha, \\beta, \\gamma)$ has a value :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(7, 19, 25)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(3, 4, 5)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(5, 12, 13)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(19, 7, 25)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let $\\frac{b+c}{11} = \\frac{c+a}{12} = \\frac{a+b}{13} = k$. $\\therefore b+c=11k, c+a=12k, a+b=13k$. Adding them gives $a+b+c = 18k$. Thus $a=7k, b=6k, c=5k$. Then $\\cos A = \\frac{36k^2+25k^2-49k^2}{2 \\cdot 6k \\cdot 5k} = \\frac{1}{5}$, $\\cos B = \\frac{49k^2+25k^2-36k^2}{2 \\cdot 7k \\cdot 5k} = \\frac{19}{35}$, $\\cos C = \\frac{49k^2+36k^2-25k^2}{2 \\cdot 7k \\cdot 6k} = \\frac{5}{7}$. Therefore, $\\cos A : \\cos B : \\cos C = 7 : 19 : 25$. Hence, the required ordered triad is $(7, 19, 25)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Properties of Triangle",
+    "chapter": "Properties of Triangle",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the lengths of the sides of a triangle are in A.P. and the greatest angle is double the smallest, then a ratio of lengths of the sides of this triangle is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$5:9:13$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4:5:6$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3:4:5$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$5:6:7$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let the sides of triangle be $a > b > c$. Given $A = 2C$. Since $A+B+C = \\pi$ and $A = 2C$, $B = \\pi - 3C$. Since $a, b, c$ are in A.P., $a+c = 2b$. Using sine rule, $\\sin A + \\sin C = 2 \\sin B \\Rightarrow \\sin A = \\sin(2C)$ and $\\sin B = \\sin 3C$. Solving this leads to $\\cos C = \\frac{3}{4}$ or $-\\frac{1}{2}$. Since $C$ is acute, $\\cos C = \\frac{3}{4} \\Rightarrow \\sin C = \\frac{\\sqrt{7}}{4}$. Then $\\sin A = 2 \\sin C \\cos C = \\frac{3\\sqrt{7}}{8}$, and $\\sin B = \\frac{5\\sqrt{7}}{16}$. Thus $\\sin A : \\sin B : \\sin C :: a : b : c = 6 : 5 : 4$ or $4 : 5 : 6$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Properties of Triangle",
+    "chapter": "Properties of Triangle",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If in a triangle ABC, $AB = 5$ units, $\\angle B = \\cos^{-1}\\left(\\frac{3}{5}\\right)$ and radius of circumcircle of $\\Delta ABC$ is $5$ units, then the area (in sq. units) of $\\Delta ABC$ is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$10 + 6\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$8 + 2\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$6 + 8\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4 + 2\\sqrt{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "As $\\cos B = \\frac{3}{5}$, $\\Rightarrow B = 53^\\circ$. As, $R = 5 \\Rightarrow \\frac{c}{\\sin c} = 2R \\Rightarrow \\frac{5}{10} = \\sin c \\Rightarrow C = 30^\\circ$. Now, $\\frac{b}{\\sin B} = 2R \\Rightarrow b = 2(5)\\left(\\frac{4}{5}\\right) = 8$. Now, by cosine formula $\\cos B = \\frac{a^2+c^2-b^2}{2ac} \\Rightarrow \\frac{3}{5} = \\frac{a^2+25-64}{2(5)a} \\Rightarrow a^2 - 6a - 3 = 0$. $\\therefore a = \\frac{6 \\pm \\sqrt{192}}{2} = \\frac{6 \\pm 8\\sqrt{3}}{2} \\Rightarrow 3 + 4\\sqrt{3}$ (Reject $a = 3 - 4\\sqrt{3}$). Now, $\\Delta = \\frac{abc}{4R} = \\frac{(3+4\\sqrt{3})(8)(5)}{4(5)} = 2(3+4\\sqrt{3}) \\Rightarrow \\Delta = (6 + 8\\sqrt{3}) \\Rightarrow \\text{Option (3) is correct.}",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Properties of Triangle",
+    "chapter": "Properties of Triangle",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let in a right angled triangle, the smallest angle be $\\theta$. If a triangle formed by taking the reciprocal of its sides is also a right angled triangle, then $\\sin\\theta$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\sqrt{5}+1}{4}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\sqrt{5}-1}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\sqrt{2}-1}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{\\sqrt{5}-1}{4}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$\\angle A = \\theta$, $\\angle B = 90 - \\theta$, $a = \\text{smallest side}$. $c^2 = a^2 + b^2$. $\\frac{1}{a^2} = \\frac{1}{b^2} + \\frac{1}{c^2}$. $\\frac{b^2 c^2}{a^2} = b^2 + c^2$. Use $a = 2R\\sin A = 2R\\sin\\theta$, $b = 2R\\sin B = 2R\\sin(90 - \\theta) = 2R\\cos\\theta$, $c = 2R\\sin C = 2\\sin 90^\\circ = 2R$. $\\frac{4R^2\\cos^2\\theta}{4R^2\\sin^2\\theta} = 4R^2\\cos^2\\theta + 4R^2$. $\\cos^2\\theta = \\sin^2\\theta\\cos^2\\theta + \\sin^2\\theta$. $1 - \\sin^2\\theta = \\sin^2\\theta(1 - \\sin^2\\theta) + \\sin^2\\theta$. $\\sin^2\\theta = \\frac{3-\\sqrt{5}}{2} \\Rightarrow \\sin\\theta = \\frac{\\sqrt{5}-1}{2}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Properties of Triangle",
+    "chapter": "Properties of Triangle",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "In a triangle $ABC$, if $\\cos A + 2\\cos B + \\cos C = 2$ and the lengths of the sides opposite to the angles $A$ and $C$ are $3$ and $7$ respectively, then $\\cos A - \\cos C$ is equal to \\n [2023 (12 Apr Shift 1)]",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{9}{7}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{10}{7}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{5}{7}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{3}{7}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given, $AB = 7$, $BC = 3$ $\\Rightarrow c = 7, a = 3$. Apply cosine rule in the given equation $\\cos A + 2\\cos B + \\cos C = 2$, we get $\\left(\\frac{b^2+c^2-a^2}{2bc}\\right) + 2\\left(\\frac{c^2+a^2-b^2}{2ac}\\right) + \\left(\\frac{a^2+b^2-c^2}{2ab}\\right) = 2$ $\\Rightarrow \\left(\\frac{b^2+49-9}{14b}\\right) + \\left(\\frac{49+9-b^2}{21}\\right) + \\left(\\frac{9+b^2-49}{6b}\\right) = 2$ $\\Rightarrow \\left(\\frac{b^2+40}{14b}\\right) + \\left(\\frac{58-b^2}{21}\\right) + \\left(\\frac{b^2-40}{6b}\\right) = 2$ $\\Rightarrow b^3 - 5b^2 - 16b + 80 = 0$ $\\Rightarrow (b - 4)(b + 4)(b - 5) = 0$ $\\Rightarrow b = -4, 4, 5$. But $b \\neq -4$ Also, if $b = 4$ triangle cannot be constructed. That means $b = 5$. $\\Rightarrow \\cos A - \\cos C = \\left(\\frac{b^2+c^2-a^2}{2bc}\\right) - \\left(\\frac{a^2+b^2-c^2}{2ab}\\right) = \\left(\\frac{5^2+7^2-3^2}{2(5\\times 7)}\\right) - \\left(\\frac{3^2+5^2-7^2}{2(3\\times 5)}\\right) = \\left(\\frac{65}{70}\\right) - \\left(\\frac{-15}{30}\\right) = \\frac{195+105}{210} = \\frac{300}{210} \\Rightarrow \\cos A - \\cos C = \\frac{10}{7}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Properties of Triangle",
+    "chapter": "Properties of Triangle",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the plane $x + 3y - 2z + 6 = 0$ meet the co-ordinate axes at the points $A, B, C$. If the orthocenter of the triangle $ABC$ is $(\\alpha, \\beta, \\frac{6}{7})$, then $98(\\alpha + \\beta)^2$ is equal to \\text{_______}. \\n [2023 (12 Apr Shift 1)]",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Given, The plane $x + 3y - 2z + 6 = 0$ meet the co-ordinate axes at the points $A, B, C$. So, $A(-6, 0, 0), B(0, -2, 0) \\text{ & } C(0, 0, 3)$ And the orthocenter of the triangle $ABC$ is $(\\alpha, \\beta, \\frac{6}{7})$. We know that, circumcentre of triangle is point of intersection of perpendicular bisectors, So, plotting the diagram we get, $O$ to midpoint of $BC \\perp BC$ $\\Rightarrow (x - 0)\\times 0 + (y + 1)\\times 2 + \\left(z - \\frac{3}{2}\\right)\\times 3 = 0 \\Rightarrow 4y + 6z - 5 = 0 \\dots (1)$. Similarly, for side $AC$ we get, $4x + 2z + 9 = 0 \\dots (2)$. Similarly, for side $AB$ we get, $3x - y + 8 = 0 \\dots (3)$. Now from equation (1), (2) & (3) we get, $x = \\frac{-9}{4} - \\frac{z}{2}, y = \\frac{5}{4} - \\frac{3z}{2}, z = z$. Now using the relation between centroid, circumcentre and orthocentre, we get $G = \\left(\\frac{\\alpha-\\frac{9}{2}-z}{3}, \\frac{\\beta+\\frac{5}{2}-3z}{3}, \\frac{\\frac{6}{7}+2z}{3}\\right) = \\left(-2, \\frac{-2}{3}, 1\\right)$. Now on comparing both side we get, $\\Rightarrow z = \\frac{15}{14}, \\alpha = -\\frac{3}{7}, \\beta = -\\frac{9}{7}$. $\\Rightarrow 98(\\alpha + \\beta)^2 = 98 \\times \\frac{144}{49} = 288$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Properties of Triangle",
+    "chapter": "Properties of Triangle",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let for a triangle $ABC$ \\n $\\overrightarrow{AB} = -2\\hat{i} + \\hat{j} + 3\\hat{k}$ \\n $\\overrightarrow{CB} = \\alpha\\hat{i} + \\beta\\hat{j} + \\gamma\\hat{k}$ \\n $\\overrightarrow{CA} = 4\\hat{i} + 3\\hat{j} + \\delta\\hat{k}$ \\n If $\\delta > 0$ and the area of the triangle $ABC$ is $5\\sqrt{6}$ then $\\overrightarrow{CB}\\cdot\\overrightarrow{CA}$ is equal to \\n [2023 (13 Apr Shift 2)]",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$60$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$54$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$108$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$120$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given, A triangle $ABC$ $\\overrightarrow{AB} = -2\\hat{i} + \\hat{j} + 3\\hat{k}$ $\\overrightarrow{CB} = \\alpha\\hat{i} + \\beta\\hat{j} + \\gamma\\hat{k}$ $\\overrightarrow{CA} = 4\\hat{i} + 3\\hat{j} + \\delta\\hat{k}$. Now from triangle law of addition we get, $\\overrightarrow{CA} + \\overrightarrow{AB} = \\overrightarrow{CB}$ $\\Rightarrow 4\\hat{i} + 3\\hat{j} + \\delta\\hat{k} + (-2\\hat{i} + \\hat{j} + 3\\hat{k}) = \\alpha\\hat{i} + \\beta\\hat{j} + \\gamma\\hat{k}$ $\\Rightarrow 2\\hat{i} + 4\\hat{j} + (\\delta + 3)\\hat{k} = \\alpha\\hat{i} + \\beta\\hat{j} + \\gamma\\hat{k}$. Now on comparing both side we get, $\\alpha = 2, \\beta = 4 \\text{ & } \\gamma = \\delta + 3$. Now area of triangle is given by, $A = \\frac{1}{2}|\\overrightarrow{AB} \\times \\overrightarrow{BC}| \\Rightarrow 5\\sqrt{6} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ -2 & 1 & 3 \\\\ 2 & 4 & \\gamma \\end{vmatrix}$ $\\Rightarrow (5\\sqrt{6})^2 = (\\gamma - 12)^2 + (6 + 2\\gamma)^2 + 100 \\Rightarrow 5\\gamma^2 = 320 \\Rightarrow \\gamma^2 = 64 \\Rightarrow \\gamma = 8$. So, $\\delta = 8 - 3 = 5$. $\\overrightarrow{CB}\\cdot\\overrightarrow{CA} = (\\alpha\\hat{i} + \\beta\\hat{j} + \\gamma\\hat{k})\\cdot(4\\hat{i} + 3\\hat{j} + \\delta\\hat{k}) \\Rightarrow \\overrightarrow{CB}\\cdot\\overrightarrow{CA} = (2\\hat{i} + 4\\hat{j} + 8\\hat{k})\\cdot(4\\hat{i} + 3\\hat{j} + 5\\hat{k}) = 8 + 12 + 40 = 60$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Properties of Triangle",
+    "chapter": "Properties of Triangle",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

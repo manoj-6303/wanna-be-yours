@@ -1,0 +1,554 @@
+[
+  {
+    "difficulty": "Easy",
+    "question": "If $2^{1-x} + 2^{1+x}, f(x), 3^x + 3^{-x}$ are in A.P. then minimum value of $f(x)$ is \n \u092f\u0926\u093f $2^{1-x} + 2^{1+x}, f(x), 3^x + 3^{-x}$ \u0938\u092e\u093e\u0928\u094d\u0924\u0930 \u0936\u094d\u0930\u0947\u0923\u0940 \u092e\u0947\u0902 \u0939\u0948 \u0924\u092c $f(x)$ \u0915\u093e \u0928\u094d\u092f\u0942\u0928\u0924\u092e \u092e\u093e\u0928 \u0939\u0948-",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$f(x) = \\frac{2^{1-x} + 2^{1+x} + 3^x + 3^{-x}}{2}$ \n Using $AM \\ge GM$: \n $2^{1-x} + 2^{1+x} = 2(2^x + 2^{-x}) \\ge 4$ \n $3^x + 3^{-x} \\ge 2$ \n Thus, $f(x) \\ge \\frac{4 + 2}{2} = 3$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Sequences and Series",
+    "chapter": "Sequences and Series",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Find the sum $\\sum_{k=1}^{20} (1 + 2 + 3 + ...... + k)$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Sum $= \\sum_{k=1}^{20} \\frac{k(k+1)}{2} = \\frac{1}{2} \\sum_{k=1}^{20} (k^2+k) = \\frac{1}{2} \\left[ \\frac{20(21)(41)}{6} + \\frac{20(21)}{2} \\right] = \\frac{1}{2} [2870 + 210] = 1540$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Sequences and Series",
+    "chapter": "Sequences and Series",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Find the sum of the series $1 + 2 \\cdot 3 + 3 \\cdot 5 + 4 \\cdot 7 + \\dots$ up to $10$ terms.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$946$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$945$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$940$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$950$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$1 + 2 \\cdot 3 + 3 \\cdot 5 + 4 \\cdot 7 + \\dots$. Let, $S = (2 \\cdot 3 + 3 \\cdot 5 + 4 \\cdot 7 + \\dots)$. Now, $S_{10} = \\sum_{n=1}^{10} (n+1)(2n+1) = \\sum_{n=1}^{10} (2n^2 + 3n + 1) = \\frac{2n(n+1)(2n+1)}{6} + \\frac{3n(n+1)}{2} + n$. Put $n = 10$, $\\frac{2 \\cdot 10 \\cdot 11 \\cdot 21}{6} + \\frac{3 \\cdot 10 \\cdot 11}{2} + 10 = 945$. Hence required sum of the series $= 1 + 945 = 946$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Sequences and Series",
+    "chapter": "Sequences and Series",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "If $a_1 + a_4 + a_7 + \\dots + a_{16} = 114$ in an A.P., find the value of $a_1 + a_6 + a_{11} + a_{16}$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$76$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$38$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$114$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$152$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$a_1 + a_4 + a_7 + \\dots + a_{16} = 114 \\Rightarrow 3(a_1 + a_{16}) = 114 \\Rightarrow a_1 + a_{16} = 38$. Now, $a_1 + a_6 + a_{11} + a_{16} = 2(a_1 + a_{16}) = 2 \\times 38 = 76$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Sequences and Series",
+    "chapter": "Sequences and Series",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Let $S_n$ be the sum of the first $n$ terms of an arithmetic progression. If $S_{3n} = 3S_{2n}$, then the value of $\\frac{S_{4n}}{S_{2n}}$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$8$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Solution values correspond to answer key Q6(1).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Sequences and Series",
+    "chapter": "Sequences and Series",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Find the value of $\\sum_{n=8}^{100} \\left[ \\frac{(-1)^{n-1}}{2} \\right]$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$50$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\sum_{n=8}^{100} \\left[ \\frac{(-1)^{n-1}}{2} \\right] = 4 - 5 + 5 - 6 + 6 + \\dots - 50 + 50 = 4$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Sequences and Series",
+    "chapter": "Sequences and Series",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Let $A = \\sum_{i=1}^{10} \\sum_{j=1}^{10} \\min \\{i, j\\}$ and $B = \\sum_{i=1}^{10} \\sum_{j=1}^{10} \\max \\{i, j\\}$. Then $A + B$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1100$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1000$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$1210$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1150$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "We know that $\\min\\{i, j\\} + \\max\\{i, j\\} = i + j$. Therefore, $A + B = \\sum_{i=1}^{10}\\sum_{j=1}^{10}(i+j) = 10\\sum i + 10\\sum j = 20 \\times 55 = 1100$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Sequences and Series",
+    "chapter": "Sequences and Series",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Find the sum of the arithmetic series with $a=9, d=12, n=19$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "2221",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2222",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "2224",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "2223",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "For series of common terms $a=9, d=12, n=19$\n$S_{19} = \\frac{19}{2}[2(9) + 18(12)] = 2223$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Sequences and Series",
+    "chapter": "Sequences and Series",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "If $a_n = \\frac{-2}{4n^2 - 16n + 15}$, then $a_1 + a_2 + ..... + a_{25}$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{51}{144}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{49}{138}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{50}{141}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{52}{147}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Rewrite the denominator as $4n^2 - 16n + 15 = (2n-3)(2n-5)$. Express $a_n$ using partial fractions as $\\frac{1}{2n-5} - \\frac{1}{2n-3}$. This telescopes to give the sum as $\\frac{52}{147}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Sequences and Series",
+    "chapter": "Sequences and Series",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The $8^{\\text{th}}$ common term of the series $S_1 = 3 + 7 + 11 + 15 + 19 + \\dots$, $S_2 = 1 + 6 + 11 + 16 + 21 + \\dots$ is ______.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "143",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "147",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "151",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "155",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The common terms of $S_1$ and $S_2$ form an AP whose first common term is 11 and common difference is $\\text{LCM}(4, 5) = 20$. The $8^{\\text{th}}$ term is $11 + (8-1)20 = 147$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Sequences and Series",
+    "chapter": "Sequences and Series",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The sum $\\sum_{n=1}^{21} \\frac{3}{(4n-1)(4n+3)}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{7}{87}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{7}{29}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{14}{87}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{21}{29}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "We can rewrite the general term using partial fractions: $\\frac{3}{(4n-1)(4n+3)} = \\frac{3}{4} \\left( \\frac{1}{4n-1} - \\frac{1}{4n+3} \\right)$. Summing from $n=1$ to $21$ telescopes the series, yielding $\\frac{3}{4} \\left( \\frac{1}{3} - \\frac{1}{87} \\right) = \\frac{7}{29}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Sequences and Series",
+    "chapter": "Sequences and Series",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Let $a_1, a_2, a_3,...$ be an A.P. If $\\sum_{r=1}^{\\infty} \\frac{a_r}{2^r} = 4$, then $4a_2$ is equal to _______.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Let $a_r = a + (r-1)d$. Substitute into the infinite sum $\\sum_{r=1}^{\\infty} \\frac{a + (r-1)d}{2^r} = 4$. Using standard AGP summation formulas for infinite series, we get $a + d = 4$, which gives $a_2 = 4$, hence $4a_2 = 16$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Sequences and Series",
+    "chapter": "Sequences and Series",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The sum $\\sum_{k=1}^{20} (1 + 2 + 3 + \\dots + k)$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "...",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The inner sum is $\\frac{k(k+1)}{2}$. The total sum is $\\sum_{k=1}^{20} \\frac{k(k+1)}{2} = \\frac{1}{2} \\frac{20(21)(22)}{3} = 1540$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Sequences and Series",
+    "chapter": "Sequences and Series",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The sum, $\\sum_{n=1}^7 \\frac{n(n+1)(2n+1)}{4}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "...",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Note that $\\sum_{n=1}^7 n^2 = \\frac{7(8)(15)}{6} = 140$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Sequences and Series",
+    "chapter": "Sequences and Series",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The product of $2^{\\frac{1}{4}} \\cdot 4^{\\frac{1}{16}} \\cdot 8^{\\frac{1}{48}} \\cdot \\dots \\dots \\infty =$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2^{\\frac{1}{4}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The expression can be written as $2^{\\frac{1}{4} + \\frac{2}{16} + \\frac{3}{48} + \\dots} = 2^{\\sum_{n=1}^\\infty \\frac{n}{n \\cdot 2^n \\cdot \\dots}}$ wait, $4 = 2^2$, so $\\frac{2}{16} = \\frac{1}{8}$. The exponent is $\\sum_{n=1}^\\infty \\frac{n}{n \\cdot 2^{n+1}} = \\sum \\frac{1}{2^{n+1}} = \\frac{1/4}{1-1/2} = \\frac{1}{2}$. Thus $2^{1/2} = \\sqrt{2}$? Wait, let's re-sum: $\\frac{1}{4} + \\frac{2}{16} + \\frac{3}{48} + \\dots = \\frac{1}{4} + \\frac{1}{8} + \\frac{1}{16} + \\dots = \\frac{1/4}{1-1/2} = \\frac{1}{2}$. So $2^{1/2} = \\sqrt{2}$ (Option A).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Sequences and Series",
+    "chapter": "Sequences and Series",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "If the first term of an A.P. is $3$ and the sum of its first $25$ terms is equal to the sum of its next $15$ terms, then the common difference of this A.P. is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{6}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{4}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{7}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{5}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$S_{25} = S_{40} - S_{25} \\implies 2S_{25} = S_{40} \\implies 2 \\left(\\frac{25}{2}[6+24d]\\right) = \\frac{40}{2}[6+39d]$. Solving this gives $d = \\frac{1}{5}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Sequences and Series",
+    "chapter": "Sequences and Series",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

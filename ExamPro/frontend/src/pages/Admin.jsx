@@ -1,9 +1,16 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import MathRenderer from '../components/MathRenderer.jsx';
+
 
 export default function Admin() {
-  const [activeTab, setActiveTab] = useState('dashboard');
+  const [activeTab, setActiveTab] = useState(() => localStorage.getItem('adminActiveTab') || 'dashboard');
+  
+  useEffect(() => {
+    localStorage.setItem('adminActiveTab', activeTab);
+  }, [activeTab]);
+
   const [stats, setStats] = useState(null);
   const [users, setUsers] = useState([]);
   const [questions, setQuestions] = useState([]);
@@ -22,12 +29,16 @@ export default function Admin() {
   // Custom Test UI State
   const [weeklyTests, setWeeklyTests] = useState([]);
   const [customTestForm, setCustomTestForm] = useState({
-    subject: 'Physics', chapter: 'Kinematics', difficulty: 'Medium', examType: 'General', level: 1, passingPercentage: 40, duration: 60, fee: 20
+    subject: 'Physics', chapter: 'Kinematics', difficulty: 'Medium', examType: 'General', level: 1, passingPercentage: 40, duration: 60, fee: 20, displayCount: 10
   });
   const [availableQuestions, setAvailableQuestions] = useState([]);
   const [selectedQuestionIds, setSelectedQuestionIds] = useState([]);
 
   // Question Bank UI State
+  const [groupedChapters, setGroupedChapters] = useState([]);
+  const [expandedChapter, setExpandedChapter] = useState(null);
+  const [expandedSubjects, setExpandedSubjects] = useState({});
+  const [visibleCount, setVisibleCount] = useState(10);
   const [importSummary, setImportSummary] = useState(null);
   const [previewData, setPreviewData] = useState(null);
   const [previewFileName, setPreviewFileName] = useState('');
@@ -94,12 +105,10 @@ export default function Admin() {
   };
 
   useEffect(() => {
-    if (activeTab === 'questions' && !loading) {
+    if ((activeTab === 'questions' || activeTab === 'custom-tests') && !loading) {
       const fetchQuestions = async () => {
         try {
           const params = new URLSearchParams({
-            page: qPage,
-            limit: itemsPerPage,
             search: qSearch,
             ...qFilters
           });
@@ -109,12 +118,15 @@ export default function Admin() {
           });
           if (!qSearch) params.delete('search');
 
-          const res = await axios.get(`/api/v1/questions?${params.toString()}`, {
+          const res = await axios.get(`/api/v1/questions/grouped?${params.toString()}`, {
             headers: { Authorization: `Bearer ${token}` }
           });
-          setQuestions(res.data.questions || res.data);
-          if (res.data.pages) setTotalQPages(res.data.pages);
-          if (res.data.total) setTotalQuestionsCount(res.data.total);
+          
+          const chapters = res.data.chapters || [];
+          setGroupedChapters(chapters);
+          
+          const total = chapters.reduce((sum, ch) => sum + ch.totalQuestions, 0);
+          setTotalQuestionsCount(total);
         } catch (error) {
           console.error('Failed to fetch questions', error);
         }
@@ -184,7 +196,7 @@ export default function Admin() {
     
     const payload = {
       ...customTestForm,
-      questionCount: selectedQuestionIds.length,
+      questionCount: customTestForm.displayCount || 10,
       questionIds: selectedQuestionIds,
       status: 'Published' // publish immediately for simplicity
     };
@@ -502,18 +514,17 @@ export default function Admin() {
                   <form onSubmit={(e) => handleParseFile(e, uploadPDFFile, true)} className="flex items-center space-x-2 bg-gray-100 p-2 rounded-lg">
                     <select value={pdfSubject} onChange={e => {
                       setPdfSubject(e.target.value);
-                      if ((e.target.value === 'Mathematics A' || e.target.value === 'Mathematics B') && pdfDifficulty === 'Easy') {
+                      if ((e.target.value === 'Mathematics') && pdfDifficulty === 'Easy') {
                         setPdfDifficulty('Medium');
                       }
                     }} className="text-sm border rounded p-1">
                       <option value="Physics">Physics</option>
                       <option value="Chemistry">Chemistry</option>
-                      <option value="Mathematics A">Mathematics A</option>
-                      <option value="Mathematics B">Mathematics B</option>
+                      <option value="Mathematics">Mathematics</option>
                       <option value="Biology">Biology</option>
                     </select>
                     <select value={pdfDifficulty} onChange={e => setPdfDifficulty(e.target.value)} className="text-sm border rounded p-1">
-                      {!(pdfSubject === 'Mathematics A' || pdfSubject === 'Mathematics B') && <option value="Easy">Easy</option>}
+                      {!(pdfSubject === 'Mathematics') && <option value="Easy">Easy</option>}
                       <option value="Medium">Medium</option>
                       <option value="Hard">Hard</option>
                     </select>
@@ -540,7 +551,7 @@ export default function Admin() {
                 <select value={qFilters.subject} onChange={e => {
                   const newSubject = e.target.value;
                   const newFilters = {...qFilters, subject: newSubject};
-                  if ((newSubject === 'Mathematics A' || newSubject === 'Mathematics B') && qFilters.difficulty === 'Easy') {
+                  if ((newSubject === 'Mathematics') && qFilters.difficulty === 'Easy') {
                     newFilters.difficulty = 'Medium';
                   }
                   setQFilters(newFilters);
@@ -549,13 +560,12 @@ export default function Admin() {
                   <option value="">All Subjects</option>
                   <option value="Physics">Physics</option>
                   <option value="Chemistry">Chemistry</option>
-                  <option value="Mathematics A">Mathematics A</option>
-                  <option value="Mathematics B">Mathematics B</option>
+                  <option value="Mathematics">Mathematics</option>
                   <option value="Biology">Biology</option>
                 </select>
                 <select value={qFilters.difficulty} onChange={e => { setQFilters({...qFilters, difficulty: e.target.value}); setQPage(1); }} className="border border-gray-300 rounded-md p-2 text-sm">
                   <option value="">All Difficulties</option>
-                  {!(qFilters.subject === 'Mathematics A' || qFilters.subject === 'Mathematics B') && <option value="Easy">Easy</option>}
+                  {!(qFilters.subject === 'Mathematics') && <option value="Easy">Easy</option>}
                   <option value="Medium">Medium</option>
                   <option value="Hard">Hard</option>
                 </select>
@@ -568,26 +578,184 @@ export default function Admin() {
               </div>
 
               <div className="space-y-4 max-h-[600px] overflow-y-auto pr-2">
-                {paginatedQuestions.map((q) => (
-                  <div key={q._id} className={`p-4 rounded-xl border flex justify-between items-center ${q.status === 'Archived' ? 'bg-gray-100 border-gray-300 opacity-60' : 'bg-gray-50 border-gray-200'}`}>
-                    <div>
-                      <div className="flex space-x-2 mb-2">
-                        <span className="px-2 py-1 bg-indigo-100 text-indigo-800 text-xs font-bold rounded">Level {q.level || 0}</span>
-                        <span className="px-2 py-1 bg-gray-200 text-gray-800 text-xs font-bold rounded">{q.subject}</span>
-                        <span className={`px-2 py-1 text-xs font-bold rounded ${q.status === 'Published' ? 'bg-green-100 text-green-800' : q.status === 'Archived' ? 'bg-red-100 text-red-800' : 'bg-yellow-100 text-yellow-800'}`}>{q.status || 'Published'}</span>
+                {Object.entries(groupedChapters.reduce((acc, curr) => {
+                  const subject = curr._id.subject || 'Unknown Subject';
+                  if (!acc[subject]) acc[subject] = [];
+                  acc[subject].push(curr);
+                  return acc;
+                }, {})).map(([subject, chapters]) => {
+                  const isSubjectExpanded = expandedSubjects[subject] !== false;
+                  return (
+                  <div key={subject} className="mb-8 bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                    <button 
+                      type="button"
+                      className="w-full px-6 py-4 flex justify-between items-center bg-indigo-50 hover:bg-indigo-100 transition-colors cursor-pointer border-b border-indigo-100 focus:outline-none"
+                      onClick={() => setExpandedSubjects(prev => ({ ...prev, [subject]: !isSubjectExpanded }))}
+                    >
+                      <h2 className="text-2xl font-bold text-indigo-900">{subject}</h2>
+                      <div className="flex items-center space-x-4">
+                        <span className="bg-indigo-200 text-indigo-800 text-sm font-bold px-3 py-1 rounded-full">
+                          {chapters.length} Chapters
+                        </span>
+                        <span className="text-indigo-900 font-bold text-xl">{isSubjectExpanded ? '▼' : '▶'}</span>
                       </div>
-                      <p className="text-gray-900 font-medium line-clamp-1">{q.question}</p>
+                    </button>
+                    {isSubjectExpanded && (
+                    <div className="space-y-4 p-4 max-h-[500px] overflow-y-auto">
+                      {chapters.map((chapterGroup) => {
+                  const chapterId = `${chapterGroup._id.subject}-${chapterGroup._id.chapter}`;
+                  const isExpanded = expandedChapter === chapterId;
+                  return (
+                    <div key={chapterId} className="border border-gray-200 rounded-xl bg-white shadow-sm overflow-hidden">
+                      <div 
+                        className="px-6 py-4 bg-gray-50 flex justify-between items-center cursor-pointer hover:bg-gray-100 transition-colors"
+                        onClick={() => { setExpandedChapter(isExpanded ? null : chapterId); setVisibleCount(10); }}
+                      >
+                        <h3 className="font-bold text-gray-900 text-lg">
+                          {chapterGroup._id.chapter}
+                        </h3>
+                        <div className="flex items-center space-x-4">
+                          <span className="bg-indigo-100 text-indigo-800 text-sm font-bold px-3 py-1 rounded-full">
+                            {chapterGroup.totalQuestions} Questions
+                          </span>
+                          <span className="text-gray-500 font-bold">{isExpanded ? '▼' : '▶'}</span>
+                        </div>
+                      </div>
+                      
+                      {isExpanded && (
+                        <div className="p-4 bg-white border-t border-gray-100 space-y-3">
+                          {['Easy', 'Medium', 'Hard'].map(diff => {
+                            const qs = chapterGroup.questions.filter(q => (q.difficulty || 'Medium') === diff);
+                            if (qs.length === 0) return null;
+                            return (
+                              <details key={diff} className="border border-gray-200 rounded-lg group mb-4">
+                                <summary className="p-3 bg-gray-50 font-bold cursor-pointer hover:bg-gray-100 flex justify-between items-center rounded-lg">
+                                  <span>{diff} ({chapterGroup._id.chapter})</span>
+                                  <span className="text-gray-500 text-sm bg-gray-200 px-2 py-1 rounded-full">{qs.length} Questions</span>
+                                </summary>
+                                <div className="p-3 space-y-3 bg-white mt-2 border-t border-gray-100">
+                                  {qs.slice(0, visibleCount).map(q => (
+                            <div key={q._id} className={`p-4 rounded-xl border flex justify-between items-start ${q.status === 'Archived' ? 'bg-gray-100 border-gray-300 opacity-60' : 'bg-gray-50 border-gray-200'}`}>
+                              <div className="flex-1 pr-6">
+                                <div className="flex space-x-2 mb-2">
+                                  <span className="px-2 py-1 bg-indigo-100 text-indigo-800 text-xs font-bold rounded">Level {q.level || 0}</span>
+                                  <span className={`px-2 py-1 text-xs font-bold rounded ${
+                                    q.difficulty === 'Easy' ? 'bg-green-100 text-green-800' :
+                                    q.difficulty === 'Medium' ? 'bg-yellow-100 text-yellow-800' :
+                                    'bg-red-100 text-red-800'
+                                  }`}>{q.difficulty}</span>
+                                  <span className={`px-2 py-1 text-xs font-bold rounded ${q.status === 'Published' ? 'bg-green-100 text-green-800' : q.status === 'Archived' ? 'bg-red-100 text-red-800' : 'bg-yellow-100 text-yellow-800'}`}>{q.status || 'Published'}</span>
+                                </div>
+                                <div className="text-gray-900 font-medium text-sm mt-1 mb-2 max-w-full overflow-hidden">
+                                  <span className="font-bold mr-2 text-indigo-600">Q:</span>
+                                  <MathRenderer text={q.question} />
+                                </div>
+                                
+                                {q.questionImage && (
+                                  <div className="mt-3 mb-3 text-sm">
+                                    <span className="font-bold text-gray-600 block mb-1 text-xs uppercase tracking-wider">Question Image</span>
+                                    <img 
+                                      src={`/images/${encodeURI(q.questionImage)}`} 
+                                      alt="Question figure" 
+                                      className="mt-2 w-full max-w-3xl object-contain rounded border border-gray-200" 
+                                      
+                                    />
+                                  </div>
+                                )}
+                                
+                                {q.options && q.options.length > 0 && (
+                                  <div className="mt-3 pl-4 border-l-2 border-indigo-200">
+                                    {q.options.map((opt, idx) => (
+                                      <div key={idx} className="text-sm text-gray-700 flex items-start mt-1.5">
+                                        <span className="font-bold mr-2 w-5 text-gray-500">{String.fromCharCode(65 + idx)}.</span>
+                                        <div className="flex-1"><MathRenderer text={opt.value || opt.text || opt} /></div>
+                                      </div>
+                                    ))}
+                                  </div>
+                                )}
+
+                                {q.correctAnswer && (() => {
+                                  const correctIndex = q.options ? q.options.findIndex(opt => {
+                                    const val = opt.value || opt.text || opt;
+                                    return val === q.correctAnswer;
+                                  }) : -1;
+                                  const letterStr = correctIndex >= 0 ? `Option ${String.fromCharCode(65 + correctIndex)}: ` : '';
+                                  return (
+                                    <div className="mt-3 text-sm flex items-start bg-green-50 p-2 rounded border border-green-100 inline-block">
+                                      <span className="font-bold text-green-700 mr-2">Correct Answer:</span>
+                                      {letterStr && <span className="font-bold text-indigo-700 mr-2">{letterStr}</span>}
+                                      <span className="text-gray-800 font-medium"><MathRenderer text={q.correctAnswer} /></span>
+                                    </div>
+                                  );
+                                })()}
+
+                                {q.explanation && (
+                                  <div className="mt-3 text-sm">
+                                    <span className="font-bold text-gray-600 block mb-1 text-xs uppercase tracking-wider">Explanation</span>
+                                    <div className="text-gray-700 bg-gray-50 border border-gray-200 p-3 rounded-lg text-sm overflow-hidden">
+                                      <MathRenderer text={q.explanation} />
+                                    </div>
+                                  </div>
+                                )}
+                                
+                                {q.solutionImage && q.solutionImage !== q.questionImage && (
+                                  <div className="mt-3 text-sm">
+                                    <span className="font-bold text-gray-600 block mb-1 text-xs uppercase tracking-wider">Solution Image</span>
+                                    <img 
+                                      src={`/images/${encodeURI(q.solutionImage)}`} 
+                                      alt="Solution" 
+                                      className="mt-2 w-full max-w-3xl object-contain rounded border border-gray-200" 
+                                      
+                                    />
+                                  </div>
+                                )}
+                                
+                                {q.explanationImage && q.explanationImage !== q.questionImage && q.explanationImage !== q.solutionImage && (
+                                  <div className="mt-3 text-sm">
+                                    <span className="font-bold text-gray-600 block mb-1 text-xs uppercase tracking-wider">Explanation Image</span>
+                                    <img 
+                                      src={`/images/${encodeURI(q.explanationImage)}`} 
+                                      alt="Explanation figure" 
+                                      className="mt-2 w-full max-w-3xl object-contain rounded border border-gray-200" 
+                                      
+                                    />
+                                  </div>
+                                )}
+                              </div>
+                              <div className="flex flex-col space-y-2 items-end">
+                                <button onClick={() => handleUpdateStatus(q._id, q.status === 'Published' ? 'Archived' : 'Published')} className="text-orange-600 hover:text-orange-800 font-medium text-sm">
+                                  {q.status === 'Published' ? 'Archive' : 'Publish'}
+                                </button>
+                                <button onClick={() => openEditModal(q)} className="text-blue-600 hover:text-blue-800 font-medium text-sm">Edit</button>
+                                <button onClick={() => handleDeleteQuestion(q._id)} className="text-red-600 hover:text-red-800 font-medium text-sm">Delete</button>
+                              </div>
+                            </div>
+                          ))}
+                          {qs.length > visibleCount && (
+                            <div className="text-center pt-2">
+                              <button 
+                                onClick={() => setVisibleCount(v => v + 10)}
+                                className="text-indigo-600 font-bold hover:text-indigo-800 text-sm bg-indigo-50 px-4 py-2 rounded-full transition-colors"
+                              >
+                                Load More Questions ({qs.length - visibleCount} remaining)
+                              </button>
+                            </div>
+                          )}
+                                </div>
+                              </details>
+                            );
+                          })}
+                        </div>
+                      )}
                     </div>
-                    <div className="flex space-x-2">
-                      <button onClick={() => handleUpdateStatus(q._id, q.status === 'Published' ? 'Archived' : 'Published')} className="text-orange-600 hover:text-orange-800 font-medium text-sm">
-                        {q.status === 'Published' ? 'Archive' : 'Publish'}
-                      </button>
-                      <button onClick={() => openEditModal(q)} className="text-blue-600 hover:text-blue-800 font-medium text-sm">Edit</button>
-                      <button onClick={() => handleDeleteQuestion(q._id)} className="text-red-600 hover:text-red-800 font-medium text-sm">Delete</button>
+                  );
+                })}
                     </div>
+                    )}
                   </div>
-                ))}
-                {paginatedQuestions.length === 0 && <p className="text-gray-500 text-center py-4">No questions match your criteria.</p>}
+                );
+                })}
+                {groupedChapters.length === 0 && <p className="text-gray-500 text-center py-4">No questions match your criteria.</p>}
               </div>
 
               {totalPages > 1 && (
@@ -609,11 +777,37 @@ export default function Admin() {
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-1">Subject</label>
-                      <input required type="text" value={customTestForm.subject} onChange={e => setCustomTestForm({...customTestForm, subject: e.target.value})} className="w-full border-gray-300 rounded-md p-2 border" />
+                      <select 
+                        required 
+                        value={customTestForm.subject} 
+                        onChange={e => setCustomTestForm({...customTestForm, subject: e.target.value, chapter: ''})} 
+                        className="w-full border-gray-300 rounded-md p-2 border"
+                      >
+                        <option value="">Select Subject...</option>
+                        {[...new Set(groupedChapters.map(g => g._id.subject))].map(sub => (
+                          <option key={sub} value={sub}>{sub}</option>
+                        ))}
+                      </select>
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-1">Chapter</label>
-                      <input required type="text" value={customTestForm.chapter} onChange={e => setCustomTestForm({...customTestForm, chapter: e.target.value})} className="w-full border-gray-300 rounded-md p-2 border" />
+                      <select 
+                        required 
+                        value={customTestForm.chapter} 
+                        onChange={e => setCustomTestForm({...customTestForm, chapter: e.target.value})} 
+                        className="w-full border-gray-300 rounded-md p-2 border"
+                        disabled={!customTestForm.subject}
+                      >
+                        <option value="">Select Chapter...</option>
+                        {groupedChapters
+                          .filter(g => g._id.subject === customTestForm.subject)
+                          .map(g => g._id.chapter)
+                          .sort()
+                          .map(chap => (
+                            <option key={chap} value={chap}>{chap}</option>
+                          ))
+                        }
+                      </select>
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-1">Level Number</label>
@@ -635,11 +829,13 @@ export default function Admin() {
                       <label className="block text-sm font-medium text-gray-700 mb-1">Duration (mins)</label>
                       <input required type="number" min="1" value={customTestForm.duration} onChange={e => setCustomTestForm({...customTestForm, duration: Number(e.target.value)})} className="w-full border-gray-300 rounded-md p-2 border" />
                     </div>
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-1">Questions to Display</label>
+                      <input required type="number" min="1" value={customTestForm.displayCount} onChange={e => setCustomTestForm({...customTestForm, displayCount: Number(e.target.value)})} className="w-full border-gray-300 rounded-md p-2 border" />
+                    </div>
                   </div>
                   <div className="flex justify-between items-center pt-4 border-t border-gray-100">
-                    <button type="button" onClick={fetchAvailableQuestions} className="bg-indigo-100 text-indigo-700 px-4 py-2 rounded-lg font-bold hover:bg-indigo-200">
-                      Fetch Questions
-                    </button>
+                    
                     <button type="submit" className="bg-indigo-600 text-white px-6 py-2 rounded-lg font-bold hover:bg-indigo-700">
                       Create Test ({selectedQuestionIds.length} Qs)
                     </button>
@@ -647,56 +843,216 @@ export default function Admin() {
                 </form>
               </div>
 
-              {availableQuestions.length > 0 && (
+              {groupedChapters.length > 0 && (
                 <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm mb-8">
-                  <h3 className="text-lg font-bold text-gray-900 mb-4">Select Questions</h3>
-                  <div className="space-y-3 max-h-[400px] overflow-y-auto pr-2">
-                    {availableQuestions.map(q => (
-                      <div key={q._id} className="flex items-start space-x-3 p-3 bg-gray-50 border border-gray-100 rounded-lg">
-                        <input type="checkbox" checked={selectedQuestionIds.includes(q._id)} onChange={() => toggleQuestionSelection(q._id)} className="mt-1 h-4 w-4 text-indigo-600 border-gray-300 rounded" />
-                        <div>
-                          <p className="text-sm font-medium text-gray-900">{q.question}</p>
-                          {q.options && q.options.length >= 4 && (
-                            <div className="mt-2 grid grid-cols-2 gap-2 text-xs text-gray-600">
-                              <div>A: {q.options[0]}</div>
-                              <div>B: {q.options[1]}</div>
-                              <div>C: {q.options[2]}</div>
-                              <div>D: {q.options[3]}</div>
+                  <div className="flex justify-between items-center mb-4 sticky top-0 bg-white z-10 py-2 border-b border-gray-100">
+                    <h3 className="text-lg font-bold text-gray-900">Select Questions for Test</h3>
+                    <div className="bg-indigo-600 text-white px-4 py-2 rounded-full font-bold shadow-sm">
+                      {selectedQuestionIds.length} Questions Selected
+                    </div>
+                  </div>
+                  <div className="space-y-4 max-h-[600px] overflow-y-auto pr-2">
+                    {Object.entries(groupedChapters.reduce((acc, curr) => {
+                      const subject = curr._id.subject || 'Unknown Subject';
+                      if (!acc[subject]) acc[subject] = [];
+                      acc[subject].push(curr);
+                      return acc;
+                    }, {})).map(([subject, chapters]) => {
+                      const isSubjectExpanded = expandedSubjects[subject] !== false;
+                      return (
+                      <div key={subject} className="mb-8 bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                        <button 
+                          type="button"
+                          className="w-full px-6 py-4 flex justify-between items-center bg-indigo-50 hover:bg-indigo-100 transition-colors cursor-pointer border-b border-indigo-100 focus:outline-none"
+                          onClick={() => setExpandedSubjects(prev => ({ ...prev, [subject]: !isSubjectExpanded }))}
+                        >
+                          <h2 className="text-2xl font-bold text-indigo-900">{subject}</h2>
+                          <div className="flex items-center space-x-4">
+                            <span className="bg-indigo-200 text-indigo-800 text-sm font-bold px-3 py-1 rounded-full">
+                              {chapters.length} Chapters
+                            </span>
+                            <span className="text-indigo-900 font-bold text-xl">{isSubjectExpanded ? '▼' : '▶'}</span>
+                          </div>
+                        </button>
+                        {isSubjectExpanded && (
+                        <div className="space-y-4 p-4 max-h-[500px] overflow-y-auto">
+                          {chapters.map((chapterGroup) => {
+                      const chapterId = `${chapterGroup._id.subject}-${chapterGroup._id.chapter}`;
+                      const isExpanded = expandedChapter === chapterId;
+                      return (
+                        <div key={chapterId} className="border border-gray-200 rounded-xl bg-white shadow-sm overflow-hidden">
+                          <div 
+                            className="px-6 py-4 bg-gray-50 flex justify-between items-center cursor-pointer hover:bg-gray-100 transition-colors"
+                            onClick={() => { setExpandedChapter(isExpanded ? null : chapterId); setVisibleCount(10); }}
+                          >
+                            <h3 className="font-bold text-gray-900 text-lg">
+                              {chapterGroup._id.chapter}
+                            </h3>
+                            <div className="flex items-center space-x-4">
+                              <span className="bg-indigo-100 text-indigo-800 text-sm font-bold px-3 py-1 rounded-full">
+                                {chapterGroup.totalQuestions} Questions
+                              </span>
+                              <span className="text-gray-500 font-bold">{isExpanded ? '▼' : '▶'}</span>
+                            </div>
+                          </div>
+                          {isExpanded && (
+                            <div className="p-4 space-y-4">
+                              {['Easy', 'Medium', 'Hard'].map(diff => {
+                                const qs = chapterGroup.questions.filter(q => (q.difficulty || 'Medium') === diff);
+                                if (qs.length === 0) return null;
+                                return (
+                                  <details key={diff} className="border border-gray-200 rounded-lg group mb-4">
+                                    <summary className="p-3 bg-gray-50 font-bold cursor-pointer hover:bg-gray-100 flex justify-between items-center rounded-lg">
+                                      <div className="flex items-center space-x-3">
+                                        <span>{diff} ({chapterGroup._id.chapter})</span>
+                                        <button
+                                          type="button"
+                                          onClick={(e) => {
+                                            e.preventDefault();
+                                            e.stopPropagation();
+                                            const newIds = qs.map(q => q._id);
+                                            const allSelected = newIds.every(id => selectedQuestionIds.includes(id));
+                                            if (allSelected) {
+                                              setSelectedQuestionIds(prev => prev.filter(id => !newIds.includes(id)));
+                                            } else {
+                                              setSelectedQuestionIds(prev => [...new Set([...prev, ...newIds])]);
+                                            }
+                                          }}
+                                          className="text-xs bg-indigo-100 text-indigo-700 px-2 py-1 rounded hover:bg-indigo-200 shadow-sm"
+                                        >
+                                          {qs.every(q => selectedQuestionIds.includes(q._id)) ? 'Deselect All' : 'Select All'}
+                                        </button>
+                                      </div>
+                                      <span className="text-gray-500 text-sm bg-gray-200 px-2 py-1 rounded-full">{qs.length} Questions</span>
+                                    </summary>
+                                    <div className="p-3 space-y-4 bg-white mt-2 border-t border-gray-100">
+                                      {qs.slice(0, visibleCount).map((q) => (
+                                <div key={q._id} className="flex flex-col border border-gray-200 rounded-lg bg-white overflow-hidden shadow-sm hover:shadow transition-shadow">
+                                  <div className="flex justify-between items-center px-4 py-2 bg-gray-50 border-b border-gray-200">
+                                    <div className="flex items-center space-x-2">
+                                      <input 
+                                        type="checkbox" 
+                                        checked={selectedQuestionIds.includes(q._id)}
+                                        onChange={() => {
+                                          if (selectedQuestionIds.includes(q._id)) {
+                                            setSelectedQuestionIds(selectedQuestionIds.filter(id => id !== q._id));
+                                          } else {
+                                            setSelectedQuestionIds([...selectedQuestionIds, q._id]);
+                                          }
+                                        }}
+                                        className="h-5 w-5 text-indigo-600 rounded cursor-pointer"
+                                      />
+                                      <span className="text-xs font-bold text-gray-500 uppercase tracking-wider">
+                                        ID: {q._id.substring(0, 8)}...
+                                      </span>
+                                    </div>
+                                    <span className={`px-2 py-1 text-xs font-bold rounded-full ${q.difficulty === 'Hard' ? 'bg-red-100 text-red-800' : q.difficulty === 'Medium' ? 'bg-yellow-100 text-yellow-800' : 'bg-green-100 text-green-800'}`}>
+                                      {q.difficulty || 'Medium'}
+                                    </span>
+                                  </div>
+                                  
+                                  <div className="p-4">
+                                    <div className="text-sm font-medium text-gray-900 mb-4">
+                                      <span className="font-bold mr-2 text-indigo-600 text-lg">Q:</span>
+                                      <div className="inline-block"><MathRenderer text={q.question} /></div>
+                                    </div>
+                                    
+                                    {q.questionImage && (
+                                      <div className="mt-3 mb-4 rounded-lg overflow-hidden border border-gray-200 bg-gray-50 p-2 max-w-2xl">
+                                        <img 
+                                          src={`/images/${encodeURI(q.questionImage)}`} 
+                                          alt="Question figure" 
+                                          className="w-full h-auto object-contain max-h-[400px]" 
+                                          
+                                        />
+                                      </div>
+                                    )}
+
+                                    {q.options && q.options.length > 0 && (
+                                      <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3 pl-2 border-l-2 border-indigo-200">
+                                        {q.options.map((opt, idx) => (
+                                          <div key={idx} className="text-sm flex items-start p-2 rounded-md bg-gray-50 border border-gray-100 text-gray-700">
+                                            <span className="font-bold mr-2 w-5 text-indigo-500">{String.fromCharCode(65 + idx)}.</span>
+                                            <div className="flex-1"><MathRenderer text={opt.value || opt.text || opt} /></div>
+                                          </div>
+                                        ))}
+                                      </div>
+                                    )}
+
+                                    {q.correctAnswer && (() => {
+                                      const correctIndex = q.options ? q.options.findIndex(opt => {
+                                        const val = opt.value || opt.text || opt;
+                                        return val === q.correctAnswer;
+                                      }) : -1;
+                                      const letterStr = correctIndex >= 0 ? `Option ${String.fromCharCode(65 + correctIndex)}: ` : '';
+                                      return (
+                                        <div className="mt-4 flex items-center bg-green-50 px-3 py-2 rounded-md border border-green-100 inline-block">
+                                          <span className="font-bold text-green-700 mr-2">Correct Answer:</span>
+                                          {letterStr && <span className="font-bold text-indigo-700 mr-2">{letterStr}</span>}
+                                          <span className="text-gray-900 font-medium"><MathRenderer text={q.correctAnswer} /></span>
+                                        </div>
+                                      );
+                                    })()}
+
+                                    {q.explanation && (
+                                      <div className="mt-4">
+                                        <div className="text-gray-700 bg-blue-50 border border-blue-100 p-3 rounded-lg text-sm">
+                                          <span className="font-bold text-blue-800 flex items-center mb-1">
+                                            <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                            Explanation:
+                                          </span>
+                                          <MathRenderer text={q.explanation} />
+                                          {q.explanationImage && q.explanationImage !== q.questionImage && (
+                                            <div className="mt-3 rounded-lg overflow-hidden border border-blue-200 bg-white p-2 max-w-2xl">
+                                              <img 
+                                                src={`/images/${encodeURI(q.explanationImage)}`} 
+                                                alt="Solution figure" 
+                                                className="w-full h-auto object-contain max-h-[400px]" 
+                                                
+                                              />
+                                            </div>
+                                          )}
+                                          {q.solutionImage && q.solutionImage !== q.questionImage && q.solutionImage !== q.explanationImage && (
+                                            <div className="mt-3 rounded-lg overflow-hidden border border-blue-200 bg-white p-2 max-w-2xl">
+                                              <img 
+                                                src={`/images/${encodeURI(q.solutionImage)}`} 
+                                                alt="Solution figure" 
+                                                className="w-full h-auto object-contain max-h-[400px]" 
+                                                
+                                              />
+                                            </div>
+                                          )}
+                                        </div>
+                                      </div>
+                                    )}
+                                  </div>
+                                </div>
+                              ))}
+                              {visibleCount < qs.length && (
+                                <button 
+                                  onClick={() => setVisibleCount(prev => prev + 10)}
+                                  className="w-full py-2 bg-indigo-50 text-indigo-600 rounded-lg hover:bg-indigo-100 transition-colors font-medium text-sm border border-indigo-100"
+                                >
+                                  Load More Questions...
+                                </button>
+                              )}
+                                    </div>
+                                  </details>
+                                );
+                              })}
                             </div>
                           )}
-                          <div className="mt-2 text-xs text-gray-600 bg-gray-100 p-2 rounded">
-                            <span className="font-semibold text-green-700">Correct: {q.correctAnswer}</span> <br/>
-                            <span className="font-semibold text-gray-700">Explanation:</span> {q.explanation}
-                          </div>
-                          <div className="flex space-x-2 mt-2">
-                            <span className="text-xs text-gray-500 bg-gray-200 px-2 py-0.5 rounded">{q.subject} - {q.chapter}</span>
-                            <span className="text-xs text-gray-500 bg-gray-200 px-2 py-0.5 rounded">{q.difficulty}</span>
-                          </div>
                         </div>
+                      );
+                    })}
+                        </div>
+                        )}
                       </div>
-                    ))}
+                      );
+                    })}
                   </div>
                 </div>
               )}
-
-              <h2 className="text-2xl font-bold text-gray-900 mb-6 mt-8">Existing Custom Tests</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {weeklyTests.map(test => (
-                  <div key={test._id} className="bg-white border border-gray-200 p-5 rounded-xl shadow-sm">
-                    <div className="flex justify-between items-start mb-2">
-                      <h3 className="font-bold text-gray-900">Level {test.level} Test</h3>
-                      <span className="text-xs font-bold px-2 py-1 bg-green-100 text-green-800 rounded">{test.status}</span>
-                    </div>
-                    <p className="text-sm text-gray-500 mb-4">{test.subject} • {test.chapter} • {test.difficulty}</p>
-                    <div className="flex justify-between text-sm text-gray-700">
-                      <span>{test.questionCount} Qs</span>
-                      <span>{test.duration} mins</span>
-                      <span>Pass: {test.passingPercentage}%</span>
-                    </div>
-                  </div>
-                ))}
-                {weeklyTests.length === 0 && <p className="text-gray-500">No custom tests created yet.</p>}
-              </div>
             </div>
           )}
 
@@ -949,15 +1305,14 @@ export default function Admin() {
                 <select value={bulkSubject} onChange={e=>{
                   const newSubject = e.target.value;
                   setBulkSubject(newSubject);
-                  if ((newSubject === 'Mathematics A' || newSubject === 'Mathematics B') && bulkDifficulty === 'Easy') {
+                  if ((newSubject === 'Mathematics') && bulkDifficulty === 'Easy') {
                     setBulkDifficulty('Medium');
                   }
                 }} className="border p-2 rounded text-sm min-w-[150px]">
                   <option value="">-- No Change --</option>
                   <option value="Physics">Physics</option>
                   <option value="Chemistry">Chemistry</option>
-                  <option value="Mathematics A">Mathematics A</option>
-                  <option value="Mathematics B">Mathematics B</option>
+                  <option value="Mathematics">Mathematics</option>
                   <option value="Biology">Biology</option>
                 </select>
               </div>
@@ -973,7 +1328,7 @@ export default function Admin() {
                 <label className="block text-xs font-bold text-indigo-900 mb-1">Bulk Set Difficulty</label>
                 <select value={bulkDifficulty} onChange={e=>setBulkDifficulty(e.target.value)} className="border p-2 rounded text-sm min-w-[150px]">
                   <option value="">-- No Change --</option>
-                  {!(bulkSubject === 'Mathematics A' || bulkSubject === 'Mathematics B') && <option value="Easy">Easy</option>}
+                  {!(bulkSubject === 'Mathematics') && <option value="Easy">Easy</option>}
                   <option value="Medium">Medium</option>
                   <option value="Hard">Hard</option>
                 </select>

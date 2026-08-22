@@ -1,0 +1,1901 @@
+[
+  {
+    "difficulty": "Medium",
+    "question": "If $\\cos^{-1}\\left(\\frac{2}{3x}\\right) + \\cos^{-1}\\left(\\frac{3}{4x}\\right) = \\frac{\\pi}{2}\\left(x > \\frac{3}{4}\\right)$, then $x$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\sqrt{145}}{12}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\sqrt{145}}{10}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\sqrt{146}}{12}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{\\sqrt{145}}{11}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $\\cos^{-1}\\left(\\frac{2}{3x}\\right) + \\cos^{-1}\\left(\\frac{3}{4x}\\right) = \\frac{\\pi}{2}$.$\\Rightarrow \\cos^{-1}\\left(\\frac{2}{3x}\\right) = \\frac{\\pi}{2} - \\cos^{-1}\\left(\\frac{3}{4x}\\right) = \\sin^{-1}\\left(\\frac{3}{4x}\\right)$. Let $\\sin^{-1}\\left(\\frac{3}{4x}\\right) = \\theta \\Rightarrow \\sin\\theta = \\frac{3}{4x}$. Then $\\cos\\theta = \\sqrt{1 - \\sin^2\\theta} = \\sqrt{1 - \\frac{9}{16x^2}} = \\frac{\\sqrt{16x^2 - 9}}{4x}$. So $\\cos^{-1}\\left(\\frac{2}{3x}\\right) = \\cos^{-1}\\left(\\frac{\\sqrt{16x^2 - 9}}{4x}\\right)$. Comparing arguments: $\\frac{2}{3x} = \\frac{\\sqrt{16x^2 - 9}}{4x} \\Rightarrow x^2 = \\frac{64+81}{9 \\times 16} \\Rightarrow x = \\pm \\frac{\\sqrt{145}}{12}$. Since $x > \\frac{3}{4}$, $x = \\frac{\\sqrt{145}}{12}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $x = \\sin^{-1}(\\sin 10)$ and $y = \\cos^{-1}(\\cos 10)$, then $y - x$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$10$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$7\\pi$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\pi$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "We have $x = \\sin^{-1}(\\sin 10) = 3\\pi - 10$ (since $3\\pi - \\frac{\\pi}{2} < 10 < 3\\pi + \\frac{\\pi}{2}$). And $y = \\cos^{-1}(\\cos 10) = 4\\pi - 10$ (since $3\\pi < 10 < 4\\pi$). Therefore, $y - x = (4\\pi - 10) - (3\\pi - 10) = \\pi$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Considering only the principal values of inverse functions, the set $A = \\left\\{x \\ge 0 : \\tan^{-1}(2x) + \\tan^{-1}(3x) = \\frac{\\pi}{4}\\right\\}$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "contains two elements",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "contains more than two elements",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "is a singleton",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "is an empty set",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $\\tan^{-1}(2x) + \\tan^{-1}(3x) = \\frac{\\pi}{4}$. Taking $\\tan$ on both sides: $\\frac{5x}{1 - 6x^2} = 1 \\Rightarrow 5x = 1 - 6x^2 \\Rightarrow 6x^2 + 5x - 1 = 0 \\Rightarrow (6x - 1)(x + 1) = 0$. Since $x \\ge 0$, we get $x = \\frac{1}{6}$. Thus, $A$ is a singleton set.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\alpha = \\cos^{-1}\\left(\\frac{3}{5}\\right), \\beta = \\tan^{-1}\\left(\\frac{1}{3}\\right)$, where $0 < \\alpha, \\beta < \\frac{\\pi}{2}$, then $\\alpha - \\beta$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\tan^{-1}\\left(\\frac{9}{5\\sqrt{10}}\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\cos^{-1}\\left(\\frac{9}{5\\sqrt{10}}\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\tan^{-1}\\left(\\frac{9}{14}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sin^{-1}\\left(\\frac{9}{5\\sqrt{10}}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Given $\\cos\\alpha = \\frac{3}{5} \\Rightarrow \\tan\\alpha = \\frac{4}{3}$. Also $\\tan\\beta = \\frac{1}{3}$. Then $\\tan(\\alpha - \\beta) = \\frac{\\frac{4}{3} - \\frac{1}{3}}{1 + \\frac{4}{9}} = \\frac{1}{\\frac{13}{9}} = \\frac{9}{13}$. Thus $\\alpha - \\beta = \\tan^{-1}\\left(\\frac{9}{13}\\right)$. Converting to sine: if $\\tan\\theta = \\frac{9}{13}$, then $\\sin\\theta = \\frac{9}{\\sqrt{9^2 + 13^2}} = \\frac{9}{\\sqrt{81 + 169}} = \\frac{9}{\\sqrt{250}} = \\frac{9}{5\\sqrt{10}}$. Hence $\\alpha - \\beta = \\sin^{-1}\\left(\\frac{9}{5\\sqrt{10}}\\right)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The value of $\\sin^{-1}\\left(\\frac{12}{13}\\right) - \\sin^{-1}\\left(\\frac{3}{5}\\right)$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\pi - \\sin^{-1}\\left(\\frac{63}{65}\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\pi}{2} - \\sin^{-1}\\left(\\frac{56}{65}\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\pi}{2} - \\cos^{-1}\\left(\\frac{9}{65}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\pi - \\cos^{-1}\\left(\\frac{33}{65}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let $\\sin^{-1}\\left(\\frac{12}{13}\\right) = A$ and $\\sin^{-1}\\left(\\frac{3}{5}\\right) = B$. Then $\\sin A = \\frac{12}{13} \\Rightarrow \\cos A = \\frac{5}{13}$ and $\\sin B = \\frac{3}{5} \\Rightarrow \\cos B = \\frac{4}{5}$. Now, $\\sin(A - B) = \\sin A \\cos B - \\cos A \\sin B = \\left(\\frac{12}{13}\\right)\\left(\\frac{4}{5}\\right) - \\left(\\frac{5}{13}\\right)\\left(\\frac{3}{5}\\right) = \\frac{48 - 15}{65} = \\frac{33}{65}$. So $A - B = \\sin^{-1}\\left(\\frac{33}{65}\\right)$. Wait, the question asks for $\\sin^{-1}\\left(\\frac{12}{13}\\right) - \\sin^{-1}\\left(\\frac{3}{5}\\right)$. Let's recheck the options. Option B gives $\\frac{\\pi}{2} - \\sin^{-1}\\left(\\frac{56}{65}\\right)$. Since $\\sin^{-1}\\left(\\frac{33}{65}\\right) + \\cos^{-1}\\left(\\frac{33}{65}\\right) = \\frac{\\pi}{2}$, and $\\cos^{-1}\\left(\\frac{33}{65}\\right) = \\sin^{-1}\\left(\\frac{56}{65}\\right)$, thus $A - B = \\frac{\\pi}{2} - \\sin^{-1}\\left(\\frac{56}{65}\\right)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\cos^{-1}\\left(\\frac{2}{3x}\\right)+\\cos^{-1}\\left(/frac{3}{4x}\\right)=\\frac{\\pi}{2}\\left(x>\\frac{3}{4}\\right)$, then $x$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\sqrt{145}}{12}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\sqrt{145}}{10}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\sqrt{146}}{12}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{\\sqrt{145}}{11}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $\\cos^{-1}\\left(\\frac{2}{3x}\\right)+\\cos^{-1}\\left(\\frac{3}{4x}\\right)=\\frac{\\pi}{2}$. Therefore, $\\cos^{-1}\\left(\\frac{2}{3x}\\right)=\\frac{\\pi}{2}-\\cos^{-1}\\left(\\frac{3}{4x}\\right)=\\sin^{-1}\\left(\\frac{3}{4x}\\right)$. Let $\\sin^{-1}\\left(\\frac{3}{4x}\\right)=\\theta \\implies \\sin\\theta=\\frac{3}{4x}$. Then $\\cos\\theta=\\sqrt{1-\\frac{9}{16x^2}}=\\frac{\\sqrt{16x^2-9}}{4x}$. Thus $\\cos^{-1}\\left(\\frac{2}{3x}\\right)=\\cos^{-1}\\left(\\frac{\\sqrt{16x^2-9}}{4x}\\right)$. Equating arguments: $\\frac{2}{3x}=\\frac{\\sqrt{16x^2-9}}{4x} \\implies x^2=\\frac{64+81}{9\\times 16} \\implies x=\\frac{\\sqrt{145}}{12}$ (since $x>\\frac{3}{4}$). Hence option (1).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $x=\\sin^{-1}(\\sin 10)$ and $y=\\cos^{-1}(\\cos 10)$, then $y-x$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$10$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$7\\pi$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\pi$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "We have $x=\\sin^{-1}(\\sin 10) = 3\\pi-10$ (since $3\\pi-\\frac{\\pi}{2} < 10 < 3\\pi+\\frac{\\pi}{2}$). And $y=\\cos^{-1}(\\cos 10) = 4\\pi-10$ (since $3\\pi < 10 < 4\\pi$). Therefore, $y-x = (4\\pi-10)-(3\\pi-10)=\\pi$. Hence option (4).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Considering only the principal values of inverse functions, the set $A=\\left\\{x \\ge 0 : \\tan^{-1}(2x)+\\tan^{-1}(3x)=\\frac{\\pi}{4}\\right\\}$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "contains two elements",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "contains more than two elements",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "is a singleton",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "is an empty set",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Consider $\\tan^{-1}(2x)+\\tan^{-1}(3x)=\\frac{\\pi}{4} \\implies \\tan^{-1}\\left(\\frac{5x}{1-6x^2}\\right)=\\frac{\\pi}{4} \\implies \\frac{5x}{1-6x^2}=1 \\implies 6x^2+5x-1=0 \\implies (6x-1)(x+1)=0$. Thus $x=\\frac{1}{6}$ or $x=-1$. Since $x \\ge 0$, $x=\\frac{1}{6}$. Therefore, $A$ is a singleton set. Hence option (3).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\alpha = \\cos^{-1}\\left(\\frac{3}{5}\\right)$, $\\beta = \\tan^{-1}\\left(\\frac{1}{3}\\right)$, where $0 < \\alpha, \\beta < \\frac{\\pi}{2}$, then $\\alpha-\\beta$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\tan^{-1}\\left(\\frac{9}{5\\sqrt{10}}\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\cos^{-1}\\left(\\frac{9}{5\\sqrt{10}}\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\tan^{-1}\\left(\\frac{9}{14}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sin^{-1}\\left(\\frac{9}{5\\sqrt{10}}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since $\\cos\\alpha=\\frac{3}{5}$, $\\tan\\alpha=\\frac{4}{3}$. Also $\\tan\\beta=\\frac{1}{3}$. Then $\\tan(\\alpha-\\beta)=\\frac{\\frac{4}{3}-\\frac{1}{3}}{1+\\frac{4}{3}\\times \\frac{1}{3}}=\\frac{1}{13/9}=\\frac{9}{13}$. Wait, computing precisely: $\\frac{4/3 - 1/3}{1 + 4/9} = \\frac{1}{13/9} = \\frac{9}{13}$. Converting to inverse sin/tan forms as in solution: $\\alpha-\\beta = \\tan^{-1}\\left(\\frac{9}{13}\\right) = \\sin^{-1}\\left(\\frac{9}{5\\sqrt{10}}\\right)$. Hence option (1).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The value of $\\sin^{-1}\\left(\\frac{12}{13}\\right)-\\sin^{-1}\\left(\\frac{3}{5}\\right)$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\pi-\\sin^{-1}\\left(\\frac{63}{65}\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\pi}{2}-\\sin^{-1}\\left(\\frac{56}{65}\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\pi}{2}-\\cos^{-1}\\left(\\frac{9}{65}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\pi-\\cos^{-1}\\left(\\frac{33}{65}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "We use $\\sin^{-1}x-\\sin^{-1}y=\\sin^{-1}\\left(x\\sqrt{1-y^2}-y\\sqrt{1-x^2}\\right)$ for $xy \\ge 0$ and $x^2+y^2 \\le 1$. Here $-\\sin^{-1}\\left(\\frac{3}{5}\\right)+\\sin^{-1}\\left(\\frac{12}{13}\\right)$ can be transformed. Using standard formula: $\\sin^{-1}\\left(\\frac{3}{5}\\sqrt{1-\\frac{144}{169}}-\\frac{12}{13}\\sqrt{1-\\frac{9}{25}}\\right)=\\cos^{-1}\\left(\\frac{56}{65}\\right)=\\frac{\\pi}{2}-\\sin^{-1}\\left(\\frac{56}{65}\\right)$. Hence option (2).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $y = \\sum_{k=1}^6 k \\cos^{-1} \\left\\{ \\frac{3}{5} \\cos kx - \\frac{4}{5} \\sin kx \\right\\}$, then $\\frac{dy}{dx}$ at $x = 0$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "91",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "81",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "72",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "90",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$y = \\sum_{k=1}^6 k \\cos^{-1} \\left\\{ \\frac{3}{5} \\cos kx - \\frac{4}{5} \\sin kx \\right\\}$. Let $\\cos \\alpha = \\frac{3}{5}$ and $\\sin \\alpha = \\frac{4}{5}$. $y = \\sum_{k=1}^6 k \\cos^{-1} \\{\\cos \\alpha \\cos kx - \\sin \\alpha \\sin kx\\} = \\sum_{k=1}^6 k \\cos^{-1}(\\cos(kx + \\alpha)) = \\sum_{k=1}^6 k(kx + \\alpha) = \\sum_{k=1}^6 (k^2x + \\alpha k)$. $\\frac{dy}{dx} = \\sum_{k=1}^6 k^2 = \\frac{6(7)(13)}{6} = 91$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$2\\pi - \\left(\\sin^{-1} \\frac{4}{5} + \\sin^{-1} \\frac{5}{13} + \\sin^{-1} \\frac{16}{65}\\right)$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\pi}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{7\\pi}{4}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{3\\pi}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{5\\pi}{4}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$2\\pi - \\left(\\sin^{-1} \\frac{4}{5} + \\sin^{-1} \\frac{5}{13} + \\sin^{-1} \\frac{16}{65}\\right) = 2\\pi - \\left(\\tan^{-1} \\frac{4}{3} + \\tan^{-1} \\frac{5}{12} + \\tan^{-1} \\frac{16}{63}\\right) = 2\\pi - \\left\\{\\tan^{-1} \\left(\\frac{\\frac{4}{3} + \\frac{5}{12}}{1 - \\frac{4}{3} \\cdot \\frac{5}{12}}\\right) + \\tan^{-1} \\frac{16}{63}\\right\\} = 2\\pi - \\left(\\tan^{-1} \\frac{63}{16} + \\tan^{-1} \\frac{16}{63}\\right) = 2\\pi - \\left(\\tan^{-1} \\frac{63}{16} + \\cot^{-1} \\frac{63}{16}\\right) = \\frac{3\\pi}{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $S_k = \\sum_{r=1}^{k} \\tan^{-1}\\left(\\frac{6^r}{2^{2r+1}+3^{2r+1}}\\right)$. Then $\\lim_{k \\to \\infty} S_k$ equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\tan^{-1}\\left(\\frac{3}{2}\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\pi}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\cot^{-1}\\left(\\frac{3}{2}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\tan^{-1}(3)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Q1 (3)\n$S_k = \\sum_{r=1}^{k} \\tan^{-1}\\left(\\frac{6^r}{2^{2r+1}+3^{2r+1}}\\right)$\nDivide by $3^{2r}$\n$\\sum_{r=1}^{k} \\tan^{-1}\\left(\\frac{\\left(\\frac{2}{3}\\right)^r}{\\left(\\frac{2}{3}\\right)^{2r}\\cdot 2 + 3}\\right)$\n$\\sum_{r=1}^{k} \\tan^{-1}\\left(\\frac{\\left(\\frac{2}{3}\\right)^r}{3\\left(\\left(\\frac{2}{3}\\right)^{2r+1} + 1\\right)}\\right)$\nLet $\\left(\\frac{2}{3}\\right)^r = t$\n$\\sum_{r=1}^{k} \\tan^{-1}\\left(\\frac{\\frac{t}{3}}{1+\\frac{2}{3}t^2}\\right)$\n$\\sum_{r=1}^{k} \\tan^{-1}\\left(\\frac{t - \\frac{2t}{3}}{1 + t \\cdot \\frac{2t}{3}}\\right)$\n$\\sum_{r=1}^{k} \\left(\\tan^{-1}(t) - \\tan^{-1}\\left(\\frac{2t}{3}\\right)\\right)$\n$\\sum_{r=1}^{k} \\left(\\tan^{-1}\\left(\\frac{2}{3}\\right)^r - \\tan^{-1}\\left(\\frac{2}{3}\\right)^{r+1}\\right)$\n$S_k = \\tan^{-1}\\left(\\frac{2}{3}\\right) - \\tan^{-1}\\left(\\frac{2}{3}\\right)^{k+1}$\n$S_\\infty = \\lim_{k \\to \\infty} \\left(\\tan^{-1}\\left(\\frac{2}{3}\\right) - \\tan^{-1}\\left(\\frac{2}{3}\\right)^{k+1}\\right)$\n$= \\tan^{-1}\\left(\\frac{2}{3}\\right) - \\tan^{-1}(0)$\n$\\therefore S_\\infty = \\tan^{-1}\\left(\\frac{2}{3}\\right) = \\cot^{-1}\\left(\\frac{3}{2}\\right)$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\cot^{-1}(\\alpha) = \\cot^{-1}2 + \\cot^{-1}8 + \\cot^{-1}18 + \\cot^{-1}32 + \\dots\\dots$ upto 100 terms, then $\\alpha$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1.01$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$1.02$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1.03$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Q3 (1)\n$\\cot^{-1}(\\alpha) = \\cot^{-1}(2) + \\cot^{-1}(8) + \\cot^{-1}(18) + \\dots\\dots$\n$= \\sum_{n=1}^{100} \\tan^{-1}\\left(\\frac{2}{4n^2}\\right)$\n$= \\sum_{n=1}^{100} \\tan^{-1}\\left(\\frac{(2n+1)-(2n-1)}{1+(2n+1)(2n-1)}\\right)$\n$= \\sum_{n=1}^{100} \\tan^{-1}(2n+1) - \\tan^{-1}(2n-1)$\n$= \\tan^{-1}201 - \\tan^{-1}1$\n$= \\tan^{-1}\\left(\\frac{200}{202}\\right)$\n$\\therefore \\cot^{-1}(\\alpha) = \\cot^{-1}\\left(\\frac{202}{200}\\right)$\n$\\alpha = 1.01$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The number of solutions of the equation $\\sin^{-1} \\left[x^2 + \\frac{1}{3}\\right] + \\cos^{-1} \\left[x^2 - \\frac{2}{3}\\right] = x^2$ (where $[t]$ denotes the greatest integer function $\\le t$) is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "0",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "3",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given equation $\\sin^{-1}\\left[x^2 + \\frac{1}{3}\\right] + \\cos^{-1}\\left[x^2 - \\frac{2}{3}\\right] = x^2$. Now, $\\sin^{-1}\\left[x^2 + \\frac{1}{3}\\right]$ is defined if $-1 \\le x^2 + \\frac{1}{3} < 2 \\Rightarrow \\frac{-4}{3} \\le x^2 < \\frac{5}{3} \\Rightarrow 0 \\le x^2 < \\frac{5}{3}$ and $\\cos^{-1}\\left[x^2 - \\frac{2}{3}\\right]$ is defined if $-1 \\le x^2 - \\frac{2}{3} < 2 \\Rightarrow \\frac{-1}{3} \\le x^2 < \\frac{8}{3} \\Rightarrow 0 \\le x^2 < \\frac{8}{3}$. So, from (1) and (2) we can conclude $0 \\le x^2 < \\frac{5}{3}$. Case-1 if $0 \\le x^2 < \\frac{2}{3}$, $\\sin^{-1}(0) + \\cos^{-1}(-1) = x^2 \\Rightarrow x + \\pi = x^2 \\Rightarrow x^2 = \\pi$ but $\\pi \\not\\in \\left[0, \\frac{2}{3}\\right)$ $\\Rightarrow$ No value of 'x'. Case-II if $\\frac{2}{3} \\le x^2 < \\frac{5}{3}$, $\\sin^{-1}(1) + \\cos^{-1}(0) = x^2 \\Rightarrow \\frac{\\pi}{2} + \\frac{\\pi}{2} = x^2 \\Rightarrow x^2 = \\pi$ but $\\pi \\not\\in \\left[\\frac{2}{3}, \\frac{5}{3}\\right)$ $\\Rightarrow$ No value of 'x'. So, number of solutions of the equation is zero.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\lim_{n \\to \\infty} \\tan\\left\\{\\sum_{r=1}^{n} \\tan^{-1}\\left(\\frac{1}{1+r+r^2}\\right)\\right\\}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "$\\tan\\left(\\lim_{n \\to \\infty} \\sum_{r=1}^{n} [\\tan^{-1}(r+1) - \\tan^{-1}(r)]\\right) = \\tan\\left(\\lim_{n \\to \\infty} (\\tan^{-1}(n+1) - \\frac{\\pi}{4})\\right) = \\tan\\left(\\frac{\\pi}{4}\\right) = 1$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\operatorname{cosec}\\left[2\\cot^{-1}(5) + \\cos^{-1}\\left(\\frac{4}{5}\\right)\\right]$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{75}{56}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{65}{56}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{56}{33}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{65}{33}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$\\operatorname{cosec}\\left(2\\cot^{-1}(5) + \\cos^{-1}\\left(\\frac{4}{5}\\right)\\right) = \\operatorname{cosec}\\left(2\\tan^{-1}\\left(\\frac{1}{5}\\right) + \\cos^{-1}\\left(\\frac{4}{5}\\right)\\right) = \\operatorname{cosec}\\left(\\tan^{-1}\\left(\\frac{5}{12}\\right) + \\cos^{-1}\\left(\\frac{4}{5}\\right)\\right) = \\frac{1}{\\sin(\\theta+\\phi)} = \\frac{65}{56}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\cos^{-1}(\\cos(-5)) + \\sin^{-1}(\\sin(6)) - \\tan^{-1}(\\tan(12))$ is equal to : \\n (The inverse trigonometric functions take the principal values)",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$3\\pi - 11$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4\\pi - 9$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4\\pi - 11$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$3\\pi + 1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$\\cos^{-1}(\\cos(-5)) + \\sin^{-1}(\\sin(6)) - \\tan^{-1}(\\tan(12)) \\\\ \\Rightarrow (2\\pi - 5) + (6 - 2\\pi) - (12 - 4\\pi) \\\\ \\Rightarrow 4\\pi - 11$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let M and m respectively be the maximum and minimum values of the function $f(x) = \\tan^{-1}(\\sin x + \\cos x)$ in $\\left[0, \\frac{\\pi}{2}\\right]$. Then the value of $\\tan(M - m)$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2 + \\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2 - \\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3 + 2\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$3 - 2\\sqrt{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let $g(x) = \\sin x + \\cos x = \\sqrt{2} \\sin\\left(x + \\frac{\\pi}{4}\\right) \\\\ g(x) \\in [1, \\sqrt{2}]$ for $x \\in [0, \\pi/2] \\\\ f(x) = \\tan^{-1}(\\sin x + \\cos x) \\in \\left[\\frac{\\pi}{4}, \\tan^{-1}\\sqrt{2}\\right] \\\\ \\tan\\left(\\tan^{-1}\\sqrt{2} - \\frac{\\pi}{4}\\right) = \\frac{\\sqrt{2}-1}{1+\\sqrt{2}} \\times \\frac{\\sqrt{2}-1}{\\sqrt{2}-1} = 3 - 2\\sqrt{2}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\sum_{r=1}^{50} \\tan^{-1} \\frac{1}{2r^2} = p$, then the value of $\\tan p$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{101}{102}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{50}{51}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$100$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{51}{50}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$\\sum_{r=1}^{50} \\tan^{-1}\\left(\\frac{2}{4r^2}\\right) = \\sum_{r=1}^{50} \\tan^{-1}\\left(\\frac{(2r+1)-(2r-1)}{1+(2r+1)(2r-1)}\\right) \\\\ \\sum_{r=1}^{50} \\tan^{-1}(2r+1) - \\tan^{-1}(2r-1) \\\\ \\tan^{-1}(101) - \\tan^{-1} 1 \\Rightarrow \\tan^{-1} \\frac{50}{51}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The number of real roots of the equation $\\tan^{-1} \\sqrt{x(x + 1)} + \\sin^{-1} \\sqrt{x^2 + x + 1} = \\frac{\\pi}{4}$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "0",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "For equation to be defined, $x^2 + x \\ge 0 \\implies x^2 + x + 1 \\ge 1$. \\newline $\\therefore$ only possibility that the equation is defined $x^2 + x = 0 \\implies x = 0; x = -1$. \\newline None of these values satisfy. \\newline $\\therefore$ No of roots = $0$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The value of $\\tan \\left(2 \\tan^{-1}\\left(\\frac{3}{5}\\right) + \\sin^{-1}\\left(\\frac{5}{13}\\right)\\right)$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{-181}{69}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{220}{21}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{-291}{76}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{151}{63}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$\\tan^{-1} \\frac{3}{5} + \\tan^{-1} \\frac{3}{5} + \\tan^{-1} \\frac{5}{12}$ \\newline $= \\tan^{-1} \\frac{\\frac{6}{5}}{1-\\frac{9}{25}} + \\tan^{-1} \\frac{5}{12} = \\tan^{-1} \\frac{15}{8} + \\tan^{-1} \\frac{5}{12}$ \\newline $= \\tan^{-1} \\frac{\\frac{15}{8} + \\frac{5}{12}}{1 - \\frac{15}{8} \\cdot \\frac{5}{12}} = \\tan^{-1} \\frac{220}{21}$ \\newline $\\tan \\left(\\tan^{-1} \\frac{220}{21}\\right) = \\frac{220}{21}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The set of all values of $k$ for which $(\\tan^{-1} x)^3 + (\\cot^{-1} x)^3 = k\\pi^3, x \\in \\mathbb{R}$, is the interval :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\left[\\frac{1}{32}, \\frac{7}{8}\\right]$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\left(\\frac{1}{24}, \\frac{13}{16}\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\left[\\frac{1}{48}, \\frac{13}{16}\\right]$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\left[\\frac{1}{32}, \\frac{9}{8}\\right]$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let $S = (\\tan^{-1} x)^3 + (\\cot^{-1} x)^3 = (\\tan^{-1} x + \\cot^{-1} x)^3 - 3\\tan^{-1} x \\cdot \\cot^{-1} x (\\tan^{-1} x + \\cot^{-1} x) = \\frac{\\pi^3}{8} - \\frac{3\\pi}{2} \\tan^{-1} x \\left(\\frac{\\pi}{2} - \\tan^{-1} x\\right) = \\frac{3\\pi}{2} \\left(\\tan^{-1} x - \\frac{\\pi}{4}\\right)^2 + \\frac{\\pi^3}{32}$. $\\Rightarrow \\frac{\\pi^3}{32} \\le S < \\frac{7}{8}\\pi^3$. $\\Rightarrow \\frac{\\pi^3}{32} \\le K\\pi^3 < \\frac{7}{8}\\pi^3$. $\\Rightarrow \\frac{1}{32} \\le K \\le \\frac{7}{8}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $x * y = x^2 + y^3$ and $(x * 1) * 1 = x * (1 * 1)$. Then a value of $2\\sin^{-1}\\left(\\frac{x^4 + x^2 - 2}{x^4 + x^2 + 2}\\right)$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\pi}{4}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\pi}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\pi}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{\\pi}{6}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since $(x * 1) * 1 = x * (1 * 1)$, we have $(x^2 + 1) * 1 = x * (2)$, $(x^2 + 1)^2 + 1 = x^2 + 8$, $x^4 + x^2 - 6 = 0 \\Rightarrow (x^2 + 3)(x^2 - 2) = 0$. $x^2 = 2$. $\\Rightarrow 2\\sin^{-1}\\left(\\frac{x^4 + x^2 - 2}{x^4 + x^2 + 2}\\right) = 2\\sin^{-1}\\left(\\frac{1}{2}\\right) = \\frac{\\pi}{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The value of $\\tan^{-1}\\left(\\frac{\\cos\\left(\\frac{15\\pi}{4}\\right) - 1}{\\sin\\left(\\frac{\\pi}{4}\\right)}\\right)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-\\frac{\\pi}{4}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-\\frac{\\pi}{8}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-\\frac{5\\pi}{12}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-\\frac{4\\pi}{9}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$\\tan^{-1}\\left(\\frac{\\cos\\left(4\\pi - \\frac{\\pi}{4}\\right) - 1}{\\sin\\left(\\frac{\\pi}{4}\\right)}\\right) \\Rightarrow \\tan^{-1}\\left(\\frac{\\cos\\frac{\\pi}{4} - 1}{\\sin\\frac{\\pi}{4}}\\right) = \\tan^{-1}\\left(\\frac{1 - \\sqrt{2}}{1}\\right) = -\\frac{\\pi}{8}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the inverse trigonometric functions take principal values, then $\\cos^{-1}\\left(\\frac{3}{10} \\cos\\left(\\tan^{-1}\\left(\\frac{4}{3}\\right)\\right) + \\frac{2}{5} \\sin\\left(\\tan^{-1}\\left(\\frac{4}{3}\\right)\\right)\\right)$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\pi}{4}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\pi}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{\\pi}{6}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given expression evaluates to $\\cos^{-1}\\left(\\frac{3}{10} \\cdot \\frac{3}{5} + \\frac{2}{5} \\cdot \\frac{4}{5}\\right) = \\cos^{-1}\\left(\\frac{9}{50} + \\frac{8}{25}\\right) = \\cos^{-1}\\left(\\frac{25}{50}\\right) = \\cos^{-1}\\left(\\frac{1}{2}\\right) = \\frac{\\pi}{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\sin^{-1}\\left(\\sin\\frac{2\\pi}{3}\\right) + \\cos^{-1}\\left(\\cos\\frac{7\\pi}{6}\\right) + \\tan^{-1}\\left(\\tan\\frac{3\\pi}{4}\\right)$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{11\\pi}{12}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{17\\pi}{12}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{31\\pi}{12}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-\\frac{3\\pi}{4}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\sin^{-1}\\left(\\sin\\frac{\\pi}{3}\\right) + \\cos^{-1}\\left(\\cos\\frac{5\\pi}{6}\\right) + \\tan^{-1}\\left(\\tan\\left(-\\frac{\\pi}{4}\\right)\\right) = \\frac{\\pi}{3} + \\frac{5\\pi}{6} - \\frac{\\pi}{4} = \\frac{4\\pi + 10\\pi - 3\\pi}{12} = \\frac{11\\pi}{12}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The value of $\\cot\\left(\\sum_{n=1}^{50} \\tan^{-1}\\left(\\frac{1}{1 + n + n^2}\\right)\\right)$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{26}{25}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{25}{26}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{50}{51}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{52}{51}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using $\\sum \\tan^{-1}\\left(\\frac{1}{1 + n(n+1)}\\right) = \\sum (\\tan^{-1}(n+1) - \\tan^{-1}n) = \\tan^{-1}(51) - \\tan^{-1}(1) = \\tan^{-1}\\left(\\frac{51 - 1}{1 + 51 \\cdot 1}\\right) = \\tan^{-1}\\left(\\frac{50}{52}\\right) = \\tan^{-1}\\left(\\frac{25}{26}\\right)$. Thus, $\\cot(\\tan^{-1}(25/26)) = \\frac{26}{25}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The value of $\\cos^{-1} \\left(\\frac{3}{10} \\cos \\left(\\tan^{-1} \\frac{4}{3}\\right) + \\frac{2}{5} \\sin \\left(\\tan^{-1} \\frac{4}{3}\\right)\\right)$ is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\pi}{4}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\pi}{6}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\pi}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{\\pi}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let $\\tan^{-1} \\frac{4}{3} = \\theta \\implies \\tan \\theta = \\frac{4}{3}$. From a right-angled triangle with opposite side 4 and adjacent side 3, the hypotenuse is 5. So $\\cos \\theta = \\frac{3}{5}$ and $\\sin \\theta = \\frac{4}{5}$.\nE = $\\cos^{-1} \\left(\\frac{3}{10} \\cos \\theta + \\frac{2}{5} \\sin \\theta\\right)$\n= $\\cos^{-1} \\left(\\frac{3}{10} \\times \\frac{3}{5} + \\frac{2}{5} \\times \\frac{4}{5}\\right)$\n= $\\cos^{-1} \\left(\\frac{9}{50} + \\frac{8}{25}\\right) = \\cos^{-1} \\left(\\frac{25}{50}\\right) = \\cos^{-1} \\left(\\frac{1}{2}\\right) = \\frac{\\pi}{3}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The value of $\\sin^{-1} \\left(\\sin \\frac{2\\pi}{3}\\right) + \\cos^{-1} \\left(\\cos \\frac{7\\pi}{6}\\right) + \\tan^{-1} \\left(\\tan \\frac{3\\pi}{4}\\right)$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{11\\pi}{12}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{5\\pi}{12}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{3\\pi}{4}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{\\pi}{4}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\sin^{-1} \\left(\\sin \\frac{2\\pi}{3}\\right) = \\pi - \\frac{2\\pi}{3} = \\frac{\\pi}{3}$\n$\\cos^{-1} \\left(\\cos \\frac{7\\pi}{6}\\right) = 2\\pi - \\frac{7\\pi}{6} = \\frac{5\\pi}{6}$\n$\\tan^{-1} \\left(\\tan \\frac{3\\pi}{4}\\right) = \\frac{3\\pi}{4} - \\pi = \\frac{-\\pi}{4}$\nSum = $\\frac{\\pi}{3} + \\frac{5\\pi}{6} - \\frac{\\pi}{4} = \\frac{4\\pi + 10\\pi - 3\\pi}{12} = \\frac{11\\pi}{12}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $S = \\left\\{x \\in \\mathbb{R} : \\sin^{-1}\\left(\\frac{x+1}{\\sqrt{x^2+2x+2}}\\right) - \\sin^{-1}\\left(\\frac{x}{\\sqrt{x^2+1}}\\right) = \\frac{\\pi}{4}\\right\\}$ then $\\sum_{x \\in S} \\left(\\sin\\left((x^2+x+5)\\frac{\\pi}{2}\\right) - \\cos((x^2+x+5)\\pi)\\right)$ is equal to ________.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Given, $\\sin^{-1}\\left(\\frac{x+1}{\\sqrt{x^2+2x+2}}\\right) - \\sin^{-1}\\left(\\frac{x}{\\sqrt{x^2+1}}\\right) = \\frac{\\pi}{4}$\n$\\Rightarrow \\sin^{-1}\\left(\\frac{x+1}{\\sqrt{x^2+2x+2}}\\right) = \\frac{\\pi}{4} + \\sin^{-1}\\left(\\frac{x}{\\sqrt{x^2+1}}\\right)$\n$\\Rightarrow \\frac{x+1}{\\sqrt{x^2+2x+2}} = \\sin\\left(\\frac{\\pi}{4} + \\sin^{-1}\\frac{x}{\\sqrt{x^2+1}}\\right)$\n$\\Rightarrow \\frac{x+1}{\\sqrt{x^2+2x+2}} = \\frac{1}{\\sqrt{2}} \\times \\frac{1}{\\sqrt{x^2+1}} + \\frac{1}{\\sqrt{2}} \\times \\frac{x}{\\sqrt{x^2+1}}$\n$\\Rightarrow \\frac{x+1}{\\sqrt{x^2+2x+2}} = \\frac{x+1}{\\sqrt{2}\\sqrt{x^2+1}}$\n$\\Rightarrow (x+1)\\left(\\sqrt{2}\\sqrt{x^2+1} - \\sqrt{x^2+x+2}\\right) = 0$\n$\\Rightarrow x = -1$ or $\\sqrt{x^2+x+2} = \\sqrt{2}\\cdot\\sqrt{x^2+1}$\nNow solving, $\\sqrt{x^2+x+2} = \\sqrt{2}\\cdot\\sqrt{x^2+1}$ we get,\n$x^2+x+2 = 2(x^2+1)$\n$\\Rightarrow x^2-x = 0$\n$\\Rightarrow x = 0, x = 1$ {rejected as $x=1$ will not satisfy the given equation}\nHence, $S = \\{0, 1\\}$\nNow solving, $\\sum_{x \\in S} \\left(\\sin\\left((x^2+x+5)\\frac{\\pi}{2}\\right) - \\cos((x^2+x+5)\\pi)\\right)$\n$= \\left(\\sin\\frac{5\\pi}{2} - \\cos 5\\pi + \\sin\\frac{5\\pi}{2} - \\cos 5\\pi\\right)$\n$= 1 - (-1) + 1 - (-1) = 4$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Q1 - 24 January - Shift 1\n$\\tan^{-1}\\\\left(\\\\frac{1+\\\\sqrt{3}}{3+\\\\sqrt{3}}\\\\right)+\\\\sec^{-1}\\\\left(\\\\sqrt{\\\\frac{8+4\\\\sqrt{3}}{6+3\\\\sqrt{3}}}\\\\right)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\\\frac{\\\\pi}{4}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\\\frac{\\\\pi}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\\\frac{\\\\pi}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\\\frac{\\\\pi}{6}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given expression:\n$$\\\\tan^{-1}\\\\left(\\\\frac{1+\\\\sqrt{3}}{3+\\\\sqrt{3}}\\\\right)+\\\\sec^{-1}\\\\left(\\\\sqrt{\\\\frac{8+4\\\\sqrt{3}}{6+3\\\\sqrt{3}}}\\\\right)$$\nRationalizing and simplifying both terms, we get $\\\\frac{\\\\pi}{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Q4 - 31 January - Shift 1\nIf $\\sin^{-1}\\frac{x}{17} + \\cos^{-1}\\frac{1}{5} - \\tan^{-1}\\frac{3}{36} = 0, 0 < \\alpha < 13$, then $\\sin^{-1}(\\sin \\alpha) + \\cos^{-1}(\\cos \\alpha)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\pi$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$16 - 5\\pi$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using trigonometric identities and evaluating the condition, we find $\\alpha$ and compute the value of $\\sin^{-1}(\\sin \\alpha) + \\cos^{-1}(\\cos \\alpha) = \\pi$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Q5 - 31 January - Shift 1\nIf the sum and product of four positive consecutive terms of a G.P. are $126$ and $1296$, respectively, then the sum of common ratios of all such GPs is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$7$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{9}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$14$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let the four terms be $\\frac{a}{r^3}, \\frac{a}{r}, ar, ar^3$. Using the product and sum conditions, we find the common ratios and their sum is $7$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Q8 - 01 February - Shift 2\nLet $S = \\left\\{x \\in \\mathbb{R} : 0 < x < 1 \\text{ and } 2\\tan^{-1}\\left(\\frac{1-x}{1+x}\\right) = \\cos^{-1}\\left(\\frac{1-x^2}{1+x^2}\\right)\\right\\}$. If $n(S)$ denotes the number of elements in S then :\n(1) $n(S) = 2$ and only one element in $S$ is less than $\\frac{1}{2}$.\n(2) $n(S) = 1$ and the element in $S$ is more than $\\frac{1}{2}$.\n(3) $n(S) = 1$ and the element in $S$ is less than $\\frac{1}{2}$.\n(4) $n(S) = 0$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "(1)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "(2)",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "(3)",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "(4)",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Simplify the equation using properties of inverse trigonometric functions. Solving for $x$ in $0 < x < 1$ yields a single solution less than $\\frac{1}{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The value of $\\tan^{-1}\\left(\\frac{1+\\sqrt{3}}{3+\\sqrt{3}}\\right) + \\sec^{-1}\\left(\\sqrt{\\frac{8+4\\sqrt{3}}{6+3\\sqrt{3}}}\\right)$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\pi}{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\pi}{6}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\pi}{4}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{\\pi}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "We are given the expression $\\tan^{-1}\\left(\\frac{1+\\sqrt{3}}{3+\\sqrt{3}}\\right) + \\sec^{-1}\\left(\\sqrt{\\frac{8+4\\sqrt{3}}{6+3\\sqrt{3}}}\\right)$. Simplifying the terms, we get $\\tan^{-1}\\left(\\frac{1}{\\sqrt{3}}\\right) + \\sec^{-1}\\left(\\frac{2}{\\sqrt{3}}\\right) = \\frac{\\pi}{6} + \\frac{\\pi}{6} = \\frac{\\pi}{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\tan^{-1}\\frac{2x}{1-x^2} + \\tan^{-1}\\frac{2x}{1-x^2} = \\frac{\\pi}{3}$, then the value of $x$ is given by:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2-\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-\\frac{1}{\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2+\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{\\sqrt{3}}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Case I: $x > 0$. $\\tan^{-1}\\frac{2x}{1-x^2} + \\tan^{-1}\\frac{2x}{1-x^2} = \\frac{\\pi}{3} \\implies x = 2-\\sqrt{3}$. Case II: $x < 0$. $\\tan^{-1}\\frac{2x}{1-x^2} + \\tan^{-1}\\frac{2x}{1-x^2} + \\pi = \\frac{\\pi}{3} \\implies x = -\\frac{1}{\\sqrt{3}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\alpha = \\frac{\\pi}{12}$ and $\\beta = \\alpha - \\frac{\\pi}{2}$, then the relation between $\\alpha$ and $\\beta$ satisfies:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\alpha = \\frac{\\pi}{6}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\alpha = \\frac{\\pi}{12}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\alpha = \\frac{\\pi}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\alpha = \\frac{\\pi}{4}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Using the given conditions and solving $\\alpha x^2 + \\beta x + \\sin^{-1}[(x-3)^2+1] + \\cos^{-1}[(x-3)^2+1]=0$, we get $x=3$ and subsequently $\\alpha = \\frac{\\pi}{12}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $0 < x < 1$ and $2 \\tan^{-1} \\left(\\frac{1-x}{1+x}\\right) = \\cos^{-1} \\left(\\frac{1-x^2}{1+x^2}\\right)$, then what is the value of $x$?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\sqrt{2} - 1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\sqrt{2} + 1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$1 - \\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$0.5$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $0 < x < 1$, let $\\tan^{-1} x = \\theta \\in \\left(0, \\frac{\\pi}{4}\\right)$, so $x = \\tan \\theta$. The equation becomes $2 \\tan^{-1} \\left(\\tan \\left(\\frac{\\pi}{4} - \\theta\\right)\\right) = \\cos^{-1}(\\cos 2\\theta)$. This simplifies to $2\\left(\\frac{\\pi}{4} - \\theta\\right) = 2\\theta \\implies 4\\theta = \\frac{\\pi}{2} \\implies \\theta = \\frac{\\pi}{8}$. Therefore, $x = \\tan \\frac{\\pi}{8} = \\sqrt{2} - 1 \\approx 0.414$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Given that the inverse trigonometric function assumes principal values only. Let $x, y$ be any two real numbers in $[-1, 1]$ such that $\\cos^{-1} x - \\sin^{-1} y = \\alpha, \\frac{-\\pi}{2} \\le \\alpha \\le \\pi$. Then, the minimum value of $x^2 + y^2 + 2xy \\sin \\alpha$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-\\frac{1}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\cos^{-1} x - \\left(\\frac{\\pi}{2} - \\cos^{-1} y\\right) = \\alpha$\n$\\cos^{-1} x + \\cos^{-1} y = \\frac{\\pi}{2} + \\alpha$\n$\\alpha \\in \\left[-\\frac{\\pi}{2}, \\pi\\right], \\frac{\\pi}{2} + \\alpha \\in \\left[0, \\frac{3\\pi}{2}\\right]$\n$\\cos^{-1} \\left(xy - \\sqrt{1 - x^2} \\sqrt{1 - y^2}\\right) = \\frac{\\pi}{2} + \\alpha$\n$xy - \\sqrt{1 - x^2} \\sqrt{1 - y^2} = -\\sin \\alpha$\n$(xy + \\sin \\alpha) = \\left(1 - x^2\\right) \\left(1 - y^2\\right)$\n$x^2 y^2 + 2xy \\sin \\alpha + \\sin^2 \\alpha = 1 - x^2 - y^2 + x^2 y^2$\n$x^2 + y^2 + 2xy \\sin \\alpha = 1 - \\sin^2 \\alpha$\n$x^2 + y^2 + 2xy \\sin \\alpha = \\cos^2 \\alpha$\nMin. value of $\\cos^2 \\alpha = 0$\nAt $\\alpha = \\frac{\\pi}{2}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "For $n \\in \\mathbb{N}$, if $\\cot^{-1} 3 + \\cot^{-1} 4 + \\cot^{-1} 5 + \\cot^{-1} n = \\frac{\\pi}{4}$, then $n$ is equal to _____",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$47$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\cot^{-1} 3 + \\cot^{-1} 4 + \\cot^{-1} 5 + \\cot^{-1} n = \\frac{\\pi}{4}$\n$\\tan^{-1} \\frac{1}{3} + \\tan^{-1} \\frac{1}{4} + \\tan^{-1} \\frac{1}{5} + \\tan^{-1} \\frac{1}{n} = \\frac{\\pi}{4}$\n$\\tan^{-1} \\left(\\frac{46}{48}\\right) + \\tan^{-1} \\frac{1}{n} = \\frac{\\pi}{4}$\n$\\tan^{-1} \\left(\\frac{23}{24}\\right) + \\tan^{-1} \\frac{1}{n} = \\frac{\\pi}{4}$\n$\\tan^{-1} \\frac{1}{n} = \\tan^{-1} 1 - \\tan^{-1} \\frac{23}{24}$\n$\\tan^{-1} \\frac{1}{n} = \\tan^{-1} \\left(\\frac{1 - \\frac{23}{24}}{1 + \\frac{23}{24}}\\right)$\n$\\tan^{-1} \\frac{1}{n} = \\tan^{-1} \\left(\\frac{\\frac{1}{24}}{\\frac{47}{24}}\\right)$\n$\\tan^{-1} \\frac{1}{n} = \\tan^{-1} \\frac{1}{47}$\n$n = 47$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let the inverse trigonometric functions take principal values. The number of real solutions of the equation $2 \\sin^{-1} x + 3 \\cos^{-1} x = \\frac{2\\pi}{5}$, is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$2 \\sin^{-1} x + 3 \\cos^{-1} x = \\frac{2\\pi}{5}$\n$\\Rightarrow \\pi + \\cos^{-1} x = \\frac{2\\pi}{5}$\n$\\Rightarrow \\cos^{-1} x = \\frac{-3\\pi}{5}$\nNot possible\nAns. 0",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Considering only the principal values of inverse trigonometric functions, the number of positive real values of $x$ satisfying $\\tan^{-1}(x) + \\tan^{-1}(2x) = \\frac{\\pi}{4}$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "More than 2",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "0",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$\\tan^{-1} x + \\tan^{-1} 2x = \\frac{\\pi}{4}; x > 0$\n$\\Rightarrow \\tan^{-1} 2x = \\frac{\\pi}{4} - \\tan^{-1} x$\nTaking $\\tan$ both sides\n$\\Rightarrow 2x = \\frac{1 - x}{1 + x}$\n$\\Rightarrow 2x^2 + 3x - 1 = 0$\n$x = \\frac{-3 \\pm \\sqrt{9 + 8}}{8} = \\frac{-3 \\pm \\sqrt{17}}{8}$\nOnly possible $x = \\frac{-3 + \\sqrt{17}}{8}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $a = \\sin^{-1}(\\sin(5))$ and $b = \\cos^{-1}(\\cos(5))$, then $a^2 + b^2$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4\\pi^2 + 25$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$8\\pi^2 - 40\\pi + 50$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4\\pi^2 - 20\\pi + 50$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$25$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$a = \\sin^{-1}(\\sin(5)) = 5 - 2\\pi$\nand $b = \\cos^{-1}(\\cos(5)) = 2\\pi - 5$\n$\\therefore a^2 + b^2 = (5 - 2\\pi)^2 + (2\\pi - 5)^2 = 8\\pi^2 - 40\\pi + 50$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Considering the principal values of inverse trigonometric functions, the value of the expression $\\tan\\left(2\\sin^{-1}\\left(\\frac{2}{\\sqrt{13}}\\right) - 2\\cos^{-1}\\left(\\frac{3}{\\sqrt{10}}\\right)\\right)$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{16}{63}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-\\frac{33}{56}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-\\frac{16}{63}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{33}{56}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let $\\alpha = \\sin^{-1}\\left(\\frac{2}{\\sqrt{13}}\\right)$.\\nThen $\\sin\\alpha = \\frac{2}{\\sqrt{13}}, \\cos\\alpha = \\frac{3}{\\sqrt{13}}, \\tan\\alpha = \\frac{2}{3}$. So $\\tan(2\\alpha) = \\frac{2 \\cdot \\frac{2}{3}}{1 - \\frac{4}{9}} = \\frac{12}{5}$.\\nLet $\\gamma = \\cos^{-1}\\left(\\frac{3}{\\sqrt{10}}\\right)$.\\nThen $\\cos\\gamma = \\frac{3}{\\sqrt{10}}, \\sin\\gamma = \\frac{1}{\\sqrt{10}}, \\tan\\gamma = \\frac{1}{3}$. So $\\tan(2\\gamma) = \\frac{2 \\cdot \\frac{1}{3}}{1 - \\frac{1}{9}} = \\frac{3}{4}$.\\nTherefore $\\tan(2\\alpha - 2\\gamma) = \\frac{\\frac{12}{5} - \\frac{3}{4}}{1 + \\frac{12}{5} \\cdot \\frac{3}{4}} = \\frac{\\frac{33}{20}}{\\frac{56}{20}} = \\frac{33}{56}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The number of solutions of $\\tan^{-1} 4x + \\tan^{-1} 6x = \\frac{\\pi}{6}$, where $-\\frac{1}{2\\sqrt{6}} < x < \\frac{1}{2\\sqrt{6}}$, is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "For $x \\in \\left(-\\frac{1}{2\\sqrt{6}}, \\frac{1}{2\\sqrt{6}}\\right)$, $24x^2 < 1$.\\nSo $\\tan^{-1}(4x) + \\tan^{-1}(6x) = \\tan^{-1}\\left(\\frac{10x}{1 - 24x^2}\\right) = \\frac{\\pi}{6}$.\\n$\\frac{10x}{1 - 24x^2} = \\frac{1}{\\sqrt{3}} \\Rightarrow 24x^2 + 10\\sqrt{3}x - 1 = 0$.\\n$x = \\frac{-10\\sqrt{3} \\pm \\sqrt{300 + 96}}{48} = \\frac{-5\\sqrt{3} \\pm 3\\sqrt{11}}{24}$.\\n$x_1 = \\frac{-5\\sqrt{3} + 3\\sqrt{11}}{24} \\approx 0.054$ (valid, lies in range).\\n$x_2 = \\frac{-5\\sqrt{3} - 3\\sqrt{11}}{24} \\approx -0.776$ (rejected, outside range).\\nNumber of solutions = $1$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the domain of the function $f(x) = \\cos^{-1}\\left(\\frac{2x - 5}{11 - 3x}\\right) + \\sin^{-1}\\left(2x^2 - 3x + 1\\right)$ is the interval $[\\alpha, \\beta]$, then $\\alpha + 2\\beta$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "For $\\cos^{-1}\\left(\\frac{2x - 5}{11 - 3x}\\right)$: $-1 \\le \\frac{2x - 5}{11 - 3x} \\le 1$ gives $x \\le \\frac{16}{5}$ or $x > 6$.\\nFor $\\sin^{-1}\\left(2x^2 - 3x + 1\\right)$: $-1 \\le 2x^2 - 3x + 1 \\le 1$.\\nLower bound always satisfied (discriminant $< 0$).\\nUpper bound gives $x(2x - 3) \\le 0$, so $0 \\le x \\le \\frac{3}{2}$.\\nIntersection of both conditions: $\\left[0, \\frac{3}{2}\\right]$.\\nThus $\\alpha = 0, \\beta = \\frac{3}{2}$.\\n$\\alpha + 2\\beta = 0 + 3 = 3$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\tan \\left(2 \\tan^{-1} \\frac{1}{5} + \\sec^{-1} \\frac{\\sqrt{5}}{2} + 2 \\tan^{-1} \\frac{1}{8}\\right)$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{4}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{5}{4}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$\\tan \\left(2 \\left(\\tan^{-1} \\frac{1}{5} + \\tan^{-1} \\frac{1}{8}\\right) + \\tan^{-1} \\left(\\frac{1}{2}\\right)\\right) = \\tan \\left[2 \\tan^{-1} \\left(\\frac{1}{3}\\right) + \\tan^{-1} \\left(\\frac{1}{2}\\right)\\right] = 2$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Considering the principal values of the inverse trigonometric functions, then the sum of all the solutions of the equation $\\cos^{-1}(x) - 2\\sin^{-1}(x) = \\cos^{-1}(2x)$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-\\frac{1}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Solving $\\cos^{-1}(x) - 2\\sin^{-1}(x) = \\cos^{-1}(2x)$ yields sum of solutions equal to $0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The sum of all values of $x$ satisfying the equation $\\cos^{-1} x = 2 \\sin^{-1} x = \\cos^{-1} 2x$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given equation: $\\cos^{-1} x = 2 \\sin^{-1} x = \\cos^{-1} 2x$. We know that $2 \\sin^{-1} x = \\pi - \\cos^{-1} x$. Substituting this gives $\\cos^{-1} x - 2\\left(\\frac{\\pi}{2} - \\cos^{-1} x\\right) = \\cos^{-1} 2x \\Rightarrow \\cos^{-1} x - \\pi + 2 \\cos^{-1} x = \\cos^{-1} 2x \\Rightarrow 3\\cos^{-1} x = \\pi + \\cos^{-1} 2x \\dots (1)$. Taking cosine on both sides: $\\cos(3\\cos^{-1} x) = \\cos(\\pi + \\cos^{-1} 2x) \\Rightarrow 4x^3 - 3x = -2x \\Rightarrow 4x^3 = x \\Rightarrow x = 0, \\pm \\frac{1}{2}$. All satisfy the original equation, hence the sum is $-\\frac{1}{2} + \\frac{1}{2} = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

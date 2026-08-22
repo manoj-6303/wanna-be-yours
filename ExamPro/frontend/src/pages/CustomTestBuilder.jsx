@@ -82,7 +82,7 @@ export default function CustomTestBuilder() {
                   onChange={e => {
                     const newSubject = e.target.value;
                     const newFilters = {...filters, subject: newSubject};
-                    if ((newSubject === 'Mathematics A' || newSubject === 'Mathematics B') && filters.difficulty === 'Easy') {
+                    if (newSubject === 'Mathematics' && filters.difficulty === 'Easy') {
                       newFilters.difficulty = 'Medium';
                     }
                     setFilters(newFilters);
@@ -91,8 +91,7 @@ export default function CustomTestBuilder() {
                 >
                   <option value="Physics">Physics</option>
                   <option value="Chemistry">Chemistry</option>
-                  <option value="Mathematics A">Mathematics A</option>
-                  <option value="Mathematics B">Mathematics B</option>
+                  <option value="Mathematics">Mathematics</option>
                 </select>
               </div>
 
@@ -115,7 +114,7 @@ export default function CustomTestBuilder() {
                   className="w-full border-gray-300 rounded-lg shadow-sm p-3 border focus:ring-indigo-500 focus:border-indigo-500"
                 >
                   <option value="">Mixed</option>
-                  {!(filters.subject === 'Mathematics A' || filters.subject === 'Mathematics B') && <option value="Easy">Basic (Easy)</option>}
+                  {filters.subject !== 'Mathematics' && <option value="Easy">Basic (Easy)</option>}
                   <option value="Medium">Medium</option>
                   <option value="Hard">Advanced (Hard)</option>
                 </select>

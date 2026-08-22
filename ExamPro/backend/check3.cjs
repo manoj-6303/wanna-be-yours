@@ -1,0 +1,1 @@
+const mongoose = require('mongoose'); mongoose.connect('mongodb://localhost:27017/exampro').then(async () => { const q = await mongoose.connection.db.collection('questions').find({ topic: 'Applications Of Derivatives', chapter: { $exists: false } }).limit(5).toArray(); console.log(q.map(x => x.question.substring(0, 50))); mongoose.disconnect(); });

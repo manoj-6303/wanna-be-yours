@@ -1,0 +1,1 @@
+const mongoose = require('mongoose'); mongoose.connect('mongodb://localhost:27017/exampro').then(async () => { const q = await mongoose.connection.db.collection('questions').findOne({ question: { $regex: 'stra\\\\\\\\right' } }); if(q) console.log(q.question); mongoose.disconnect(); });

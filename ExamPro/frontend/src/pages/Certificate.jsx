@@ -4,7 +4,16 @@ import { useNavigate, useLocation } from 'react-router-dom';
 export default function Certificate() {
   const navigate = useNavigate();
   const location = useLocation();
-  const certData = location.state?.certificate; // Passed via state
+  
+  const [certData, setCertData] = useState(() => {
+    const fromState = location.state?.certificate;
+    if (fromState) {
+      localStorage.setItem('lastCertificateData', JSON.stringify(fromState));
+      return fromState;
+    }
+    const saved = localStorage.getItem('lastCertificateData');
+    return saved ? JSON.parse(saved) : null;
+  });
   
   if (!certData) {
     return (

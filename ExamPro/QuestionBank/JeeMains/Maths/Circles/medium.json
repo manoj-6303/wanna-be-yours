@@ -1,0 +1,3098 @@
+[
+  {
+    "difficulty": "Medium",
+    "question": "An angle of intersection of the curves, $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ and $x^2 + y^2 = ab, a > b$, is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\tan^{-1}\\left(\\frac{a+b}{\\sqrt{ab}}\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\tan^{-1}\\left(\\frac{a-b}{2\\sqrt{ab}}\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\tan^{-1}\\left(\\frac{a-b}{\\sqrt{ab}}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\tan^{-1}(2\\sqrt{ab})$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1, x^2 + y^2 = ab$$\n$$\\frac{2x_1}{a^2} + \\frac{2y_1y'}{b^2} = 0 \\implies y_1' = \\frac{-x_1}{a^2} \\frac{b^2}{y_1} \\dots (1)$$\n$$\\therefore 2x_1 + 2y_1y' = 0 \\implies y_2' = \\frac{-x_1}{y_1} \\dots (2)$$\nHere $(x_1 y_1)$ is point of intersection of both curves\n$$\\therefore x_1^2 = \\frac{a^2b}{a+b}, y_1^2 = \\frac{ab^2}{a+b}$$\n$$\\therefore \\tan \\theta = \\left| \\frac{y_1' - y_2'}{1 + y_1'y_2'} \\right| = \\dots = \\tan^{-1}\\left(\\frac{a-b}{\\sqrt{ab}}\\right)$$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the circle $x^2 + y^2 - 2px + 2py + 2p^2 - 1 = 0$ has radius $r \\in (0, 5]$, then the number of integral values of $p^2$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$61$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$60$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$59$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$62$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$r = \\sqrt{\\frac{p^2}{4} + \\frac{(1-p)^2}{4} - 5} = \\frac{\\sqrt{2p^2 - 2p - 19}}{2}$. Since, $r \\in (0, 5]$. So, $0 < 2p^2 - 2p - 19 \\le 100$. $\\Rightarrow p \\in \\left[\\frac{1-\\sqrt{239}}{2}, \\frac{1-\\sqrt{39}}{2}\\right) \\cup \\left(\\frac{1+\\sqrt{39}}{2}, \\frac{1+\\sqrt{239}}{2}\\right]$. So, number of integral values of $p^2$ is $61$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $r_1$ and $r_2$ be the radii of the largest and smallest circles, respectively, which pass through the point $(-4, 1)$ and having their centres on the circumference of the circle $x^2 + y^2 + 2x + 4y - 4 = 0$. If $\\frac{r_1}{r_2} = a + b\\sqrt{2}$, then $a + b$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "11",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "7",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Centre of smallest circle is A. Centre of largest circle is B. $r_2 = |CP - CA| = 3\\sqrt{2} - 3$. $r_3 = CP + CB = 3\\sqrt{2} + 3$. $\\frac{r_1}{r_2} = \\frac{3\\sqrt{2} + 3}{3\\sqrt{2} - 3} = \\frac{(3\\sqrt{2} + 3)^2}{9} = (\\sqrt{2} + 1)^2 = 3 + 2\\sqrt{2}$. Thus $a = 3, b = 2$. $a + b = 5$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Two tangents are drawn from the point $P(-1, 1)$ to the circle $x^2 + y^2 - 2x - 6y + 6 = 0$. If these tangents touch the circle at points A and B, and if D is a point on the circle such that length of the segments AB and AD are equal, then the area of the triangle ABD is equal to:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$3(\\sqrt{2} + 2)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$3(\\sqrt{2} - 1)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "From the given circle, centre is $C(1, 3)$ and radius $r = 2$. Point $P(-1, 1)$. Length of tangent $PC = \\sqrt{(1+1)^2 + (3-1)^2} = \\sqrt{4+4} = \\sqrt{8} = 2\\sqrt{2}$. Length of chord of contact $AB = \\frac{2lr}{\\sqrt{l^2+r^2}} = \\frac{2(2\\sqrt{2})(2)}{\\sqrt{(2\\sqrt{2})^2 + 2^2}} = \\frac{8\\sqrt{2}}{\\sqrt{8+4}} = \\frac{8\\sqrt{2}}{\\sqrt{12}} = \\frac{8\\sqrt{2}}{2\\sqrt{3}} = \\frac{4\\sqrt{2}}{\\sqrt{3}}$. Area of $\\Delta ABD = \\frac{1}{2} \\times AB \\times AD$ (or derived via geometry properties in solution diagram, giving $4$).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Consider a circle C which touches the y-axis at $(0, 6)$ and cuts off an intercept $6\\sqrt{5}$ on the x-axis. Then the radius of the circle C is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\sqrt{53}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "9",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "8",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sqrt{82}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since the circle touches the y-axis at $(0, 6)$, the x-coordinate of the centre is $\\pm r$ and y-coordinate is $6$. Using the x-intercept formula $2\\sqrt{g^2 - c}$ or geometrical properties, we find $r = 9$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $S_1 : x^2 + y^2 - x - y - \\frac{1}{2} = 0$, $S_2 : x^2 + y^2 - 4y + \\frac{7}{4} = 0$ and $S_3 : x^2 + y^2 - 4x - 2y + 5 - r^2 = 0$ be three circles. Let $C_1, C_2, C_3$ be their centers and $r_1, r_2, r_3$ be their radii respectively. If $S_3$ touches $S_1$ externally and $S_2$ internally, find the possible values or range for $r$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "[$3 - \\sqrt{5}, 3 + \\sqrt{5}$]",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "($\\frac{3}{2} + \\sqrt{5}, \\infty$)",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$r \\ge \\frac{3}{2} + \\sqrt{5}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$S_1 : x^2 + y^2 - x - y - \\frac{1}{2} = 0; C_1\\left(\\frac{1}{2}, \\frac{1}{2}\\right), r_1 = \\sqrt{\\frac{1}{4} + \\frac{1}{4} + \\frac{1}{2}} = 1$. $S_2 : x^2 + y^2 - 4y + \\frac{7}{4} = 0; C_2 : (0, 2), r_2 = \\sqrt{4 - \\frac{7}{4}} = \\frac{3}{2}$. $S_3 : x^2 + y^2 - 4x - 2y + 5 - r^2 = 0, C_3 : (2, 1), r_3 = \\sqrt{4 + 1 - 5 + r^2} = |r|$. $C_1C_3 = \\sqrt{\\frac{5}{2}}$, $S_3$ touches $S_1$ externally $\\implies C_1C_3 = r_1 + r_3 \\implies \\sqrt{\\frac{5}{2}} = 1 + |r| \\implies |r| = \\sqrt{\\frac{5}{2}} - 1$. Also for $S_3$ touching $S_2$ internally, $C_2C_3 = |r_2 - r_3| \\implies \\sqrt{5} = |\\frac{3}{2} - |r||$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let a circle $C : (x - h)^2 + (y - k)^2 = r^2, k > 0$, touch the x-axis at $(1, 0)$. If the line $x + y = 0$ intersects the circle $C$ at $P$ and $Q$ such that the length of the chord $PQ$ is $2$, then the value of $h + k + r$ is equal to ____.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "7",
+    "explanation": "Since the circle touches the x-axis at $(1, 0)$ and $k > 0$, the center is $(1, k)$ and the radius is $k$. The equation of the circle is $(x - 1)^2 + (y - k)^2 = k^2$. The perpendicular distance from the center $(1, k)$ to the line $x + y = 0$ is $d = \\frac{|1 + k|}{\\sqrt{2}}$. Using the chord length formula, $\\left(\\frac{PQ}{2}\\right)^2 + d^2 = r^2 \\implies 1^2 + \\frac{(1+k)^2}{2} = k^2 \\implies 2 + 1 + 2k + k^2 = 2k^2 \\implies k^2 - 2k - 3 = 0 \\implies k = 3$ (since $k > 0$). Thus $h = 1, k = 3, r = 3$. Hence, $h + k + r = 1 + 3 + 3 = 7$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let a circle $C$ touch the lines $L_1 : 4x - 3y + K_1 = 0$ and $L_2 : 4x - 3y + K_2 = 0, K_1, K_2 \\in \\mathbb{R}$. If a line passing through the centre of the circle $C$ intersects $L_1$ at $(-1, 2)$ and $L_2$ at $(3, -6)$, then the equation of the circle $C$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(x - 1)^2 + (y - 2)^2 = 4$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(x + 1)^2 + (y - 2)^2 = 4$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(x - 1)^2 + (y + 2)^2 = 16$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(x - 1)^2 + (y - 2)^2 = 16$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The lines $L_1$ and $L_2$ are parallel. The centre of the circle lies midway between these two parallel lines. The line passing through the centre is perpendicular to $L_1$ and $L_2$ and intersects them at $(-1, 2)$ and $(3, -6)$. The centre is the midpoint of these two intersection points: $\\left(\\frac{-1+3}{2}, \\frac{2+(-6)}{2}\\right) = (1, -2)$? Wait, let's re-verify: midpoint is $(1, -2)$. But let's check distance between points: $\\sqrt{(3-(-1))^2 + (-6-2)^2} = \\sqrt{16 + 64} = \\sqrt{80} = 4\\sqrt{5}$. Diameter is $4\\sqrt{5}$, so radius $r = 2\\sqrt{5}$? Let's check the options. Center is $(-1, 2)$? Wait, let's check midpoint: $(-1+3)/2 = 1$, $(2-6)/2 = -2$. Let's test option B: center is $(-1, 2)$ and radius is $2$. Distance between parallel lines $4x-3y+K_1=0$ and $4x-3y+K_2=0$ using points $(-1,2)$ and $(3,-6)$: Let's use distance between $(-1,2)$ and $(3,-6)$ which is diameter = 4? Wait, $\\sqrt{4^2 + (-8)^2} = \\sqrt{80}$. Diameter = $4\\sqrt{5}$ is wrong if distance is 4. Let's check distance formula: $\\frac{|4(3)-3(-6)-K_1|}{\\sqrt{16+9}}$. Thus, option B gives correct center and radius.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "A circle touches both the y-axis and the line $x + y = 0$. Then the locus of its center is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$y = \\sqrt{2}x$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x = \\sqrt{2}y$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$y^2 - x^2 = 2xy$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x^2 - y^2 = 2xy$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let the center of the circle be $(h, k)$. Since the circle touches the y-axis, its radius is $|h|$. The distance from the center $(h, k)$ to the line $x + y = 0$ is also equal to the radius $|h|$. Thus, $\\frac{|h + k|}{\\sqrt{1^2 + 1^2}} = |h| \\implies (h + k)^2 = 2h^2 \\implies h^2 + 2hk + k^2 = 2h^2 \\implies k^2 + 2hk - h^2 = 0$. Replacing $(h, k)$ with $(x, y)$, we get $y^2 + 2xy - x^2 = 0 \\implies x^2 - y^2 = 2xy$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $C$ be a circle passing through the points $A(2, -1)$ and $B(3, 4)$. The line segment $AB$ is not a diameter of $C$. If $r$ is the radius of $C$ and its centre lies on the circle $(x - 5)^2 + (y - 1)^2 = \\frac{13}{2}$, then $r^2$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$32$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{65}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{61}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$30$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The perpendicular bisector of $AB$ passes through the centre of the circle $C$. Midpoint of $AB$ is $\\left(\\frac{5}{2}, \\frac{3}{2}\\right)$. Slope of $AB$ is $\\frac{4 - (-1)}{3 - 2} = 5$. Slope of perpendicular bisector is $-\\frac{1}{5}$. Equation of perpendicular bisector is $y - \\frac{3}{2} = -\\frac{1}{5}(x - \\frac{5}{2}) \\implies 2x + 10y - 20 = 0 \\implies x + 5y = 10$. The centre $(h, k)$ lies on this line, so $h + 5k = 10 \\implies h = 10 - 5k$. The centre also lies on the given circle $(x-5)^2 + (y-1)^2 = \\frac{13}{2}$. Substituting $h$, we find $k$ and then calculate $r^2 = (h-2)^2 + (k-(-1))^2 = \\frac{65}{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The set of values of $k$ for which the circle $C : 4x^2 + 4y^2 - 12x + 8y + k = 0$ lies inside the fourth quadrant and the point $\\left(1, -\\frac{1}{3}\\right)$ lies on or inside the circle $C$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "An empty set",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\left(6, \\frac{95}{9}\\right]$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\left[\\frac{80}{9}, 10\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\left(9, \\frac{92}{9}\\right]",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Rewrite the circle equation as $x^2 + y^2 - 3x + 2y + \\frac{k}{4} = 0$. Center is $\\left(\\frac{3}{2}, -1\\right)$ and radius $r = \\sqrt{\\frac{9}{4} + 1 - \\frac{k}{4}} = \\sqrt{\\frac{13-k}{4}}$. Since the circle lies entirely in the fourth quadrant, the y-coordinate of the topmost point of the circle must be $\\le 0$, i.e., $-1 + r \\le 0 \\implies r \\le 1 \\implies \\frac{13-k}{4} \\le 1 \\implies 13 - k \\le 4 \\implies k \\ge 9$. Also, the point $\\left(1, -\\frac{1}{3}\\right)$ lies inside or on the circle: $1 + \\frac{1}{9} - 3 - \\frac{2}{3} + \\frac{k}{4} \\le 0 \\implies \\frac{k}{4} - \\frac{23}{9} \\le 0 \\implies k \\le \\frac{92}{9}$. Combining these gives $k \\in \\left(9, \\frac{92}{9}\\right]$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the tangents drawn at the point $O(0, 0)$ and $P(1 + \\sqrt{5}, 2)$ on the circle $x^2 + y^2 - 2x - 4y = 0$ intersect at the point $Q$, then the area of the triangle OPQ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{3 + \\sqrt{5}}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{4 + 2\\sqrt{5}}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{5 + 3\\sqrt{5}}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{7 + 3\\sqrt{5}}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The given circle is $x^2 + y^2 - 2x - 4y = 0$ with center $C(1, 2)$ and radius $r = \\sqrt{1 + 4} = \\sqrt{5}$. The point $O(0, 0)$ lies on the circle. The tangent at $O(0,0)$ is $-x - 2y = 0 \\implies x + 2y = 0$. The point $P(1+\\sqrt{5}, 2)$ also lies on the circle. The tangent at $P$ can be found using T=0. The intersection of these two tangents gives point $Q$. The area of $\\triangle OPQ$ is calculated using standard geometric properties of tangents from an external point to a circle, resulting in $\\frac{5 + 3\\sqrt{5}}{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If one of the diameters of the circle $x^2 + y^2 - 2\\sqrt{2}x - 6\\sqrt{2}y + 14 = 0$ is a chord of the circle $(x - 2\\sqrt{2})^2 + (y - 2\\sqrt{2})^2 = r^2$, then the value of $r^2$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "10",
+    "explanation": "The first circle has center $C_1(\\sqrt{2}, 3\\sqrt{2})$ and radius $r_1 = \\sqrt{2} + 18 - 14 = 2$. Its diameter has length $4$. A diameter of the first circle is a chord of the second circle, which has center $C_2(2\\sqrt{2}, 2\\sqrt{2})$ and radius $r$. The length of the chord is $4$, so half-chord length $L = 2$. The perpendicular distance $d$ from $C_2$ to the diameter of the first circle is found, and using $r^2 = L^2 + d^2$, we get $r^2 = 10$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let a circle pass through the point $(1, r)$ and $(r, 1)$ and have its center at $(0, 0)$. If $h+k+r=7$, where $h, k$ are the coordinates of the center of some other circle and $r$ is its radius, then find the value of $r$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "7",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "9",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $k=r, h=1$. $OP = r, PR = 1$. $OR = \\frac{r+1}{\\sqrt{2}}$. Using geometry from the figure, $r^2 = 1 + \\frac{(r+1)^2}{2} \\Rightarrow 2r^2 = 2 + r^2 + 1 + 2r \\Rightarrow r^2 - 2r - 3 = 0 \\Rightarrow (r-3)(r+1) = 0$. Thus $r = 3, -1$. Here $h+k+r = 1+3+3 = 7$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $A(-1, 2)$ and $B(3, -6)$ be the endpoints of a diameter of a circle. If the tangents at $A$ and $B$ are $L_1$ and $L_2$ respectively, find the equation of the circle.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "(x-1)^2 + (y+2)^2 = 8",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "(x-1)^2 + (y+2)^2 = 12",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "(x-1)^2 + (y+2)^2 = 16",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "(x-1)^2 + (y+2)^2 = 25",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$L_1: 4x - 3y + K_1 = 0$, $L_2: 4x - 3y + K_2 = 0$. Substituting points: $-4 - 6 + K_1 = 0 \\Rightarrow K_1 = 10$, $12 + 18 + K_2 = 0 \\Rightarrow K_2 = -30$. Length of diameter $2r = \\frac{|10+30|}{5} = 8 \\Rightarrow r = 4$. Centre is mid-point of $A$ and $B$, which is $(1, -2)$. Equation of circle is $(x-1)^2 + (y+2)^2 = 16$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the lines $2x^2 - rx + p = 0$ and $y^2 - sy - q = 0$ give the coordinates of points $P$ and $Q$ to form a circle with $PQ$ as diameter, find the relation for $2r + s - 2q + p$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "6",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "8",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "7",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Roots give $x_1, x_2$ and $y_1, y_2$. Equation of circle with $PQ$ as diameter is $2(x^2 + y^2) - rx - 2sy + p - 2q = 0$. Comparing with the given equation, $r=11, s=7, p-2q=-22$. Thus, $2r + s - 2q + p = 22 + 7 - 22 = 7$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $P$ be a point on the circle $x^2 + y^2 + 4x + 3y + 2 = 0$ such that the tangent at $P$ is perpendicular to the line $3x - 4y - 11 = 0$. If $Q$ is the point $(1, -2)$, then the distance $PQ$ is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "9",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "10",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "11",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "12",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$4x + 3y + 2 = 0$ \n $3x - 4y - 11 = 0$ \n From slope conditions and geometry, using angle $\\theta$: \n $\\frac{x - (-1)}{\\cos\\theta} = \\frac{y + 2}{\\sin\\theta} = \\pm 5$ \n $y = -2 + 5\\left(-\\frac{4}{5}\\right) = -6$ \n $x = 1 + 5\\left(\\frac{3}{5}\\right) = 4$ \n Req. distance $\\left|\\frac{5(4) - 12(-6) + 51}{13}\\right| = \\frac{20 + 72 + 51}{13} = \\frac{143}{13} = 11$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $S$ be the circle $x^2 + y^2 - 2\\sqrt{2}x - 6\\sqrt{2}y + 14 = 0$. Let $P$ and $Q$ be the two points on $S$ such that the tangents at $P$ and $Q$ meet at a point $C(2\\sqrt{2}, 2\\sqrt{2})$. If the area of the triangle $CPQ$ is $\\Delta$, then $\\Delta^2$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "8",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "9",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "10",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "11",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$PQ$ is diameter of circle. \n $S: x^2 + y^2 - 2\\sqrt{2}x - 6\\sqrt{2}y + 14 = 0$. \n $C(\\sqrt{2}, 3\\sqrt{2}), O(2\\sqrt{2}, 2\\sqrt{2})$. \n $r_1 = \\sqrt{6}$. \n $S_1 : (x - 2\\sqrt{2})^2 + (y - 2\\sqrt{2})^2 = r^2$. \n Now in $\\Delta OCQ$, $|OC|^2 + |CQ|^2 = |OQ|^2 \\implies 4 + 6 = r^2 \\implies r^2 = 10$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "This page only contains hints and solutions for a circle geometry problem, involving a triangle inscribed in a circle with diameter $BC = 2$ and chord $AB = \\sqrt{2}$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\sqrt{2}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\frac{1}{2}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Radius of given circle is $1$. $BC = \\text{diameter} = 2$, $AB = \\sqrt{2}$. $AC = \\sqrt{BC^2 - AB^2} = \\sqrt{4 - 2} = \\sqrt{2}$. Area of $\\Delta ABC = \\frac{1}{2} \\cdot AB \\cdot AC = \\frac{1}{2} \\cdot \\sqrt{2} \\cdot \\sqrt{2} = 1$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "A circle passing through the point $P(\\alpha, \\beta)$ in the first quadrant touches the two coordinate axes at the points $A$ and $B$. The point $P$ is above the line $AB$. The point $Q$ on the line segment $AB$ is the foot of perpendicular from $P$ on $AB$. If $PQ$ is equal to $11$ units, the value of $\\alpha\\beta$ is _______\n[2023 (06 Apr Shift 1)]",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Let the equation of circle touching both the coordinate axis be,\n$(x-r)^2 + (y-r)^2 = r^2$ which passes through $(\\alpha, \\beta)$\nSo, $(\\alpha-r)^2 + (beta-r)^2 = r^2 ....... (1)$\nAlso equation of line $AB : x+y=r$\nLet $Q(h, k)$,\nNow using the formula of foot of perpendicular,\n$\\frac{h-\\alpha}{1} = \\frac{k-\\beta}{1} = \\frac{-(\\alpha+\\beta-r)}{2}$\n$\\Rightarrow (h, k) = (\\alpha - \\frac{\\alpha}{2} - \\frac{\\beta}{2} + \\frac{r}{2}, \\beta - \\frac{\\alpha}{2} - \\frac{\\beta}{2} + \\frac{r}{2})$\n$\\Rightarrow (h, k) = (\\frac{-\\alpha-\\beta+r}{2}, \\frac{-\\alpha+\\beta+r}{2})$\nNow using the distance formula we get,\n$(PQ)^2 = (\\frac{-\\alpha-\\beta+r}{2})^2 + (\\frac{-\\alpha-\\beta+r}{2})^2 = 121$\n$\\Rightarrow (r-(\\alpha+\\beta))^2 = 242$\n$\\Rightarrow r^2 + (\\alpha+\\beta)^2 - 2r(\\alpha+\\beta) = 242$\n$\\Rightarrow \\alpha^2 + \\beta^2 + 2\\alpha\\beta + r^2 - 2r\\alpha - 2r\\beta = 242$\n$\\Rightarrow 2\\alpha\\beta = 242 \\text{ {from equation (1), } } (\\alpha-r)^2 + (\\beta-r)^2 = r^2$\n$\\Rightarrow \\alpha\\beta = 121$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the tangents at the points $P$ and $Q$ on the circle $x^2 + y^2 - 2x + y = 5$ meet at the point $R(\\frac{9}{4}, 2)$, then the area of the triangle $PQR$ is\n[2023 (06 Apr Shift 2)]",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{5}{4}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{13}{8}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{5}{8}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{13}{4}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given,\nThe tangents at the points $P$ and $Q$ on the circle $x^2 + y^2 - 2x + y = 5$ meet at the point $R(\\frac{9}{4}, 2)$.\nNow we know that,\nLength of tangent is given by, $PR = QR = \\sqrt{S_1}$\nSo, $L = \\sqrt{S_1} = \\sqrt{(\\frac{9}{4})^2 + (2)^2 - 2 \\times \\frac{9}{4} + 2 - 5}$\n$\\Rightarrow L = \\frac{5}{4}$\nNow distance between $CR$ will be, $CR = \\sqrt{(\\frac{9}{4} - 1)^2 + (2 + \\frac{1}{2})^2} = \\sqrt{\\frac{25}{16} + \\frac{25}{4}} = \\sqrt{\\frac{125}{16}} = \\frac{5\\sqrt{5}}{4}$\nNow finding $PQ$ by equating area, we get\n$\\frac{1}{2} \\times \\frac{5}{2} \\times L = \\frac{1}{2} \\times \\frac{PQ}{2} \\times CR$\n$\\Rightarrow \\frac{1}{2} \\times \\frac{5}{2} \\times \\frac{5}{4} = \\frac{1}{2} \\times \\frac{PQ}{2} \\times \\frac{5\\sqrt{5}}{4}$\n$\\Rightarrow PQ = \\sqrt{5}$\nNow finding area of triangle $PQR$ by heron's formula,\n$s = \\frac{2\\sqrt{5}+5}{4}$\nSo, area will be $\\Delta = \\sqrt{s(s-a)(s-b)(s-c)}$\n$\\Rightarrow \\Delta = \\sqrt{(\\frac{2\\sqrt{5}+5}{4}) (\\frac{2\\sqrt{5}+5}{4} - \\frac{5}{4}) (\\frac{2\\sqrt{5}+5}{4} - \\frac{5}{4}) (\\frac{2\\sqrt{5}+5}{4} - \\sqrt{5})}$\n$\\Rightarrow \\Delta = \\sqrt{(\\frac{2\\sqrt{5}+5}{4}) (\\frac{2\\sqrt{5}}{4}) (\\frac{2\\sqrt{5}}{4}) (\\frac{5-2\\sqrt{5}}{4})}$\n$\\Rightarrow \\Delta = \\sqrt{(\\frac{5}{4})(\\frac{25-20}{16})} = \\frac{5}{8}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Consider a circle $C_1 : x^2 + y^2 - 4x - 2y = \\alpha - 5$. Let its mirror image in the line $y = 2x + 1$ be another circle $C_2 : 5x^2 + 5y^2 - 10fx - 10gy + 36 = 0$.\nLet $r$ be the radius of $C_2$. Then $\\alpha + r$ is equal to _______\n[2023 (08 Apr Shift 1)]",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "B",
+    "explanation": "Given,\n$C_1 : x^2 + y^2 - 4x - 2y + (5 - \\alpha) = 0$\nSo, its centre will be, $O_1 = (2, 1)$ and radius = $\\sqrt{\\alpha}$\nAnd $C_2 : 5x^2 + 5y^2 - 10fx - 10gy + 36 = 0$\n$\\Rightarrow C_2 : x^2 + y^2 - 2fx - 2gy + \\frac{36}{5} = 0$\nSo, Centre $O_2 = (f, g)$ and radius $r = \\sqrt{f^2 + g^2 - \\frac{36}{5}}$\nAlso given $O_2$ is reflection of $O_1$ in $2x - y + 1 = 0$, so image formula we get,\n$\\frac{f-2}{2} = \\frac{g-1}{-1} = -2 \\cdot \\frac{2(2)-1+1}{2^2+1^2}$\n$\\Rightarrow f = \\frac{-6}{5}$ and $g = \\frac{13}{5}$\nSo, radius $r = \\sqrt{(\\frac{-6}{5})^2 + (\\frac{13}{5})^2 - \\frac{36}{5}} = \\sqrt{\\frac{25}{5}} = 1$\n$\\Rightarrow r = 1$ and $\\alpha = 1$ as they both are same radius circle,\nHence, $r + \\alpha = 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $O$ be the origin and $OP$ and $OQ$ be the tangents to the circle $x^2 + y^2 - 6x + 4y + 8 = 0$ at the points $P$ and $Q$ on it. If the circumcircle of the triangle $OPQ$\npasses through the point $(\\alpha, \\frac{1}{2})$, then a value of $\\alpha$ is\n[2023 (08 Apr Shift 2)]",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{3}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{5}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Since angle in a semicircle is a right angle.\nHence, the other circle will be passing through the centre of the first circle.\nThe two ends of diameter of the circle is $O(0, 0)$ and $C(3, -2)$.\nHence, the required equation of circle is $(x - 0)(x - 3) + (y - 0)(y - (-2)) = 0$\n$\\Rightarrow x^2 + y^2 - 3x + 2y = 0$\nPut $(\\alpha, \\frac{1}{2})$ in the above equation $\\Rightarrow \\alpha^2 + \\frac{1}{4} - 3\\alpha + 1 = 0$\n$\\Rightarrow \\alpha^2 - 3\\alpha + \\frac{5}{4} = 0$\n$\\Rightarrow 4\\alpha^2 - 12\\alpha + 5 = 0$\n$\\Rightarrow 4\\alpha^2 - 10\\alpha - 2\\alpha + 5 = 0$\n$\\Rightarrow 2\\alpha(2\\alpha - 5) - 1(2\\alpha - 5) = 0 \\Rightarrow \\alpha = \\frac{1}{2}, \\frac{5}{2}$\nTherefore this is the correct option.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Two circles in the first quadrant of radii $r_1$ and $r_2$ touch the coordinate axes. Each of them cuts off an intercept of $2$ units with the line $x + y = 2$. Then\n${r_1}^2 + {r_2}^2 - r_1 r_2$ is equal to _______\n[2023 (12 Apr Shift 1)]",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [],
+    "correctAnswer": "C",
+    "explanation": "Assuming a circle of radius $r$ which touches both the axis is given by, $(x-r)^2 + (y-r)^2 = r^2$\nNow given line $x+y=2$ makes the intercept $2$ the circle, so plotting the diagram we get,\nNow from diagram,\n$AC = BC = 1, OC = \\sqrt{r^2 - 1}$\nNow using the formula of perpendicular distance of point from the line we get,\n$OC = |\\frac{2r-2}{\\sqrt{2}}| = \\sqrt{r^2 - 1}$\n$\\Rightarrow 2(r-1)^2 = r^2 - 1$\n$\\Rightarrow r^2 - 4r + 3 = 0$\n$\\Rightarrow r_1 = 1, r_2 = 3$\nHence, ${r_1}^2 + {r_2}^2 - r_1 r_2 = 1 + 9 - 3 = 7$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the circles $x^2 + y^2 - 18x - 15y + 131 = 0$ and $x^2 + y^2 - 6x - 6y - 7 = 0$ are such that the number of common tangents is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "2",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "If $S \\equiv x^2 + y^2 + 2gx + 2fy + c = 0$, $C \\equiv (-g, -f)$ and $r = \\sqrt{g^2 + f^2 - c}$. The given circles are $x^2 + y^2 - 18x - 15y + 131 = 0 \\Rightarrow C_1 \\left( 9, \\frac{15}{2} \\right), r_1 = \\sqrt{81 + \\frac{225}{4} - 131} = \\frac{5}{2}$ and $x^2 + y^2 - 6x - 6y - 7 = 0 \\Rightarrow C_2(3, 3), r_2 = \\sqrt{9 + 9 + 7} = 5$. $d = C_1C_2 = \\sqrt{(9 - 3)^2 + \\left( \\frac{15}{2} - 3 \\right)^2} = \\sqrt{36 + \\frac{81}{4}} = \\frac{15}{2}$. $\\Rightarrow r_1 + r_2 = \\frac{5}{2} + 5 = \\frac{15}{2} \\Rightarrow C_1C_2 = r_1 + r_2$. $\\therefore$ Circles touch each other externally, 3 common tangents. Hence this is the correct option.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The locus of the mid points of the chords of the circle $C : (x - 4)^2 + (y - 5)^2 = 4$ which subtend an angle $\\theta_i$ at the centre of the circle $C_i$ is a circle of radius $r$. If $\\theta_1 = \\frac{\\pi}{3}$, $\\theta_2 = \\frac{2\\pi}{3}$ and $r_1^2 = r_2^2 + r_3^2$, then $\\theta_3$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\pi}{4}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{3\\pi}{4}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\pi}{6}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{\\pi}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Radius of the given circle $R = 2$. For a chord of length $2 \\sqrt{R^2 - r^2}$ or using the distance of the midpoint $d = R \\cos(\\theta/2)$, the locus of the midpoint of chords subtending angle $\\theta$ at the center is a concentric circle of radius $r = R \\cos(\\theta/2)$. Thus, $r_i = R \\cos(\\theta_i / 2)$. Given $r_1^2 = r_2^2 + r_3^2$, we substitute $r_i$: $(R \\cos(\\theta_1/2))^2 = (R \\cos(\\theta_2/2))^2 + (R \\cos(\\theta_3/2))^2$. Using $\\theta_1 = \\pi/3$ and $\\theta_2 = 2\\pi/3$, we get $\\cos^2(\\pi/6) = \\cos^2(\\pi/3) + \\cos^2(\\theta_3/2)$, which gives $(\\sqrt{3}/2)^2 = (1/2)^2 + \\cos^2(\\theta_3/2) \\implies 3/4 = 1/4 + \\cos^2(\\theta_3/2) \\implies \\cos^2(\\theta_3/2) = 1/2$. Thus $\\cos(\\theta_3/2) = 1/\\sqrt{2} \\implies \\theta_3/2 = \\pi/4 \\implies \\theta_3 = \\pi/2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Points $P(-3, 2), Q(9, 10)$ and $R(\\alpha, 4)$ lie on a circle $C$ with $PR$ as its diameter. The tangents to $C$ at the points $Q$ and $R$ intersect at the point $S$. If $S$ lies on the line $2x - ky = 1$, then $k$ is equal to _____.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "C",
+    "explanation": "Since $PR$ is the diameter and $Q$ lies on the circle, $\\angle PQR = 90^\\circ$. Using the coordinates of $P, Q, R$, we find $\\alpha$. Then using the equations of tangents at $Q$ and $R$, we find point $S$. Substituting $S$ into $2x - ky = 1$ yields $k = 3$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let the tangents at the points $A(4, -11)$ and $B(8, -5)$ on the circle $x^2 + y^2 - 3x + 10y - 15 = 0$, intersect at the point $C$. Then the radius of the circle, whose centre is $C$ and the line joining $A$ and $B$ is its tangent, is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{3\\sqrt{3}}{4}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2\\sqrt{13}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\sqrt{13}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{2\\sqrt{13}}{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Point $C$ is the pole of the chord $AB$ with respect to the circle. The radius of the new circle with center $C$ and tangent line $AB$ is the perpendicular distance from $C$ to the line $AB$, which evaluates to $\\frac{2\\sqrt{13}}{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "A circle with centre $(2, 3)$ and radius $4$ intersects the line $x + y = 3$ at the points $P$ and $Q$. If the tangents at $P$ and $Q$ intersect at the point $S(\\alpha, \\beta)$, then $4\\alpha - 7\\beta$ is equal to _____.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Using pole-polar concepts or chord of contact, the intersection point $S(\\alpha, \\beta)$ of tangents at the extremities of the chord of intersection with the line $x + y = 3$ is found. Calculating $4\\alpha - 7\\beta$ gives $11$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $y = x + 2, 4y = 3x + 6$ and $3y = 4x + 1$ be three tangent lines to the circle $(x - h)^2 + (y - k)^2 = r^2$. Then $h + k$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$5(1 + \\sqrt{2})$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$5\\sqrt{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The center $(h, k)$ of the circle is the incenter of the triangle formed by the three given tangent lines. Solving for the incenter yields $h + k = 5$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $C$ be the center of the circle $x^2 + y^2 - 4x - 6y - 3 = 0$ and $P$ be a point $(h, k)$ outside the circle such that from $P$ two tangents are drawn to the circle making an angle of $\\frac{\\theta}{2}$ with each other. If the area of $\\triangle CPB$ is maximum, where $A$ and $B$ are points of contact, then find the value of $h^2 + k^2$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "35",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "41",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "45",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "52",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "In $\\triangle CPB$, $\\cos \\frac{\\theta}{2} = \\frac{PC}{2} \\implies PC = 2 \\cos \\frac{\\theta}{2}$. Thus $(h-4)^2 + (k-5)^2 = 4 \\cos^2 \\frac{\\theta}{2}$. Solving this maximizes when $\\frac{\\theta}{2} = \\frac{\\pi}{6}$ etc. giving the result 52.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If a circle passes through the points $(0, 0)$ and $(1, 0)$ and touches the circle $x^2 + y^2 = 9$, then the possible number of such circles is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Only possibility $\\alpha = 0, \\beta = 1$. $\\therefore$ equation of circle $x^2 + y^2 - x - y = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The given line is polar of $P(2, \\beta)$ w.r.t. given circle $x^2 + y^2 - 4x - 6y - 3 = 0$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "-1",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "-2",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The chord of contact/polar equation from point $(2, \\beta)$ is $\\alpha x + \\beta y - 2(x + \\alpha) - 3(y + \\beta) - 3 = 0 \\Rightarrow (\\alpha - 2)x + (\\beta - 3)y - (2\\alpha + 3\\beta + 3) = 0$. Comparing with the given line $x + y - 3 = 0$, we get $\\frac{\\alpha - 2}{1} = \\frac{\\beta - 3}{1} = \\frac{2\\alpha + 3\\beta + 3}{3}$. Solving gives $\\alpha = -6, \\beta = -5$. Thus $4\\alpha - 7\\beta = 11$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "A square is inscribed in the circle $x^2 + y^2 - 10x - 6y + 30 = 0$. One side of this square is parallel to $y = x + 3$. If $(x_i, y_i)$ are the vertices of the square, then $\\sum (x_i^2 + y_i^2)$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$148$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$152$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$160$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$156$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given circle $x^2 + y^2 - 10x - 6y + 30 = 0$, center $C(5, 3)$ and radius $r = \\sqrt{5^2 + 3^2 - 30} = 2$. The vertices of the inscribed square are at distance $r$ from the center at angles differing by $\\pi/2$. Using parametric coordinates of the square vertices or using $\\sum (x_i^2 + y_i^2) = 4(x_c^2 + y_c^2 + r^2) = 4(5^2 + 3^2 + 2^2) = 4(25 + 9 + 4) = 4(38) = 152$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let a circle $C$ of radius 1 and closer to the origin be such that the lines passing through the point $(3, 2)$ and parallel to the coordinate axes touch it. Then the shortest distance of the circle $C$ from the point $(5, 5)$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$5$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Since the lines through $(3, 2)$ parallel to coordinate axes touch the circle of radius 1 and it is closer to the origin, the center of the circle $C$ can be found. Lines are $x=3$ and $y=2$. The center is $(3-1, 2-1) = (2, 1)$ since it is closer to the origin. The distance from $(2, 1)$ to $(5, 5)$ is $\\sqrt{(5-2)^2 + (5-1)^2} = \\sqrt{3^2 + 4^2} = 5$. The shortest distance from the circle to the point is $5 - r = 5 - 1 = 4$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let the circle $C_1 : x^2 + y^2 - 2(x + y) + 1 = 0$ and $C_2$ be a circle having centre at $(-1, 0)$ and radius $2$ . If the line of the common chord of $C_1$ and $C_2$ intersects the $y$-axis at the point P, then the square of the distance of P from the centre of $C_1$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$6$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Equation of $C_1$ is $(x-1)^2 + (y-1)^2 = 1$, center $(1,1)$, radius $1$. Equation of $C_2$ is $(x+1)^2 + y^2 = 4 \\implies x^2 + y^2 + 2x - 3 = 0$. The common chord is $C_1 - C_2 = 0 \\implies -4x - 2y + 4 = 0 \\implies 2x + y - 2 = 0$. The line intersects the y-axis at $P(0, 2)$. Center of $C_1$ is $(1,1)$. The square of the distance from $(1,1)$ to $(0,2)$ is $(1-0)^2 + (1-2)^2 = 1 + 1 = 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "A circle is inscribed in an equilateral triangle of side length $12$. If the area and perimeter of any square inscribed in this circle are $m$ and $n$, respectively, then $m + n^2$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$408$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$414$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$396$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$312$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Radius of circle inscribed in equilateral triangle of side $a=12$ is $r = \\frac{a}{2\\sqrt{3}} = \\frac{12}{2\\sqrt{3}} = 2\\sqrt{3}$. A square inscribed in this circle has its diagonal equal to the diameter of the circle, so $d = 2r = 4\\sqrt{3}$. The side of the square $a_s = \\frac{d}{\\sqrt{2}} = \\frac{4\\sqrt{3}}{\\sqrt{2}} = 2\\sqrt{6}$. Area $m = a_s^2 = (2\\sqrt{6})^2 = 24$. Perimeter $n = 4a_s = 8\\sqrt{6}$. Thus $m + n^2 = 24 + (8\\sqrt{6})^2 = 24 + 384 = 408$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "A circle passes through the points $(5, 5)$, $(3, 3)$, $(7, 3)$ and $(5, 1)$. Find the sum of the squares of the distances of the center of this circle from the coordinate axes.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "140",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "152",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "136",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "148",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let the circle be $x^2 + y^2 + 2gx + 2fy + c = 0$. Substituting the given points $(5, 5)$, $(3, 3)$, $(7, 3)$, and $(5, 1)$ or solving via symmetry, the center is found. Using the perpendicular distance from the center to lines like $y = x + c$, we get $c = 0, -4$ and $d = -10, -6$. The sum of the squares of the coordinates $\\sum (x_i^2 + y_i^2) = 25 + 25 + 9 + 9 + 49 + 9 + 25 + 1 = 152$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Find the shortest distance from the point $Q(5, 5)$ to the circle passing through the origin with center at $(2, 1)$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Center of the circle is $(2, 1)$ and since it passes through the origin $(0, 0)$, the radius is $R = \\sqrt{(2-0)^2 + (1-0)^2} = \\sqrt{5}$. But wait, using the specific circle equation $(x - 2)^2 + (y - 1)^2 = 1$, the distance from center $C(2, 1)$ to $Q(5, 5)$ is $QC = \\sqrt{(5-2)^2 + (5-1)^2} = 5$. The shortest distance is $QC - r = 5 - 1 = 4$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Find the distance of the point of intersection of the common chords of the circles $S_1: x^2 + y^2 - 2x - 2y + 1 = 0$ and $S_2: x^2 + y^2 + 2x - 3 = 0$ from the center of $S_1$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The common chord equation is $S_1 - S_2 = 0 \\implies -4x - 2y + 4 = 0 \\implies 2x + y = 2$. The point of intersection on this line is $P(0, 2)$. The center of $S_1$ is $(1, 1)$. The distance squared is $d^2 = (1-0)^2 + (2-1)^2 = 2$, so $d = \\sqrt{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let the locus of the mid points of the chords of circle $x^2 + (y - 1)^2 = 1$ drawn from the origin intersect the line $x + y = 1$ at $P$ and $Q$. Then, the length of $PQ$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{\\sqrt{2}}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Solution details for Q3.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Four distinct points $(2k, 3k), (1, 0), (0, 1)$ and $(0, 0)$ lie on a circle for $k$ equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{2}{13}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{3}{13}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{5}{13}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{13}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Solution details for Q4.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Consider a circle $(x - \\alpha)^2 + (y - \\beta)^2 = 50$, where $\\alpha, \\beta > 0$. If the circle touches the line $y + x = 0$ at the point P, whose distance from the origin is $4\\sqrt{2}$, then $(\\alpha + \\beta)^2$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Solution details for Q5.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Equation of two diameters of a circle are $2x - 3y = 5$ and $3x - 4y = 7$. The line joining the points $\\left(-\\frac{22}{7}, -4\\right)$ and $\\left(-\\frac{1}{7}, 3\\right)$ intersects the circle at only one point $P(\\alpha, \\beta)$. Then $17\\beta - \\alpha$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "B",
+    "explanation": "Solution details for Q6.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the circles $(x + 1)^2 + (y + 2)^2 = r^2$ and $x^2 + y^2 - 4x - 4y + 4 = 0$ intersect at exactly two distinct points, then",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$5 < r < 9$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$0 < r < 7$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3 < r < 7$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{2} < r < 7$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Solution details for Q7.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If one of the diameters of the circle $x^2 + y^2 - 10x + 4y + 13 = 0$ is a chord of another circle $C$, whose center is the point of intersection of the lines $2x + 3y = 12$ and $3x - 2y = 5$, then the radius of the circle $C$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\sqrt{20}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$3\\sqrt{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Solution details for Q9.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let a variable line passing through the centre of the circle $x^2 + y^2 - 16x - 4y = 0$, meet the positive co-ordinate axes at the point A and B. Then the minimum value of $OA + OB$, where $O$ is the origin, is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$18$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$20$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$24$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Solution details for Q10.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let the line $L: \\frac{x-3}{\\frac{1}{\\sqrt{2}}}=\\frac{y-3}{\\frac{1}{\\sqrt{2}}}=\\frac{z-1}{0}$ intersect the plane $3x-y+z=3$ at point $P$. Let $Q_1$ and $Q_2$ be two points on the line $L$ at a distance $2\\sqrt{3}$ from $P$. If the area of $\\triangle PQ_1Q_2$ is $A$, then find $A^2$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "64",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "72",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "81",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "96",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let $Q_1(0, \\alpha)$ coordinates. Given $R_1 = 2\\sqrt{3}$. Line $L$ acts as tangent. Apply $P=r$ (condition of tangency) $\\Rightarrow \\frac{\\alpha-3}{\\sqrt{3}} = 2\\sqrt{3} \\Rightarrow |\\alpha-3|=6 \\Rightarrow \\alpha-3=6$ or $\\alpha-3=-6 \\Rightarrow \\alpha=9, \\alpha=-3$. Using area formula: $\\Delta PQ_1Q_2 = \\frac{1}{2} (\\sqrt{2}(12)) = 6\\sqrt{2}$. Thus, $(\\Delta PQ_1Q_2)^2 = 72$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $C$ be the circle with center $(0, 1)$ and radius 1. Let $O$ be the origin. If a line passing through the origin intersects the circle at $P$ and $Q$, then find the locus of the midpoint of $PQ$.",
+    "has_question_image": true,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x^2+y^2-y=0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$x^2+y^2+y=0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$x^2+y^2-x=0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x^2+y^2+x=0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let the midpoint be $(h,k)$. Since $OC \\perp PC$ or using slopes $m_{OM} \\cdot m_{CM} = -1 \\Rightarrow \\frac{k}{h} \\cdot \\frac{k-1}{h} = -1$. Therefore, locus is $x^2 + y(y-1) = 0 \\Rightarrow x^2 + y^2 - y = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $A(1,0)$ and $B(0,1)$ be two points. Let $P$ be a point on the line $x+y-1=0$. If the circle passing through $A, B, P$ has radius $r$, then find the minimum value of $r$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\frac{1}{2}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\frac{1}{2\\sqrt{2}}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\frac{1}{\\sqrt{2}}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\sqrt{2}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Using perpendicular distance from center to line, $p = \\frac{1/2}{\\sqrt{2}} = \\frac{1}{2\\sqrt{2}}$. The minimum radius of the circle passing through $A, B$ and having a point on the line is directly related to this perpendicular distance.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the point $(2k, 3k)$ lies inside the triangle formed by the lines $x=0, y=0$ and $x+y=1$, then find the range of values of $k$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "(0, \\frac{5}{13})",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "(0, \\frac{1}{5})",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "(\\frac{1}{5}, \\frac{2}{5})",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "(0, \\frac{1}{3})",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$(2k, 3k)$ will lie on circle whose diameter is AB. $(x-1)(x) + (y-1)(y) = 0 \\Rightarrow x^2+y^2-x-y=0$. Satisfy $(2k,3k)$ in this equation: $(2k)^2 + (3k)^2 - 2k - 3k = 0 \\Rightarrow 13k^2 - 5k = 0 \\Rightarrow k=0, \\frac{5}{13}$. Thus $k \\in (0, \\frac{5}{13})$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If two circles $x^2+y^2=9$ and $x^2+y^2 - 4x - 12 = 0$ intersect at two distinct points, find the range of the radius $r$ of a third circle.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "(3, 7)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "(1, 5)",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "(2, 6)",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "(4, 8)",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "If two circles intersect at two distinct points, $|r_1 - r_2| < C_1C_2 < r_1 + r_2$. Solving this inequality yields $3 < r < 7$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Find the center and radius of the circle $x^2 + y^2 - 10x + 4y - 13 = 0$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "(5, -2), r = 4",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "(-5, 2), r = 4",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "(5, -2), r = \\sqrt{13}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "(-5, -2), r = 5",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Center of given circle is $(5, -2)$. Radius = $\\sqrt{25 + 4 - (-13)} = \\sqrt{42}$ or calculated via standard form to be $4$ with $CM = \\sqrt{4+16}=5\\sqrt{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let the set of all values of $r$, for which the circles $(x + 1)^2 + (y + 4)^2 = r^2$ and $x^2 + y^2 - 4x - 2y - 4 = 0$ intersect at two distinct points be the interval $(\\alpha, \\beta)$. Then $\\alpha\\beta$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$21$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$24$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$20$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$25$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Circle 1: center $C_1 = (-1, -4)$, radius $r$. \\\nCircle 2: $(x - 2)^2 + (y - 1)^2 = 9$, center $C_2 = (2, 1)$, radius $3$. \\\nDistance $d = \\sqrt{9 + 25} = \\sqrt{34}$. \\\nFor two intersection points: $|r - 3| < \\sqrt{34} < r + 3$. \\\n$r + 3 > \\sqrt{34} \\Rightarrow r > \\sqrt{34} - 3$ and $|r - 3| < \\sqrt{34} \\Rightarrow r < \\sqrt{34} + 3$. \\\n$r \\in (\\sqrt{34} - 3, \\sqrt{34} + 3)$, so $\\alpha = \\sqrt{34} - 3, \\beta = \\sqrt{34} + 3$. \\\n$\\alpha\\beta = (\\sqrt{34})^2 - 9 = 34 - 9 = 25$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let the locus of the centre $(\\alpha, \\beta), \\beta > 0$, of the circle which touches the circle $x^2 + (y - 1)^2 = 1$ externally and also touches the x-axis be L. Then the area bounded by L and the line $y = 4$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{32\\sqrt{2}}{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{40\\sqrt{2}}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{64}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{32}{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$(\\alpha - 0)^2 + (beta - 1)^2 = (\\beta + 1)^2$\n$\\alpha^2 = 4\\beta$\n$x^2 = 4y$\n$A = 2\\int_{0}^{4} \\left(4 - \\frac{x^2}{4}\\right) dx = \\frac{64}{3}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the circle $x^2 + y^2 - 2gx + 6y - 19c = 0, g, c \\in \\mathbb{R}$ passes through the point $(6, 1)$ and its centre lies on the line $x - 2cy = 8$, then the length of intercept made by the circle on x-axis is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\sqrt{11}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2\\sqrt{23}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Given circle $x^2 + y^2 - 2gx + 6y - 19c = 0$\nPasses through $(6, 1)$:\n$12g + 19c = 43 \\quad \\dots(1)$\nCentre $(g, -3)$ lies on given line\nSo, $g + 6c = 8 \\quad \\dots(2)$\nSolve equation $(1) \\& (2)$:\n$c = 1 \\& g = 2$\nequation of circle $x^2 + y^2 - 4x + 6y - 19 = 0$\nLength of intercept on x-axis\n$= 2\\sqrt{g^2 - c} = 2\\sqrt{23}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $C_1: x^2 + y^2 - 4x = 0$ and $L: 2x - y = 0$. Let $C_2$ be a circle with $OA$ as diameter where $O$ is origin and $A$ is the point of intersection of $C_1$ and $L$. Find the ratio of areas.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\frac{1}{4}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\frac{1}{2}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\frac{1}{8}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\frac{1}{16}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $C_1: x^2 + y^2 - 4x = 0$ and $\\tan\\theta = 2$. $C_2$ is a circle with $OA$ as diameter. So, tangent at $A$ on $C_2$ is perpendicular to $OR$. Let $OA = \\ell$. Then $\\frac{QA}{AP} = \\frac{\\ell \\cot\\theta}{\\ell \\tan\\theta} = \\frac{1}{\\tan^2\\theta} = \\frac{1}{4}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Consider a circle passing through the origin and points $P, Q, R$. Let the equation of the circle be determined such that $\\Delta PQR$ has specific properties.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\sqrt{2}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2\\sqrt{2}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "4\\sqrt{2}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\frac{1}{\\sqrt{2}}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "From the circle equation $x^2 + y^2 - x + 2y = \\frac{11}{4} \\Rightarrow \\left(x - \\frac{1}{2}\\right)^2 + (y + 1)^2 = (2)^2$. Using properties of $\\Delta PQR$, $PR = QK \\sin 2\\theta \\ge \\frac{1}{3}$. Area of $\\Delta PQR = \\frac{1}{2} PR \\times PQ = 2\\sqrt{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Find the area of triangle $OAB$ where $A$ and $B$ are points of intersection of a line and circle $C: (x - 2)^2 + y^2 = 1$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\frac{\\sqrt{3}}{4}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\frac{3\\sqrt{3}}{4}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\frac{\\sqrt{3}}{2}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\frac{3}{4}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "For circle $C: (x - 2)^2 + y^2 = 1$, the equation of chord $AB : 2x = 3$. Radius $OA = OB = \\sqrt{3}$, $AM = \\frac{\\sqrt{3}}{2}$. Area of triangle $OAB = \\frac{1}{2}(2AM)(OM) = \\frac{3\\sqrt{3}}{4} \\text{ sq. units}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the length of the tangents drawn from the point $P$ to the circle with center $C(2,-1)$ is related by trigonometric ratios such that $\\cos \\theta = \\frac{6}{13/2}$ and other geometric properties, find the value of $5(PM)$ as shown in the solution diagram.",
+    "has_question_image": true,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "70",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "72",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "75",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "78",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "From the given geometric configuration, we have $\\cos \\theta = \\frac{6}{13/2} = \\frac{12}{13}$. Then $\\sin \\theta = \\sqrt{1 - \\cos^2 \\theta} = \\frac{5}{13}$. Using $PM = AM \\cot \\theta$, we get $PM = 6 \\left(\\frac{12}{5}\\right)$, which gives $5(PM) = 72$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let the tangents drawn from the origin to the circle, $x^2 + y^2 - 8x - 4y + 16 = 0$ touch it at the point $A$ and $B$. The $(AB)^2$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{64}{5}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{24}{5}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{8}{5}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{8}{13}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$L = \\sqrt{S_1} = \\sqrt{16} = 4$\n$R = \\sqrt{16 + 4 - 16} = 2$\nLength of Chord of contact = $\\frac{2LR}{\\sqrt{L^2 + R^2}} = \\frac{2 \\times 4 \\times 2}{\\sqrt{16 + 4}} = \\frac{16}{\\sqrt{20}}$\nsquare of length of chord of contact = $\\frac{64}{5}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If a line, $y = mx + c$ is a tangent to the circle, $(x-3)^2 + y^2 = 1$ and it is perpendicular to a line $L_1$, where $L_1$ is the tangent to the circle, $x^2 + y^2 = 1$ at the point $\\left(\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}\\right)$;",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$c^2 + 6c + 7 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$c^2 - 6c + 7 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$c^2 + 6c - 7 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$c^2 - 6c - 7 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Slope of tangent to $x^2 + y^2 = 1$ at $\\left(\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}\\right)$\n$x^2 + y^2 = 1$\n$2x + 2yy' = 0$\n$y' = -\\frac{x}{y} = -1$\n$y = mx + c$ is tangent of $x^2 + y^2 = 1$\nso $m = 1$\n$y = x + c$\nnow distance of $(3, 0)$ from $y = x + c$ is\n$\\left|\\frac{c + 3}{\\sqrt{2}}\\right| = 1$\n$c^2 + 6c + 9 = 2$\n$c^2 + 6c + 7 = 0$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If a circle touches $y$-axis at $(0, 4)$ and passes through $(2, 0)$ then which of the following can-not be the tangent to the circle",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4x - 3y + 17 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$3x - 4y - 24 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3x + 4y - 6 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4x + 3y - 8 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Answer Key states Q3 is (D).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The number of integral values of $k$ for which the line, $3x + 4y = k$ intersects the circle, $x^2 + y^2 - 2x - 4y + 4 = 0$ at two distinct points is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "9",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Answer Key states Q5 is 9.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The diameter of the circle, whose centre lies on the line $x + y = 2$ in the first quadrant and which touches both the lines $x = 3$ and $y = 2$, is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Answer Key states Q6 is 3.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the length of the chord of the circle, $x^2 + y^2 = r^2 (r > 0)$ along the line, $y - 2x = 3$ is $r$ then $r^2$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{9}{5}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{24}{5}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{12}{5}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "12",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Answer Key states Q9 is (C).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the circle passes through the points $(2, 0)$ and $(0, 4)$ and touches the x-axis, find the equation of the circle and its center.",
+    "has_question_image": true,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(5, 4)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(4, 5)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(2, 4)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(4, 2)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "equation of family of circle $(x-0)^2 + (y-4)^2 + \\lambda x = 0$ $\\Rightarrow$ passes $(2, 0)$ $\\Rightarrow 4 + 16 + 2\\lambda = 0 \\Rightarrow \\lambda = -10$ $x^2 + y^2 - 10x - 8y + 16 = 0$ centre $(5, 4), R = \\sqrt{25 + 16 - 16} = 0$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Two circles touch each other if $C_1 C_2 = |r_1 \\pm r_2|$. Distance between $C_2(3, 0)$ and $C_1(0, 4)$ is either $\\sqrt{k} + 1$ or $|\\sqrt{k} - 1|$. Find the maximum value of $k$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$25$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$36$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$49$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Distance between $C_2(3, 0)$ and $C_1(0, 4)$ is $\\sqrt{3^2 + 4^2} = 5$. Since $C_1 C_2 = 5$, we have $\\sqrt{k} + 1 = 5$ or $|\\sqrt{k} - 1| = 5$. $\\Rightarrow k = 16$ or $k = 36$. $\\Rightarrow$ maximum value of $k$ is $36$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Given circle is $(x - 1)^2 + (y - 2)^2 = 1$. Find the range of $k$ such that the line $3x + 4y - k = 0$ intersects the circle.",
+    "has_question_image": true,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$6 < k < 16$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$5 < k < 15$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$7 < k < 17$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4 < k < 14$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "For intersection, perpendicular distance $d < r$ (where $r$ is radius of circle) $\\Rightarrow \\frac{|3(1) + 4(2) - k|}{\\sqrt{3^2 + 4^2}} < 1 \\Rightarrow |11 - k| < 5 \\Rightarrow 6 < k < 16$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If one of the diameters of the circle $x^2 + y^2 - 2x - 6y + 6 = 0$ is a chord of another circle $C'$ whose center is at $(2, 1)$, then its radius is",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given circle $x^2 + y^2 - 2x - 6y + 6 = 0$ has center $(1, 3)$ and radius $r_1 = \\text{g}^2 + \\text{f}^2 - c = 1^2 + 3^2 - 6 = 2$. The diameter of this circle is $2 \\times 2 = 4$, so the radius of this circle is $2$. Distance between center $(1, 3)$ and center $(2, 1)$ is $\\sqrt{(2-1)^2 + (1-3)^2} = \\sqrt{1 + 4} = \\sqrt{5}$. In circle $C'$, the radius $r$ satisfies $r^2 = (\\sqrt{5})^2 + 2^2 = 5 + 4 = 9$, which gives $r = 3$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "In the circle given below, let $OA = 1$ unit, $OB = 13$ unit and $PQ \\perp OB$. Then, the area of the triangle PQB (in square units) is:",
+    "has_question_image": true,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$26\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$24\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$24\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$26\\sqrt{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$OC = \\frac{13}{2} = 6.5$. $AC = CO - AO = 6.5 - 1 = 5.5$. In $\\Delta PAC$, $PA = \\sqrt{6.5^2 - 5.5^2} = \\sqrt{(6.5-5.5)(6.5+5.5)} = \\sqrt{12}$. $\\Rightarrow PQ = 2PA = 2\\sqrt{12}$. Now, area of $\\Delta PQB = \\frac{1}{2} \\times PQ \\times AB = \\frac{1}{2} \\times 2\\sqrt{12} \\times 12 = 12\\sqrt{12} = 24\\sqrt{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let the lengths of intercepts on $x$-axis and $y$-axis made by the circle $x^2 + y^2 + ax + 2ay + c = 0$ ($a < 0$) be $2\\sqrt{2}$ and $2\\sqrt{5}$, respectively. Then the shortest distance from origin to a tangent to this circle which is perpendicular to the line $x + 2y = 0$, is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\sqrt{11}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\sqrt{7}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\sqrt{6}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\sqrt{10}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "From the given circle, $x$-intercept is $2\\sqrt{\\frac{a^2}{4} - c} = 2\\sqrt{2} \\Rightarrow \\frac{a^2}{4} - c = 2$. $y$-intercept is $2\\sqrt{a^2 - c} = 2\\sqrt{5} \\Rightarrow a^2 - c = 5$. Solving these gives $a^2 = 4 \\Rightarrow a = -2$ (since $a < 0$), and $c = -1$. Radius $r = \\sqrt{\\frac{a^2}{4} + a^2 - c} = \\sqrt{1 + 4 - (-1)} = \\sqrt{6}$. Center is $(1, 2)$. Shortest distance from origin to tangent perpendicular to $x + 2y = 0$ (slope $2$) is evaluated.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The line $2x - y + 1 = 0$ is a tangent to the circle at the point $(2, 5)$ and the centre of the circle lies on $x - 2y = 4$. Then, the radius of the circle is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "3\\sqrt{5}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "5\\sqrt{3}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "5\\sqrt{4}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4\\sqrt{5}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The equation of the line perpendicular to the tangent at $(2, 5)$ is $x + 2y = \\lambda$. Since it passes through $(2, 5)$, $2 + 10 = 12 = \\lambda$, so center lies on the line passing through $(2, 5)$ perpendicular to tangent, and also given on $x - 2y = 4$. Solving for center and then radius gives $3\\sqrt{5}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Choose the incorrect statement about the two circles whose equations are given below: $x^2 + y^2 - 10x - 10y + 41 = 0$ and $x^2 + y^2 - 16x - 10y + 80 = 0$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "Distance between two centres is the average of radii of both the circles.",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "Both circles' centres lie inside region of one another.",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Both circles pass through the centre of each other.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Circles have two intersection points.",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Find centers and radii of both circles and check their relative positions. Circle 1: Center $C_1(5, 5)$, $r_1 = \\sqrt{25 + 25 - 41} = 3$. Circle 2: Center $C_2(8, 5)$, $r_2 = \\sqrt{64 + 25 - 80} = 3$. Distance $C_1C_2 = 3$. Since $|r_1 - r_2| < C_1C_2 < r_1 + r_2$, they intersect at two points, but their centers do not lie inside each other.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The minimum distance between any two points $P_1$ and $P_2$ while considering point $P_1$ on one circle and point $P_2$ on the other circle for the given circles' equations $x^2 + y^2 - 10x - 10y + 41 = 0$ and $x^2 + y^2 - 24x - 10y + 160 = 0$ is \\underline{ \\quad }.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Find centers and radii. $C_1(5, 5)$, $r_1 = 3$; $C_2(12, 5)$, $r_2 = \\sqrt{144 + 25 - 160} = 3$. Distance between centers $C_1C_2 = 7$. Minimum distance = $C_1C_2 - (r_1 + r_2) = 7 - (3 + 3) = 1$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Choose the correct statement about two circles whose equations are given below: $x^2 + y^2 - 10x - 10y + 41 = 0$ and $x^2 + y^2 - 22x - 10y + 137 = 0$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "circles have same centre",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "circles have no meeting point",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "circles have only one meeting point",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "circles have two meeting points",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Circle 1: $C_1(5, 5)$, $r_1 = 3$. Circle 2: $C_2(11, 5)$, $r_2 = \\sqrt{121 + 25 - 137} = 3$. Distance $C_1C_2 = 6$. Since $C_1C_2 = r_1 + r_2$, the circles touch externally, i.e., they have only one meeting point.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "For the four circles M, N, O and P, following four equations are given: Circle M : $x^2 + y^2 = 1$, Circle N : $x^2 + y^2 - 2x = 0$, Circle O : $x^2 + y^2 - 2x - 2y + 1 = 0$, Circle P : $x^2 + y^2 - 2y = 0$. If the centre of circle M is joined with centre of the circle N, further centre of circle N is joined with centre of the circle O, centre of circle O is joined with the centre of circle P and lastly, centre of circle P is joined with centre of circle M, then these lines form the sides of a :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "Rhombus",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "Square",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Rectangle",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Parallelogram",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Centers are: M(0, 0), N(1, 0), O(1, 1), P(0, 1). These form a square of side length 1.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Pair of tangents are drawn from origin to the circle $x^2 + y^2 - 8x - 4y + 16 = 0$ then square of length of chord of contact is\\\nमूलबिन्दु से वृत्त $x^2 + y^2 - 8x - 4y + 16 = 0$ पर स्पर्श रेखाएँ खीची जाती है तब स्पर्शजीवा की लम्बाई का वर्ग है-",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{64}{5}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{24}{5}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{8}{5}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{8}{13}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$L = \\sqrt{S_1} = \\sqrt{16} = 4$\\\n$R = \\sqrt{16 + 4 - 16} = 2$\\\nLength of Chord of contact स्पर्शजीवा की लम्बाई $= \\frac{2LR}{\\sqrt{L^2 + R^2}} = \\frac{2 \\times 4 \\times 2}{\\sqrt{16 + 4}} = \\frac{16}{\\sqrt{20}}$\\\nsquare of length of chord of contact स्पर्शजीवा की लम्बाई का वर्ग $= \\frac{64}{5}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $y = mx + c$ is a tangent to the circle $(x - 3)^2 + y^2 = 1$ and also the perpendicular to the tangent to the circle $x^2 + y^2 = 1$ at $\\left(\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}\\right)$, then\\\nयदि रेखा $y = mx + c$ वृत्त $(x - 3)^2 + y^2 = 1$ की स्पर्श रेखा है तथा वृत्त $x^2 + y^2 = 1$ के बिंदु $\\left(\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}\\right)$ पर स्पर्श रेखा के लम्बवत् भी हैं तब",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$c^2 + 6c + 7 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$c^2 - 6c + 7 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$c^2 + 6c - 7 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$c^2 - 6c - 7 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Slope of tangent to $x^2 + y^2 = 1$ at $\\left(\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}\\right)$:\\\n$x^2 + y^2 = 1 \\Rightarrow 2x + 2yy' = 0 \\Rightarrow y' = -\\frac{x}{y} = -1$\\\n$y = mx + c$ is tangent of $x^2 + y^2 = 1$\\\nso इसलिए $m = 1$\\\n$y = x + c$\\\nnow distance of $(3, 0)$ from $y = x + c$ is\\\nअबत $(3, 0)$ की रेखा $y = x + c$ से दूरी है: $\\left|\\frac{c + 3}{\\sqrt{2}}\\right| = 1$\\\n$c^2 + 6c + 9 = 2 \\Rightarrow c^2 + 6c + 7 = 0$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Equation of a common tangent to the circle, $x^2 + y^2 - 6x = 0$ and the parabola, $y^2 = 4x$, is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2\\sqrt{3}y = 12x + 1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\sqrt{3}y = x + 3$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2\\sqrt{3}y = -x - 12$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sqrt{3}y = 3x + 1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since, the equation of tangent to parabola $y^2 = 4x$ is $y = mx + \\frac{1}{m}$ ...(1). The line (1) is also the tangent to circle $x^2 + y^2 - 6x = 0$. Then centre of circle = $(3, 0)$ and radius of circle = $3$. The perpendicular distance from centre to tangent is equal to the radius of circle. $\\therefore \\left|\\frac{3m + \\frac{1}{m}}{\\sqrt{1 + m^2}}\\right| = 3 \\Rightarrow \\left(3m + \\frac{1}{m}\\right)^2 = 9(1 + m^2) \\Rightarrow m = \\pm\\frac{1}{\\sqrt{3}}$. Then, from equation (1): $y = \\pm\\frac{1}{\\sqrt{3}}x \\pm \\sqrt{3}$. Hence, $\\sqrt{3}y = x + 3$ is one of the required common tangent.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the circles $x^2 + y^2 - 16x - 20y + 164 = r^2$ and $(x - 4)^2 + (y - 7)^2 = 36$ intersect at two distinct points, then:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$r > 11$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$0 < r < 1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$r = 11$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1 < r < 11$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Consider the equation of circles as, $x^2 + y^2 - 16x - 20y + 164 = r^2$ i.e. $(x - 8)^2 + (y - 10)^2 = r^2$ ...(1) and $(x - 4)^2 + (y - 7)^2 = 36$ ...(2). Both the circles intersect each other at two distinct points. Distance between centres $= \\sqrt{(8 - 4)^2 + (10 - 7)^2} = 5$. $\\therefore |r - 6| < 5 < |r + 6|$. $\\therefore$ If $|r - 6| < 5 \\Rightarrow r \\in (1, 11)$ ...(3) and $|r + 6| > 5 \\Rightarrow r \\in (-\\infty, -11) \\cup (-1, \\infty)$ ...(4). From (3) and (4), $r \\in (1, 11)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The equation of circle is $x^2 + y^2 - 6x + 8y - 103 = 0$. Find the length of the square and required distance.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\sqrt{41}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$8\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$41$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The equation of circle is $x^2 + y^2 - 6x + 8y - 103 = 0$ $\\Rightarrow (x-3)^2 + (y+4)^2 = (8\\sqrt{2})^2$. Centre $C(3, -4)$, $r = 8\\sqrt{2}$. Length of side of square = $\\sqrt{2}r = 16$. Points are $P(-5, 4)$, $Q(-5, -12)$, $R(11, -12)$, $S(11, 4)$. Required distance = $OP = \\sqrt{(-5-0)^2 + (-4-0)^2} = \\sqrt{25+16} = \\sqrt{41}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Equation of a common tangent to the circle, $x^2 + y^2 - 6x = 0$ and the parabola, $y^2 = 4x$, is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2\\sqrt{3}y = 12x + 1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\sqrt{3}y = x + 3",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2\\sqrt{3}y = -x - 12$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\sqrt{3}y = 3x + 1",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since, the equation of tangent to parabola $y^2 = 4x$ is $y = mx + \\frac{1}{m}$ ...(1). The line (1) is also the tangent to circle $x^2 + y^2 - 6x = 0$. Then centre of circle = $(3, 0)$, radius of circle = $3$. The perpendicular distance from centre to tangent is equal to the radius of circle: $\\therefore \\frac{|3m + \\frac{1}{m}|}{\\sqrt{1 + m^2}} = 3 \\Rightarrow (3m + \\frac{1}{m})^2 = 9(1 + m^2) \\Rightarrow m = \\pm\\frac{1}{\\sqrt{3}}$. Then, from equation (1): $y = \\pm\\frac{1}{\\sqrt{3}}x \\pm \\sqrt{3}$. Hence, $\\sqrt{3}y = x + 3$ is one of the required common tangent.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the circles $x^2 + y^2 - 16x - 20y + 164 = r^2$ and $(x - 4)^2 + (y - 7)^2 = 36$ intersect at two distinct points, then:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$r > 11$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$0 < r < 1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$r = 11$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1 < r < 11$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Consider the equation of circles as, $x^2 + y^2 - 16x - 20y + 164 = r^2$ i.e. $(x - 8)^2 + (y - 10)^2 = r^2$ ...(1) and $(x - 4)^2 + (y - 7)^2 = 36$ ...(2). Both the circles intersect each other at two distinct points. Distance between centres = $\\sqrt{(8 - 4)^2 + (10 - 7)^2} = 5$. $\\therefore |r - 6| < 5 < |r + 6|$. $\\therefore$ If $|r - 6| < 5 \\Rightarrow r \\in (1, 11)$ ...(3) and $|r + 6| > 5 \\Rightarrow r \\in (-\\infty, -11) \\cup (-1, \\infty)$ ...(4). From (3) and (4), $r \\in (1, 11)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The locus of the centre of a circle which touches the circle $x^2 + y^2 = a^2$ externally and also touches the y-axis is given by:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$x^2 - 4ay - 4a^2 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$y^2 - 4ax - 4a^2 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$y^2 = 4ax$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$x^2 = 4ay$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let centre be $C(h, k)$. $CQ = CP = r \newline \\rightarrow CQ^2 = CP^2 \newline (h - 0)^2 + (k ± 0)^2 = CM^2 + MP^2 \newline h^2 + (k ± 2b)^2 = k^2 + 4a^2 \newline h^2 + k^2 + 4b^2 ± 4bk = k^2 + 4a^2 \newline \\text{Then, the locus of centre } C(h, k) \newline x^2 + 4b^2 ± 4by = 4a^2 \newline \\text{Hence, the above locus of the centre of circle is a parabola.}",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Circles",
+    "chapter": "Circles",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

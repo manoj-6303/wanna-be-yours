@@ -17,26 +17,6 @@ export default function Dashboard() {
         return;
       }
       try {
-        if (token === 'mock-token') {
-          setProfile({
-            name: "Demo Student",
-            email: "student@test.com",
-            role: "student",
-            coins: 100,
-            currentLevel: 10,
-            completedLevels: [],
-            paidLevels: [1, 2, 3]
-          });
-          setLevels([
-            { _id: '1', levelNumber: 1, title: 'Chemistry Easy Level', passingPercentage: 50, duration: 60, subject: 'Chemistry', questionCount: 3, isPaid: true },
-            { _id: '2', levelNumber: 2, title: 'Chemistry Medium Level', passingPercentage: 50, duration: 60, subject: 'Chemistry', questionCount: 3, isPaid: true },
-            { _id: '3', levelNumber: 3, title: 'Chemistry Hard Level', passingPercentage: 50, duration: 60, subject: 'Chemistry', questionCount: 2, isPaid: true }
-          ]);
-          setCertificates([]);
-          setSecurityReports([]);
-          return;
-        }
-
         const config = { headers: { Authorization: `Bearer ${token}` } };
         const [profileRes, levelsRes, certsRes, secRes] = await Promise.all([
           axios.get('/api/v1/users/profile', config),
@@ -63,13 +43,8 @@ export default function Dashboard() {
       return;
     }
     
-    // If the user has reached this level and paid, they can directly take the exam.
-    // Otherwise, they must pay.
-    if (isPaid) {
-      navigate('/exam', { state: { levelNumber } });
-    } else {
-      navigate('/payment', { state: { levelNumber } });
-    }
+    // Temporarily bypassing payment as requested
+    navigate('/exam', { state: { levelNumber } });
   };
 
   if (!profile) return <div className="text-center py-20 text-gray-500">Loading Dashboard...</div>;
@@ -80,7 +55,7 @@ export default function Dashboard() {
     <div className="min-h-screen bg-gray-50">
       <header className="bg-white shadow">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-          <h1 className="text-3xl font-bold text-gray-900">Lakshya Academy — Student Dashboard</h1>
+          <h1 className="text-3xl font-bold text-gray-900">Student Dashboard</h1>
           <button onClick={() => { localStorage.clear(); navigate('/login'); }} className="text-red-500 hover:text-red-700 font-medium">Logout</button>
         </div>
       </header>
@@ -105,6 +80,7 @@ export default function Dashboard() {
         )}
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mb-8">
+
           <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex items-center cursor-pointer hover:bg-yellow-50" onClick={() => { if(certificates.length > 0) navigate('/certificate', { state: { certificate: certificates[0] } }); }}>
             <div className="bg-yellow-100 p-3 rounded-full mr-4">
               <svg className="w-6 h-6 text-yellow-600" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
@@ -149,84 +125,125 @@ export default function Dashboard() {
           </div>
         </div>
 
-        {['Completed', 'Current', 'Locked'].map(section => {
-          const sectionLevels = levels.filter(level => {
-            const isCompleted = profile.completedLevels.find(l => l.level === level.levelNumber);
-            const isUnlocked = level.levelNumber <= profile.currentLevel;
+        <div className="mb-12">
+          <div className="flex flex-col items-center justify-center mb-10">
+            <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight">Your Learning Path</h2>
+            <p className="mt-2 text-gray-500">Conquer all 10 levels to complete the challenge!</p>
+          </div>
+
+          <div className="relative max-w-4xl mx-auto pb-10">
+            {/* The vertical track line */}
+            <div className="absolute left-1/2 transform -translate-x-1/2 w-1.5 h-full bg-gray-200 rounded-full z-0"></div>
             
-            if (section === 'Completed') return isCompleted;
-            if (section === 'Current') return !isCompleted && isUnlocked;
-            return !isUnlocked;
-          });
+            {Array.from({ length: 10 }, (_, i) => i + 1).map((levelNum, index) => {
+              // Find the level data from backend if it exists
+              const levelData = levels.find(l => l.levelNumber === levelNum);
+              
+              // Hardcoded subjects as requested
+              let defaultSubject = "Mathematics";
+              let colorTheme = "bg-orange-500";
+              let lightColorTheme = "bg-orange-50 border-orange-200 text-orange-800";
+              let btnColorTheme = "bg-orange-600 hover:bg-orange-700";
+              let shadowTheme = "shadow-orange-200";
 
-          if (sectionLevels.length === 0) return null;
+              if (levelNum <= 3) {
+                defaultSubject = "Physics";
+                colorTheme = "bg-blue-500";
+                lightColorTheme = "bg-blue-50 border-blue-200 text-blue-800";
+                btnColorTheme = "bg-blue-600 hover:bg-blue-700";
+                shadowTheme = "shadow-blue-200";
+              } else if (levelNum <= 6) {
+                defaultSubject = "Chemistry";
+                colorTheme = "bg-green-500";
+                lightColorTheme = "bg-green-50 border-green-200 text-green-800";
+                btnColorTheme = "bg-green-600 hover:bg-green-700";
+                shadowTheme = "shadow-green-200";
+              }
 
-          return (
-            <div key={section} className="mb-10">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">{section} Levels</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {sectionLevels.map(level => {
-                  const isCompleted = profile.completedLevels.find(l => l.level === level.levelNumber);
-                  const isUnlocked = level.levelNumber <= profile.currentLevel;
-                  const isPaid = profile.paidLevels && profile.paidLevels.includes(level.levelNumber);
+              const actualSubject = levelData ? levelData.subject : defaultSubject;
+              const isCompleted = profile.completedLevels && profile.completedLevels.find(l => l.level === levelNum);
+              const attemptsCount = (profile.attemptsMap && profile.attemptsMap[levelNum]) || 0;
+              // Temporarily unlocking all levels per user request
+              // const isUnlocked = levelNum <= profile.currentLevel;
+              const isUnlocked = true;
+              const isPaid = profile.paidLevels && profile.paidLevels.includes(levelNum);
+              
+              const isEven = index % 2 === 0;
 
-                  return (
-                    <div key={level._id} className={`bg-white rounded-2xl shadow-sm border ${isCompleted ? 'border-green-200' : (isUnlocked ? 'border-indigo-200 shadow-md' : 'border-gray-200 opacity-70')} overflow-hidden flex flex-col justify-between`}>
-                      <div>
-                        <div className={`p-4 text-white ${isCompleted ? 'bg-green-600' : (isUnlocked ? 'bg-indigo-600' : 'bg-gray-400')} flex justify-between items-center`}>
-                          <h3 className="font-bold text-lg">Level {level.levelNumber}</h3>
-                          {isCompleted && <span className="bg-white text-green-700 text-xs font-extrabold px-2.5 py-1 rounded-full shadow-xs">✔ Passed</span>}
-                          {!isCompleted && isUnlocked && <span className="bg-indigo-500 text-white text-xs font-bold px-2.5 py-1 rounded-full border border-indigo-400">⚡ 3 Attempts Allowed</span>}
-                          {!isCompleted && !isUnlocked && <span className="text-xs font-bold px-2 py-1 rounded bg-gray-500">🔒 Locked</span>}
-                        </div>
-                        <div className="p-6">
-                          <div className="flex justify-between items-start mb-2">
-                            <h4 className="text-lg font-bold text-gray-900 leading-snug">{level.title || `${level.subject} Level ${level.levelNumber}`}</h4>
-                          </div>
-                          <div className="flex items-center space-x-2 my-2">
-                            <span className={`px-2.5 py-0.5 text-xs font-bold rounded-full ${
-                              level.difficulty === 'Easy' ? 'bg-green-100 text-green-800' :
-                              level.difficulty === 'Medium' ? 'bg-yellow-100 text-yellow-800' :
-                              'bg-red-100 text-red-800'
-                            }`}>
-                              {level.difficulty}
-                            </span>
-                            <span className="text-xs font-semibold text-gray-500">
-                              {level.questionCount} Qs • {level.duration} Mins • {level.passingPercentage}% Pass
-                            </span>
-                          </div>
-                          <p className="text-xs text-indigo-600 font-medium my-2 flex items-center">
-                            🔄 Retries generate fresh, non-repeating backup questions on the same topics.
-                          </p>
-                        </div>
-                      </div>
-                      
-                      <div className="p-6 pt-0">
-                        {isCompleted ? (
-                          <div className="text-green-700 font-bold text-center bg-green-50 py-2.5 rounded-xl border border-green-200">
-                            Score: {isCompleted.score} Marks (Qualified)
-                          </div>
-                        ) : isUnlocked ? (
-                          <button 
-                            type="button"
-                            onClick={() => alert("Interactive test launching is disabled. Focus is strictly on Question Bank JSON formats and SVG Image Generation.")}
-                            className="w-full bg-indigo-50 hover:bg-indigo-100 text-indigo-700 font-extrabold py-3 rounded-xl transition border border-indigo-200"
-                          >
-                            Level {level.levelNumber} — Questions Ready
-                          </button>
-                        ) : (
-                          <button disabled className="w-full bg-gray-100 text-gray-400 font-bold py-3 rounded-xl cursor-not-allowed">
-                            Pass Level {level.levelNumber - 1} to Unlock
-                          </button>
+              return (
+                <div key={levelNum} className={`relative z-10 flex items-center justify-between w-full mb-8 ${isEven ? 'flex-row' : 'flex-row-reverse'}`}>
+                  {/* The card side */}
+                  <div className={`w-5/12 ${isEven ? 'pr-8 text-right' : 'pl-8 text-left'}`}>
+                    <div className={`bg-white rounded-2xl p-5 shadow-lg border-2 transition-transform transform hover:-translate-y-1 ${isUnlocked ? 'border-gray-200' : 'border-gray-200 opacity-60 grayscale-[50%]'}`}>
+                      <h3 className="text-xl font-black text-gray-900 mb-1">Level {levelNum}</h3>
+                      {levelData && levelData.chapter && (
+                        <p className="text-sm font-bold text-indigo-600 mb-2 truncate" title={levelData.chapter}>
+                          {levelData.chapter}
+                        </p>
+                      )}
+                      <div className="flex items-center justify-center space-x-2 mb-3">
+                        <span className={`px-3 py-1 text-xs font-bold rounded-full ${lightColorTheme} uppercase tracking-wider`}>
+                          {actualSubject}
+                        </span>
+                        {levelData && (
+                          <span className="px-2 py-1 bg-gray-100 text-gray-600 text-xs font-bold rounded-full">
+                            {levelData.difficulty}
+                          </span>
                         )}
                       </div>
+                      
+                      {levelData ? (
+                        <>
+                          <p className="text-gray-500 text-xs font-medium mb-4">
+                            {levelData.questionCount} Qs • {levelData.duration} Mins • {levelData.passingPercentage}% to pass
+                          </p>
+                          
+                          {isCompleted ? (
+                            <div className="bg-green-50 text-green-700 font-bold py-2 rounded-xl border border-green-200 text-center">
+                              Passed (Score: {isCompleted.score})
+                            </div>
+                          ) : isUnlocked ? (
+                            <button 
+                              onClick={() => handleLevelAction(levelNum, isPaid)}
+                              disabled={profile.isBlocked}
+                              className={`w-full font-bold py-2.5 rounded-xl text-white transition ${profile.isBlocked ? 'bg-red-400 cursor-not-allowed' : btnColorTheme} shadow-md`}
+                            >
+                              Start Challenge {attemptsCount > 0 ? `(Attempt ${attemptsCount + 1})` : ''}
+                            </button>
+                          ) : (
+                            <button disabled className="w-full bg-gray-100 text-gray-400 font-bold py-2.5 rounded-xl cursor-not-allowed">
+                              Locked
+                            </button>
+                          )}
+                        </>
+                      ) : (
+                        <div className="py-4 text-gray-400 text-sm font-medium italic">
+                          Test not created by Admin yet
+                        </div>
+                      )}
                     </div>
-                  );
-                })}
-              </div>
-            </div>
-          );
-        })}
+                  </div>
+
+                  {/* The central node */}
+                  <div className="w-2/12 flex justify-center relative">
+                    <div className={`w-14 h-14 rounded-full flex items-center justify-center border-4 border-white shadow-xl ${isCompleted ? 'bg-green-500' : (isUnlocked ? colorTheme : 'bg-gray-300')} text-white font-black text-xl z-20 transition-all ${isUnlocked && !isCompleted ? 'animate-pulse scale-110 shadow-lg ' + shadowTheme : ''}`}>
+                      {isCompleted ? (
+                        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path></svg>
+                      ) : !isUnlocked ? (
+                        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                      ) : (
+                        levelNum
+                      )}
+                    </div>
+                  </div>
+
+                  {/* Empty side for layout balancing */}
+                  <div className="w-5/12"></div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
       </main>
     </div>
   );

@@ -24,29 +24,6 @@ export const submitExam = async (req, res) => {
     let wrongCount = 0;
     let score = 0;
 
-const cleanText = (raw) => {
-  if (!raw) return '';
-  let text = String(raw);
-  text = text.replace(/This is a beautiful,?\s*classic question!?\s*Let's use this\.?/gi, '');
-  text = text.replace(/Let's choose a different height or initial velocity\..*?Let's use this\./gs, '');
-  text = text.replace(/Let's write the question with:.*$/gs, '');
-  text = text.replace(/Let me keep it simple:?.*?(?=\.|$)/gi, '');
-  text = text.replace(/Let's keep it simple:?/gi, '');
-  text = text.replace(/\?\s*Wait,?\s*let's.*?\./gi, '.');
-  text = text.replace(/\?\s*Wait!.*?\./gi, '.');
-  text = text.replace(/\?\s*No!.*?\./gi, '.');
-  text = text.replace(/Yes!\s*This is correct\.?/gi, '');
-  text = text.replace(/\?\s*Wait,?\s*let's check:.*$/gi, '');
-  text = text.replace(/Wait,?\s*let's check:?.*$/gi, '');
-  text = text.replace(/Wait!\s*Let's check:?.*$/gi, '');
-  text = text.replace(/Let's recalculate the ratio:?.*$/gi, '');
-  text = text.replace(/Let's check the wording:?.*$/gi, '');
-  if (text.includes("Let's recalculate")) text = text.split("Let's recalculate")[0];
-  if (text.includes("What if the initial velocity")) text = text.split("What if the initial velocity")[0];
-  if (text.includes("Let's choose a different")) text = text.split("Let's choose a different")[0];
-  return text.trim();
-};
-
     const evaluatedAnswers = answers.map(ans => {
       const q = questions.find(question => question._id.toString() === ans.questionId);
       const isCorrect = q && q.correctAnswer === ans.selectedAnswer;
@@ -58,26 +35,25 @@ const cleanText = (raw) => {
         wrongCount++;
       }
 
-      const rawExp = q ? (q.explanation || q.solution || '') : '';
-      const sanitizedExp = cleanText(rawExp);
-
       return {
         questionId: ans.questionId,
         selectedAnswer: ans.selectedAnswer,
         correct: isCorrect,
         correctAnswer: q ? q.correctAnswer : null,
         explanation: q ? q.explanation : null,
-        explanationImage: q ? q.explanationImage : null,
         questionText: q ? q.question : null,
+        image: q ? (q.questionImage || q.image) : null,
         questionImage: q ? q.questionImage : null,
-        options: q ? q.options : [],
-        optionImages: q ? q.optionImages : [],
+        explanationImage: q ? q.explanationImage : null,
+        solutionImage: q ? q.solutionImage : null,
+        options: q ? q.options : null,
         chapter: q ? q.chapter : null,
-        difficulty: q ? q.difficulty : null
+        difficulty: q ? q.difficulty : null,
+        solution: q ? q.solution : null
       };
     });
 
-    const totalQuestions = answers.length;
+    const totalQuestions = levelData.questionCount;
     const percentage = Math.round((correctCount / totalQuestions) * 100);
     const qualified = percentage >= levelData.passingPercentage;
 
@@ -134,6 +110,7 @@ const cleanText = (raw) => {
       message: 'Exam evaluated successfully',
       result,
       qualified,
+      passingPercentage: levelData.passingPercentage,
       newCertificate
     });
 

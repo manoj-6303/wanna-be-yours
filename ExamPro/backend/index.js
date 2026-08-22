@@ -51,6 +51,11 @@ app.use('/images', express.static(imagesPath));
 
 // Serve frontend
 const frontendDistPath = path.join(__dirname, '../frontend/dist');
+const imagesPath = path.join(__dirname, '../QuestionBank/images');
+const frontendImagesPath = path.join(__dirname, '../frontend/public/images');
+
+app.use('/images', express.static(imagesPath));
+app.use('/images', express.static(frontendImagesPath));
 app.use(express.static(frontendDistPath));
 
 app.use((req, res) => {

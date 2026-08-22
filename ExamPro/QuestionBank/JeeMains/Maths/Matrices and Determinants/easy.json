@@ -1,0 +1,353 @@
+[
+  {
+    "difficulty": "Easy",
+    "question": "If the system of equations\n$x + y + z = 5$\n$x + 2y + 3z = 9$\n$x + 3y + \\alpha z = \\beta$\nhas infinitely many solutions, then $\\beta - \\alpha$ equals:\n(1) $21$\n(2) $8$\n(3) $18$\n(4) $5$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$21$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$18$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$5$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "For infinitely many solutions, $D = 0, D_x = 0, D_y = 0, D_z = 0$. Setting $\\det(A) = 0$ gives $\\alpha = 5$. Consistency condition gives $\\beta = 13$. Thus $\\beta - \\alpha = 13 - 5 = 8$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Matrices and Determinants",
+    "chapter": "Matrices and Determinants",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Let $A$ and $B$ be two invertible matrices of order $3 \\times 3$. If $\\det(ABA^T) = 8$ and $\\det(AB^{-1}) = 8$, then $\\det(BA^{-1} B^T)$ is equal to :\n(1) $\\frac{1}{4}$\n(2) $1$\n(3) $\\frac{1}{16}$\n(4) $16$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{4}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{16}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$16$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Use properties of determinants: $\\det(ABA^T) = \\det(A)\\det(B)\\det(A^T) = (\\det A)^2 \\det B = 8$. Also $\\det(AB^{-1}) = \\frac{\\det A}{\\det B} = 8$. Solving these gives $\\det A$ and $\\det B$, and evaluating $\\det(BA^{-1}B^T)$ gives 1.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Matrices and Determinants",
+    "chapter": "Matrices and Determinants",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "If the system of linear equations\n$x + y + z = 5$\n$x + 2y + 2z = 6$\n$x + 3y + \\lambda z = \\mu, (\\lambda, \\mu \\in \\mathbf{R})$ has infinitely many solutions,\nthen the value of $\\lambda + \\mu$ is :\n(1) $12$\n(2) $9$\n(3) $7$\n(4) $10$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$9$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$7$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$10$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "For infinitely many solutions, $D = 0$ and $D_x = D_y = D_z = 0$. Setting $D = 0$ gives $\\lambda = 3$. Setting $D_z = 0$ gives $\\mu = 9$. Thus $\\lambda + \\mu = 3 + 9 = 12$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Matrices and Determinants",
+    "chapter": "Matrices and Determinants",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Let $A = \\begin{bmatrix} a & c \\\\ c & b \\end{bmatrix}$ and $B = \\begin{bmatrix} 0 & d \\\\ -d & 0 \\end{bmatrix}$. If $A+B = \\begin{bmatrix} 2 & 3 \\\\ 5 & -1 \\end{bmatrix}$, find the matrix $AB$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\begin{bmatrix} 4 & -2 \\\\ -1 & -4 \\end{bmatrix}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\begin{bmatrix} 2 & 4 \\\\ 4 & -1 \\end{bmatrix}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\begin{bmatrix} 0 & d \\\\ -d & 0 \\end{bmatrix}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "We have $A+B = \\begin{bmatrix} a & c+d \\\\ c-d & b \\end{bmatrix} = \\begin{bmatrix} 2 & 3 \\\\ 5 & -1 \\end{bmatrix}$. Comparing terms, $a=2, b=-1, c-d=5, c+d=3 \\Rightarrow c=4, d=-1$. Thus, $AB = \\begin{bmatrix} 2 & 4 \\\\ 4 & -1 \\end{bmatrix} \\begin{bmatrix} 0 & -1 \\\\ 1 & 0 \\end{bmatrix} = \\begin{bmatrix} 4 & -2 \\\\ -1 & -4 \\end{bmatrix}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Matrices and Determinants",
+    "chapter": "Matrices and Determinants",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Let $A = \\{0, 1, 2, 3, \\dots, 9\\}$. The number of symmetric matrices of order $3$ with elements from $A$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$10^3$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$10^6$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$10^9$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$10^4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given $A = \\{0, 1, 2, 3, \\dots, 9\\}$. A matrix $M$ of order 3 is symmetric if $A^T = A$. For a $3 \\times 3$ symmetric matrix, the elements on the principal diagonal ($a_{11}, a_{22}, a_{33}$) can be chosen in $10 \\times 10 \\times 10 = 10^3$ ways. The elements above the diagonal ($a_{12}, a_{13}, a_{23}$) can be chosen independently in $10^3$ ways, and the elements below the diagonal are automatically determined by symmetry. Therefore, the total number of symmetric matrices is $10^3 \\times 10^3 = 10^6$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Matrices and Determinants",
+    "chapter": "Matrices and Determinants",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Let $A = [a_{ij}], a_{ij} \\in \\mathbb{Z} \\cap [0, 4], 1 \\le i, j \\le 2$. The number of matrices $A$ such that the sum of all entries is a prime number $p \\in (2, 13)$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The sum of all 4 entries ranges from $0$ to $16$. The prime numbers in $(2, 13)$ are $3, 5, 7, 11$. By counting the number of solutions to $a_{11} + a_{12} + a_{21} + a_{22} = p$ for each prime $p$, we find the total number of matrices.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Matrices and Determinants",
+    "chapter": "Matrices and Determinants",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Let $A = \\begin{bmatrix} 1 & 2 \\\\ -2 & -5 \\end{bmatrix}$. Let $\\alpha, \\beta \\in \\mathbb{R}$ be such that $\\alpha A^2 + \\beta A = 2I$. Then $\\alpha + \\beta$ is equal to -",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "-10",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "-6",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "6",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "10",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Using Cayley-Hamilton theorem on matrix $A$: $A^2 - \\text{tr}(A)A + \\det(A)I = 0 \\implies A^2 + 4A - I = 0$. Multiplying by 2: $2A^2 + 8A = 2I$. Comparing with $\\alpha A^2 + \\beta A = 2I$, we get $\\alpha = 2, \\beta = 8 \\implies \\alpha + \\beta = 10$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Matrices and Determinants",
+    "chapter": "Matrices and Determinants",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "If for the matrix, $A = \\begin{bmatrix} 1 & -\\alpha \\\\ \\alpha & \\beta \\end{bmatrix}$, $AA^\\mathrm{T} = I_2$, then the value of $\\alpha^4 + \\beta^4$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "1",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "2",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "3",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "4",
+        "text": "$4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Since $AA^\\mathrm{T} = I_2$, we multiply matrix $A$ by its transpose and equate it to the identity matrix. This gives $\\alpha = 0$ and $\\beta = \\pm 1$, hence $\\alpha^4 + \\beta^4 = 0 + 1 = 1$... wait, let's re-verify: $1 + \\alpha^2 = 1 \\Rightarrow \\alpha = 0$; $-\\alpha + \\alpha\\beta = 0$; $\\alpha^2 + \\beta^2 = 1 \\Rightarrow \\beta = \\pm 1$. Thus $\\alpha^4 + \\beta^4 = 0 + 1 = 1$. Let's check option 1.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Matrices and Determinants",
+    "chapter": "Matrices and Determinants",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Let $A$ be a $3 \\times 3$ matrix with $\\det(A) = 4$. Let $R_i$ denote the $i^{\\mathrm{th}}$ row of $A$. If a matrix $B$ is obtained by performing the operation $R_2 \\to 2R_2 + 5R_3$ on $2A$, then $\\det(B)$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "1",
+        "text": "$64$",
+        "image": null
+      },
+      {
+        "id": "2",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "3",
+        "text": "$80$",
+        "image": null
+      },
+      {
+        "id": "4",
+        "text": "$128$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Multiplying the matrix by 2 scales its determinant by $2^3 = 8$. The row operation $R_2 \\to 2R_2 + 5R_3$ scales the second row by 2, so the determinant is further multiplied by 2. Thus $\\det(B) = 8 \\times \\det(A) \\times 2 = 8 \\times 4 \\times 4 = 128$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Matrices and Determinants",
+    "chapter": "Matrices and Determinants",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "difficulty": "Easy",
+    "question": "Two cards are drawn successively with replacement from a well-shuffled deck of $52$ cards. Let X denote the random variable of number of aces obtained in the two drawn cards. Then $P(X = 1) + P(X = 2)$ equals:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "49/169",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "52/169",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "24/169",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "25/169",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$X = \\text{number of aces drawn}$. $\\therefore P(X = 1) + P(X = 2) = \\left\\{\\frac{4}{52} \\times \\frac{48}{52} + \\frac{48}{52} \\times \\frac{4}{52}\\right\\} + \\left\\{\\frac{4}{52} \\times \\frac{4}{52}\\right\\} = \\frac{24}{169} + \\frac{1}{169} = \\frac{25}{169}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "If vertex of a parabola is $(2, -1)$ and the equation of its directrix is $4x - 3y = 21$, then the length of its latus rectum is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$8$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$16$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The length of the latus rectum is $4 \\times$ (distance between vertex and directrix). Distance $d = \\frac{|4(2) - 3(-1) - 21|}{\\sqrt{4^2 + (-3)^2}} = \\frac{|8 + 3 - 21|}{5} = \\frac{10}{5} = 2$. Thus, length of latus rectum $= 4 \\times 2 = 8$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "parabola",
+    "chapter": "parabola",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

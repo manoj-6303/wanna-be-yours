@@ -1,0 +1,275 @@
+[
+  {
+    "difficulty": "Easy",
+    "question": "Let a function $f: (0, \\infty) \\to (0, \\infty)$ be defined by $f(x) = \\left|1 - \\frac{1}{x}\\right|$. Then $f$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "not injective but it is surjective",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "injective only",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "neither injective nor surjective",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "both injective as well as surjective",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$f(x) = \\left|1 - \\frac{1}{x}\\right|$ is not a function because for $f(1) = 0$, $0 \\notin \\text{co-domain } (0, \\infty)$. Hence, $f(x)$ is not a function (Bonus).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Let a function $f: (0, \\infty) \\to (0, \\infty)$ be defined by $f(x) = \\left|1 - \\frac{1}{x}\\right|$. Then $f$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "not injective but it is surjective",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "injective only",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "neither injective nor surjective",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "both injective as well as surjective",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Note that $f(1) = 0$ and $1 \\in$ domain, but $0 \\notin$ co-domain $((0, \\infty))$. Hence, $f(x)$ is not even a valid function according to the given sets, making it technically not a function in the standard well-defined sense.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Let $f(g(x)) = x + 3 - \\sqrt{x}$ for $x \\ge 0$. Then $f(0)$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "2",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "We have been given $f(g(x)) = x + 3 - \\sqrt{x} \\implies f(\\sqrt{x}+1) = x + 3 - \\sqrt{x}$. Put $\\sqrt{x}+1 = t \\implies \\sqrt{x} = t-1 \\implies x = (t-1)^2 \\implies f(t) = (t-1)^2 + 3 - (t-1) \\implies f(0) = 1 + 3 + 1 = 5$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Let $f(x) = \\frac{1}{7 - \\sin 5x}$ be a function defined on $\\mathbb{R}$. Then the range of the function $f(x)$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\left[\\frac{1}{7}, \\frac{1}{6}\\right]$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\left[\\frac{1}{8}, \\frac{1}{5}\\right]$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\left[\\frac{1}{7}, \\frac{1}{5}\\right]$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\left[\\frac{1}{8}, \\frac{1}{6}\\right]$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Since $-1 \\le \\sin 5x \\le 1$, we have $6 \\le 7 - \\sin 5x \\le 8$. Taking the reciprocal gives the range $\\left[\\frac{1}{8}, \\frac{1}{6}\\right]$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Let $f: \\mathbb{N}-\\{1\\} \\rightarrow \\mathbb{N}$ be defined by $f(n) = \\text{The highest prime factor of } n$. Then the function $f$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "one-one and onto",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "many-one and onto",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "one-one and into",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "many-one and into",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$f(2) = 2$, $f(4) = 2 \\Rightarrow$ many-one. Also, 4 is not an image of any element $\\Rightarrow$ into. Hence, many-one and into.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "If $g(x) = x^2 + x - 1$ and $(gof)(x) = 4x^2 - 10x + 5$, then $f\\left(\\frac{5}{4}\\right)$ is equal to.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-\\frac{1}{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$g(f(x)) = f^2(x) + f(x) - 1$\n$g\\left(f\\left(\\frac{5}{4}\\right)\\right) = 4\\left(\\frac{5}{4}\\right)^2 - 10 \\cdot \\frac{5}{4} + 5 = -\\frac{5}{4}$\n$g\\left(f\\left(\\frac{5}{4}\\right)\\right) = f^2\\left(\\frac{5}{4}\\right) + f\\left(\\frac{5}{4}\\right) - 1$\n$-\\frac{5}{4} = f^2\\left(\\frac{5}{4}\\right) + f\\left(\\frac{5}{4}\\right) - 1$\n$f^2\\left(\\frac{5}{4}\\right) + f\\left(\\frac{5}{4}\\right) + \\frac{1}{4} = 0$\n$\\left(f\\left(\\frac{5}{4}\\right) + \\frac{1}{2}\\right)^2 = 0$\n$f\\left(\\frac{5}{4}\\right) = -\\frac{1}{2}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Let $R = \\{(P, Q) \\mid P \\text{ and } Q \\text{ are at the same distance from the origin}\\}$ be a relation, then the equivalence class of $(1,-1)$ is the set:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "S = \\{(x,y) \\mid x^2 + y^2 = 1\\}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "S = \\{(x,y) \\mid x^2 + y^2 = 4\\}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "S = \\{(x,y) \\mid x^2 + y^2 = \\sqrt{2}\\}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "S = \\{(x,y) \\mid x^2 + y^2 = 2\\}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Distance of $(1,-1)$ from origin is $\\sqrt{1^2 + (-1)^2} = \\sqrt{2}$. The equivalence class contains all points at distance $\\sqrt{2}$ from origin, so $x^2 + y^2 = (\\sqrt{2})^2 \\implies x^2 + y^2 = 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Functions",
+    "chapter": "Functions",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

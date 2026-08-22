@@ -1,0 +1,803 @@
+[
+  {
+    "difficulty": "Hard",
+    "question": "Value of $\\cos^3 \\frac{\\pi}{8} \\cos \\frac{3\\pi}{8} + \\sin^3 \\frac{\\pi}{8} \\sin \\frac{3\\pi}{8}$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\frac{1}{2\\sqrt{2}}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\frac{1}{\\sqrt{2}}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\frac{1}{2}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "-\\frac{1}{2}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using standard identities: $\\cos^3\\left(\\frac{\\pi}{8}\\right) \\left[4\\cos^3\\left(\\frac{\\pi}{8}\\right) - 3\\cos\\left(\\frac{\\pi}{8}\\right)\\right] + \\sin^3\\left(\\frac{\\pi}{8}\\right)\\left[3\\sin\\left(\\frac{\\pi}{8}\\right) - 4\\sin^3\\left(\\frac{\\pi}{8}\\right)\\right]$ \\\\ $= 4\\cos^6\\left(\\frac{\\pi}{8}\\right) - 4\\sin^6\\left(\\frac{\\pi}{8}\\right) - 3\\cos^4\\left(\\frac{\\pi}{8}\\right) + 3\\sin^4\\left(/frac{\\pi}{8}\\right)$ \\\\ $= \\cos\\left(\\frac{\\pi}{4}\\right)\\left[4\\left(1 - \\sin^2\\frac{\\pi}{8}\\cos^2\\frac{\\pi}{8}\\right) - 3\\right] = \\frac{1}{\\sqrt{2}}\\left[1 - \\frac{1}{2}\\right] = \\frac{1}{2\\sqrt{2}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\sin^4 \\alpha + 4\\cos^4 \\beta + 2 = 4\\sqrt{2}\\sin\\alpha\\cos\\beta$; $\\alpha, \\beta \\in [0, \\pi]$, then $\\cos(\\alpha + \\beta) - \\cos(\\alpha - \\beta)$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-\\sqrt{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "By A.M. $\\ge$ G.M., $\\frac{\\sin^4 \\alpha + 4\\cos^4 \\beta + 1 + 1}{4} \\ge (\\sin^4 \\alpha \\cdot 4\\cos^4 \\beta \\cdot 1 \\cdot 1)^{\\frac{1}{4}}$. $\\sin^4 \\alpha + 4\\cos^4 \\beta + 2 \\ge 4\\sqrt{2}\\sin\\alpha|\\cos\\beta|$. Inequality holds when $\\cos\\beta < 0$ but L.H.S. is positive $\\Rightarrow \\cos\\beta > 0$, L.H.S. = R.H.S. $\\therefore \\sin^4 \\alpha = 1$ and $4\\cos^4 \\beta = 1 \\Rightarrow \\alpha = \\frac{\\pi}{2}$ and $\\beta = \\frac{\\pi}{4}$. $\\therefore \\cos(\\alpha + \\beta) - \\cos(\\alpha - \\beta) = \\cos\\left(\\frac{\\pi}{2} + \\beta\\right) - \\cos\\left(\\frac{\\pi}{2} - \\beta\\right) = -\\sin\\beta - \\sin\\beta = -2\\sin\\frac{\\pi}{4} = -\\sqrt{2}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $S = \\{\\theta \\in [-2\\pi, 2\\pi] : 2\\cos^2\\theta + 3\\sin\\theta = 0\\}$. Then the sum of the elements of $S$ is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{13\\pi}{6}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{5\\pi}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2\\pi$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\pi$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$2\\cos^2\\theta + 3\\sin\\theta = 0 \\Rightarrow 2(1 - \\sin^2\\theta) + 3\\sin\\theta = 0 \\Rightarrow 2\\sin^2\\theta - 3\\sin\\theta - 2 = 0 \\Rightarrow (2\\sin\\theta + 1)(\\sin\\theta - 2) = 0 \\Rightarrow \\sin\\theta = -\\frac{1}{2}$ or $\\sin\\theta = 2$ (Not possible). The required sum of all solutions in $[-2\\pi, 2\\pi]$ is $=\\left(\\pi + \\frac{\\pi}{6}\\right) + \\left(2\\pi - \\frac{\\pi}{6}\\right) + \\left(-\\frac{\\pi}{6}\\right) + \\left(-\\pi + \\frac{\\pi}{6}\\right) = 2\\pi$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\sin^4 \\alpha + 4\\cos^4 \\beta + 2 = 4\\sqrt{2} \\sin \\alpha \\cos \\beta$; $\\alpha, \\beta \\in [0, \\pi]$, then $\\cos(\\alpha + \\beta) - \\cos(\\alpha - \\beta)$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-\\sqrt{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "By A.M. $\\ge$ G.M., $\\frac{\\sin^4 \\alpha + 4\\cos^4 \\beta + 1 + 1}{4} \\ge (\\sin^4 \\alpha \\cdot 4\\cos^4 \\beta \\cdot 1 \\cdot 1)^{1/4} = \\sqrt{2}|\\sin \\alpha \\cos \\beta|$. Thus $\\sin^4 \\alpha = 1$ and $\\cos^4 \\beta = \\frac{1}{4}$, which implies $\\alpha = \\frac{\\pi}{2}$ and $\\beta = \\frac{\\pi}{4}$. Then $\\cos(\\alpha + \\beta) - \\cos(\\alpha - \\beta) = \\cos\\left(\\frac{\\pi}{2} + \\beta\\right) - \\cos\\left(\\frac{\\pi}{2} - \\beta\\right) = -\\sin \\beta - \\sin \\beta = -2\\sin\\frac{\\pi}{4} = -\\sqrt{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The value of $36(4 \\cos^2 9^{\\circ}-1)(4 \\cos^2 27^{\\circ}-1)(4 \\cos^2 81^{\\circ}-1)(4 \\cos^2 243^{\\circ}-1)$ is [2023 (08 Apr Shift 2)]",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "54",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "18",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "27",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "36",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "We need to find the value of $36(4 \\cos^2 9^{\\circ}-1)(4 \\cos^2 27^{\\circ}-1)(4 \\cos^2 81^{\\circ}-1)(4 \\cos^2 243^{\\circ}-1) = 36[(4 \\cos^2 9^{\\circ}-1)(4 \\sin^2 9^{\\circ}-1)(4 \\cos^2 27^{\\circ}-1)(4 \\sin^2 27^{\\circ}-1)] = 36[(4(2 \\cos 9^{\\circ} \\sin 9^{\\circ})^2 - 4 \\cos^2 9^{\\circ} - 4 \\sin^2 9^{\\circ} + 1)(4(2 \\sin 27^{\\circ} \\cos 9^{\\circ})^2 - 4 \\cos^2 27^{\\circ} - 4 \\sin^2 27^{\\circ} + 1)] = 36[(4 \\sin^2 18^{\\circ} - 4 + 1)(4 \\sin^2 54^{\\circ} - 4 + 1)] = 36 \\left\\{ \\left(\\frac{\\sqrt{5}-1}{4}\\right)^2 - 3 \\right\\} \\left\\{ \\left(\\frac{\\sqrt{5}+1}{4}\\right)^2 - 3 \\right\\} = 36 \\left\\{ \\frac{(6-2\\sqrt{5}-12)}{4} \\right\\} \\left\\{ \\frac{(6+2\\sqrt{5}-12)}{4} \\right\\} = 36 \\left[\\frac{(2\\sqrt{5})^2 - 36}{16}\\right] = 36$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "$96 \\cos \\frac{\\pi}{33} \\cos \\frac{2\\pi}{33} \\cos \\frac{4\\pi}{33} \\cos \\frac{8\\pi}{33} \\cos \\frac{16\\pi}{33}$ is equal to [2023 (10 Apr Shift 1)]",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "2",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given, Expression $96 \\cdot \\cos \\frac{\\pi}{33} \\cdot \\cos \\frac{2\\pi}{33} \\cdot \\cos \\frac{4\\pi}{33} \\dots \\dots \\dots \\cos \\frac{16\\pi}{33}$. Now we know that, $\\cos A \\cdot \\cos 2A \\cdot \\cos 2^2 A \\cdot \\cos 2^3 A \\dots \\cos 2^{n-1} A = \\frac{\\sin 2^n A}{2^n \\sin A}$. Now using the above formula in given expression we get, $96 \\cdot \\cos \\frac{\\pi}{33} \\cdot \\cos \\frac{2\\pi}{33} \\cdot \\cos \\frac{4\\pi}{33} \\dots \\cos \\frac{16\\pi}{33} = 96 \\times \\frac{\\sin \\frac{32\\pi}{33}}{2^5 \\sin \\frac{\\pi}{33}} = 96 \\times \\frac{\\sin \\left(\\pi - \\frac{\\pi}{33}\\right)}{2^5 \\sin \\frac{\\pi}{33}} = 96 \\times \\frac{\\sin \\left(\\frac{\\pi}{33}\\right)}{2^5 \\sin \\frac{\\pi}{33}} \\{\\text{as } \\sin(\\pi - \\alpha) = \\sin \\alpha\\} = 96 \\times \\frac{1}{32} = 3$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\log_{\\cos x} \\cot x + 4 \\log_{\\sin x} \\tan x = 1$, find the sum of possible values of $\\alpha + \\beta$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Given equation: $\\log_{\\cos x} \\cot x + 4 \\log_{\\sin x} \\tan x = 1$ $\\Rightarrow \\frac{\\ln \\cos x - \\ln \\sin x}{\\ln \\cos x} + 4 \\frac{\\ln \\sin x - \\ln \\cos x}{\\ln \\sin x} = 1$ $\\Rightarrow (\\ln \\sin x)^2 - 4 (\\ln \\sin x)(\\ln \\cos x) + 4(\\ln \\cos x)^2 = 0$ $\\Rightarrow \\ln \\sin x = 2 \\ln \\cos x$ $\\Rightarrow \\sin^2 x + \\sin x - 1 = 0 \\Rightarrow \\sin x = \\frac{-1 + \\sqrt{5}}{2}$ Thus, $\\alpha + \\beta = 4$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\sin^2(10^{\\circ})\\sin(20^{\\circ})\\sin(40^{\\circ})\\sin(50^{\\circ})\\sin(70^{\\circ}) = \\alpha - \\frac{1}{16}\\sin(10^{\\circ})$, then $16 + \\alpha^{-1}$ is equal to ______.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Using standard product-to-sum identities and simplifying the expression, we get $\\alpha = \\frac{1}{64}$. Then $16 + \\alpha^{-1} = 16 + 64 = 80$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\cot\\alpha = 1$ and $\\sec\\beta = -\\frac{5}{3}$, where $\\pi < \\alpha < \\frac{3\\pi}{2}$ and $\\frac{\\pi}{2} < \\beta < \\pi$, then the value of $\\tan(\\alpha + \\beta)$ and the quadrant in which $\\alpha + \\beta$ lies, respectively are",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-\\frac{1}{7}$ and $\\text{IV}^{\\text{th}}$ quadrant",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$7$ and $\\text{I}^{\\text{st}}$ quadrant",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-7$ and $\\text{IV}^{\\text{th}}$ quadrant",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{7}$ and $\\text{I}^{\\text{st}}$ quadrant",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since $\\cot\\alpha = 1$ and $\\pi < \\alpha < \\frac{3\\pi}{2}$, $\\alpha$ is in the third quadrant, so $\\tan\\alpha = 1$. Given $\\sec\\beta = -\\frac{5}{3}$ and $\\frac{\\pi}{2} < \\beta < \\pi$, $\\beta$ is in the second quadrant, so $\\tan\\beta = -\\frac{4}{3}$. Then $\\tan(\\alpha + \\beta) = \\frac{\\tan\\alpha + \\tan\\beta}{1 - \\tan\\alpha\\tan\\beta} = \\frac{1 - \\frac{4}{3}}{1 - (1)\\left(-\\frac{4}{3}\\right)} = \\frac{-1/3}{7/3} = -\\frac{1}{7}$. Since $\\pi < \\alpha < \\frac{3\\pi}{2}$ and $\\frac{\\pi}{2} < \\beta < \\pi$, we have $\\frac{3\\pi}{2} < \\alpha + \\beta < \\frac{5\\pi}{2}$, leading to the $\\text{IV}^{\\text{th}}$ quadrant.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $16 \\alpha^4 - 20 \\alpha^2 + 5 = 0$, then the value of $\\alpha$ can be:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\sin 36^\\circ$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\cos 18^\\circ$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\sin 18^\\circ$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\cos 36^\\circ$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "We know that $\\cos 72^\\circ = \\frac{\\sqrt{5}-1}{4}$ or $1 - 2\\sin^2 36^\\circ = \\frac{\\sqrt{5}-1}{4}$. Rearranging gives $4 - 8\\alpha^2 = \\sqrt{5} - 1 \\implies 5 - 8\\alpha^2 = \\sqrt{5} \\implies (5 - 8\\alpha^2)^2 = 5 \\implies 25 + 64\\alpha^4 - 80\\alpha^2 = 5 \\implies 64\\alpha^4 - 80\\alpha^2 + 20 = 0 \\implies 16\\alpha^4 - 20\\alpha^2 + 5 = 0$. Thus $\\alpha = \\sin 36^\\circ$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\sin^2(10^\\circ)\\sin(20^\\circ)\\sin(40^\\circ)\\sin(50^\\circ)\\sin(70^\\circ) = \\alpha - \\frac{1}{16}\\sin(10^\\circ)$, then $16 + \\alpha^{-1}$ is equal to ______.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "Not applicable (Numerical)",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using standard product formulas for sines, we simplify the expression: $\\sin 10^\\circ (\\frac{1}{2} \\cdot 2\\sin 20^\\circ \\sin 40^\\circ) \\cdot \\sin 10^\\circ \\sin(60^\\circ - 10^\\circ) \\sin(60^\\circ + 10^\\circ) = \\sin 10^\\circ \\frac{1}{2}(\\cos 20^\\circ - \\cos 60^\\circ) \\cdot \\frac{1}{4}\\sin 30^\\circ = \\frac{1}{32}(2\\sin 10^\\circ \\cos 20^\\circ - \\sin 10^\\circ) = \\frac{1}{32}(\\sin 30^\\circ - \\sin 10^\\circ - \\sin 10^\\circ) = \\frac{1}{64}(1 - 4\\sin 10^\\circ) = \\frac{1}{64} - \\frac{1}{16}\\sin 10^\\circ$. Hence $\\alpha = \\frac{1}{64}$. Then $16 + \\alpha^{-1} = 16 + 64 = 80$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\cot\\alpha = 1$ and $\\sec\\beta = -\\frac{5}{3}$, where $\\pi < \\alpha < \\frac{3\\pi}{2}$ and $\\frac{\\pi}{2} < \\beta < \\pi$, then the value of $\\tan(\\alpha + \\beta)$ and the quadrant in which $\\alpha + \\beta$ lies, respectively are",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-\\frac{1}{7}$ and $\\text{IV}^{\\text{th}}$ quadrant",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$7$ and $\\text{I}^{\\text{st}}$ quadrant",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-7$ and $\\text{IV}^{\\text{th}}$ quadrant",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{7}$ and $\\text{I}^{\\text{st}}$ quadrant",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $\\cot \\alpha = 1$ and $\\pi < \\alpha < \\frac{3\\pi}{2}$, so $\\alpha$ lies in the 3rd quadrant, giving $\\tan \\alpha = 1$. Given $\\sec \\beta = -\\frac{5}{3}$ and $\\frac{\\pi}{2} < \\beta < \\pi$, so $\\beta$ lies in the 2nd quadrant, giving $\\tan \\beta = -\\frac{4}{3}$. Now, $\\tan(\\alpha + \\beta) = \\frac{\\tan \\alpha + \\tan \\beta}{1 - \\tan \\alpha \\tan \\beta} = \\frac{1 + (-4/3)}{1 - (1)(-4/3)} = \\frac{-1/3}{7/3} = -\\frac{1}{7}$. Since $\\pi < \\alpha < \\frac{3\\pi}{2}$ and $\\frac{\\pi}{2} < \\beta < \\pi$, adding them gives $\\frac{3\\pi}{2} < \\alpha + \\beta < \\frac{5\\pi}{2}$, and with the negative tangent, $\\alpha + \\beta$ lies in the $\\text{IV}^{\\text{th}}$ quadrant.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The value of $\\cos \\frac{2\\pi}{7} + \\cos \\frac{4\\pi}{7} + \\cos \\frac{6\\pi}{7}$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$\\cos \\frac{2\\pi}{7} + \\cos \\frac{4\\pi}{7} + \\cos \\frac{6\\pi}{7}$ \\\\ $= \\frac{\\sin \\left(3 \\times \\frac{\\pi}{7}\\right)}{\\sin \\frac{\\pi}{7}} \\times \\cos \\left(\\frac{\\frac{2\\pi}{7} + \\frac{6\\pi}{7}}{2}\\right)$ \\\\ $= \\frac{2 \\sin \\left(\\frac{3\\pi}{7}\\right)}{2 \\sin \\frac{\\pi}{7}} \\times \\cos \\left(\\frac{4\\pi}{7}\\right)$ \\\\ $= \\frac{\\sin \\left(\\frac{7\\pi}{7}\\right) + \\sin \\left(\\frac{-\\pi}{7}\\right)}{2 \\sin \\frac{\\pi}{7}}$ \\\\ $= \\frac{-\\sin \\frac{\\pi}{7}}{2 \\sin \\frac{\\pi}{7}}$ \\\\ $= -\\frac{1}{2}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the value of $\\frac{3\\cos 36^{\\circ} + 5\\sin 18^{\\circ}}{5\\cos 36^{\\circ} - 3\\sin 18^{\\circ}}$ is $\\frac{a\\sqrt{5}-b}{c}$, where $a, b, c$ are natural numbers and $\\text{gcd}(a, c) = 1$, then $a + b + c$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "40",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "52",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "50",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "54",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Substitute $\\cos 36^{\\circ} = \\frac{\\sqrt{5}+1}{4}$ and $\\sin 18^{\\circ} = \\frac{\\sqrt{5}-1}{4}$:\n$$\\frac{3\\left(\\frac{\\sqrt{5}+1}{4}\\right) + 5\\left(\\frac{\\sqrt{5}-1}{4}\\right)}{5\\left(\\frac{\\sqrt{5}+1}{4}\\right) - 3\\left(\\frac{\\sqrt{5}-1}{4}\\right)} = \\frac{8\\sqrt{5}-2}{2\\sqrt{5}+8} = \\frac{4\\sqrt{5}-1}{\\sqrt{5}+4}$$.\nRationalizing the denominator:\n$$\\frac{4\\sqrt{5}-1}{\\sqrt{5}+4} \\times \\frac{\\sqrt{5}-4}{\\sqrt{5}-4} = \\frac{20 - 16\\sqrt{5} - \\sqrt{5} + 4}{-11} = \\frac{17\\sqrt{5} - 24}{11}$$.\nComparing with $\\frac{a\\sqrt{5}-b}{c}$, we get $a = 17, b = 27, c = 11$.\nTherefore, $a + b + c = 52$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $|\\cos \\theta \\cos(60^{\\circ} - \\theta)\\cos(60^{\\circ} + \\theta)| \\leq \\frac{1}{8}, \\theta \\in [0, 2\\pi]$. Then, the sum of all $\\theta \\in [0, 2\\pi]$, where $\\cos 3\\theta$ attains its maximum value, is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$15\\pi$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$18\\pi$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$6\\pi$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$9\\pi$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "We know that $(\\cos \\theta)(\\cos(60^{\\circ} - \\theta))(\\cos(60^{\\circ} + \\theta)) = \\frac{1}{4}\\cos 3\\theta$.\nSo equation reduces to $|\\frac{1}{4}\\cos 3\\theta| \\leq \\frac{1}{8} \\implies |\\cos 3\\theta| \\leq \\frac{1}{2}$.\nMaximum value of $\\cos 3\\theta = \\frac{1}{2}$, here $3\\theta = 2n\\pi \\pm \\frac{\\pi}{3} \\implies \\theta = \\frac{2n\\pi}{3} \\pm \\frac{\\pi}{9}$.\nAs $\\theta \\in [0, 2\\pi]$, possible values are $\\theta = \\left\\{\\frac{\\pi}{9}, \\frac{5\\pi}{9}, \\frac{7\\pi}{9}, \\frac{11\\pi}{9}, \\frac{13\\pi}{9}, \\frac{17\\pi}{9}\\right\\}$.\nWhose sum is $\\frac{\\pi}{9} + \\frac{5\\pi}{9} + \\frac{7\\pi}{9} + \\frac{11\\pi}{9} + \\frac{13\\pi}{9} + \\frac{17\\pi}{9} = \\frac{54\\pi}{9} = 6\\pi$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\cos(\\alpha + \\beta) = -\\frac{1}{10}$ and $\\sin(\\alpha - \\beta) = \\frac{3}{8}$, where $0 < \\alpha < \\frac{\\pi}{3}$ and $0 < \\beta < \\frac{\\pi}{4}$. If $\\tan 2\\alpha = \\frac{3(1 - r\\sqrt{5})}{\\sqrt{11}(s + \\sqrt{5})}, r, s \\in \\mathbf{N}$, then $r + s$ is equal to ____.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "B",
+    "explanation": "$\\tan 2\\alpha = \\tan[(\\alpha + \\beta) + (\\alpha - \\beta)]$ \n $\\tan 2\\alpha = \\frac{\\tan(\\alpha + \\beta) + \\tan(\\alpha - \\beta)}{1 - \\tan(\\alpha + \\beta)\\cdot\\tan(\\alpha - \\beta)}$ \n $\\tan 2\\alpha = \\frac{(-\\sqrt{99} + \\frac{3}{\\sqrt{5}})}{1 - (-\\sqrt{99})\\left(\\frac{3}{\\sqrt{5}}\\right)}$ \n $r = 11, s = 9 \\implies r + s = 20$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\frac{\\pi}{2} < \\theta < \\pi$ and $\\cot \\theta = -\\frac{1}{2\\sqrt{2}}$. Then the value of $\\sin\\left(\\frac{15\\theta}{2}\\right)(\\cos 8\\theta + \\sin 8\\theta) + \\cos\\left(\\frac{15\\theta}{2}\\right)(\\cos 8\\theta - \\sin 8\\theta)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-\\frac{\\sqrt{2}}{\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\sqrt{2}-1}{\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\sqrt{2}}{\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1-\\sqrt{2}}{\\sqrt{3}}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Expanding and regrouping: \n $\\sin\\left(\\frac{15\\theta}{2}\\right)(\\cos 8\\theta + \\sin 8\\theta) + \\cos\\left(\\frac{15\\theta}{2}\\right)(\\cos 8\\theta - \\sin 8\\theta)$ \n $= \\cos\\left(8\\theta - \\frac{15\\theta}{2}\\right) + \\sin\\left(\\frac{15\\theta}{2} - 8\\theta\\right) = \\cos \\frac{\\theta}{2} - \\sin \\frac{\\theta}{2}$. \n From $\\cot \\theta = -\\frac{1}{2\\sqrt{2}} : \\sin \\theta = \\frac{2\\sqrt{2}}{3}, \\cos \\theta = -\\frac{1}{3}$. \n $\\left(\\cos \\frac{\\theta}{2} - \\sin \\frac{\\theta}{2}\\right)^2 = 1 - \\sin \\theta = 1 - \\frac{2\\sqrt{2}}{3} = \\frac{(\\sqrt{2}-1)^2}{3}$. \n Since $\\frac{\\pi}{4} < \\frac{\\theta}{2} < \\frac{\\pi}{2}, \\sin \\frac{\\theta}{2} > \\cos \\frac{\\theta}{2}$, so the value is $\\frac{1-\\sqrt{2}}{\\sqrt{3}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\frac{\\tan(A-B)}{\\tan A} + \\frac{\\sin^2 C}{\\sin^2 A} = 1, A, B, C \\in \\left(0, \\frac{\\pi}{2}\\right)$, then",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\tan A, \\tan C, \\tan B$ are in A.P.",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\tan A, \\tan B, \\tan C$ are in G.P.",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\tan A, \\tan C, \\tan B$ are in G.P.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\tan A, \\tan B, \\tan C$ are in A.P.",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Starting with $\\frac{\\tan(A-B)}{\\tan A} + \\frac{\\sin^2 C}{\\sin^2 A} = 1$, rearrange to $\\frac{\\tan(A-B)}{\\tan A} = 1 - \\frac{\\sin^2 C}{\\sin^2 A}$ \n $\\Rightarrow \\tan(A-B)\\tan A = \\sin^2 A - \\sin^2 C$. \n Applying the identity $\\sin^2 \\theta = \\frac{\\tan^2 \\theta}{1+\\tan^2 \\theta}$ and simplifying leads to a relationship between the tangent values. \n The constraint reduces to $(\\tan C)^2 = \\tan A \\cdot \\tan B$, which means $\\tan A, \\tan C$, and \\tan B form a geometric progression with common ratio $r = \\frac{\\tan C}{\\tan A}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\cot x = \\frac{5}{12}$ for some $x \\in \\left(\\pi, \\frac{3\\pi}{2}\\right)$, then $\\sin 7x \\left(\\cos \\frac{13x}{2} + \\sin \\frac{13x}{2}\\right) + \\cos 7x \\left(\\cos \\frac{13x}{2} - \\sin \\frac{13x}{2}\\right)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{4}{\\sqrt{26}}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{6}{\\sqrt{26}}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{5}{\\sqrt{13}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{\\sqrt{13}}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$\\cot x = \\frac{5}{12} \\implies \\cos x = \\frac{-5}{13} = 2\\cos^2 \\frac{x}{2} - 1$ \n $\\cos\\left(\\frac{x}{2}\\right) = -\\frac{2}{\\sqrt{13}}$ or $\\frac{2}{\\sqrt{13}}$ (rejected) $\\left\\{\\because \\frac{x}{2} \\in \\left(\\frac{\\pi}{2}, \\frac{3\\pi}{4}\\right)\\right\\}$ \n $\\left(\\sin 7x \\frac{\\sin 13x}{2} + \\cos 7x \\frac{\\cos 13x}{2}\\right) + \\left(\\sin 7x \\frac{\\cos 13x}{2} - \\cos 7x \\frac{\\sin 13x}{2}\\right)$ \n $= \\cos\\left(7x - \\frac{13x}{2}\\right) + \\sin\\left(7x - \\frac{13x}{2}\\right)$ \n $= \\cos\\left(\\frac{x}{2}\\right) + \\sin\\left(\\frac{x}{2}\\right) = \\frac{3}{\\sqrt{13}} - \\frac{2}{\\sqrt{13}} = \\frac{1}{\\sqrt{13}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The value of $\\frac{\\sqrt{3}\\csc 20^\\circ - \\sec 20^\\circ}{\\cos 20^\\circ \\cos 40^\\circ \\cos 60^\\circ \\cos 80^\\circ}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$32$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$64$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$12$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Numerator: $\\sqrt{3}\\csc 20^\\circ - \\sec 20^\\circ = \\frac{\\sqrt{3}\\cos 20^\\circ - \\sin 20^\\circ}{\\sin 20^\\circ \\cos 20^\\circ}$ \n $\\sqrt{3}\\cos 20^\\circ - \\sin 20^\\circ = 2\\left(\\frac{\\sqrt{3}}{2}\\cos 20^\\circ - \\frac{1}{2}\\sin 20^\\circ\\right) = 2\\cos(20^\\circ + 30^\\circ) = 2\\cos 50^\\circ$ \n So numerator $= \\frac{2\\cos 50^\\circ}{\\sin 20^\\circ \\cos 20^\\circ} = \\frac{4\\cos 50^\\circ}{\\sin 40^\\circ} = 4$. \n Denominator: $\\cos 20^\\circ \\cos 40^\\circ \\cos 60^\\circ \\cos 80^\\circ$ where $\\cos 60^\\circ = \\frac{1}{2}$. \n Using product formula: $\\sin 20^\\circ \\cos 20^\\circ \\cos 40^\\circ \\cos 80^\\circ = \\frac{1}{8}\\sin 20^\\circ$. \n Therefore $\\cos 20^\\circ \\cos 40^\\circ \\cos 80^\\circ \\cdot \\frac{1}{2} = \\frac{1}{16}\\sin 20^\\circ$. \n So, $\\frac{4}{\\frac{1}{16}\\sin 20^\\circ} = 64$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $S = \\left\\{\\theta \\in \\left(0, \\frac{\\pi}{2}\\right) : \\sum_{m=1}^{9} \\sec\\left(\\theta + (m-1)\\frac{\\pi}{6}\\right)\\sec\\left(\\theta + m\\frac{\\pi}{6}\\right) = -\\frac{8}{\\sqrt{3}}\\right\\}$. Then",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$S = \\left\\{\\frac{\\pi}{12}\\right\\}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$S = \\left\\{\\frac{2\\pi}{3}\\right\\}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\sum_{\\theta \\in S} \\theta = \\frac{\\pi}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sum_{\\theta \\in S} \\theta = \\frac{3\\pi}{4}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let $\\alpha = \\theta + (m-1)\\frac{\\pi}{6}$ & $\\beta = \\theta + m\\frac{\\pi}{6}$. So, $\\beta - \\alpha = \\frac{\\pi}{6}$. Here, $\\sum_{m=1}^{9} \\sec\\alpha \\cdot \\sec\\beta = \\sum_{m=1}^{9} \\frac{1}{\\cos\\alpha \\cdot \\cos\\beta} = 2\\sum_{m=1}^{9} \\frac{\\sin(\\beta - \\alpha)}{\\cos\\alpha \\cdot \\cos\\beta} = 2\\sum_{m=1}^{9} (\\tan\\beta - \\tan\\alpha) = 2\\sum_{m=1}^{9} \\left(\\tan\\left(\\theta + m\\frac{\\pi}{6}\\right) - \\tan\\left(\\theta + (m-1)\\frac{\\pi}{6}\\right)\\right) = 2\\left(\\tan\\left(\\theta + \\frac{9\\pi}{6}\\right) - \\tan\\theta\\right) = 2(-\\cot\\theta - \\tan\\theta) = -\\frac{8}{\\sqrt{3}}$ (Given). $\\therefore \\tan\\theta + \\cot\\theta = \\frac{4}{\\sqrt{3}} \\implies \\tan\\theta = \\frac{1}{\\sqrt{3}}$ or $\\sqrt{3}$. So, $S = \\left\\{\\frac{\\pi}{6}, \\frac{\\pi}{3}\\right\\}$. $\\sum_{\\theta \\in S} \\theta = \\frac{\\pi}{6} + \\frac{\\pi}{3} = \\frac{\\pi}{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $S = \\left[-\\pi, \\frac{\\pi}{2}\\right] - \\left\\{-\\frac{\\pi}{2}, -\\frac{\\pi}{4}, -\\frac{3\\pi}{4}, \\frac{\\pi}{4}\\right\\}$. Then the number of elements in the set $A = \\left\\{\\theta \\in S : \\tan\\theta(1+\\sqrt{5}\\tan(2\\theta)) = \\sqrt{5}-\\tan(2\\theta)\\right\\}$ is ____",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "6",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given equation: $\\tan\\theta + \\sqrt{5}\\tan(2\\theta)\\tan\\theta = \\sqrt{5} - \\tan(2\\theta) \\implies \\tan 3\\theta = \\sqrt{5} \\implies \\theta = \\frac{n\\pi}{3} + \\frac{\\alpha}{3}; \\tan\\alpha = \\sqrt{5}$. Five solutions exist in the given set.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "trignometric ratios",
+    "chapter": "trignometric ratios",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

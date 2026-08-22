@@ -1,13 +1,33 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import MathText from '../components/MathText';
+import MathRenderer from '../components/MathRenderer';
+
+const getImageUrl = (path) => {
+  if (!path || typeof path !== 'string') return null;
+  if (path.startsWith('http') || path.startsWith('/images/')) return encodeURI(path);
+  if (path.startsWith('images/')) return encodeURI('/' + path);
+  return encodeURI('/images/' + path);
+};
 
 export default function Exam() {
   const location = useLocation();
   const navigate = useNavigate();
-  const levelNumber = location.state?.levelNumber || 1;
-  const isCustomTest = location.state?.isCustomTest || false;
+  
+  const [levelNumber, setLevelNumber] = useState(() => {
+    return location.state?.levelNumber || parseInt(localStorage.getItem('currentExamLevel')) || 1;
+  });
+  
+  const [isCustomTest, setIsCustomTest] = useState(() => {
+    if (location.state?.isCustomTest !== undefined) return location.state.isCustomTest;
+    return localStorage.getItem('currentExamIsCustom') === 'true';
+  });
+
+  useEffect(() => {
+    localStorage.setItem('currentExamLevel', levelNumber);
+    localStorage.setItem('currentExamIsCustom', isCustomTest);
+  }, [levelNumber, isCustomTest]);
+
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState({}); // { questionId: selectedOption }
@@ -23,7 +43,6 @@ export default function Exam() {
     
     const initAttempt = async () => {
       const token = localStorage.getItem('token');
-      if (token === 'mock-token') return;
       try {
         await axios.post('/api/v1/exams/start-attempt', { level: parseInt(levelNumber) }, {
           headers: { Authorization: `Bearer ${token}` }
@@ -47,55 +66,6 @@ export default function Exam() {
     setSubmitting(true);
     
     const token = localStorage.getItem('token');
-    if (token === 'mock-token') {
-      let correctAnswers = 0;
-      let wrongAnswers = 0;
-      
-      const evaluatedAnswers = questions.map(q => {
-        const selected = answers[q._id] || null;
-        const isCorrect = selected === q.correctAnswer;
-        if (isCorrect) correctAnswers++;
-        else if (selected) wrongAnswers++;
-        
-        return {
-          questionId: q._id,
-          selectedAnswer: selected,
-          correct: isCorrect,
-          correctAnswer: q.correctAnswer,
-          explanation: q.explanation,
-          explanationImage: q.explanationImage,
-          questionText: q.question,
-          questionImage: q.questionImage,
-          options: q.options.map(opt => typeof opt === 'object' ? opt.text : opt),
-          optionImages: q.options.map(opt => typeof opt === 'object' ? opt.image : null),
-          chapter: q.topic,
-          difficulty: q.difficulty
-        };
-      });
-      
-      const score = correctAnswers * 4;
-      const percentage = Math.round((correctAnswers / questions.length) * 100);
-      const qualified = percentage >= 50;
-      
-      const resultData = {
-        result: {
-          level: parseInt(levelNumber) || 0,
-          totalQuestions: questions.length,
-          correctAnswers,
-          wrongAnswers,
-          score,
-          percentage,
-          timeTaken: (15 * 60) - timeLeft,
-          answers: evaluatedAnswers
-        },
-        qualified,
-        newCertificate: null
-      };
-      
-      localStorage.removeItem(`exam_answers_${levelNumber}`);
-      navigate('/result', { state: { resultData } });
-      return;
-    }
     
     const payload = {
       level: parseInt(levelNumber) || 0,
@@ -124,43 +94,10 @@ export default function Exam() {
 
 
   useEffect(() => {
-    if (isCustomTest && location.state?.customQuestions?.length) {
-      setQuestions(location.state.customQuestions);
-      if (location.state?.timeLimit) {
-        setTimeLeft(location.state.timeLimit * 60);
-      }
-      setLoading(false);
-      return;
-    }
-
     const fetchQuestions = async () => {
       const token = localStorage.getItem('token');
-      if (token === 'mock-token') {
-        try {
-          // Map levels to mock difficulty json files
-          // Let's load the hard.json directly for visual aldol questions or let the user choose!
-          // We can map: Level 1 -> easy.json, Level 2 -> medium.json, Level 3 -> hard.json
-          let mockFile = 'easy.json';
-          const lvl = parseInt(levelNumber);
-          if (lvl === 2 || lvl === 5 || lvl === 7 || lvl === 9) {
-            mockFile = 'medium.json';
-          } else if (lvl === 3 || lvl === 6 || lvl === 8 || lvl === 10) {
-            mockFile = 'hard.json';
-          }
-          const res = await fetch(`/mock-questions/${mockFile}`);
-          const data = await res.json();
-          setQuestions(data);
-          setLoading(false);
-        } catch (err) {
-          console.error("Failed to load mock questions", err);
-          alert('Failed to load mock questions');
-          navigate('/dashboard');
-        }
-        return;
-      }
-      
       try {
-        const res = await axios.get(`/api/v1/exams/${levelNumber}`, {
+        const res = await axios.get(`/api/v1/exams/${levelNumber}?t=${new Date().getTime()}`, {
           headers: { Authorization: `Bearer ${token}` }
         });
         setQuestions(res.data);
@@ -172,7 +109,7 @@ export default function Exam() {
       }
     };
     fetchQuestions();
-  }, [levelNumber, isCustomTest, location.state, navigate]);
+  }, [levelNumber, navigate]);
 
   useEffect(() => {
     if (loading || submitting) return;
@@ -190,9 +127,8 @@ export default function Exam() {
   }, [timeLeft, loading, submitting, handleSubmit]);
 
   const handleOptionSelect = (questionId, option) => {
-    const val = typeof option === 'object' ? option.text : option;
     setAnswers(prev => {
-      const newAnswers = { ...prev, [questionId]: val };
+      const newAnswers = { ...prev, [questionId]: option };
       if (!isCustomTest) {
         localStorage.setItem(`exam_answers_${levelNumber}`, JSON.stringify(newAnswers));
       }
@@ -270,7 +206,13 @@ export default function Exam() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col select-none">
+    <div 
+      className="min-h-screen bg-gray-50 flex flex-col select-none"
+      onCopy={e => e.preventDefault()}
+      onCut={e => e.preventDefault()}
+      onPaste={e => e.preventDefault()}
+      onContextMenu={e => e.preventDefault()}
+    >
       <header className="bg-white shadow px-6 py-4 flex justify-between items-center sticky top-0 z-10">
         <div className="flex items-center space-x-4">
           <h1 className="text-2xl font-bold text-gray-900">{isCustomTest ? 'Custom Practice Test' : `Level ${levelNumber} Test`}</h1>
@@ -300,57 +242,62 @@ export default function Exam() {
           </div>
 
           <div className="flex-1">
-            <h2 className="text-2xl font-medium text-gray-900 mb-6 leading-relaxed flex items-start">
-              <span className="text-gray-400 mr-2 shrink-0">Question {currentQuestionIndex + 1}/{questions.length}.</span> 
-              <MathText text={currentQ.question} />
+            <h2 className="text-2xl font-medium text-gray-900 mb-8 leading-relaxed">
+              <span className="text-gray-400 mr-2">Question {currentQuestionIndex + 1}/{questions.length}.</span> 
+              <MathRenderer text={currentQ.question} />
             </h2>
 
-            {currentQ.questionImage && (
-              <div className="mb-8 flex justify-center bg-white p-4 border border-gray-100 rounded-2xl shadow-sm">
-                <img 
-                  src={currentQ.questionImage.startsWith('http') ? currentQ.questionImage : `/images/${currentQ.questionImage}`} 
-                  alt="Question Diagram" 
-                  className="max-h-72 object-contain"
-                />
+            {(currentQ.questionImage || currentQ.image) && getImageUrl(currentQ.questionImage || currentQ.image) && (
+              <div className="mb-8 flex justify-center">
+                <img src={getImageUrl(currentQ.questionImage || currentQ.image)} alt="Question graphic" className="max-w-full h-auto rounded-lg shadow-sm border border-gray-200" style={{ maxHeight: '350px' }} />
               </div>
             )}
 
             <div className="space-y-4">
-              {currentQ.options.map((opt, idx) => {
-                const optText = typeof opt === 'object' ? opt.text : opt;
-                const optImg = typeof opt === 'object' ? opt.image : (currentQ.optionImages ? currentQ.optionImages[idx] : null);
-                const isSelected = answers[currentQ._id] === optText;
-                
-                return (
-                  <label 
-                    key={idx} 
-                    className={`block w-full p-4 border rounded-xl cursor-pointer transition-all duration-200 ${isSelected ? 'bg-indigo-50 border-indigo-500 shadow-sm' : 'border-gray-200 hover:bg-gray-50 hover:border-indigo-300'}`}
-                  >
-                    <div className="flex flex-col sm:flex-row sm:items-center w-full">
+              {currentQ.questionType === 'Numerical' || !currentQ.options || currentQ.options.length === 0 ? (
+                <div className="mt-6">
+                  <label className="block text-lg font-medium text-gray-700 mb-2">Your Answer:</label>
+                  <input 
+                    type="text" 
+                    value={answers[currentQ._id] || ''} 
+                    onChange={(e) => handleOptionSelect(currentQ._id, e.target.value)} 
+                    placeholder="Enter your numerical answer here..."
+                    className="w-full max-w-md px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 text-lg shadow-sm"
+                  />
+                  <p className="mt-2 text-sm text-gray-500">For numerical answers, enter the value directly (e.g. 5, -3, 2.5).</p>
+                </div>
+              ) : (
+                currentQ.options?.map((opt, idx) => {
+                  const optText = typeof opt === 'object' ? opt.text : opt;
+                  const optImage = typeof opt === 'object' ? opt.image : null;
+                  const isSelected = answers[currentQ._id] === optText;
+                  return (
+                    <label 
+                      key={idx} 
+                      className={`block w-full p-4 border rounded-xl cursor-pointer transition-all duration-200 ${isSelected ? 'bg-indigo-50 border-indigo-500 shadow-sm' : 'border-gray-200 hover:bg-gray-50 hover:border-indigo-300'}`}
+                    >
                       <div className="flex items-center">
                         <input 
                           type="radio" 
                           name={`question-${currentQ._id}`} 
                           value={optText}
                           checked={isSelected}
-                          onChange={() => handleOptionSelect(currentQ._id, opt)}
+                          onChange={() => handleOptionSelect(currentQ._id, optText)}
                           className="h-5 w-5 text-indigo-600 focus:ring-indigo-500 border-gray-300"
                         />
-                        <span className="ml-4 text-lg text-gray-700">{optText}</span>
-                      </div>
-                      {optImg && (
-                        <div className="mt-3 sm:mt-0 sm:ml-auto bg-white p-2 border border-gray-100 rounded-lg max-w-xs shadow-sm">
-                          <img 
-                            src={optImg.startsWith('http') ? optImg : `/images/${optImg}`} 
-                            alt={`Option ${optText}`} 
-                            className="max-h-24 object-contain"
-                          />
+                        <div className="ml-4 flex flex-col">
+                          <span className="text-lg text-gray-700">
+                            <MathRenderer text={optText} />
+                          </span>
+                          {optImage && getImageUrl(optImage) && (
+                            <img src={getImageUrl(optImage)} alt="Option graphic" className="mt-2 max-w-full h-auto rounded border border-gray-200" style={{ maxHeight: '100px' }} />
+                          )}
                         </div>
-                      )}
-                    </div>
-                  </label>
-                );
-              })}
+                      </div>
+                    </label>
+                  );
+                })
+              )}
             </div>
           </div>
 

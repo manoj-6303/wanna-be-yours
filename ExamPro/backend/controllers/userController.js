@@ -4,7 +4,19 @@ export const getUserProfile = async (req, res) => {
   try {
     const user = await User.findById(req.user._id).select('-password');
     if (user) {
-      res.json(user);
+      const { default: Result } = await import('../models/Result.js');
+      const results = await Result.find({ userId: req.user._id });
+      
+      const attemptsMap = {};
+      results.forEach(r => {
+        if (!attemptsMap[r.level]) attemptsMap[r.level] = 0;
+        attemptsMap[r.level]++;
+      });
+
+      const userObj = user.toObject();
+      userObj.attemptsMap = attemptsMap;
+      
+      res.json(userObj);
     } else {
       res.status(404).json({ message: 'User not found' });
     }

@@ -1,0 +1,392 @@
+[
+  {
+    "difficulty": "Medium",
+    "question": "With the usual notation, in $\\Delta ABC$, if $\\angle A + \\angle B = 120^\\circ$, $a = \\sqrt{3} + 1$ and $b = \\sqrt{3} - 1$, then the ratio $\\angle A : \\angle B$, is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$7 : 1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$5 : 3$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$9 : 7$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$3 : 1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $\\angle A + \\angle B = 120^\\circ$ ...(1)\n$\\Rightarrow \\angle C = 180^\\circ - 120^\\circ = 60^\\circ$\nWe know that $\\tan\\left(\\frac{A-B}{2}\\right) = \\frac{a-b}{a+b} \\cot\\left(\\frac{C}{2}\\right)$\n$= \\frac{2}{2\\sqrt{3}} (\\cot 30^\\circ) = \\frac{1}{\\sqrt{3}} \\times \\sqrt{3} = 1$\n$\\Rightarrow \\frac{\\angle A - \\angle B}{2} = \\frac{\\pi}{4}$\n$\\Rightarrow \\angle A - \\angle B = 90^\\circ$ ...(2)\nFrom eqn (1) and (2),\n$\\angle A = 105^\\circ, \\quad \\angle B = 15^\\circ$\nThen, $\\angle A : \\angle B = 7 : 1$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Properties of Triangle",
+    "chapter": "Properties of Triangle",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The angles A, B and C of a triangle ABC are in A.P. and $a : b = 1 : \\sqrt{3}$. If $c = 4\\text{ cm}$, then the area (in sq. cm) of this triangle is :",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{2}{\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{4}{\\sqrt{3}}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given that $A, B, C$ are in A.P. $\\Rightarrow 2B = A + C$\nNow, $A + B + C = \\pi \\Rightarrow B = 60^\\circ$\nArea = $\\frac{1}{2} (4x) \\sin 60^\\circ = \\sqrt{3}x$\nNow $\\cos 60^\\circ = \\frac{16 + x^2 - 3x^2}{8x}$\n$\\Rightarrow 4x = 16 - 2x^2 \\Rightarrow x^2 + 2x - 8 = 0$\n$\\Rightarrow x = 2$ $[\\because x \\text{ can't be negative}]$\nHence, area = $2\\sqrt{3}\\text{ sq. cm}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Properties of Triangle",
+    "chapter": "Properties of Triangle",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "With the usual notation, in $\\Delta ABC$, if $\\angle A + \\angle B = 120^\\circ$, $a = \\sqrt{3} + 1$ and $b = \\sqrt{3} - 1$, then the ratio $\\angle A : \\angle B$, is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$7 : 1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$5 : 3$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$9 : 7$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$3 : 1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $\\angle A + \\angle B = 120^\\circ$ ...(1) $\\Rightarrow \\angle C = 180^\\circ - 120^\\circ = 60^\\circ$. We know that $\\tan\\left(\\frac{A-B}{2}\\right) = \\frac{a-b}{a+b} \\cot\\left(\\frac{C}{2}\\right) = \\frac{2}{2\\sqrt{3}} (\\cot 30^\\circ) = \\frac{1}{\\sqrt{3}} \\times \\sqrt{3} = 1$. $\\Rightarrow \\frac{\\angle A - \\angle B}{2} = \\frac{\\pi}{4}$ $\\Rightarrow \\angle A - \\angle B = 90^\\circ$ ...(2). From eqn (1) and (2), $\\angle A = 105^\\circ$, $\\angle B = 15^\\circ$. Then, $\\angle A : \\angle B = 7 : 1$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Properties of Triangle",
+    "chapter": "Properties of Triangle",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The angles $A$, $B$ and $C$ of a triangle $ABC$ are in A.P. and $a : b = 1 : \\sqrt{3}$. If $c = 4$ cm, then the area (in sq. cm) of this triangle is :",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{2}{\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{4}{\\sqrt{3}}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $A, B, C$ are in A.P., so $2B = A+C$. Since $A+B+C = \\pi$, we get $B = 60^\\circ$. Using sine rule, $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = \\frac{4}{\\sin C}$. With $a:b = 1:\\sqrt{3}$, we can represent sides as $4$ (for $c$), and using triangle properties with $60^\\circ$ included angle, Area = $\\frac{1}{2} (4)(x) \\sin 60^\\circ = \\sqrt{3}x$. Using $\\cos 60^\\circ = \\frac{16+x^2-3x^2}{8x}$, we get $x=2$. Thus, Area $= 2\\sqrt{3}$ sq. cm.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Properties of Triangle",
+    "chapter": "Properties of Triangle",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $\\frac{\\sin A}{\\sin B} = \\frac{\\sin(A-C)}{\\sin(C-B)}$, where $A, B, C$ are angles of a triangle $ABC$. If the lengths of the sides opposite these angles are $a, b, c$ respectively, then :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$b^2 - a^2 = a^2 + c^2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$b^2, c^2, a^2$ are in A.P.",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$c^2, a^2, b^2$ are in A.P.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$a^2, b^2, c^2$ are in A.P.",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given $\\frac{\\sin A}{\\sin B} = \\frac{\\sin(A-C)}{\\sin(C-B)}$. As $A, B, C$ are angles of triangle, $A + B + C = \\pi \\implies A = \\pi - (B+C)$. So, $\\sin A = \\sin(B+C) \\dots (1)$. Similarly $\\sin B = \\sin(A+C) \\dots (2)$. From (1) and (2): $\\frac{\\sin(B+C)}{\\sin(A+C)} = \\frac{\\sin(A-C)}{\\sin(C-B)} \\implies \\sin(C+B) \\cdot \\sin(C-B) = \\sin(A-C) \\sin(A+C) \\implies \\sin^2 C - \\sin^2 B = \\sin^2 A - \\sin^2 C$. Since $\\sin(x+y)\\sin(x-y) = \\sin^2 x - \\sin^2 y$, we get $2\\sin^2 C = \\sin^2 A + \\sin^2 B$. By sine rule, $2c^2 = a^2 + b^2 \\implies b^2, c^2$ and $a^2$ are in A.P.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Properties of Triangle",
+    "chapter": "Properties of Triangle",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $a, b$ and $c$ be the length of sides of a triangle ABC such that $\\frac{a+b}{7} = \\frac{b+c}{8} = \\frac{c+a}{9}$. If $r$ and $R$ are the radius of incircle and radius of circumcircle of the triangle ABC, respectively, then the value of $\\frac{R}{r}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{5}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{3}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let $\\frac{a+b}{7} = \\frac{b+c}{8} = \\frac{c+a}{9} = \\lambda$\n$a+b = 7\\lambda, b+c = 8\\lambda, c+a = 9\\lambda$\n$\\Rightarrow a+b+c = 12\\lambda$\nNow $a = 4\\lambda, b = 3\\lambda, c = 5\\lambda$\n$\\therefore c^2 = b^2 + a^2$\n$\\angle C = 90^\\circ$\n$\\Delta = \\frac{1}{2} ab \\sin C = \\frac{1}{2} ab$\n$\\frac{R}{r} = \\frac{c}{2\\sin C} \\times \\frac{s}{\\Delta} = \\frac{c}{2} \\times \\frac{6\\lambda}{\\frac{1}{2}ab} = \\frac{c}{ab} \\times 6\\lambda = \\frac{5}{2}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Properties of Triangle",
+    "chapter": "Properties of Triangle",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $C(\\alpha, \\beta)$ be the circumcentre of the triangle formed by the lines $4x + 3y = 69$, $4y - 3x = 17$, and $x + 7y = 61$. Then $(\\alpha - \\beta)^2 + \\alpha + \\beta$ is equal to \\n [2023 (08 Apr Shift 1)]",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$18$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$17$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$15$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$16$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given, $C(\\alpha, \\beta)$ be the circumcentre of the triangle formed by the lines $4x + 3y = 69$, $4y - 3x = 17$, and $x + 7y = 61$. Now plotting the diagram of the above equations and finding the intersection point we get, $(12, 7)$, $(9, 11)$, $(5, 8)$. Now from diagram we can see that it is a right-angled triangle, so the circumcentre is given by midpoint of the hypotenuse, Hence, circumcentre will be, $C\\left(\\frac{12+5}{2}, \\frac{7+8}{2}\\right) \\Rightarrow C\\left(\\frac{17}{2}, \\frac{15}{2}\\right) = (\\alpha, \\beta)$. Hence, $(\\alpha - \\beta)^2 + \\alpha + \\beta = \\left(\\frac{17}{2} - \\frac{15}{2}\\right)^2 + \\frac{17}{2} + \\frac{15}{2} = 1 + 16 = 17$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Properties of Triangle",
+    "chapter": "Properties of Triangle",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the points $P$ and $Q$ are respectively the circumcenter and the orthocentre of a $\\Delta ABC$, then $\\overrightarrow{PA} + \\overrightarrow{PB} + \\overrightarrow{PC}$ is equal to \\n [2023 (10 Apr Shift 2)]",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2\\overrightarrow{QP}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2\\overrightarrow{PQ}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\overrightarrow{PQ}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\overrightarrow{QP}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let $P$ be origin. From the above triangle we can write $\\overrightarrow{PA} = \\vec{a}$, $\\overrightarrow{PB} = \\vec{b}$, $\\overrightarrow{PC} = \\vec{c}$. Also, we know that centroid $G$ divides orthocentre $Q$ and Circumcentre $P$ in the ratio $2:1$. Now $\\overrightarrow{PG} = \\frac{\\vec{a} + \\vec{b} + \\vec{c}}{3} \\Rightarrow \\overrightarrow{PQ} = 3\\left(\\frac{\\vec{a} + \\vec{b} + \\vec{c}}{3}\\right) \\Rightarrow \\overrightarrow{PQ} = \\vec{a} + \\vec{b} + \\vec{c} = \\overrightarrow{PA} + \\overrightarrow{PB} + \\overrightarrow{PC}$. Therefore, the required answer is $\\overrightarrow{PQ}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Properties of Triangle",
+    "chapter": "Properties of Triangle",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "For a triangle $\\text{ABC}$, the value of $\\cos 2\\text{A} + \\cos 2\\text{B} + \\cos 2\\text{C}$ is least. If its inradius is $3$ and incentre is $\\text{M}$, then which of the following is NOT correct?",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "Perimeter of $\\Delta\\text{ABC}$ is $18\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\sin 2\\text{A} + \\sin 2\\text{B} + \\sin 2\\text{C} = \\sin\\text{A} + \\sin\\text{B} + \\sin\\text{C}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\overline{\\text{MA}}.\\overline{\\text{MB}} = -18$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "area of $\\Delta\\text{ABC}$ is $\\frac{27\\sqrt{3}}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "If $\\cos 2\\text{A} + \\cos 2\\text{B} + \\cos 2\\text{C}$ is minimum, then $\\text{A} = \\text{B} = \\text{C} = 60^{\\circ}$, so $\\Delta\\text{ABC}$ is equilateral. Now in-radius $r = 3$. So in $\\Delta\\text{MBD}$ we have $\\tan 30^{\\circ} = \\frac{\\text{MD}}{\\text{BD}} = \\frac{r}{a/2} = \\frac{6}{a}$. Since $\\tan 30^{\\circ} = \\frac{1}{\\sqrt{3}}$, we get $\\frac{1}{\\sqrt{3}} = \\frac{6}{a} \\implies a = 6\\sqrt{3}$. Perimeter of $\\Delta\\text{ABC} = 3 \\times 6\\sqrt{3} = 18\\sqrt{3}$. Area of $\\Delta\\text{ABC} = \\frac{\\sqrt{3}}{4} a^2 = \\frac{\\sqrt{3}}{4} (6\\sqrt{3})^2 = 27\\sqrt{3}$. Therefore, option (4) is incorrect.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Properties of Triangle",
+    "chapter": "Properties of Triangle",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "In a triangle $ABC$, $BC = 7$, $AC = 8$, $AB = \\alpha \\in \\mathbb{N}$ and $\\cos A = \\frac{2}{3}$. If $49\\cos(3C) + 42 = \\frac{m}{n}$, where $\\text{gcd}(m, n) = 1$, then $m + n$ is equal to ______",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "39",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "35",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "41",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "43",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\cos A = \\frac{b^2 + c^2 - a^2}{2bc}$\n\n$\\frac{2}{3} = \\frac{8^2 + c^2 - 7^2}{2 \\times 8 \\times c}$\n\n$c = 9$\n\n$\\cos C = \\frac{7^2 + 8^2 - 9^2}{2 \\times 7 \\times 8} = \\frac{2}{7}$\n\n$49\\cos 3C + 42$\n\n$= 49(4\\cos^3 C - 3\\cos C) + 42$\n\n$= 49 \\left(4\\left(\\frac{2}{7}\\right)^3 - 3\\left(\\frac{2}{7}\\right)\\right) + 42$\n\n$= \\frac{32}{7}$\n\n$m + n = 32 + 7 = 39$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Properties of Triangle",
+    "chapter": "Properties of Triangle",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

@@ -14,6 +14,10 @@ questions_collection = db['questions'] # You might want to change this if your c
 
 QUESTION_BANK_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "..", "QuestionBank")
 
+import sys
+if len(sys.argv) > 1:
+    QUESTION_BANK_DIR = sys.argv[1]
+
 def import_question_bank():
     print(f"Starting import from {QUESTION_BANK_DIR}...")
     
@@ -65,7 +69,10 @@ def import_question_bank():
                 for q in data:
                     if '_id' in q and isinstance(q['_id'], dict) and '$oid' in q['_id']:
                         from bson import ObjectId
-                        q['_id'] = ObjectId(q['_id']['$oid'])
+                        try:
+                            q['_id'] = ObjectId(q['_id']['$oid'])
+                        except Exception:
+                            del q['_id']
 
                 result = questions_collection.insert_many(data)
                 print(f"Inserted {len(result.inserted_ids)} questions from {file_path}")

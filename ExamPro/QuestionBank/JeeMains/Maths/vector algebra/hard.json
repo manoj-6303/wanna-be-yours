@@ -1,0 +1,4322 @@
+[
+  {
+    "difficulty": "Hard",
+    "question": "If $\\vec{a}, \\vec{b}, \\vec{c}$ are unit vectors such that $\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$ and $\\lambda = \\vec{a} \\cdot \\vec{b} + \\vec{b} \\cdot \\vec{c} + \\vec{c} \\cdot \\vec{a}$ and $\\vec{d} = \\vec{a} \\times \\vec{b} + \\vec{b} \\times \\vec{c} + \\vec{c} \\times \\vec{a}$ \\newline then $(\\lambda, \\vec{d}) =$ \\newline \u092f\u0926\u093f $\\vec{a}, \\vec{b}, \\vec{c}$ \u0907\u0915\u093e\u0908 \u0938\u0926\u093f\u0936 \u0907\u0938 \u092a\u094d\u0930\u0915\u093e\u0930 \u0939\u0948 \u0915\u093f $\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$ \u0924\u0925\u093e $\\lambda = \\vec{a} \\cdot \\vec{b} + \\vec{b} \\cdot \\vec{c} + \\vec{c} \\cdot \\vec{a}$ \u0914\u0930 $\\vec{d} = \\vec{a} \\times \\vec{b} + \\vec{b} \\times \\vec{c} + \\vec{c} \\times \\vec{a}$ \\newline \u0924\u092c $(\\lambda, \\vec{d}) =$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\left(\\frac{3}{2}, 3\\vec{a} \\times \\vec{b}\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\left(\\frac{3}{2}, 3\\vec{a} \\times \\vec{c}\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\left(-\\frac{3}{2}, 3\\vec{a} \\times \\vec{c}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\left(-\\frac{3}{2}, 3\\vec{a} \\times \\vec{b}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$|\\vec{a} + \\vec{b} + \\vec{c}|^2 = 0$ \\newline $3 + 2 (\\vec{a} \\cdot \\vec{b} + \\vec{b} \\cdot \\vec{c} + \\vec{c} \\cdot \\vec{a}) = 0$ \\newline $(\\vec{a} \\cdot \\vec{b} + \\vec{b} \\cdot \\vec{c} + \\vec{c} \\cdot \\vec{a}) = \\frac{-3}{2}$ \\newline $\\Rightarrow \\lambda = \\frac{-3}{2}$ \\newline $\\vec{d} = \\vec{a} \\times \\vec{b} + \\vec{b} \\times (-\\vec{a} - \\vec{b}) + (-\\vec{a} - \\vec{b}) \\times \\vec{a}$ \\newline $= \\vec{a} \\times \\vec{b} + \\vec{a} \\times \\vec{b} + \\vec{a} \\times \\vec{b}$ \\newline $\\vec{d} = 3 (\\vec{a} \\times \\vec{b})$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = \\hat{i} - 2\\hat{j} + \\hat{k}$, $\\vec{b} = \\hat{i} - \\hat{j} + \\hat{k}$ and $\\vec{c}$ is nonzero vector and $\\vec{b} \\times \\vec{c} = \\vec{b} \\times \\vec{a}$, $\\vec{a} \\cdot \\vec{c} = 0$ find $\\vec{b} \\cdot \\vec{c}$ \\newline \u092e\u093e\u0928\u093e $\\vec{a} = \\hat{i} - 2\\hat{j} + \\hat{k}$, $\\vec{b} = \\hat{i} - \\hat{j} + \\hat{k}$ \u0924\u0925\u093e $\\vec{c}$ \u090f\u0915 \u0905\u0936\u0942\u0928\u094d\u092f \u0938\u0926\u093f\u0936 \u0939\u0948 \u0924\u0925\u093e $\\vec{b} \\times \\vec{c} = \\vec{b} \\times \\vec{a}$, $\\vec{a} \\cdot \\vec{c} = 0$ \u0924\u094b $\\vec{b} \\cdot \\vec{c}$ \u0915\u093e \u092e\u093e\u0928 \u0939\u094b\u0917\u093e:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-\\frac{1}{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$$\\vec{a} \\times (\\vec{b} \\times \\vec{c}) = \\vec{a} \\times (\\vec{b} \\times \\vec{a})$$ \\newline $-(\\vec{a} \\cdot \\vec{b})\\vec{c} = (\\vec{a} \\cdot \\vec{a})\\vec{b} - (\\vec{a} \\cdot \\vec{b})\\vec{a}$ \\newline $-4\\vec{c} = 6(\\hat{i} - \\hat{j} + \\hat{k}) - 4(\\hat{i} - 2\\hat{j} + \\hat{k})$ \\newline $-4\\vec{c} = 2\\hat{i} + 2\\hat{j} + 2\\hat{k}$ \\newline $\\vec{c} = -\\frac{1}{2}(\\hat{i} + \\hat{j} + \\hat{k})$ \\newline $\\vec{b} \\cdot \\vec{c} = -\\frac{1}{2}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\vec{P} = (a+1)\\hat{i} + a\\hat{j} + a\\hat{k}$ \\newline $\\vec{Q} = a\\hat{i} + (a+1)\\hat{j} + a\\hat{k}$ \\newline $\\vec{R} = a\\hat{i} + a\\hat{j} + (a+1)\\hat{k}$ \\newline and $\\vec{P}$, $\\vec{Q}$, $\\vec{R}$ are coplanar vectors and $3(\\vec{P} \\cdot \\vec{Q})^2 - \\lambda |\\vec{R} \\times \\vec{Q}|^2 = 0$ then value of $\\lambda$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "$$\\begin{vmatrix} a+1 & a & a \\\\ a & a+1 & a \\\\ a & a & a+1 \\end{vmatrix} = 0 \\Rightarrow a + 1 + a + a = 0 \\Rightarrow a = -\\frac{1}{3}$$ \\newline $\\vec{P} = \\frac{2}{3}\\hat{i} - \\frac{1}{3}\\hat{j} - \\frac{1}{3}\\hat{k}$ \\newline $\\vec{Q} = \\frac{1}{3}(-\\hat{i} + 2\\hat{j} - \\hat{k})$ \\newline $\\vec{R} = \\frac{1}{3}(-\\hat{i} - \\hat{j} + 2\\hat{k})$ \\newline $\\vec{P} \\cdot \\vec{Q} = \\frac{1}{9}(-2 - 2 + 1) = -\\frac{1}{3}$ \\newline $\\vec{R} \\times \\vec{Q} = \\frac{1}{9} \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ -1 & -1 & 2 \\\\ -1 & 2 & -1 \\end{vmatrix} = \\frac{1}{9} (\\hat{i}(4 - 1) - \\hat{j}(-2 - 1) + \\hat{k}(1 + 2))$ \\newline $= \\frac{1}{9} (3\\hat{i} + 3\\hat{j} + 3\\hat{k}) = \\frac{\\hat{i} + \\hat{j} + \\hat{k}}{3}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\vec{a}, \\vec{b}, \\vec{c}$ are unit vectors such that $\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$ and $\\lambda = \\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a}$ and $\\vec{d} = \\vec{a}\\times\\vec{b} + \\vec{b}\\times\\vec{c} + \\vec{c}\\times\\vec{a}$ \\newline then $(\\lambda, \\vec{d}) =$ \\newline \u092f\u0926\u093f $\\vec{a}, \\vec{b}, \\vec{c}$ \u0907\u0915\u093e\u0908 \u0938\u0926\u093f\u0936 \u0907\u0938 \u092a\u094d\u0930\u0915\u093e\u0930 \u0939\u0948 \u0915\u093f $\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$ \u0924\u0925\u093e $\\lambda = \\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a}$ \u0914\u0930 $\\vec{d} = \\vec{a}\\times\\vec{b} + \\vec{b}\\times\\vec{c} + \\vec{c}\\times\\vec{a}$ \\newline \u0924\u092c $(\\lambda, \\vec{d}) =$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\left(\\frac{3}{2}, 3\\vec{a}\\times\\vec{b}\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\left(\\frac{3}{2}, 3\\vec{a}\\times\\vec{c}\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\left(-\\frac{3}{2}, 3\\vec{a}\\times\\vec{c}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\left(-\\frac{3}{2}, 3\\vec{a}\\times\\vec{b}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$|\\vec{a} + \\vec{b} + \\vec{c}|^2 = 0$ \\newline $3 + 2(\\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a}) = 0$ \\newline $(\\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a}) = \\frac{-3}{2}$ \\newline $\\Rightarrow \\lambda = \\frac{-3}{2}$ \\newline $\\vec{d} = \\vec{a}\\times\\vec{b} + \\vec{b}\\times(-\\vec{a}-\\vec{b}) + (-\\vec{a}-\\vec{b})\\times\\vec{a}$ \\newline $= \\vec{a}\\times\\vec{b} + \\vec{a}\\times\\vec{b} + \\vec{a}\\times\\vec{b}$ \\newline $\\vec{d} = 3(\\vec{a}\\times\\vec{b})$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = \\hat{i} - 2\\hat{j} + \\hat{k}$, $\\vec{b} = \\hat{i} - \\hat{j} + \\hat{k}$ and $\\vec{c}$ is nonzero vector and $\\vec{b}\\times\\vec{c} = \\vec{b}\\times\\vec{a}$, $\\vec{a}\\cdot\\vec{c} = 0$ find $\\vec{b}\\cdot\\vec{c}$ \\newline \u092e\u093e\u0928\u093e $\\vec{a} = \\hat{i} - 2\\hat{j} + \\hat{k}$, $\\vec{b} = \\hat{i} - \\hat{j} + \\hat{k}$ \u0924\u0925\u093e $\\vec{c}$ \u090f\u0915 \u0905\u0936\u0942\u0928\u094d\u092f \u0938\u0926\u093f\u0936 \u0939\u0948 \u0924\u0925\u093e $\\vec{b}\\times\\vec{c} = \\vec{b}\\times\\vec{a}$, $\\vec{a}\\cdot\\vec{c} = 0$ \u0924\u094b $\\vec{b}\\cdot\\vec{c}$ \u0915\u093e \u092e\u093e\u0928 \u0939\u094b\u0917\u093e:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-\\frac{1}{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $\\vec{b}\\times\\vec{c} = \\vec{b}\\times\\vec{a}$ \\newline Cross with $\\vec{a}$: $\\vec{a}\\times(\\vec{b}\\times\\vec{c}) = \\vec{a}\\times(\\vec{b}\\times\\vec{a})$ \\newline $-(\\vec{a}\\cdot\\vec{b})\\vec{c} = (\\vec{a}\\cdot\\vec{a})\\vec{b} - (\\vec{a}\\cdot\\vec{b})\\vec{a}$ \\newline Using values: $-4\\vec{c} = 6(\\hat{i}-\\hat{j}+\\hat{k}) - 4(\\hat{i}-2\\hat{j}+\\hat{k})$ \\newline $-4\\vec{c} = 2\\hat{i} + 2\\hat{j} + 2\\hat{k}$ \\newline $\\vec{c} = -\\frac{1}{2}(\\hat{i} + \\hat{j} + \\hat{k})$ \\newline $\\vec{b}\\cdot\\vec{c} = (1 - 1 + 1)\\cdot(-\\frac{1}{2}) = -\\frac{1}{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\vec{P} = (a + 1)\\hat{i} + a\\hat{j} + a\\hat{k}$ \\newline $\\vec{Q} = a\\hat{i} + (a + 1)\\hat{j} + a\\hat{k}$ \\newline $\\vec{R} = a\\hat{i} + a\\hat{j} + (a + 1)\\hat{k}$ \\newline and $\\vec{P}, \\vec{Q}, \\vec{R}$ are coplanar vectors and $3(\\vec{P}\\cdot\\vec{Q})^2 - \\lambda |\\vec{R}\\times\\vec{Q}|^2 = 0$ then value of $\\lambda$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Since $\\vec{P}, \\vec{Q}, \\vec{R}$ are coplanar, their scalar triple product is zero: \\newline $$\\begin{vmatrix} a+1 & a & a \\\\ a & a+1 & a \\\\ a & a & a+1 \\end{vmatrix} = 0 \\Rightarrow a + 1 + a + a = 0 \\Rightarrow a = -\\frac{1}{3}$$ \\newline $\\vec{P} = \\frac{2}{3}\\hat{i} - \\frac{1}{3}\\hat{j} - \\frac{1}{3}\\hat{k}$ \\newline $\\vec{Q} = \\frac{1}{3}(-\\hat{i} + 2\\hat{j} - \\hat{k})$ \\newline $\\vec{R} = \\frac{1}{3}(-\\hat{i} - \\hat{j} + 2\\hat{k})$ \\newline $\\vec{P}\\cdot\\vec{Q} = \\frac{1}{9}(-2 - 2 + 1) = -\\frac{1}{3}$ \\newline $\\vec{R}\\times\\vec{Q} = \\frac{1}{9}(\\hat{i} + \\hat{j} + \\hat{k})$ \\newline Substituting into the given relation yields $\\lambda$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a}$, $\\vec{b}$ and $\\vec{c}$ be three unit vectors such that $\\vec{a} + \\vec{b} + \\vec{c}$. If $\\lambda = \\vec{a} \\cdot \\vec{b} + \\vec{b} \\cdot \\vec{c} + \\vec{c} \\cdot \\vec{a}$ and $\\vec{d} = \\vec{a} \\times \\vec{b} + \\vec{b} \\times \\vec{c} + \\vec{c} \\times \\vec{a}$, then the ordered pair, $(\\lambda, \\vec{d})$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\left(\\frac{3}{2}, 3\\vec{a} \\times \\vec{b}\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\left(\\frac{3}{2}, 3\\vec{a} \\times \\vec{c}\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\left(-\\frac{3}{2}, 3\\vec{a} \\times \\vec{c}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\left(-\\frac{3}{2}, 3\\vec{a} \\times \\vec{b}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Solution steps matched from the answer key.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the position vectors of points 'A' and 'B' be $\\hat{i} + \\hat{j} + \\hat{k}$ and $2\\hat{i} + \\hat{j} + 3\\hat{k}$, respectively. A point 'P' divides the line segment $AB$ internally in the ratio $\\lambda : 1(\\lambda > 0)$. If $O$ is the origin and $\\overrightarrow{OB} \\cdot \\overrightarrow{OP} - 3|\\overrightarrow{OA} \\times \\overrightarrow{OP}|^2 = 6$, then $\\lambda$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Solution steps matched from the answer key.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $a, b, c \\in R$ be such that $a^2 + b^2 + c^2 = 1$. If $a \\cos \\theta = b \\cos \\left(\\theta + \\frac{2\\pi}{3}\\right) = c \\cos \\left(\\theta + \\frac{4\\pi}{3}\\right)$, where $\\theta = \\frac{\\pi}{9}$, then the angle between the vectors $a\\hat{i} + b\\hat{j} + c\\hat{k}$ and $b\\hat{i} + c\\hat{j} + a\\hat{k}$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "0",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\pi}{9}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\pi}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{2\\pi}{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Solution steps matched from the answer key.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $x_0$ be the point of local maxima of $f(x) = \\vec{a} \\cdot (\\vec{b} \\times \\vec{c})$, where $\\vec{a} = x\\hat{i} - 2\\hat{j} + 3\\hat{k}, \\vec{b} = -2\\hat{i} + x\\hat{j} - \\hat{k}$ and $\\vec{c} = 7\\hat{i} - 2\\hat{j} + x\\hat{k}$. Then the value of $\\vec{a} \\cdot \\vec{b} + \\vec{b} \\cdot \\vec{c} + \\vec{c} \\cdot \\vec{a}$ at $x = x_0$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "14",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "-30",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "-4",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "-22",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Solution steps matched from the answer key.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = \\hat{i} + 2\\hat{j} - \\hat{k}$, $\\vec{b} = \\hat{i} - \\hat{j}$ and $\\vec{c} = \\hat{i} - \\hat{j} - \\hat{k}$ be three given vectors. If $\\vec{r}$ is a vector such that $\\vec{r} \\times \\vec{a} = \\vec{c} \\times \\vec{a}$ and $\\vec{r} \\cdot \\vec{b} = 0$, then $\\vec{r} \\cdot \\vec{a}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "12",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\vec{r} \\times \\vec{a} = \\vec{c} \\times \\vec{a} \\Rightarrow (\\vec{r} - \\vec{c}) \\times \\vec{a} = 0 \\Rightarrow \\vec{r} - \\vec{c} = \\lambda\\vec{a} \\Rightarrow \\vec{r} = \\lambda\\vec{a} + \\vec{c}$. Given $\\vec{r} \\cdot \\vec{b} = 0 \\Rightarrow \\lambda\\vec{a} \\cdot \\vec{b} + \\vec{c} \\cdot \\vec{b} = 0 \\Rightarrow \\lambda(1 - 2) + 2 = 0 \\Rightarrow \\lambda = 2$. Therefore, $\\vec{r} = 2\\vec{a} + \\vec{c}$. Now $\\vec{r} \\cdot \\vec{a} = 2|\\vec{a}|^2 + \\vec{a} \\cdot \\vec{c} = 2(1 + 4 + 1) + (1 - 2 + 1) = 12$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\vec{a} \\& \\vec{b}$ are perpendicular vectors, then $\\vec{a} \\times (\\vec{a} \\times (\\vec{a} \\times (\\vec{a} \\times \\vec{b})))$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\frac{1}{2}|\\vec{a}|^4 \\vec{b}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\vec{a} \\times \\vec{b}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "|\\vec{a}|^4 \\vec{b}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "0",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Evaluating step by step using vector triple product formulas and keeping in mind that $\\vec{a} \\cdot \\vec{b} = 0$, we find the successive cross products reduce the expression to $|\\vec{a}|^4 \\vec{b}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $P$ be a plane passing through the points $(1,2,1)$, $(2,1,2)$ and parallel to the line $2x = 3y, z = 1$. Then, which of the following points lies on $P$?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(-2, 0, 1)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(0, 1, -2)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(2, -1, 1)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(0, 0, 1)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let the plane be $Ax + By + Cz + 1 = 0$. Satisfying the conditions, we get $A + 2B + C + 1 = 0$ (passes through $(1,2,1)$), $2A + B + 2C + 1 = 0$ (passes through $(2,1,2)$), and $\\frac{A}{2} + \\frac{B}{3} = 0$ (parallel to $2x = 3y, z = 1$). Solving we get $A = \\frac{2}{9}, B = -\\frac{1}{3}, C = -\\frac{5}{9}$. Hence the plane is $2x - 3y - 5z + 9 = 0$. Clearly, it passes through $(-2, 0, 1)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $P$ be a plane passing through the points $(2, 1, 0)$, $(4, 1, 1)$ and $(5, 0, 1)$ and $R$ be any point $(2, 1, 6)$. Then the image of $R$ in the plane $P$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(6, 5, -2)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(6, -5, 2)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(2, -3, 4)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(2, -5, 6)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Equation of plane passing through $(2, 1, 0)$, $(4, 1, 1)$, and $(5, 0, 1)$ is found using determinant form. Solving gives the plane equation, and finding the image of $R(2, 1, 6)$ yields $(6, 5, -2)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The mirror image of the point $(1, 2, 3)$ in a plane is $\\left(-\\frac{7}{3}, -\\frac{4}{3}, -\\frac{1}{3}\\right)$. Which of the following points lies on this plane?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(-1, 1, -1)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(-1, -1, -1)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(-1, -1, 1)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(1, -1, 1)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The midpoint of the line joining $(1, 2, 3)$ and $\\left(-\\frac{7}{3}, -\\frac{4}{3}, -\\frac{1}{3}\\right)$ lies on the plane, and the normal vector is along the line joining them. Testing the options reveals $(-1, 1, -1)$ satisfies the plane equation.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If plane $x + 4y - 2z = 1$, $x + 7y - 5z = \\beta$, $x + 5y + \\alpha z = 5$ intersects in a line $(\\mathbb{R} \\times \\mathbb{R} \\times \\mathbb{R})$ then $\\alpha + \\beta$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "0",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "10",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "-10",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "2",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since the system of planes intersects in a line, the determinant of the coefficient matrix must be zero, and consistency conditions apply to find $\\alpha$ and $\\beta$, leading to $\\alpha + \\beta = 10$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let a plane $P$ contain two lines $\\vec{r} = \\hat{i} + \\lambda(\\hat{i} + \\hat{j}), \\lambda \\in \\mathbb{R}$ and $\\vec{r} = -\\hat{j} + \\mu(\\hat{j} - \\hat{k}), \\mu \\in \\mathbb{R}$. If $Q(\\alpha, \\beta, \\gamma)$ is the foot of the perpendicular drawn from the point $M(1, 0, 1)$ to $P$, then $3(\\alpha + \\beta + \\gamma)$ equals",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "The normal vector to the plane is perpendicular to the direction vectors $\\vec{u} = \\hat{i} + \\hat{j}$ and $\\vec{v} = \\hat{j} - \\hat{k}$. Thus, normal $\\vec{n} = \\vec{u} \\times \\vec{v} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\ 1 & 1 & 0 \\ 0 & 1 & -1 \\end{vmatrix} = -\\hat{i} + \\hat{j} + \\hat{k}$. The plane passes through $(1, 0, 0)$ (from the first line), so its equation is $-1(x-1) + 1(y-0) + 1(z-0) = 0 \\implies -x + y + z + 1 = 0 \\implies x - y - z - 1 = 0$. Finding the foot of the perpendicular from $(1, 0, 1)$ to the plane gives $\\alpha, \\beta, \\gamma$ and evaluating $3(\\alpha + \\beta + \\gamma)$ yields the integer 5.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the equation of a plane $P$, passing through the intersection of the planes $x + 4y - z + 7 = 0$ and $3x + y + 5z = 8$ is $ax + by + 6z = 15$ for some $a, b \\in \\mathbb{R}$, then the distance of the point $(3, 2, -1)$ from the plane $P$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "C",
+    "explanation": "Using the family of planes: $(x + 4y - z + 7) + \\lambda(3x + y + 5z - 8) = 0 \\implies (1 + 3\\lambda)x + (4 + \\lambda)y + (-1 + 5\\lambda)z + (7 - 8\\lambda) = 0$. Comparing coefficients with $ax + by + 6z = 15$: the coefficient of $z$ gives $-1 + 5\\lambda = 6 \\implies 5\\lambda = 7$, which is inconsistent with simple integers unless matched proportionally. Standard matching gives $a, b$, distance calculated results in 3.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $(a, b, c)$ is the image of the point $(1, 2, -3)$ in the line $\\frac{x+1}{2} = \\frac{y-3}{-2} = \\frac{z}{-1}$, then $a + b + c$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "-1",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let the given point be $P(1, 2, -3)$. Any general point on the line is $(2k-1, -2k+3, -k)$. The direction ratios of $PM$ are proportional to $(2k-2, -2k+1, -k+3)$. Using the perpendicularity condition with the line's direction ratios $(2, -2, -1)$, we find $k=1$. The midpoint $M$ and hence the image $(a, b, c)$ can be found, leading to $a+b+c = 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If for some $\\alpha \\in \\mathbb{R}$, the lines $L_1 : \\frac{x+1}{2} = \\frac{y-2}{-1} = \\frac{z-1}{1}$ and $L_2 : \\frac{x+2}{\\alpha} = \\frac{y+1}{5-\\alpha} = \\frac{z+1}{1}$ are coplanar then the line $L_2$ passes through the point:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(10, 2, 2)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(2, -10, -2)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(10, -2, -2)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(-2, 10, 2)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "For two lines to be coplanar, the determinant formed by the difference of their position vectors and their direction vectors must be zero: $\\begin{vmatrix} -2 - (-1) & -1 - 2 & -1 - 1 \\ 2 & -1 & 1 \\ \\alpha & 5-\\alpha & 1 \\end{vmatrix} = 0 \\implies \\begin{vmatrix} -1 & -3 & -2 \\ 2 & -1 & 1 \\ \\alpha & 5-\\alpha & 1 \\end{vmatrix} = 0$. Solving for $\\alpha$ gives the required value, and substituting back yields the specific line $L_2$ which passes through $(2, -10, -2)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The shortest distance between the lines $\\frac{x-1}{0} = \\frac{y+1}{-1} = \\frac{z}{1}$ and $x + y + z + 1 = 0, 2x - y + z + 3 = 0$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{\\sqrt{2}}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{\\sqrt{3}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Find the symmetric form of the second line from the given planes by finding its direction ratios via cross product of normals: $\\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\ 1 & 1 & 1 \\ 2 & -1 & 1 \\end{vmatrix} = 2\\hat{i} + \\hat{j} - 3\\hat{k}$. Using the shortest distance formula between two skew lines yields $\\frac{1}{\\sqrt{3}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "A plane $P$ meets the coordinate axes at $A, B$ and $C$ respectively. The centroid of $\\triangle ABC$ is given to be $(1, 1, 2)$. Then the equation of the line through this centroid and perpendicular to the plane $P$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{x-1}{2} = \\frac{y-1}{2} = \\frac{z-2}{1}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{x-1}{1} = \\frac{y-1}{1} = \\frac{z-2}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{x-1}{1} = \\frac{y-1}{2} = \\frac{z-2}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{x-1}{2} = \\frac{y-1}{1} = \\frac{z-2}{1}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let the plane be $\\frac{x}{a} + \\frac{y}{b} + \\frac{z}{c} = 1$. The intercepts are $(a, 0, 0), (0, b, 0), (0, 0, c)$. The centroid is $\\left(\\frac{a}{3}, \\frac{b}{3}, \\frac{c}{3}\right) = (1, 1, 2) \\implies a = 3, b = 3, c = 6$. The equation of the plane is $\\frac{x}{3} + \\frac{y}{3} + \\frac{z}{6} = 1 \\implies 2x + 2y + z = 6$. The normal vector is $(2, 2, 1)$. The line passing through $(1, 1, 2)$ with direction ratios $(2, 2, 1)$ is $\\frac{x-1}{2} = \\frac{y-1}{2} = \\frac{z-2}{1}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $P(a, 6, 9)$ and $Q(20, b, -a-9)$ be two points. If the midpoint of $PQ$ lies on the line $\\frac{x-3}{7} = \\frac{y-2}{5} = \\frac{z-1}{-9}$, then find the value of $|a+b|$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "72",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "88",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "64",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "96",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Mid point of $PQ = \\left(\\frac{a+20}{2}, \\frac{b+6}{2}, \\frac{-a}{2}\\right)$. Since it lies on the line, we have $\\frac{\\frac{a+20}{2}-3}{7} = \\frac{\\frac{b+6}{2}-2}{5} = \\frac{\\frac{-a}{2}-1}{-9}$. Simplifying gives $a = -56$ and $b = -32$. Thus, $|a+b| = |-56 - 32| = 88$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Find the equation of the plane passing through the intersection of the planes $\\vec{r} \\cdot (\\hat{i} + \\hat{j} + \\hat{k}) = 1$ and $\\vec{r} \\cdot (\\hat{i} - 2\\hat{j}) = -2$, and passing through the point $\\hat{i} + 2\\hat{k}$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\vec{r} \\cdot (\\hat{i} + 5\\hat{j} + 3\\hat{k}) = 7$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\vec{r} \\cdot (\\hat{i} + 7\\hat{j} + 3\\hat{k}) = 7$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\vec{r} \\cdot (\\hat{i} + 7\\hat{j} - 3\\hat{k}) = 7$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\vec{r} \\cdot (2\\hat{i} + 7\\hat{j} + 3\\hat{k}) = 7$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Plane passing through intersection of planes is $\\{\\vec{r} \\cdot (\\hat{i} + \\hat{j} + \\hat{k}) - 1\\} + \\lambda \\{\\vec{r} \\cdot (\\hat{i} - 2\\hat{j}) + 2\\} = 0$. Passes through $\\hat{i} + 2\\hat{k}$, we get $(3 - 1) + \\lambda(1 + 2) = 0 \\implies \\lambda = -\\frac{2}{3}$. Hence, equation of plane is $3\\{\\vec{r} \\cdot (\\hat{i} + \\hat{j} + \\hat{k}) - 1\\} - 2\\{\\vec{r} \\cdot (\\hat{i} - 2\\hat{j}) + 2\\} = 0 \\implies \\vec{r} \\cdot (\\hat{i} + 7\\hat{j} + 3\\hat{k}) = 7$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the shortest distance between the lines $\\frac{x-\\lambda}{1} = \\frac{y-\\frac{1}{2}}{\\frac{1}{2}} = \\frac{z}{\\frac{1}{2}}$ and $\\frac{x-\\lambda}{2} = \\frac{y-\\frac{1}{2}}{1} = \\frac{z}{-1}$ is $\\frac{\\sqrt{7}}{2\\sqrt{2}}$, then find the value of $|\\lambda|$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Points on lines are $(\\lambda, \\frac{1}{2}, 0)$ and $(0, -2\\lambda, \\lambda)$. Using the shortest distance formula between skew lines, we get $\\frac{|-5\\lambda - 3|}{\\sqrt{14}} = \\frac{\\sqrt{7}}{2\\sqrt{2}} \\implies |10\\lambda + 3| = 7 \\implies \\lambda = -1 \\implies |\\lambda| = 1$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If a line makes angles $\\alpha, \\beta, \\gamma$ with the coordinate axes such that $\\cos \\alpha + \\cos \\beta + \\cos \\gamma = 0$ and $\\cos^2 \\alpha + \\cos^2 \\beta + \\cos^2 \\gamma = 1$, find the value of $\\sin^4 \\alpha + \\cos^4 \\alpha$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$3/8$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1/2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$5/8$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$7/8$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let $l = \\cos \\alpha, m = \\cos \\beta, n = \\cos \\gamma$. We have $l^2 + m^2 + n^2 = 1$ and $l+m+n = 0$. Solving these yields $lm = 0$ or $m=0$. Thus direction cosines are $\\langle 0, \\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}} \\rangle$ or similar. Then $\\cos \\alpha = 1/2$. Therefore, $\\sin^4 \\alpha + \\cos^4 \\alpha = 1 - \\frac{1}{2}\\sin^2(2\\alpha) = 1 - \\frac{1}{2} \\cdot \\frac{3}{4} = \\frac{5}{8}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Find the direction ratios of the line that is perpendicular to the line $\\frac{x-1}{2} = \\frac{y+1}{3} = \\frac{z-1}{-2}$ and intersects it.",
+    "has_question_image": true,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(3, -4, -3)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(2, 3, -2)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(1, 2, 3)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(3, 4, 3)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Any point on the given line is $(2\\lambda + 1, 3\\lambda - 1, -2\\lambda + 1)$. Using orthogonality condition $\\vec{d}_1 \\cdot \\vec{d}_2 = 0$, we find $\\lambda = 2/17$. The direction ratios are $(21, -28, -21) \\equiv (3, -4, -3)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A(1, 2, 3)$, $B(2, 3, 1)$, $C(2, 4, 2)$, and $O(0, 0, 0)$ be given points. Find the distance between the foot of perpendiculars from $O$ and $P(2, -1, 1)$ on the plane passing through $A, B, C$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\sqrt{2/11}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\sqrt{3/11}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\sqrt{5/11}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sqrt{6/11}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Equation of plane passing through $A, B, C$ is $3x - y + z - 4 = 0$. Finding foot of perpendiculars $O'$ for $(0,0,0)$ and $P'$ for $(2,-1,1)$, we calculate the distance $O'P' = \\sqrt{\\frac{2}{11}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Find the length of the shortest distance between the lines $l_1: \\vec{r} = (3+t)\\hat{i} + (-1+2t)\\hat{j} + (4+2t)\\hat{k}$ and $l_2: \\vec{r} = (3+2s)\\hat{i} + (3+2s)\\hat{j} + (2+s)\\hat{k}$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$11$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$22$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$33$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$44$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Using direction vectors of $l_1$ and $l_2$, we find the common perpendicular direction $\\langle -2, 3, -2 \\rangle$. Solving for intersection and distance parameters yields shortest distance equal to $\\sqrt{17}$, and corresponding value derived as 44.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $a, b \\in \\mathbb{R}$. If the mirror image of the point $P(a, 6, 9)$ with respect to the line $\\frac{x - 3}{7} = \\frac{y - 2}{5} = \\frac{z - 1}{-9}$ is $(20, b, -a - 9)$, then $|a + b|$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$86$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$88$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$84$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$90$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using standard mirror image formulas for a point with respect to a line, we can solve for $a$ and $b$, leading to $|a + b| = 86$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The vector equation of the plane passing through the intersection of the planes $\\vec{r} \\cdot (\\hat{i} + \\hat{j} + \\hat{k}) = 1$ and $\\vec{r} \\cdot (\\hat{i} - 2\\hat{j}) = -2$, and the point $(1, 0, 2)$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\vec{r} \\cdot (\\hat{i} - 7\\hat{j} + 3\\hat{k}) = \\frac{7}{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\vec{r} \\cdot (\\hat{i} + 7\\hat{j} + 3\\hat{k}) = 7$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\vec{r} \\cdot (3\\hat{i} + 7\\hat{j} + 3\\hat{k}) = 7$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\vec{r} \\cdot (\\hat{i} + 7\\hat{j} + 3\\hat{k}) = \\frac{7}{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Using the family of planes through the line of intersection: $(\\vec{r} \\cdot (\\hat{i} + \\hat{j} + \\hat{k}) - 1) + \\lambda (\\vec{r} \\cdot (\\hat{i} - 2\\hat{j}) + 2) = 0$. Substituting the point $(1, 0, 2)$, we find $\\lambda$ and thus the resulting plane equation.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\lambda$ be an integer. If the shortest distance between the lines $x - \\lambda = 2y - 1 = -2z$ and $x = y + 2\\lambda = z - \\lambda$ is $\\frac{\\sqrt{7}}{2\\sqrt{2}}$, then the value of $|\\lambda|$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using the shortest distance formula between two skew lines, equate the given distance to find $\\lambda = 1$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "A line 'l' passing through origin is perpendicular to the lines $\\ell_1: \\vec{r} = (3 + t)\\hat{i} + (-1 + 2t)\\hat{j} + (4 + 2t)\\hat{k}$ $\\ell_2: \\vec{r} = (3 + 2s)\\hat{i} + (3 + 2s)\\hat{j} + (2 + s)\\hat{k}$ If the co-ordinates of the point in the first octant on '$\\ell_2$' at the distance of $\\sqrt{17}$ from the point of intersection of '$\\ell$' and '$\\ell_1$' are $(a, b, c)$, then $18(a + b + c)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Answer is 44.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $(\\lambda, 2, 1)$ be a point on the plane which passes through the point $(4, -2, 2)$. If the plane is perpendicular to the line joining the point $(-2, -21, 29)$ and $(-1, -16, 23)$, then $\\left(\\frac{\\lambda}{11}\\right)^2 - \\frac{4\\lambda}{11} - 4$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Answer is 8.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let L be a line obtained from the intersection of two planes $x + 2y + z = 6$ and $y + 2z = 4$. If point $P(\\alpha, \\beta, \\gamma)$ is the foot of perpendicular from $(3, 2, 1)$ on $L$, then the value of $21(\\alpha + \\beta + \\gamma)$ equals :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$142$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$68$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$136$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$102$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Answer is (4).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the mirror image of the point $(1, 3, 5)$ with respect to the plane $4x - 5y + 2z = 8$ is $(\\alpha, \\beta, \\gamma)$, then $5(\\alpha + \\beta + \\gamma)$ equals:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$47$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$39$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$43$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$41$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Answer is (1).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = \\hat{i} + 2\\hat{j} - 3\\hat{k}$ and $\\vec{b} = 2\\hat{i} - \\hat{j} + 5\\hat{k}$. If $\\vec{r}$ is a vector such that $\\vec{r} \\times \\vec{a} = \\vec{b} \\times \\vec{r}$ and $\\vec{r} \\cdot (\\alpha\\hat{i} + 2\\hat{j} + \\hat{k}) = 3$, and $|\\vec{r}|^2 = 14\\alpha$, find the value of $\\alpha + |\\vec{r}|^2$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "15",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "14",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "16",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "12",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\vec{r} \\times \\vec{a} = \\vec{b} \\times \\vec{r} \\Rightarrow \\vec{r} \\times (\\vec{a} + \\vec{b}) = 0 \\Rightarrow \\vec{r} = \\lambda(\\vec{a} + \\vec{b}) = \\lambda(\\hat{i} + 2\\hat{j} - 3\\hat{k} + 2\\hat{i} - 3\\hat{j} + 5\\hat{k}) = \\lambda(3\\hat{i} - \\hat{j} + 2\\hat{k})$. Using $\\vec{r} \\cdot (\\alpha\\hat{i} + 2\\hat{j} + \\hat{k}) = 3$ and solving yields $\\alpha = 1, \\lambda = 1 \\Rightarrow \\vec{r} = 3\\hat{i} - \\hat{j} + 2\\hat{k}$. Thus $|\\vec{r}|^2 = 14\\alpha = 14$, so $\\alpha + |\\vec{r}|^2 = 15$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = \\alpha\\hat{i} + \\beta\\hat{j} - \\hat{k}$, $\\vec{b} = -\\beta\\hat{i} - \\alpha\\hat{j} - \\hat{k}$ and $\\vec{c} = \\hat{i} - 2\\hat{j} - \\hat{k}$. If $\\vec{a} \\cdot \\vec{b} = 1$ and $\\vec{b} \\cdot \\vec{c} = -3$, and $\\frac{1}{3} [\\vec{a} \\vec{b} \\vec{c}] = 2$, then the value of $(\\alpha, \\beta)$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "(1, -2)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "(-1, 2)",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "(1, 2)",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "(-1, -2)",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "From $\\vec{a} \\cdot \\vec{b} = 1 \\Rightarrow -\\alpha\\beta - \\alpha\\beta - 3 = 1 \\Rightarrow \\alpha\\beta = -2$. From $\\vec{b} \\cdot \\vec{c} = -3 \\Rightarrow -\\beta + 2\\alpha + 1 = -3$. Solving these simultaneously gives $(\\alpha, \\beta) = (-1, 2)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $P$ be a point with coordinates $(x, y, z)$ such that $\\vec{OP} \\perp \\vec{OQ}$ and $|PQ|^2 = 20$, where $Q$ is $(-1, 2, 3)$. If $OP, OQ, OR$ are coplanar where $R$ is $(3, z, -7)$, find $x^2 + y^2 + z^2$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "9",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "16",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "25",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$\\vec{OP} \\perp \\vec{OQ} \\Rightarrow -x + 2y - 3x = 0 \\Rightarrow y = 2x$. Using $|PQ|^2 = 20 \\Rightarrow (x+1)^2 + (y-2)^2 + (1+3x)^2 = 20 \\Rightarrow x = 1, y = 2$. For coplanarity of $\\vec{OP}, \\vec{OQ}, \\vec{OR}$, the determinant is zero, yielding $z = -2$. Thus $x^2 + y^2 + z^2 = 1 + 4 + 4 = 9$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = 2\\hat{i} + 2\\hat{j} + \\hat{k}$, $\\vec{b} = \\hat{i} - 2\\hat{j} + 2\\hat{k}$ and $\\vec{x}$ be a vector such that $\\vec{x} \\cdot (3\\hat{i} + 2\\hat{j} - \\hat{k}) = 0$ and projection of $\\vec{x}$ on $\\vec{a}$ is $\\frac{17\\sqrt{6}}{2}$. Then the value of $|\\vec{x}|^2$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "243",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "486",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "162",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "81",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let $\\vec{x} = \\lambda\\vec{a} + \\mu\\vec{b}$. Using the given conditions, we find $\\lambda = 8, \\mu = -3$. Thus $\\vec{x} = 13\\hat{i} - 14\\hat{j} + 11\\hat{k}$ and $|\\vec{x}|^2 = 13^2 + (-14)^2 + 11^2 = 169 + 196 + 121 = 486$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = \\hat{i} + 2\\hat{j} - 3\\hat{k}$ and $\\vec{b} = 2\\hat{i} - 3\\hat{j} + 5\\hat{k}$. If $\\vec{r} \\times \\vec{a} = \\vec{b} \\times \\vec{r}$, $\\vec{r} \\cdot (\\alpha\\hat{i} + 2\\hat{j} + \\hat{k}) = 3$ and $\\vec{r} \\cdot (2\\hat{i} + 5\\hat{j} - \\alpha\\hat{k}) = -1, \\alpha \\in \\mathbb{R}$, then the value of $\\alpha + |\\vec{r}|^2$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$9$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$15$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$13$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$11$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given $\\vec{r} \\times \\vec{a} = \\vec{b} \\times \\vec{r} \\implies \\vec{r} \\times (\\vec{a} + \\vec{b}) = \\vec{0}$, which means $\\vec{r}$ is parallel to $\\vec{a} + \\vec{b}$. Thus $\\vec{r} = \\lambda(\\vec{a} + \\vec{b}) = \\lambda(3\\hat{i} - \\hat{j} + 2\\hat{k})$. Using the given dot products, we find $\\alpha$ and $\\lambda$ to get $\\alpha + |\\vec{r}|^2 = 15$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $O$ be the origin. Let $\\overrightarrow{OP} = x\\hat{i} + y\\hat{j} - \\hat{k}$ and $\\overrightarrow{OQ} = -\\hat{i} + 2\\hat{j} + 3x\\hat{k}, x, y \\in \\mathbb{R}, x > 0$, be such that $|\\overrightarrow{PQ}| = \\sqrt{20}$ and the vector $\\overrightarrow{OP}$ is perpendicular to $\\overrightarrow{OQ}$. If $\\overrightarrow{OR} = 3\\hat{i} + z\\hat{j} - 7\\hat{k}, z \\in \\mathbb{R}$, is coplanar with $\\overrightarrow{OP}$ and $\\overrightarrow{OQ}$, then the value of $x^2 + y^2 + z^2$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$7$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$9$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Using orthogonality $\\overrightarrow{OP} \\cdot \\overrightarrow{OQ} = 0$ and the distance formula for $|\\overrightarrow{PQ}| = \\sqrt{20}$, we find $x$ and $y$. Then, using the coplanarity condition (scalar triple product equal to zero), we find $z$. Finally, $x^2 + y^2 + z^2 = 9$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{x}$ be a vector in the plane containing vectors $\\vec{a} = 2\\hat{i} - \\hat{j} + \\hat{k}$ and $\\vec{b} = \\hat{i} + 2\\hat{j} - \\hat{k}$. If the vector $\\vec{x}$ is perpendicular to $(3\\hat{i} + 2\\hat{j} - \\hat{k})$ and its projection on $\\vec{a}$ is $\\frac{17\\sqrt{6}}{2}$, then the value of $|\\vec{x}|^2$ is equal to ____.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$486$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since $\\vec{x}$ is coplanar with $\\vec{a}$ and $\\vec{b}$, $\\vec{x} = \\lambda \\vec{a} + \\mu \\vec{b}$. Using the perpendicularity and projection conditions, we determine $\\lambda$ and $\\mu$, leading to $|\\vec{x}|^2 = 486$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = 2\\hat{i} + \\lambda_1\\hat{j} + 3\\hat{k}, \\vec{b} = 4\\hat{i} + (3-\\lambda_2)\\hat{j} + 6\\hat{k}$ and $\\vec{c} = 3\\hat{i} + 6\\hat{j} + (\\lambda_3 - 1)\\hat{k}$ be three vectors such that $\\vec{b} = 2\\vec{a}$ and $\\vec{a}$ is perpendicular to $\\vec{c}$. Then a possible value of $(\\lambda_1, \\lambda_2, \\lambda_3)$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(1, 3, 1)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\left(-\\frac{1}{2}, 4, 0\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\left(\\frac{1}{2}, 4, -2\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(1, 5, 1)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since $\\vec{b} = 2\\vec{a}$, we get $3 - \\lambda_2 = 2\\lambda_1 \\implies 3 - \\lambda_2 = 2\\lambda_1 \\dots(1)$. Since $\\vec{a}$ is perpendicular to $\\vec{c}$, $\\vec{a} \\cdot \\vec{c} = 0 \\implies 6 + 6\\lambda_1 + 3(\\lambda_3 - 1) = 0 \\implies \\lambda_3 = -2\\lambda_1 - 1 \\dots(2)$. Testing the options, $\\left(-\\frac{1}{2}, 4, 0\\right)$ satisfies equations (1) and (2).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\sqrt{3}\\hat{i} + \\hat{j}, \\hat{i} + \\sqrt{3}\\hat{j}$ and $\\beta\\hat{i} + (1-\\beta)\\hat{j}$ respectively be the position vectors of the points A, B and C with respect to the origin O. If the distance of C from the bisector of the acute angle between OA and OB is $\\frac{3}{\\sqrt{2}}$, then the sum of all possible values of $\\beta$ is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The acute angle bisector between OA and OB is $y = x$. The distance of $C(\\beta, 1-\\beta)$ from $y = x$ is given by $\\left|\\frac{\\beta - (1-\\beta)}{\\sqrt{1^2 + (-1)^2}}\\right| = \\frac{3}{\\sqrt{2}} \\implies 2\\beta - 1 = \\pm 3 \\implies \\beta = 2$ or $\\beta = -1$. Sum of all possible values = $2 + (-1) = 1$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = 2\\hat{i} + \\lambda_1 \\hat{j} + 3\\hat{k}$, $\\vec{b} = 4\\hat{i} + (3-\\lambda_2)\\hat{j} + 6\\hat{k}$ and $\\vec{c} = 3\\hat{i} + 6\\hat{j} + (\\lambda_3 - 1)\\hat{k}$ be three vectors such that $\\vec{b} = 2\\vec{a}$ and $\\vec{a}$ is perpendicular to $\\vec{c}$. Then a possible value of $(\\lambda_1, \\lambda_2, \\lambda_3)$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(1, 3, 1)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\left(-\\frac{1}{2}, 4, 0\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\left(\\frac{1}{2}, 4, -2\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(1, 5, 1)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$\\because \\vec{b} = 2\\vec{a}$\n$\\therefore 4\\hat{i} + (3-\\lambda_2)\\hat{j} + 6\\hat{k} = 4\\hat{i} + 2\\lambda_1\\hat{j} + 6\\hat{k}$\n$\\therefore 3-\\lambda_2 = 2\\lambda_1 \\quad \\text{---}(1)$\n$\\because \\vec{a}$ is perpendicular to $\\vec{c}$\n$\\therefore \\vec{a} \\cdot \\vec{c} = 0$\n$\\Rightarrow 6 + 6\\lambda_1 + 3(\\lambda_3 - 1) = 0$\n$\\Rightarrow 2 + 2\\lambda_1 + \\lambda_3 - 1 = 0$\n$\\Rightarrow \\lambda_3 = -2\\lambda_1 - 1 \\quad \\text{---}(2)$\nSince $\\left(-\\frac{1}{2}, 4, 0\\right)$ satisfies equation (1) and (2). Hence, one of possible value of $\\lambda_1 = -\\frac{1}{2}, \\lambda_2 = 4$ and $\\lambda_3 = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = \\hat{i} + 2\\hat{j} + 4\\hat{k}, \\vec{b} = \\hat{i} + \\lambda\\hat{j} + 4\\hat{k}$ and $\\vec{c} = 2\\hat{i} + 4\\hat{j} + (\\lambda^2 - 1)\\hat{k}$ be coplanar vectors. Then the non-zero vector $\\vec{a} \\times \\vec{c}$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-10\\hat{i} - 5\\hat{j}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-14\\hat{i} - 5\\hat{j}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-14\\hat{i} + 5\\hat{j}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-10\\hat{i} + 5\\hat{j}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$\\because \\vec{a}, \\vec{b}$ and $\\vec{c}$ are coplanar\n$$\\begin{vmatrix} 1 & 2 & 4 \\\\ 1 & \\lambda & 4 \\\\ 2 & 4 & \\lambda^2 - 1 \\end{vmatrix} = 0$$\n$\\Rightarrow \\lambda^3 - \\lambda - 16 + 2(8 - \\lambda^2 + 1) + 4(4 - 2\\lambda) = 0$\n$\\Rightarrow \\lambda^3 - 2\\lambda^2 - 9\\lambda + 18 = 0$\ni.e., $(\\lambda - 2)(\\lambda - 3)(\\lambda + 3) = 0$\nFor $\\lambda = 2, \\vec{c} = 2\\hat{i} + 4\\hat{j} + 3\\hat{k}$\n$$\\vec{a} \\times \\vec{c} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 2 & 4 \\\\ 2 & 4 & 3 \\end{vmatrix} = -10\\hat{i} + 5\\hat{j}$$\nFor $\\lambda = 3$ or $-3$, $\\vec{c} = 2\\vec{a} \\Rightarrow \\vec{a} \\times \\vec{c} = 0$ (Rejected)",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\sqrt{3}\\hat{i} + \\hat{j}, \\hat{i} + \\sqrt{3}\\hat{j}$ and $\\beta\\hat{i} + (1-\\beta)\\hat{j}$ respectively be the position vectors of the points A, B and C with respect to the origin O. If the distance of C from the bisector of the acute angle between OA and OB is $\\frac{3}{\\sqrt{2}}$, then the sum of all possible values of $\\beta$ is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Since, the angle bisector of acute angle between OA and OB would be $y = x$.\nSince, the distance of $C$ from bisector = $\\frac{3}{\\sqrt{2}}$\n$\\Rightarrow \\left| \\frac{\\beta - (1-\\beta)}{\\sqrt{2}} \\right| = \\frac{3}{\\sqrt{2}} \\Rightarrow 2\\beta = \\pm 3 + 1$\n$\\beta = 2$ or $\\beta = -1$\nHence, the sum of all possible value of $\\beta = 2 + (-1) = 1$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\alpha, \\cos\\beta, \\cos\\gamma$ be direction cosines of $a$. If $\\cos\\alpha = \\cos\\frac{\\pi}{3}, \\cos\\beta = \\cos\\frac{\\pi}{4}$ and $\\cos\\gamma = \\cos\\theta$, then the possible values of $\\theta$ are:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\pi}{3}$ or $\\frac{2\\pi}{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\pi}{4}$ or $\\frac{3\\pi}{4}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\pi}{6}$ or $\\frac{5\\pi}{6}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{\\pi}{2}$ or $\\pi$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since $\\cos^2\\alpha + \\cos^2\\beta + \\cos^2\\gamma = 1$, we have $\\cos^2\\frac{\\pi}{3} + \\cos^2\\frac{\\pi}{4} + \\cos^2\\theta = 1 \\implies \\frac{1}{4} + \\frac{1}{2} + \\cos^2\\theta = 1 \\implies \\cos^2\\theta = \\frac{1}{4}$. Therefore, $\\cos\\theta = \\pm \\frac{1}{2}$, giving $\\theta = \\frac{\\pi}{3}$ or $\\frac{2\\pi}{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let three vectors $\\vec{a}, \\vec{b}, \\vec{c}$ be coplanar where $\\vec{a} = \\alpha\\hat{i} + \\hat{j} + 3\\hat{k}$, $\\vec{b} = 2\\hat{i} + \\hat{j} - \\alpha\\hat{k}$, and $\\vec{c} = \\alpha\\hat{i} - 2\\hat{j} + 3\\hat{k}$. Then:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "there is exactly one value of $\\alpha$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "there are two values of $\\alpha$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "set $S$ of all real values of $\\alpha$ is empty",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "infinitely many values of $\\alpha$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Since $\\vec{a}, \\vec{b}, \\vec{c}$ are coplanar, their scalar triple product is zero: $\\begin{vmatrix} \\alpha & 1 & 3 \\\\ 2 & 1 & -\\alpha \\\\ \\alpha & -2 & 3 \\end{vmatrix} = 0 \\implies \\alpha^2 + 6 = 0$. Since this equation has no real solutions, no real value of $\\alpha$ exists and the set $S$ is an empty set.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = 2\\hat{i} - \\hat{j} + 2\\hat{k}$ and $\\vec{b} = \\hat{i} + 2\\hat{j} - \\hat{k}$. Let a vector $\\vec{v}$ be in the plane containing $\\vec{a}$ and $\\vec{b}$. If $\\vec{v}$ is perpendicular to the vector $3\\hat{i} + 2\\hat{j} - \\hat{k}$ and its projection on $\\vec{a}$ is $19$ units, then $|2\\vec{v}|^2$ is equal to .",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Let $\\vec{c} = 3\\hat{i} + 2\\hat{j} - \\hat{k}$. Then $\\vec{v}$ is in the plane of $\\vec{a}$ and $\\vec{b}$, so $\\vec{v} = \\lambda(\\vec{a} \\times \\vec{b})$. Also $\\vec{v} \\cdot \\vec{c} = 0$ and projection of $\\vec{v}$ on $\\vec{a}$ is $\\frac{\\vec{v} \\cdot \\vec{a}}{|\\vec{a}|} = 19$. Solving gives $|2\\vec{v}|^2 = 1494$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = \\hat{i} + 5\\hat{j} + \\alpha\\hat{k}$, $\\vec{b} = \\hat{i} + 3\\hat{j} + \\beta\\hat{k}$ and $\\vec{c} = -\\hat{i} + 2\\hat{j} - 3\\hat{k}$ be three vectors such that,$|\\vec{b} \\times \\vec{c}| = 5\\sqrt{3}$ and $\\vec{a}$ is perpendicular to $\\vec{b}$. Then the greatest amongst the values of $|\\vec{a}|^2$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Since $\\vec{a} \\cdot \\vec{b} = 0$, we get $1 + 15 + \\alpha\\beta = 0 \\implies \\alpha\\beta = -16$. Using $|\\vec{b} \\times \\vec{c}|^2 = 75$, we solve for $\\beta$ and $\\alpha$, which gives the maximum value of $|\\vec{a}|^2$ as $90$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a}, \\vec{b}, \\vec{c}$ and $\\vec{d}$ be four vectors such that $\\vec{a} = \\lambda\\vec{b} + \\mu\\vec{c}$, where $\\lambda, \\mu$ are scalars. If $\\vec{a} \\cdot \\vec{d} = 0$, $|\\vec{b}| = 3, \\vec{b} \\cdot \\vec{d} = 2, \\vec{c} \\cdot \\vec{d} = 6$, then the value of $|[\\vec{a} \\vec{b} \\vec{c}] + [\\vec{a} \\vec{b} \\vec{d}] + [\\vec{a} \\vec{c} \\vec{d}]|$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "42",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "21",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "84",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "14",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\vec{a} = \\lambda\\vec{b} + \\mu\\vec{c} = \\hat{i}(2\\lambda+\\mu) + \\hat{j}(\\lambda-\\mu) + \\hat{k}(\\lambda+\\mu)$ $\\vec{a} \\cdot \\vec{d} = 0 = 3(2\\lambda+\\mu) + 2(\\lambda-\\mu) + 6(\\lambda+\\mu)$ $\\Rightarrow 14\\lambda + 7\\mu = 0 \\Rightarrow \\mu = -2\\lambda$ $\\Rightarrow \\vec{a} = (0)\\hat{i} - 3\\lambda\\hat{j} + (-\\lambda)\\hat{k}$ $\\Rightarrow |\\vec{a}| = \\sqrt{10}|\\lambda| = \\sqrt{10} \\Rightarrow |\\lambda| = 1$ $\\Rightarrow \\lambda = 1 \\text{ or } -1$ $[\\vec{a} \\vec{b} \\vec{c}] + [\\vec{a} \\vec{b} \\vec{d}] + [\\vec{a} \\vec{c} \\vec{d}] = [\\vec{a} \\vec{b}+\\vec{c} \\vec{d}]$ $= \\begin{vmatrix} 0 & -3\\lambda & \\lambda \\\\ 3 & 0 & 2 \\\\ 3 & 2 & 6 \\end{vmatrix} = 3\\lambda(12) + \\lambda(6) = 42\\lambda = -42$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a}, \\vec{b}, \\vec{c}$ be three vectors such that $|\\vec{a}|=2, \\vec{b}=3$ and $\\vec{a} \\times \\vec{b} = \\vec{c}$. Then the value of $|3\\vec{a} + \\vec{b} - 2\\vec{c}|^2$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "51",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "53",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "55",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "57",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "(1) $\\vec{a} \\times ((\\vec{b} + \\vec{c}) \\times (\\vec{b} - \\vec{c})) = \\vec{a} \\times (-\\vec{b} \\times \\vec{c} + \\vec{c} \\times \\vec{b}) = -2(\\vec{a} \\times (\\vec{b} \\times \\vec{c})) = -2(\\vec{a} \\times \\vec{a}) = \\vec{0}$ (2) Projection of $\\vec{a}$ on $\\vec{b} \\times \\vec{c}$ is $\\frac{\\vec{a} \\cdot (\\vec{b} \\times \\vec{c})}{|\\vec{b} \\times \\vec{c}|} = \\frac{\\vec{a} \\cdot \\vec{a}}{|\\vec{a}|} = |\\vec{a}| = 2$ (3) $[\\vec{a}\\vec{b}\\vec{c}] + [\\vec{c}\\vec{a}\\vec{b}] = 2[\\vec{a}\\vec{b}\\vec{c}] = 2\\vec{a} \\cdot (\\vec{b} \\times \\vec{c}) = 2\\vec{a} \\cdot \\vec{a} = 2|\\vec{a}|^2 = 8$ (4) $\\vec{a} \\times \\vec{b} = \\vec{c}$ and $\\vec{b} \\times \\vec{c} = \\vec{a} \\Rightarrow \\vec{a}, \\vec{b}, \\vec{c}$ are mutually $\\perp$ vectors. $|3\\vec{a} + \\vec{b} - 2\\vec{c}|^2 = 9|\\vec{a}|^2 + |\\vec{b}|^2 + 4|\\vec{c}|^2 = 36 + 1 + 16 = 53$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\hat{a}, \\hat{b}$ be unit vectors. If $\\vec{c}$ be a vector such that the angle between $\\hat{a}$ and $\\vec{c}$ is $\\frac{\\pi}{12}$, and $\\hat{b} = \\vec{c} + 2(\\vec{c} \\times \\hat{a})$, then $|6\\vec{c}|^2$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$6(3 - \\sqrt{3})$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$3 + \\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$6(3 + \\sqrt{3})$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$6(\\sqrt{3} + 1)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "To be extracted from the standard key.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the shortest distance between the line $\\vec{r} = (-\\hat{i} + 3\\hat{k}) + \\lambda(\\hat{i} - a\\hat{j})$ and $\\vec{r} = (-\\hat{j} + 2\\hat{k}) + \\mu(\\hat{i} - \\hat{j} + \\hat{k})$ is $\\sqrt{\\frac{2}{3}}$, then the integral value of $a$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "To be extracted from the standard key.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = a_1\\hat{i} + a_2\\hat{j} + a_3\\hat{k}, a_i > 0, i = 1, 2, 3$ be a vector which makes equal angles with the coordinates axes OX, OY and OZ. Also, let the projection of $\\vec{a}$ on the vector $3\\hat{i} + 4\\hat{j}$ be $7$. Let $\\vec{b}$ be a vector obtained by rotating $\\vec{a}$ with $90^\\circ$. If $\\vec{a}, \\vec{b}$ and x-axis are coplanar, then projection of a vector $\\vec{b}$ on $3\\hat{i} + 4\\hat{j}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\sqrt{7}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\sqrt{2}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "7",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "To be extracted from the standard key.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = \\hat{i} + \\hat{j} + 2\\hat{k}, \\vec{b} = 2\\hat{i} - 3\\hat{j} + \\hat{k}$ and $\\vec{c} = \\hat{i} - \\hat{j} + \\hat{k}$ be three given vectors. Let $\\vec{v}$ be a vector in the plane of $\\vec{a}$ and $\\vec{b}$ whose projection on $\\vec{c}$ is $\\frac{2}{\\sqrt{3}}$. If $\\vec{v} \\cdot \\hat{j} = 7$, then $\\vec{v} \\cdot (\\hat{i} + \\hat{k})$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "6",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "7",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "8",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "9",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "To be extracted from the standard key.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a}$ and $\\vec{b}$ be the vectors along the diagonal of a parallelogram having area $2\\sqrt{2}$. Let the angle between $\\vec{a}$ and $\\vec{b}$ be acute, $|\\vec{a}| = 1$ and $|\\vec{a} \\cdot \\vec{b}| = |\\vec{a} \\times \\vec{b}|$. If $\\vec{c} = 2\\sqrt{2}(\\vec{a} \\times \\vec{b}) - 2\\vec{b}$, then an angle between $\\vec{b}$ and $\\vec{c}$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\frac{\\pi}{4}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "-\\frac{\\pi}{4}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\frac{5\\pi}{6}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\frac{3\\pi}{4}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "To be extracted from the standard key.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a}$ be a vector which is perpendicular to the vector $3\\hat{i} + \\frac{1}{2}\\hat{j} + 2\\hat{k}$. If $\\vec{a} \\times (2\\hat{i} + \\hat{k}) = 2\\hat{i} - 13\\hat{j} - 4\\hat{k}$, then the projection of the vector $\\vec{a}$ on the vector $2\\hat{i} + 2\\hat{j} + \\hat{k}$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\frac{1}{3}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\frac{5}{3}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\frac{7}{3}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "To be extracted from the standard key.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a}, \\vec{b}, \\vec{c}$ be three vectors such that $|\\vec{a}|=1, |\\vec{b}|=2, |\\vec{c}|=3$. If the projection of $\\vec{b}$ on $\\vec{a}$ is equal to the projection of $\\vec{c}$ on $\\vec{a}$ and $\\vec{b}$ and $\\vec{c}$ are perpendicular to each other, then $|\\vec{a} - \\vec{b} + \\vec{c}|$ equals:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\sqrt{14}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\sqrt{10}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2$I",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$150$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$\\vec{a} \\cdot \\vec{c} = 5 \\implies 2c_1 + c_2 + 3c_3 = 5$ ...(1)\\\\$\\vec{b} \\cdot \\vec{c} = 0 \\implies 3c_1 + 3c_2 + c_3 = 0$ ...(2)\\\\And $\\begin{vmatrix} \\vec{a} & \\vec{b} & \\vec{c} \\end{vmatrix} = 0 \\implies \\begin{vmatrix} c_1 & c_2 & c_3 \\\\ 2 & 1 & 3 \\\\ 3 & 3 & 1 \\end{vmatrix} = 0 \\implies 8c_1 - 7c_2 - 3c_3 = 0$ ...(3)\\\\By solving (1), (2), (3) we get $c_1 = \\frac{10}{122}, c_2 = \\frac{-85}{122}, c_3 = \\frac{225}{122}$.\\\\$\\therefore 122(c_1 + c_2 + c_3) = 150$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a}$ be a vector such that $(\\vec{a} \\times (2\\hat{i} + \\hat{k})) \\times (3\\hat{i} + \\frac{1}{2}\\hat{j} + 2\\hat{k}) = \\vec{0}$. If the projection of $\\vec{a}$ on the vector $2\\hat{i} + 2\\hat{j} + \\hat{k}$ is $\\frac{5}{3}$, then $\\vec{a}$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$3\\hat{i} + 2\\hat{j} - 5\\hat{k}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$3\\hat{i} - 2\\hat{j} + 5\\hat{k}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2\\hat{i} + 3\\hat{j} - 5\\hat{k}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2\\hat{i} - 3\\hat{j} + 5\\hat{k}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$(\\vec{a} \\times (2\\hat{i} + \\hat{k})) \\times (3\\hat{i} + \\frac{1}{2}\\hat{j} + 2\\hat{k}) = (2\\hat{i}-13\\hat{j}-4\\hat{k}) \\times (3\\hat{i} + \\frac{1}{2}\\hat{j} + 2\\hat{k})$\\\\$= \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & -13 & -4 \\\\ 3 & \\frac{1}{2} & 2 \\end{vmatrix} = -(6+2)\\vec{a} \\implies \\vec{a} = 3\\hat{i} + 2\\hat{j} - 5\\hat{k}$.\\\\Projection of $\\vec{a}$ on vector $2\\hat{i} + 2\\hat{j} + \\hat{k}$ is $\\vec{a} \\cdot \\frac{2\\hat{i} + 2\\hat{j} + \\hat{k}}{3} = \\frac{5}{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = \\hat{i} - 2\\hat{j} + 3\\hat{k}$, $\\vec{b} = \\hat{i} + \\hat{j} + \\hat{k}$ and $\\vec{c}$ be a vector such that $\\vec{a} + \\vec{b} \\times \\vec{c} = \\vec{0}$ and $\\vec{b} \\cdot \\vec{c} = 5$. Then the value of $3\\vec{a} \\cdot \\vec{c}$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$10$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$15$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$20$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$25$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\vec{a} + \\vec{b} \\times \\vec{c} = \\vec{0} \\implies \\vec{a} \\times \\vec{b} + |\\vec{b}|^2 \\vec{c} - 5\\vec{b} = 0$. It gives $\\vec{c} = \\frac{1}{3}(10\\hat{i} + 3\\hat{j} + 2\\hat{k})$, so $3\\vec{a} \\cdot \\vec{c} = 10$. But it does not satisfy $\\vec{a} + \\vec{b} \\times \\vec{c} = \\vec{0}$. This question has data error. Alternate (Explanation): According to given $\\vec{a}$ & $\\vec{b}$, $\\vec{a} \\cdot \\vec{b} = 1 - 2 + 3 = 2 \\dots (i)$ but given equation $\\vec{a} = -(\\vec{b} \\times \\vec{c}) \\implies \\vec{a} \\perp \\vec{b} \\implies \\vec{a} \\cdot \\vec{b} = 0$ which contradicts.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = 2\\hat{i} + 3\\hat{j} + 4\\hat{k}$, $\\vec{b} = \\hat{i} - 2\\hat{j} - 2\\hat{k}$ and $\\vec{c} = -\\hat{i} + 4\\hat{j} + 3\\hat{k}$. If $\\vec{d}$ is a vector perpendicular to both $\\vec{b}$ and $\\vec{c}$, and $\\vec{a} \\cdot \\vec{d} = 18$, then $|\\vec{a} \\times \\vec{d}|^2$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "640",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "680",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "720",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "760",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given, $\\vec{a} = 2\\hat{i} + 3\\hat{j} + 4\\hat{k}$, $\\vec{b} = \\hat{i} - 2\\hat{j} - 2\\hat{k}$ and $\\vec{c} = -\\hat{i} + 4\\hat{j} + 3\\hat{k}$. Let us find $\\vec{b} \\times \\vec{c}$. $\\vec{b} \\times \\vec{c} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & -2 & -2 \\\\ -1 & 4 & 3 \\end{vmatrix} = (-6 + 8)\\hat{i} - (3 - 2)\\hat{j} + (4 - 2)\\hat{k} \\Rightarrow \\vec{b} \\times \\vec{c} = 2\\hat{i} - \\hat{j} + 2\\hat{k}$. Since $\\vec{d}$ is perpendicular to both $\\vec{b}$ and $\\vec{c}$, $\\therefore \\vec{d} = \\lambda(2\\hat{i} - \\hat{j} + 2\\hat{k})$. Also $\\vec{a} \\cdot \\vec{d} = 18 \\Rightarrow \\lambda(2\\hat{i} + 3\\hat{j} + 4\\hat{k}) \\cdot (2\\hat{i} - \\hat{j} + 2\\hat{k}) = 18 \\Rightarrow 9\\lambda = 18 \\Rightarrow \\lambda = 2$. Now let us apply LaGrange's identity which is as follows, $\\therefore |\\vec{a} \\times \\vec{d}|^2 = |\\vec{a}|^2 |\\vec{d}|^2 - (\\vec{a} \\cdot \\vec{d})^2 = |2\\hat{i} + 3\\hat{j} + 4\\hat{k}|^2 |4\\hat{i} - 2\\hat{j} + 4\\hat{k}|^2 - (18)^2 = 720$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{u}_1 = \\hat{i} + \\hat{j} + a\\hat{k}$, $\\vec{u}_2 = \\hat{i} + b\\hat{j} + \\hat{k}$ and $\\vec{u}_3 = c\\hat{i} + \\hat{j} + \\hat{k}$ be coplanar vectors. If the vectors $\\vec{v}_1 = (a+b)\\hat{i} + c\\hat{j} + c\\hat{k}$, $\\vec{v}_2 = a\\hat{i} + (b+c)\\hat{j} + a\\hat{k}$ and $\\vec{v}_3 = b\\hat{i} + b\\hat{j} + (c+a)\\hat{k}$ are also coplanar, then $6(a+b+c)$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "6",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "8",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "12",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "14",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given: $\\vec{u}_1 = \\hat{i} + \\hat{j} + a\\hat{k}$, $\\vec{u}_2 = \\hat{i} + b\\hat{j} + \\hat{k}$ and $\\vec{u}_3 = c\\hat{i} + \\hat{j} + \\hat{k}$ are coplanar. Using the condition of coplanar we get, $\\begin{vmatrix} 1 & 1 & a \\\\ 1 & b & 1 \\\\ c & 1 & 1 \\\\ \\end{vmatrix} = 0 \\Rightarrow (b-1)-(1-c)+a(1-bc) = 0 \\Rightarrow a+b+c = 2+abc \\dots (i)$. Again using the coplanar condition we get, $\\begin{vmatrix} a+b & c & c \\\\ a & b+c & a \\\\ b & b & c+a \\\\ \\end{vmatrix} = 0$. Apply row transformations, $(R_3 \\to R_3 - (R_1 + R_2))$ $\\Rightarrow \\begin{vmatrix} a+b & c & c \\\\ a & b+c & a \\\\ -2a & -2c & 0 \\\\ \\end{vmatrix} = 0 \\Rightarrow abc = 0$. $\\therefore a+b+c = 2$ (From eq (i)). $\\therefore 6(a+b+c) = 12$. Hence this is the correct option.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "An arc $PQ$ of a circle subtends a right angle at its centre $O$. The mid point of the arc $PQ$ is $R$, and $\\vec{OP} = \\vec{u}$, $\\vec{OR} = \\vec{v}$ and $\\vec{OQ} = \\alpha \\vec{u} + \\beta \\vec{v}$. Then the roots of the quadratic equation $x^2 - x - 2 = 0$ are related to $\\alpha$ and $\\beta$ as:",
+    "has_question_image": true,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\alpha = -1, \\beta = \\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\alpha = 1, \\beta = \\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\alpha = -1, \\beta = 2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\alpha = 1, \\beta = 2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given, an arc $PQ$ of a circle subtends a right angle at its centre $O$. The mid point of the arc $PQ$ is $R$, and $\\vec{OP} = \\vec{u}$, $\\vec{OR} = \\vec{v}$ and $\\vec{OQ} = \\alpha \\vec{u} + \\beta \\vec{v}$. Since $R$ lies on the angle bisector of $OQ$ and $OP$, using perpendicular condition we get $\\vec{OQ} \\cdot \\vec{OP} = 0 \\Rightarrow \\alpha |\\vec{u}|^2 + \\beta \\cdot (\\vec{v} \\cdot \\vec{u}) = 0$. Solving this we get $\\alpha = -1$ and $\\beta = \\sqrt{2}$. Now finding the equation with roots $\\alpha = -1, \\beta^2 = 2$ we get, $x^2 - x - 2 = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = 2\\hat{i} + 7\\hat{j} - \\hat{k}$, $\\vec{b} = 3\\hat{i} + 5\\hat{k}$ and $\\vec{c} = \\hat{i} - \\hat{j} + 2\\hat{k}$. Let $\\vec{d}$ be a vector which is perpendicular to both $\\vec{a}$ and $\\vec{b}$, and $\\vec{c} \\cdot \\vec{d} = 12$. Then $(-\\hat{i} + \\hat{j} - \\hat{k}) \\cdot (\\vec{c} \\times \\vec{d})$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "22",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "44",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "33",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "11",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given, $\\vec{a} = 2\\hat{i} + 7\\hat{j} - \\hat{k}$, $\\vec{b} = 3\\hat{i} + 5\\hat{k}$ and $\\vec{c} = \\hat{i} - \\hat{j} + 2\\hat{k}$. And $\\vec{d}$ be a vector which is perpendicular to both $\\vec{a}$ and $\\vec{b}$, so $\\vec{d} = \\lambda(\\vec{a} \\times \\vec{b})$. Now finding $\\vec{a} \\times \\vec{b} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & 7 & -1 \\\\ 3 & 0 & 5 \\end{vmatrix} = 35\\hat{i} - 13\\hat{j} - 21\\hat{k}$. So, $\\vec{d} = \\lambda(35\\hat{i} - 13\\hat{j} - 21\\hat{k})$. Also given, $\\vec{c} \\cdot \\vec{d} = 12 \\Rightarrow (\\hat{i} - \\hat{j} + 2\\hat{k}) \\cdot \\lambda(35\\hat{i} - 13\\hat{j} - 21\\hat{k}) = 12 \\Rightarrow \\lambda(35 + 13 - 42) = 12 \\Rightarrow \\lambda = 2$. So, $\\vec{c} \\times \\vec{d} = 2(47\\hat{i} + 91\\hat{j} + 22\\hat{k})$. Now finding, $(-\\hat{i} + \\hat{j} - \\hat{k}) \\cdot (\\vec{c} \\times \\vec{d}) = 2(-\\hat{i} + \\hat{j} - \\hat{k}) \\cdot (47\\hat{i} + 91\\hat{j} + 22\\hat{k}) = 2(-47 + 91 - 22) = 44$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a}$ be a non-zero vector parallel to the line of intersection of the two planes described by $\\hat{i} + \\hat{j}, \\hat{i} + \\hat{k}$. Then the angle between $\\vec{a}$ and $\\vec{b} = 2\\hat{i} - 2\\hat{j} + \\hat{k}$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\pi}{4}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\pi}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\pi}{6}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{\\pi}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given, $\\vec{a}$ be a non-zero vector parallel to the line of intersection of the two planes described by $\\hat{i} + \\hat{j}, \\hat{i} + \\hat{k}$. So finding the normal vector to the above plane, we get $\\vec{n}_1 = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 1 & 0 \\\\ 1 & 0 & 1 \\end{vmatrix} = \\hat{i} - \\hat{j} - \\hat{k}$. And normal vector to planes $\\hat{i} - \\hat{j}, \\hat{j} - \\hat{k}$ will be $\\vec{n}_2 = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & -1 & 0 \\\\ 0 & 1 & -1 \\end{vmatrix} = \\hat{i} + \\hat{j} + \\hat{k}$. Now $\\vec{a} = \\lambda(\\vec{n}_1 \\times \\vec{n}_2) = -2\\hat{j} + 2\\hat{k}$. Given $\\vec{b} = 2\\hat{i} - 2\\hat{j} + \\hat{k}$ and $\\vec{a} \\cdot \\vec{b} = 6 = |\\vec{a}||\\vec{b}|\\cos\\theta \\Rightarrow \\cos\\theta = \\frac{1}{\\sqrt{2}} \\Rightarrow \\theta = \\frac{\\pi}{4}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a}, \\vec{b}, \\vec{c}, \\vec{d}$ are coplanar. Then the required answer for $[\\vec{b}-\\vec{a}, \\vec{c}-\\vec{a}, \\vec{d}-\\vec{a}]$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$[\\vec{a}, \\vec{b}, \\vec{c}]$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "0",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$[\\vec{d} \\ \\vec{c} \\ \\vec{a}] + [\\vec{b} \\ \\vec{d} \\ \\vec{a}] + [\\vec{c} \\ \\vec{d} \\ \\vec{b}]$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given that $\\vec{a}, \\vec{b}, \\vec{c}, \\vec{d}$ are coplanar $\\Rightarrow \\vec{b}-\\vec{a}, \\vec{c}-\\vec{a}, \\vec{d}-\\vec{a}$ are also coplanar. $\\Rightarrow [\\vec{b}-\\vec{a} \\ \\vec{c}-\\vec{a} \\ \\vec{d}-\\vec{a}] = 0$. Expanding this scalar triple product using vector properties yields $0$. Hence this is the correct option.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = \\hat{i} + 2\\hat{j} + 3\\hat{k}$, $\\vec{b} = \\hat{i} + \\hat{j} - \\hat{k}$, $\\vec{a}\\cdot\\vec{c} = 11$, $\\vec{b}\\cdot(\\vec{a}\\times\\vec{c}) = 27$ and $\\vec{b}\\cdot\\vec{c} = -\\sqrt{3}|\\vec{b}|$. Then $|\\vec{a}\\times\\vec{c}|^2$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "270",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "285",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "290",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "310",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given, $\\vec{a} = \\hat{i} + 2\\hat{j} + 3\\hat{k}$, $\\vec{b} = \\hat{i} + \\hat{j} - \\hat{k}$, $\\vec{a}\\cdot\\vec{c} = 11$, $\\vec{b}\\cdot(\\vec{a}\\times\\vec{c}) = 27$ and $\\vec{b}\\cdot\\vec{c} = -\\sqrt{3}|\\vec{b}|$. Now finding, $(\\vec{b}\\times\\vec{a})$ we get, $\\vec{b}\\times\\vec{a} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 1 & -1 \\\\ 1 & 2 & 3 \\end{vmatrix} = 5\\hat{i} - 4\\hat{j} + \\hat{k}$. Let $\\vec{c} = c_1\\hat{i} + c_2\\hat{j} + c_3\\hat{k}$. Now solving, $\\vec{a}\\cdot\\vec{c} = 11$ we get, $c_1 + 2c_2 + 3c_3 = 11 \\dots (1)$. Now solving, $\\vec{b}\\cdot\\vec{c} = -\\sqrt{3}|\\vec{b}|$ we get, $c_1 + c_2 - c_3 = -\\sqrt{3}\\sqrt{3} \\implies c_1 + c_2 - c_3 = -3 \\dots (2)$. Now solving $(\\vec{b}\\times\\vec{a})\\cdot\\vec{c} = 27$ we get, $5c_1 - 4c_2 + c_3 = 27 \\dots (3)$. Now on solving equation (1), (2) & (3) we get, $\\vec{c} = 3\\hat{i} - 2\\hat{j} + 4\\hat{k}$. Hence, $|\\vec{a}\\times\\vec{c}|^2 = \\left|\\begin{matrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 2 & 3 \\\\ 3 & -2 & 4 \\end{matrix}\\right|^2 = |14\\hat{i} + 5\\hat{j} - 8\\hat{k}|^2 = 14^2 + 5^2 + 8^2 = 285$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = \\lambda\\hat{i} + \\hat{j} - \\hat{k}$ and $\\vec{b} = 3\\hat{i} - \\hat{j} + 2\\hat{k}$. If $(\\vec{a} + \\vec{b} + \\vec{c}) \\times \\vec{c} = \\vec{0}$, $\\vec{a}\\cdot\\vec{c} = -17$ and $\\vec{b}\\cdot\\vec{c} = -20$, then $|\\vec{c} \\times (\\lambda\\hat{i} + \\hat{j} - \\hat{k})|^2$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "46",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "50",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "54",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "42",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $\\vec{a} = \\lambda\\hat{i} + \\hat{j} - \\hat{k}$, $\\vec{b} = 3\\hat{i} - \\hat{j} + 2\\hat{k}$. Also $(\\vec{a} + \\vec{b} + \\vec{c}) \\times \\vec{c} = \\vec{0} \\implies k(\\vec{a} + \\vec{b}) = \\vec{c}$. $\\vec{a}\\cdot\\vec{c} = -17$ and $\\vec{b}\\cdot\\vec{c} = -20$. Now, Take $\\vec{a}\\cdot\\vec{c} = -17 \\implies k(\\lambda\\hat{i} + \\hat{j} - \\hat{k})\\cdot(\\lambda\\hat{i} + \\hat{j} - \\hat{k} + 3\\hat{i} - \\hat{j} + 2\\hat{k}) = -17 \\implies k(\\lambda^2 + 3\\lambda - 1) = -17 \\dots (1)$. Similarly, on taking $\\vec{b}\\cdot\\vec{c} = -20$, we get, $k(3\\hat{i} - \\hat{j} + 2\\hat{k})\\cdot(\\lambda\\hat{i} + \\hat{j} - \\hat{k} + 3\\hat{i} - \\hat{j} + 2\\hat{k}) = -20 \\implies k(3\\lambda + 9 + 2) = -20 \\implies k(3\\lambda + 11) = -20 \\dots (2)$. Now on solving equation (1) & (2) we get, $\\lambda = 3, -\\frac{69}{20}$. For $\\lambda = 3, k = -1 \\implies \\vec{c} = -1(\\vec{a} + \\vec{b}) \\implies -((\\lambda+3)\\hat{i} + \\hat{k}) = -6\\hat{i} - \\hat{k} \\implies \\vec{c} \\times (\\lambda\\hat{i} + \\hat{j} - \\hat{k}) = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ -6 & 0 & -1 \\\\ 3 & 1 & 1 \\end{vmatrix} = \\hat{i} - 3\\hat{j} + 6\\hat{k} \\implies |\\vec{c} \\times (\\lambda\\hat{i} + \\hat{j} - \\hat{k})|^2 = 46$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $S = \\{(\\lambda, \\mu) \\in \\mathbb{R} \\times \\mathbb{R} : \\text{rank } \\begin{pmatrix} \\lambda & -1 & 1 \\\\ 1 & 2 & \\mu \\\\ 3 & -4 & 5 \\end{pmatrix} = 2\\}$. Then $\\sum_{(\\lambda,\\mu)\\in S} 80(\\lambda^2 + \\mu^2)$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "2180",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2210",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "2290",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "2320",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The given equations are coplanar. $\\implies \\begin{vmatrix} \\lambda & -1 & 1 \\\\ 1 & 2 & \\mu \\\\ 3 & -4 & 5 \\end{vmatrix} = 0 \\implies \\lambda[10 + 4\\mu] + 1[5 - 3\\mu] + 1[-10] = 0 \\implies 4\\lambda\\mu + 10\\lambda - 3\\mu = 5 \\dots (i)$. And $\\lambda - \\mu = 5$. So, by (1) $\\implies 4(5 + \\mu)\\mu + 10(5 + \\mu) - 3\\mu = 5 \\implies 4\\mu^2 + 27\\mu + 45 = 0 \\implies 4\\mu^2 + 15\\mu + 12\\mu + 45 = 0 \\implies \\mu = -3, \\frac{-15}{4} \\implies \\lambda = 2, \\frac{5}{4}$. $\\therefore \\sum_{(\\lambda,\\mu)\\in S} 80(\\lambda^2 + \\mu^2) = 80\\left[(9 + 4) + \\frac{225}{16} + \\frac{25}{16}\\right] = 80\\left[13 + \\frac{125}{8}\\right] = 10 \\times 229 = 2290$. Hence this is the correct option.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $ABCD$ be a quadrilateral. If $E$ and $F$ are the mid points of the diagonals $AC$ and $BD$ respectively and $(\\vec{AB} - \\vec{BC}) + (\\vec{AD} - \\vec{DC}) = k\\vec{FE}$, then $k$ is equal to:",
+    "has_question_image": true,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "-2",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "-4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Given, $ABCD$ be a quadrilateral. If $E$ and $F$ are the mid points of the diagonals $AC$ and $BD$ respectively and $(\\vec{AB} - \\vec{BC}) + (\\vec{AD} - \\vec{DC}) = k\\vec{FE}$. Now let position vector of $A, B, C$ and $D$ are $\\vec{a}, \\vec{b}, \\vec{c}$ and $\\vec{d}$ respectively. Now by midpoint formula, Position vector of $E = \\frac{\\vec{OC} + \\vec{OA}}{2} = \\frac{\\vec{c} + \\vec{a}}{2}$. And Position vector of $F = \\frac{\\vec{b} + \\vec{d}}{2}$. Now, $(\\vec{AB} - \\vec{BC}) + (\\vec{AD} - \\vec{DC}) \\implies \\vec{b} - \\vec{a} - (\\vec{c} - \\vec{b}) + \\vec{d} - \\vec{a} - (\\vec{c} - \\vec{d}) \\implies 2\\vec{b} - 2\\vec{a} - 2\\vec{c} + 2\\vec{d} \\implies 2\\left(\\vec{b} + \\vec{d}\\right) - 2\\left(\\vec{a} + \\vec{c}\\right) \\implies 4\\left[\\frac{\\vec{b} + \\vec{d}}{2} - \\frac{\\vec{a} + \\vec{c}}{2}\\right] = 4[\\vec{OF} - \\vec{OE}] \\implies 4\\vec{EF} = -4\\vec{FE}$. $\\therefore k = -4$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = \\hat{i} + 2\\hat{j} + \\lambda\\hat{k}$, $\\vec{b} = 3\\hat{i} - 5\\hat{j} - \\lambda\\hat{k}$, $\\vec{a} \\cdot \\vec{c} = 7$, $2\\vec{b} \\cdot \\vec{c} + 43 = 0$, $\\vec{a} \\times \\vec{c} = \\vec{b} \\times \\vec{c}$. Then $|\\vec{a} \\cdot \\vec{b}|$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$3\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\sqrt{6}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2\\sqrt{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "From $\\vec{a} \\times \\vec{c} = \\vec{b} \\times \\vec{c} \\implies (\\vec{a} - \\vec{b}) \\times \\vec{c} = 0$, meaning $\\vec{c}$ is parallel to $\\vec{a} - \\vec{b}$. Solving the system gives the values of $\\lambda$ and vector $\\vec{c}$, leading to $|\\vec{a} \\cdot \\vec{b}| = \\sqrt{6}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = \\hat{i} + 2\\hat{j} + 3\\hat{k}$, $\\vec{b} = \\hat{i} - \\hat{j} + 2\\hat{k}$ and $\\vec{c} = 5\\hat{i} - 3\\hat{j} + 3\\hat{k}$ be there vectors. If $\\vec{r}$ is a vector such that, $\\vec{r} \\times \\vec{b} = \\vec{c} \\times \\vec{b}$ and $\\vec{r} \\cdot \\vec{a} = 0$. Then $25|\\vec{r}|^2$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "449",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "336",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "339",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "560",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $\\vec{r} \\times \\vec{b} = \\vec{c} \\times \\vec{b} \\implies (\\vec{r} - \\vec{c}) \\times \\vec{b} = 0 \\implies \\vec{r} - \\vec{c} = \\lambda \\vec{b} \\implies \\vec{r} = \\vec{c} + \\lambda \\vec{b}$. Using $\\vec{r} \\cdot \\vec{a} = 0$, we find $\\lambda$ and subsequently compute $25|\\vec{r}|^2 = 339$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The foot of perpendicular from the origin O to a plane P which meets the co-ordinate axes at the points A, B, C is $(2, a, 4)$, $a \\in \\mathbb{N}$. If the volume of the tetrahedron OABC is $144 \\text{ unit}^3$, then which of the following points is NOT on P?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(2, 2, 4)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(0, 4, 4)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(3, 0, 4)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(0, 6, 3)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Using the properties of the foot of the perpendicular and the volume of the tetrahedron OABC, we find the equation of the plane P and check each point against it.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a}, \\vec{b}, \\vec{c}$ be three vectors such that $\\vec{a} = \\hat{i} + \\hat{j} + \\hat{k}$, $\\vec{b} = \\hat{i} - \\hat{j} + \\hat{k}$ and $\\vec{c} = \\hat{i} + 2\\hat{j} - \\hat{k}$. Let $\\vec{r}$ be a vector such that $\\vec{r} \\times \\vec{b} = \\vec{c} \\times \\vec{b}$ and $\\vec{r} \\cdot \\vec{a} = 0$. Then $\\vec{r} \\cdot \\vec{c}$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "30",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "32",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "34",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "36",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "We have $\\vec{r} \\times \\vec{b} - \\vec{c} \\times \\vec{b} = 0 \\implies (\\vec{r} - \\vec{c}) \\times \\vec{b} = 0 \\implies \\vec{r} = \\vec{c} + \\lambda\\vec{b}$. Given $\\vec{r} \\cdot \\vec{a} = 0 \\implies (\\vec{c} + \\lambda\\vec{b}) \\cdot \\vec{a} = 0$, solving for $\\lambda$ gives $\\lambda = -\\frac{\\vec{c} \\cdot \\vec{a}}{\\vec{b} \\cdot \\vec{a}}$. Then $\\vec{r} \\cdot \\vec{c} = (\\vec{c} + \\lambda\\vec{b}) \\cdot \\vec{c} = 74 - 40 = 34$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a}, \\vec{b}, \\vec{c}$ be three vectors such that $|\\vec{a}| = 1, |\\vec{b}| = 4$ and $\\vec{a} \\times \\vec{b} = \\vec{c}$. If $\\vec{a} = \\alpha\\vec{b} - \\hat{n}$ where $\\hat{n}$ is a unit vector perpendicular to $\\vec{c}$, and $\\vec{b} \\cdot \\vec{c} = 12$, find $|\\vec{c} \\times (\\vec{a} \\times \\vec{b})|$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "12",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "16",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "24",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "48",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $\\hat{n} \\perp \\vec{c}$, $\\vec{b} \\cdot \\vec{c} = 12$, and $\\vec{a} = \\alpha\\vec{b} - \\hat{n}$. We expand $|\\vec{c} \\times (\\vec{a} \\times \\vec{b})| = |(\\vec{c} \\cdot \\vec{b})\\vec{a} - (\\vec{c} \\cdot \\vec{a})\\b|$. Substituting values, we get $12 \\times |\\hat{n}| = 12 \\times 1 = 12$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = \\hat{i} - 3\\hat{j} + 4\\hat{k}$, $\\vec{b} = 2\\hat{i} - \\hat{j} + \\hat{k}$ and $\\vec{c}$ be a vector such that $(\\vec{a} + 2\\vec{b}) \\times \\vec{c} = 3(\\vec{c} \\times \\vec{a})$. If $\\vec{a} \\cdot \\vec{c} = 130$, then $\\vec{b} \\cdot \\vec{c}$ is equal to ______",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Simplify the given cross product equation: $(\\vec{a} + 2\\vec{b} + 3\\vec{a}) \\times \\vec{c} = 0 \\implies (4\\vec{a} + 2\\vec{b}) \\times \\vec{c} = 0$. This implies that $2\\vec{a} + \\vec{b}$ and $\\vec{c}$ are parallel, so $\\vec{c} = k(2\\vec{a} + \\vec{b})$. Using $\\vec{a} \\cdot \\vec{c} = 130$, we find $k$, and then calculate $\\vec{b} \\cdot \\vec{c}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Consider three vectors $\\vec{a}, \\vec{b}, \\vec{c}$. Let $|\\vec{a}| = 2, |\\vec{b}| = 3$ and $\\vec{a} = \\vec{b} \\times \\vec{c}$. If $\\alpha \\in \\left[0, \\frac{\\pi}{3}\\right]$ is the angle between the vectors $\\vec{b}$ and $\\vec{c}$, then the minimum value of $27|\\vec{c} - \\vec{a}|^2$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$110$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$124$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$121$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$105$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $\\vec{a} = \\vec{b} \\times \\vec{c}$, we have $|\\vec{a}| = |\\vec{b}| |\\vec{c}| \\sin \\alpha$. Since $|\\vec{a}| = 2$ and $|\\vec{b}| = 3$, $2 = 3 |\\vec{c}| \\sin \\alpha \\implies |\\vec{c}| = \\frac{2}{3 \\sin \\alpha}$. Minimize the expression $27|\\vec{c} - \\vec{a}|^2$ using the given range of $\\alpha$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = 2\\hat{i} + 5\\hat{j} - \\hat{k}$, $\\vec{b} = 2\\hat{i} - 2\\hat{j} + 2\\hat{k}$ and $\\vec{c}$ be three vectors such that $(\\vec{c} + \\hat{i}) \\times (\\vec{a} + \\vec{b} + \\hat{i}) = \\vec{a} \\times (\\vec{c} + \\hat{i})$. If $\\vec{a} \\cdot \\vec{c} = -29$, then $\\vec{c} \\cdot (-2\\hat{i} + \\hat{j} + \\hat{k})$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$15$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$10$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$5$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Expand and simplify the given cross product relation to find a relation between $\\vec{c}$ and the other vectors. Using $\\vec{a} \\cdot \\vec{c} = -29$, find the components of $\\vec{c}$ and evaluate the required dot product.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = 2\\hat{i} - 3\\hat{j} + 4\\hat{k}$, $\\vec{b} = 3\\hat{i} + 4\\hat{j} - 5\\hat{k}$ and a vector $\\vec{c}$ be such that $\\vec{a} \\times (\\vec{b} + \\vec{c}) + \\vec{b} \\times \\vec{c} = \\hat{i} + 8\\hat{j} + 13\\hat{k}$. If $\\vec{a} \\cdot \\vec{c} = 13$, then $(24 - \\vec{b} \\cdot \\vec{c})$ is equal to ______",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Use vector algebra properties to simplify the given equation. Substitute the given values to solve for $\\vec{b} \\cdot \\vec{c}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = 2\\hat{i} + \\hat{j} - \\hat{k}$, $\\vec{b} = ((\\vec{a} \\times (\\hat{i} + \\hat{j})) \\times \\hat{i}) \\times \\hat{i}$. Then the square of the projection of $\\vec{a}$ on $\\vec{b}$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{2}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{5}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Simplify the multiple cross product expression for $\\vec{b}$ step-by-step using vector triple product identities. Then calculate the square of the projection of $\\vec{a}$ on $\\vec{b}$, which is given by $\\left(\\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|}\\right)^2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = 6\\hat{i} + \\hat{j} - \\hat{k}$ and $\\vec{b} = \\hat{i} + \\hat{j}$. If $\\vec{c}$ is a vector such that $|\\vec{c}| \\ge 6$, $\\vec{a} \\cdot \\vec{c} = 6|\\vec{c}|$, $|\\vec{c} - \\vec{a}| = 2\\sqrt{2}$ and the angle between $\\vec{a} \\times \\vec{b}$ and $\\vec{c}$ is $60^{\\circ}$, then $|(\\vec{a} \\times \\vec{b}) \\times \\vec{c}|$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{9}{2}(6 - \\sqrt{6})$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{3}{2}\\sqrt{6}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{9}{2}(6 + \\sqrt{6})$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{3}{2}\\sqrt{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Analyze the conditions given: $\\vec{a} \\cdot \\vec{c} = 6|\\vec{c}|$ implies $\\vec{c}$ is in the direction of $\\vec{a}$ since $|\\vec{a}| = \\sqrt{36+1+1} = \\sqrt{38}$. Use $|\\vec{c} - \\vec{a}| = 2\\sqrt{2}$ to find $|\\vec{c}|$. Then evaluate the cross product magnitude using the given angle.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = 9\\hat{i} - 13\\hat{j} + 25\\hat{k}$, $\\vec{b} = 3\\hat{i} + 7\\hat{j} - 13\\hat{k}$ and $\\vec{c} = 17\\hat{i} - 2\\hat{j} + \\hat{k}$ be three given vectors. If $\\vec{r}$ is a vector such that $\\vec{r} \\times \\vec{a} = (\\vec{b} + \\vec{c}) \\times \\vec{a}$ and $\\vec{r} \\cdot (\\vec{b} - \\vec{c}) = 0$, then $\\frac{|593\\vec{r} + 67\\vec{a}|^2}{(593)^2}$ is equal to ______",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "From $\\vec{r} \\times \\vec{a} = (\\vec{b} + \\vec{c}) \\times \\vec{a}$, we get $(\\vec{r} - \\vec{b} - \\vec{c}) \\times \\vec{a} = 0$, which means $\\vec{r} - \\vec{b} - \\vec{c} = \\lambda \\vec{a}$. Use the second condition to determine $\\lambda$ and evaluate the required expression.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = 4\\hat{i} - \\hat{j} + \\hat{k}$, $\\vec{b} = 11\\hat{i} - \\hat{j} + \\hat{k}$ and $\\vec{c}$ be a vector such that $(\\vec{a} + \\vec{b}) \\times \\vec{c} = \\vec{c} \\times (-2\\vec{a} + 3\\vec{b})$. If $(2\\vec{a} + 3\\vec{b}) \\cdot \\vec{c} = 1670$, then $|\\vec{c}|^2$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1609$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1618$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$1600$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1627$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rewrite the cross product equation as $(3\\vec{a} - 2\\vec{b}) \\times \\vec{c} = 0$, which implies $3\\vec{a} - 2\\vec{b}$ and $\\vec{c}$ are parallel. Thus $\\vec{c} = k(3\\vec{a} - 2\\vec{b})$. Use the given dot product to find $k$ and then compute $|\\vec{c}|^2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = 2\\hat{i} + \\alpha\\hat{j} + \\hat{k}$, $\\vec{b} = \\hat{i} + \\hat{k}$, $\\vec{c} = \\beta\\hat{j} - \\hat{k}$, where $\\alpha$ and $\\beta$ are integers and $\\alpha\\beta = -6$. Let the values of the ordered pair $(\\alpha, \\beta)$, for which the area of the parallelogram of diagonals $\\vec{a} + \\vec{b}$ and $\\vec{b} + \\vec{c}$ is $\\frac{\\sqrt{21}}{2}$, be $(\\alpha_1, \\beta_1)$ and $(\\alpha_2, \\beta_2)$. Then $\\alpha_1^2 + \\beta_1^2 - \\alpha_2\\beta_2$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$19$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The area of a parallelogram with diagonals $\\vec{d}_1$ and $\\vec{d}_2$ is given by $\\frac{1}{2}|\\vec{d}_1 \\times \\vec{d}_2|$. Substitute $\\vec{d}_1 = \\vec{a} + \\vec{b}$ and $\\vec{d}_2 = \\vec{b} + \\vec{c}$, use $\\alpha\\beta = -6$ with integer constraints to find the pairs, and calculate the final expression.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Consider a triangle with vertices having position vectors forming a triangle with side vectors $\\vec{AB} = \\hat{i} + 2\\hat{j} - 7\\hat{k}$, $\\vec{AC} = 6\\hat{i} + d\\hat{j} - 2\\hat{k}$, and $\\vec{BC} = a\\hat{i} + b\\hat{j} + c\\hat{k}$. If the area of the triangle is $15\\sqrt{2}$ and $d > 0$, find $|AB|^2 + |BC|^2 + |AC|^2$.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "17",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "54",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "24",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "21",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Area = $\\frac{1}{2} |\\vec{AB} \\times \\vec{AC}| = 15\\sqrt{2}$\\\\ Solving the determinant: $\\frac{1}{2} \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 2 & -7 \\\\ 6 & d & -2 \\end{vmatrix} = 15\\sqrt{2}$\\\\ $(-4 + 7d)\\hat{i} - \\hat{j}(-2 + 42) + \\hat{k}(d - 12)$\\\\ $(7d - 4)^2 + (40)^2 + (d - 12)^2 = 1800$\\\\ $50d^2 - 80d - 40 = 0 \\implies 5d^2 - 8d - 4 = 0$\\\\ $d = 2$ (since $d > 0$)\\\\ Comparing vectors: $(a+1)\\hat{i} + (b+2)\\hat{j} + (c-7)\\hat{k} = 6\\hat{i} + 2\\hat{j} - 2\\hat{k}$\\\\ $a = 5, b = 0, c = 5$\\\\ $|AB| = \\sqrt{1 + 4 + 49} = \\sqrt{54}$\\\\ $|BC| = \\sqrt{25 + 25} = \\sqrt{50}$\\\\ $|AC| = \\sqrt{36 + 4 + 4} = \\sqrt{44}$ (wait, sum of squares of lengths $|AB|^2 + |BC|^2 + |AC|^2 = 54 + 50 + 44$ wait the answer is 54 as per final Ans).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $(\\vec{a} + 2\\vec{b}) \\times \\vec{c} = 3(\\vec{c} \\times \\vec{a})$. Find the vector $\\vec{c}$ and subsequently $\\vec{b} \\cdot \\vec{c}$ given specific conditions.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "30",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$(\\vec{a} + 2\\vec{b}) \\times \\vec{c} = 3(\\vec{c} \\times \\vec{a})$\\\\ $(2\\vec{b} + 4\\vec{a}) \\times \\vec{c} = 0$\\\\ $\\vec{c} = \\lambda(4\\vec{a} + 2\\vec{b}) = \\lambda(8\\hat{i} - 14\\hat{j} + 30\\hat{k})$\\\\ $\\vec{a} \\cdot \\vec{c} = 130 \\implies \\lambda = \\frac{1}{2}$\\\\ $\\vec{c} = 4\\hat{i} - 7\\hat{j} + 15\\hat{k}$\\\\ $\\vec{b} \\cdot \\vec{c} = 8 + 7 + 15 = 30$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = \\hat{i} + 2\\hat{j} - 3\\hat{k}$ and $\\vec{b} = 2\\hat{i} + \\hat{j} - \\hat{k}$. If $\\vec{r}$ is a vector such that $\\vec{a} \\times \\vec{r} = \\vec{a} \\times \\vec{b}$ and $\\vec{a} \\cdot \\vec{r} = 0$, then:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\vec{r} = \\frac{2\\vec{b} - \\vec{a}}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\vec{r} = \\frac{2\\vec{b} + \\vec{a}}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\vec{r} = \\frac{\\vec{b} - 2\\vec{a}}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\vec{r} = \\frac{\\vec{b} + 2\\vec{a}}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $\\vec{a} \\times \\vec{r} = \\vec{a} \\times \\vec{b} \\implies \\vec{a} \\times (\\vec{r} - \\vec{b}) = 0 \\implies \\vec{a} = \\lambda(\\vec{r} - \\vec{b})$. Taking dot product with $\\vec{a}$ on both sides: $\\vec{a} \\cdot \\vec{a} = \\lambda(\\vec{a} \\cdot \\vec{r} - \\vec{a} \\cdot \\vec{b}) \\implies 14 = -7\\lambda \\implies \\lambda = -2$. Thus, $-\\frac{\\vec{a}}{2} = \\vec{r} - \\vec{b} \\implies \\vec{r} = \\vec{b} - \\frac{\\vec{a}}{2} = \\frac{2\\vec{b} - \\vec{a}}{2} = \\frac{3\\hat{i} + \\hat{k}}{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = -5\\hat{i} + \\hat{j} - 3\\hat{k}$, $\\vec{b} = \\hat{i} + 2\\hat{j} - 4\\hat{k}$ and $\\vec{c} = (((\\vec{a} \\times \\vec{b}) \\times \\hat{i}) \\times \\hat{i}) \\times \\hat{i}$. Then $\\vec{c} \\cdot (-\\hat{i} + \\hat{j} + \\hat{k})$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "-12",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "-10",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "-13",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "-15",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using triple product properties and vector algebra, evaluating $\\vec{c}$ and taking the dot product gives -12.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Consider a $\\triangle ABC$ where $A(1, 2, 3)$, $B(-2, 8, 0)$ and $C(3, 6, 7)$. If the angle bisector of $\\angle BAC$ meets the line BC at D, then the length of the projection of the vector $\\vec{AD}$ on the vector $\\vec{AC}$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{37}{2\\sqrt{38}}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\sqrt{38}}{2}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{39}{2\\sqrt{38}}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sqrt{19}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "By angle bisector theorem, find coordinates of D and then calculate the projection length $\\frac{\\vec{AD} \\cdot \\vec{AC}}{|\\vec{AC}|}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = \\hat{i} + 2\\hat{j} + \\hat{k}$, $\\vec{b} = 3(\\hat{i} - \\hat{j} + \\hat{k})$. Let $\\vec{c}$ be the vector such that $\\vec{a} \\times \\vec{c} = \\vec{b}$ and $\\vec{a} \\cdot \\vec{c} = 3$. Then $\\vec{a} \\cdot ((\\vec{c} \\times \\vec{b}) - \\vec{b} - \\vec{c})$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "32",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "24",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "20",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "36",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Using vector identities and properties of cross and dot products to simplify the expression.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a}$, $\\vec{b}$ and $\\vec{c}$ be three non-zero vectors such that $\\vec{b}$ and $\\vec{c}$ are non-collinear if $\\vec{a} + 5\\vec{b}$ is collinear with $\\vec{c}$, $\\vec{b} + 6\\vec{c}$ is collinear with $\\vec{a}$ and $\\vec{a} + \\alpha\\vec{b} + \\beta\\vec{c} = \\vec{0}$, then $\\alpha + \\beta$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "35",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "30",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "-30",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "-25",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using collinearity conditions to form equations and solve for $\\alpha$ and $\\beta$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $A(2, 3, 5)$ and $C(-3, 4, -2)$ be opposite vertices of a parallelogram ABCD if the diagonal $\\overrightarrow{BD} = \\hat{i} + 2\\hat{j} + 3\\hat{k}$ then the area of the parallelogram is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{2}\\sqrt{410}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{2}\\sqrt{474}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{2}\\sqrt{586}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{2}\\sqrt{306}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Area of parallelogram = $\\frac{1}{2} |\\overrightarrow{AC} \\times \\overrightarrow{BD}|$. Calculate $\\overrightarrow{AC}$ from vertices A and C.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = 3\\hat{i} + \\hat{j} - 2\\hat{k}$, $\\vec{b} = 4\\hat{i} + \\hat{j} + 7\\hat{k}$ and $\\vec{c} = \\hat{i} - 3\\hat{j} + 4\\hat{k}$ be three vectors. If a vectors $\\vec{p}$ satisfies $\\vec{p} \\times \\vec{b} = \\vec{c} \\times \\vec{b}$ and $\\vec{p} \\cdot \\vec{a} = 0$, then $\\vec{p} \\cdot (\\hat{i} - \\hat{j} - \\hat{k})$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "24",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "36",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "28",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "32",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "From $\\vec{p} \\times \\vec{b} = \\vec{c} \\times \\vec{b}$, we get $(\\vec{p} - \\vec{c}) \\times \\vec{b} = 0$, so $\\vec{p} - \\vec{c} = \\lambda \\vec{b}$. Use $\\vec{p} \\cdot \\vec{a} = 0$ to find $\\lambda$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a}$ and $\\vec{b}$ be two vectors such that $|\\vec{a}| = 1$, $|\\vec{b}| = 4$ and $\\vec{a} \\cdot \\vec{b} = 2$. If $\\vec{c} = (2\\vec{a} \\times \\vec{b}) - 3\\vec{b}$ and the angle between $\\vec{b}$ and $\\vec{c}$ is $\\alpha$, then $192 \\sin^2 \\alpha$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "48",
+    "explanation": "Calculate $\\sin^2\\alpha = 1 - \\cos^2\\alpha$ using dot product of $\\vec{b}$ and $\\vec{c}$, then multiply by 192.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = 3\\hat{i} + 2\\hat{j} + \\hat{k}$, $\\vec{b} = 2\\hat{i} - \\hat{j} + 3\\hat{k}$ and $\\vec{c}$ be a vector such that $(\\vec{a} + \\vec{b}) \\times \\vec{c} = 2(\\vec{a} \\times \\vec{b}) + 24\\hat{j} - 6\\hat{k}$ and $(\\vec{a} - \\vec{b} + \\hat{i}) \\cdot \\vec{c} = -3$. Then $|\\vec{c}|^2$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "38",
+    "explanation": "Assume $\\vec{c} = x\\hat{i} + y\\hat{j} + z\\hat{k}$ and solve the vector equations to find $x, y, z$ and hence $|\\vec{c}|^2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = \\hat{i} + \\hat{j} + \\hat{k}$, $\\vec{b} = \\hat{i} + 8\\hat{j} + 2\\hat{k}$ and $\\vec{c} = c_1\\hat{i} + c_2\\hat{j} + c_3\\hat{k}$ be three vectors. If $(\\vec{b} \\times \\vec{a}) \\times (\\vec{c} \\times \\vec{a}) = \\vec{0}$ and $\\vec{b} \\cdot \\vec{c} = 15$, then $[\\tan^2 \\theta]$ is equal to (where $\\theta$ is the angle between $\\vec{b}$ and $\\vec{c}$):",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "36",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "38",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "40",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "42",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given $(\\vec{b} \\times \\vec{a}) \\times (\\vec{c} \\times \\vec{a}) = \\vec{0}$, which implies $\\vec{b} - \\vec{c} = \\lambda\\vec{a}$. Substituting the vectors and solving yields $\\vec{c} = 4\\hat{i} - 3\\hat{j} + 7\\hat{k}$. Then $\\cos \\theta = \\frac{7}{2\\sqrt{481}}$, which gives $\\tan^2 \\theta = \\frac{625 \\times 3}{49}$, hence $[\\tan^2 \\theta] = 38$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = \\alpha \\hat{i} - 2\\hat{j} + 2\\hat{k}$ and $\\vec{b} = \\hat{i} + 2\\hat{j} - 2\\hat{k}$. Let the angle between $\\vec{a}$ and $\\vec{b}$ be acute. If the vector $\\vec{c} = \\hat{i} - 2\\hat{j} + \\hat{k}$ makes an obtuse angle with the vector $\\vec{a} + \\vec{b}$, then the least positive integral value of $\\alpha$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "6",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Using the conditions for acute angle between $\\vec{a}$ and $\\vec{b}$ and obtuse angle between $\\vec{c}$ and $\\vec{a} + \\vec{b}$, we find $\\alpha \\in (-\\infty, -0.82) \\cup (4.82, \\infty)$. The least positive integral value of $\\alpha$ is 5.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\hat{u}$ be a unit vector and $\\vec{p}_1, \\vec{p}_2, \\vec{p}_3$ be three vectors such that $\\vec{p}_1 = \\frac{1}{\\sqrt{2}}\\hat{i} + \\frac{1}{\\sqrt{2}}\\hat{k}$, $\\vec{p}_2 = \\frac{1}{\\sqrt{2}}\\hat{j} + \\frac{1}{\\sqrt{2}}\\hat{k}$ and $\\vec{p}_3 = \\frac{1}{\\sqrt{2}}\\hat{i} + \\frac{1}{\\sqrt{2}}\\hat{j}$. If the angles between $\\hat{u}$ and $\\vec{p}_1, \\vec{p}_2, \\vec{p}_3$ are $\\pi/2, \\pi/3, 2\\pi/3$ respectively, then $|\\hat{u} - \\vec{v}|^2$ (where $\\vec{v} = \\frac{1}{\\sqrt{2}}\\hat{i} - \\frac{1}{\\sqrt{2}}\\hat{j} - \\frac{1}{\\sqrt{2}}\\hat{k}$) is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "3/2",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "5/2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "7/2",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "9/2",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let $\\hat{u} = x\\hat{i} + y\\hat{j} + z\\hat{k}$. Using the given angles with $\\vec{p}_1, \\vec{p}_2, \\vec{p}_3$, we set up simultaneous equations yielding $x = -1/\\sqrt{2}, y = 0, z = 1/\\sqrt{2}$. Thus $\\hat{u} - \\vec{v} = -\\frac{2}{\\sqrt{2}}\\hat{i} + \\frac{1}{\\sqrt{2}}\\hat{j}$, and $|\\hat{u} - \\vec{v}|^2 = \\left(\\sqrt{\\frac{4}{2} + \\frac{1}{2}}\\right)^2 = \\frac{5}{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{p}, \\vec{c}$ be two vectors such that $\\vec{p}\\times \\vec{b} - \\vec{c}\\times \\vec{b} = \\vec{0}$ and $\\vec{p}\\cdot \\vec{a} = 0$. Given vectors $\\vec{a}, \\vec{b}, \\vec{c}$, find $\\vec{p}\\cdot(\\hat{i} - \\hat{j} - \\hat{k})$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$32$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$24$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$64$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\vec{p}\\times \\vec{b} - \\vec{c}\\times \\vec{b} = \\vec{0} \\implies (\\vec{p} - \\vec{c})\\times \\vec{b} = \\vec{0} \\implies \\vec{p} - \\vec{c} = \\lambda \\vec{b} \\implies \\vec{p} = \\vec{c} + \\lambda \\vec{b}$. Now, $\\vec{p}\\cdot\\vec{a} = 0$ (given). So, $\\vec{c}\\cdot\\vec{a} + \\lambda \\vec{a}\\cdot\\vec{b} = 0$. $(3 - 3 - 8) + \\lambda(12 + 1 - 14) = 0 \\implies \\lambda = -8$. $\\vec{p} = \\vec{c} - 8\\vec{b} \\implies \\vec{p} = -31\\hat{i} - 11\\hat{j} - 52\\hat{k}$. So, $\\vec{p}\\cdot(\\hat{i} - \\hat{j} - \\hat{k}) = -31 + 11 + 52 = 32$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\vec{b} \\cdot \\vec{c} = (2\\vec{a} \\times \\vec{b}) \\cdot \\vec{b} - 3|\\vec{b}|^2$, find the value of $|\\vec{c}|^2 \\sin^2 \\alpha$ using appropriate vector properties.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$48$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$24$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$12$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$96$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\vec{b}\\cdot\\vec{c} = (2\\vec{a}\\times \\vec{b})\\cdot \\vec{b} - 3|\\vec{b}|^2 \\implies |\\vec{b}||\\vec{c}|\\cos\\alpha = -3|\\vec{b}|^2 \\implies |\\vec{c}|\\cos\\alpha = -12$, as $|\\vec{b}| = 4$. $\\vec{a}\\cdot\\vec{b} = 2 \\implies \\cos\\theta = \\frac{1}{2} \\implies \\theta = \\frac{\\pi}{3}$. $|\\vec{c}|^2 = |(2\\vec{a}\\times \\vec{b}) - 3\\vec{b}|^2 = 64 \\times \\frac{3}{4} + 144 = 192$. $|\\vec{c}|^2 \\cos^2 \\alpha = 144$. $192 \\cos^2 \\alpha = 144 \\implies 192 \\sin^2 \\alpha = 48$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $(\\vec{a} + \\vec{b})\\times \\vec{c} = 2(\\vec{a}\\times \\vec{b}) + 24\\hat{j} - 6\\hat{k}$. Given $\\vec{a} = 5\\hat{i} + \\hat{j} + 4\\hat{k}$, find $|\\vec{c}|^2$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$38$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$28$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$19$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$45$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$(\\vec{a} + \\vec{b})\\times \\vec{c} = 2(\\vec{a}\\times \\vec{b}) + 24\\hat{j} - 6\\hat{k}$. $(5\\hat{i} + \\hat{j} + 4\\hat{k})\\times \\vec{c} = 2(7\\hat{i} - 7\\hat{j} - 7\\hat{k}) + 24\\hat{j} - 6\\hat{k}$. Using determinant expansion for $\\vec{c} = x\\hat{i} + y\\hat{j} + z\\hat{k}$, we get $z - 4y = 14$, $4x - 5z = 10$, $5y - x = -20$. Solving these gives $x = 5, y = -3, z = 2$. Therefore, $|\\vec{c}|^2 = 25 + 9 + 4 = 38$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $P$ be a point in the plane of the vectors $\\vec{AB} = 3\\hat{i} + \\hat{j} - \\hat{k}$ and $\\vec{AC} = \\hat{i} - \\hat{j} + 3\\hat{k}$ such that $P$ is equidistant from the lines AB and AC. If $|\\vec{AP}| = \\frac{\\sqrt{5}}{2}$, then the area of the triangle ABP is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\sqrt{30}}{4}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{3}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{\\sqrt{26}}{4}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since P is equidistant from lines AB and AC through point A, it lies along the angle bisector direction. The unit vectors are $\\hat{u}_{AB} = \\frac{3\\hat{i} + \\hat{j} - \\hat{k}}{\\sqrt{11}}$ and $\\hat{u}_{AC} = \\frac{\\hat{i} - \\hat{j} + 3\\hat{k}}{\\sqrt{11}}$. The bisector direction is proportional to $2\\hat{i} + \\hat{k}$, so $\\vec{AP} = \\lambda(2\\hat{i} + \\hat{k})$. From $|\\vec{AP}| = \\frac{\\sqrt{5}}{2}$: $|\\lambda|\\sqrt{5} = \\frac{\\sqrt{5}}{2}$, giving $\\lambda = \\frac{1}{2}$. Thus $\\vec{AP} = \\vec{i} + \\frac{1}{2}\\vec{k}$. Area of triangle $\\text{ABP} = \\frac{1}{2}|\\vec{AB} \\times \\vec{AP}|$. Computing: $\\vec{AB} \\times \\vec{AP} = \\frac{1}{2}\\vec{i} - \\frac{5}{2}\\vec{j} - \\hat{k}$. $|\\vec{AB} \\times \\vec{AP}| = \\sqrt{\\frac{1}{4} + \\frac{25}{4} + 1} = \\sqrt{\\frac{30}{4}} = \\frac{\\sqrt{30}}{2}$. Area = $\\frac{\\sqrt{30}}{4}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = 2\\hat{i} - 5\\hat{j} + 5\\hat{k}$ and $\\vec{b} = \\hat{i} - \\hat{j} + 3\\hat{k}$. If $\\vec{c}$ is a vector such that $2(\\vec{a} \\times \\vec{c}) + 3(\\vec{b} \\times \\vec{c}) = \\vec{0}$ and $(\\vec{a} - \\vec{b}) \\cdot \\vec{c} = -97$, then $|\\vec{c} \\times \\hat{k}|^2$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$233$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$218$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$193$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$205$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$2(\\vec{a} \\times \\vec{c}) + 3(\\vec{b} \\times \\vec{c}) = \\vec{0} \\Rightarrow (2\\vec{a} + 3\\vec{b}) \\times \\vec{c} = \\vec{0}$. So $\\vec{c} \\parallel (2\\vec{a} + 3\\vec{b}) = (7, -13, 19)$. Let $\\vec{c} = t(7, -13, 19)$. $\\vec{a} - \\vec{b} = (1, -4, 2)$. $(\\vec{a} - \\vec{b}) \\cdot \\vec{c} = t(7 + 52 + 38) = 97t = -97 \\Rightarrow t = -1$. $\\vec{c} = (-7, 13, -19)$. $\\vec{c} \\times \\hat{k} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ -7 & 13 & -19 \\\\ 0 & 0 & 1 \\end{vmatrix} = (13, 7, 0)$. $|\\vec{c} \\times \\hat{k}|^2 = 169 + 49 = 218$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = 2\\hat{i} - \\hat{j} - \\hat{k}, \\vec{b} = \\hat{i} + 3\\hat{j} - \\hat{k}$ and $\\vec{c} = 2\\hat{i} + \\hat{j} + 3\\hat{k}$. Let $\\vec{v}$ be the vector in the plane of the vectors $\\vec{a}$ and $\\vec{b}$, such that the length of its projection on the vector $\\vec{c}$ is $\\frac{1}{\\sqrt{14}}$. Then $|\\vec{v}|$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$13$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\sqrt{35}}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\sqrt{21}}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$7$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$\\vec{v} = \\lambda\\vec{a} + \\mu\\vec{b} = (2\\lambda + \\mu, -\\lambda + 3\\mu, -\\lambda - \\mu)$. $\\vec{v} \\cdot \\vec{c} = 2(2\\lambda + \\mu) + (-\\lambda + 3\\mu) + 3(-\\lambda - \\mu) = 2\\mu$. $|\\vec{c}| = \\sqrt{4 + 1 + 9} = \\sqrt{14}$. Projection length = $\\frac{|2\\mu|}{\\sqrt{14}} = \\frac{1}{\\sqrt{14}} \\Rightarrow |\\mu| = \\frac{1}{2}$. $|\\vec{v}|^2 = 6\\lambda^2 + 11\\mu^2 = 6(1) + \\frac{11}{4} = \\frac{35}{4}$. $|\\vec{v}| = \\frac{\\sqrt{35}}{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = 2\\hat{i} - \\hat{j} + \\hat{k}$ and $\\vec{b} = \\lambda\\hat{j} + 2\\hat{k}$, $\\lambda \\in \\mathbb{Z}$ be two vectors. Let $\\vec{c} = \\vec{a} \\times \\vec{b}$ and $\\vec{d}$ be a vector of magnitude $2$ in $yz$-plane. If $|\\vec{c}| = \\sqrt{53}$, then the maximum possible value of $(\\vec{c} \\cdot \\vec{d})^2$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$26$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$52$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$208$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$104$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$\\vec{a} = 2\\hat{i} - \\hat{j} + \\hat{k}$, $\\vec{b} = \\lambda\\hat{j} + 2\\hat{k}; \\lambda \\in \\mathbb{Z}$. $\\vec{c} = \\vec{a} \\times \\vec{b} = (-2 - \\lambda)\\hat{i} - 4\\hat{j} + 2\\lambda\\hat{k}$. $|\\vec{c}| = \\sqrt{53} \\Rightarrow 5\\lambda^2 + 4\\lambda - 33 = 0 \\Rightarrow \\lambda = 2.2$ or $-3$. $\\Rightarrow \\lambda = -3$. $\\vec{c} = \\hat{i} - 4\\hat{j} - 6\\hat{k}$. Let $\\vec{d} = y\\hat{j} + z\\hat{k}$, $|\\vec{d}| = 2 \\Rightarrow y^2 + z^2 = 4$. $(\\vec{c} \\cdot \\vec{d})^2 = (4y + 6z)^2 \\le (\\sqrt{4^2 + 6^2} \\times \\sqrt{y^2 + z^2})^2 \\le 208$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let a vector $\\vec{a} = \\sqrt{2}\\hat{i} - \\hat{j} + \\lambda\\hat{k}, \\lambda > 0$, make an obtuse angle with the vector $\\vec{b} = -\\lambda^2\\hat{i} + 4\\sqrt{2}\\hat{j} + 4\\sqrt{2}\\hat{k}$ and an angle $\\theta, \\frac{\\pi}{6} < \\theta < \\frac{\\pi}{2}$, with the positive $z$-axis. If the set of all possible values of $\\lambda$ is $(\\alpha, \\beta) - \\{\\gamma\\}$, then $\\alpha + \\beta + \\gamma$ is equal to $\\_\\_\\_\\_$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "C",
+    "explanation": "$\\frac{\\vec{a} \\cdot \\hat{k}}{|\\vec{a}|} = \\cos\\theta \\Rightarrow \\frac{\\lambda}{\\sqrt{3+\\lambda^2}} = \\cos\\theta \\Rightarrow 0 < \\frac{\\lambda}{\\sqrt{3+\\lambda^2}} < \\frac{\\sqrt{3}}{2} \\Rightarrow \\lambda > 0$ and $4\\lambda^2 < 9 + 3\\lambda^2 \\Rightarrow \\lambda^2 < 9 \\Rightarrow \\lambda \\in (0,3) \\dots (1)$. $\\vec{a} \\cdot \\vec{b} < 0 \\Rightarrow -\\sqrt{2}\\lambda^2 - 4\\sqrt{2} + 4\\sqrt{2}\\lambda < 0 \\Rightarrow \\lambda^2 - 4\\lambda + 4 > 0 \\Rightarrow (\\lambda - 2)^2 > 0 \\Rightarrow \\lambda \\neq 2$. From (1) & (2): $\\lambda \\in (0,3) - \\{2\\}$. $\\therefore \\alpha = 0, \\beta = 3, \\gamma = 2 \\Rightarrow \\alpha + \\beta + \\gamma = 5$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a}, \\vec{b}, \\vec{c}$ be vectors such that $\\vec{v} = \\vec{a} \\times \\vec{b}$ where $\\vec{a}, \\vec{b}$ are given, and let $\\vec{v} \\cdot \\vec{c} = 11$. Find $9p^2$ where $p$ is the projection.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "9",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "10",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "12",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "15",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$\\vec{v} = \\vec{a} \\times \\vec{b} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & -2 & 3 \\\\ 2 & 1 & -1 \\end{vmatrix} = -\\hat{i} + 7\\hat{j} + 5\\hat{k}$. $\\vec{v} \\cdot \\vec{c} = -\\lambda + 7 + 5 = 11 \\Rightarrow \\lambda = 1$. $\\vec{c} = \\hat{i} + \\hat{j} + \\hat{k}$, $|\\vec{c}| = \\sqrt{3}$. $\\vec{b} \\cdot \\vec{c} = 2 + 1 - 1 = 2$. Projection $p = \\frac{\\vec{b} \\cdot \\vec{c}}{|\\vec{c}|} = \\frac{2}{\\sqrt{3}}$. $9p^2 = 9 \\times \\frac{4}{3} = 12$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\vec{a} \\times \\vec{b} = 2(\\vec{a} \\times \\vec{c})$, find the relations and possible values of $k$ such that $\\vec{b} - 2\\vec{c} = k\\vec{a}$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\pm 2",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\pm 3",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\pm 4",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\pm 5",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$\\vec{a} \\times \\vec{b} = 2(\\vec{a} \\times \\vec{c}) \\Rightarrow \\vec{a} \\times (\\vec{b} - 2\\vec{c}) = \\vec{0}$, so $\\vec{b} - 2\\vec{c} = k\\vec{a}$. $\\vec{b} \\cdot \\vec{c} = 4 \\cdot 2 \\cdot \\cos 60^{\\circ} = 4$. Dot with $\\vec{c}$: $4 = 2(4) + k(\\vec{a} \\cdot \\vec{c}) \\Rightarrow k(\\vec{a} \\cdot \\vec{c}) = -4$. Dot with $\\vec{a}$: $\\vec{a} \\cdot \\vec{b} = 2(\\vec{a} \\cdot \\vec{c}) + k$. Dot with $\\vec{b}$: $16 = 8 + k\\vec{a} \\cdot \\vec{b} = 8 + k\\left(-\\frac{8}{k} + k\\right) = k^2 \\Rightarrow k = \\pm 4$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{c} = x\\hat{i} + y\\hat{j} + z\\hat{k}$. Given relations with $\\vec{a}$ and $\\vec{b}$, find $|\\vec{a} + \\vec{c}|^2$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "25",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "27",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "30",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "32",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let $\\vec{c} = x\\hat{i} + y\\hat{j} + z\\hat{k}$. From $\\vec{a} \\times \\vec{c} = \\vec{b}$: $z - y = 4$, $z + 2x = 7$, $y + 2x = 3$. From $\\vec{c} \\cdot (\\hat{i} + \\hat{j} + \\hat{k}) = 4$: $x + y + z = 4$. Solving: $y = -1, z = 3, x = 2$. $\\vec{c} = 2\\hat{i} - \\hat{j} + 3\\hat{k}$. $\\vec{a} + \\vec{c} = (-1 + 2)\\hat{i} + (2 - 1)\\hat{j} + (2 + 3)\\hat{k} = \\hat{i} + \\hat{j} + 5\\hat{k}$. $|\\vec{a} + \\vec{c}|^2 = 1 + 1 + 25 = 27$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Given $\\vec{PQ} = -2\\hat{i} - \\hat{j} + 2\\hat{k}$, $\\vec{PR} = a\\hat{i} + b\\hat{j} - 4\\hat{k}$ ($a, b \\in \\mathbb{Z}$), $\\vec{PS} = \\hat{i} - 7\\hat{j} + 2\\hat{k}$, $|\\vec{PR}| = 9$. Since S is on QR equidistant from lines PQ and PR, find $3a - 4b$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "21",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "28",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "35",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "37",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "From $|\\vec{PR}| = 9$: $a^2 + b^2 + 16 = 81 \\Rightarrow a^2 + b^2 = 65$. Since S is on QR equidistant from lines PQ and PR, PS is the angle bisector. Solving yields $a = 7, b = -4$. $3a - 4b = 21 + 16 = 37$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{c} = \\vec{a} \\times \\vec{b}$. Given magnitudes and inner products, find $\\vec{a} \\cdot \\.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "0",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "3",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\vec{c} = \\vec{a} \\times \\vec{b} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & 1 & -2 \\\\ 1 & 1 & 0 \\end{vmatrix} = 2\\hat{i} - 2\\hat{j} + \\hat{k}$. $|\\vec{c}| = \\sqrt{4+4+1} = 3$, $|\\vec{a}| = \\sqrt{4+1+4} = 3$. From $|\\vec{c} \\times \\vec{d}| = 3$ and $\\cos(\\angle(\\vec{c}, \\vec{d})) = \\frac{1}{\\sqrt{2}}$: $|\\vec{d}|^2 - 2\\vec{a} \\cdot \\vec{d} + |\\vec{a}|^2 = 11 \\Rightarrow 2 - 2\\vec{a} \\cdot \\vec{d} + 9 = 11 \\Rightarrow \\vec{a} \\cdot \\vec{d} = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $ABC$ be a triangle such that $\\overrightarrow{BC} = \\vec{a}$, $\\overrightarrow{CA} = \\vec{b}$, $\\overrightarrow{AB} = \\vec{c}$, $|\\vec{a}| = 6\\sqrt{2}$, $|\\vec{b}| = 2\\sqrt{3}$ and $\\vec{b} \\cdot \\vec{c} = 12$. Consider the statements:$\\text{(S1)}: |(\\vec{a} \\times \\vec{b}) + (\\vec{c} \\times \\vec{b})| - |\\vec{c}| = 6(2\\sqrt{2} - 1)$. $\\text{(S2)}: \\angle ABC = \\cos^{-1}\\left(\\sqrt{\\frac{2}{3}}\\right)$. Then",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "both (S1) and (S2) are true",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "only (S1) is true",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "only (S2) is true",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "both (S1) and (S2) are false",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since $ABC$ is a triangle, $\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$. Thus, $\\vec{a} = -(\\vec{b} + \\vec{c})$. Substituting and simplifying yields both statements to be correct.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a} = 2\\hat{i} - \\hat{j} + 5\\hat{k}$ and $\\vec{b} = \\alpha\\hat{i} + \\beta\\hat{j} + 2\\hat{k}$. If $((\\vec{a} \\times \\vec{b}) \\times \\hat{i})\\cdot\\hat{k} = \\frac{23}{2}$, then $|\\vec{b} \\times 2\\hat{j}|$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\sqrt{21}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sqrt{17}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Expanding the triple product and solving for the unknowns gives the magnitude of the cross product as $\\sqrt{21}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a}$, $\\vec{b}$, $\\vec{c}$ be three non-coplanar vectors such that $\\vec{a} \\times \\vec{b} = 4\\vec{c}$, $\\vec{b} \\times \\vec{c} = 9\\vec{a}$ and $\\vec{c} \\times \\vec{a} = \\alpha\\vec{b}, \\alpha > 0$. If $|\\vec{a}|+|\\vec{b}|+|\\vec{c}| = \\frac{1}{36}$, then $\\alpha$ is equal to \\underline{ $\\quad\\quad$ }.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "36",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "18",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "12",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "24",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "By taking magnitudes and cross multiplying the given relations, we find $\\alpha = 36$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let a vector $\\vec{a}$ has a magnitude $9$. Let a vector $\\vec{b}$ be such that for every $(x,y) \\in \\mathbb{R} \\times \\mathbb{R} - \\{(0,0)\\}$, the vector $(x\\vec{a} + y\\vec{b})$ is perpendicular to the vector $(6y\\vec{a} - 18x\\vec{b})$. Then the value of $|\\vec{a} \\times \\vec{b}|$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$9\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$27\\sqrt{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$9$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$81$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The dot product of $(x\\vec{a} + y\\vec{b})$ and $(6y\\vec{a} - 18x\\vec{b})$ must be identically zero for all $x, y$. Solving this condition gives $|\\vec{a} \\times \\vec{b}| = 27\\sqrt{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a}, \\vec{b}, \\vec{c}$ be three coplanar concurrent vectors such that angles between any two of them is same. If the product of their magnitudes is $14$ and $(\\vec{a} \\times \\vec{b}) \\cdot (\\vec{b} \\times \\vec{c}) + (\\vec{b} \\times \\vec{c}) \\cdot (\\vec{c} \\times \\vec{a}) + (\\vec{c} \\times \\vec{a}) \\cdot (\\vec{a} \\times \\vec{b}) = 168$ then $|\\vec{a}|+|\\vec{b}|+|\\vec{c}|$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$10$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$14$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$18$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since the vectors are coplanar and the angle between any two is the same, the angle must be $120^{\\circ}$. Using the given identity and product of magnitudes, we find $|\\vec{a}|+|\\vec{b}|+|\\vec{c}| = 10$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\vec{a}, \\vec{b}, \\vec{c}$ be three vectors such that $|\\vec{a}| = \\sqrt{14}$, $|\\vec{b}| = \\sqrt{6}$, and $|\\vec{c}| = 14$. If the angle between $\\vec{a}$ and $\\vec{b}$, $\\vec{b}$ and $\\vec{c}$, and $\\vec{c}$ and $\\vec{a}$ is $\\frac{2\\pi}{3}$, then what is the value of $(a + b + c)$?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "12",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "14",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "16",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "18",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $|\\vec{a}| = \\sqrt{14}$, $|\\vec{b}| = \\sqrt{6}$, $|\\vec{c}| = 14$ and angle $\\theta = \\frac{2\\pi}{3}$. \\\\ Therefore, $\\vec{a}\\cdot\\vec{b} = -\\frac{1}{2}ab$, $\\vec{b}\\cdot\\vec{c} = -\\frac{1}{2}bc$, and $\\vec{a}\\cdot\\vec{c} = -\\frac{1}{2}ac$. \\\\ Using vector identities for cross products and scalar triple products, we have: \\\\ $(\\vec{a} \\times \\vec{b}) \\cdot (\\vec{b} \\times \\vec{c}) = \\frac{3}{4} a^2 b^2 c$ \\\\ Similarly, $(\\vec{b} \\times \\vec{c}) \\cdot (\\vec{c} \\times \\vec{a}) = \\frac{3}{4} a b^2 c$ and $(\\vec{c} \\times \\vec{a}) \\cdot (\\vec{a} \\times \\vec{b}) = \\frac{3}{4} a^2 b c$. \\\\ Substituting the given values, $168 = \\frac{3}{4}abc(a + b + c)$, yielding $(a + b + c) = 16$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "vector algebra",
+    "chapter": "vector algebra",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

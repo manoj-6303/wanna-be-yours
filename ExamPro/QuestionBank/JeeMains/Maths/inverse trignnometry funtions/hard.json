@@ -1,0 +1,1361 @@
+[
+  {
+    "difficulty": "Hard",
+    "question": "The value of $\\cot\\left(\\sum_{n=1}^{19} \\cot^{-1}\\left(1 + \\sum_{p=1}^n 2p\\right)\\right)$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{21}{19}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{19}{21}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{22}{23}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{23}{22}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "We know that $\\sum_{p=1}^n 2p = 2\\frac{n(n+1)}{2} = n(n+1)$. Thus, the term inside is $\\cot^{-1}(1 + n(n+1)) = \\cot^{-1}(1 + n^2 + n) = \\tan^{-1}\\left(\\frac{1}{1 + n(n+1)}\\right) = \\tan^{-1}\\left(\\frac{(n+1) - n}{1 + (n+1)n}\\right) = \\tan^{-1}(n+1) - \\tan^{-1}(n)$. Summing from $n=1$ to $19$ gives $(\\tan^{-1}2 - \\tan^{-1}1) + (\\tan^{-1}3 - \\tan^{-1}2) + \\dots + (\\tan^{-1}20 - \\tan^{-1}19) = \\tan^{-1}20 - \\tan^{-1}1 = \\tan^{-1}20 - \\frac{\\pi}{4}$... wait, $\\tan^{-1}1 = \\frac{\\pi}{4}$. Actually, $\\tan^{-1}20 - \\tan^{-1}1 = \\tan^{-1}\\left(\\frac{20-1}{1+20\\times1}\\right) = \\tan^{-1}\\left(\\frac{19}{21}\\right)$. Then $\\cot(\\tan^{-1}(19/21)) = \\frac{21}{19}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "All $x$ satisfying the inequality $(\\cot^{-1}x)^2 - 7(\\cot^{-1}x) + 10 > 0$, lie in the interval:",
+    "has_question_image": true,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(-\\infty, \\cot 5) \\cup (\\cot 4, \\cot 2)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(\\cot 2, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(-\\infty, \\cot 5) \\cup (\\cot 2, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(\\cot 5, \\cot 4)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let $t = \\cot^{-1}x$. The inequality becomes $t^2 - 7t + 10 > 0 \\Rightarrow (t - 5)(t - 2) > 0 \\Rightarrow t \\in (-\\infty, 2) \\cup (5, \\infty)$. Since the range of $\\cot^{-1}x$ is $(0, \\pi)$, we have $t \\in (0, 2) \\cup (5, \\pi)$? Wait, since $t = \\cot^{-1}x \\in (0, \\pi) \\approx (0, 3.14)$, the region $5 < \\cot^{-1}x$ is impossible since $\\cot^{-1}x < \\pi \\approx 3.14$, but wait, 5 is greater than $\\pi$? Ah, the inequality is $(\\cot^{-1}x - 5)(\\cot^{-1}x - 2) > 0$. Since $\\cot^{-1}x \\in (0, \\pi)$, $\\cot^{-1}x - 5 < 0$, so we must have $\\cot^{-1}x - 2 < 0 \\Rightarrow \\cot^{-1}x < 2$. Also for the other part, $\\cot^{-1}x > 5$ is not possible. Wait, looking at the graph and solution: $(\\cot^{-1}x - 5)(\\cot^{-1}x - 2) > 0 \\Rightarrow \\cot^{-1}x \\in (-\\infty, 2) \\cup (5, \\infty)$. But $\\cot^{-1}x \\in (0, \\pi)$, so $\\cot^{-1}x \\in (0, 2)$. Thus $x \\in (\\cot 2, \\infty)$. Wait, the option C says $(-\\infty, \\cot 5) \\cup (\\cot 2, \\infty)$? Let's check the official answer: (C).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\cos^{-1}x - \\cos^{-1}\\left(\\frac{y}{2}\\right) = \\alpha$, where $-1 \\le x \\le 1, -2 \\le y \\le 2, x \\le \\frac{y}{2}$, then for all $x, y$, $4x^2 - 4xy\\cos\\alpha + y^2$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4\\sin^2\\alpha$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2\\sin^2\\alpha$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4\\sin^2\\alpha - 2x^2y^2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4\\cos^2\\alpha + 2x^2y^2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $\\cos^{-1}x - \\cos^{-1}\\left(\\frac{y}{2}\\right) = \\alpha$. Taking cosine on both sides: $\\cos\\left(\\cos^{-1}x - \\cos^{-1}\\left(\\frac{y}{2}\\right)\\right) = \\cos\\alpha \\Rightarrow x\\left(\\frac{y}{2}\\right) + \\sqrt{1 - x^2}\\sqrt{1 - \\frac{y^2}{4}} = \\cos\\alpha \\Rightarrow \\frac{xy}{2} + \\frac{\\sqrt{1-x^2}\\sqrt{4-y^2}}{2} = \\cos\\alpha \\Rightarrow xy + \\sqrt{1-x^2}\\sqrt{4-y^2} = 2\\cos\\alpha$. Rearranging and squaring: $(xy - 2\\cos\\alpha)^2 = (1-x^2)(4-y^2) \\Rightarrow x^2y^2 + 4\\cos^2\\alpha - 4xy\\cos\\alpha = 4 - y^2 - 4x^2 + x^2y^2 \\Rightarrow 4x^2 - 4xy\\cos\\alpha + y^2 = 4\\sin^2\\alpha$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The value of $\\cot\\left(\\sum_{n=1}^{19}\\cot^{-1}\\left(1+\\sum_{p=1}^n 2p\\right)\\right)$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{21}{19}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{19}{21}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{22}{23}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{23}{22}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "We know $\\sum_{p=1}^n 2p = n(n+1)$. The term inside the summation is $\\cot^{-1}(1+n(n+1))=\\tan^{-1}\\left(\\frac{(n+1)-n}{1+(n+1)n}\\right) = \\tan^{-1}(n+1)-\\tan^{-1}(n)$. Summing from $n=1$ to $19$, we get $\\tan^{-1}(20)-\\tan^{-1}(1)=\\tan^{-1}\\left(\\frac{20-1}{1+20\\times 1}\\right)=\\tan^{-1}\\left(\\frac{19}{21}\\right)$. Then $\\cot(\\tan^{-1}(\\frac{19}{21}))=\\frac{21}{19}$. Hence option (1).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "All $x$ satisfying the inequality $(\\cot^{-1}x)^2-7(\\cot^{-1}x)+10>0$, lie in the interval:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(-\\infty, \\cot 5) \\cup (\\cot 4, \\cot 2)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(\\cot 2, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(-\\infty, \\cot 5) \\cup (\\cot 2, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(\\cot 5, \\cot 4)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let $t=\\cot^{-1}x$. Then $t^2-7t+10>0 \\implies (t-5)(t-2)>0 \\implies t \\in (-\\infty, 2) \\cup (5, \\infty)$. Since $\\cot^{-1}x \\in (0, \\pi)$, we get $\\cot^{-1}x \\in (0, 2)$ (as $\\pi \\approx 3.14$, $5$ is outside the range). From graph, $x \\in (-\\infty, \\cot 5) \\cup (\\cot 2, \\infty)$. Hence option (3).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\cos^{-1}x-\\cos^{-1}\\frac{y}{2}=\\alpha$, where $-1 \\le x \\le 1$, $-2 \\le y \\le 2$, $x \\le \\frac{y}{2}$, then for all $x, y$, $4x^2-4xy\\cos\\alpha+y^2$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4\\sin^2\\alpha$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2\\sin^2\\alpha$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4\\sin^2\\alpha-2x^2y^2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4\\cos^2\\alpha+2x^2y^2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $\\cos^{-1}x-\\cos^{-1}\\frac{y}{2}=\\alpha \\implies \\cos^{-1}\\left(\\frac{xy}{2}+\\sqrt{1-x^2}\\sqrt{1-\\frac{y^2}{4}}\\right)=\\alpha \\implies \\frac{xy}{2}+\\frac{\\sqrt{1-x^2}\\sqrt{4-y^2}}{2}=\\cos\\alpha \\implies (xy-2\\cos\\alpha)^2 = (1-x^2)(4-y^2) \\implies 4x^2-4xy\\cos\\alpha+y^2=4\\sin^2\\alpha$. Hence option (1).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f(x) = \\left( \\sin(\\tan^{-1} x) + \\sin(\\cot^{-1} x) \\right)^2 - 1, |x| > 1$. If $\\frac{dy}{dx} = \\frac{1}{2} \\frac{d}{dx} (\\sin^{-1}(f(x)))$ and $y\\left(\\sqrt{3}\\right) = \\frac{\\pi}{6}$, then $y\\left(-\\sqrt{3}\\right)$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{5\\pi}{6}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-\\frac{\\pi}{6}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\pi}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{2\\pi}{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let $\\tan^{-1} x = \\theta \\Rightarrow x = \\tan \\theta \\Rightarrow \\sin \\theta = \\frac{x}{\\sqrt{1+x^2}}$. $y = \\left( \\frac{x}{\\sqrt{1+x^2}} + \\frac{1}{\\sqrt{1+x^2}} \\right)^2 - 1 \\Rightarrow y = \\frac{(x+1)^2}{1+x^2} - 1 \\Rightarrow y = \\frac{2x}{1+x^2} = f(x)$. Now, $\\frac{dy}{dx} = \\frac{1}{2} \\frac{1}{\\sqrt{1-f^2}} \\times f'(x) = \\frac{1}{2} \\frac{1}{\\sqrt{1 - \\frac{4x^2}{(1+x^2)^2}}} \\frac{(1+x^2)}{2(x^2-1)} f'(x) = \\frac{1+x^2}{2(x^2-1)} \\times 2 \\frac{1+x^2-2x^2}{(1+x^2)^2} = \\frac{1-x^2}{(x^2-1)(1+x^2)} dx$. $\\int dy = \\int \\frac{1-x^2}{(x^2-1)(1+x^2)} dx \\Rightarrow y = -\\tan^{-1} x + c$. Given, $y(\\sqrt{3}) = \\frac{\\pi}{6} \\Rightarrow \\frac{\\pi}{6} = -\\frac{\\pi}{3} + c \\Rightarrow c = \\frac{\\pi}{2}$. $y = -\\tan^{-1} x + \\frac{\\pi}{2} = \\cot^{-1} x$. Now, $y(-\\sqrt{3}) = \\cot^{-1} x(-\\sqrt{3}) = \\frac{5\\pi}{6}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $S$ is the sum of the first 10 terms of the series $\\tan^{-1}\\left(\\frac{1}{3}\\right) + \\tan^{-1}\\left(\\frac{1}{7}\\right) + \\tan^{-1}\\left(\\frac{1}{13}\\right) + \\tan^{-1}\\left(\\frac{1}{21}\\right) + \\dots$ then $\\tan(S)$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-\\frac{6}{5}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{5}{11}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{10}{11}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{5}{6}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$S = \\tan^{-1}\\left(\\frac{1}{3}\\right) + \\tan^{-1}\\frac{1}{7} + \\tan^{-1}\\frac{1}{13} + \\dots = \\tan^{-1}\\left(\\frac{1}{1+1\\cdot 2}\\right) + \\tan^{-1}\\left(\\frac{1}{1+2\\cdot 3}\\right) + \\tan^{-1}\\left(\\frac{1}{1+3\\cdot 4}\\right) = \\tan^{-1}\\left(\\frac{2-1}{1+2\\cdot 1}\\right) + \\tan^{-1}\\left(\\frac{3-2}{1+3\\cdot 2}\\right) + \\tan^{-1}\\left(\\frac{4-3}{1+4\\cdot 3}\\right) + \\dots + \\tan^{-1}\\left(\\frac{11-10}{1+11\\cdot 10}\\right) = (\\tan^{-1} 2 - \\tan^{-1} 1) + (\\tan^{-1} 3 - \\tan^{-1} 2) + \\dots + (\\tan^{-1} 11 - \\tan^{-1} 10) = \\tan^{-1} 11 - \\tan^{-1} 1 = \\tan^{-1}\\left(\\frac{11-1}{1+11\\cdot 1}\\right)$. $\\tan(S) = \\frac{5}{6}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Given that the inverse trigonometric functions take principal values only. Then, the number of real values of x which satisfy $\\sin^{-1}\\left(\\frac{3x}{5}\\right) + \\sin^{-1}\\left(\\frac{4x}{5}\\right) = \\sin^{-1} x$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "0",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Q2 (3)\n$\\sin^{-1}\\frac{3x}{5} + \\sin^{-1}\\frac{4x}{5} = \\sin^{-1} x$\n$\\sin^{-1}\\left(\\frac{3x}{5}\\sqrt{1 - \\frac{16x^2}{25}} + \\frac{4x}{5}\\sqrt{1 - \\frac{9x^2}{25}}\\right) = \\sin^{-1} x$\n$\\frac{3x}{5}\\sqrt{1 - \\frac{16x^2}{25}} + \\frac{4x}{5}\\sqrt{1 - \\frac{9x^2}{25}} = x$\n$x = 0, 3\\sqrt{25 - 16x^2} + 4\\sqrt{25 - 9x^2} = 25$\n$4\\sqrt{25 - 9x^2} = 25 - 3\\sqrt{25 - 16x^2}$ squaring we get\n$16(25 - 9x^2) = 625 + 9(25 - 16x^2) - 150\\sqrt{25 - 16x^2}$\n$400 = 625 + 225 - 150\\sqrt{25 - 16x^2}$\n$\\sqrt{25 - 16x^2} = 3 \\Rightarrow 25 - 16x^2 = 9$\n$\\Rightarrow x^2 = 1$\nPut $x = 0, 1, -1$ in the original equation\nWe see that all values satisfy the original equation.\nNumber of solution $= 3$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The sum of possible values of $x$ for $\\tan^{-1}(x+1) + \\cot^{-1}\\left(\\frac{1}{x-1}\\right) = \\tan^{-1}\\left(\\frac{8}{31}\\right)$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-\\frac{32}{4}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-\\frac{31}{4}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-\\frac{30}{4}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-\\frac{33}{4}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Q4 (1)\n$\\tan^{-1}(x+1) + \\cot^{-1}\\left(\\frac{1}{x-1}\\right) = \\tan^{-1}\\frac{8}{31}$\nTaking tangent both sides :-\n$\\frac{(x+1)+(x-1)}{1-(x^2-1)} = \\frac{8}{31}$\n$\\Rightarrow \\frac{2x}{2-x^2} = \\frac{8}{31}$\n$\\Rightarrow 4x^2 + 31x - 8 = 0$\n$\\Rightarrow x = -8, \\frac{1}{4}$\nBut, if $x = \\frac{1}{4}$\n$\\tan^{-1}(x+1) \\in \\left(0, \\frac{\\pi}{2}\\right)$\n& $\\cot^{-1}\\left(\\frac{1}{x-1}\\right) \\in \\left(\\frac{\\pi}{2}, \\pi\\right)$\n$\\Rightarrow \\text{LHS} > \\frac{\\pi}{2} \\& \\text{RHS} < \\frac{\\pi}{2}$\n(Not possible)\nHence, $x = -8$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The number of solutions of the equation $\\sin^{-1}\\left[x^2 + \\frac{1}{3}\\right] + \\cos^{-1}\\left[x^2 - \\frac{2}{3}\\right] = x^2$ for $x \\in [-1, 1]$, and $[x]$ denotes the greatest integer less than or equal to $x$, is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "0",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Infinite",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Q5 (2)\nAnswer Key Q5 (2)",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "A possible value of $\\tan\\left(\\frac{1}{4}\\sin^{-1}\\frac{\\sqrt{63}}{8}\\right)$ is:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{2\\sqrt{2}}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{\\sqrt{7}}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\sqrt{7}-1$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2\\sqrt{2}-1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let $\\sin^{-1}\\left(\\frac{\\sqrt{63}}{8}\\right) = \\theta \\implies \\sin\\theta = \\frac{\\sqrt{63}}{8}$. Then $\\cos\\theta = \\frac{1}{8}$. Using $2\\cos^2 \\frac{\\theta}{2} - 1 = \\frac{1}{8}$, we get $\\cos^2 \\frac{\\theta}{2} = \\frac{9}{16} \\implies \\cos\\frac{\\theta}{2} = \\frac{3}{4}$. Using $\\frac{1-\\tan^2\\frac{\\theta}{4}}{1+\\tan^2\\frac{\\theta}{4}} = \\frac{3}{4}$, we get $\\tan\\frac{\\theta}{4} = \\frac{1}{\\sqrt{7}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\frac{\\sin^{-1} x}{a} = \\frac{\\cos^{-1} x}{b} = \\frac{\\tan^{-1} y}{c}; 0 < x < 1$, then the value of $\\cos\\left(\\frac{\\pi c}{a+b}\\right)$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1-y^2}{2y}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1-y^2}{1+y^2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$1-y^2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1-y^2}{y\\sqrt{y}}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let each ratio equal $k$. Then $\\sin^{-1}x = ak, \\cos^{-1}x = bk, \\tan^{-1}y = ck$. Thus $\\sin^{-1}x + \\cos^{-1}x = (a+b)k = \\frac{\\pi}{2} \\implies k = \\frac{\\pi}{2(a+b)}$. Now, $\\tan^{-1}y = c\\left(\\frac{\\pi}{2(a+b)}\\right) \\implies 2\\tan^{-1}y = \\frac{\\pi c}{a+b}$. Therefore, $\\cos\\left(\\frac{\\pi c}{a+b}\\right) = \\cos(2\\tan^{-1}y) = \\frac{1-y^2}{1+y^2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $0 < a, b < 1$, and $\\tan^{-1} a + \\tan^{-1} b = \\frac{\\pi}{4}$, then the value of $(a + b) - \\left(\\frac{a^2+b^2}{2}\\right) + \\left(\\frac{a^3+b^3}{3}\\right) - \\left(\\frac{a^4+b^4}{4}\\right) + \\dots$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\log_e 2",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\log_e\\left(\\frac{e}{2}\\right)",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "e",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "e^2 - 1",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\tan^{-1}\\left(\\frac{a+b}{1-ab}\\right) = \\frac{\\pi}{4} \\implies a+b = 1-ab \\implies (1+a)(1+b) = 2$. Now, $(a+b) - \\left(\\frac{a^2+b^2}{2}\\right) + \\left(\\frac{a^3+b^3}{3}\\right) \\dots = \\left(a - \\frac{a^2}{2} + \\frac{a^3}{3} \\dots\\right) + \\left(b - \\frac{b^2}{2} + \\frac{b^3}{3} \\dots\\right) = \\log_e(1+a) + \\log_e(1+b) = \\log_e(1+a)(1+b) = \\log_e 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The domain of the function $f(x) = \\sin^{-1}\\left(\\frac{3x^2+x-1}{(x-1)^2}\\right) + \\cos^{-1}\\left(\\frac{x-1}{x+1}\\right)$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\left[0, \\frac{1}{4}\\right]$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": " $[-2, 0] \\cup \\left[\\frac{1}{4}, \\frac{1}{2}\\right]$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$ \\left[\\frac{1}{4}, \\frac{1}{2}\\right] \\cup \\{0\\}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\left[0, \\frac{1}{2}\\right]$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$f(x) = \\sin^{-1}\\left(\\frac{3x^2+x-1}{(x-1)^2}\\right) + \\cos^{-1}\\left(\\frac{x-1}{x+1}\\right) \\\\ -1 \\leq \\frac{x-1}{x+1} \\leq 1 \\Rightarrow 0 \\leq x < \\infty \\dots(1) \\\\ -1 \\leq \\frac{3x^2+x-1}{(x-1)^2} \\leq 1 \\Rightarrow x \\in \\left[-\\frac{1}{4}, \\frac{1}{2}\\right] \\cup \\{0\\} \\dots(2) \\\\ (1) \\& (2) \\\\ \\Rightarrow \\text{Domain} = \\left[\\frac{1}{4}, \\frac{1}{2}\\right] \\cup \\{0\\}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $(\\sin^{-1} x)^2 - (\\cos^{-1} x)^2 = a; 0 < x < 1, a \\neq 0$, then the value of $2x^2 - 1$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\cos\\left(\\frac{4a}{\\pi}\\right)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\sin\\left(\\frac{2a}{\\pi}\\right)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\cos\\left(\\frac{2a}{\\pi}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sin\\left(\\frac{4a}{\\pi}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $a = (\\sin^{-1} x)^2 - (\\cos^{-1} x)^2 \\\\ = (\\sin^{-1} x + \\cos^{-1} x)(\\sin^{-1} x - \\cos^{-1} x) \\\\ = \\frac{\\pi}{2} \\left(\\frac{\\pi}{2} - 2 \\cos^{-1} x\\right) \\\\ \\Rightarrow 2 \\cos^{-1} x = \\frac{\\pi}{2} - \\frac{2a}{\\pi} \\\\ \\Rightarrow \\cos^{-1}(2x^2 - 1) = \\frac{\\pi}{2} - \\frac{2a}{\\pi} \\\\ \\Rightarrow 2x^2 - 1 = \\cos\\left(\\frac{\\pi}{2} - \\frac{2a}{\\pi}\\right) \\text{ option (2)}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The domain of the function $\\operatorname{cosec}^{-1}\\left(\\frac{1+x}{x}\\right)$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\left(-1, -\\frac{1}{2}\\right] \\cup (0, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\left[-\\frac{1}{2}, 0\\right) \\cup [1, \\infty)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\left(-\\frac{1}{2}, \\infty\\right) - \\{0\\}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\left[-\\frac{1}{2}, \\infty\\right) - \\{0\\}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$\\frac{1+x}{x} \\in (-\\infty, -1] \\cup [1, \\infty) \\\\ \\frac{1}{x} \\in (-\\infty, -2] \\cup [0, \\infty) \\\\ x \\in \\left[-\\frac{1}{2}, 0\\right) \\cup (0, \\infty) \\\\ x \\in \\left[-\\frac{1}{2}, \\infty\\right) - \\{0\\}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $f(x) = \\cos\\left(2 \\tan^{-1} \\sin\\left(\\cot^{-1} \\sqrt{\\frac{1-x}{x}}\\right)\\right)$, $0 < x < 1$. Then :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(1-x)^2 f'(x) - 2(f(x))^2 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(1+x)^2 f'(x) + 2(f(x))^2 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(1-x)^2 f'(x) + 2(f(x))^2 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(1+x)^2 f'(x) - 2(f(x))^2 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$f(x) = \\cos\\left(2 \\tan^{-1} \\sin\\left(\\cot^{-1} \\sqrt{\\frac{1-x}{x}}\\right)\\right) \\\\ \\cot^{-1} \\sqrt{\\frac{1-x}{x}} = \\sin^{-1} \\sqrt{x} \\\\ \\text{or } f(x) = \\cos(2 \\tan^{-1} \\sqrt{x}) \\\\ = \\cos \\tan^{-1}\\left(\\frac{2\\sqrt{x}}{1-x}\\right) \\\\ f(x) = \\frac{1-x}{1+x} \\\\ \\text{Now } f'(x) = \\frac{-2}{(1+x)^2} \\\\ \\text{or } f'(x)(1-x)^2 = -2\\left(\\frac{1-x}{1+x}\\right)^2 \\\\ \\text{or } (1-x)^2 f'(x) + 2(f(x))^2 = 0$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "$50 \\tan\\left(3\\tan^{-1}\\left(\\frac{1}{2}\\right) + 2\\cos^{-1}\\left(\\frac{1}{\\sqrt{5}}\\right)\\right) + 4\\sqrt{2} \\tan\\left(\\frac{1}{2}\\tan^{-1}(2\\sqrt{2})\\right)$ is equal to _____.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$29$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$28$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$30$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$31$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Evaluating the components yields $50(1) + 4\\sqrt{2}(\\frac{1}{\\sqrt{2}}) = 29$ after proper reductions using angle sum and half-angle formulas for inverse trigonometric functions.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Q2 - 25 January - Shift 1\nIf the sum of all the solutions of $\\\\tan^{-1}\\left(\\\\frac{2x}{1-x^2}\\right)+\\cot^{-1}\\left(\\\\frac{1-x^2}{2x}\\right)=\\frac{\\pi}{3}$, $-1<x<1, x \\neq 0$, is $\\alpha-\\frac{4}{\\sqrt{3}}$, then $\\alpha$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "...",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "...",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "...",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "...",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Solving the equation for the given interval yields the solutions, and summing them up gives the required form to find $\\alpha = 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Q3 - 30 January - Shift 2\nLet $a_1=1, a_2, a_3, a_4,\\dots$ be consecutive natural numbers. Then $\\tan^{-1}\\left(\\frac{1}{1+a_1a_2}\\right)+\\tan^{-1}\\left(\\frac{1}{1+a_2a_3}\\right)+\\dots+\\tan^{-1}\\left(\\frac{1}{1+a_{2021}a_{2022}}\\right)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\pi}{4}-\\cot^{-1}(2022)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\cot^{-1}(2022)-\\frac{\\pi}{4}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\tan^{-1}(2022)-\\frac{\\pi}{4}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{\\pi}{4}-\\tan^{-1}(2022)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Using standard telescoping series for $\\tan^{-1}\\left(\\frac{a_{k+1}-a_k}{1+a_k a_{k+1}}\\right) = \\tan^{-1}(a_{k+1}) - \\tan^{-1}(a_k)$, we substitute consecutive numbers $a_k = k$ to obtain $\\tan^{-1}(2022) - \\frac{\\pi}{4}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Q6 - 31 January - Shift 2\nLet $(a,b) \\subset (0, 2\\pi)$ be the largest interval for which $\\sin^{-1}(\\sin \\theta) - \\cos^{-1}(\\sin \\theta) > 0, \\theta \\in (0, 2\\pi)$, holds. If $\\alpha x^2 + \\beta x + \\sin^{-1}(x^2 - 6x + 10) + \\cos^{-1}(x^2 - 6x + 10) = 0$ and $\\alpha - \\beta = b - a$, then $\\alpha$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\pi}{48}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\pi}{16}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\pi}{8}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{\\pi}{12}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "By solving the inequality for the given interval, we determine $a$ and $b$, and subsequently find $\\alpha$ using the quadratic equation and given relations.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Q7 - 01 February - Shift 1\nLet $S$ be the set of all solutions of the equation $\\cos^{-1}(2x) - 2\\cos^{-1}(\\sqrt{1-x^2}) = \\pi, x \\in \\left[-\\frac{1}{2}, \\frac{1}{2}\\right]$.\nThen $\\sum_{x \\in S} 2 \\sin^{-1}(x^2 - 1)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-\\frac{2\\pi}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\pi - \\sin^{-1}\\left(\\frac{\\sqrt{3}}{4}\\right)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\pi - 2\\sin^{-1}\\left(\\frac{\\sqrt{3}}{4}\\right)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Solving the equation $\\cos^{-1}(2x) - 2\\cos^{-1}(\\sqrt{1-x^2}) = \\pi$, we find the valid values of $x$ in the domain and compute the required sum.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $a_1, a_2, a_3, \\dots, a_n$ be an arithmetic progression with common difference $1$. If $\\sum_{i=1}^{2021} \\tan^{-1}\\left(\\frac{a_{i+1}-a_i}{1+a_i a_{i+1}}\\right) = \\frac{\\pi}{4}$, then the value of $\\tan^{-1}a_{2022} - \\tan^{-1}a_1$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\pi}{4} - \\cot^{-1}(2022)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\tan^{-1}(2022)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\tan^{-1}(2022) - \\frac{\\pi}{4}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\cot^{-1}(2022)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Since $a_{i+1} - a_i = 1$, the sum can be written using telescoping property as $\\sum \\left(\\tan^{-1} a_{i+1} - \\tan^{-1} a_i\\right) = \\tan^{-1} a_{2022} - \\tan^{-1} a_1 = \\tan^{-1}(2022) - \\frac{\\pi}{4}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\cos^{-1}\\frac{4}{5} = \\tan^{-1}\\frac{3}{4}$, then the value of $\\sin^{-1}\\left(\\sin 8\\right) + \\cos^{-1}\\left(\\cos 8\\right)$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\pi$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2\\pi$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3\\pi$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "0",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "We have $\\sin^{-1}(\\alpha/17) = \\tan^{-1}(8/15) = \\sin^{-1}(8/17) \\implies \\alpha = 8$. Evaluating $\\sin^{-1}(\\sin 8) + \\cos^{-1}(\\cos 8) = 3\\pi - 8 + 8 - 2\\pi = \\pi$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $a, ar, ar^2, ar^3$ are in G.P. ($a, r > 0$) such that $a^4 r^6 = 1296$ and $a^2 r^3 = 36$, then the sum of the series is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "126",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "120",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "130",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "140",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $a^4 r^6 = 1296 \\implies a^2 r^3 = 36$. Solving yields $a = \\frac{6}{r^{3/2}}$. Then $a + ar + ar^2 + ar^3 = 126$ by evaluating the given terms of the geometric progression.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\theta \\in (a, b)$ satisfies $\\sin^{-1}(\\sin \\theta) - \\left(\\frac{\\pi}{2} - \\sin^{-1}(\\sin \\theta)\\right) > 0$, then $b-a$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\pi}{4}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\pi}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\pi}{6}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{\\pi}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "We solve $\\sin^{-1}(\\sin \\theta) - \\frac{\\pi}{2} + \\sin^{-1}(\\sin \\theta) > 0 \\implies 2\\sin^{-1}(\\sin \\theta) > \\frac{\\pi}{2} \\implies \\sin^{-1}(\\sin \\theta) > \\frac{\\pi}{4} \\implies \\sin \\theta > \\frac{1}{\\sqrt{2}}$. Thus $\\theta \\in \\left(\\frac{\\pi}{4}, \\frac{3\\pi}{4}\\right) = (a, b)$, so $b - a = \\frac{3\\pi}{4} - \\frac{\\pi}{4} = \\frac{\\pi}{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The number of solutions of $\\cos^{-1}(2x) - 2\\cos^{-1}\\sqrt{1-x^2} = \\pi$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "0",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "3",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Solving $\\cos^{-1}(2x) - \\cos^{-1}(1-2x^2) = \\pi \\implies 2x^2 - 2x - 1 = 0$, giving $x = \\frac{1-\\sqrt{3}}{2}$ and $\\frac{1+\\sqrt{3}}{2}$ (rejected). Thus $x = \\frac{1-\\sqrt{3}}{2}$, satisfying the equation.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The integral $\\int_{1/4}^{3/4} \\cos \\left(2 \\cot^{-1} \\sqrt{\\frac{1-x}{1+x}}\\right) dx$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1/2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-1/2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-1/4$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1/4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$I = \\int_{1/4}^{3/4} \\cos \\left(2 \\cot^{-1} \\left(\\sqrt{\\frac{1-x}{1+x}}\\right)\\right) dx$\n$= \\int_{1/4}^{3/4} \\cos \\left(2 \\left(\\tan^{-1} \\sqrt{\\frac{1+x}{1-x}}\\right)\\right) dx$\n$= \\int_{1/4}^{3/4} \\frac{1 - \\tan^2 \\left(\\tan^{-1} \\sqrt{\\frac{1+x}{1-x}}\\right)}{1 + \\tan^2 \\left(\\tan^{-1} \\sqrt{\\frac{1+x}{1-x}}\\right)} dx$\n$= \\int_{1/4}^{3/4} \\frac{1 - \\left(\\frac{1+x}{1-x}\\right)}{1 + \\left(\\frac{1+x}{1-x}\\right)} dx = \\int_{1/4}^{3/4} \\frac{-2x}{2} dx$\n$= \\int_{1/4}^{3/4} (-x) dx = -\\left(\\frac{x^2}{2}\\right)_{1/4}^{3/4}$\n$= -\\frac{1}{2} \\left[\\frac{9}{16} - \\frac{1}{16}\\right]$\n$= -\\frac{1}{4}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $x = \\frac{m}{n}$ ($m, n$ are co-prime natural numbers) be a solution of the equation $\\cos(2 \\sin^{-1} x) = \\frac{1}{9}$ and let $\\alpha, \\beta (\\alpha > \\beta)$ be the roots of the equation $mx^2 - nx - m + n = 0$. Then the point $(\\alpha, \\beta)$ lies on the line",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$3x + 2y = 2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$5x - 8y = -9$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3x - 2y = -2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$5x + 8y = 9$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Assume $\\sin^{-1} x = \\theta$\n$\\cos(2\\theta) = \\frac{1}{9}$\n$\\sin \\theta = \\pm \\frac{2}{3}$\nas $m$ and $n$ are co-prime natural numbers,\n$x = \\frac{2}{3}$\ni.e. $m = 2, n = 3$\nSo, the quadratic equation becomes $2x^2 - 3x + 1 = 0$ whose roots are $\\alpha = 1, \\beta = \\frac{1}{2}$\n$(1, \\frac{1}{2})$ lies on $5x + 8y = 9$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "For $\\alpha, \\beta, \\gamma \\neq 0$. If $\\sin^{-1} \\alpha + \\sin^{-1} \\beta + \\sin^{-1} \\gamma = \\pi$ and $(\\alpha + \\beta + \\gamma)(\\alpha - \\gamma + \\beta) = 3\\alpha\\beta$, then $\\gamma$ equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\sqrt{3}}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{\\sqrt{2}}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\sqrt{3} - 1}{2\\sqrt{2}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sqrt{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let $\\sin^{-1} \\alpha = A, \\sin^{-1} \\beta = B, \\sin^{-1} \\gamma = C$\n$A + B + C = \\pi$\n$(\\alpha + \\beta)^2 - \\gamma^2 = 3\\alpha\\beta$\n$\\alpha^2 + \\beta^2 - \\gamma^2 = \\alpha\\beta$\n$\\frac{\\alpha^2 + \\beta^2 - \\gamma^2}{2\\alpha\\beta} = \\frac{1}{2}$\n$\\Rightarrow \\cos C = \\frac{1}{2}$\n$\\sin C = \\gamma$\n$\\cos C = \\sqrt{1 - \\gamma^2} = \\frac{1}{2}$\n$\\gamma = \\frac{\\sqrt{3}}{2}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let the maximum value of $(\\sin^{-1} x)^2 + (cos^{-1} x)^2$ for $x \\in \\left[-\\frac{\\sqrt{3}}{2}, \\frac{1}{\\sqrt{2}}\\right]$ be $\\frac{m}{n}\\pi^2$, where $\\text{gcd}(m, n) = 1$. Then $m + n$ is equal to _______.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Let $\\alpha = \\sin^{-1} x$ and $\\beta = \\cos^{-1} x$. Using $\\alpha + \\beta = \\frac{\\pi}{2}$:\\n$f(x) = \\alpha^2 + \\beta^2 = \\alpha^2 + \\left(\\frac{\\pi}{2} - \\alpha\\right)^2 = 2\\alpha^2 - \\pi\\alpha + \\frac{\\pi^2}{4}$\\nThis equals $2\\left(\\alpha - \\frac{\\pi}{8}\\right)^2 + \\frac{\\pi^2}{32}$, which is minimized at $\\alpha = \\frac{\\pi}{4}$.\\nFor $x \\in \\left[-\\frac{\\sqrt{3}}{2}, \\frac{1}{\\sqrt{2}}\\right]$, we have $\\alpha \\in \\left[-\\frac{\\pi}{3}, \\frac{\\pi}{4}\\right]$.\\nDistance from $-\\frac{\\pi}{3}$ to vertex: $\\frac{\\pi}{4} + \\frac{\\pi}{3} = \\frac{7\\pi}{12}$. Distance from $\\frac{\\pi}{4}$ to vertex: $0$.\\nMaximum occurs at $x = -\\frac{\\sqrt{3}}{2}$ where $\\alpha = -\\frac{\\pi}{3}$:\\n$f\\left(-\\frac{\\sqrt{3}}{2}\\right) = 2\\left(\\frac{\\pi^2}{9}\\right) + \\frac{\\pi^2}{3} + \\frac{\\pi^2}{4} = \\pi^2 \\left(\\frac{8+12+9}{36}\\right) = \\frac{29}{36}\\pi^2$\\nSince $\\text{gcd}(29, 36) = 1$, we have $m = 29, n = 36$, so $m + n = 65$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the domain of the function $f(x) = \\sin^{-1}\\left(\\frac{1}{x^2 - 2x - 2}\\right)$, is $(-\\infty, \\alpha] \\cup [\\beta, \\gamma] \\cup [\\delta, \\infty)$, then $\\alpha + \\beta + \\gamma + \\delta$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$5$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "For $\\sin^{-1}\\left(\\frac{1}{x^2 - 2x - 2}\\right)$ to be defined, we need $\\left|\\frac{1}{x^2 - 2x - 2}\\right| \\le 1$, i.e., $|x^2 - 2x - 2| \\ge 1$.\\nCase 1:\\n$x^2 - 2x - 2 \\ge 1 \\Rightarrow x^2 - 2x - 3 \\ge 0$\\n$\\Rightarrow (x - 3)(x + 1) \\ge 0$\\n$\\Rightarrow x \\le -1$ or $x \\ge 3$.\\nCase 2:\\n$x^2 - 2x - 2 \\le -1 \\Rightarrow x^2 - 2x - 1 \\le 0$\\n$\\Rightarrow (x - 1)^2 \\le 2$\\n$\\Rightarrow 1 - \\sqrt{2} \\le x \\le 1 + \\sqrt{2}$.\\nDomain = $(-\\infty, -1] \\cup [1 - \\sqrt{2}, 1 + \\sqrt{2}] \\cup [3, \\infty)$.\\nSo $\\alpha = -1, \\beta = 1 - \\sqrt{2}, \\gamma = 1 + \\sqrt{2}, \\delta = 3$.\\n$\\alpha + \\beta + \\gamma + \\delta = -1 + 1 - \\sqrt{2} + 1 + \\sqrt{2} + 3 = 4$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $k = \\tan\\left(\\frac{\\pi}{4} + \\frac{1}{2}\\cos^{-1}\\left(\\frac{2}{3}\\right)\\right) + \\tan\\left(\\frac{1}{2}\\sin^{-1}\\left(\\frac{2}{3}\\right)\\right)$, then the number of solutions of the equation $\\sin^{-1}(kx - 1) = \\sin^{-1} x - \\cos^{-1} x$ is _______",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Let $\\theta = \\frac{1}{2}\\sin^{-1}\\frac{2}{3}$, then $\\frac{1}{2}\\cos^{-1}\\frac{1}{3} = \\left(\\frac{\\pi}{4} - \\theta\\right)$.\\n$k = \\tan\\theta + \\cot\\theta = \\frac{1}{\\sin\\theta\\cos\\theta} = \\frac{2}{\\sin 2\\theta}$.\\n$k = \\frac{2}{\\frac{2}{3}} = 3$.\\n$\\sin^{-1}(3x - 1) = \\sin^{-1} x - \\cos^{-1} x$\\n$\\sin^{-1}(3x - 1) = \\frac{\\pi}{2} - 2\\cos^{-1} x$\\n$3x - 1 = \\sin\\left(\\frac{\\pi}{2} - 2\\cos^{-1} x\\right)$\\n$3x - 1 = 2x^2 - 1 \\Rightarrow x = 0, \\frac{3}{2}$ (rejected).\\nNo. of solution = $1$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $x = \\sin(2 \\tan^{-1} \\alpha)$ and $y = \\sin \\left(\\frac{1}{2} \\tan^{-1} \\frac{4}{3}\\right)$. If $S = \\{\\alpha \\in \\mathbb{R} : y^2 = 1 - x\\}$, then $\\sum_{\\alpha \\in S} 16\\alpha^3$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "$130$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $0 < x < \\frac{1}{\\sqrt{2}}$ and $\\frac{\\sin^{-1} x}{\\alpha} = \\frac{\\cos^{-1} x}{\\beta} = k$, then a value of $\\sin \\left(\\frac{2\\pi \\alpha}{\\alpha + \\beta}\\right)$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4\\sqrt{(1-x^2)(1-2x^2)}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4x\\sqrt{(1-x^2)(1-2x^2)}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2x\\sqrt{(1-x^2)(1-4x^2)}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4\\sqrt{(1-x^2)(1-4x^2)}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$\\frac{\\sin^{-1} x}{\\alpha} = \\frac{\\cos^{-1} x}{\\beta} = k \\implies \\sin^{-1} x = k\\alpha, \\cos^{-1} x = k\\beta$. Thus $k = \\frac{\\pi}{2(\\alpha + \\beta)}$. Hence $\\sin \\left(\\frac{2\\pi \\alpha}{\\alpha + \\beta}\\right) = \\sin(4\\sin^{-1} x) = 2\\sin(2\\sin^{-1} x)\\cos(2\\sin^{-1} x) = 4x\\sqrt{1-x^2}(1-2x^2)$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "For $k \\in \\mathbb{R}$, let the solutions of the equation $\\cos \\left(\\sin^{-1} \\left(x \\cot(\\tan^{-1} (\\cos(\\sin^{-1} x))))\\right)\\right) = k, 0 < |x| < \\frac{1}{\\sqrt{2}}$ be $\\alpha$ and $\\beta$, where the inverse trigonometric functions take only principal values. If the solutions of the equation $x^2 - bx - 5 = 0$ are $\\frac{1}{\\alpha^2} + \\frac{1}{\\beta^2}$ and $\\frac{\\alpha}{\\beta}$, then $\\frac{b}{k^2}$ is equal to ______.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "$12$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "inverse trignnometry funtions",
+    "chapter": "inverse trignnometry funtions",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

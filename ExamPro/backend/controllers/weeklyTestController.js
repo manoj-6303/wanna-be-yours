@@ -1,10 +1,31 @@
 import WeeklyTest from '../models/WeeklyTest.js';
 import Question from '../models/Question.js';
+import Level from '../models/Level.js';
 import mongoose from 'mongoose';
 
 export const createWeeklyTest = async (req, res) => {
   try {
     const test = await WeeklyTest.create(req.body);
+
+    if (test.status === 'Published') {
+      await Level.findOneAndUpdate(
+        { levelNumber: test.level },
+        {
+          levelNumber: test.level,
+          title: `Level ${test.level} ${test.subject}`,
+          examType: test.examType,
+          subject: test.subject,
+          chapter: test.chapter,
+          difficulty: test.difficulty,
+          fee: test.fee || 20,
+          passingPercentage: test.passingPercentage,
+          duration: test.duration,
+          questionCount: test.questionCount
+        },
+        { upsert: true, new: true }
+      );
+    }
+
     res.status(201).json(test);
   } catch (error) {
     res.status(500).json({ message: 'Server error', error: error.message });
@@ -78,6 +99,23 @@ export const publishWeeklyTest = async (req, res) => {
     test.questionIds = questions.map(q => q._id);
     test.status = 'Published';
     await test.save();
+
+    await Level.findOneAndUpdate(
+      { levelNumber: test.level },
+      {
+        levelNumber: test.level,
+        title: `Level ${test.level} ${test.subject}`,
+        examType: test.examType,
+        subject: test.subject,
+        chapter: test.chapter,
+        difficulty: test.difficulty,
+        fee: test.fee || 20,
+        passingPercentage: test.passingPercentage,
+        duration: test.duration,
+        questionCount: test.questionCount
+      },
+      { upsert: true, new: true }
+    );
 
     res.status(200).json({ message: 'Weekly test published successfully', test });
   } catch (error) {

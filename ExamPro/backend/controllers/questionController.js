@@ -1,4 +1,5 @@
 import Question from '../models/Question.js';
+import User from '../models/User.js';
 import ImportLog from '../models/ImportLog.js';
 import ImportJob from '../models/ImportJob.js';
 import fs from 'fs';
@@ -44,9 +45,46 @@ export const getQuestions = async (req, res) => {
   }
 };
 
+export const getGroupedQuestions = async (req, res) => {
+  try {
+    const { subject, chapter, difficulty, status, examType, search } = req.query;
+    
+    let matchStage = {};
+    if (subject) matchStage.subject = subject;
+    if (chapter) matchStage.chapter = chapter;
+    if (difficulty) matchStage.difficulty = difficulty;
+    if (status) matchStage.status = status;
+    if (examType) matchStage.examType = examType;
+    if (search) matchStage.question = { $regex: search, $options: 'i' };
+
+    const chapters = await Question.aggregate([
+      { $match: matchStage },
+      { $group: {
+          _id: { subject: "$subject", chapter: "$chapter" },
+          totalQuestions: { $sum: 1 },
+          questions: { $push: "$$ROOT" }
+      }},
+      { $sort: { "_id.subject": 1, "_id.chapter": 1 } }
+    ]);
+
+    res.json({ chapters });
+  } catch (error) {
+    res.status(500).json({ message: 'Server error' });
+  }
+};
+
 export const createQuestion = async (req, res) => {
   try {
     const question = await Question.create(req.body);
+    
+    // Reset progress for students who completed this level
+    if (question.level) {
+      await User.updateMany(
+        { "completedLevels.level": question.level },
+        { $pull: { completedLevels: { level: question.level } } }
+      );
+    }
+    
     res.status(201).json(question);
   } catch (error) {
     res.status(500).json({ message: 'Server error', error: error.message });
@@ -55,8 +93,24 @@ export const createQuestion = async (req, res) => {
 
 export const updateQuestion = async (req, res) => {
   try {
+    const originalQuestion = await Question.findById(req.params.id);
     const question = await Question.findByIdAndUpdate(req.params.id, req.body, { new: true });
+    
     if (question) {
+      // Reset progress for students who completed the new level
+      if (question.level) {
+        await User.updateMany(
+          { "completedLevels.level": question.level },
+          { $pull: { completedLevels: { level: question.level } } }
+        );
+      }
+      // If the level was changed, reset the old level too
+      if (originalQuestion && originalQuestion.level && originalQuestion.level !== question.level) {
+        await User.updateMany(
+          { "completedLevels.level": originalQuestion.level },
+          { $pull: { completedLevels: { level: originalQuestion.level } } }
+        );
+      }
       res.json(question);
     } else {
       res.status(404).json({ message: 'Question not found' });
@@ -70,6 +124,15 @@ export const deleteQuestion = async (req, res) => {
   try {
     const question = await Question.findByIdAndDelete(req.params.id);
     if (!question) return res.status(404).json({ message: 'Question not found' });
+    
+    // Reset progress for students who completed this level
+    if (question.level) {
+      await User.updateMany(
+        { "completedLevels.level": question.level },
+        { $pull: { completedLevels: { level: question.level } } }
+      );
+    }
+    
     res.json({ message: 'Question deleted' });
   } catch (error) {
     res.status(500).json({ message: 'Server error' });
@@ -88,6 +151,15 @@ export const updateQuestionStatus = async (req, res) => {
       { new: true }
     );
     if (!question) return res.status(404).json({ message: 'Question not found' });
+    
+    // Reset progress for students who completed this level
+    if (question.level) {
+      await User.updateMany(
+        { "completedLevels.level": question.level },
+        { $pull: { completedLevels: { level: question.level } } }
+      );
+    }
+    
     res.json(question);
   } catch (error) {
     res.status(500).json({ message: 'Server error' });
@@ -227,6 +299,17 @@ export const finalizeImport = async (req, res) => {
     if (questionsToInsert.length > 0) {
       await Question.insertMany(questionsToInsert);
       imported = questionsToInsert.length;
+      
+      // Reset progress for all affected levels
+      const uniqueLevels = [...new Set(questionsToInsert.map(q => q.level))];
+      for (const lvl of uniqueLevels) {
+        if (lvl) {
+          await User.updateMany(
+            { "completedLevels.level": lvl },
+            { $pull: { completedLevels: { level: lvl } } }
+          );
+        }
+      }
     }
 
     const log = await ImportLog.create({

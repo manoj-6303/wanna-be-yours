@@ -16,6 +16,7 @@ const levelSchema = new mongoose.Schema({
     type: String,
     enum: ["Easy", "Medium", "Hard"]
   },
+  chapter: { type: String },
   fee: { type: Number, default: 0 },
   duration: { type: Number, required: true },
   questionCount: { type: Number, required: true },

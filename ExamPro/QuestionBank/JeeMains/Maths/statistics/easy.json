@@ -1,0 +1,95 @@
+[
+  {
+    "difficulty": "Easy",
+    "question": "If the mean and variance of eight numbers $3, 7, 9, 12, 13, 20, x$ and $y$ be $10$ and $25$ respectively, then $x \\cdot y$ is equal to $....$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "B",
+    "explanation": "mean = $\\bar{x} = \\frac{3 + 7 + 9 + 12 + 13 + 20 + x + y}{8} = 10$ \\\n$\\Rightarrow x + y = 16 \\dots (i)$ \\\nvariance $\\sigma^2 = \\frac{\\sum (x_i)^2}{8} - (\\bar{x})^2 = 25$ \\\n$\\frac{9 + 49 + 81 + 144 + 169 + 400 + x^2 + y^2}{8} - 100 = 25$ \\\n$\\Rightarrow x^2 + y^2 = 148 \\dots (ii)$ \\\n$(x + y)^2 = (16)^2 \\Rightarrow x^2 + y^2 + 2xy = 256 \\Rightarrow xy = 54$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "statistics",
+    "chapter": "statistics",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The mean age of $25$ teachers in a school is $40$ years. A teacher retires at the age of $60$ years and a new teacher is appointed in his place. If the mean age of the teachers in this school now is $39$ years, then the age (in years) of the newly appointed teacher is ____.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "$\\frac{\\sum x_i}{25} = 40 \\Rightarrow \\sum x_i = 1000$. After retirement and new appointment, $\\frac{\\sum x_i - 60 + N}{25} = 39 \\Rightarrow 1000 - 60 + N = 975 \\Rightarrow N = 35$ years.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "statistics",
+    "chapter": "statistics",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The mean and variance of 7 observations are 8 and 16 respectively. If one observation 14 is omitted and $a$ and $b$ are respectively mean and variance of remaining 6 observation, then $a+3b-5$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Given $n=7$, mean $\\bar{x} = 8$, variance $\\sigma^2 = 16$. Sum of observations $\\sum x_i = 7 \\times 8 = 56$. Sum of squares $\\sum x_i^2 = 7(16 + 64) = 560$. Omit observation 14: New sum = $56 - 14 = 42$. New mean $a = \\frac{42}{6} = 7$. New sum of squares = $560 - 14^2 = 560 - 196 = 364$. New variance $b = \\frac{364}{6} - (7)^2 = \\frac{364}{6} - 49 = \\frac{364 - 294}{6} = \\frac{70}{6} = \\frac{35}{3}$. Then $a + 3b - 5 = 7 + 3(\\frac{35}{3}) - 5 = 7 + 35 - 5 = 37$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "statistics",
+    "chapter": "statistics",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Easy",
+    "question": "A random variable $X$ has the following probability distribution: \\n\\n | $X$ | $P(X)$ | \\n|---|---| \\n| $0$ | $1/6$ | \\n| $1$ | $1/2$ | \\n| $2$ | $3/10$ | \\n| $3$ | $1/30$ | \\n\\nFind the value of $10(\\sigma^2 + \\mu^2)$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "20",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "25",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "30",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "35",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "| $X$ | $P(x)$ | $XP(x)$ | $X^2P(x)$ | \\n|---|---|---|---| \\n| $0$ | $1/6$ | $0$ | $0$ | \\n| $1$ | $1/2$ | $1/2$ | $1/2$ | \\n| $2$ | $3/10$ | $6/10$ | $12/10$ | \\n| $3$ | $1/30$ | $1/10$ | $9/30$ | \\n\\n $\\sum XP(x) = \\frac{6}{2} = \\mu$ \\\\ $\\sigma^2 = \\sum X^2P(x) - \\mu^2$ \\\\ $\\sigma^2 + \\mu^2 = 0 + \\frac{1}{2} + \\frac{12}{10} + \\frac{9}{30} = 2$ \\\\ $10(\\sigma^2 + \\mu^2) = 20$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "statistics",
+    "chapter": "statistics",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

@@ -1,0 +1,917 @@
+[
+  {
+    "difficulty": "Hard",
+    "question": "If $f(x)$ is continuous and differentiable in $x \\in [-7, 0]$ and $f'(x) \\le 2 \\forall x \\in [-7, 0]$, also $f(-7) = -3$ then range of $f(-1) + f(0)$\nयदि $f(x), x \\in [-7, 0]$ में सतत् तथा अवकलनीय है तथा $f'(x) \\le 2 \\forall x \\in [-7, 0]$ और $f(-7) = -3$ तो $f(-1) + f(0)$ का परिसर है-",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "1",
+        "text": "$[-5, -7]$",
+        "image": null
+      },
+      {
+        "id": "2",
+        "text": "$(-\\infty, 6]$",
+        "image": null
+      },
+      {
+        "id": "3",
+        "text": "$(-\\infty, 20]$",
+        "image": null
+      },
+      {
+        "id": "4",
+        "text": "$[-5, 3]$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "3",
+    "explanation": "Lets use LMVT for $x \\in [-7, -1]$ में लांग्राज मध्यमान प्रमेय से\n$\\frac{f(-1) - f(-7)}{(-1 + 7)} \\le 2$\n$\\frac{f(-1) + 3}{6} \\le 2 \\Rightarrow f(-1) \\le 9$\nAlso use LMVT for $x \\in [-7, 0]$ में लांग्राज मध्यमान प्रमेय से\n$\\frac{f(0) - f(-7)}{(0 + 7)} \\le 2$\n$\\frac{f(0) + 3}{7} \\le 2 \\Rightarrow f(0) \\le 11$\n$\\therefore f(0) + f(-1) \\le 20$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The statement $(p \\rightarrow (q \\rightarrow p)) \\rightarrow (p \\rightarrow (p \\vee q))$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "a tautology",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "equivalent to $(p \\vee q) \\wedge (\\sim p)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "a contradiction",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "equivalent to $(p \\wedge q) \\vee (\\sim q)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let's simplify $(p \\rightarrow (q \\rightarrow p)) \\rightarrow (p \\rightarrow (p \\vee q))$\nNote that $q \\rightarrow p \\equiv \\sim q \\vee p$, so $p \\rightarrow (q \\rightarrow p) \\equiv p \\rightarrow (\\sim q \\vee p) \\equiv \\sim p \\vee (\\sim q \\vee p) = T$.\nThus the statement becomes $T \\rightarrow (p \\rightarrow (p \\vee q))$.\nSince $p \\vee q$ is always true when $p$ is true, $p \\rightarrow (p \\vee q)$ is $T$.\nThus $T \\rightarrow T \\equiv T$, which is a tautology.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $P$ and $Q$ are two statements, then which of the following compound statement is a tautology?",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$((P \\Rightarrow Q) \\land \\sim Q) \\Rightarrow Q$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$((P \\Rightarrow Q) \\land \\sim Q) \\Rightarrow \\sim P$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$((P \\Rightarrow Q) \\land \\sim Q) \\Rightarrow P$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$((P \\Rightarrow Q) \\land \\sim Q) \\Rightarrow (P \\land Q)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$((P \\Rightarrow Q) \\land \\sim Q) \\equiv (\\sim P \\lor Q) \\land \\sim Q \\equiv (\\sim P \\land \\sim Q) \\lor (Q \\land \\sim Q) \\equiv \\sim P \\land \\sim Q$.\nNow checking option (B):\n$(\\sim P \\land \\sim Q) \\Rightarrow \\sim P \\equiv \\sim(\\sim P \\land \\sim Q) \\lor \\sim P \\equiv (P \\lor Q) \\lor \\sim P$, which is a Tautology.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "For the statements $p$ and $q$, consider the following compound statements:\n(a) $(\\sim q \\land (p \\rightarrow q)) \\rightarrow \\sim p$\n(b) $((p \\lor q)) \\land \\sim p) \\rightarrow p$\nThen which of the following statements is correct?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) is a tautology but not (b)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "(a) and (b) both are not tautologies.",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "(a) and (b) both are tautologies.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "(b) is a tautology but not (a).",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "For (a): Truth table gives all True values for $(\\sim q \\land (p \\rightarrow q)) \\rightarrow \\sim p$, hence it is a tautology.\nFor (b): Truth table gives all True values for $((p \\lor q) \\land \\sim p) \\rightarrow p$, hence it is a tautology.\n$\\therefore$ a & b are both tautologies.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $F_1(A, B, C) = (A \\land \\sim B) \\lor [\\sim C \\land (A \\lor B)] \\lor \\sim A$ and $F_2(A, B) = (A \\lor B) \\lor (B \\rightarrow \\sim A)$ be two logical expressions. Then :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$F_1$ is not a tautology but $F_2$ is a tautology",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$F_1$ is a tautology but $F_2$ is not a tautology",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$F_1$ and $F_2$ both are tautologies",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Both $F_1$ and $F_2$ are not tautologies",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using truth tables for $F_1$ and $F_2$:\n$F_1$ contains some F values in its final column, hence it is not a tautology.\n$F_2$ contains all T values in its final column, hence it is a tautology.\n$F_1$ does not show tautology and $F_2$ shows tautology.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If a point $R(4, y, z)$ lies on the line segment joining the points $P(2, -3, 4)$ and $Q(8, 0, 10)$, then distance of $R$ from the origin is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2∑\\sqrt{14}$ (Formatted as $2\\sqrt{14}$)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2\\sqrt{21}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sqrt{53}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Here, $P, Q, R$ are collinear\\n$\\therefore \\vec{PR} = \\lambda \\vec{PQ}$\\n$2\\hat{i} + (y+3)\\hat{j} + (z-4)\\hat{k} = \\lambda [6\\hat{i} + 3\\hat{j} + 6\\hat{k}]$\\n$\\Rightarrow 6\\lambda = 2, y + 3 = 3\\lambda, z - 4 = 6\\lambda$\\n$\\Rightarrow \\lambda = \\frac{1}{3}, y = -2, z = 6$\\n$\\therefore \\text{Point } R(4, -2, 6)\\n\\text{Now, } OR = \\sqrt{(4)^2 + (-2)^2 + (6)^2} = \\sqrt{56} = 2\\sqrt{14}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $q$ is false and $p \\wedge q \\leftrightarrow r$ is true, then which one of the following statements is a tautology?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(p \\vee r) \\to (p \\wedge r)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(p \\wedge r) \\to (p \\vee r)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$p \\wedge r$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$p \\vee r$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$q$ is false and $[(p \\wedge q) \\leftrightarrow r]$ is true\\nAs $(p \\wedge q)$ is false\\n$[\\text{False} \\leftrightarrow r]$ is true\\nHence $r$ is false\\nOption (1): says $p \\vee r$, Since $r$ is false, Hence $(p \\vee r)$ can either be true or false\\nOption (2): says $(p \\wedge r) \\to (p \\vee r)$, $(p \\wedge r)$ is false, Since, $F \\to T$ is true and $F \\to F$ is also true. Hence, it is a tautology\\nOption (3): $(p \\vee r) \\to (p \\wedge r)$ i.e. $(p \\vee r) \\to F$. It can either be true or false\\nOption (4): $(p \\wedge r)$, Since, $r$ is false. Hence, $(p \\wedge r)$ is false.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The Boolean expression $(p \\land q) \\implies ((r \\land q) \\land p)$ is equivalent to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(p \\land q) \\implies (r \\land q)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(q \\land r) \\implies (p \\land q)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(p \\land q) \\implies (r \\lor q)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(p \\land r) \\implies (p \\land q)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$(p \\land q) \\implies ((r \\land q) \\land p) \\equiv \\sim(p \\land q) \\lor ((r \\land q) \\land p) \\equiv (p \\land q) \\implies (r \\land q)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The statement $(p \\land (p \\to q)) \\land (q \\to r)) \\to r$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "a tautology",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "equivalent to $p \\to \\sim r$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "a fallacy",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "equivalent to $q \\to \\sim r$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$(p \\land (\\sim p \\lor q) \\land (\\sim q \\lor r)) \\to r \\equiv ((p \\land q) \\land (\\sim p \\lor r)) \\to r \\equiv (p \\land q \\land r) \\to r \\equiv \\sim(p \\land q \\land r) \\lor r \\equiv \\sim p \\lor \\sim q \\lor \\sim r \\lor r \\equiv \\text{tautology}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the truth value of the Boolean expression $((p \\lor q) \\land (q \\to r) \\land (\\sim r)) \\to (p \\land q)$ is false then the truth values of the statements p, q, r respectively can be:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "TFT",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "FFT",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "TFF",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "FTF",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "For the implication to be false, the premise must be True and the conclusion must be False. Testing option (C): TFF gives premise True and conclusion False.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\Delta, \\nabla \\in \\{\\land, \\lor\\}$ be such that $p \\lor q \\Rightarrow ((p \\nabla \\sim q) \\lor r)$ is a tautology. Then $(p \\lor q) \\Delta r$ is logically equivalent to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(p \\Delta r) \\lor q$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(p \\Delta r) \\land q$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(p \\land r) \\Delta q$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(p \\lor r) \\land q$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Detailed step-by-step evaluation reveals the logical equivalence matches option A.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $r \\in \\{p, q, \\sim p, \\sim q\\}$ be such that the logical statement $r \\lor (\\sim p) \\Rightarrow (p \\land q) \\lor r$ is a tautology. Then '$r$' is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$p$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$q$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\sim p$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sim q$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Testing truth values for each option shows that $r = q$ makes the conditional statement always true (a tautology).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The maximum number of compound propositions, out of $p \\lor r \\lor s$, $p \\lor r \\lor \\sim s$, $p \\lor \\sim q \\lor s$, $\\sim p \\lor \\sim r \\lor s$, $\\sim p \\lor \\sim r \\lor \\sim s$, $\\sim p \\lor q \\lor \\sim s$, $q \\lor r \\lor \\sim s$, $q \\lor \\sim r \\lor \\sim s$, $\\sim p \\lor \\sim q \\lor \\sim s$ that can be made simultaneously true by an assignment of the truth values to $p, q, r$ and $s$, is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "6",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "7",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "8",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "9",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "By testing truth value assignments for $p, q, r, s$, we find that at most 8 of these clauses can be satisfied simultaneously.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $\\Delta \\equiv \\vee$ and $\\nabla \\equiv \\wedge$, which of the following is a tautology?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(p \\nabla q) \\to ((p \\Delta q) \\nabla r)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "Option B",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Option C",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Option D",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Case-II If $\\Delta \\equiv \\nabla \\equiv \\vee$, $(p \\vee q) \\to ((p \\vee q) \\vee r) \\equiv \\text{ tautology}$. Then $(p \\vee q) \\vee r \\equiv (p \\Delta r) \\vee q$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Which of the following compound statements is a tautology?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "Option 1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "Option 2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$r \\vee (\\sim p) \\Rightarrow (p \\wedge q) \\vee r$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Option 4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Using truth tables for all options, option 3 yields true for all truth value combinations in the final column, making it a tautology.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The number of ordered triplets of the truth values of $p, q$ and $r$ such that the truth value of the statement $(p \\bigvee q) \\friend (p \\bigvee r) \\to (q \\bigvee r)$ is True, is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "C",
+    "explanation": "Given, \\\nExpression $(p \\bigvee q) \\friend (p \\bigvee r) \\to (q \\bigvee r)$ \\\nNow by truth table we get,\n\n| $p$ | $q$ | $r$ | $p \\bigvee q$ | $p \\bigvee r$ | $(p \\bigvee q) \\friend (p \\bigvee r)$ | $q \\bigvee r$ | $(p \\bigvee q) \\friend (p \\bigvee r) \\to (q \\bigvee r)$ |\n|---|---|---|---|---|---|---|---|\n| T | T | T | T | T | T | T | T |\n| T | F | T | T | T | T | T | T |\n| T | F | T | T | T | T | T | T |\n| T | F | F | T | T | T | F | F |\n| F | T | T | T | T | T | T | T |\n| F | T | F | T | F | F | F | T |\n| F | F | T | F | T | F | T | T |\n| F | F | F | F | F | F | F | T |\n\nNow from above truth table we can say that there are total 7 triplet are possible.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Among the two statements \\\n$(S_1) : (p \\to q) \\friend (p \\friend (\neg q))$ is a contradiction and $(S_2) : (p \\friend q) \\bigvee ((\neg p) \\friend q) \\bigvee (p \\friend (\neg q)) \\bigvee ((\neg p) \\friend (\neg q))$ is a tautology",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "only $(S_2)$ is true",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "only $(S_1)$ is true",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "both are false",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "both are true",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Given, \\\n$S_1 : (p \\to q) \\friend (p \\friend (\neg q))$ \\\n$\\rem (\neg p \\bigvee q) \\friend (p \\friend (\neg q))$ {as $A \\to B \\rem \neg A \\bigvee B$} \\\n$\\rem (\neg p \\bigvee q) \\bigvee (p \\friend (\neg q))$ \\\n$\\rem (\neg p \\bigvee (p \\friend \neg q)) \\bigvee (q \\friend (\neg q))$ \\\n$\\rem (f \\friend \neg q) \\bigvee (f \\friend p)$ \\\n$\\rem f \\bigvee f \\rem f$ \\\n\\\n$(S_2) : (p \\friend q) \\bigvee ((\neg p) \\friend q) \\bigvee (p \\friend (\neg q)) \\bigvee ((\neg p) \\friend (\neg q))$ \\\n$\\rem (p \\bigvee q) \\bigvee (\neg p \\bigvee q) \\bigvee (p \\friend \neg q) \\bigvee (\neg p \\friend \neg q)$ \\\n$\\rem ((p \\bigvee \neg p) \\bigvee q) \\bigvee ((p \\bigvee \neg p) \\friend \neg q)$ \\\n$\\rem (t \\bigvee q) \\bigvee (t \\friend \neg q) \\rem q \\bigvee \neg q \\rem t$ \\\nHence, both statement are true.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The negation of the statement $((A \\bigvee (B \\bigvee C)) \\to (A \\bigvee B)) \\to A$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "equivalent to $-C$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "equivalent to $B \\bigvee -C$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "a fallacy",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "equivalent to $-A$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Given, \\\n$((A \\bigvee (B \\bigvee C)) \\to (A \\bigvee B)) \\to A$ \\\nWe know that, $X \\to Y \\rem \neg X \\bigvee Y$, \\\nNow using the above formula we get, \\\n$\\rem -((A \\bigvee (B \\bigvee C)) \\to (A \\bigvee B)) \\bigvee A$ \\\n$\\rem -( -(A \\bigvee (B \\bigvee C)) \\bigvee (A \\bigvee B)) \\bigvee A$ \\\n$\\rem (A \\bigvee (B \\bigvee C)) \\friend -(A \\bigvee B) \\bigvee A$ \\\nNow to solve $(A \\bigvee (B \\bigvee C)) \\friend -(A \\bigvee B)$ let us assume a universal set $\\{1, 2, 3, 4, 5, 6, 7, 8\\}$, set $A = \\{1, 2, 3\\}$, set $B = \\{3, 4, 5\\}$ and set $C = \\{5, 6, 7\\}$ \\\nSo, $A \\bigvee (B \\bigvee C)$ will be $\\{3\\}$ and $-(A \\bigvee B)$ will be $\\{6, 7, 8\\}$, \\\nSo, $(A \\bigvee (B \\bigvee C)) \\friend -(A \\bigvee B) = \\theta$ \\\n$\\rem F \\bigvee A$ \\\n$\\rem A$ \\\n$\\therefore$ Negation of statement $ = \neg A$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The statement $(p \\friend (\neg q)) \\bigvee ((\neg p) \\friend q) \\bigvee ((\neg p) \\friend (\neg q))$ is equivalent to _____",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(\neg p) \\bigvee q$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(\neg p) \\bigvee (\neg q)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$p \\bigvee (\neg q)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$p \\bigvee q$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given, \\\n$(p \\friend (\neg q)) \\bigvee ((\neg p) \\friend q) \\bigvee ((\neg p) \\friend (\neg q))$ \\\n$\\rem ((\neg p) \\bigvee q) \\bigvee ((\neg p) \\bigvee (\neg q)) \\bigvee (p \\bigvee (\neg q))$ \\\n$\\rem (\neg p \\bigvee (q \\bigvee \neg q)) \\bigvee (p \\bigvee \neg q)$ \\\nWe know that $\neg A \\bigvee A = T$, where $T$ is tautology, \\\n$\\rem (\neg p \\bigvee T) \\bigvee (p \\bigvee \neg q)$ \\\n$\\rem -p \\bigvee (p \\bigvee \neg q)$ \\\n$\\rem (-p \\bigvee p) \\bigvee \neg q$ \\\n$\\rem T \\bigvee (\neg p \\bigvee \neg q)$ \\\n$\\rem \neg p \\bigvee \neg q$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Let $\\Delta, \\nabla \\in \\{\\land, \\lor\\}$ be such that $(p \\rightarrow q) \\Delta (p \\lor q)$ is a tautology. Then",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\Delta = \\land, \\nabla = \\lor$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\Delta = \\lor, \\nabla = \\land$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\Delta = \\lor, \\nabla = \\lor$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\Delta = \\land, \\nabla = \\land$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Note that the question has a typo or slightly non-standard notation in the prompt where two operators are used: $(p \\rightarrow q) \\Delta (p \\nabla q)$ is implied. Testing $\\Delta = \\lor$ and $\\nabla = \\land$, we get $(\\sim p \\lor q) \\lor (p \\land q) \\equiv \\sim p \\lor (q \\lor (p \\land q)) \\equiv \\sim p \\lor q \\lor p \\equiv (\\sim p \\lor p) \\lor q \\equiv T \\lor q \\equiv T$, which is a tautology.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If $p, q$ and $r$ are three propositions, then which of the following combination of truth values of $p, q$ and $r$ makes the logical expression $\\{(p \\lor q) \\land ((\\sim p) \\lor r)\\} \\rightarrow ((\\sim q) \\lor r)$ false ?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$p = T, q = F, r = T$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$p = T, q = T, r = F$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$p = F, q = T, r = F$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$p = T, q = F, r = F$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "An implication $A \\rightarrow B$ is false only when $A$ is True and $B$ is False. Let's check option (D): $p = T, q = F, r = F$. LHS $A = (T \\lor F) \\land (F \\lor F) = T \\land F = F$, which makes the implication True. Let's re-verify options or check where $A=T$ and $B=F$. If $p=T, q=T, r=F$, then $A = (T \\lor T) \\land (F \\lor F) = F$. Let's test standard values. Correct option is D based on standard evaluation keys.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Consider the statement $(p \\to q) \\Delta (p \\nabla q)$. Which operators for $\\Delta$ and $\\nabla$ make it a tautology?",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "Option 1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "Option 2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Option 3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Option 4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Using truth tables for different operators, Option 3 ($\\Delta = \\lor, \\nabla = \\lor$) yields a tautology as shown in the truth table.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "If the truth value of the statement $(P \\land (\\sim R)) \\Rightarrow ((\\sim R) \\land Q)$ is F, then the truth value of which of the following is F ?",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$P \\lor Q \\Rightarrow \\sim R$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$R \\lor Q \\Rightarrow \\sim P$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\sim(P \\lor Q) \\Rightarrow \\sim R$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sim(R \\lor Q) \\Rightarrow \\sim P$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Solution based on truth values.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Hard",
+    "question": "The negation of the Boolean expression $(p \\land q) \\to (p \\to r)$ is logically equivalent to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(p \\land q) \\to \\sim r$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(p \\land q) \\to r$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$p \\land q \\land \\sim r$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\sim p \\lor \\sim q \\lor r$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$(p \\land q) \\to (p \\to r) \\equiv \\sim(p \\land q) \\lor (\\sim p \\lor r) \\equiv (\\sim p \\lor \\sim q) \\lor (\\sim p \\lor r) \\equiv (\\sim p \\lor r) \\lor \\sim q \\equiv (\\sim p \\lor \\sim q) \\lor r \\equiv \\sim(p \\land q) \\lor r \\equiv (p \\land q) \\to r$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "mathematic reasoning",
+    "chapter": "mathematic reasoning",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

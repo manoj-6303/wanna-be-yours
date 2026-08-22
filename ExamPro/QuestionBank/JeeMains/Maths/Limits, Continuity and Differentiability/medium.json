@@ -1,0 +1,4016 @@
+[
+  {
+    "difficulty": "Medium",
+    "question": "Let $[t]$ denote the greatest integer $\\le t$. The number of points where the function $f(x) = [x] |x^2 - 1| + \\sin \\left( \\frac{\\pi}{|x|+3} \\right) - [x+1], x \\in (-2, 2)$ is not continuous is .",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "four points",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "two points",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "three points",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "one point",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$f(x) = [x] |x^2 - 1| + \\sin \\left( \\frac{\\pi}{|x|+3} \\right) - [x+1] = \\begin{cases} 3 - 2x^2, & -2 < x < -1 \\\\ x^2, & -1 \\le x < 0 \\\\ \\frac{\\sqrt{3}}{2} + 1, & 0 \\le x < 1 \\\\ x^2 + 1 + \\frac{1}{\\sqrt{2}}, & 1 \\le x < 2 \\end{cases}$ discontinuous at $x = 0, 1$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The function $f(x) = |x^2 - 2x - 3| \\cdot e^{|9x^2 - 12x + 4|}$ is not differentiable at exactly:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "four points",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "three points",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "two points",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "one point",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$f(x) = |(x-3)(x+1)| \\cdot e^{(3x-2)^2} = \\begin{cases} (x-3)(x+1) \\cdot e^{(3x-2)^2} ; & x \\in (3, \\infty) \\\\ -(x-3)(x+1) \\cdot e^{(3x-2)^2} ; & x \\in [-1, 3] \\\\ (x-3)(x+1) \\cdot e^{(3x-2)^2} ; & x \\in (-\\infty, -1) \\end{cases}$ Clearly, non-differentiable at $x = -1$ & $x = 3$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let a function $f : \\mathbf{R} \\rightarrow \\mathbf{R}$ be defined as $f(x) = \\begin{cases} \\sin x - e^x & \\text{if } x \\le 0 \\\\ a + [-x] & \\text{if } 0 < x < 1 \\\\ 2x - b & \\text{if } x \\ge 1 \\end{cases}$. Where $[x]$ is the greatest integer less than or equal to $x$. If $f$ is continuous on $\\mathbf{R}$, then $(a + b)$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$5$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Continuous at $x = 0$: $f(0^+) = f(0^-) \\Rightarrow a - 1 = 0 - e^0 \\Rightarrow a = 0$. Continuous at $x = 1$: $f(1^+) = f(1^-) \\Rightarrow 2(1) - b = a + (-1) \\Rightarrow b = 2 - a + 1 \\Rightarrow b = 3$. $\\therefore a + b = 3$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Consider the function $f(x) = \\frac{P(x)}{\\sin(x-2)}, x \\neq 2$, $= 7, x = 2$. Where $P(x)$ is a polynomial such that $P''(x)$ is always a constant and $P(3) = 9$. If $f(x)$ is continuous at $x = 2$, then $P(5)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "39",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since $f(x)$ is continuous at $x=2$, $\\lim_{x\\to 2} P(x) = 0$. Since the denominator $\\sin(x-2) \\to 0$ as $x \\to 2$, $P(2) = 0$. Solving for the polynomial $P(x)$ using $P''(x) = c$ and $P(3) = 9$, we get $P(5) = 39$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "For continuity of $\\lim_{x \\to 0} \\frac{x^3}{4 \\sin^4 x} (\\ln(1 + 12xe^{-2x}) - 2\\ln(1 - xe^{-x})) = \\alpha$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "0",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\lim_{x \\to 0} \\frac{1}{4x} [2xe^{-2x} + 2xe^{-x}] = \\alpha \\Rightarrow \\frac{1}{4}(4) = \\alpha = 1$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\lim_{x \\to 2^+} f(x) = \\lim_{x \\to 2^+} e^{\\frac{\\sin(x-2)}{x-2}} = e^1$ and $\\lim_{x \\to 2^-} f(x) = \\lim_{x \\to 2^-} \\frac{-\\lambda(x-2)(x-3)}{\\mu(x-2)(x-3)} = -\\frac{\\lambda}{\\mu}$. For continuity $\\mu = e$ and $-\\frac{\\lambda}{\\mu} = e \\Rightarrow \\mu = e, \\lambda = -e^2$. Thus $\\lambda + \\mu = e(-e + 1)$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "e(1 - e)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "e(e - 1)",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "e^2 - 1",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "1 - e^2",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "We find $\\lambda = -e^2$ and $\\mu = e$, so $\\lambda + \\mu = e(-e + 1)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The number of points where the function $f(x) = \\begin{cases} |2x^2 - 3x - 7| & , x \\le -1 \\\\ [4x^2 - 1] & , -1 < x < 1 \\\\ |x + 1| + |x - 2| & , x \\ge 1 \\end{cases}$ where $[t]$ denotes the greatest integer $\\le t$, is discontinuous is _______.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "To find the points of discontinuity, we check the points where the definition of the function changes, namely $x = -1$ and $x = 1$, as well as points where the inner expressions of the greatest integer and modulus functions create discontinuities within their respective intervals. Evaluating limits at these critical points yields a total of 7 points of discontinuity.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f(x) = [2x^2 + 1]$ and $g(x) = \\begin{cases} 2x - 3 & , x < 0 \\\\ 2x + 3 & , x \\ge 0 \\end{cases}$, where $[t]$ is the greatest integer $\\le t$. Then, in the open interval $(-1, 1)$, the number of points where $fog$ is discontinuous is _______.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Compute $fog(x) = f(g(x))$. Substitute $g(x)$ into $f(x)$ for $x \\in (-1, 1)$ and determine the points of discontinuity by finding where the argument of the greatest integer function becomes an integer. The number of such points is found to be 62.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f(x) = \\min\\{1, 1 + x \\sin x\\}, 0 \\le x \\le 2\\pi$. If $m$ is the number of points, where $f$ is not differentiable and $n$ is the number of points, where $f$ is not continuous, then the ordered pair $(m, n)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(2, 0)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(1, 0)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(1, 1)$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(2, 1)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The function $f(x) = \\min\\{1, 1 + x \\sin x\\}$ is continuous everywhere on $[0, 2\\pi]$, so $n = 0$. By plotting or analyzing the intersection of $1$ and $1 + x \\sin x$, we find that there is only 1 point where the function fails to be differentiable, so $m = 1$. Thus, the ordered pair is $(1, 0)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f(x)$ be a function. Consider the graph of $f(x)$ shown in the solutions. Find the number of points of discontinuity and non-differentiability.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "m = 1, n = 1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "m = 2, n = 1",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "m = 3, n = 2",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "m = 7, n = 0",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Based on the graph and analysis, the number of points is $7$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Consider a function $f(x)$ represented by the curve in the solution. Find the number of non-differentiable points ($m$) and non-continuous points ($n$).",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "(0, 1)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "(0, 0)",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "(1, 0)",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "(1, 1)",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "From the graph, number of non-differentiable points $m = 1$ and number of non-continuous points $n = 0$. Thus $(m,n) = (1,0)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f(x)$ be a function. For $f(x)$ to be continuous at $x = 0$ and $x = 2$, find the value of $a+b+c$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$f(x)$ is discontinuous at $x = 1$. For continuity at $x = 0$, $a = 1$. For continuity at $x = 2$, $b+c = 1$. Hence, $a+b+c = 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $a \notin \\text{ZZ}$ and $[t]$ be the greatest integer $\\le t$, then the number of points, where the function $f(x)=[a + 13 \\text{ sin } x]$, $x \notin (0, \\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }]$",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{2}\\right) \\frac{1}{\\text { e }}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{e}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "}\\text{Maximum value is } \\text{e}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{e^2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let $f(x)=[a+13\\text{ sin }x]$, $x \notin (0, \\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ }\\text{ })$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f:(-2, 2) \\rightarrow \\text{IR}$ be defined by $f(x) = \\begin{cases} \\frac{x}{[x]}, & -2 < x < 0 \\\\ (x - 1)[x], & 0 \\text{ } \\le x < 2 \\end{cases}$ where $[x]$ denotes the greatest integer function. If $m$ and $n$ respectively are the number of points in $(-2, 2)$ at which $y = |f(x)|$ is not continuous and not differentiable, then $m + n$ is equal to _________.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$11$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Given,\n$f : (-2, 2) \\rightarrow \\mathbb{R}$ be defined by $f(x) = \\begin{cases} \\frac{x}{[x]}, & -2 < x < 0 \\\\ (x - 1)[x], & 0 \\le x < 2 \\end{cases}$\n$= \\begin{cases} -2x, & -2 < x < -1 \\\\ -x, & -1 \\le x < 0 \\\\ 0, & 0 < x < 1 \\\\ x - 1, & 1 \\le x < 2 \\end{cases}$\nNow plotting the diagram of the above function we get,\nNow from above diagram we can say that, $y = f(x)$ is same as $y = |f(x)|$\nHence, the function is not continuous at one point and non differentiable at three points, so $m = 1$, $n = 3$\nHence, $m + n = 4$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f(x) = \\begin{cases} x^2 \\sin\\left(\\frac{1}{x}\\right) &, x \\neq 0 \\\\ 0 &, x = 0 \\end{cases}$; Then at $x = 0$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$f$ is continuous but not differentiable",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$f$ is continuous but $f'$ is not continuous",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$f$ and $f'$ both are continuous",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$f'$ is continuous but not differentiable",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Continuity of $f(x)$: $f(0^+) = \\lim_{h \\to 0} h^2 \\sin\\left(\\frac{1}{h}\\right) = 0$, $f(0^-) = \\lim_{h \\to 0} (-h)^2 \\sin\\left(\\frac{-1}{h}\\right) = 0$, $f(0) = 0 \\Rightarrow f(x)$ is continuous. $f'(0^+) = \\lim_{h \\to 0} \\frac{f(0+h)-f(0)}{h} = \\lim_{h \\to 0} \\frac{h^2 \\sin\\left(\\frac{1}{h}\\right)-0}{h} = 0$, $f'(0^-) = \\lim_{h \\to 0} \\frac{f(0-h)-f(0)}{-h} = \\lim_{h \\to 0} \\frac{h^2 \\sin\\left(\\frac{-1}{h}\\right)-0}{-h} = 0 \\Rightarrow f(x)$ is differentiable. $f'(x) = 2x \\sin\\left(\\frac{1}{x}\\right) + x^2 \\cos\\left(\\frac{1}{x}\\right) \\cdot \\left(-\\frac{1}{x^2}\\right) = \\begin{cases} 2x \\sin\\left(\\frac{1}{x}\\right) - \\cos\\left(\\frac{1}{x}\\right) &, x \\neq 0 \\\\ 0 &, x = 0 \\end{cases}$. As $x \\to 0$, $\\cos\\left(\\frac{1}{x}\\right)$ oscillates between $-1$ and $1$, so $\\lim_{x \\to 0} f'(x)$ does not exist. Hence, $f'(x)$ is not continuous.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f : \\mathbf{R} \\to \\mathbf{R}$ be a function given by $f(x) = \\begin{cases} \\frac{1-\\cos 2x}{x^2}, & x < 0 \\\\ \\alpha, & x = 0 \\\\ \\frac{\\beta\\sqrt{1-\\cos x}}{x}, & x > 0 \\end{cases}$, where $\\alpha, \\beta \\in \\mathbf{R}$. If $f$ is continuous at $x = 0$, then $\\alpha^2 + \\beta^2$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "12",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "48",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "6",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$f(0^-) = \\lim_{x\\to 0^-} \\frac{2\\sin^2 x}{x^2} = 2 = \\alpha$\\\\ $f(0^+) = \\lim_{x\\to 0^+} \\beta \\times \\sqrt{2} \\frac{\\sin \\frac{x}{2}}{\\frac{x}{2} \\times 2} = \\frac{\\beta}{\\sqrt{2}} = 2$\\\\ $\\implies \\beta = 2\\sqrt{2}$\\\\ $\\alpha^2 + \\beta^2 = 4 + 8 = 12$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f : [-1, 2] \\to \\mathbf{R}$ be given by $f(x) = 2x^2 + x + [x^2] - [x]$, where $[t]$ denotes the greatest integer less than or equal to $t$. The number of points, where $f$ is not continuous, is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "6",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Based on the answer key, the number of points of discontinuity is 4.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f(x) = (2x^2 + x - [x]) + [x^2]$, where $[t]$ denotes the greatest integer $\\le t$. Then the number of points where $f(x)$ is discontinuous in the interval $[-1, 2]$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$6$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Doubtful points: $-1, 0, 1, \\sqrt{2}, \\sqrt{3}, 2$ at $x = \\sqrt{2}, \\sqrt{3}$ -> Continuous. At $x = -1$: $\\text{RHL} \\Rightarrow f(x) = (2 - 1 - (-1)) + 0 = 2$, $f(-1) = 2 - 1 - (-1) + 1 = 3$ (Discontinuous). At $x = 2$: $\\text{LHL} \\Rightarrow f(x) = 8 + 2 - 1 + 3 = 12$, $f(2) = 8 + 2 - 2 + 4 = 12$ (Continuous). At $x = 0$: $\\text{LHL} \\Rightarrow 0 + 0 - (-1) + 0 = 1$, $f(0) = 0$ (Discontinuous). At $x = 1$: $\\text{LHL} \\Rightarrow 2 + 1 - 0 + 0 = 3$, $f(1) = 3 - 1 + 1 = 3$, $\\text{RHL} \\Rightarrow 2 + 1 - 1 + 1 = 3$ (Continuous). Also $\\left[ \\frac{x}{2} + 3 \\right]$ is discontinuous at $x = 2, 4, 6, 8$. $\\sqrt{x}$ is discontinuous at $x = 1, 4$. $F(x)$ is discontinuous at $x = 1, 2, 6, 8$. Thus $\\sum a = 1 + 2 + 6 + 8 = 17$ (Total discontinuous points = 4).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be defined as $f(x) = \\begin{cases} \\frac{a - b \\cos 2x}{x^2} & ; x < 0 \\\\ x^2 + cx + 2 & ; 0 \\leq x \\leq 1 \\\\ 2x + 1 & ; x > 1 \\end{cases}$. If $f$ is continuous everywhere in $\\mathbb{R}$ and $m$ is the number of points where $f$ is NOT differential then $m + a + b + c$ equals :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "2",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "At $x=1, f(x)$ is continuous therefore, $f(1^-) = f(1) = f(1^+)$. $f(1) = 3+c$. $f(1^+) = \\lim_{h\\to0} 2(1+h)+1 = 3+2h = 3$. From continuity, $c=0$. At $x=0, f(x)$ is continuous therefore, $f(0^-) = f(0) = f(0^+) \\Rightarrow f(0) = 2(0)^2 + c(0) + 2 = 2$. So $\\lim_{h\\to0} \\frac{a-b\\cos(2h)}{h^2} = 2$. Expanding $\\cos(2h)$, we get $a-b=0$ and limit is $2b = 2 \\Rightarrow a=b=1$. Checking differentiability at $x=0$, LHD = RHD = 0. Function is differentiable everywhere, so $m=0$. Thus $m+a+b+c = 0+1+1+0 = 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f(x) = |2x^2 + 5|x| - 3|, x \\in \\mathbb{R}$. If $m$ and $n$ denote the number of points where $f$ is not continuous and not differentiable respectively, then $m + n$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "0",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "3",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Based on the answer key, Q2 correct option is (4) corresponding to D.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $a$ and $b$ be real constants such that the function $f$ defined by $f(x) = \\begin{cases} x^2 + 3x + a & , x \\le 1 \\\\ bx + 2 & , x > 1 \\end{cases}$ is differentiable on $R$. Then, the value of $\\int_{-2}^{2} f(x)dx$ equals",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\frac{15}{6}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\frac{19}{6}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "21",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "17",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Based on the answer key, Q7 correct option is (4) corresponding to D.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $m$ be the number of points of discontinuity and $n$ be the number of points of non-differentiability of $f(x) = |2x^2 + 5|x| - 3|$, then $m + n$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$f(x) = |2x^2 + 5|x| - 3|$\\nGraph of $y = 12x^2 + 5x - 3$\\nNumber of points of discontinuity = $0 = m$\\nNumber of points of non-differentiability = $3 = n$\\n$m + n = 3$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f : (0, 2) \\to \\mathbb{R}$ be defined as $f(x) = \\frac{x}{2} + \\frac{2}{x}$ and $g(x) = \\begin{cases} \\frac{x}{2} + \\frac{2}{x} & 0 < x \\le 1 \\\\ \\frac{3}{2} + x & 1 < x < 2 \\end{cases}$, then which of the following is true?",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$f$ and $g$ are both continuous",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$f$ is continuous, $g$ is discontinuous",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$f$ is discontinuous, $g$ is continuous",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Neither is continuous",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$f : (0, 2) \\to R; f(x) = \\frac{x}{2} + \\frac{2}{x}$\\n$f'(x) = \\frac{1}{2} - \\frac{2}{x^2}$\\n$\\therefore f(x)$ is decreasing in domain.\\n$g(x) = \\begin{cases} \\frac{x}{2} + \\frac{2}{x} & 0 < x \\le 1 \\\\ \\frac{3}{2} + x & 1 < x < 2 \\end{cases}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f(x) = \\begin{cases} x^2 + 3x + 3, & x \\le 1 \\\\ px + q, & x > 1 \\end{cases}$. If $f$ is differentiable everywhere, then $\\int_{-2}^{2} f(x) dx$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$15$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$16$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$17$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$18$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$f$ is continuous\\n$f'(x) = 2x + 3, x < 1$\\n$4 + a = b + 2 \\Rightarrow a = b - 2$\\n$b, x > 1$\\n$a = b - 2$\\n$f$ is differentiable\\n$\\therefore b = 5$\\n$\\therefore a = 3$\\n$\\int_{-2}^{1} (x^2 + 3x + 3) dx + \\int_{1}^{2} (5x + 2) dx$\\n$= \\left[\\frac{x^3}{3} + \\frac{3x^2}{2} + 3x\\right]_{-2}^{1} + \\left[\\frac{5x^2}{2} + 2x\\right]_{1}^{2}$\\n$= \\left(\\frac{1}{3} + \\frac{3}{2} + 3\\right) - \\left(\\frac{-8}{3} + 6 - 6\\right) + \\left(10 + 4 - \\frac{5}{2} - 2\\right)$\\n$= 6 + \\frac{3}{2} + 12 - \\frac{5}{2} = 17$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f : (0, \\infty) \\to \\mathbb{R}$ be defined as $f(x) = e^{-|\\log_e x|}$. Let $m$ be the number of points where $f$ is not continuous and $n$ be the number of points where $f$ is not differentiable. Then $m + n$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$3$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$f : (0, \\infty) \\to R$\\n$f(x) = e^{-|\\log_e x|}$\\n$f(x) = \\begin{cases} \\frac{1}{e^{-\\ln x}} ; 0 < x < 1 \\\\ \\frac{1}{e^{\\ln x}} ; x \\ge 1 \\end{cases} = \\begin{cases} \\frac{1}{x} ; 0 < x < 1 \\\\ \\frac{1}{x} ; x \\ge 1 \\end{cases}$\\n$m = 0$ (No point at which function is not continuous)\\n$n = 1$ (Not differentiable)\\n$\\therefore m + n = 1$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f(x) = \\begin{cases} \\frac{ax^2+2ax+3}{4x^2+4x-3}, & x \\neq -\\frac{3}{2}, \\frac{1}{2} \\\\ b, & x = -\\frac{3}{2}, \\frac{1}{2} \\end{cases}$ be continuous at $x = -\\frac{3}{2}$. If $f \\circ f(x) = \\frac{7}{5}$, then $x$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$4x^2 + 4x - 3 = (2x + 3)(2x - 1)$. For continuity at $x = -3/2$, numerator must vanish there: $a(9/4) - 3a + 3 = 0 \\Rightarrow a = 4$. $f(x) = \\frac{(2x+1)(2x+3)}{(2x+3)(2x-1)} = \\frac{2x+1}{2x-1}$ for $x \\neq -3/2$. $f \\circ f(x) = f\\left(\\frac{2x+1}{2x-1}\\right) = \\frac{6x+1}{2x+3}$. $\\frac{6x+1}{2x+3} = \\frac{7}{5} \\Rightarrow 30x + 5 = 14x + 21 \\Rightarrow x = 1$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $f(x) = \\begin{cases} \\frac{a|x| + x^2 - 2(\\sin |x|)(\\cos |x|)}{x}, & x \\neq 0 \\\\ b, & x = 0 \\end{cases}$ is continuous at $x = 0$, then $a + b$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Note $2 \\sin |x| \\cos |x| = \\sin(2|x|)$. For $x > 0$: $f(x) = a + x - \\frac{\\sin 2x}{x} \\xrightarrow{x \\to 0^+} a - 2$. For $x < 0$: $f(x) = -a + x + \\frac{\\sin 2x}{x} \\xrightarrow{x \\to 0^-} -a + 2$. For continuity: $a - 2 = 2 - a \\Rightarrow a = 2$, and $b = a - 2 = 0$. $a + b = 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f(x) = \\begin{cases} [4x^2 - 8x + 5], & \\text{if } 8x^2 - 6x + 1 \\ge 0 \\\\ [4x^2 - 8x + 5], & \\text{if } 8x^2 - 6x + 1 < 0 \\end{cases}$, where $[\\alpha]$ denotes the greatest integer less than or equal to $\\alpha$. Then the number of points in $\\mathbb{R}$ where $f$ is not differentiable is _______.",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "ND at $\\frac{1}{4}, x_1, \\frac{1}{2}$. Total points = 3.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $f(x) = \\begin{cases} x + a, & x \\le 0 \\\\ |x - 4|, & x > 0 \\end{cases}$ and $g(x) = \\begin{cases} x + 1, & x < 0 \\\\ (x - 4)^2 + b, & x \\ge 0 \\end{cases}$ are continuous on $\\mathbb{R}$, then $(gof)(2) + (fog)(-2)$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "-10",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "10",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "8",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "-8",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$f(x) = \\begin{cases} x + a, & x \\le 0 \\\\ |x - 4|, & x > 0 \\end{cases}$, $g(x) = \\begin{cases} x + 1, & x < 0 \\\\ (x - 4)^2 + b, & x \\ge 0 \\end{cases}$. For continuity $a = 4$ and $b = -15$. $g(f(2)) + f(g(-2)) = g(2) + f(-1) = -8$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If for $p \\neq q \\neq 0$, then function $f(x) = \\frac{\\sqrt[7]{p(729 + x)} - 3}{\\sqrt[3]{729 + qx} - 9}$ is continuous at $x = 0$, then:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$7pq \\, f(0) - 1 = 0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$63q \\, f(0) - p^2 = 0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$21q \\, f(0) - p^2 = 0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$7pq \\, f(0) - 9 = 0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since $f(x)$ is continuous at $x = 0$, $f(0) = \\lim_{x \\to 0} \\frac{\\sqrt[7]{p(729 + x)} - 3}{\\sqrt[3]{729 + qx} - 9} = \\frac{p^2}{63q} \\implies 63q \\, f(0) - p^2 = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Consider the function $f(x) = \\begin{cases} \\frac{-\\sin(x-1)}{x-1} & x < -1 \\ -(-\\sin 2 + 1) & x = -1 \\ \\cos 2\\pi x & -1 < x < 1 \\ 1 & x = 1 \\ \\frac{-\\sin(x-1)}{x-1} & x > 1 \\ \\text{find points of discontinuity.} \\end{cases}$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "Discontinuous at x = -1 only",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "Discontinuous at x = -1 and x = 1",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Continuous everywhere",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Discontinuous at x = 1 only",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Evaluating limits at $x = -1$ and $x = 1$ reveals that $f(x)$ is discontinuous at both $x = -1$ and $x = 1$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f(x) = \\begin{cases} \\frac{\\ln(1+5x) - \\ln(1+\\alpha x)}{x} & ; x \\neq 0 \\ 10 & ; x = 0 \\end{cases}$ be continuous at $x=0$, find $\\alpha$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "0",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "-5",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "10",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Using series expansion for $\\ln(1+x)$: $\\lim_{x \\to 0} \\frac{(5x + \\dots) - (\\alpha x + \\dots)}{x} = 10 \\implies 5 - \\alpha = 10 \\implies \\alpha = -5$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Evaluate $\\lim_{x \\to 2} \\frac{3^x + 3^{x-1} - 12}{3^{\\frac{-x}{2}} - 3^{1-x}}$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Put $3^{\\frac{x}{2}} = t$. Then the given expression becomes:\\n$\\lim_{t \\to 3} \\frac{t^4 + \\frac{t^4}{3} - 12}{\\frac{1}{t^2} - \\frac{3}{t}} = \\lim_{t \\to 3} \\frac{4(t^2 - 9)t^2}{3(-3 + t)} = \\lim_{t \\to 3} \\frac{4t^2(3 + t)}{3} = \\frac{4 \\times 9 \\times 6}{3} = 72$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\lim_{x \\to 0} \\left(\\frac{3x^2 + 2}{7x^2 + 2}\\right)^{\\frac{1}{x^2}}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$e^{-2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$e^2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$e^{2/7}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$e^{3/7}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let $L = \\lim_{x \\to 0} \\left(\\frac{3x^2 + 2}{7x^2 + 2}\\right)^{\\frac{1}{x^2}} = e^{\\lim_{x \\to 0} \\frac{1}{x^2} \\left(\\frac{3x^2 + 2}{7x^2 + 2} - 1\\right)} = e^{\\lim_{x \\to 0} \\frac{1}{x^2} \\left(\\frac{-4x^2}{7x^2 + 2}\\right)} = e^{\\frac{-4}{2}} = e^{-2}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f : \\mathbf{R} \\rightarrow \\mathbf{R}$ be a function defined as\n$$f(x) = \\begin{cases} 5, & \\text{if } x \\le 1 \\\\ a + bx, & \\text{if } 1 < x < 3 \\\\ b + 5x, & \\text{if } 3 \\le x < 5 \\\\ 30, & \\text{if } x \\ge 5 \\end{cases}$$\nThen, $f$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "continuous if $a = 5$ and $b = 5$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "continuous if $a = -5$ and $b = 10$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "continous if $a = 0$ and $b = 5$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "not continuous for any values of $a$ and $b$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let $f(x)$ is continuous at $x = 1$, then $f(1^-) = f(1) = f(1^+) \\implies 5 = a + b \\quad ...(1)$\nLet $f(x)$ is continuous at $x = 3$, then $f(3^-) = f(3) = f(3^+) \\implies a + 3b = b + 15 \\quad ...(2)$\nLet $f(x)$ is continuous at $x = 5$, then $f(5^-) = f(5) = f(5^+) \\implies b + 25 = 30 \\implies b = 30 - 25 = 5$\nFrom (1), $a = 0$. But $a = 0, b = 5$ do not satisfy equation (2).\nHence, $f(x)$ is not continuous for any values of $a$ and $b$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f(x) = \\begin{cases} \\max \\{|x|, x^2\\} & |x| \\le 2 \\\\ 8 - 2|x|, & 2 < |x| \\le 4 \\end{cases}$\nLet $S$ be the set of points in the interval $(-4, 4)$ at which $f$ is not differentiable. Then S:",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "is an empty set",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "equals $\\{-2, -1, 0, 1, 2\\}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "equals $\\{-2, -1, 1, 2\\}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "equals $\\{-2, 2\\}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "From the graph, $f(x)$ is not differentiable at $-2, -1, 0, 1$ and $2$.\n$\\therefore S = \\{-2, -1, 0, 1, 2\\}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let K be the set of all real values of $x$ where the function $f(x) = \\sin |x| - |x| + 2(x - \\pi) \\cos |x|$ is not differentiable. Then the set K is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\phi$ (an empty set)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\{\\pi\\}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\{0\\}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\{0, \\pi\\}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$f(x) = \\sin |x| - |x| + 2(x - \\pi) \\cos |x|$\nCase (1), $x > 0$: $f(x) = \\sin x - x + 2(x - \\pi) \\cos x \\implies f'(x) = \\cos x - 1 + 2(1 - 0) \\cos x - 2 \\sin(x - \\pi) = 3 \\cos x - 2(x - \\pi) \\sin x - 1$. Function $f(x)$ is differentiable for all $x > 0$.\nCase (2), $x < 0$: $f(x) = -\\sin x + x + 2(x - \\pi) \\cos x \\implies f'(x) = -\\cos x + 1 - 2(x - \\pi) \\sin x + 2 \\cos x = \\cos x + 1 - 2(x - \\pi) \\sin x$. Function $f(x)$ is differentiable for all $x < 0$.\nCheck for $x = 0$: $f'(0^+) = 3 - 1 = 2$, $f'(0^-) = 1 + 1 = 2 \\implies \\text{L.H.D.} = \\text{R.H.D.}$, so differentiable everywhere. Hence, $K = \\phi$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\lim_{y \\to 0} \\frac{\\sqrt{1 + \\sqrt{1 + y^4}} - \\sqrt{2}}{y^4}$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "exists and equals $\\frac{1}{4\\sqrt{2}}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "exists and equals $\\frac{1}{2\\sqrt{2}(\\sqrt{2} + 1)}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "exists and equals $\\frac{1}{2\\sqrt{2}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "does not exist",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$L = \\lim_{y \\to 0} \\frac{\\sqrt{1 + \\sqrt{1 + y^4}} - \\sqrt{2}}{y^4} \\times \\frac{\\sqrt{1 + \\sqrt{1 + y^4}} + \\sqrt{2}}{\\sqrt{1 + \\sqrt{1 + y^4}} + \\sqrt{2}} = \\lim_{y \\to 0} \\frac{1 + \\sqrt{1 + y^4} - 2}{y^4(\\sqrt{1 + \\sqrt{1 + y^4}} + \\sqrt{2})} = \\lim_{y \\to 0} \\frac{\\sqrt{1 + y^4} - 1}{y^4(\\sqrt{1 + \\sqrt{1 + y^4}} + \\sqrt{2})} \\times \\frac{\\sqrt{1 + y^4} + 1}{\\sqrt{1 + y^4} + 1} = \\lim_{y \\to 0} \\frac{1 + y^4 - 1}{y^4(\\sqrt{1 + \\sqrt{1 + y^4}} + \\sqrt{2})(\\sqrt{1 + y^4} + 1)} = \\frac{1}{2\\sqrt{2} \\times 2} = \\frac{1}{4\\sqrt{2}}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "For each $x \\in \\mathbb{R}$, let $[x]$ be greatest integer less than or equal to $x$. Then $\\lim_{x \\to 0} \\frac{x([x] + |x|) \\sin [x]}{x}$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-\\sin 1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\sin 1$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Evaluating LHL: $\\lim_{x \\to 0^-} \\frac{x([x] + |x|)\\sin[x]}{|x|} = \\lim_{h \\to 0} \\frac{(0-h)([0-h] + |0-h|)\\sin[0-h]}{|0-h|} = \\lim_{h \\to 0} \\frac{(-h)(-1 + h)\\sin(-1)}{h} = \\lim_{h \\to 0} (1-h)\\sin(-1) = -\\sin 1$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f$ be a differentiable function such that $f'(x) = 7 - \\frac{3}{4} \\frac{f(x)}{x}$, $(x > 0)$ and $f(1) \\neq 4$. Then $\\lim_{x \\to 0^+} xf\\left(\\frac{1}{x}\\right)$:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "exists and equals $\\frac{4}{7}$.",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "exists and equals $4$.",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "does not exist.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "exists and equals $0$.",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let $y = f(x) \\implies \\frac{dy}{dx} + \\left(\\frac{3}{4x}\\right)y = 7$. Integrating factor $I.F. = e^{\\int \\frac{3}{4x} dx} = e^{\\frac{3}{4}\\ln x} = x^{3/4}$. Solution: $y \\cdot x^{3/4} = \\int 7 \\cdot x^{3/4} dx + C \\implies y \\cdot x^{3/4} = 7 \\cdot \\frac{x^{7/4}}{7/4} + C = 4x^{7/4} + C \\implies y = 4x + Cx^{-3/4} \\implies f\\left(\\frac{1}{x}\\right) = \\frac{4}{x} + Cx^4 \\implies \\lim_{x \\to 0^+} x \\cdot f\\left(\\frac{1}{x}\\right) = \\lim_{x \\to 0^+} \\left(4 + Cx^4\\right) = 4$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\lim_{x \\to 0} \\frac{x \\cot(4x)}{\\sin^2 x \\cot^2(2x)}$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$\\lim_{x \\to 0} \\frac{x \\cot 4x}{\\sin^2 x \\cot^2 2x} = \\lim_{x \\to 0} \\frac{x \\tan^2 2x}{\\sin^2 x \\tan 4x} = \\lim_{x \\to 0} \\left(\\frac{x}{\\sin x}\\right)^2 \\left(\\frac{\\tan 2x}{2x}\\right)^2 \\left(\\frac{4x}{\\tan 4x}\\right) \\frac{4}{2^2} = 1$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\lim_{x \\to 0} \\frac{\\sin^2 x}{\\sqrt{2} - \\sqrt{1 + \\cos x}}$ equals :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\lim_{x \\to 0} \\frac{\\sin^2 x}{\\sqrt{2} - \\sqrt{2\\cos^2 \\frac{x}{2}}} = \\lim_{x \\to 0} \\frac{\\sin^2 x}{\\sqrt{2}\\left(1 - \\cos \\frac{x}{2}\\right)} = \\lim_{x \\to 0} \\frac{\\sin^2 x}{2\\sqrt{2} \\sin^2 \\frac{x}{4}} = \\lim_{x \\to 0} \\frac{\\left(\\frac{\\sin x}{x}\\right)^2 \\cdot 16}{2\\sqrt{2} \\left(\\frac{\\sin \\frac{x}{4}}{\\frac{x}{4}}\n\\right)^2} = \\frac{16}{2\\sqrt{2}} = 4\\sqrt{2}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $f : \\mathbb{R} \\to \\mathbb{R}$ is a differentiable function and $f(2) = 6$, then $\\lim_{x \\to 2} \\int_{6}^{\\frac{f(x)}{x}} \\frac{2t \\, dt}{(x - 2)}$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$24 f'(2)$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2 f'(2)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$12 f'(2)$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Using L' Hospital rule and Leibniz theorem: $\\lim_{x \\to 2} \\frac{2 \\left(\\frac{f(x)}{x}\\right) \\cdot \\frac{f'(x)x - f(x)}{x^2}}{1} = \\frac{2 \\left(\\frac{f(2)}{2}\\right) \\cdot \\frac{f'(2)(2) - f(2)}{4} \\dots$ wait, simplifying: $\\lim_{x \\to 2} \\frac{2 \\frac{f(x)}{x} \\left(\\frac{f'(x)x - f(x)}{x^2}\\right)}{1} = 2 \\left(\\frac{6}{2}\\right) \\left(\\frac{2f'(2) - 6}{4}\\right)$... Wait, simpler: $\\lim_{x \\to 2} \\frac{2 \\frac{f(x)}{x} \\left(\\frac{f'(x)x - f(x)}{x^2}\\right)}{1} = \\dots = 12f'(2)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\lim_{x \\to 1} \\frac{x^4 - 1}{x - 1} = \\lim_{x \\to k} \\frac{x^3 - k^3}{x^2 - k^2}$, then $k$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{8}{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{3}{8}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{3}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{4}{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\lim_{x \\to 1} (x^3+x^2+x+1) = \\lim_{x \\to k} \\frac{(x-k)(x^2+kx+k^2)}{(x-k)(x+k)} \\implies 4 = \\frac{3k^2}{2k} = \\frac{3k}{2} \\implies k = \\frac{8}{3}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\lim_{x \\to 0} \\frac{x + 2\\sin x}{\\sqrt{x^2 + 2\\sin x + 1} - \\sqrt{\\sin^2 x - x + 1}}$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Using rationalization or series expansion.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\lim_{x \\to 1} \\frac{x^4-1}{x-1} = \\lim_{x \\to K} \\frac{x^3-K^3}{x^2-K^2}$, then the value of $K$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-\\frac{8}{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{3}{8}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{8}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-\\frac{3}{8}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given $\\lim_{x \\to 1} \\frac{x^4-1}{x-1} = \\lim_{x \\to K} \\frac{x^3-K^3}{x^2-K^2}$. Taking L.H.S. $\\lim_{x \\to 1} \\frac{x^4-1}{x-1}$ ($0/0$ form). Using L Hospital's Rule: $\\lim_{x \\to 1} \\frac{4x^3}{1} = 4$. Therefore, $\\lim_{x \\to K} \\frac{x^3-K^3}{x^2-K^2} = 4$. Using L Hospital's Rule again: $\\lim_{x \\to K} \\frac{3x^2}{2x} = 4 \\implies \\frac{3}{2}K = 4 \\implies K = \\frac{8}{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\lim_{x \\to 1} \\frac{x^2-ax+b}{x-1} = 5$, then the value of $a+b$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$7$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-7$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-5$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$5$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given $\\lim_{x \\to 1} \\frac{x^2-ax+b}{x-1} = 5$. Since limit is finite and denominator approaches 0, numerator must approach 0 at $x=1$. Thus, $1-a+b=0$. Using L Hospital's rule: $\\lim_{x \\to 1} \\frac{2x-a}{1} = 5 \\implies 2-a=5 \\implies a=-3$. Then $b = a-1 = -4$. Therefore, $a+b = -3-4=-7$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\lim_{y \\to 0} \\frac{\\sqrt{1+\\sqrt{1+y^4}}-\\sqrt{2}}{y^4}$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "exists and equals $\\frac{1}{4\\sqrt{2}}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "exists and equals $\\frac{1}{2\\sqrt{2}(\\sqrt{2}+1)}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "exists and equals $\\frac{1}{2\\sqrt{2}}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "does not exist",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$L = \\lim_{y \\to 0} \\frac{\\sqrt{1+\\sqrt{1+y^4}}-\\sqrt{2}}{y^4} \\times \\frac{\\sqrt{1+\\sqrt{1+y^4}}+\\sqrt{2}}{\\sqrt{1+\\sqrt{1+y^4}}+\\sqrt{2}} = \\lim_{y \\to 0} \\frac{1+\\sqrt{1+y^4}-2}{y^4(\\sqrt{1+\\sqrt{1+y^4}}+\\sqrt{2})} = \\lim_{y \\to 0} \\frac{\\sqrt{1+y^4}-1}{y^4(\\sqrt{1+\\sqrt{1+y^4}}+\\sqrt{2})} \\times \\frac{\\sqrt{1+y^4}+1}{\\sqrt{1+y^4}+1} = \\lim_{y \\to 0} \\frac{1+y^4-1}{y^4(\\sqrt{1+\\sqrt{1+y^4}}+\\sqrt{2})(\\sqrt{1+y^4}+1)} = \\frac{1}{2\\sqrt{2} \\times 2} = \\frac{1}{4\\sqrt{2}}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "For each $x \\in \\mathbb{R}$, let $[x]$ be greatest integer less than or equal to $x$. Then $\\lim_{x \\to 0} \\frac{x([x] + |x|) \\sin[x]}{x}$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-\\sin 1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\sin 1$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Evaluating Left Hand Limit (since the question uses $[x]$ and can be analyzed around $x \\to 0^-$):\n$\\lim_{x \\to 0^-} \\frac{x([x]+|x|)\\sin[x]}{|x|} = \\lim_{h \\to 0} \\frac{(0-h)([0-h]+|0-h|)\\sin[0-h]}{|0-h|} = \\lim_{h \\to 0} \\frac{(-h)(-1+h)\\sin(-1)}{h} = \\lim_{h \\to 0} (1-h)\\sin(-1) = -\\sin 1$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f$ be a differentiable function such that $f'(x) = 7 - \\frac{3}{4} \\frac{f(x)}{x}$, $(x > 0)$ and $f(1) \\neq 4$. Then $\\lim_{x \\to 0^+} x f\\left(\\frac{1}{x}\\right)$:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "exists and equals $\\frac{4}{7}$.",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "exists and equals $4$.",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "does not exist.",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "exists and equals $0$.",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Given $\\frac{dy}{dx} + \\left(\\frac{3}{4x}\\right)y = 7$. Integrating Factor (I.F.) $= e^{\\int \\frac{3}{4x} dx} = e^{\\frac{3}{4}\\ln x} = x^{3/4}$.\nSolution of differential equation: $y \\cdot x^{3/4} = \\int 7 \\cdot x^{3/4} dx + C = 7 \\cdot \\frac{x^{7/4}}{7/4} + C = 4x^{7/4} + C$\n$y = 4x + Cx^{-3/4} \\implies f\\left(\\frac{1}{x}\\right) = \\frac{4}{x} + C x^{3/4}$.\n$\\lim_{x \\to 0^+} x \\cdot f\\left(\\frac{1}{x}\\right) = \\lim_{x \\to 0^+} \\left(4 + C x^4\\right) = 4$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\lim_{x \\to 0} \\frac{x \\cot(4x)}{\\sin^2 x \\cot^2 (2x)}$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$\\lim_{x \\to 0} \\frac{x \\cot 4x}{\\sin^2 x \\cot^2 2x} = \\lim_{x \\to 0} \\frac{x \\tan^2 2x}{\\sin^2 x \\tan 4x} = \\lim_{x \\to 0} \\left(\\frac{x}{\\sin x}\\right)^2 \\left(\\frac{\\tan 2x}{2x}\\right)^2 \\left(\\frac{4x}{\\tan 4x}\\right) \\frac{4}{2^2} = 1$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\lim_{x \\to \\frac{\\pi}{4}} \\frac{\\text{cot}^3 x - \\tan x}{\\cos\\left(x + \\frac{\\pi}{4}\\right)}$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$4\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$8\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$8$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$\\lim_{x \\to \\frac{\\pi}{4}} \\frac{\\cot^3 x (1 - \\frac{\\tan x}{\\cot^3 x})}{\\cos(x+\\frac{\\pi}{4})} = \\lim_{x \\to \\frac{\\pi}{4}} \\frac{1 - \\tan^4 x}{\\tan^3 x \\cos(x+\\frac{\\pi}{4})} = \\lim_{x \\to \\frac{\\pi}{4}} \\frac{(1+\\tan^2 x)(1-\\tan x)(1+\\tan x)}{\\tan^3 x \\left(\\frac{\\cos x - \\sin x}{\\sqrt{2}}\\right)} = \\frac{(2)(2)(1)}{1 \\cdot (\\frac{1}{\\sqrt{2}})(\\frac{1}{\\sqrt{2}})} = 8$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\lim_{x \\to 0} \\frac{\\sin^2 x}{\\sqrt{2} - \\sqrt{1 + \\cos x}}$ equals:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rationalize the denominator: $\\lim_{x \\to 0} \\frac{\\sin^2 x (\\sqrt{2} + \\sqrt{1+\\cos x})}{2 - (1+\\cos x)} = \\lim_{x \\to 0} \\frac{\\sin^2 x (\\sqrt{2} + \\sqrt{2})}{1 - \\cos x} = \\lim_{x \\to 0} \\frac{2\\sqrt{2} \\sin^2 x}{2 \\sin^2 (x/2)} = \\lim_{x \\to 0} 2\\sqrt{2} \\left(\\frac{\\sin x}{x}\\right)^2 \\frac{1}{(\\sin(x/2)/(x/2))^2 \\cdot \\frac{1}{4}} = 4\\sqrt{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\lim_{x \\to 1} \\frac{x^4 - 1}{x - 1} = \\lim_{x \\to K} \\frac{x^3 - K^3}{x^2 - K^2}$, then find the value of $K$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{8}{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{3}{8}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $\\lim_{x \\to 1} \\frac{x^4 - 1}{x - 1} = \\lim_{x \\to K} \\frac{x^3 - K^3}{x^2 - K^2}$. Taking L.H.S., $\\lim_{x \\to 1} \\frac{x^4 - 1}{x - 1} \\left(\\frac{0}{0}\\text{ form}\\right)$. Using L Hospital's Rule, $\\lim_{x \\to 1} \\frac{4x^3}{1} = 4$. Therefore, $\\lim_{x \\to K} \\frac{x^3 - K^3}{x^2 - K^2} = 4$. Applying L Hospital's Rule on R.H.S., $\\lim_{x \\to K} \\frac{3x^2}{2x} = 4 \\implies \\frac{3}{2}K = 4 \\implies K = \\frac{8}{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\lim_{x \\to 1} \\frac{x^2 - ax + b}{x - 1} = 5$, then the value of $a + b$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$7$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-7$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$-5$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since the limit is finite and the denominator approaches $0$ as $x \\to 1$, the numerator must also approach $0$ at $x = 1$. Thus, $1 - a + b = 0$. Using L Hospital's rule, $\\lim_{x \\to 1} \\frac{2x - a}{1} = 5 \\implies 2 - a = 5 \\implies a = -3$. Then $b = a - 1 = -4$. Therefore, $a + b = -3 - 4 = -7$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the value of $\\lim_{x \\to 0} (2 - \\cos x \\sqrt{\\cos 2x})^{\\left(\\frac{x+2}{x^2}\\right)}$ is equal to $e^n$, then $a$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Form: $1^\\infty$\n$= e^{\\lim_{x \\to 0} \\left(\\frac{1 - \\cos x \\sqrt{\\cos 2x}}{x^2}\\right) \\times (x+2)}$\nNow $\\lim_{x \\to 0} \\frac{1 - \\cos x \\sqrt{\\cos 2x}}{x^2}$\n$= \\lim_{x \\to 0} \\frac{\\sin x \\sqrt{\\cos 2x} - \\cos x \\times \\frac{1}{2\\sqrt{\\cos 2x}} \\times (-2 \\sin 2x)}{2x}$\n(by L'Hospital Rule)\n$\\lim_{x \\to 0} \\frac{\\sin x \\cos 2x + \\sin 2x \\cdot \\cos x}{2x}$\n$= \\frac{1}{2} + 1 = \\frac{3}{2}$\nSo, $e^{\\lim_{x \\to 0} \\left(\\frac{1 - \\cos x \\sqrt{\\cos 2x}}{x^2}\\right) (x+2)}$\n$= e^{\\frac{3}{2} \\times 2} = e^3$\n$\\Rightarrow a = 3$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $f: \\mathbf{R} \\to \\mathbf{R}$ is given by $f(x) = x + 1$, then the value of $\\lim_{n \\to \\infty} \\frac{1}{n} \\left[f(0) + f\\left(\\frac{5}{n}\\right) + f\\left(\\frac{10}{n}\\right) + \\dots \\dots + f\\left(\\frac{5(n-1)}{n}\\right)\\right]$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{3}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{5}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{7}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$I = \\sum_{r=0}^{n-1} f\\left(\\frac{5r}{n}\\right) \\frac{1}{n}$\n$I = \\int_{0}^{1} f(5x) \\mathrm{d}x$\n$I = \\int_{0}^{1} (5x + 1) \\mathrm{d}x$\n$I = \\left[ \\frac{5x^2}{2} + x \\right]_{0}^{1}$\n$I = \\frac{5}{2} + 1 = \\frac{7}{2}$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f(x) = x^6 + 2x^4 + x^3 + 2x + 3, x \\in \\mathbb{R}$. Then the natural number $n$ for which $\\lim_{x \\to 1} \\frac{x^n f(1) - f(x)}{x-1} = 44$ is.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "6",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "7",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "8",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$f(n) = x^6 + 2x^4 + x^3 + 2x + 3$ (Note: typo in solution sheet header, actual function is $f(x)$)\n$\\lim_{x \\to 1} \\frac{x^n f(1) - f(x)}{x - 1} = 44$\n$\\lim_{x \\to 1} \\frac{9x^n - (x^6 + 2x^4 + x^3 + 2x + 3)}{x - 1} = 44$\nUsing L'Hopital rule:\n$\\lim_{x \\to 1} \\frac{9nx^{n-1} - (6x^5 + 8x^3 + 3x^2 + 2)}{1} = 44$\n$\\Rightarrow 9n - (19) = 44$\n$\\Rightarrow 9n = 63$\n$\\Rightarrow n = 7$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\lim_{x \\to \\infty} (\\sqrt{x^2 - x + 1} - ax) = b$, then the ordered pair $(a, b)$ is:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$(1, \\frac{1}{2})$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(1, -\\frac{1}{2})$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(-1, \\frac{1}{2})$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$(-1, -\\frac{1}{2})$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$\\lim_{x \\to \\infty} (\\sqrt{x^2 - x + 1} - ax) = b$ ($\\infty - \\infty$ form)\n$\\Rightarrow a > 0$\nNow, $\\lim_{x \\to \\infty} \\frac{(x^2 - x + 1 - a^2 x^2)}{\\sqrt{x^2 - x + 1} + ax} = b$\n$\\Rightarrow \\lim_{x \\to \\infty} \\frac{(1-a^2)x^2 - x + 1}{\\sqrt{x^2 - x + 1} + ax} = b$\n$\\Rightarrow 1 - a^2 = 0 \\Rightarrow a = 1$\nNow, $\\lim_{x \\to \\infty} \\frac{-x + 1}{x(\\sqrt{1 - \\frac{1}{x} + \\frac{1}{x^2}} + a)} = b$\n$\\Rightarrow \\frac{-1}{1+a} = b \\Rightarrow b = -\\frac{1}{2}$\n$(a, b) = (1, -\\frac{1}{2})$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\lim_{x \\to 2} \\left( \\sum_{n=1}^{9} \\frac{x}{n(n+1)x^2 + 2(2n+1)x+4} \\right)$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{9}{44}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{5}{24}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{5}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{7}{36}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "See Answer Key Q7 (1).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\lim_{x \\to \\frac{1}{\\sqrt{2}}} \\frac{\\sin(\\cos^{-1} x) - x}{1 - \\tan(\\cos^{-1} x)}$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\sqrt{2}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "-\\sqrt{2}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\frac{1}{\\sqrt{2}}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "-\\frac{1}{\\sqrt{2}}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Substitute $\\cos^{-1} x = \\theta$, so $\\cos \\theta = x$. Then $\\sin(\\cos^{-1} x) = \\sqrt{1-x^2}$ and $\\tan(\\cos^{-1} x) = \\frac{\\sqrt{1-x^2}}{x}$. The expression becomes $\\lim_{x \\to \\frac{1}{\\sqrt{2}}} \\frac{\\sqrt{1-x^2} - x}{1 - \\frac{\\sqrt{1-x^2}}{x}} = \\lim_{x \\to \\frac{1}{\\sqrt{2}}} (-x) = -\\frac{1}{\\sqrt{2}}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\lim_{x \\to 0} \\frac{\\cos(\\sin x) - \\cos x}{x^4}$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\frac{1}{3}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\frac{1}{4}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\frac{1}{6}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\frac{1}{12}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Using series expansions or L'Hopital's rule, $\\cos(\\sin x) - \\cos x \\approx \\cos(x - \\frac{x^3}{6}) - (1 - \\frac{x^2}{2} + \\frac{x^4}{24}) \\approx \\frac{x^4}{6}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $a$ be an integer such that $\\lim_{x \\to 7} \\frac{18 - [1-x]}{[x-3a]}$ exists, where $[t]$ is greatest integer $\\le t$. Then $a$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "-6",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "-2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "6",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Evaluate the limit by checking left-hand and right-hand limits as $x \\to 7$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The value of $\\lim_{x \\to 1} \\frac{(x^2 - 1) \\sin^2(\\pi x)}{x^4 - 2x^3 + 2x - 1}$ is equal to:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\frac{\\pi^2}{6}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\frac{\\pi^2}{3}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\frac{\\pi^2}{2}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\pi^2",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Factorize both numerator and denominator and evaluate the limit using standard limits for trigonometric functions.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Evaluate the limit: $\\lim_{x \\to 0} \\frac{\\cos(\\sin x) - \\cos x}{x^4}$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\frac{1}{6}",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\frac{1}{3}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\frac{1}{2}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\frac{1}{4}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Apply L-Hopital Rule multiple times or use standard expansions: $\\lim_{x \\to 0} \\frac{2x - 2\\sin x \\cos x}{2.4x^3} = \\lim_{x \\to 0} \\frac{2x - \\sin 2x}{8x^3} \\to \\frac{0}{0}$. Again apply L-Hopital rule: $\\lim_{x \\to 0} \\frac{2 - 2\\cos(2x)}{8(3)x^2} = \\lim_{x \\to 0} \\frac{2(1 - \\cos(2x))}{24(x^2)} \\times \\frac{2}{24} \\times \\frac{1}{4} \\times 4 \\Rightarrow \\frac{1}{6}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Evaluate the limit involving greatest integer function: $\\lim_{x \\to 7} \\frac{18 - [1-x]}{[x] - 3a}$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "4",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "6",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "L.H.L. at $x \\to 7^-$: $\\lim_{x \\to 7^-} \\frac{18 - [1-x]}{[x] - 3a} = \\frac{18 - (-6)}{6 - 3a} = \\frac{24}{6 - 3a}$. R.H.L. at $x \\to 7^+$: $\\lim_{x \\to 7^+} \\frac{18 - [1-x]}{[x] - 3a} = \\frac{18 - (-7)}{7 - 3a} = \\frac{25}{7 - 3a}$. Now L.H.L. = R.H.L. $\\Rightarrow \\frac{24}{6 - 3a} = \\frac{25}{7 - 3a} \\Rightarrow 168 - 72a = 150 - 75a \\Rightarrow 18 = -3a \\Rightarrow a = -6$ (Wait, solving gives $18 = 3a \\Rightarrow a = 6$).",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Evaluate the limit: $\\lim_{x \\to 1} \\frac{(x^2-1)\\sin^2 \\pi x}{(x^2-1)(x-1)^2}$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "\\pi",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2\\pi",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\frac{\\pi^2}{2}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\pi^2",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$\\lim_{x \\to 1} \\frac{(x^2-1)\\sin^2 \\pi x}{(x^2-1)(x-1)^2} = \\lim_{x \\to 1} \\left(\\frac{\\sin((1-x)\\pi)}{\\pi(1-x)}\\right)^2 \\pi^2 = \\pi^2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\lim_{n\\to\\infty}\\left( \\left(2^{\\frac{1}{2}}-2^{\\frac{1}{3}}\\right)\\left(2^{\\frac{1}{2}}-2^{\\frac{1}{5}}\\right)\\dots\\left(2^{\\frac{1}{2}}-2^{\\frac{1}{2n+1}}\\right) \\right)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{\\sqrt{2}}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let $L = \\lim_{n\\to\\infty}\\left\\{\\left(2^{\\frac{1}{2}}-2^{\\frac{1}{3}}\\right)\\left(2^{\\frac{1}{2}}-2^{\\frac{1}{5}}\\right)\\dots\\left(2^{\\frac{1}{2}}-2^{\\frac{1}{2n+1}}\\right)\\right\\}$. Now, $2^{\\frac{1}{2}}-2^{\\frac{1}{3}} < 1$, $2^{\\frac{1}{2}}-2^{\\frac{1}{5}} < 1$, ..., $2^{\\frac{1}{2}}-2^{\\frac{1}{2n+1}} < 1$ $\\forall n \\in \\mathbb{N}$. And $\\left(2^{\\frac{1}{2}}-2^{\\frac{1}{3}}\\right)^n < \\left(2^{\\frac{1}{2}}-2^{\\frac{1}{3}}\\right)\\left(2^{\\frac{1}{2}}-2^{\\frac{1}{5}}\\right)\\dots\\left(2^{\\frac{1}{2}}-2^{\\frac{1}{2n+1}}\\right) < \\left(2^{\\frac{1}{2}}-2^{\\frac{1}{2n+1}}\\right)^n$. $\\Rightarrow \\lim_{n\\to\\infty}\\left(2^{\\frac{1}{2}}-2^{\\frac{1}{3}}\\right)^n < \\lim_{n\\to\\infty}\\left\\{\\left(2^{\\frac{1}{2}}-2^{\\frac{1}{3}}\\right)\\left(2^{\\frac{1}{2}}-2^{\\frac{1}{5}}\\right)\\dots\\left(2^{\\frac{1}{2}}-2^{\\frac{1}{2n+1}}\\right)\\right\\} < \\lim_{n\\to\\infty}\\left(2^{\\frac{1}{2}}-2^{\\frac{1}{2n+1}}\\right)^n$. $\\Rightarrow \\lim_{n\\to\\infty}\\left(2^{\\frac{1}{2}}-2^{\\frac{1}{3}}\\right)^n = 0$ & $\\lim_{n\\to\\infty}\\left(2^{\\frac{1}{2}}-2^{\\frac{1}{2n+1}}\\right)^n = 0$ $\\left\\{\\text{as } 2^{\\frac{1}{2}}-2^{\\frac{1}{3}} < 1 \\text{ & } 2^{\\frac{1}{2}}-2^{\\frac{1}{2n+1}} < 1\\right\\}$. Hence, $\\lim_{n\\to\\infty}\\left\\{\\left(2^{\\frac{1}{2}}-2^{\\frac{1}{3}}\\right)\\left(2^{\\frac{1}{2}}-2^{\\frac{1}{5}}\\right)\\dots\\left(2^{\\frac{1}{2}}-2^{\\frac{1}{2n+1}}\\right)\\right\\} = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\lim_{x\\to 0} \\left(\\left(\\frac{1-\\cos^2(3x)}{\\cos^3(4x)}\\right)\\left(\\frac{\\sin^3(4x)}{(\\log_e(2x+1))^5}\\right)\\right)$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$15$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$9$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$18$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$24$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given, $\\lim_{x\\to 0} \\left(\\left(\\frac{1-\\cos^2(3x)}{\\cos^3(4x)}\\right)\\left(\\frac{\\sin^3(4x)}{(\\log_e(2x+1))^5}\\right)\\right)$. Now we know that, $\\lim_{x\\to 0} \\frac{\\sin x}{x} = 1$, $\\lim_{x\\to 0} \\frac{1-\\cos x}{x^2} = \\frac{1}{2}$ & $\\lim_{x\\to 0} \\frac{\\log_e(1+x)}{x} = 1$. Now using the above formula we get, $\\lim_{x\\to 0} \\left(\\left(\\frac{1-\\cos^2(3x)}{\\cos^3(4x)}\\right)\\left(\\frac{\\sin^3(4x)}{(\\log_e(2x+1))^5}\\right)\\right)$ $= \\lim_{x\\to 0} \\frac{(1-\\cos 3x)(1+\\cos 3x)(\\sin 4x)^3}{(\\cos^3 4x)(\\log_e(2x+1))^5}$ $= \\lim_{x\\to 0} \\frac{\\left(\\frac{1-\\cos 3x}{9x^2}\\right)(1+\\cos 3x)9x^2 \\times \\left(\\frac{\\sin 4x}{4x}\\right)^3 (64x^3)}{(\\cos^3 4x) \\left(\\frac{\\log_e(2x+1)}{2x}\\right)^5 \\times (2x)^5}$ $= \\left(\\frac{1}{2}\\right)\\times(2) \\times \\frac{(1)^3}{(1)^5} \\times \\frac{9\\times 64}{32} = \\frac{9\\times 2}{1} = 18$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Among\n(S1): $\\lim_{n\\to\\infty} \\frac{1}{n^2}[2+4+6+...+2n] = 1$\n(S2): $\\lim_{n\\to\\infty} \\frac{1}{n^{16}}[1^{15}+2^{15}+3^{15}+...+n^{15}] = \\frac{1}{16}$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "Both (S1) and (S2) are true",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "Only (S1) is true",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Both (S1) and (S2) are false",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "Only (S2) is true",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$S_1: \\lim_{n\\to\\infty} \\frac{1}{n^2}[2+4+6+...+2n]$ $= \\lim_{n\\to\\infty} \\frac{2(n)(n+1)}{2n^2} = 1$. $S_2: \\lim_{n\\to\\infty} \\frac{1}{n^{16}}[1^{15}+2^{15}+3^{15}+...+n^{15}]$. This is limit of sum. We know that $\\lim_{n\\to\\infty} \\sum_{r=1}^n f\\left(\\frac{r}{n}\\right)\\frac{1}{n} = \\int_0^1 f(x)dx$. $\\therefore \\lim_{n\\to\\infty} \\sum_{r=1}^n \\frac{r^k}{n^{k+1}} = \\lim_{n\\to\\infty} \\sum_{r=1}^n \\left(\\frac{r}{n}\\right)^k \\frac{1}{n} = \\int_0^1 x^k dx = \\frac{1}{k+1}$. Here $k=15$. $\\therefore \\lim_{n\\to\\infty} \\sum_{r=1}^n \\frac{r^{15}}{n^{16}} = \\frac{1}{16}$. $\\therefore$ Both $S_1$ and $S_2$ are correct. Hence this is the required option.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\lim_{t \\to 0} (1^{\\frac{1}{\\sin^2 t}} + 2^{\\frac{1}{\\sin^2 t}} + \\dots + n^{\\frac{1}{\\sin^2 t}})^{\\sin^2 t}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$n^2 + n$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$n$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{n(n+1)}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$n^2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "$\\lim_{t \\to 0} (1^{\\csc^2 t} + 2^{\\csc^2 t} + \\dots + n^{\\csc^2 t})^{\\sin^2 t} = \\lim_{t \\to 0} n \\left( \\left(\\frac{1}{n}\\right)^{\\csc^2 t} + \\left(\\frac{2}{n}\\right)^{\\csc^2 t} + \\dots + 1 \\right)^{\\sin^2 t} = n$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f, g$ and $h$ be the real valued functions defined on $\\mathbb{R}$ as $f(x) = \\begin{cases} \\frac{x}{|x|}, & x \\neq 0 \\\\ 1, & x = 0 \\end{cases}$, $g(x) = \\begin{cases} \\frac{\\sin(x+1)}{(x+1)}, & x \\neq -1 \\\\ 1, & x = -1 \\end{cases}$ and $h(x) = 2[x] - f(x)$, where $[x]$ is the greatest integer $\\le x$. Then the value of $\\lim_{x \\to 1} g(h(x-1))$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\sin(1)$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-1$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Evaluating the limits of the composite function $g(h(x-1))$ as $x \\to 1$ gives $1$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Evaluate the limit involving radical terms as $x \\to \\infty$: $\\lim_{x \\to \\infty} \\frac{(\\sqrt{3x+1}+\\sqrt{3x-1})^6 + (\\sqrt{3x+1}-\\sqrt{3x-1})^6}{(x+\\sqrt{x^2-1})^6 + (x-\\sqrt{x^2-1})^6} x^3$",
+    "has_question_image": false,
+    "has_solution_image": true,
+    "options": [
+      {
+        "id": "A",
+        "text": "27",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "9",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "81",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "3",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Factoring out terms and simplifying the expression: $\\lim_{x \\to \\infty} x^3 \\frac{x^3 \\left\\{\\left(\\sqrt{3+\\frac{1}{x}}+\\sqrt{3-\\frac{1}{x}}\\right)^6 + \\left(\\sqrt{3+\\frac{1}{x}}-\\sqrt{3-\\frac{1}{x}}\\right)^6\\right\\}}{x^6 \\left\\{\\left(1+\\sqrt{1-\\frac{1}{x^2}}\\right)^6 + \\left(1-\\sqrt{1-\\frac{1}{x^2}}\\right)^6\\right\\}} = \\frac{(2\\sqrt{3})^6 + 0}{2^6 + 0} = 3^3 = 27$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\lim_{x \\to 1} \\frac{(5x+1)^{1/3}-(x+5)^{1/3}}{(2x+3)^{1/2}-(x+4)^{1/2}} = \\frac{m\\sqrt{5}}{n(2n)^{2/3}}$, where $\\text{gcd}(m, n) = 1$, then $8m + 12n$ is equal to \\underline{\\hspace{1cm}}",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "100",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using L'Hopital Rule or standard limit formulas:\n$$\\lim_{x \\to 1} \\frac{\\frac{1}{3}(5x+1)^{-2/3} \\cdot 5 - \\frac{1}{3}(x+5)^{-2/3}}{\\frac{1}{2}(2x+3)^{-1/2} \\cdot 2 - \\frac{1}{2}(x+4)^{-1/2}}$$\n$$= \\frac{8}{3}\\frac{\\sqrt{5}}{6^{2/3}}$$\nSo $m = 8, n = 3$.\nTherefore, $8m + 12n = 8(8) + 12(3) = 64 + 36 = 100$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f(x) = \\int_{0}^{x} (t + \\sin(1 - e^t)) \\, dt$, $x \\in \\mathbb{R}$. Then, $\\lim_{x \\to 0} \\frac{f(x)}{x^3}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-\\frac{1}{6}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{2}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-\\frac{2}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{6}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "We need to find $\\lim_{x \\to 0} \\frac{f(x)}{x^3}$.\nUsing L'Hopital Rule:\n$$\\lim_{x \\to 0} \\frac{f'(x)}{3x^2} = \\lim_{x \\to 0} \\frac{x + \\sin(1 - e^x)}{3x^2}$$\nUsing L'Hopital Rule again:\n$$= \\lim_{x \\to 0} \\frac{1 + \\cos(1 - e^x)(-e^x)}{6x}$$\nWait, let's differentiate the numerator properly using Leibniz rule for $f'(x)$: $f'(x) = x + \\sin(1 - e^x)$.\nSo $\\lim_{x \\to 0} \\frac{x + \\sin(1 - e^x)}{3x^2}$. Applying L'Hopital's rule:\nNumerator derivative: $1 + \\cos(1-e^x)(-e^x)$.\nDenominator derivative: $6x$.\nApplying L'Hopital's rule once more:\n$$= \\lim_{x \\to 0} \\frac{-[\\sin(1-e^x)(-e^x) \\cdot e^x + \\cos(1-e^x) \\cdot (-e^x)]}{6}$$\n$$= -\\frac{1}{6}$$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\lim_{x \\to \\frac{1}{a}} \\frac{16 \\cdot \\left(1 - \\cos 2\\left(x - \\frac{1}{a}\\right)\\right)\\left(x - \\frac{1}{b}\\right)}{4\\left(x - \\frac{1}{b}\\right)^{2}} = \\alpha + \\beta\\sqrt{17}$ where $a, b$ are roots of $2x^2 + x - 2 = 0$, then find $\\alpha + \\beta$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$170$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$153$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$136$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$189$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Given $2x^2 + x - 2 = 0$ has roots $a$ and $b$. We simplify the limit expression using standard limits and trigonometric expansions to get $\\alpha + \\beta\\sqrt{17}$, resulting in $\\alpha + \\beta = 170$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f(x) = \\begin{cases} x - 1, x \\text{ is even}, \\\\ 2x, x \\text{ is odd}, \\end{cases} x \\in \\in$. If for some $a \\in \\mathbb{N}$, $f(f(f(a))) = 21$, then $\\lim_{x \\to a^{-}} \\left\\{ \\frac{|x|^{3}}{a} - \\left[ \\frac{x}{a} \\right] \\right\\}$, where $[t]$ denotes the greatest integer less than or equal to $t$, is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "121",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "144",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "169",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "225",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "From the given conditions and function properties, evaluating the nested function $f(f(f(a))) = 21$ gives $a = 5$. Then computing the limit $\\lim_{x \\to 5^{-}} \\left\\{ \\frac{|x|^{3}}{5} - \\left[ \\frac{x}{5} \\right] \\right\\}$ leads to 144.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $a = \\lim_{x \\to 0} \\frac{\\sqrt{1+\\sqrt{1+x^{4}}}-\\sqrt{2}}{x^{4}}$ and $b = \\lim_{x \\to 0} \\frac{\\sin^{2}x}{\\sqrt{2}-\\sqrt{1+\\cos x}}$, then the value of $ab^{3}$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "36",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "32",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "25",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "30",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Rationalizing both limits: $a = \\lim_{x \\to 0} \\frac{(\\sqrt{1+\\sqrt{1+x^{4}}}-\\sqrt{2})(\\sqrt{1+\\sqrt{1+x^{4}}}+\\sqrt{2})}{x^{4}(\\sqrt{1+\\sqrt{1+x^{4}}}+\\sqrt{2})} = \\frac{1}{4\\sqrt{2}}$. Similarly, evaluate $b$. Then $ab^{3} = 32$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\lim_{x \\to 0} \\frac{3+\\alpha \\sin x + \\beta \\cos x + \\log_{e}(1-x)}{3 \\tan^{2}x} = \\frac{1}{3}$, then $2\\alpha-\\beta$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "7",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "5",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "1",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Using series expansion for $\\sin x$, $\\cos x$, and $\\log_{e}(1-x)$ near $x = 0$, equate coefficients of powers of $x$ to find $\\alpha$ and $\\beta$, yielding $2\\alpha - \\beta = 5$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f : [-\\frac{\\pi}{2}, \\frac{\\pi}{2}] \\to \\mathbb{R}$ be a differentiable function such that $f(0) = \\frac{1}{2}$. If $\\lim_{x \\to 0} \\frac{x \\int_{0}^{x} f(t)dt}{e^{x^{2}}-1} = \\alpha$, then $8\\alpha^{2}$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "16",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Applying L'Hopital's rule to the given limit expression and substituting $f(0) = \\frac{1}{2}$, we find $\\alpha$, which gives $8\\alpha^{2} = 2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\lim_{x \\to 0} \\frac{e^{4 \\sin |x|} - 2\\sin |x| - 1}{x^{2}}$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "is equal to -1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "does not exist",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "is equal to 1",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "is equal to 2",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Evaluating LHL and RHL using series expansion for $e^{4\\sin|x|}$ around $x=0$ shows both limits equal 2, hence the limit is equal to 2.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f(x) = \\begin{cases} x-1; & x = \\text{even} \\\\ 2x; & x = \\text{odd} \\end{cases}$. If $f(f(f(a))) = 21$, then find $a$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "10",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "12",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "14",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "16",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "C-1: If $a$ is even, $f(a) = a - 1 = \\text{odd}$. $f(f(a)) = 2(a - 1) = \\text{even}$. $f(f(f(a))) = 2a - 3 = 21 \\implies a = 12$. C-2: If $a$ is odd, $f(a) = 2a = \\text{even}$, $f(f(a)) = 2a - 1 = \\text{odd}$. $f(f(f(a))) = 4a - 2 = 21$ (Not possible). Hence $a = 12$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $[\\cdot]$ denote the greatest integer function and $f(x) = \\lim_{n \\to \\infty} \\frac{1}{n^3} \\sum_{k=1}^{n} \\left[\\frac{k^2}{3^x}\\right]$. Then $12 \\sum_{j=1}^{\\infty} f(j)$ is equal to _____.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "7",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let $[\\cdot]$ denote the greatest integer function. We have $f(x) = \\lim_{n \\to \\infty} \\frac{1}{n^3} \\sum_{k=1}^{n} \\left[\\frac{k^2}{3^x}\\right]$. For large $n$: $\\sum_{k=1}^{n} \\left[\\frac{k^2}{3^x}\\right] \\approx \\sum_{k=1}^{n} \\frac{k^2}{3^x} = \\frac{1}{3^x} \\cdot \\frac{n(n+1)(2n+1)}{6} \\approx \\frac{n^3}{3 \\cdot 3^x}$. Therefore: $f(x) = \\lim_{n \\to \\infty} \\frac{1}{n^3} \\cdot \\frac{n^3}{3 \\cdot 3^x} = \\frac{1}{3^{x+1}}$. Computing the infinite series: $\\sum_{j=1}^{\\infty} f(j) = \\sum_{j=1}^{\\infty} \\frac{1}{3^{j+1}} = \\frac{1}{3^2} + \\frac{1}{3^3} + \\frac{1}{3^4} + \\dots = \\frac{1}{9} \\cdot \\left(1 + \\frac{1}{3} + \\frac{1}{9} + \\dots\\right) = \\frac{1}{9} \\cdot \\frac{1}{1 - 1/3} = \\frac{1}{9} \\cdot \\frac{3}{2} = \\frac{1}{6}$. Therefore: $12 \\sum_{j=1}^{\\infty} f(j) = 12 \\cdot \\frac{1}{6} = 2$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\lim_{x \\to 0} \\frac{ae^x - b\\cos x + ce^{-x}}{x \\sin x} = 2$, then $a + b + c$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{6}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$\\lim_{x \\to 0} \\frac{ae^x - b\\cos x + ce^{-x}}{x \\sin x} = 2$\n$\\Rightarrow \\lim_{x \\to 0} \\frac{a(1 + x + \\frac{x^2}{2!} + \\dots) - b(1 - \\frac{x^2}{2!} + \\dots) + c(1 - x + \\frac{x^2}{2!})}{\\left(\\frac{x \\sin x}{x}\\right) x} = 2$\n$a - b + c = 0$\n$a - c = 0$\n& $\\frac{a + b + c}{2} = 2$\n$\\Rightarrow a + b + c = 4$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\lim_{x \\to 0} \\frac{\\sin^{-1} x - \\tan^{-1} x}{3x^3}$ is equal to $L$, then the value of $(6L + 1)$ is",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{6}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "$\\lim_{x \\to 0} \\frac{\\left(x + \\frac{x^3}{3!} \\dots\\right) - \\left(x - \\frac{x^3}{3} \\dots\\right)}{3x^3} = \\frac{1}{6}$\nSo $6L + 1 = 2$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\lim_{n \\to \\infty} (\\sqrt{n^2 - n - 1} + n\\alpha + \\beta) = 0$ then $8(\\alpha + \\beta)$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$4$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-8$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$-4$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$8$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "$\\lim_{n \\to \\infty} n \\left(1 - \\frac{n+1}{n^2}\\right)^{\\frac{1}{2}} + \\alpha n + \\beta = 0$\n$\\lim_{n \\to \\infty} n \\left\\{1 - \\frac{1}{2}\\left(\\frac{n+1}{n^2}\\right) + \\frac{\\frac{1}{2}(\\frac{1}{2}-1)}{2!} \\left(\\frac{n+1}{n^2}\\right)^2 + \\dots \\right\\} + \\alpha n + \\beta = 0$\n$\\lim_{n \\to \\infty} n - \\frac{1}{2} + \\frac{1}{n} + \\dots + n\\alpha + \\beta = 0$\n$\\alpha = -1, \\beta = \\frac{1}{2}$\n$8(\\alpha + \\beta) = -4$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\lim_{x \\to \\frac{\\pi}{4}} \\frac{8\\sqrt{2} - (\\cos x + \\sin x)^7}{\\sqrt{2} - \\sqrt{2}\\sin 2x}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$14$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$7$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$14\\sqrt{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$7\\sqrt{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using L'Hopital's rule or substituting $x = \\frac{\\pi}{4} + h$, we evaluate the limit to get $14$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the function $f(x) = \\begin{cases} \\frac{\\log_e(1 - x + x^2) + \\log_e(1 + x + x^2)}{\\sec x - \\cos x}, & x \\in (-\\frac{\\pi}{2}, \\frac{\\pi}{2}) - \\{0\\} \\\\ k, & x = 0 \\end{cases}$ is continuous at $x = 0$, then $k$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$e$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Evaluating the limit of $f(x)$ as $x \\to 0$, we get $k = 1$ for continuity.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $\\beta = \\lim_{x \\to 0} \\frac{\\alpha x - (e^{3x} - 1)}{\\alpha x(e^{3x} - 1)}$ for some $\\alpha \\in \\mathbb{R}$. Then the value of $\\alpha + \\beta$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{14}{5}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{3}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{5}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{7}{2}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "By expanding using series or applying L'Hopital's rule, we determine $\\alpha$ and $\\beta$, leading to $\\alpha + \\beta = \\frac{5}{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\lim_{n \\to \\infty} \\frac{(n+1)^{k-1}}{n^{k+1}} [nk \\cdot n + 1 + 2 + ... + n] = \\frac{1}{k+1}$, then the value of $k$ can be:",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$3$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$4$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "LHS = $\\lim_{n \\to \\infty} \\frac{(n+1)^{k-1}}{n^{k+1}}[nk \\cdot n + \\frac{n(n+1)}{2}] = \\lim_{n \\to \\infty} \\frac{(n+1)^{k-1} \\cdot n^2 [k + \\frac{1+\\frac{1}{n}}{2}]}{n^{k+1}} \\Rightarrow (k + \\frac{1}{2})$. RHS = $\\lim_{n \\to \\infty} \\frac{1}{n^{k+1}}(1^k + 2^k + ... + n^k) = \\frac{1}{k+1}$. Equating LHS = RHS: $k + \\frac{1}{2} = \\frac{33}{2(k+1)} \\Rightarrow (2k+1)(k+1) = 66 \\Rightarrow (k-5)(2k+13) = 0 \\Rightarrow k = 5$ or $-\\frac{13}{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Evaluate $\\lim_{x \\to 0} \\frac{(\\ln(1+x^2+x^4)) \\cos x}{1 - \\cos^2 x}$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "Not defined",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "$\\lim_{x \\to 0} \\frac{(\\ln(1+x^2+x^4)) \\cos x}{1 - \\cos^2 x} = \\lim_{x \\to 0} \\frac{(\\frac{\\ln(1+x^2+x^4)}{x^2+x^4})(x^2+x^4)\\cos x}{\\frac{\\sin^2 x}{x^2} x^2} = 1$",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let the function, $f: [-7, 0] \\to R$ be continuous on $[-7, 0]$ and differentiable on $(-7, 0)$. If $f(-7) = -3$ and $f^{\\prime}(x) \\le 2$, for all $x \\in (-7, 0)$, then for all such functions $f$, $f(-1) + f(0)$ lies in the interval :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$[-5, -7]$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$(-\\infty, 6]$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$(-\\infty, 20]$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$[-5, 3]$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "By Lagrange's Mean Value Theorem, for any $x \\in (-7, 0)$, $\\frac{f(x) - f(-7)}{x - (-7)} = f^{\\prime}(c)$ for some $c \\in (-7, x)$. Since $f^{\\prime}(c) \\le 2$, we have $\\frac{f(x) + 3}{x + 7} \\le 2 \\implies f(x) \\le 2x + 11$. Substituting $x = -1$, $f(-1) \\le 9$. Substituting $x = 0$, $f(0) \\le 11$. Therefore, $f(-1) + f(0) \\le 20$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\lim_{x \\to 2} \\frac{3^x + 3^{3-x} - 12}{3^{-x/2} - 3^{1-x}}$ is equal to $\\dots\\dots$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Using L'Hopital's rule or substituting $3^x = t$ and simplifying the limits gives the result.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $S$ be the set of points where the function, $f(x) = |2 - |x - 3||, x \\in R$ is not differentiable. Then $\\sum_{x \\in S} f(f(x))$ is equal to $\\dots\\dots$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "The non-differentiable points of $f(x)$ occur where the inner modulus equals zero, giving $x = 1, 3, 5$. Evaluating $\\sum f(f(x))$ for these points yields the required sum.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The value of $c$ in the Lagrange's mean value theorem for the function $f(x) = x^3 - 4x^2 + 8x + 11$, when $x \\in [0, 1]$ is :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{4 - \\sqrt{7}}{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{4 - \\sqrt{5}}{3}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{4 + \\sqrt{7}}{3}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{4 + \\sqrt{5}}{3}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "By LMVT, $f^{\\prime}(c) = \\frac{f(1) - f(0)}{1 - 0}$. $3c^2 - 8c + 8 = \\frac{16 - 11}{1} = 5 \\implies 3c^2 - 8c + 3 = 0$. Using the quadratic formula, $c = \\frac{8 \\pm \\sqrt{64 - 36}}{6} = \\frac{4 \\pm \\sqrt{7}}{3}$. Since $c \\in [0, 1]$, $c = \\frac{4 - \\sqrt{7}}{3}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If the function $f$ defined on $\\left(-\\frac{1}{3}, \\frac{1}{3}\\right)$ by $f(x) = \\begin{cases} \\frac{1}{x} \\log_e \\left(\\frac{1+3x}{1-2x}\\right), & \\text{when } x \\neq 0 \\\\ k, & \\text{when } x = 0 \\end{cases}$ is continuous, then $k$ is equal to $\\dots$",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Evaluate $\\lim_{x \\to 0} \\frac{1}{x} \\log_e \\left(\\frac{1+3x}{1-2x}\\right) = \\lim_{x \\to 0} \\frac{\\ln(1+3x)}{x} - \\frac{\\ln(1-2x)}{x} = 3 - (-2) = 5$. Hence $k = 5$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\lim_{x \\to 0} \\left(\\frac{3x^2+2}{7x^2+2}\\right)^{\\frac{1}{x^2}}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$e^{-2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$e^2$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$e^{2/7}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$e^{3/7}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using $1^{\\infty}$ form limit formula $e^{\\lim (f(x)-1)g(x)}$, we get $e^{\\lim_{x \\to 0} \\left(\\frac{3x^2+2}{7x^2+2} - 1\\right) \\frac{1}{x^2}} = e^{\\lim_{x \\to 0} \\frac{-4x^2}{7x^2+2} \\cdot \\frac{1}{x^2}} = e^{-4/2} = e^{-2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\lim_{x \\to 0} \\frac{\\int_{0}^{x} t \\sin(10t) dt}{x}$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$10$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$5$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$0$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Using L'Hopital's rule with Leibniz rule for differentiation under integral sign: $\\lim_{x \\to 0} \\frac{x \\sin(10x)}{1} = 0$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\lim_{x \\to 1} \\frac{x + x^2 + x^3 + \\dots + x^n - n}{x - 1} = 820$, ($n \\in N$) then the value of $n$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Using L'Hopital's rule, $\\lim_{x \\to 1} (1 + 2x + 3x^2 + \\dots + n x^{n-1}) = 1 + 2 + \\dots + n = \\frac{n(n+1)}{2} = 820 \\implies n(n+1) = 1640 \\implies n = 40$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "$\\lim_{x \\to 0} \\left(\\tan \\left(\\frac{\\pi}{4} + x\\right)\\right)^{\\frac{1}{x}}$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$e^2$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$e$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using standard limit form $e^{\\lim_{x \\to 0} \\frac{\\tan(\\pi/4+x) - 1}{x}} = e^{\\lim_{x \\to 0} \\frac{1 + \\tan x}{1 - \\tan x} - 1} = e^2$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\alpha$ is the positive root of the equation, $p(x) = x^2 - x - 2 = 0$, then $\\lim_{x \\to \\alpha^+} \\frac{\\sqrt{1-\\cos(p(x))}}{x + \\alpha - 4}$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{\\sqrt{2}}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The positive root of $x^2 - x - 2 = 0$ is $\\alpha = 2$. Then evaluate the limit as $x \\to 2^+$ using $\\sqrt{1-\\cos(p(x))} = \\sqrt{2} \\sin(p(x)/2)$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f(x) = x \\tr \\frac{x}{2} \\rceil$, for $-10 < x < 10$, where $[t]$ denotes the greatest integer function. Then the number of points of discontinuity of $f$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [],
+    "correctAnswer": "B",
+    "explanation": "The function $f(x) = x \\tr \\frac{x}{2} \\rceil$ has points of discontinuity where $\\frac{x}{2}$ is an integer, or where $x$ jumps. Evaluating the discontinuities in the interval $(-10, 10)$ yields a total of 8 points of discontinuity.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be a function defined by $f(x) = \\max \\{x, x^2 \\}$. Let $S$ denote the set of all points in $\\mathbb{R}$, where $f$ is not differentiable. Then :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\phi$ (an empty set)",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "\\{0, 1\\}",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "\\{1\\}",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "\\{0\\}",
+        "image": null
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The function is $f(x) = \\begin{cases} x^2, & x < 0 \\\\ x, & 0 \\le x \\le 1 \\\\ x^2, & x > 1 \\end{cases}$. Checking the derivative at the intersection points $x = 0$ and $x = 1$, we find that $f$ is not differentiable at $x = 0$ and $x = 1$. Thus, $S = \\{0, 1\\}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\lim_{x \\to 0} \\frac{ae^x - b \\cos x + ce^{-x}}{x \\sin x} = 2$, then $a + b + c$ is equal to",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{6}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$6$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$2$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Using series expansion for $e^x$, $\\cos x$, $e^{-x}$ and $\\sin x$, we find that for the limit to be finite and equal to $2$, $a - b + c = 0$ and $a + b + c = 2$ (or evaluated directly using L'Hopital's rule / series). The correct answer is 2.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "The value of the limit $\\lim_{\\theta \\to 0} \\frac{\\tan(\\pi \\cos^2 \\theta)}{\\sin(2\\pi \\sin^2 \\theta)}$ is equal to :",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$-\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$-\\frac{1}{4}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$0$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{4}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "As $\\theta \\to 0$, $\\cos^2 \\theta \\to 1$, so $\\tan(\\pi \\cos^2 \\theta) = \\tan(\\pi - \\pi \\sin^2 \\theta) = -\\tan(\\pi \\sin^2 \\theta)$. Then the limit reduces to $\\lim_{\\theta \\to 0} \\frac{-\\pi \\sin^2 \\theta}{2\\pi \\sin^2 \\theta} = -\\frac{1}{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "If $\\lim_{x \\to 0} \\frac{ae^x - b\\cos x + ce^{-x}}{x \\sin x} = 2$, find the values of $a$, $b$, and $c$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$a=1, b=2, c=1$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$a=2, b=1, c=1$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$a=1, b=1, c=2$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$a=1, b=2, c=1$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Using series expansion: $\\lim_{x \\to 0} \\frac{a(1+x+\\frac{x^2}{2!}...) - b(1-\\frac{x^2}{2!}+...) + c(1-x+\\frac{x^2}{2!})}{x(\\frac{x \\sin x}{x})} = 2$. Equating coefficients and solving gives $a-b+c=0, a-c=0$, and $\\frac{a+b+c}{2}=2 \\implies a+b+c=4$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Evaluate $\\lim_{x \\to 0^+} \\left( \\frac{\\cos^{-1} x}{1-x^2} \\times \\frac{\\sin^{-1} x}{x} \\right)$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\pi^2}{2}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\pi$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\pi}{2}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{\\pi^2}{4}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Substitute $x=0^+$: $\\lim_{x \\to 0^+} \\frac{\\cos^{-1}0}{1-0} \\times \\frac{\\sin^{-1}0}{0}$ is not directly evaluated this way. Looking at the solution: $\\lim_{x \\to 0^+} \\left( \\frac{\\cos^{-1} x}{(1-x^2)} \\times \\frac{\\sin^{-1} x}{x} \\right) = \\frac{\\pi}{2} \\times \\frac{\\pi}{2} \\dots$ wait, $\\lim_{x \\to 0} \\frac{\\sin^{-1} x}{x} = 1$ and $\\cos^{-1}(0) = \\frac{\\pi}{2}$. Thus $\\frac{\\pi}{2} \\times 1 = \\frac{\\pi}{2}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Find the value of $L$ if $\\lim_{x \\to 0} \\frac{x-\\sin x}{x^3} = L$.",
+    "has_question_image": false,
+    "has_solution_image": false,
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{3}$",
+        "image": null
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{2}$",
+        "image": null
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{4}$",
+        "image": null
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1}{6}$",
+        "image": null
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Using series expansion for $\\sin x$: $\\sin x = x - \\frac{x^3}{3!} + \\frac{x^5}{5!} - \\dots$. Thus $\\frac{x - (x - \\frac{x^3}{3!} + \\dots)}{x^3} = \\frac{\\frac{x^3}{3!} - \\dots}{x^3} = \\frac{1}{3!} = \\frac{1}{6}$.",
+    "exam": "JEE Mains",
+    "year": 2024,
+    "session": "January",
+    "subject": "Mathematics",
+    "part": "1A",
+    "topic": "Limits, Continuity and Differentiability",
+    "chapter": "Limits, Continuity and Differentiability",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

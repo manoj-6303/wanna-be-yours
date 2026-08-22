@@ -1,0 +1,1 @@
+const mongoose = require('mongoose'); mongoose.connect('mongodb://localhost:27017/exampro').then(async () => { const q = await mongoose.connection.db.collection('questions').findOne({ subject: 'Mathematics', topic: { $ne: 'Area_Under_Curves'} }); console.log(q.topic, q.chapter); mongoose.disconnect(); });
