@@ -213,29 +213,29 @@ export default function Exam() {
       onPaste={e => e.preventDefault()}
       onContextMenu={e => e.preventDefault()}
     >
-      <header className="bg-white shadow px-6 py-4 flex justify-between items-center sticky top-0 z-10">
+      <header className="bg-white shadow px-4 sm:px-6 py-4 flex flex-col sm:flex-row justify-between items-center sticky top-0 z-10 space-y-4 sm:space-y-0">
         <div className="flex items-center space-x-4">
-          <h1 className="text-2xl font-bold text-gray-900">{isCustomTest ? 'Custom Practice Test' : `Level ${levelNumber} Test`}</h1>
+          <h1 className="text-xl sm:text-2xl font-bold text-gray-900">{isCustomTest ? 'Custom Practice Test' : `Level ${levelNumber} Test`}</h1>
         </div>
-        <div className="flex items-center space-x-6">
-          <div className="bg-indigo-100 text-indigo-800 px-4 py-2 rounded-lg font-bold text-xl flex items-center shadow-sm">
-            <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+        <div className="flex items-center space-x-4 sm:space-x-6 w-full sm:w-auto justify-between sm:justify-end">
+          <div className="bg-indigo-100 text-indigo-800 px-3 py-2 sm:px-4 sm:py-2 rounded-lg font-bold text-lg sm:text-xl flex items-center shadow-sm">
+            <svg className="w-5 h-5 sm:w-6 sm:h-6 mr-1 sm:mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
             {formatTime(timeLeft)}
           </div>
           <button 
             onClick={() => setShowSummaryModal(true)} 
             disabled={submitting}
-            className="bg-red-600 text-white font-bold px-6 py-2 rounded-lg hover:bg-red-700 transition shadow"
+            className="bg-red-600 text-white font-bold px-4 py-2 sm:px-6 sm:py-2 rounded-lg hover:bg-red-700 transition shadow"
           >
             {submitting ? 'Submitting...' : 'Submit Exam'}
           </button>
         </div>
       </header>
 
-      <main className="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 lg:p-8 grid grid-cols-1 lg:grid-cols-4 gap-8">
+      <main className="flex-1 max-w-7xl w-full mx-auto p-2 sm:p-6 lg:p-8 grid grid-cols-1 lg:grid-cols-4 gap-4 sm:gap-8">
         
         {/* Main Question Area */}
-        <div className="lg:col-span-3 bg-white rounded-2xl shadow-sm border border-gray-100 p-8 flex flex-col">
+        <div className="lg:col-span-3 bg-white rounded-2xl shadow-sm border border-gray-100 p-4 sm:p-8 flex flex-col">
           <div className="flex justify-between items-center mb-6 border-b pb-4">
             <span className="text-sm font-bold text-indigo-600 uppercase tracking-wider">{currentQ.subject}</span>
             <span className="text-sm font-medium text-gray-500">Difficulty: {currentQ.difficulty}</span>
@@ -301,24 +301,24 @@ export default function Exam() {
             </div>
           </div>
 
-          <div className="flex justify-between mt-10 pt-6 border-t border-gray-100">
+          <div className="flex flex-col sm:flex-row justify-between mt-10 pt-6 border-t border-gray-100 space-y-3 sm:space-y-0">
             <button 
               onClick={() => setCurrentQuestionIndex(prev => Math.max(0, prev - 1))}
               disabled={currentQuestionIndex === 0}
-              className="px-6 py-3 rounded-lg font-bold border border-gray-300 text-gray-700 hover:bg-gray-50 disabled:opacity-50 transition"
+              className="w-full sm:w-auto px-6 py-3 rounded-lg font-bold border border-gray-300 text-gray-700 hover:bg-gray-50 disabled:opacity-50 transition"
             >
               Previous
             </button>
             <button
               onClick={toggleMarkForReview}
-              className={`px-6 py-3 rounded-lg font-bold border transition ${markedForReview[currentQuestionIndex] ? 'bg-orange-100 border-orange-300 text-orange-700 hover:bg-orange-200' : 'border-gray-300 text-gray-700 hover:bg-gray-50'}`}
+              className={`w-full sm:w-auto px-6 py-3 rounded-lg font-bold border transition ${markedForReview[currentQuestionIndex] ? 'bg-orange-100 border-orange-300 text-orange-700 hover:bg-orange-200' : 'border-gray-300 text-gray-700 hover:bg-gray-50'}`}
             >
               {markedForReview[currentQuestionIndex] ? 'Unmark Review' : 'Mark for Review'}
             </button>
             <button 
               onClick={() => setCurrentQuestionIndex(prev => Math.min(questions.length - 1, prev + 1))}
               disabled={currentQuestionIndex === questions.length - 1}
-              className="px-6 py-3 rounded-lg font-bold bg-indigo-600 text-white hover:bg-indigo-700 disabled:opacity-50 transition"
+              className="w-full sm:w-auto px-6 py-3 rounded-lg font-bold bg-indigo-600 text-white hover:bg-indigo-700 disabled:opacity-50 transition"
             >
               Next Question
             </button>

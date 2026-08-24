@@ -133,7 +133,7 @@ export default function Dashboard() {
 
           <div className="relative max-w-4xl mx-auto pb-10">
             {/* The vertical track line */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 w-1.5 h-full bg-gray-200 rounded-full z-0"></div>
+            <div className="absolute left-8 md:left-1/2 transform md:-translate-x-1/2 w-1.5 h-full bg-gray-200 rounded-full z-0"></div>
             
             {Array.from({ length: 10 }, (_, i) => i + 1).map((levelNum, index) => {
               // Find the level data from backend if it exists
@@ -171,9 +171,9 @@ export default function Dashboard() {
               const isEven = index % 2 === 0;
 
               return (
-                <div key={levelNum} className={`relative z-10 flex items-center justify-between w-full mb-8 ${isEven ? 'flex-row' : 'flex-row-reverse'}`}>
+                <div key={levelNum} className={`relative z-10 flex items-center justify-between w-full mb-8 ${isEven ? 'md:flex-row' : 'md:flex-row-reverse'} flex-row`}>
                   {/* The card side */}
-                  <div className={`w-5/12 ${isEven ? 'pr-8 text-right' : 'pl-8 text-left'}`}>
+                  <div className={`w-full md:w-5/12 ${isEven ? 'md:pr-8 md:text-right pl-20 pr-4 text-left' : 'md:pl-8 md:text-left pl-20 pr-4 text-left'}`}>
                     <div className={`bg-white rounded-2xl p-5 shadow-lg border-2 transition-transform transform hover:-translate-y-1 ${isUnlocked ? 'border-gray-200' : 'border-gray-200 opacity-60 grayscale-[50%]'}`}>
                       <h3 className="text-xl font-black text-gray-900 mb-1">Level {levelNum}</h3>
                       {levelData && levelData.chapter && (
@@ -181,7 +181,7 @@ export default function Dashboard() {
                           {levelData.chapter}
                         </p>
                       )}
-                      <div className="flex items-center justify-center space-x-2 mb-3">
+                      <div className={`flex items-center space-x-2 mb-3 ${isEven ? 'md:justify-end justify-start' : 'justify-start'}`}>
                         <span className={`px-3 py-1 text-xs font-bold rounded-full ${lightColorTheme} uppercase tracking-wider`}>
                           {actualSubject}
                         </span>
@@ -225,7 +225,7 @@ export default function Dashboard() {
                   </div>
 
                   {/* The central node */}
-                  <div className="w-2/12 flex justify-center relative">
+                  <div className="absolute left-8 transform -translate-x-1/2 md:static md:w-2/12 md:transform-none flex justify-center z-20">
                     <div className={`w-14 h-14 rounded-full flex items-center justify-center border-4 border-white shadow-xl ${isCompleted ? 'bg-green-500' : (isUnlocked ? colorTheme : 'bg-gray-300')} text-white font-black text-xl z-20 transition-all ${isUnlocked && !isCompleted ? 'animate-pulse scale-110 shadow-lg ' + shadowTheme : ''}`}>
                       {isCompleted ? (
                         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path></svg>
@@ -238,7 +238,7 @@ export default function Dashboard() {
                   </div>
 
                   {/* Empty side for layout balancing */}
-                  <div className="w-5/12"></div>
+                  <div className="hidden md:block w-5/12"></div>
                 </div>
               );
             })}
