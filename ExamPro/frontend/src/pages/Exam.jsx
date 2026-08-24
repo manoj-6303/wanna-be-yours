@@ -32,7 +32,17 @@ export default function Exam() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState({}); // { questionId: selectedOption }
   const [markedForReview, setMarkedForReview] = useState({}); // { index: boolean }
-  const [timeLeft, setTimeLeft] = useState(15 * 60);
+  const [timeLeft, setTimeLeft] = useState(() => {
+    if (isCustomTest) return 15 * 60;
+    const endTime = localStorage.getItem(`exam_end_time_${levelNumber}`);
+    if (endTime) {
+      const remaining = Math.floor((parseInt(endTime) - Date.now()) / 1000);
+      return remaining > 0 ? remaining : 0;
+    }
+    const newEndTime = Date.now() + 15 * 60 * 1000;
+    localStorage.setItem(`exam_end_time_${levelNumber}`, newEndTime);
+    return 15 * 60;
+  });
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
 
@@ -40,7 +50,12 @@ export default function Exam() {
 
   // Initialize Exam Attempt and Restore Answers on Load
   useEffect(() => {
-    
+    const handleBeforeUnload = (e) => {
+      e.preventDefault();
+      e.returnValue = '';
+    };
+    window.addEventListener('beforeunload', handleBeforeUnload);
+
     const initAttempt = async () => {
       const token = localStorage.getItem('token');
       try {
@@ -57,6 +72,8 @@ export default function Exam() {
     if (savedAnswers) {
       try { setAnswers(JSON.parse(savedAnswers)); } catch(e){}
     }
+
+    return () => window.removeEventListener('beforeunload', handleBeforeUnload);
   }, [levelNumber]);
 
 
@@ -82,6 +99,7 @@ export default function Exam() {
       });
 
       localStorage.removeItem(`exam_answers_${levelNumber}`);
+      localStorage.removeItem(`exam_end_time_${levelNumber}`);
       navigate('/result', { state: { resultData: res.data } });
     } catch (error) {
       console.error(error);
